@@ -1,0 +1,81 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Authorize Treatment Plan",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 4,
+  "process_details": {
+    "description": "The Authorize Treatment Plan business process reviews and authorizes comprehensive treatment plans developed for members in care management programs. This process ensures that proposed treatment plans meet medical necessity criteria, align with evidence-based practices, and are appropriate for the member's condition and circumstances.",
+    "trigger_events": [
+      "Receive treatment plan from care manager for authorization.",
+      "Treatment plan developed following member assessment.",
+      "Treatment plan revision submitted for re-authorization."
+    ],
+    "results": [
+      "Treatment plan authorization decision.",
+      "Approved treatment plan with authorization details.",
+      "Notification to care manager.",
+      "Notification to member.",
+      "Notification to involved providers.",
+      "Updated case management records.",
+      "Authorization for services included in treatment plan."
+    ],
+    "process_steps": [
+      "START: Receive treatment plan for authorization.",
+      "Validate member enrollment in care management program.",
+      "Review treatment plan completeness and documentation.",
+      "Evaluate treatment plan against clinical guidelines.",
+      "Assess medical necessity of proposed interventions.",
+      "Review cost-effectiveness and appropriateness of services.",
+      "Check alignment with member's assessed needs.",
+      "Verify provider qualifications for planned services.",
+      "Determine if treatment plan meets authorization criteria.",
+      "If needed, request additional information or clarification.",
+      "Make authorization decision (approve, modify, or deny).",
+      "Document decision rationale and any modifications.",
+      "Generate authorizations for approved services.",
+      "Send notifications to care manager, member, and providers.",
+      "Update case management system with authorized plan.",
+      "END: Complete treatment plan authorization."
+    ],
+    "shared_data": [
+      "Member data store including assessment and care history",
+      "Provider data store including credentials",
+      "Health Benefits data store including coverage",
+      "Case Management data store",
+      "Clinical Guidelines data store",
+      "Treatment Plan data store"
+    ],
+    "predecessor_processes": [
+      "Establish Case",
+      "Perform Screening and Assessment",
+      "Manage Case Information"
+    ],
+    "successor_processes": [
+      "Authorize Service",
+      "Authorize Referral",
+      "Manage Treatment Plans and Outcomes",
+      "Manage Case Information"
+    ],
+    "constraints": "Treatment plans must comply with state and federal regulations for care management programs. Authorization timeframes are specified by program requirements. Treatment plans must be person-centered and based on comprehensive assessment.",
+    "failures": [
+      "Treatment plan does not meet medical necessity criteria.",
+      "Proposed services not covered under member's benefits.",
+      "Treatment plan lacks sufficient clinical justification.",
+      "Providers not qualified to deliver proposed services.",
+      "Treatment plan not aligned with member's assessed needs."
+    ],
+    "performance_measures": [
+      "Time to treatment plan authorization",
+      "Percentage of treatment plans approved without modification",
+      "Member outcomes following treatment plan implementation"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Authorize_Treatment_Plan_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Manage Case Information",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Manage Case Information business process maintains and updates information related to care management cases throughout the case lifecycle. This process ensures that case records are current, accurate, and accessible to authorized users for care coordination and decision-making.",
+    "trigger_events": [
+      "New information received about member or case.",
+      "Case status change requires documentation.",
+      "Periodic case review scheduled.",
+      "Request for case information from authorized user.",
+      "Update from Health Information Exchange (HIE)."
+    ],
+    "results": [
+      "Updated case record with current information.",
+      "Case information available to authorized users.",
+      "Case history and audit trail maintained.",
+      "Notifications sent for significant case changes.",
+      "Reports generated for case management oversight."
+    ],
+    "process_steps": [
+      "START: Receive case information update or request.",
+      "Validate user authorization to access or update case.",
+      "Retrieve current case record.",
+      "Review information for accuracy and completeness.",
+      "Update case record with new information.",
+      "Document source and date of information.",
+      "Maintain case history and audit trail.",
+      "Check for triggers requiring notifications or actions.",
+      "Generate notifications if needed.",
+      "Update case status if applicable.",
+      "Make updated information available to authorized users.",
+      "END: Complete case information management."
+    ],
+    "shared_data": [
+      "Case Management data store",
+      "Member data store",
+      "Provider data store",
+      "Health Information Exchange (HIE) data store",
+      "Treatment Plan data store"
+    ],
+    "predecessor_processes": [
+      "Establish Case",
+      "Authorize Treatment Plan",
+      "Authorize Service",
+      "Perform Screening and Assessment"
+    ],
+    "successor_processes": [
+      "Manage Treatment Plans and Outcomes",
+      "Authorize Service",
+      "Authorize Referral",
+      "Manage Applicant and Member Communication"
+    ],
+    "constraints": "Case information must be maintained in compliance with HIPAA privacy and security requirements. Access to case information is restricted to authorized users based on role and need. Case records must be retained according to state and federal record retention requirements.",
+    "failures": [
+      "Unauthorized access attempt to case information.",
+      "Information update conflicts with existing data.",
+      "Required information missing or incomplete.",
+      "System unavailable for case information access."
+    ],
+    "performance_measures": [
+      "Timeliness of case information updates",
+      "Accuracy of case records",
+      "User satisfaction with case information access"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Manage_Case_Information_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

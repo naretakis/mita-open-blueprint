@@ -1,0 +1,70 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Financial Management",
+  "process_name": "Manage Accounts Payable Information",
+  "process_code": "FM",
+  "sub_category": "Accounts Payable Management",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Manage Accounts Payable Information business process is responsible for all operational aspects of money the State Medicaid Agency (SMA) pays. Activities in this business process comply with Cash Management Act, Governmental Accounting Standards Board (GASB) standards and Generally Accepted Accounting Principles (GAAP).\n\nActivities included in this process may be:\n\n\u2022 Periodic reconciliations between the State Medicaid Enterprise and the system(s) that performs accounting functions.\n\u2022 Assignment of account coding to transactions processed in the State Medicaid Enterprise.\n\u2022 Processing accounts payable invoices created in the State Medicaid Enterprise.\n\u2022 Processing accounts payable invoices created in state accounting system (gross adjustments or other service payments not processed through the State Medicaid Enterprise, and administrative payables).\n\u2022 Loading accounts payable information (warrant number, date, etc.) into the State Medicaid Enterprise.\n\u2022 Managing canceled/voided/stale dated warrants.\n\u2022 Performing payroll activities.\n\u2022 Disbursing federal administrative costs reimbursements to other entities.\n\u2022 Responding to inquiries concerning accounting activities.\n\nNOTE: States use a variety of solutions including outsourcing to another department or use of a Commercial-Off-the-Shelf (COTS) package.",
+    "trigger_events": [
+      "Receive request for payment.",
+      "Receive accounts payable information."
+    ],
+    "results": [
+      "Modification to accounts payable information.",
+      "Alert sent to disburse payment to Manage Accounts Payment Disbursement business process.",
+      "If applicable, alert sent to Establish Compliance Incident business process for a member's, provider's or contractor's continued failure to make payment.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive request and information to make payment.",
+      "Perform requested function.",
+      "Produce report.",
+      "If applicable, alert sent to Establish Compliance Incident business process for continued failure to make obligated payments.",
+      "Produce financial transaction.",
+      "Update financial information.",
+      "Send alert to make payment to Manage Accounts Payment Disbursement business process.",
+      "END: Send response to requested function."
+    ],
+    "shared_data": [
+      "State accounting system accounts payable information",
+      "Financial data store including payroll, general ledger, and accounts payable information",
+      "Claims data store including payment information",
+      "Contractor data store including contract information",
+      "Member data store including demographics information",
+      "Provider data store including provider network information"
+    ],
+    "predecessor_processes": [
+      "Receive Inbound Transaction",
+      "Manage Contractor Payment",
+      "Manage Incentive Payment",
+      "Manage Member Financial Participation",
+      "Manage 1099",
+      "Manage Capitation Payment"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction",
+      "Manage Accounts Payment Disbursement",
+      "Generate Financial Report",
+      "Establish Compliance Incident",
+      "Manage Data"
+    ],
+    "constraints": "The SMA will follow federal and state-specific accounting and financial requirements.",
+    "failures": [
+      "Failure to account for expenditures in accordance with GAAP can result in disallowance of federal funding participation."
+    ],
+    "performance_measures": [
+      "Time to complete the process: e.g., Real Time response = within ___seconds, Batch Response = within ___ hours",
+      "Accuracy with which rules are applied =___%",
+      "Consistency with which rules are applied=___%",
+      "Error rate =___% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Financial Management 3.0/FM_Manage_Accounts_Payable_Information_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

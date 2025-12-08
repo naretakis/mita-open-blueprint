@@ -1,0 +1,83 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Perform Screening and Assessment",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Perform Screening and Assessment business process conducts systematic evaluation of members to identify health risks, care needs, and appropriate interventions. This process uses standardized screening tools and comprehensive assessment methods to gather information that informs care planning and case management decisions.",
+    "trigger_events": [
+      "New member enrollment in care management program.",
+      "Scheduled periodic reassessment.",
+      "Member condition or circumstances change significantly.",
+      "Referral for screening from provider or other source.",
+      "Population health initiative requires screening."
+    ],
+    "results": [
+      "Completed screening or assessment documentation.",
+      "Member risk level and care needs identified.",
+      "Recommendations for care interventions.",
+      "Referrals to appropriate services or programs.",
+      "Assessment information available for care planning.",
+      "Member added to appropriate registries or programs."
+    ],
+    "process_steps": [
+      "START: Initiate screening or assessment.",
+      "Select appropriate screening or assessment tool.",
+      "Gather member information from available sources.",
+      "Review member health history and current status.",
+      "Conduct screening or assessment interview with member.",
+      "Administer standardized assessment instruments.",
+      "Collect information from providers and caregivers.",
+      "Review clinical information from Health Information Exchange (HIE).",
+      "Analyze assessment data and identify needs.",
+      "Determine member risk level and care priorities.",
+      "Identify appropriate interventions and services.",
+      "Generate assessment report and recommendations.",
+      "Make referrals to services or programs as needed.",
+      "Document assessment in case management system.",
+      "Share assessment results with care team.",
+      "END: Complete screening and assessment process."
+    ],
+    "shared_data": [
+      "Member data store including health history",
+      "Case Management data store",
+      "Health Information Exchange (HIE) data store",
+      "Assessment Tools data store",
+      "Registry data store",
+      "Provider data store"
+    ],
+    "predecessor_processes": [
+      "Establish Case",
+      "Enroll Member",
+      "Manage Population Health Outreach"
+    ],
+    "successor_processes": [
+      "Authorize Treatment Plan",
+      "Establish Case",
+      "Manage Case Information",
+      "Authorize Service"
+    ],
+    "constraints": "Assessments must use validated, evidence-based tools appropriate for the member's condition and population. Assessment must be conducted by qualified staff. Member consent and engagement are required for comprehensive assessment. Reassessment intervals are specified by program requirements.",
+    "failures": [
+      "Unable to contact or engage member in assessment.",
+      "Insufficient information available to complete assessment.",
+      "Assessment tool not appropriate for member's situation.",
+      "Member declines to participate in assessment."
+    ],
+    "performance_measures": [
+      "Percentage of eligible members assessed",
+      "Timeliness of assessments",
+      "Accuracy of risk stratification",
+      "Member satisfaction with assessment process",
+      "Effectiveness of assessment in identifying needs"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Perform_Screening_and_Assessment_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

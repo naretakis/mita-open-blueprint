@@ -1,0 +1,55 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Manage Contractor Information",
+  "process_code": "CO",
+  "sub_category": "Contractor Information Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Manage Contractor Information business process maintains accurate and current contractor information including demographic data, contact information, network information, and contract details. The process receives updates from contractors and other sources, validates the information, and updates the contractor data store.",
+    "trigger_events": [
+      "Receive contractor information update.",
+      "Periodic review of contractor information."
+    ],
+    "results": [
+      "Contractor information updated.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive contractor information update.",
+      "Validate information submitted is correct and complete.",
+      "Verify information provided is authentic.",
+      "Update contractor data store.",
+      "Send confirmation to contractor.",
+      "END: Complete information update transaction."
+    ],
+    "shared_data": [
+      "Contractor data store"
+    ],
+    "predecessor_processes": [
+      "Award Contract",
+      "Receive Inbound Transaction"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction",
+      "Manage Contractor Communication"
+    ],
+    "constraints": "Contractor information must be maintained in accordance with state and federal regulations.",
+    "failures": [
+      "Information does not comply with validation criteria.",
+      "Information provided not authenticated.",
+      "System unavailable."
+    ],
+    "performance_measures": [
+      "Time to process update = ___ days; ___ hours",
+      "Accuracy of information = ___ %",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Manage_Contractor_Information_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Inquire Contractor Information",
+  "process_code": "CO",
+  "sub_category": "Contractor Information Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Inquire Contractor Information business process provides information about contractors to authorized inquirers. The process receives inquiries, validates the inquirer's authorization, retrieves contractor information, and provides the information to the inquirer.",
+    "trigger_events": [
+      "Receive inquiry about contractor information."
+    ],
+    "results": [
+      "Contractor information provided to inquirer.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive inquiry about contractor information.",
+      "Validate inquirer's authorization to receive information.",
+      "Retrieve contractor information from data store.",
+      "Format information for delivery.",
+      "END: Send contractor information to inquirer."
+    ],
+    "shared_data": [
+      "Contractor data store"
+    ],
+    "predecessor_processes": [
+      "Receive Inbound Transaction"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction"
+    ],
+    "constraints": "Access to contractor information must comply with privacy and security regulations.",
+    "failures": [
+      "Inquirer not authorized to receive information.",
+      "Contractor information not found.",
+      "System unavailable."
+    ],
+    "performance_measures": [
+      "Time to complete process = ___ days; ___ hours",
+      "Accuracy of information = ___ %",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Inquire_Contractor_Information_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Produce Solicitation",
+  "process_code": "CO",
+  "sub_category": "Contract Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Produce Solicitation business process develops and publishes solicitations for contractor services including Requests for Proposals (RFPs), Requests for Information (RFIs), and sole source justifications. The process ensures solicitations comply with procurement regulations and clearly communicate requirements to potential contractors.",
+    "trigger_events": [
+      "Need for contractor services identified.",
+      "Contract renewal or rebid required."
+    ],
+    "results": [
+      "Solicitation published.",
+      "Potential contractors notified.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive trigger event.",
+      "Define contractor service requirements.",
+      "Develop solicitation document.",
+      "Review and approve solicitation.",
+      "Publish solicitation.",
+      "Notify potential contractors.",
+      "Conduct pre-proposal conference if applicable.",
+      "Receive and respond to questions from potential contractors.",
+      "END: Prepare to receive proposals."
+    ],
+    "shared_data": [
+      "Contractor data store",
+      "Solicitation documents and templates"
+    ],
+    "predecessor_processes": [
+      "Receive Inbound Transaction"
+    ],
+    "successor_processes": [
+      "Award Contract",
+      "Manage Contractor Communication"
+    ],
+    "constraints": "Solicitation process must comply with state and federal procurement regulations.",
+    "failures": [
+      "Solicitation requirements unclear or incomplete.",
+      "Insufficient contractor interest.",
+      "Solicitation challenged or protested."
+    ],
+    "performance_measures": [
+      "Time to produce solicitation = ___ months; ___ weeks",
+      "Number of responses received = ___",
+      "Quality of responses = ___ %",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Produce_Solicitation_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

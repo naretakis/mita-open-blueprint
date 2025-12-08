@@ -1,0 +1,88 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Performance Management",
+  "process_name": "Manage Compliance Incident Information",
+  "process_code": "PE",
+  "sub_category": "Compliance Management",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Manage Compliance Incident Information business process is responsible for the monitoring of incidents of utilization anomalies. Activities include referring (e.g., escalation) incident to another incident manager or agency, modifications to incident information, journaling activities, and disposition of incident.",
+    "trigger_events": [
+      "Receive alert from Establish Compliance Incident business process of new incident.",
+      "Staff periodically reviews incident.",
+      "Staff modifies incident information due to follow-up activities.",
+      "Receive requests for suppression of information or corrective action from federal and state law enforcement.",
+      "Receive compliance investigation information from Centers for Medicare & Medicaid Services (CMS).",
+      "Receive compliance investigation information from Medicaid Fraud Control Unit (MFCU).",
+      "Receive compliance investigation information from Office of Inspector General (OIG).",
+      "Receive self-disclosure of actual or potential violations from provider."
+    ],
+    "results": [
+      "Monitored incident and tracked.",
+      "Determination of disposition and closure of incident.",
+      "If applicable, alert sent to notify member via Manage Applicant and Member Communication business process of incident tracking information.",
+      "If applicable, alert sent to notify provider via Manage Provider Communication business process of incident tracking information.",
+      "If applicable, alert sent to notify contractor via Manage Contractor Communication business process of incident tracking information.",
+      "If applicable, alert sent to Determine Adverse Action Incident business process for further investigation.",
+      "If applicable, notification sent to state or federal law enforcement agencies of possible criminal investigation.",
+      "If applicable, notification sent to CMS for compliance investigation.",
+      "If applicable, notification sent to MFCU of compliance investigation.",
+      "If applicable, notification sent to OIG of compliance investigation.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive established incident.",
+      "Review incident information for determination of action.",
+      "Review allegations.",
+      "If applicable, refer or escalate incident to responsible individual, department or state or federal agency.",
+      "Determine action to take (e.g., journal entry, appointment scheduling, research, communication).",
+      "Perform appropriate action.",
+      "If applicable, send alert to notify member via Manage Applicant and Member Communication business process of incident tracking information.",
+      "If applicable, send alert to notify provider via Manage Provider Communication business process of incident tracking information.",
+      "If applicable, send alert to notify contractor via Manage Contractor Communication business process of incident tracking information.",
+      "Determine disposition of incident.",
+      "If applicable, send notification to state or federal law enforcement agencies of possible criminal investigation.",
+      "If applicable, send notification to CMS for compliance investigation.",
+      "If applicable, send notification to MFCU of compliance investigation.",
+      "If applicable, send notification to OIG of compliance investigation.",
+      "If applicable, send alert to Determine Adverse Action Incident business process for further investigation.",
+      "END: Close incident."
+    ],
+    "shared_data": [
+      "Member data store including demographics, eligibility, enrollment, and grievance information",
+      "Provider data store including provider network, contract, and grievance information",
+      "Contractor data store including provider network, and contract information",
+      "Claims data store including payment information",
+      "Financial data store including accounts receivable and accounts payable information",
+      "Business Activity data store including performance information",
+      "Compliance Management data store including compliance incident information"
+    ],
+    "predecessor_processes": [
+      "Establish Compliance Incident",
+      "Maintain State Plan"
+    ],
+    "successor_processes": [
+      "Manage Applicant and Member Communication",
+      "Manage Provider Communication",
+      "Manage Contractor Communication",
+      "Determine Adverse Action Incident",
+      "Manage Data"
+    ],
+    "constraints": "States and programs within States establish different criteria for their investigations. Rules change along with the experience of the state, health care best practices, modifications in benefits, and with the addition of new provider and member types.",
+    "failures": [
+      "This business process has no failure modes that prevent the process from completion."
+    ],
+    "performance_measures": [
+      "Time to complete the process = e.g., ___ days, ___ hours or ___ minutes",
+      "Accuracy with which rules are applied = __%",
+      "Consistency with which rules are applied = __%",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Performance Management 3.0/PE_Manage_Compliance_Incident__Information_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

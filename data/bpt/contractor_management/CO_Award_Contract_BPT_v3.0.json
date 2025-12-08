@@ -1,0 +1,70 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Award Contract",
+  "process_code": "CO",
+  "sub_category": "Contract Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Award Contract business process utilizes requirements, advanced planning documents, requests for information, request for proposal, and sole source documents to request and receive proposals, verify proposal content against Request for Proposal (RFP) or sole source requirements, apply evaluation criteria, designate contractor/vendor, post award information, entertain protests, resolve protests, negotiate contracts, and notify parties. In some States, this business process makes a recommendation of award instead of the actual award itself.\n\nNOTE: The State Medicaid Agency (SMA) requires billing agents, clearinghouses, or other alternate payee (as defined by the Secretary) to register.",
+    "trigger_events": [
+      "Receive respondent's proposal or approval for sole source."
+    ],
+    "results": [
+      "Alert to send notification of award status to respondent.",
+      "The SMA negotiates contract with awarded contractor.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive respondent's proposal (e.g., email, mail, web, or Electronic Data Interchange (EDI).",
+      "Conduct collection of contractor information.",
+      "Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and respondent has completed all required fields for the type of contractor.",
+      "If applicable, request additional information.",
+      "Validate information provided is authentic (e.g., corporate status).",
+      "Validate contractor network, resources, and other requirements and obtain appropriate approvals (i.e., state, federal).",
+      "Assign identification to the respondent.",
+      "Verify proposal content against RFP or sole source requirements.",
+      "Apply evaluation criteria to respondent's proposal.",
+      "Make determination of awarded contractor.",
+      "Post award information.",
+      "Send alert to notify respondent of award results (e.g., award/recommend, deny, or continue negotiations).",
+      "If applicable, send alert to Manage Contractor Grievance and Appeal business process to receive protests and disposition protests.",
+      "END: Negotiate contract with contractor, collect additional information required to complete a contract, negotiate, and assign rates or other form of payment."
+    ],
+    "shared_data": [
+      "Contractor data store including provider network and contract information"
+    ],
+    "predecessor_processes": [
+      "Receive Inbound Transaction",
+      "Produce Solicitation"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction",
+      "Manage Contractor Communication",
+      "Manage Contract",
+      "Manage Contractor Grievance and Appeal"
+    ],
+    "constraints": "The Contractor application will accommodate the full range of contractor types.",
+    "failures": [
+      "Information does not comply with syntax criteria.",
+      "Not all required information provided.",
+      "Information provided not authenticated.",
+      "Parties are unable to negotiate contract (e.g., no agreement on rates).",
+      "The SMA loses funding.",
+      "Responder successfully protests an award."
+    ],
+    "performance_measures": [
+      "Time to complete process = ___ months; ___ weeks",
+      "Accuracy of information = ___ %",
+      "Accessibility of information for creating solicitation = ___ months; ___ weeks",
+      "Consistency of decisions and disposition = ___ %",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Award_Contract_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

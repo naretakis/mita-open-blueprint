@@ -1,0 +1,77 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Provider Management",
+  "process_name": "Manage Provider Grievance and Appeal",
+  "process_code": "PM",
+  "sub_category": "Provider Support",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Manage Provider Grievance and Appeal business process handles provider* appeals of adverse decisions or communications of a grievance. The Manage Provider Communication business process initiates a grievance or appeal from a provider. The State Medicaid Agency (SMA) logs and tracks the grievance or appeal, triages it, and sends it to appropriate reviewers. Staff researches or requests additional information. The SMA may schedule a hearing, conduct actions in accordance with legal requirements, and make a ruling based upon the evidence presented. Staff documents and distributes results of the hearings, and adds relevant documents to the provider's information. SMA formally notifies provider of the decision.\n\nThis business process supports the Manage Performance Measures business process by providing information about the types of grievances and appeals it handles, grievance and appeals issues, parties that file or are the target of the grievances and appeals, and the dispositions. The SMA uses information to discern program improvement opportunities, which may reduce the issues that give rise to grievances and appeals.\n\nBased on the appeal business process, if a provider wins an appeal that affects or clarifies a Medicaid State Plan, health plan, or health benefit, this process sends that information to Maintain State Plan, Manage Health Plan Information or Manage Health Benefit Information business processes to modify the relevant policy or procedure. Disposition could result in legislative change requirements that the SMA will communicate to lawmakers.\n\nNOTE: States may define grievance and appeal differently, depending on state laws. States may involve multiple agencies in the Manage Provider Grievance and Appeal business process.\n\n*This business process supports grievances and appeals for both prospective providers and current providers. A non-enrolled provider can file a grievance or appeal, for example, when SMA denies an application for enrollment.",
+    "trigger_events": [
+      "Interaction-based Trigger Events: Receive grievance or appeal of adverse decision alert from Manage Provider Information."
+    ],
+    "results": [
+      "Alert sent to notify provider of final disposition of grievance or appeal.",
+      "If applicable, alert sent to Establish Compliance Incident business process for further investigation.",
+      "If applicable, alert sent to Maintain State Plan business process to modify the relevant policy or procedure.",
+      "If applicable, alert sent to Manage Health Plan Information business process to modify the relevant policy or procedure.",
+      "If applicable, alert sent to Manage Health Benefit Information business process to modify the relevant policy or procedure.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive grievance or appeal.",
+      "Agency logs grievance or appeal.",
+      "Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and submitter has completed all required fields.",
+      "Validate that the provided information is authentic.",
+      "If appropriate, request additional documentation.",
+      "Determine status as initial, second, or expedited or other status as designated by the state.",
+      "Triage to appropriate personnel for review.",
+      "Perform research and analysis.",
+      "If appropriate, schedule hearing within required time.",
+      "If appropriate, conduct hearing within required time.",
+      "Determine disposition.",
+      "If applicable, send alert to Establish Compliance Incident business process for further investigation.",
+      "If applicable, alert sent to Maintain State Plan business process to modify the relevant policy or procedure.",
+      "If applicable, alert sent to Manage Health Plan Information business process to modify the relevant policy or procedure.",
+      "If applicable, alert sent to Manage Health Benefit Information business process to modify the relevant policy or procedure.",
+      "END: Send alert to notify provider of disposition determination.",
+      "NOTE: Some of the above steps may be iterative and a grievance or appeals case may take many months to finalize."
+    ],
+    "shared_data": [
+      "Provider data store including eligibility, enrollment and provider network information",
+      "Claims data store including claims and premium Information",
+      "Grievance and Appeal data store including case history and Recovery Audit Contractor (RAC) adverse determination information",
+      "Adverse Action data store including case history information"
+    ],
+    "predecessor_processes": [
+      "Manage Provider Information"
+    ],
+    "successor_processes": [
+      "Manage Provider Communication",
+      "Maintain State Plan",
+      "Manage Health Plan Information",
+      "Manage Health Benefit Information",
+      "Manage Performance Measures",
+      "Establish Compliance Incident"
+    ],
+    "constraints": "States may have different requirements for evidence and the process for conducting the grievance and appeals cases. They may have different rules for assigning outcome status and state specific consequences. The State Medicaid Agency will conform to state and federal regulations.",
+    "failures": [
+      "Grievance and Appeal supporting documentation is incomplete.",
+      "SMA cannot schedule or conduct hearing in the required period.",
+      "Final disposition was a result of summary judgment due to lack of timeliness within the process.",
+      "Provider withdraws grievance or appeal."
+    ],
+    "performance_measures": [
+      "Time to complete process: normal grievance/appeal = __days; second appeal =__days; expedited appeal =__hours",
+      "Accuracy of decisions = __%",
+      "Consistency of decisions and disposition = __%",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Provider Management 3.0/PM_Manage_Provider_Grievance_and_Appeal_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

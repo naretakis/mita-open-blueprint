@@ -1,0 +1,78 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Manage Population Health Outreach",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Manage Population Health Outreach business process identifies target populations and conducts outreach activities to improve health outcomes and promote preventive care. This process uses data analytics to identify members who would benefit from specific interventions and coordinates outreach campaigns to engage those members.",
+    "trigger_events": [
+      "Scheduled population health campaign.",
+      "Identification of at-risk population segment.",
+      "Public health alert or initiative.",
+      "Quality improvement initiative launched.",
+      "Preventive care reminder schedule."
+    ],
+    "results": [
+      "Target population identified for outreach.",
+      "Outreach campaign executed.",
+      "Member engagement and response tracked.",
+      "Outreach effectiveness measured.",
+      "Follow-up actions initiated for responsive members.",
+      "Population health metrics updated."
+    ],
+    "process_steps": [
+      "START: Initiate population health outreach campaign.",
+      "Define target population criteria and health goals.",
+      "Query member data to identify target population.",
+      "Segment population based on risk factors or needs.",
+      "Develop outreach messaging and materials.",
+      "Select outreach channels (mail, phone, email, portal).",
+      "Execute outreach campaign to target population.",
+      "Track member responses and engagement.",
+      "Route responsive members to appropriate services.",
+      "Document outreach activities and outcomes.",
+      "Analyze campaign effectiveness and member engagement.",
+      "Generate reports on population health metrics.",
+      "Identify opportunities for follow-up or refinement.",
+      "END: Complete population health outreach cycle."
+    ],
+    "shared_data": [
+      "Member data store including demographics and health history",
+      "Case Management data store",
+      "Health Information Exchange (HIE) data store",
+      "Registry data store",
+      "Communication tracking data store"
+    ],
+    "predecessor_processes": [
+      "Manage Registry",
+      "Perform Screening and Assessment",
+      "Enroll Member"
+    ],
+    "successor_processes": [
+      "Establish Case",
+      "Perform Screening and Assessment",
+      "Manage Applicant and Member Communication"
+    ],
+    "constraints": "Outreach activities must comply with member communication preferences and privacy regulations. Outreach messaging must be culturally appropriate and accessible. Campaign timing must consider member circumstances and program requirements.",
+    "failures": [
+      "Unable to reach target population members.",
+      "Low member engagement or response rate.",
+      "Outreach messaging not effective for target population.",
+      "Insufficient resources to follow up with responsive members."
+    ],
+    "performance_measures": [
+      "Percentage of target population reached",
+      "Member response and engagement rate",
+      "Improvement in preventive care utilization",
+      "Population health outcome improvements"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Manage_Population_Health_Outreach_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

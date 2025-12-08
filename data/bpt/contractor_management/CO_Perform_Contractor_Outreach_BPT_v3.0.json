@@ -1,0 +1,60 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Perform Contractor Outreach",
+  "process_code": "CO",
+  "sub_category": "Contractor Support",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Perform Contractor Outreach business process conducts outreach activities to contractors including training, education, technical assistance, and information dissemination. The process ensures contractors have the information and support needed to comply with program requirements.",
+    "trigger_events": [
+      "Scheduled outreach activity.",
+      "New program requirements.",
+      "Contractor request for assistance."
+    ],
+    "results": [
+      "Outreach activity completed.",
+      "Contractors informed and educated.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive trigger event.",
+      "Determine outreach activity type and content.",
+      "Identify target contractor audience.",
+      "Develop outreach materials.",
+      "Conduct outreach activity.",
+      "Collect feedback from contractors.",
+      "Evaluate outreach effectiveness.",
+      "END: Complete outreach activity."
+    ],
+    "shared_data": [
+      "Contractor data store",
+      "Outreach materials and resources"
+    ],
+    "predecessor_processes": [
+      "Award Contract",
+      "Manage Contract"
+    ],
+    "successor_processes": [
+      "Manage Contractor Communication"
+    ],
+    "constraints": "Outreach activities must be accessible and comply with state and federal regulations.",
+    "failures": [
+      "Low contractor participation.",
+      "Outreach materials not effective.",
+      "System unavailable."
+    ],
+    "performance_measures": [
+      "Contractor participation rate = ___ %",
+      "Contractor satisfaction = ___ %",
+      "Effectiveness rating = ___ %",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Perform_Contractor_Outreach_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

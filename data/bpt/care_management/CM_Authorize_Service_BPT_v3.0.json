@@ -1,0 +1,80 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Authorize Service",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 4,
+  "process_details": {
+    "description": "The Authorize Service business process is responsible for authorizing specific services for members enrolled in care management programs. This process evaluates service requests against authorization criteria, medical necessity, and benefit coverage to determine if the requested service should be approved.",
+    "trigger_events": [
+      "Receive service authorization request from provider.",
+      "Receive service request from case manager.",
+      "Automatic trigger based on treatment plan.",
+      "Member requests service authorization."
+    ],
+    "results": [
+      "Service authorization decision (approved, denied, or pended).",
+      "Authorization number and details.",
+      "Notification to requesting provider.",
+      "Notification to member.",
+      "Updated case management records.",
+      "Tracking information for utilization management."
+    ],
+    "process_steps": [
+      "START: Receive service authorization request.",
+      "Validate member eligibility and active enrollment.",
+      "Validate provider credentials and network status.",
+      "Review service against benefit coverage.",
+      "Check for prior authorizations or duplicates.",
+      "Evaluate medical necessity based on clinical guidelines.",
+      "Determine if service meets authorization criteria.",
+      "If criteria not clearly met, route for medical review.",
+      "Medical reviewer evaluates clinical documentation.",
+      "Make final authorization decision.",
+      "Generate authorization number if approved.",
+      "Record authorization details and decision rationale.",
+      "Send notifications to provider and member.",
+      "Update case management and utilization tracking systems.",
+      "END: Complete authorization process."
+    ],
+    "shared_data": [
+      "Member data store including eligibility and benefits",
+      "Provider data store including credentials and network status",
+      "Health Benefits data store including coverage rules",
+      "Case Management data store",
+      "Clinical Guidelines data store",
+      "Authorization data store"
+    ],
+    "predecessor_processes": [
+      "Establish Case",
+      "Authorize Treatment Plan",
+      "Determine Member Eligibility"
+    ],
+    "successor_processes": [
+      "Manage Case Information",
+      "Manage Treatment Plans and Outcomes",
+      "Process Claims"
+    ],
+    "constraints": "Authorization requirements and timeframes vary by state regulations, program type, and service category. Some services require prior authorization while others may be authorized post-service. Medical necessity criteria must align with evidence-based clinical guidelines.",
+    "failures": [
+      "Service does not meet medical necessity criteria.",
+      "Member not eligible for requested service.",
+      "Provider not authorized to deliver service.",
+      "Service not covered under member's benefit plan.",
+      "Insufficient clinical documentation provided."
+    ],
+    "performance_measures": [
+      "Average time to authorization decision",
+      "Percentage of requests approved",
+      "Percentage requiring medical review",
+      "Member and provider satisfaction with authorization process"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Authorize_Service_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Performance Management",
+  "process_name": "Determine Adverse Action Incident",
+  "process_code": "PE",
+  "sub_category": "Compliance Management",
+  "page_count": 4,
+  "process_details": {
+    "description": "The Determine Adverse Action Incident business process receives an incident from an investigative unit with the direction to pursue the case to closure. The case may result in civil or criminal charges, corrective action, removal of a provider, contractor, trading partner or member from the Medicaid Program, or the State Medicaid Agency (SMA) may terminate or suspend the case.\n\nIndividual state policy determines what evidence is necessary to support different types of cases:\n\u2022 Provider utilization review\n\u2022 Provider compliance review\n\u2022 Contractor utilization review (includes managed care organizations)\n\u2022 Contractor compliance review\n\u2022 Member utilization review\n\u2022 Investigation of potential fraud or abuse review\n\u2022 Drug utilization review\n\u2022 Quality review (e.g., Consumer Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare Effectiveness Data and Information Set (HEDIS) measures)\n\u2022 Performance review (e.g., Key Performance Indicator (KPI))\n\u2022 Contract review\n\u2022 Erroneous payment review\n\u2022 Audit Review\n\u2022 Other evaluation of information\n\nDifferent criteria and rules, relationships, and information define each type of adverse action incident and require different types of external investigation.",
+    "trigger_events": [
+      "Receive alert from Manage Compliance Incident Information business process for further investigation.",
+      "Request to investigate adverse action incident.",
+      "Receive requests for suppression of information or corrective action from federal and state law enforcement.",
+      "Receive compliance investigation information from Centers for Medicare & Medicaid Services (CMS).",
+      "Receive compliance investigation information from Medicaid Fraud Control Unit (MFCU).",
+      "Receive compliance investigation information from Office of Inspector General (OIG).",
+      "Receive self-disclosure of actual or potential violations from provider."
+    ],
+    "results": [
+      "Monitored adverse action incident and tracked activities.",
+      "Determination of disposition and closure of incident.",
+      "If applicable, alert sent to notify member via Manage Applicant and Member Communication business process of incident tracking information.",
+      "If applicable, alert sent to notify provider via Manage Provider Communication business process of incident tracking information.",
+      "If applicable, alert sent to notify contractor via Manage Contractor Communication business process of incident tracking information.",
+      "If applicable, alert sent to Disenroll Member business process to remove member from services.",
+      "If applicable, alert sent to Disenroll Provider business process to remove provider from services.",
+      "If applicable, alert sent to Terminate Provider business process to cease activities with provider.",
+      "If applicable, alert sent to Close Out Contract business process to cease activities with contractor.",
+      "If applicable, notification sent to state or federal law enforcement agencies of possible criminal investigation.",
+      "If applicable, notification sent to CMS for compliance investigation.",
+      "If applicable, notification sent to MFCU of compliance investigation.",
+      "If applicable, notification sent to OIG of compliance investigation.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive request to investigate adverse action incident.",
+      "Assign and authorize an adverse action incident manager to manage an incident and request additional information.",
+      "Establish adverse action incident case with required information.",
+      "Examine information associated with the case, and request more historical information as needed.",
+      "Determine action to take (e.g., journal entry, appointment scheduling, research, communication).",
+      "Perform appropriate action.",
+      "Correspond with providers, members, agents, guardians, attorneys, and others to notify them regarding the investigation, their rights, and the right of the SMA to request documentation.",
+      "If applicable, send alert to notify member via Manage Applicant and Member Communication business process of incident tracking information.",
+      "If applicable, send alert to notify provider via Manage Provider Communication business process of incident tracking information.",
+      "If applicable, send sent to notify contractor via Manage Contractor Communication business process of incident tracking information.",
+      "Conduct inquiries and investigations. Depending on the type of case, the SMA may need to conduct different external inquiries (e.g., view medical records, interview members, validate credentials).",
+      "Document evidence as required.",
+      "When research and analysis are complete, report the case disposition (e.g., cancel incident, claim damages, identify corrective action, suspend or terminate participation in Medicaid Program).",
+      "If applicable, send alert to Disenroll Member business process to remove member from services.",
+      "If applicable, send alert to Disenroll Provider business process to remove provider from services.",
+      "If applicable, send alert to Terminate Provider business process to cease activities with provider.",
+      "If applicable, send alert to Close Out Contract business process to cease activities with contractor.",
+      "If applicable, send notification to state or federal law enforcement agencies of possible criminal investigation.",
+      "If applicable, send notification to CMS for compliance investigation.",
+      "If applicable, send notification to MFCU of compliance investigation.",
+      "If applicable, send notification to OIG of compliance investigation.",
+      "END: Close adverse action incident."
+    ],
+    "shared_data": [
+      "Member data store including demographics, eligibility, enrollment, and grievance information",
+      "Provider data store including provider network, contract, and grievance information",
+      "Contractor data store including provider network, and contract information",
+      "Claims data store including payment information",
+      "Financial data store including accounts receivable and accounts payable information",
+      "Business Activity data store including performance information",
+      "Compliance Management data store including compliance incident information"
+    ],
+    "predecessor_processes": [
+      "Establish Compliance Incident"
+    ],
+    "successor_processes": [
+      "Manage Applicant and Member Communication",
+      "Manage Provider Communication",
+      "Manage Contractor Communication",
+      "Disenroll Member",
+      "Disenroll Provider",
+      "Terminate Provider",
+      "Close Out Contract"
+    ],
+    "constraints": "States and programs within States establish different criteria for their investigations. Rules change along with the experience of the state, health care best practices, modifications in benefits, and with the addition of new provider and member types.",
+    "failures": [
+      "No request to investigate adverse action incident received.",
+      "Ceased incident without reaching disposition."
+    ],
+    "performance_measures": [
+      "Time lag between request for documents and receipt = __ Days, __ Hours",
+      "Time to bring a case to closure = __ Months, __ Weeks",
+      "Number of cases that the agency is able to close within designated time period = ___",
+      "Percent cases closed without grievance or appeal = ___%"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Performance Management 3.0/PE_Determine_Adverse_Action_Incident_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

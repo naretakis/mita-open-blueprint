@@ -1,0 +1,55 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Financial Management",
+  "process_name": "Manage Member Financial Participation",
+  "process_code": "FM",
+  "sub_category": "Accounts Receivable Management",
+  "page_count": 4,
+  "process_details": {
+    "description": "The Manage Member Financial Participation business process manages financial operations related to manage member financial participation within the State Medicaid Agency (SMA).",
+    "trigger_events": [
+      "Receive request or information requiring processing.",
+      "Periodic timetable for scheduled processing."
+    ],
+    "results": [
+      "Updated financial information.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive request or trigger event.",
+      "Process the request according to business rules.",
+      "Update relevant data stores.",
+      "Generate required reports or alerts.",
+      "END: Complete processing and send notifications."
+    ],
+    "shared_data": [
+      "Financial data store",
+      "Claims data store",
+      "Member data store",
+      "Provider data store",
+      "Contractor data store"
+    ],
+    "predecessor_processes": [
+      "Receive Inbound Transaction"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction",
+      "Generate Financial Report"
+    ],
+    "constraints": "The SMA will follow federal and state-specific financial management requirements.",
+    "failures": [
+      "Failure to process information accurately may result in financial discrepancies."
+    ],
+    "performance_measures": [
+      "Time to complete process = within __ days",
+      "Accuracy of processing = ___%",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Financial Management 3.0/FM_Manage_Member_Financial_Participation_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Eligibility and Enrollment Management",
+  "process_name": "Enroll Provider",
+  "process_code": "EE",
+  "sub_category": "Provider Enrollment",
+  "page_count": 5,
+  "process_details": {
+    "description": "The Enroll Provider business process is responsible for enrolling providers into Medicaid that includes: Determination of contracting parameters (e.g., Provider taxonomy, type, category of service that the Provider can bill). Establishment of payment rates and funding sources, taking into consideration service area, incentives or discounts. Alert sent to Manage Contract business process to negotiate contracts. Supporting receipt and verification of program contractor's Provider enrollment roster information (e.g., from Managed Care Organization (MCO) and Home and Community-Based Services (HCBS)). Alert sent to Manage Provider Information business process to load initial and modified enrollment information, including Providers contracted with program contractors into the Provider data store. Alert sent to Manage Provider Information business process to provide timely and accurate notification, or to make enrollment information required for operations available to all parties and affiliated business processes, including: Alert sent to Prepare Provider Payment business process for capitation and premium payments. To prepare Provider Electronic Funds Transfer (EFT) or check with the Manage Accounts Payable Disbursement business process. The appropriate communications and outreach processes for follow-up with the affected parties, including informing parties of their procedural rights. Periodic review is due or receipt of request to: Negotiate payment rates. Notify Provider of enrollment determination.\n\nEnroll Provider business process supports receipt and verification of program contractor's Provider enrollment roster information (e.g., name, identification, contract information, type, specialty and services) from Managed Care Organization (MCO) and HCBS organizations.",
+    "trigger_events": [
+      "Receive newly eligible Provider from Determine Provider Eligibility business process.",
+      "Receive newly eligibility contractor from Award Contract business process.",
+      "Receive alert from Manage Performance Measures to revalidate provider.",
+      "Periodic review is due or receipt of to: Renegotiate payment rates.",
+      "Reevaluate enrollment based criteria such as performance measures, or triggered by date such as anniversary date based on Medicaid policy to verify information based on a contractual duration (e.g. year or months).",
+      "Receive program enrollment or disenrollment information from Medicaid or CHIP.",
+      "Receive request for provider's enrollment roster information."
+    ],
+    "results": [
+      "Enrolled, re-enrolled, suspended, or denied enrollment of provider or contractor into programs.",
+      "If applicable, alert sent to notify provider via Manage Provider Communication business process of enrollment determination.",
+      "If applicable, alert sent to notify contractor via Manage Contractor Communication business process of enrollment determination.",
+      "If applicable, alert sent to Manage Contractor Payment for payment arrangement.",
+      "Alert sent to Perform Provider Outreach to send relevant state policy information.",
+      "Alert sent to Manage Contract business process to negotiate contract.",
+      "If applicable, send response for Provider enrollment roster information.",
+      "Alert sent to notify Health Insurance Exchange (HIX) of provider enrollment information.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Determine contracting parameters (e.g., Provider taxonomy, categories of service for which the Provider can bill), eligible Provider types, payment types, contract terms and maximums, member enrollment levels, panel size, and any contractor specific benefit packages and procedures.",
+      "Assign any identifiers used internally.",
+      "Determine if there are enrollment limits due to moratoriums issued. If yes, skip to step 9.",
+      "Assign to programs and determine rates: Includes identifying type of rate (e.g., negotiated, Medicare, percent of charges, case management fee, other via look-ups in the reference and benefit repositories).",
+      "If applicable, send alert to Manage Contractor Payment business process for payment arrangement.",
+      "Send alert to Perform Provider Outreach business process to send relevant state policy information.",
+      "Send alert to Manage Contract business process to negotiate contract.",
+      "If applicable, send alert to notify contractor via Manage Contractor Communication business process of enrollment determination.",
+      "If applicable, provide response to request for Provider enrollment roster information.",
+      "Send alert to notify Health Insurance Exchange (HIX) of provider enrollment information.",
+      "END: Send alert to notify provider via Manage Provider Communication business process of enrollment determination."
+    ],
+    "shared_data": [
+      "Provider data store including: Provider demographics; Provider network; Contract information (Type, Specialty, Enrolled Program, Jurisdiction, Payment Information); Provider taxonomy; Service Location Information (Category of Service, Services, Limitations, Business Arrangement)",
+      "Contractor data store including provider network information",
+      "Plan data store including health benefit and fees information",
+      "Moratorium data store including Caps and Limits information",
+      "Health Insurance Exchange (HIX) including provider enrollment information"
+    ],
+    "predecessor_processes": [
+      "Determine Provider Eligibility",
+      "Manage Provider Communication",
+      "Manage Performance Measures",
+      "Award Contract"
+    ],
+    "successor_processes": [
+      "Manage Provider Information",
+      "Manage Provider Communication",
+      "Manage Contractor Information",
+      "Manage Contractor Communication",
+      "Perform Provider Outreach",
+      "Manage Contract"
+    ],
+    "constraints": "The Provider enrollment process will accommodate the full range of Provider types, organizations, specialties, different types of applicants (e.g., the primary Provider, billing agent, pay-to entity), and care settings (e.g., solo office practice, group practice, rural health clinic) as well as different types of applications (e.g., New, Modification, Cancellation, Update). Different business rules may apply to each of these different types. Affiliations \u2013 MCO or subpart relationship.",
+    "failures": [
+      "Lack of applicable rates.",
+      "Provider meets caps or limits moratorium."
+    ],
+    "performance_measures": [
+      "Time to complete Enrollment process = within __ days",
+      "Accuracy with which edits are applied = ___%",
+      "Consistency of decisions and disposition = ___%",
+      "Error rate = __% or less"
+    ],
+    "provider_enrollment_variations": [
+      {
+        "type": "Institutional Provider",
+        "description": "The Institutional Provider application will accommodate a range of institutional Provider types (e.g., inpatient, nursing home, day care), different types of applicants (e.g., the primary Provider, billing agent, pay-to entity), and care settings (e.g., outpatient, emergency room, assisted living).",
+        "information": "NPI, entity type, taxonomy, type of facility, bed size, equipment, type of institutional services, ownership, trading partner information, billing and payment information, tax code, DRG or other payment type"
+      },
+      {
+        "type": "Individual Provider",
+        "description": "The Individual Billing Provider application will accommodate a range of professional billing Provider types (e.g., Physician, Osteopath, Podiatrist, Chiropractor, Clinic, Lab, Radiology, other).",
+        "information": "NPI, entity type, taxonomy, affiliation, location, trading partner information, billing and payment information"
+      },
+      {
+        "type": "Individual Rendering Provider",
+        "description": "The Individual Rendering Provider application will accommodate a range of professional rendering Provider types (e.g. Physician, Osteopath, Podiatrist, Chiropractor, Clinic, Lab, Radiology, other) Enumerate a group health practice separately from the individual physicians associated with it.",
+        "information": "NPI, entity type, taxonomy, affiliation, location, equipment"
+      },
+      {
+        "type": "Pharmacy",
+        "description": "The Pharmacy application will accommodate a range of types (e.g., major chain with hundreds of stores, community pharmacy), different types of applicants (e.g., the primary Provider, billing agent, pay-to entity), and care settings (e.g., retail store, outpatient facility, nursing home). NOTE: The NPI enumeration will give one number to the individual drug store. It does not enumerate the individual pharmacist.",
+        "information": "NPI, entity type, ownership, location, unit dose, mail order, DEA information, DUR compliance, trading partner information, billing and payment information"
+      },
+      {
+        "type": "Atypical",
+        "description": "The atypical Provider application will accommodate a range of types of programs (e.g., waiver, assistance in the home), different kinds of service Providers (e.g., family care-taker, taxi cab, plumber, carpenter, meals on wheels), different types of relationships (e.g., the primary Provider, billing agent, pay-to entity), and care settings (e.g., in the home, day care center). NOTE: The NPI enumeration does not provide ID numbers for atypical Providers at this time.",
+        "information": "Provider ID, SSN, specialty, type of service Provider, allowed services, invoicing method"
+      },
+      {
+        "type": "Suppliers",
+        "description": "The DME suppliers and manufacturers supply or manufacturers application will accommodate a range of durable medical equipment, prosthetics, orthotics, supplies (DME Ops) types.",
+        "information": "NPI, entity type, EIN, DME license, supplies, trading partner information, billing and payment information, ownership"
+      },
+      {
+        "type": "Medical Transportation",
+        "description": "The Medical Transportation Provider application will accommodate a range of transportation modes that include Air, Ambulance, Law, Pedestrian, Private or Public Transport. It should accommodate different types of vehicles, aircraft, licensing, and inspection information.",
+        "information": "EIN, entity type, license type and number, inspection, vehicle, aircraft, and/or ambulance information"
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Eligibility and Enrollment Management 3.0/EE_Enroll_Provider_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

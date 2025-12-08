@@ -1,0 +1,93 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Eligibility and Enrollment Management",
+  "process_name": "Disenroll Provider",
+  "process_code": "EE",
+  "sub_category": "Provider Enrollment",
+  "page_count": 4,
+  "process_details": {
+    "description": "The Disenroll Provider business process is responsible for managing disenrollment in the Medicaid Program. This business process covers the activity of disenrollment including the tracking of disenrollment requests and validation that the disenrollment meets state's rules. Medicaid sends notifications to affected parties (e.g., provider, contractor, business partners) as well as alerts to other business processes to discontinue business activities.",
+    "trigger_events": [
+      "Receive disenrollment from insurance affordability program.",
+      "Receive disenrollment from Determine Provider Eligibility business process within ineligible information.",
+      "Receive disenrollment from Manage Compliance Incident Information business process for continued failure to make payments.",
+      "Receive disenrollment from Manage Provider Information business process from provider request.",
+      "Receive disenrollment from Manage Contractor Information business process from contractor request.",
+      "Receive alert from Determine Adverse Action Incident business process to remove provider from services.",
+      "Receive alert from Close Out Contract business process to remove provider from services.",
+      "Receive request to disenroll provider.",
+      "Receive information from Medicare/Medicaid Sanction, National Practitioner Databank (NPDB), Healthcare Integrity and Protection Data Bank (HIPDB), or state licensing boards.",
+      "Receive information about a provider's death, retirement, or disability."
+    ],
+    "results": [
+      "Agency disenrolls Provider or contractor from participation in Medicaid Program.",
+      "Alert sent to notify provider via Manage Provider Communication business process of disenrollment information.",
+      "Alert sent to notify contractor via Manage Contractor Communication business process of disenrollment.",
+      "Alert sent to notify Medicare/Medicaid Sanction, National Practitioner Data Bank (NPDB), Healthcare Integrity and Protection Data Bank (HIPDB), and state licensing boards via Manage Business Relationship Communication business process of disenrollment information.",
+      "If applicable, alert sent to Manage Contractor Payment to stop payment arrangement.",
+      "Alert sent to Close Out Contract business process with disenrollment information.",
+      "Alert sent to Apply Mass Adjustment business process to associate members with alternate provider or contractor.",
+      "Alert sent to notify Health Insurance Exchange (HIX) of provider disenrollment information.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive disenrollment request or relevant information.",
+      "Validate authenticity of the requestor to have authorization to request disenrollment.",
+      "Determine disenrollment request or information processing status by querying the Provider data store. Application status may be one of the following: initial, resubmitted with modification, or duplicate. If resubmitted application, message contains only updated information and process may skip irrelevant steps below. If duplicate application, produce result messages and stop business process (see Failures). Other communications may be requests to cancel application, and to deactivate or reactivate enrollment.",
+      "Verify the disenrollment information.",
+      "Validate that the disenrollment request meets state rules.",
+      "Remove provider or contractor from Medicaid participation.",
+      "Send alert to notify Medicare/Medicaid Sanction, NPDB, HIPDB, and state licensing boards via Manage Business Relationship Communication business process of disenrollment information.",
+      "If applicable, send alert to Manage Contractor Payment business process to stop payment arrangement.",
+      "Send alert to Close Out Contract business process with disenrollment information.",
+      "Send alert to Apply Mass Adjustment business process to associate members with alternate provider or contractor.",
+      "Send alert to notify provider via Manage Provider Communication business process of disenrollment information.",
+      "Send alert to notify contractor via Manage Contractor Communication business process of disenrollment.",
+      "Send alert to notify other insurance affordability programs of the disenrollment from Medicaid.",
+      "Send alert to notify Health Insurance Exchange (HIX) of provider disenrollment information.",
+      "END: Agency removes Provider or contractor from participation in Medicaid services."
+    ],
+    "shared_data": [
+      "Provider data store including provider network and contact information (e.g., NPI, provider demographics, provider taxonomy)",
+      "NPI and provider demographics exchanged with National Plan and Provider Enumeration System (NPPES)",
+      "Provider sanction information such as: The Office of Inspector General or the General Accounting Office (OIG/GAO) sanction lists of individuals, vendors, and/or suppliers that are excluded from participation in Medicare, Medicaid, and other federally funded state programs; State Provider Licensing Authority; HIPDB; NPDB",
+      "Tax identifiers: Employer ID Number (EIN), Social Security Number (SSN), Taxpayer Identification Number (TIN) from applicant and verified with tax identifier verification sources",
+      "Insurance Affordability Program data store including eligibility and enrollment information"
+    ],
+    "predecessor_processes": [
+      "Determine Provider Eligibility",
+      "Manage Compliance Incident Information",
+      "Manage Provider Information",
+      "Manage Contractor Information",
+      "Determine Adverse Action Incident",
+      "Close Out Contract"
+    ],
+    "successor_processes": [
+      "Manage Provider Communication",
+      "Manage Provider Information",
+      "Manage Contractor Communications",
+      "Manage Contractor Information",
+      "Manage Business Relationship Communication",
+      "Manage Contractor Payment",
+      "Close Out Contract",
+      "Apply Mass Adjustment"
+    ],
+    "constraints": "The Provider disenrollment process will accommodate the full range of provider types, organizations, specialties, different types of applicants (e.g., the Primary Provider, Billing Agent, Pay-To Entity), and care settings (e.g., solo office practice, group practice, Rural Health Clinic) as well as different types of application (e.g., New, Modification, Cancellation, Update). Different business rules will apply to each of these different types.",
+    "failures": [
+      "Duplicate disenrollment requests.",
+      "Requirement for additional information to process disenrollment."
+    ],
+    "performance_measures": [
+      "Time to complete Disenrollment process = within __ days",
+      "Accuracy with which edits are applied = ___%",
+      "Consistency of decisions and disposition = ___%",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Eligibility and Enrollment Management 3.0/EE_Disenroll_Provider_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

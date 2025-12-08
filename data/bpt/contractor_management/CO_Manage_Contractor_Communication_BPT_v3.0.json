@@ -1,0 +1,59 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Manage Contractor Communication",
+  "process_code": "CO",
+  "sub_category": "Contractor Support",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Manage Contractor Communication business process manages all communications with contractors including notifications, alerts, correspondence, and information requests. The process ensures timely and accurate communication with contractors.",
+    "trigger_events": [
+      "Need to communicate with contractor.",
+      "Receive communication from contractor."
+    ],
+    "results": [
+      "Communication sent to contractor.",
+      "Communication from contractor processed.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive trigger event.",
+      "Determine communication type and content.",
+      "Format communication for delivery.",
+      "Send communication to contractor.",
+      "If applicable, receive response from contractor.",
+      "Process contractor response.",
+      "Update contractor communication history.",
+      "END: Complete communication transaction."
+    ],
+    "shared_data": [
+      "Contractor data store including communication history"
+    ],
+    "predecessor_processes": [
+      "Award Contract",
+      "Manage Contract",
+      "Close Out Contract"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction"
+    ],
+    "constraints": "Communications must comply with state and federal regulations.",
+    "failures": [
+      "Communication not delivered.",
+      "Contractor does not respond.",
+      "System unavailable."
+    ],
+    "performance_measures": [
+      "Time to send communication = ___ days; ___ hours",
+      "Communication delivery rate = ___ %",
+      "Response rate = ___ %",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Manage_Contractor_Communication_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

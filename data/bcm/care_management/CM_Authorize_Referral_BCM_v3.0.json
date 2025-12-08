@@ -1,0 +1,73 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Authorize Referral",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 6,
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "The process consists primarily of manual activity to accomplish tasks.",
+          "level_2": "SMA uses a mix of manual and automatic processes to accomplish tasks.",
+          "level_3": "SMA automates process to the full extent possible within the intrastate.",
+          "level_4": "SMA automates process to the full extent possible within the region.",
+          "level_5": "SMA automates process to the full extent possible nationally."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Does the State Medicaid Agency use standards in the process?",
+        "levels": {
+          "level_1": "SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
+          "level_2": "SMA applies a mix of HIPAA and state-specific standards.",
+          "level_3": "SMA adopts MITA Framework and other nationally recognized standards for intrastate exchange of information.",
+          "level_4": "SMA adopts MITA Framework and other nationally recognized standards for regional exchange of information.",
+          "level_5": "SMA adopts MITA Framework and other nationally recognized standards for national exchange of information."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "SMA collaborates with other regional agencies and entities to adopt national standards, and to develop and share reusable processes.",
+          "level_5": "SMA collaborates with national agencies and entities for national interoperability improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "Process meets threshold or mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation).",
+          "level_2": "Process timeliness improves through use of automation improving over Level 1.",
+          "level_3": "Timeliness improves via state and federal collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2.",
+          "level_4": "Use of standards and information result in immediate action, response, and results. SMA has regional Health Information Exchange (HIE) interoperability, which further improves timeliness over Level 3.",
+          "level_5": "Timeliness improves further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate is the information in the process?",
+        "levels": {
+          "level_1": "Use of direct data entry for information collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "HIPAA standard transactions improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1.",
+          "level_3": "Automation of information collection increases the reliability of SMA's internal information. External sources of information use MITA Framework for information exchange. Decision-making is automatic using standardized business rules definitions. Accuracy rating is higher than Level 2.",
+          "level_4": "Automation of information collection increases the reliability of regional sources of information. SMA adopts MITA Framework for information exchange by regional agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is higher than Level 3.",
+          "level_5": "SMA adopts MITA Framework for national information exchange. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is higher than Level 4."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "BCM Vault v3.0/Care Management 3.0/CM_Authorize_Referral_BCM_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

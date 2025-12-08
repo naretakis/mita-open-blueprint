@@ -1,0 +1,60 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Close Out Contract",
+  "process_code": "CO",
+  "sub_category": "Contract Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Close Out Contract business process closes out a contract, reconciles payments, and resolves outstanding issues. The business process may include a final audit of the contractor's performance and financial records.",
+    "trigger_events": [
+      "Contract end date reached.",
+      "Contract termination."
+    ],
+    "results": [
+      "Contract closed.",
+      "Final payment made or recovered.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive notification of contract end date or termination.",
+      "Review contract terms and conditions.",
+      "Conduct final audit of contractor performance and financial records.",
+      "Reconcile payments made to contractor.",
+      "Resolve outstanding issues.",
+      "Make final payment or recover overpayment.",
+      "Update contractor information.",
+      "Close contract.",
+      "END: Send notification of contract closure."
+    ],
+    "shared_data": [
+      "Contractor data store including contract information",
+      "Financial data store"
+    ],
+    "predecessor_processes": [
+      "Manage Contract"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction",
+      "Manage Contractor Communication"
+    ],
+    "constraints": "The Close Out Contract process must comply with state and federal regulations regarding contract closure and financial reconciliation.",
+    "failures": [
+      "Outstanding issues cannot be resolved.",
+      "Contractor disputes final payment.",
+      "Audit reveals significant discrepancies."
+    ],
+    "performance_measures": [
+      "Time to complete process = ___ months; ___ weeks",
+      "Accuracy of financial reconciliation = ___ %",
+      "Number of outstanding issues = ___",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Close_Out_Contract_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

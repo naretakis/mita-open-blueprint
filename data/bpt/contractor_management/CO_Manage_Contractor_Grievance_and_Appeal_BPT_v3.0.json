@@ -1,0 +1,59 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Contractor Management",
+  "process_name": "Manage Contractor Grievance and Appeal",
+  "process_code": "CO",
+  "sub_category": "Contractor Support",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Manage Contractor Grievance and Appeal business process receives, tracks, and resolves contractor grievances and appeals. The process ensures that grievances and appeals are handled in accordance with state and federal regulations and contract terms.",
+    "trigger_events": [
+      "Receive contractor grievance or appeal."
+    ],
+    "results": [
+      "Grievance or appeal resolved.",
+      "Decision communicated to contractor.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive contractor grievance or appeal.",
+      "Validate grievance or appeal meets filing requirements.",
+      "Assign grievance or appeal for review.",
+      "Conduct investigation and review.",
+      "Make determination on grievance or appeal.",
+      "Prepare decision documentation.",
+      "Send decision to contractor.",
+      "If applicable, implement corrective action.",
+      "END: Close grievance or appeal case."
+    ],
+    "shared_data": [
+      "Contractor data store including grievance and appeal history"
+    ],
+    "predecessor_processes": [
+      "Award Contract",
+      "Manage Contract"
+    ],
+    "successor_processes": [
+      "Send Outbound Transaction",
+      "Manage Contractor Communication"
+    ],
+    "constraints": "Grievance and appeal process must comply with state and federal regulations and due process requirements.",
+    "failures": [
+      "Grievance or appeal does not meet filing requirements.",
+      "Unable to resolve grievance or appeal.",
+      "Contractor requests further appeal."
+    ],
+    "performance_measures": [
+      "Time to resolve grievance or appeal = ___ days; ___ weeks",
+      "Resolution rate = ___ %",
+      "Overturn rate = ___ %",
+      "Error rate = __% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Contractor Management 3.0/CO_Manage_Contractor_Grievance_and_Appeal_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

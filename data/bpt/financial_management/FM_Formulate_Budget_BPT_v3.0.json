@@ -1,0 +1,62 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Financial Management",
+  "process_name": "Formulate Budget",
+  "process_code": "FM",
+  "sub_category": "Fiscal Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Formulate Budget business process:\n\n\u2022 Examines the current budget revenue stream and trends, and expenditures.\n\u2022 Assesses external factors affecting the program.\n\u2022 Assesses agency initiatives and plans.\n\u2022 Models different budget scenarios.\n\u2022 Periodically produces a new budget.",
+    "trigger_events": [
+      "Periodic timetable (e.g., annual) is due for budget review.",
+      "Receive review request from external forces (e.g., notice of revenue shortfall or overage and/or unforeseen rise in costs)."
+    ],
+    "results": [
+      "New or revised budget.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receive notice or other trigger event to prepare the Office of Governor budget transmittal for Legislative approval.",
+      "Review current budget including cost and revenue trends, Centers for Medicare & Medicaid Services (CMS) notification of federal grant award, demographics, utilization, and other information.",
+      "Research factors (e.g., national, legislative, and global) that affect the State Medicaid Agency (SMA) revenue, costs, major initiatives, and benefits.",
+      "Develop and send Office of Governor budget transmittal.",
+      "Testify before state legislature and/or convene stakeholders to consider alternatives.",
+      "Model or modify budget transmittal based on legislative or Office of Governor directives.",
+      "Legislature publishes finalized budget.",
+      "END: Enter approved budget into state accounting system and other expenditure accounting systems."
+    ],
+    "shared_data": [
+      "Financial data store including budget information",
+      "Business Activity data store including performance information",
+      "Plan data store including plan information",
+      "Health Benefit data store including benefit information"
+    ],
+    "predecessor_processes": [
+      "Maintain State Plan",
+      "Manage Health Plan Information",
+      "Manage Health Benefit Information",
+      "Manage Performance Measures"
+    ],
+    "successor_processes": [
+      "Manage Budget Information",
+      "Manage Health Plan Information",
+      "Manage Health Benefit Information"
+    ],
+    "constraints": "The SMA will follow federal and state requirements for budget management. Economic conditions shift, making less revenue available to fund the approved and planned budget.",
+    "failures": [
+      "Failure to receive all levels of required approval (that could result in continued use of previously approved budget)."
+    ],
+    "performance_measures": [
+      "Time to complete process = within __ days",
+      "Accuracy with which edits are applied = ___%",
+      "Consistency of decisions and disposition = ___%",
+      "Accuracy of budget projections measured against reality = ___%"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Financial Management 3.0/FM_Formulate_Budget_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

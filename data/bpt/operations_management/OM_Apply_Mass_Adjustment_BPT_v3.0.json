@@ -1,0 +1,78 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Operations Management",
+  "process_name": "Apply Mass Adjustment",
+  "process_code": "OM",
+  "sub_category": "Claims Adjudication",
+  "page_count": 3,
+  "process_details": {
+    "description": "The Apply Mass Adjustment business process begins with the receipt or notification of retroactive modifications. These changes may consist of modified rates associated with Healthcare Common Procedure Coding System (HCPCS), Claim Payment/Advice Transaction (CPT), Revenue Codes, or program modifications/conversions that affect payment or reporting. This mass adjustment business process includes identifying the payment transactions such as claims or capitation payment by identifiers (e.g., claim/bill type, HCPCS, CPT, Revenue Code(s), or member identification) that the State Medicaid Agency (SMA) paid incorrectly during a specified date range. The business process applies a predetermined set or sets of parameters that may reverse or amend the paid or denied transactions and repay correctly.\n\nNOTE: Do not confuse this process with the claim adjustment within the adjudication process. A mass adjustment may involve many previous payments based on a specific date or date range affecting single or multiple providers, members, or other payees. Likewise, mass adjustments historically refer to large-scale modifications in payments as opposed to disenrollment of a group of members from a Managed Care Organization (MCO).",
+    "trigger_events": [
+      "Receive a mass adjustment notification of retroactive rate or program modifications.",
+      "Correction of system errors resulting in incorrect payment amounts.",
+      "Identification of incorrectly denied claims"
+    ],
+    "results": [
+      "Validated mass adjustment information applied to previous payment records. If applicable, alert sent to notify member via Manage Applicant and Member Communication business process of relevant modifications.",
+      "If applicable, alert sent to notify provider via Manage Provider Communication business process of relevant modifications.",
+      "If applicable, alert sent to notify contractor via Manage Contractor Communication business process of relevant modifications.",
+      "If applicable, alert sent to send to provider Accredited Standards Committee (ASC) X12 835 Health Care Claim Payment/Advice transactions.",
+      "If applicable, alert sent to Manage Accounts Receivable Information business process of relevant modifications.",
+      "If applicable, alert sent to Manage Accounts Payable Information business process of relevant modifications.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
+    ],
+    "process_steps": [
+      "START: Receipt or notification of incorrect payments or denials, based on retroactive rate modifications, program modifications, retroactive modifications in member eligibility, or system errors.",
+      "Identify the parameters necessary to locate claim records.",
+      "Enter parameters (i.e., corrected information).",
+      "Apply the predetermined set of parameters that reverse the incorrect payments or denials.",
+      "If applicable, produce mass adjustment request report.",
+      "Review the mass adjustment report for validity and accuracy.",
+      "If applicable, send alert to notify member via Manage Applicant and Member Communication business process of relevant modifications to their cost share.",
+      "If applicable, send alert to notify provider via Manage Provider Communication business process of relevant modifications.",
+      "If applicable, send alert to send to provider ASC X12 835 Health Care Claim Payment/Advice transactions.",
+      "If applicable, send alert to notify contractor via Manage Contractor Communication business process of relevant modifications.",
+      "If applicable, send alert to Manage Accounts Receivable Information business process of relevant modifications.",
+      "If applicable, send alert to Manage Accounts Payable Information business process of relevant modifications.",
+      "END: Apply mass adjustment to previous payments."
+    ],
+    "shared_data": [
+      "Claims data store with transaction information",
+      "Provider data store with provider network and contract information",
+      "Contractor data store with provider network and contract information",
+      "Member data store with demographic information",
+      "Plan data store including policy information",
+      "Health Benefit data store including benefit program and benefit information",
+      "Financial data store including accounts receivable and accounts payable information"
+    ],
+    "predecessor_processes": [
+      "Manage Provider Recoupment",
+      "Manage Cost Settlement"
+    ],
+    "successor_processes": [
+      "Manage Provider Communication",
+      "Manage Contractor Communication",
+      "Manage Applicant and Member Communication",
+      "Process Claim",
+      "Process Encounter",
+      "Generate Remittance Advice",
+      "Manage Accounts Receivable Information",
+      "Manage Accounts Payable Information"
+    ],
+    "constraints": "The mass adjustment will correctly identify payments for adjustments. Processes may vary by state.",
+    "failures": [
+      "Cannot locate all claims, capitation payments, or denials specified for adjustment."
+    ],
+    "performance_measures": [
+      "Time to complete the process: e.g., Real Time response = within ___seconds, Batch Response = within ___ hours",
+      "Accuracy with which edit, audit, and pricing rules are applied = ___%",
+      "Error rate = ___% or less"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Operations Management 3.0/OM_Apply_Mass_Adjustment_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

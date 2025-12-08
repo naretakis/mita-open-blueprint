@@ -1,0 +1,77 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Manage Registry",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Manage Registry business process maintains registries of members with specific conditions, risk factors, or care needs to support population health management and care coordination. Registries enable tracking of member populations, monitoring of care gaps, and targeted interventions.",
+    "trigger_events": [
+      "New member meets registry criteria.",
+      "Member condition or status changes.",
+      "Periodic registry update scheduled.",
+      "New registry created for population health initiative.",
+      "Request for registry information."
+    ],
+    "results": [
+      "Current and accurate registry maintained.",
+      "Members added to or removed from registry as appropriate.",
+      "Registry reports available for care management.",
+      "Care gaps identified for registry members.",
+      "Registry data available for population health analysis."
+    ],
+    "process_steps": [
+      "START: Initiate registry management activity.",
+      "Define or review registry criteria and purpose.",
+      "Query member data to identify eligible members.",
+      "Evaluate members against registry inclusion criteria.",
+      "Add qualifying members to registry.",
+      "Update existing registry member information.",
+      "Remove members who no longer meet criteria.",
+      "Validate registry data accuracy and completeness.",
+      "Identify care gaps for registry members.",
+      "Generate registry reports and analytics.",
+      "Make registry information available to authorized users.",
+      "Document registry changes and rationale.",
+      "END: Complete registry management cycle."
+    ],
+    "shared_data": [
+      "Registry data store",
+      "Member data store including clinical information",
+      "Health Information Exchange (HIE) data store",
+      "Case Management data store",
+      "Claims data store"
+    ],
+    "predecessor_processes": [
+      "Enroll Member",
+      "Process Claims",
+      "Perform Screening and Assessment",
+      "Establish Case"
+    ],
+    "successor_processes": [
+      "Manage Population Health Outreach",
+      "Establish Case",
+      "Perform Screening and Assessment"
+    ],
+    "constraints": "Registry criteria must be evidence-based and aligned with clinical guidelines. Registry data must be maintained in compliance with privacy and security requirements. Registry updates must occur with sufficient frequency to support care management activities.",
+    "failures": [
+      "Registry criteria not clearly defined.",
+      "Data quality issues prevent accurate registry population.",
+      "Registry not updated timely.",
+      "Eligible members not identified for registry inclusion."
+    ],
+    "performance_measures": [
+      "Registry data accuracy and completeness",
+      "Timeliness of registry updates",
+      "Percentage of eligible members included in registry",
+      "Effectiveness of registry in supporting care management"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Manage_Registry_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

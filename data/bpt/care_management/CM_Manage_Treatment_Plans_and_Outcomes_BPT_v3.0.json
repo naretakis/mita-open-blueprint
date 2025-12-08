@@ -1,0 +1,81 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Manage Treatment Plans and Outcomes",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 2,
+  "process_details": {
+    "description": "The Manage Treatment Plans and Outcomes business process monitors implementation of authorized treatment plans and tracks member outcomes to ensure care goals are being achieved. This process includes ongoing assessment, plan adjustments, and outcome measurement.",
+    "trigger_events": [
+      "Treatment plan implementation milestone reached.",
+      "Scheduled treatment plan review date.",
+      "Member condition or circumstances change.",
+      "Provider reports treatment plan progress.",
+      "Outcome measurement period completed."
+    ],
+    "results": [
+      "Treatment plan progress documented.",
+      "Member outcomes measured and recorded.",
+      "Treatment plan modifications identified and implemented.",
+      "Care coordination activities documented.",
+      "Outcome reports generated for quality improvement.",
+      "Case closure initiated if goals achieved."
+    ],
+    "process_steps": [
+      "START: Initiate treatment plan monitoring.",
+      "Review current treatment plan and goals.",
+      "Collect information on plan implementation.",
+      "Assess member progress toward goals.",
+      "Measure outcomes using defined metrics.",
+      "Identify barriers to plan implementation.",
+      "Evaluate effectiveness of interventions.",
+      "Determine if plan modifications needed.",
+      "If modifications needed, revise treatment plan.",
+      "Coordinate with providers on plan changes.",
+      "Document outcomes and progress.",
+      "Update case management records.",
+      "Generate outcome reports.",
+      "If goals achieved, initiate case closure process.",
+      "END: Complete treatment plan monitoring cycle."
+    ],
+    "shared_data": [
+      "Case Management data store",
+      "Treatment Plan data store",
+      "Member data store including outcomes",
+      "Provider data store",
+      "Health Information Exchange (HIE) data store",
+      "Quality Measures data store"
+    ],
+    "predecessor_processes": [
+      "Authorize Treatment Plan",
+      "Authorize Service",
+      "Manage Case Information"
+    ],
+    "successor_processes": [
+      "Authorize Treatment Plan",
+      "Manage Case Information",
+      "Close Case"
+    ],
+    "constraints": "Treatment plan monitoring must occur at intervals specified in the plan. Outcome measures must be evidence-based and appropriate for the member's condition. Plan modifications require appropriate authorization. Member engagement is essential for accurate outcome assessment.",
+    "failures": [
+      "Unable to collect outcome data.",
+      "Member not engaged in treatment plan.",
+      "Barriers to plan implementation not addressed.",
+      "Treatment plan not achieving desired outcomes.",
+      "Provider not following treatment plan."
+    ],
+    "performance_measures": [
+      "Percentage of members achieving treatment goals",
+      "Time to goal achievement",
+      "Member satisfaction with care management",
+      "Quality of life improvements"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Manage_Treatment_Plan_and_Outcomes_BPT_v3 0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}

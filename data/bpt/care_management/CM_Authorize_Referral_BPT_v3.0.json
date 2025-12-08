@@ -1,0 +1,73 @@
+{
+  "document_type": "BPT",
+  "version": "3.0",
+  "date": "February 2012",
+  "business_area": "Care Management",
+  "process_name": "Authorize Referral",
+  "process_code": "CM",
+  "sub_category": "Care Management",
+  "page_count": 4,
+  "process_details": {
+    "description": "The Authorize Referral business process is responsible for referrals between providers that the State Medicaid Agency (SMA) authorizes. This business process may authorize referrals for services such as: Specialty care, Diagnostic services, Therapeutic services, Durable Medical Equipment (DME), Home health services, Long-term care services. The authorization may be automatic based on pre-established criteria or may require manual review and approval.",
+    "trigger_events": [
+      "Receive referral request from provider.",
+      "Receive referral information from Health Information Exchange (HIE).",
+      "Member requests referral."
+    ],
+    "results": [
+      "Referral authorization decision.",
+      "Notification to referring provider.",
+      "Notification to receiving provider.",
+      "Notification to member.",
+      "Updated case management information.",
+      "Tracking information for performance measurement."
+    ],
+    "process_steps": [
+      "START: Receive referral request.",
+      "Validate member eligibility and benefits.",
+      "Validate referring provider authorization.",
+      "Review referral against authorization criteria.",
+      "Determine if manual review is required.",
+      "If manual review required, assign to reviewer.",
+      "Review clinical information and medical necessity.",
+      "Make authorization decision (approve, deny, or pend).",
+      "Record authorization decision and details.",
+      "Generate notifications to providers and member.",
+      "Update case management records.",
+      "END: Send authorization response."
+    ],
+    "shared_data": [
+      "Member data store including demographics and eligibility",
+      "Provider data store including network information",
+      "Health Benefits data store including coverage and authorization rules",
+      "Case Management data store",
+      "Health Information Exchange (HIE) data store"
+    ],
+    "predecessor_processes": [
+      "Establish Case",
+      "Manage Case Information",
+      "Determine Member Eligibility"
+    ],
+    "successor_processes": [
+      "Manage Case Information",
+      "Authorize Service",
+      "Manage Treatment Plans and Outcomes"
+    ],
+    "constraints": "Authorization requirements vary by state, program, and service type. Some services require prior authorization while others may be authorized automatically. Time limits for authorization decisions are specified by state and federal regulations.",
+    "failures": [
+      "Referral does not meet authorization criteria.",
+      "Member is not eligible for requested service.",
+      "Referring provider is not authorized to make referral.",
+      "Insufficient clinical information to make decision."
+    ],
+    "performance_measures": [
+      "Time to authorization decision",
+      "Percentage of referrals approved",
+      "Percentage requiring manual review"
+    ]
+  },
+  "metadata": {
+    "source_file": "BPT Vault v3.0/Care Management 3.0/CM_Authorize_Referral_BPT_v3.0.pdf",
+    "extracted_date": "2025-12-05"
+  }
+}
