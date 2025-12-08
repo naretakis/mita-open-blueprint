@@ -8,13 +8,13 @@ This directory contains the original CMS MITA v3.0 PDF documents that were conve
 **Framework**: Medicaid Information Technology Architecture (MITA)  
 **Version**: 3.0  
 **Publication Date**: February 2012  
-**Official Website**: https://www.medicaid.gov/medicaid/data-systems/mita/index.html
+**Official Website**: https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework
 
 ## Disclaimer
 
 These PDF documents are works of the U.S. Government and are in the public domain. They are provided here for reference and verification purposes.
 
-**Important**: This repository is not affiliated with or endorsed by CMS. For the most current and authoritative MITA documentation, please visit the [official CMS MITA website](https://www.medicaid.gov/medicaid/data-systems/mita/index.html).
+**Important**: This repository is not affiliated with or endorsed by CMS. For the most current and authoritative MITA documentation, please visit the [official CMS MITA website](https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework).
 
 ## Structure
 
@@ -91,12 +91,6 @@ The MITA Framework provides:
 
 This repository focuses on the **Business Architecture** components (BCM and BPT).
 
-## Additional MITA Resources
-
-- **MITA Framework Overview**: https://www.medicaid.gov/medicaid/data-systems/mita/mita-30/index.html
-- **MITA State Self-Assessment**: https://www.medicaid.gov/medicaid/data-systems/mita/mita-state-self-assessment/index.html
-- **MITA 3.0 Toolkit**: Available from CMS
-
 ## Copyright & License
 
 **Original MITA Documents**: Public domain as works of the U.S. Government
@@ -104,7 +98,7 @@ This repository focuses on the **Business Architecture** components (BCM and BPT
 **No Copyright Restrictions**: These documents may be freely reproduced, distributed, and used without permission.
 
 **Citation Recommended**: When using these documents, please cite:
-> Centers for Medicare & Medicaid Services. (2012). Medicaid Information Technology Architecture (MITA) Framework, Version 3.0. Retrieved from https://www.medicaid.gov/medicaid/data-systems/mita/index.html
+> Centers for Medicare & Medicaid Services. (2012). Medicaid Information Technology Architecture (MITA) Framework, Version 3.0. Retrieved from https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework
 
 ## Version History
 

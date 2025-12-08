@@ -205,9 +205,9 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
 
 This dataset is derived from the **CMS Medicaid Information Technology Architecture (MITA) Framework Version 3.0**, published by the Centers for Medicare & Medicaid Services (CMS).
 
-**Original Source**: [CMS MITA Initiative](https://www.medicaid.gov/medicaid/data-systems/mita/index.html)
+**Original Source**: [CMS MITA Framework](https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework)
 
-**Disclaimer**: This is an unofficial conversion of CMS MITA documents to JSON format. While every effort has been made to ensure accuracy, users should refer to the [official CMS MITA documentation](https://www.medicaid.gov/medicaid/data-systems/mita/index.html) for authoritative information. This repository is not affiliated with or endorsed by CMS.
+**Disclaimer**: This is an unofficial conversion of CMS MITA documents to JSON format. While every effort has been made to ensure accuracy, users should refer to the [official CMS MITA documentation](https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework) for authoritative information. This repository is not affiliated with or endorsed by CMS.
 
 The original MITA documents are in the public domain as works of the U.S. Government. The JSON conversion and repository structure are provided under the GNU General Public License v3.0.
 

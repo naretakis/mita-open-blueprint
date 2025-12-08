@@ -166,7 +166,7 @@ Pull requests are evaluated on:
 - [Data Structure Guide](docs/DATA_STRUCTURE.md)
 - [Conversion Methodology](docs/CONVERSION_METHODOLOGY.md)
 - [Usage Examples](docs/EXAMPLES.md)
-- [Official CMS MITA Documentation](https://www.medicaid.gov/medicaid/data-systems/mita/index.html)
+- [Official CMS MITA Documentation](https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework)
 
 ## Recognition
 
