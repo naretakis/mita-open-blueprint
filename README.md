@@ -31,7 +31,7 @@ import json
 import urllib.request
 
 # Base URL for raw GitHub content
-BASE_URL = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/data"
+BASE_URL = "https://raw.githubusercontent.com/naretakis/medicaid-mita-data/main/data"
 
 # Load a BCM file directly from GitHub
 bcm_url = f"{BASE_URL}/bcm/care_management/CM_Establish_Case_BCM_v3.0.json"
@@ -46,7 +46,7 @@ for question in bcm['maturity_model']['capability_questions']:
 
 ```javascript
 // JavaScript/Node.js example
-const BASE_URL = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/data";
+const BASE_URL = "https://raw.githubusercontent.com/naretakis/medicaid-mita-data/main/data";
 
 // Load a BPT file directly from GitHub
 const bptUrl = `${BASE_URL}/bpt/care_management/CM_Establish_Case_BPT_v3.0.json`;
@@ -81,8 +81,8 @@ data/
 If you prefer to work with local files:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+git clone https://github.com/naretakis/medicaid-mita-data.git
+cd medicaid-mita-data
 ```
 
 ```python
