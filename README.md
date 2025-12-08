@@ -1,12 +1,12 @@
-# MITA BCM & BPT Data Repository
+# Medicaid MITA Data - A BCM & BPT Data Repository
 
-A comprehensive, machine-readable dataset of CMS MITA (Medicaid Information Technology Architecture) Business Capability Models (BCM) and Business Process Templates (BPT) in JSON format.
+A comprehensive, machine-readable dataset of CMS MITA (Medicaid Information Technology Architecture) Business Process Templates (BPT) and Business Capability Models (BCM) in JSON format.
 
 ## Overview
 
 This repository contains all 144 MITA v3.0 documents converted from PDF to structured JSON format:
-- **72 BCM files** - Business Capability Maturity models with 5-level maturity assessments
 - **72 BPT files** - Business Process Templates with detailed process steps and workflows
+- **72 BCM files** - Business Capability Maturity models with 5-level maturity assessments
 
 The data covers all 10 MITA business areas:
 - Business Relationship Management
