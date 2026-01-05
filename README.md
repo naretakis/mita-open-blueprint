@@ -1,4 +1,4 @@
-# Medicaid MITA Data - A BCM & BPT Data Repository
+# MITA Open Blueprint - A BCM & BPT Data Repository
 
 A comprehensive, machine-readable dataset of CMS MITA (Medicaid Information Technology Architecture) Business Process Templates (BPT) and Business Capability Models (BCM) in JSON format.
 
