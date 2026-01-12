@@ -10,40 +10,18 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Establish Compliance Incident Capability Question How integrated or central is the process?",
+        "question": "Establish Compliance Incident How integrated or central is the process? automatic? use standards in the process? process?",
         "levels": {
-          "level_1": "parts of the organization. There is little coordination among SMA",
-          "level_2": "There is improved coordination between SMA and other stakeholders in Establish Compliance Incident",
-          "level_3": "and federal law enforcement agencies, CMS, and providers to the",
-          "level_4": "suppression of information or corrective action from federal and state law",
-          "level_5": "state, regional and federal law enforcement, CMS, providers, and other"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question Is the process primarily manual or automatic? use standards in the process?",
-        "levels": {
-          "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using",
-          "level_2": "processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. Increases availability of information Establish Compliance Incident",
-          "level_3": "and federal law enforcement agencies, CMS, and providers to the extent possible within the intrastate. SMA produces audit trail of compliance decision 100% of the time. SMA adopts MITA Framework, industry standards, state and federal law enforcement",
-          "level_4": "and federal law enforcement agencies, CMS, and providers to the full extent possible across the interstate. SMA adopts MITA Framework, industry standards, state and federal law enforcement",
-          "level_5": "and federal law enforcement agencies, CMS, and providers to the full extent possible across the nation. SMA adopts MITA Framework, industry standards, state and federal law enforcement"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
-        "levels": {
-          "level_1": "",
-          "level_2": "transactions.",
-          "level_3": "enforcement agencies, and CMS to adopt national standards, and to develop and share reusable business services.",
-          "level_4": "agencies, and CMS to adopt national standards, and to develop and share reusable processes including clinical information.",
-          "level_5": "other federal agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+          "level_1": "parts of the organization. There is little coordination among SMA programs or between SMA and other stakeholders (e.g., other state agencies, CMS, intermediaries, other payers) in relation to the process. The process consists primarily of manual paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "There is improved coordination between SMA and other stakeholders in Establish Compliance Incident relation to the process. SMA uses a mix of manual and automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. Increases availability of information Establish Compliance Incident improves data usefulness for performance monitoring, management reporting and analysis over Level 1. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "and federal law enforcement agencies, CMS, and providers to the extent possible within the intrastate. SMA automates process with state and federal law enforcement agencies, CMS, and providers to the extent possible within the intrastate. SMA produces audit trail of compliance decision 100% of the time. SMA adopts MITA Framework, industry standards, state and federal law enforcement agencies, and CMS standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities, e.g., state law enforcement, federal law enforcement agencies, and CMS to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "suppression of information or corrective action from federal and state law enforcement; compliance investigation information from CMS; and self- disclosure of actual or potential violations from providers. SMA automates process with state and federal law enforcement agencies, CMS, and providers to the full extent possible across the interstate. SMA adopts MITA Framework, industry standards, state and federal law enforcement agencies, and CMS standards, and other nationally recognized standards for compliance and interstate information exchange. SMA collaborates with other interstate agencies and entities, state and federal law enforcement agencies, and CMS to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "state, regional and federal law enforcement, CMS, providers, and other federal agencies across the nation. SMA automates process with state and federal law enforcement agencies, CMS, and providers to the full extent possible across the nation. SMA adopts MITA Framework, industry standards, state and federal law enforcement agencies, and CMS standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities, state and federal law enforcement agencies, CMS, and other federal agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
         "category": "Business Capability Quality: Timeliness of Process",
-        "question": "How timely is the end-to-end Capability Question process?",
+        "question": "How timely is the end-to-end process?",
         "levels": {
           "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation).",
           "level_2": "of automation. Timeliness exceeds legal requirements.",
@@ -54,29 +32,18 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "How accurate is the information in the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for",
-          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Establish Compliance Incident",
-          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information",
-          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for",
-          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules"
-        }
-      },
-      {
-        "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accessible is the information in the process?",
-        "levels": {
-          "level_1": "disparate systems including paper storage and obtains information manually.",
-          "level_2": "disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
-          "level_3": "and exchanges with state and federal law enforcement, CMS, providers, and other intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
-          "level_4": "and exchanges with state, district, and federal law enforcement, CMS, providers, interstate agencies and entities. Accessibility is greater than Level 3.",
-          "level_5": "and exchanges with state and federal law enforcement, CMS, providers, federal agencies and entities. Accessibility is greater than Level 4."
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually.",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Establish Compliance Incident SMA stores information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with state and federal law enforcement, CMS, providers, and other intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision- making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with state, district, and federal law enforcement, CMS, providers, interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with state and federal law enforcement, CMS, providers, federal agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
         "category": "Business Capability Quality: Cost Effectiveness",
-        "question": "What is the cost of Capability Question the process compared to the benefits of its results?",
+        "question": "What is the cost of the process compared to the benefits of its results?",
         "levels": {
           "level_1": "standardized tasks.",
           "level_2": "resolution, improving cost effectiveness ratio over Level 1.",
@@ -89,16 +56,16 @@
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
         "question": "How efficient is the process?",
         "levels": {
-          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA",
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Establish Compliance Incident",
-          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with state and federal law enforcement, CMS, and intrastate agencies and entities improving efficiency",
-          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with state, district and federal law enforcement, CMS, and interstate agencies and entities",
-          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with state and federal law enforcement, CMS, and federal agencies and entities improving efficiency"
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with state and federal law enforcement, CMS, and intrastate agencies and entities improving efficiency to 95% or higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with state, district and federal law enforcement, CMS, and interstate agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with state and federal law enforcement, CMS, and federal agencies and entities improving efficiency to 98% or higher."
         }
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate are the results of the process?",
+        "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "opportunity for human error. Accuracy is low.",
           "level_2": "rules definitions reduce error and improve accuracy above Level 1.",
@@ -113,14 +80,14 @@
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1. Establish Compliance Incident",
-          "level_3": "standards and information exchange with state and federal law enforcement, CMS, and intrastate agencies and entities improving stakeholder",
-          "level_4": "standards and information exchange with state, district, and federal law enforcement, CMS, and interstate agencies and entities improving",
-          "level_5": "standards and information exchange with state and federal law enforcement, CMS, and federal agencies and entities improving stakeholder"
+          "level_3": "standards and information exchange with state and federal law enforcement, CMS, and intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with state, district, and federal law enforcement, CMS, and interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with state and federal law enforcement, CMS, and federal agencies and entities improving stakeholder satisfaction to 98% or higher."
         }
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Manage Compliance Incident Information Capability Question How integrated or central is the process?",
+        "question": "Manage Compliance Incident Information How integrated or central is the process?",
         "levels": {
           "level_1": "parts of the organization. There is little coordination among SMA",
           "level_2": "SMA improves coordination between SMA and other",

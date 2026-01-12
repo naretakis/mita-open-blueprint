@@ -10,35 +10,13 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Maintain Program Policy Capability Question Is the process primarily manual or automatic? change?",
+        "question": "Maintain Program Policy Is the process primarily manual or automatic? change? throughout the organization? use standards in the process? performing the process?",
         "levels": {
-          "level_1": "manual paper-based activity to accomplish tasks. SMA is unable to adapt easily to changes to the program policy and provide timely information to stakeholders.",
-          "level_2": "automatic processes to accomplish tasks. SMA uses tools to gather, record, analyze, formulate, communicate, and distribute information on program policy to SMA leadership and other state agencies. SMA is able to develop and maintained policy with collaboration from other agencies that encourages flexibility. Maintain Program Policy",
-          "level_3": "brainstorming and using automatic collaboration tools, which enables statewide input to the policy setting process. SMA develops and maintains policy with collaboration from other intrastate agencies. SMA quickly distributes modifications to policy to",
-          "level_4": "policy setting process by automating processes. SMA develops and maintains policy with collaboration from other interstate agencies. SMA distributes in near- real time modifications to",
-          "level_5": "automate processes which enables national input into the policy setting process. SMA develops and maintains policy with collaboration from other intrastate agencies. SMA distributes in near- real time modifications to"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question Are policies traceable throughout the organization? use standards in the process?",
-        "levels": {
-          "level_1": "activities directly to program policy. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information",
-          "level_2": "activities directly to program policy. SMA applies a mix of nationally recognized and state-specific standards. SMA collaborates with other agencies and entities to adopt standards and Electronic Data Maintain Program Policy",
-          "level_3": "activities to program policy within the intrastate. SMA uses business intelligence tools to monitor progress toward benchmarks. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards,",
-          "level_4": "activities to program policy across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to",
-          "level_5": "activities to program policy across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question performing the process?",
-        "levels": {
-          "level_1": "exchange or business tasks.",
-          "level_2": "Interchange (EDI) transactions.",
-          "level_3": "and to develop and share reusable business services.",
-          "level_4": "develop and share reusable processes including clinical information.",
-          "level_5": "improvements that maximize automation of routine operations."
+          "level_1": "manual paper-based activity to accomplish tasks. SMA is unable to adapt easily to changes to the program policy and provide timely information to stakeholders. SMA is unable to trace operational activities directly to program policy. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "automatic processes to accomplish tasks. SMA uses tools to gather, record, analyze, formulate, communicate, and distribute information on program policy to SMA leadership and other state agencies. SMA is able to develop and maintained policy with collaboration from other agencies that encourages flexibility. Maintain Program Policy SMA is able to trace some operational activities directly to program policy. SMA applies a mix of nationally recognized and state-specific standards. SMA collaborates with other agencies and entities to adopt standards and Electronic Data Maintain Program Policy Interchange (EDI) transactions.",
+          "level_3": "brainstorming and using automatic collaboration tools, which enables statewide input to the policy setting process. SMA develops and maintains policy with collaboration from other intrastate agencies. SMA quickly distributes modifications to policy to stakeholders. SMA directly ties all relevant operational activities to program policy within the intrastate. SMA uses business intelligence tools to monitor progress toward benchmarks. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "policy setting process by automating processes. SMA develops and maintains policy with collaboration from other interstate agencies. SMA distributes in near- real time modifications to policy to stakeholders. SMA directly ties all relevant operational activities to program policy across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "automate processes which enables national input into the policy setting process. SMA develops and maintains policy with collaboration from other intrastate agencies. SMA distributes in near- real time modifications to policy to stakeholders. SMA directly ties all relevant operational activities to program policy across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
@@ -54,18 +32,18 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate is the information in the process? the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually. Program policy is vague and",
-          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Program policy is up-to-date and more accurate. SMA stores information in disparate systems, but automation and standards increase accessibility over Maintain Program Policy",
-          "level_3": "collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Program",
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually. Program policy is vague and incomplete.",
+          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Program policy is up-to-date and more accurate. SMA stores information in disparate systems, but automation and standards increase accessibility over Maintain Program Policy Level 1.",
+          "level_3": "collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Program policy is central, up- to-date and accurate. Accessibility is greater than Level 2.",
           "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
           "level_5": "industry standards for information exchange with national agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
         "category": "Business Capability Quality: Cost Effectiveness",
-        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "question": "What is the cost of the process compared to the benefits of its results?",
         "levels": {
           "level_1": "",
           "level_2": "cost effectiveness ratio over Level 1.",
@@ -76,7 +54,7 @@
       },
       {
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
-        "question": "How efficient is the Capability Question process?",
+        "question": "How efficient is the process?",
         "levels": {
           "level_1": "wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "productivity. Efficiency is higher than Level 1.",
@@ -98,7 +76,7 @@
       },
       {
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
-        "question": "Does the business process satisfy Capability Question stakeholders?",
+        "question": "Does the business process satisfy stakeholders?",
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",

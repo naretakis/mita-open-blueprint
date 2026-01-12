@@ -10,7 +10,7 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Determine Adverse Action Incident How integrated or central is the process? primarily manual or automatic? process? in performing the process?",
+        "question": "Determine Adverse Action Incident How integrated or central is the process? primarily manual or automatic? process? in performing the process?",
         "levels": {
           "level_1": "organization. There is little coordination among SMA programs or between SMA and other stakeholders (e.g., other state agencies, CMS, intermediaries, other payers) in relation to the process. The process consists primarily of manual paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
           "level_2": "coordination between SMA and other stakeholders. SMA uses a mix of manual and automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. Determine Adverse Action Incident SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions.",
@@ -87,7 +87,7 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Prepare REOMB Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "question": "Prepare REOMB Is the process primarily manual or automatic? use standards in the process?",
         "levels": {
           "level_1": "paper-based activity to accomplish tasks. SMA identifies the samples and generates Recipient Explanation of Medical Benefits (REOMB) manually. Distribution is via the mail. SMA focuses on meeting compliance thresholds for state and federal",
           "level_2": "automatic processes to accomplish tasks. SMA uses sampling enhancements to target selected populations. SMA applies a mix of HIPAA and state- specific standards.",

@@ -10,7 +10,7 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question stakeholders?",
+        "question": "stakeholders?",
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
@@ -21,35 +21,13 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Maintain State Plan Capability Question Capability Question Is the process primarily manual or automatic? change?",
+        "question": "Maintain State Plan Is the process primarily manual or automatic? change? throughout the organization? use standards in the process? performing the process?",
         "levels": {
-          "level_1": "manual paper-based activity to accomplish tasks. SMA is unable to adapt easily to changes to the Medicaid State Plan and provide timely",
-          "level_2": "automatic processes to accomplish tasks. SMA uses tools to gather, record, analyze, formulate, communicate, and distribute information on Medicaid State Plan to SMA leadership and other state agencies. SMA distributes Medicaid State Plan electronically to stakeholders. SMA is able to develop and maintained Medicaid State Plan with collaboration from Maintain State Plan",
-          "level_3": "extent possible within the intrastate. SMA uses brainstorming and automatic collaboration tools, which enables statewide input to the Medicaid State Plan setting process. SMA develops and maintains Medicaid State Plan with collaboration from other intrastate",
-          "level_4": "extent possible across the interstate. SMA develops and maintains Medicaid State Plan with collaboration from other interstate",
-          "level_5": "extent possible across the nation. SMA develops and maintains Medicaid State Plan with collaboration from other intrastate"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question Is Medicaid State Plan traceable throughout the organization? use standards in the process?",
-        "levels": {
-          "level_1": "activities directly to Medicaid State Plan. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little",
-          "level_2": "activities directly to Medicaid State Plan. SMA applies a mix of nationally recognized and state-specific standards. SMA collaborates Maintain State Plan",
-          "level_3": "activities to Medicaid State Plan within the intrastate. SMA uses business intelligence tools to monitor progress toward benchmarks. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates",
-          "level_4": "activities to Medicaid State Plan across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates",
-          "level_5": "activities to Medicaid State Plan across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question Medicaid Agency collaborate with other agencies or entities in performing the process?",
-        "levels": {
-          "level_1": "exchange or business tasks.",
-          "level_2": "Interchange (EDI) transactions.",
-          "level_3": "and to develop and share reusable business services.",
-          "level_4": "develop and share reusable processes including clinical information.",
-          "level_5": "improvements that maximize automation of routine operations."
+          "level_1": "manual paper-based activity to accomplish tasks. SMA is unable to adapt easily to changes to the Medicaid State Plan and provide timely information to stakeholders. SMA is unable to trace operational activities directly to Medicaid State Plan. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "automatic processes to accomplish tasks. SMA uses tools to gather, record, analyze, formulate, communicate, and distribute information on Medicaid State Plan to SMA leadership and other state agencies. SMA distributes Medicaid State Plan electronically to stakeholders. SMA is able to develop and maintained Medicaid State Plan with collaboration from Maintain State Plan other agencies that encourages flexibility. SMA is able to trace some operational activities directly to Medicaid State Plan. SMA applies a mix of nationally recognized and state-specific standards. SMA collaborates Maintain State Plan with other agencies and entities to adopt standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "extent possible within the intrastate. SMA uses brainstorming and automatic collaboration tools, which enables statewide input to the Medicaid State Plan setting process. SMA develops and maintains Medicaid State Plan with collaboration from other intrastate agencies. SMA quickly distributes modifications to policy to stakeholders. SMA directly ties all relevant operational activities to Medicaid State Plan within the intrastate. SMA uses business intelligence tools to monitor progress toward benchmarks. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "extent possible across the interstate. SMA develops and maintains Medicaid State Plan with collaboration from other interstate agencies. SMA distributes in near- real time modifications to policy to stakeholders. SMA directly ties all relevant operational activities to Medicaid State Plan across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "extent possible across the nation. SMA develops and maintains Medicaid State Plan with collaboration from other intrastate agencies. SMA distributes in near- real time modifications to policy to stakeholders. SMA directly ties all relevant operational activities to Medicaid State Plan across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
@@ -65,18 +43,18 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate is the information in the process? the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually. Medicaid State Plan is vague",
-          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Medicaid State Plan is up-to-date and more accurate. SMA stores information in disparate systems, but automation and standards increase accessibility over Maintain State Plan",
-          "level_3": "collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Medicaid",
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually. Medicaid State Plan is vague and incomplete.",
+          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Medicaid State Plan is up-to-date and more accurate. SMA stores information in disparate systems, but automation and standards increase accessibility over Maintain State Plan Level 1.",
+          "level_3": "collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Medicaid State Plan is central, up-to-date and accurate. Accessibility is greater than Level 2.",
           "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
           "level_5": "industry standards for information exchange with national agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
         "category": "Business Capability Quality: Cost Effectiveness",
-        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "question": "What is the cost of the process compared to the benefits of its results?",
         "levels": {
           "level_1": "",
           "level_2": "cost effectiveness ratio over Level 1.",
@@ -87,7 +65,7 @@
       },
       {
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
-        "question": "Capability Question How efficient is the process?",
+        "question": "How efficient is the process?",
         "levels": {
           "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
@@ -109,7 +87,7 @@
       },
       {
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
-        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "question": "Does the business process satisfy stakeholders?",
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
@@ -120,7 +98,7 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Health Plan Administration Manage Health Plan Information Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "question": "Health Plan Administration Manage Health Plan Information Is the process primarily manual or automatic? use standards in the process?",
         "levels": {
           "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange",
           "level_2": "automatic processes to accomplish tasks. SMA uses business intelligence tools to analyze data to support maintenance of the health plans. SMA applies a mix of nationally recognized and state-specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI)",

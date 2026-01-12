@@ -10,24 +10,13 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Accounts Payable Management Manage Contractor Payment Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "question": "Accounts Payable Management Manage Contractor Payment Is the process primarily manual or automatic? use standards in the process? performing the process?",
         "levels": {
-          "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies",
-          "level_2": "automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. SMA collaborates with other agencies and entities to adopt Manage Contractor Payment",
-          "level_3": "extent possible within the intrastate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities",
-          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities",
-          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question other agencies or entities in performing the process?",
-        "levels": {
-          "level_1": "or business tasks.",
-          "level_2": "Interchange (EDI) transactions.",
-          "level_3": "develop and share reusable business services.",
-          "level_4": "develop and share reusable processes including clinical information.",
-          "level_5": "improvements that maximize automation of routine operations."
+          "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. SMA collaborates with other agencies and entities to adopt Manage Contractor Payment HIPAA standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "extent possible within the intrastate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
@@ -43,18 +32,18 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "How accurate is the information in the Capability Question process? the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
           "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually.",
           "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1. Manage Contractor Payment",
-          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
           "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision- making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
           "level_5": "industry standards for information exchange with national agencies. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
         "category": "Business Capability Quality: Cost Effectiveness",
-        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "question": "What is the cost of the process compared to the benefits of its results?",
         "levels": {
           "level_1": "",
           "level_2": "cost effectiveness ratio over Level 1.",
@@ -67,7 +56,7 @@
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
         "question": "How efficient is the process?",
         "levels": {
-          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA",
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Manage Contractor Payment",
           "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
           "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
@@ -76,7 +65,7 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate are the results of the process?",
+        "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "opportunity for human error. Accuracy is low.",
           "level_2": "business rules definitions reduce error and improve accuracy above Level 1.",
@@ -91,14 +80,14 @@
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1. Manage Contractor Payment",
-          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher.",
-          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or",
-          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or"
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
         }
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Manage Member Financial Participation Capability Question Is the process primarily manual or automatic? use standards in the process? process?",
+        "question": "Manage Member Financial Participation Is the process primarily manual or automatic? use standards in the process? process?",
         "levels": {
           "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
           "level_2": "automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions.",

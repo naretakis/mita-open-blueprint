@@ -10,12 +10,12 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Prepare Provider Payment Capability Question Is the process primarily manual or automatic? use standards in the process? process?",
+        "question": "Prepare Provider Payment Is the process primarily manual or automatic? use standards in the process? process?",
         "levels": {
           "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
           "level_2": "automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions. Prepare Provider Payment",
           "level_3": "extent possible within the intrastate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
-          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical Level 4 & 5 information.",
+          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
           "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
@@ -37,7 +37,7 @@
           "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually. Data access may take up to 30 business days.",
           "level_2": "accuracy of information but the decision-making process may be erroneous or Prepare Provider Payment misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1. Data access may take three (3) to seven (7) hours. Prepare Provider Payment",
           "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision-making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities. Accessibility is greater than Level 2.",
-          "level_4": "information collection increases the reliability of SMA’s internal and external sources of information. SMA Level 4 & 5 adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3. Level 4 & 5",
+          "level_4": "information collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
           "level_5": "Framework and industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
@@ -59,7 +59,7 @@
           "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Prepare Provider Payment",
           "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
-          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher. Level 4 & 5",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
           "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
         }
       },
@@ -81,13 +81,13 @@
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1. Prepare Provider Payment",
           "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
-          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or Level 4 & 5 higher.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
           "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
         }
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Manage Data Capability Question Is the process primarily manual or automatic?",
+        "question": "Manage Data Is the process primarily manual or automatic?",
         "levels": {
           "level_1": "accomplish Extract, Transform and Load (ETL) tasks. SMA focuses on meeting compliance",
           "level_2": "automatic ETL processes to accomplish tasks. SMA applies a mix of industry and state-",

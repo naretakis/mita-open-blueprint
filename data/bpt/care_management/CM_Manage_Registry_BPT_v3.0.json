@@ -21,7 +21,17 @@
       "• The SMA prepares and sends updated health outcome.",
       "• Tracking information as needed for measuring performance and business activity monitoring."
     ],
-    "process_steps": [],
+    "process_steps": [
+      "1. START: Receive member’s health outcome information.",
+      "2. Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and submitter has completed all required fields.",
+      "3. Validate that the provided information is authentic.",
+      "4. Prepare submittal for member’s health outcome information to registry.",
+      "5. END: Send member’s health outcome information to registry.",
+      "1. START: Receive request for health outcome information.",
+      "2. Validate requestor has authorization to receive desired information.",
+      "3. Prepare submittal for member’s health outcome information to requestor.",
+      "4. END: Send member’s health outcome information to requestor."
+    ],
     "diagrams": [],
     "shared_data": [
       "Health Registry data store including health outcomes (e.g., immunizations, cancer, heart, diabetes, or disease)",

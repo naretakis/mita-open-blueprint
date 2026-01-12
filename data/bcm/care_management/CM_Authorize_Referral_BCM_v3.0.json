@@ -10,35 +10,13 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Authorization Determination Authorize Referral Capability Question Is the process primarily manual or automatic?",
+        "question": "Authorization Determination Authorize Referral Is the process primarily manual or automatic? use standards in the process? business rules of Authorize Referral? performing the process?",
         "levels": {
-          "level_1": "activity to accomplish tasks. Primary care provider approves of services by other providers in keeping with state business",
-          "level_2": "automatic processes to accomplish tasks. Primary care provider uses an on-line form to authorize the Authorize Referral",
-          "level_3": "extent possible within the intrastate.",
-          "level_4": "extent possible within the region.",
-          "level_5": "extent possible across the nation."
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question Does the State Medicaid Agency use standards in the process? business rules of Authorize Referral?",
-        "levels": {
-          "level_1": "thresholds for state and federal regulations using state-specific standards. Manual rule changes require many business days for approval and implementation. Very little collaboration occurs with other agencies",
-          "level_2": "specific standards. SMA adopts the Accredited Standards Committee (ASC) X12 278 Health Care Services Review Information transaction. Although there may be some automation of standardized business rules definitions, changes and maintenance are labor intensive. SMA collaborates with other agencies and entities to adopt Authorize Referral",
-          "level_3": "standards, and other nationally recognized standards for intrastate exchange of information. Adoption of the separation of standardized intrastate business rules definitions from core programming, available in both human and machine- readable formats. SMA collaborates with other intrastate agencies and entities",
-          "level_4": "standards, and other nationally recognized standards for clinical and regional information exchange. Adoption of the separation of regionally standardized business rules definitions from core programming, available in both human and machine- readable formats. SMA collaborates with other regional agencies and entities",
-          "level_5": "standards, and other nationally recognized standards for national information exchange. Adoption of the separation of nationally standardized business rules definitions from core programming, available in both human and machine- readable formats. SMA collaborates with agencies and entities for national"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question other agencies or entities in performing the process?",
-        "levels": {
-          "level_1": "or business tasks.",
-          "level_2": "Interchange (EDI) transactions.",
-          "level_3": "develop and share reusable business services.",
-          "level_4": "develop and share reusable processes including clinical information.",
-          "level_5": "improvements that maximize automation of routine operations."
+          "level_1": "activity to accomplish tasks. Primary care provider approves of services by other providers in keeping with state business rules. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Manual rule changes require many business days for approval and implementation. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "automatic processes to accomplish tasks. Primary care provider uses an on-line form to authorize the Authorize Referral referral. SMA applies a mix of HIPAA and state- specific standards. SMA adopts the Accredited Standards Committee (ASC) X12 278 Health Care Services Review Information transaction. Although there may be some automation of standardized business rules definitions, changes and maintenance are labor intensive. SMA collaborates with other agencies and entities to adopt Authorize Referral HIPAA standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "extent possible within the intrastate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. Adoption of the separation of standardized intrastate business rules definitions from core programming, available in both human and machine- readable formats. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "extent possible within the region. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and regional information exchange. Adoption of the separation of regionally standardized business rules definitions from core programming, available in both human and machine- readable formats. SMA collaborates with other regional agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national information exchange. Adoption of the separation of nationally standardized business rules definitions from core programming, available in both human and machine- readable formats. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
@@ -48,30 +26,19 @@
           "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). The Authorize Referral may take many business days to complete.",
           "level_2": "of automation. Timeliness exceeds legal requirements. Authorize Referral",
           "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. The process requires five (5) minutes or less for routine requests. More complex requests may require 30 minutes to review documentation.",
-          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has regional interoperability. The process requires five (5) minutes or less for routine requests. More complex requests may require",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has regional interoperability. The process requires five (5) minutes or less for routine requests. More complex requests may require 30 minutes to review documentation.",
           "level_5": "Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
         }
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate is the information in the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. Information SMA stores information in disparate systems",
-          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, Authorize Referral",
-          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with",
-          "level_4": "increases the reliability of regional sources of information. SMA adopts MITA Framework for information exchange by interstate agencies. Decision- making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with",
-          "level_5": "national information exchange. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with"
-        }
-      },
-      {
-        "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question the process?",
-        "levels": {
-          "level_1": "including paper storage and obtains information manually.",
-          "level_2": "but automation and HIPAA standards increase accessibility to less than one (1) hour.",
-          "level_3": "intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is 30 seconds or less.",
-          "level_4": "interstate agencies and entities. Accessibility is 30 seconds or less.",
-          "level_5": "national agencies and entities. Accessibility is 30 seconds or less."
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. Information SMA stores information in disparate systems including paper storage and obtains information manually.",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, Authorize Referral but automation and HIPAA standards increase accessibility to less than one (1) hour.",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is 30 seconds or less.",
+          "level_4": "increases the reliability of regional sources of information. SMA adopts MITA Framework for information exchange by interstate agencies. Decision- making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is 30 seconds or less.",
+          "level_5": "national information exchange. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is 30 seconds or less."
         }
       },
       {
@@ -87,7 +54,7 @@
       },
       {
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
-        "question": "How efficient is the Capability Question process?",
+        "question": "How efficient is the process?",
         "levels": {
           "level_1": "intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "standards increase productivity. Efficiency is higher than Level 1.",
@@ -109,7 +76,7 @@
       },
       {
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
-        "question": "Does the business process satisfy Capability Question stakeholders?",
+        "question": "Does the business process satisfy stakeholders?",
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",

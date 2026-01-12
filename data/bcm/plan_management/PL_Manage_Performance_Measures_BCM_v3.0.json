@@ -10,7 +10,7 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Manage Performance Measures Capability Question Is the process The process consists primarily manual primarily of manual or automatic? paper-based activity to accomplish tasks.",
+        "question": "Manage Performance Measures Is the process The process consists primarily manual primarily of manual or automatic? paper-based activity to accomplish tasks.",
         "levels": {
           "level_1": "processes to accomplish tasks.",
           "level_2": "extent possible within the intrastate.",
@@ -21,29 +21,18 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "The process is manual and duplicated in multiple areas within the organization. Capability Question Does the State SMA focuses on Medicaid meeting compliance Agency use thresholds for state standards in the and federal process? regulations using state-specific Milestones Indicator (KPI). (POAM)?",
+        "question": "The process is manual and duplicated in multiple areas within the organization. Does the State SMA focuses on Medicaid meeting compliance Agency use thresholds for state standards in the and federal process? regulations using state-specific Milestones Indicator (KPI). (POAM)? performance performance measures? measures and performing the business tasks. process?",
         "levels": {
-          "level_1": "SMA has put in place a SLA and some KPI are established, collected, and monitored. SMA electronically publishes performance",
-          "level_2": "performance standards for monitoring intrastate business activity. SMA periodically evaluates operational business processes against an established intrastate SLA and KPI. When SMA does not meet targets, creates and executes a Plan of Action with Milestones (POAM). SMA fully publishes performance measures and Manage Performance Measures",
-          "level_3": "performance standards for monitoring interstate business activity. SMA periodically evaluates operational business processes against an established interstate SLA and KPI. When SMA does not meet targets, creates and executes a POAM. SMA fully publishes performance measures and outcomes across",
-          "level_4": "performance standards for monitoring national business activity. SMA periodically evaluates operational business processes against an established national SLA and KPI. When SMA does not meet targets, creates and executes a POAM. SMA fully publishes performance measures and",
-          "level_5": ""
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question performance performance measures? measures and performing the business tasks. process?",
-        "levels": {
-          "level_1": "measures and outcomes. SMA collaborates with other agencies and entities to adopt nationally recognized performance measures.",
-          "level_2": "outcomes within the intrastate. Based on use of MITA Framework, industry standards, and information definitions States may share outcome measures with other States and federal agencies. SMA collaborates with other intrastate agencies and entities to adopt national performance measures as well as develop and share reusable business services.",
-          "level_3": "the interstate. SMA collaborates with other interstate agencies and entities to adopt national performance measures as well as develop and share reusable processes including clinical information.",
-          "level_4": "outcomes across the nation. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations.",
+          "level_1": "SMA has put in place a SLA and some KPI are established, collected, and monitored. SMA electronically publishes performance measures and outcomes. SMA collaborates with other agencies and entities to adopt nationally recognized performance measures.",
+          "level_2": "performance standards for monitoring intrastate business activity. SMA periodically evaluates operational business processes against an established intrastate SLA and KPI. When SMA does not meet targets, creates and executes a Plan of Action with Milestones (POAM). SMA fully publishes performance measures and Manage Performance Measures outcomes within the intrastate. Based on use of MITA Framework, industry standards, and information definitions States may share outcome measures with other States and federal agencies. SMA collaborates with other intrastate agencies and entities to adopt national performance measures as well as develop and share reusable business services.",
+          "level_3": "performance standards for monitoring interstate business activity. SMA periodically evaluates operational business processes against an established interstate SLA and KPI. When SMA does not meet targets, creates and executes a POAM. SMA fully publishes performance measures and outcomes across the interstate. SMA collaborates with other interstate agencies and entities to adopt national performance measures as well as develop and share reusable processes including clinical information.",
+          "level_4": "performance standards for monitoring national business activity. SMA periodically evaluates operational business processes against an established national SLA and KPI. When SMA does not meet targets, creates and executes a POAM. SMA fully publishes performance measures and outcomes across the nation. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations.",
           "level_5": ""
         }
       },
       {
         "category": "Business Capability Quality: Timeliness of Process",
-        "question": "Process meets How timely is threshold or Capability Question the end-to-end mandated process? requirements for",
+        "question": "Process meets How timely is threshold or the end-to-end mandated process? requirements for",
         "levels": {
           "level_1": "of automation. Timeliness exceeds legal requirements.",
           "level_2": "collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2.",
@@ -54,23 +43,12 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Use of direct data How accurate is entry for information the information collection is manually in the process?",
+        "question": "Use of direct data How accurate is entry for information the information collection is manually in the process? including paper the process? storage and obtains",
         "levels": {
-          "level_1": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1.",
-          "level_2": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized Manage Performance Measures",
-          "level_3": "information collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional",
-          "level_4": "Framework and industry standards for information exchange with national agencies. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher.",
-          "level_5": ""
-        }
-      },
-      {
-        "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question SMA stores How accessible information in is the disparate systems information in including paper the process? storage and obtains",
-        "levels": {
-          "level_1": "automation and nationally recognized standards increase accessibility over Level 1. Communication occurs through email, Compact Disc (CD) or publication on state’s website.",
-          "level_2": "intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
-          "level_3": "interstate agencies and entities. Accessibility is greater than Level 3.",
-          "level_4": "national agencies and entities. Accessibility is greater than Level 4.",
+          "level_1": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, but automation and nationally recognized standards increase accessibility over Level 1. Communication occurs through email, Compact Disc (CD) or publication on state’s website.",
+          "level_2": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized Manage Performance Measures business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_3": "information collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_4": "Framework and industry standards for information exchange with national agencies. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4.",
           "level_5": ""
         }
       },
@@ -79,15 +57,15 @@
         "question": "What is the cost High relative cost of the process due to low number of compared to the automatic, benefits of its standardized tasks. results?",
         "levels": {
           "level_1": "cost effectiveness ratio over Level 1.",
-          "level_2": "standards further improving cost effectiveness ratio Manage Performance Measures",
-          "level_3": "standards for interstate information exchange. SMA increases cost",
-          "level_4": "standards for national (and international) information exchange.",
+          "level_2": "standards further improving cost effectiveness ratio Manage Performance Measures over Level 2.",
+          "level_3": "standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_4": "standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4.",
           "level_5": ""
         }
       },
       {
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
-        "question": "Capability Question Process is labor How efficient is intensive. There is the process? wasted effort or",
+        "question": "Process is labor How efficient is intensive. There is the process? wasted effort or",
         "levels": {
           "level_1": "productivity. Efficiency is higher than Level 1.",
           "level_2": "standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
@@ -100,16 +78,16 @@
         "category": "Business Capability Quality: Data Access and Accuracy",
         "question": "performance standards. Efficiency is low. Manual processes How accurate result in greater are the results of opportunity for the process?",
         "levels": {
-          "level_1": "rules definitions reduce error. Less manual review and verification of accuracy of",
-          "level_2": "performance measures by intrastate agencies and entities improving accuracy to 90% or Manage Performance Measures",
+          "level_1": "rules definitions reduce error. Less manual review and verification of accuracy of calculations is needed prior to publication. SMA improves accuracy above Level 1.",
+          "level_2": "performance measures by intrastate agencies and entities improving accuracy to 90% or Manage Performance Measures higher.",
           "level_3": "recognized performance measures by interstate agencies and entities improving accuracy to 98% or higher.",
-          "level_4": "recognized performance measures by national agencies and entities improving accuracy to",
+          "level_4": "recognized performance measures by national agencies and entities improving accuracy to 98% or higher.",
           "level_5": ""
         }
       },
       {
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
-        "question": "Capability Question verification of accuracy of calculations prior to publication. Does the Stakeholders lack business confidence in process satisfy information stakeholders? negatively affecting",
+        "question": "Does the Stakeholders lack business confidence in process satisfy information stakeholders? negatively affecting",
         "levels": {
           "level_1": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
           "level_2": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
@@ -120,7 +98,7 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Health Benefits Administration Manage Health Benefit Information Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "question": "Health Benefits Administration Manage Health Benefit Information Is the process primarily manual or automatic? use standards in the process?",
         "levels": {
           "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
           "level_2": "processes to accomplish tasks. SMA uses business intelligence tools to analyze data to support maintenance of the health benefit packages. SMA applies a mix of nationally recognized and state-specific standards.",

@@ -5,7 +5,7 @@
 **Objective**: Replace the 2012 MITA v3.0 data with the May 2014 updated versions while preserving the 2012 data for historical reference.
 
 **Start Date**: January 12, 2026  
-**Status**: 🟢 Phase 5 Complete (Extraction Done)
+**Status**: 🟢 Phase 6 Complete (Validation Done)
 
 ---
 
@@ -21,8 +21,8 @@ The original MITA data in this repository was extracted from the February 2012 v
 |--------|--------------|--------------|
 | File Structure | Individual PDF per process (144 files) | Two master PDFs (one for all BPTs, one for all BCMs) |
 | Split Structure | N/A | Split into per-business-area PDFs |
-| Total BCM Processes | 72 | TBD (to be verified) |
-| Total BPT Processes | 72 | TBD (to be verified) |
+| Total BCM Processes | 72 | 76 |
+| Total BPT Processes | 72 | 76 |
 | Publication Date | February 2012 | May 2014 |
 
 ### Source File Locations
@@ -84,13 +84,21 @@ The original MITA data in this repository was extracted from the February 2012 v
 - 76 BCM processes with position-based maturity level parsing
 - 76 diagram images extracted for EE area
 
-### Phase 6: Validation & QA 🔴 NOT STARTED
-- [ ] Update validation script for new schema
-- [ ] Run comprehensive validation
-- [ ] Manual spot-check samples
-- [ ] Compare 2012 vs 2014 content (document changes)
+### Phase 6: Validation & QA ✅ COMPLETE
+- [x] Create validation script for 2014 schema (`tools/validate_2014.py`)
+- [x] Run comprehensive validation (152 files, 0 errors)
+- [x] Fix "Capability Question" prefix artifact in BCM extraction
+- [x] Manual fix for `OM_Calculate_Spend-Down_Amount_BCM_v3.0.json` (special deprecated process)
+- [x] Verify `FM_Manage_Capitation_Payment_BPT_v3.0.json` (2 steps is correct per source)
+
+**Validation Results:**
+- 152 files validated, all pass schema validation
+- 76 BPT files: 817 total process steps
+- 76 BCM files: 608 total capability questions
+- 1 informational warning (FM_Manage_Capitation_Payment has 2 steps - verified correct)
 
 ### Phase 7: Documentation Updates 🔴 NOT STARTED
+- [ ] Update `docs/DATA_STRUCTURE.md`
 - [ ] Update `docs/CONVERSION_METHODOLOGY.md`
 - [ ] Update `data/README.md`
 - [ ] Update `source-pdfs/README.md`
@@ -111,6 +119,7 @@ The original MITA data in this repository was extracted from the February 2012 v
 | 2026-01-12 | Use pymupdf (fitz) for PDF processing | Better image extraction support than pypdf; can render pages and extract embedded images |
 | 2026-01-12 | Schema approved | User approved proposed schema with trigger event categorization, diagrams support, and formatting preservation |
 | 2026-01-12 | No image dimensions in JSON | Not useful for consumers; keep schema simple |
+| 2026-01-12 | Manual fix for edge cases | OM_Calculate_Spend-Down_Amount is a special deprecated process (L4/L5 not applicable); manual correction preferred over over-engineering extraction |
 
 ---
 
@@ -204,16 +213,17 @@ The original MITA data in this repository was extracted from the February 2012 v
 
 | Business Area | BCM PDF | BPT PDF |
 |---------------|---------|---------|
-| Business Relationship Management | ✅ | ✅ |
-| Care Management | ✅ | ✅ |
-| Contractor Management | ✅ | ✅ |
-| Eligibility and Enrollment Management | ✅ | ✅ |
-| Financial Management | ✅ | ✅ |
+| Business Relationship Management | ✅ 4 processes | ✅ 4 processes |
+| Care Management | ✅ 9 processes | ✅ 9 processes |
+| Contractor Management | ✅ 9 processes | ✅ 9 processes |
+| Eligibility and Enrollment Management | ✅ 8 processes | ✅ 8 processes |
+| Financial Management | ✅ 19 processes | ✅ 19 processes |
 | Member Management | ❌ (empty) | ❌ (empty) |
-| Operations Management | ✅ | ✅ |
-| Performance Management | ✅ | ✅ |
-| Plan Management | ✅ | ✅ |
-| Provider Management | ✅ | ✅ |
+| Operations Management | ✅ 9 processes | ✅ 9 processes |
+| Performance Management | ✅ 5 processes | ✅ 5 processes |
+| Plan Management | ✅ 8 processes | ✅ 8 processes |
+| Provider Management | ✅ 5 processes | ✅ 5 processes |
+| **TOTAL** | **76 processes** | **76 processes** |
 
 ---
 
@@ -222,11 +232,14 @@ The original MITA data in this repository was extracted from the February 2012 v
 | File | Action | Date |
 |------|--------|------|
 | `data/` | Moved to `data-archived-2012/` | 2026-01-12 |
-| `data/bcm/` | Created (empty) | 2026-01-12 |
-| `data/bpt/` | Created (empty) | 2026-01-12 |
+| `data/bcm/` | Created with 76 JSON files | 2026-01-12 |
+| `data/bpt/` | Created with 76 JSON files + 76 images | 2026-01-12 |
 | `docs/2014_MIGRATION_PROJECT.md` | Created | 2026-01-12 |
 | `docs/PROPOSED_SCHEMA_2014.md` | Created | 2026-01-12 |
 | `docs/2014_PROCESS_AUDIT.md` | Created | 2026-01-12 |
+| `tools/extract_2014.py` | Created (BPT + BCM extraction) | 2026-01-12 |
+| `tools/validate_2014.py` | Created (2014 schema validation) | 2026-01-12 |
+| `OM_Calculate_Spend-Down_Amount_BCM_v3.0.json` | Manual fix (15 questions, L4/L5 N/A) | 2026-01-12 |
 
 ---
 

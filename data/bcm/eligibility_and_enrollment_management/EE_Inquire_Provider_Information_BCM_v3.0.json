@@ -10,35 +10,13 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Inquire Provider Information Capability Question Is the process primarily manual or automatic?",
+        "question": "Inquire Provider Information Is the process primarily manual or automatic? use standards in the process? process?",
         "levels": {
-          "level_1": "activity to accomplish tasks. SMA receives most requests via",
-          "level_2": "processes to accomplish tasks. SMA submits Inquire Provider Information",
-          "level_3": "automatic to the extent possible within",
-          "level_4": "automatic to the extent possible within",
-          "level_5": "automatic to the extent possible"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question Does the State Medicaid Agency use standards in the process?",
-        "levels": {
-          "level_1": "thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize",
-          "level_2": "and state-specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Inquire Provider Information",
-          "level_3": "inquiry standard messages, and other nationally recognized provider inquiry standards for intrastate exchange of provider enrollment information. SMA collaborates with other intrastate agencies and entities to adopt national",
-          "level_4": "inquiry standard messages, and other nationally recognized provider inquiry standards for clinical and regional exchange of provider enrollment information. SMA collaborates with other regional agencies and entities to adopt provider",
-          "level_5": "inquiry standard messages, and other nationally recognized provider inquiry standards or national exchange of provider enrollment information. SMA collaborates with agencies and entities for national (and international)"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question entities in performing the process?",
-        "levels": {
-          "level_1": "",
-          "level_2": "",
-          "level_3": "develop and share reusable business services.",
-          "level_4": "develop and share reusable provider inquiry processes including clinical information.",
-          "level_5": "maximize automation of routine provider inquiry operations."
+          "level_1": "activity to accomplish tasks. SMA receives most requests via telephone, facsimile, or mail. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "processes to accomplish tasks. SMA submits Inquire Provider Information response via automatic voice response system, web portal, Electronic Data Interchange (EDI) transaction, personal computer, terminal connection or within batch response parameters. SMA applies a mix of nationally recognized and state-specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Inquire Provider Information EDI transactions.",
+          "level_3": "automatic to the extent possible within the intrastate. SMA adopts MITA Framework, provider inquiry standard messages, and other nationally recognized provider inquiry standards for intrastate exchange of provider enrollment information. SMA collaborates with other intrastate agencies and entities to adopt national provider inquiry standards as well as develop and share reusable business services.",
+          "level_4": "automatic to the extent possible within the region. SMA adopts MITA Framework, provider inquiry standard messages, and other nationally recognized provider inquiry standards for clinical and regional exchange of provider enrollment information. SMA collaborates with other regional agencies and entities to adopt provider inquiry national standards as well as develop and share reusable provider inquiry processes including clinical information.",
+          "level_5": "automatic to the extent possible across the nation. SMA adopts MITA Framework, provider inquiry standard messages, and other nationally recognized provider inquiry standards or national exchange of provider enrollment information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine provider inquiry operations."
         }
       },
       {
@@ -54,24 +32,13 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate is the information in the process?",
+        "question": "How accurate is the information in the process? the information in the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores",
-          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores Inquire Provider Information",
-          "level_3": "inquiry information increasing the reliability of SMA’s internal information. External sources of provider inquiry information use MITA Framework and industry standards for information verification submission. Decision- making is automatic using a statewide provider inquiry standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains",
-          "level_4": "inquiry information increasing the reliability of regional sources of information. SMA adopts MITA Framework and industry standards for information exchange verification by regional agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains",
-          "level_5": "provider inquiry standards for national information verification submission. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains"
-        }
-      },
-      {
-        "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question the information in the process?",
-        "levels": {
-          "level_1": "information in disparate systems including paper storage and obtains information manually.",
-          "level_2": "information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
-          "level_3": "information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
-          "level_4": "information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
-          "level_5": "information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually.",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores Inquire Provider Information information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
+          "level_3": "inquiry information increasing the reliability of SMA’s internal information. External sources of provider inquiry information use MITA Framework and industry standards for information verification submission. Decision- making is automatic using a statewide provider inquiry standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "inquiry information increasing the reliability of regional sources of information. SMA adopts MITA Framework and industry standards for information exchange verification by regional agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "provider inquiry standards for national information verification submission. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
@@ -89,16 +56,16 @@
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
         "question": "How efficient is the process?",
         "levels": {
-          "level_1": "Process is labor intensive. There is wasted effort or",
-          "level_2": "Automation and state standards increase productivity. Inquire Provider Information",
-          "level_3": "SMA adopts MITA Framework, industry standards and",
-          "level_4": "SMA adopts MITA Framework, industry standards and",
-          "level_5": "SMA adopts MITA Framework, industry standards and"
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity. Inquire Provider Information Efficiency is higher than Level 1.",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
         }
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate are the results of the process?",
+        "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "opportunity for human error. Accuracy is low.",
           "level_2": "business rules definitions reduce error and improve accuracy above Level 1.",
@@ -111,11 +78,11 @@
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
         "question": "Does the business process satisfy stakeholders?",
         "levels": {
-          "level_1": "information negatively affecting stakeholder",
-          "level_2": "provides clear and useful information. Inquire Provider Information",
-          "level_3": "standards and information exchange",
-          "level_4": "standards and information exchange",
-          "level_5": "standards and information exchange"
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Inquire Provider Information Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
         }
       }
     ]

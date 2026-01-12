@@ -20,7 +20,12 @@
       "• Alert sent to Manage Accounts Payable Information business process to generate contractor payment.",
       "• Tracking information as needed for measuring performance and business activity monitoring."
     ],
-    "process_steps": [],
+    "process_steps": [
+      "1. START: Receive invoice from contractor.",
+      "2. Validate invoice details for reimbursement details defined in the contract.",
+      "3. Resolve any invoicing discrepancies discovered with contractor.",
+      "4. END: Send alert to Manage Accounts Payable Information business process to generate contractor payment."
+    ],
     "diagrams": [],
     "shared_data": [
       "Financial data store including accounts payable information and Recovery Audit",

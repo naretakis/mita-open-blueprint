@@ -21,7 +21,14 @@
       "• Alert to send notification to business partner of termination.",
       "• Tracking information as needed for measuring performance and business activity monitoring."
     ],
-    "process_steps": [],
+    "process_steps": [
+      "1. START: Receive request for business relationship termination.",
+      "2. Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and requestor has completed all required fields.",
+      "3. Validate that the provided information authentic.",
+      "4. Evaluate impact of termination of business relationship to business operations.",
+      "5. Terminate business relationship and related Service Level Agreement (SLA), Memoranda of Understanding (MOU), and such.",
+      "6. END: Send alert to notify business partner of termination."
+    ],
     "diagrams": [],
     "shared_data": [
       "Business Partner data store including service agreements information",

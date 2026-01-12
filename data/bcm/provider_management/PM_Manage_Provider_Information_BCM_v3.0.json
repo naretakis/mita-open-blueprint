@@ -10,42 +10,20 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Provider Information Management Manage Provider Information Capability Question Is the process primarily manual or automatic?",
+        "question": "Provider Information Management Manage Provider Information Is the process primarily manual or automatic? validate application information? use standards in the process? performing the process?",
         "levels": {
-          "level_1": "paper-based activity to accomplish tasks.",
-          "level_2": "automatic processes to accomplish tasks. Manage Provider Information",
-          "level_3": "extent possible within the intrastate and stores the enhanced provider background and screening information as well as application fees within the state. Provider Network information is shared with Health Insurance Marketplace (HIX). SMA produces audit trail of decision 100% of the time.",
-          "level_4": "extent possible across the interstate and stores the enhanced provider background and screening information as well as application fees within the region. Provider Network information is shared with Health Insurance Marketplace (HIX).",
-          "level_5": "extent possible across the nation. This process uses and stores the enhanced provider background and screening information as well as application fees in a federal repository. Provider Network information is shared with Health Insurance Marketplace (HIX)."
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question How does the State Medicaid Agency validate application information? use standards in the process?",
-        "levels": {
-          "level_1": "Staff contacts external and internal document verification sources via telephone, facsimile, mail. Decisions on information verifications take multiple business days. Validation is manual and subjective. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize",
-          "level_2": "validations are automatic (Social Security Number (SSN), address, birth certificate, etc.). Validation is consistent and based on business rules. SMA applies a mix of HIPAA and state- specific standards. SMA collaborates with other agencies and entities to adopt Manage Provider Information",
-          "level_3": "standards, and national standards within the intrastate that use standardized business rules definitions for consistent validation within the state. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities",
-          "level_4": "standards, and national standards across the interstate that use regional standardized business rules definitions for consistent validation within the region. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange of information on a regional basis. SMA collaborates with other regional agencies and entities",
-          "level_5": "standards, and national standards across the nation that use national standardized business rules definitions for consistent validation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information mandated by federal standards. SMA collaborates with federal agencies and entities for"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question other agencies or entities in performing the process?",
-        "levels": {
-          "level_1": "",
-          "level_2": "Interchange (EDI) transactions.",
-          "level_3": "develop and share reusable business services.",
-          "level_4": "develop and share reusable processes including clinical information.",
-          "level_5": "interoperability improvements that maximize automation of routine operations."
+          "level_1": "paper-based activity to accomplish tasks. SMA manually validates information. Staff contacts external and internal document verification sources via telephone, facsimile, mail. Decisions on information verifications take multiple business days. Validation is manual and subjective. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "automatic processes to accomplish tasks. Manage Provider Information Many application information validations are automatic (Social Security Number (SSN), address, birth certificate, etc.). Validation is consistent and based on business rules. SMA applies a mix of HIPAA and state- specific standards. SMA collaborates with other agencies and entities to adopt Manage Provider Information HIPAA standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "extent possible within the intrastate and stores the enhanced provider background and screening information as well as application fees within the state. Provider Network information is shared with Health Insurance Marketplace (HIX). SMA produces audit trail of decision 100% of the time. SMA adopts MITA Framework, industry standards, and national standards within the intrastate that use standardized business rules definitions for consistent validation within the state. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "extent possible across the interstate and stores the enhanced provider background and screening information as well as application fees within the region. Provider Network information is shared with Health Insurance Marketplace (HIX). SMA adopts MITA Framework, industry standards, and national standards across the interstate that use regional standardized business rules definitions for consistent validation within the region. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange of information on a regional basis. SMA collaborates with other regional agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "extent possible across the nation. This process uses and stores the enhanced provider background and screening information as well as application fees in a federal repository. Provider Network information is shared with Health Insurance Marketplace (HIX). SMA adopts MITA Framework, industry standards, and national standards across the nation that use national standardized business rules definitions for consistent validation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information mandated by federal standards. SMA collaborates with federal agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
         "category": "Business Capability Quality: Timeliness of Process",
         "question": "How timely is the end-to-end process?",
         "levels": {
-          "level_1": "requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Manual and semi-automatic steps delay updates; updates take from one week to one month. Notifications are inconsistent in regards to time, and in general, are not timely (i.e., five (5) or more business",
+          "level_1": "requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Manual and semi-automatic steps delay updates; updates take from one week to one month. Notifications are inconsistent in regards to time, and in general, are not timely (i.e., five (5) or more business days later than the update).",
           "level_2": "of automation. Timeliness exceeds legal requirements. On the average, updates occur daily (within 24 hours). Notifications are available on the day of the modification. Manage Provider Information",
           "level_3": "collaboration, use of information sharing, standards, and regional Health Insurance Marketplace (HIX). Timeliness exceeds Level 2.",
           "level_4": "time. SMA has regional interoperability, which further improves timeliness over Level 3.",
@@ -54,24 +32,13 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate is the information in the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
-          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Provider Information",
-          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher.",
-          "level_4": "increases the reliability of regional sources of information. SMA adopts MITA Framework and industry standards for information exchange by regional agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher.",
-          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher."
-        }
-      },
-      {
-        "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accessible is the information in the process?",
-        "levels": {
-          "level_1": "including paper storage and obtains information manually.",
-          "level_2": "disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
-          "level_3": "and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
-          "level_4": "and exchanges with regional agencies and entities. Accessibility is greater than Level 3.",
-          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually.",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Provider Information SMA stores information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "increases the reliability of regional sources of information. SMA adopts MITA Framework and industry standards for information exchange by regional agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with regional agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
@@ -87,7 +54,7 @@
       },
       {
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
-        "question": "Capability Question How efficient is the process?",
+        "question": "How efficient is the process?",
         "levels": {
           "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
@@ -109,7 +76,7 @@
       },
       {
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
-        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "question": "Does the business process satisfy stakeholders?",
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
@@ -120,7 +87,7 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Terminate Provider Capability Question Is the process primarily manual or automatic?",
+        "question": "Terminate Provider Is the process primarily manual or automatic?",
         "levels": {
           "level_1": "manual paper-based activity to accomplish tasks. SMA focuses on",
           "level_2": "automatic processes to accomplish tasks. SMA applies a mix",

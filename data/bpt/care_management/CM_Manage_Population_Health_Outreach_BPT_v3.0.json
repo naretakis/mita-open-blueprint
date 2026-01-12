@@ -23,7 +23,18 @@
       "• The SMA produces outreach communications (e.g., mailing brochures, web pages, email, kiosk, and radio, billboard, and TV advertisements) and distributes to targeted populations or individuals. The SMA may also conduct face-to-face meetings.",
       "• Tracking information as needed for measuring performance and business activity monitoring."
     ],
-    "process_steps": [],
+    "process_steps": [
+      "1. START: Receive request for outreach materials or communication.",
+      "2. Target population identified and defined by analyzing information, performance measures, feedback from community, and policy directives.",
+      "3. Approve, deny, or modify decisions to develop outreach communications.",
+      "4. Determine content and method of communication (e.g., email, mail, publication,",
+      "5. Determine performance measures.",
+      "6. Prepare content that is linguistically, culturally, and competency appropriate for the communication in agreed upon format.",
+      "7. Review and approve communication.",
+      "8. Generate communication in agreed upon format.",
+      "9. Agency logs communication message sent to target population.",
+      "10. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, first time resolution rate)."
+    ],
     "diagrams": [],
     "shared_data": [
       "Member data store including demographic information",

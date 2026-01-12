@@ -19,7 +19,14 @@
       "• Alert to send notification to business partner of agreement.",
       "• Tracking information as needed for measuring performance and business activity monitoring."
     ],
-    "process_steps": [],
+    "process_steps": [
+      "1. START: Receive agreement updates.",
+      "2. Agency logs request for modification.",
+      "3. Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and submitter has completed all required fields.",
+      "4. Validate that the provided information is authentic.",
+      "5. Staff records modification to business relationship agreement.",
+      "6. END: Send alert to notify business partner of modification."
+    ],
     "diagrams": [],
     "shared_data": [
       "Business Partner data store including service agreement information",

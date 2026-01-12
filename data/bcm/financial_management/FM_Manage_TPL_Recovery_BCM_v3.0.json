@@ -10,68 +10,35 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Manage TPL Recovery Capability Question Is the process manual or automatic? Liability (TPL) information?",
+        "question": "Manage TPL Recovery Is the process manual or automatic? Liability (TPL) information? How integrated is the process? use standards in the process? benefits (COB)? performing the process?",
         "levels": {
-          "level_1": "activity to accomplish to accomplish tasks. tasks. The process is primarily manual utilizing a mix of paper, telephone, facsimile, and some proprietary Electronic Data Interchange (EDI). SMA manually SMA uses electronic validates Information information from other regarding third-party payers for information resources. matching and validating of member TPL information.",
-          "level_2": "Manage TPL Recovery",
-          "level_3": "extent possible within the intrastate. The process uses MITA Framework, industry standards, for payer- to-payer Coordination of Benefits (COB) process reducing the burden to providers and optimizing timeliness. MITA interface standards support completely automatic validation of TPL information.",
-          "level_4": "extent possible across the interstate. SMA automates process to the full extent possible across the interstate to validate TPL information.",
-          "level_5": "extent possible across the nation. SMA automates process to the full extent possible across the nation to validate TPL information."
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question How integrated is the process? use standards in the process?",
-        "levels": {
-          "level_1": "There is little SMA centralizes common coordination between processes to achieve the portions of SMA economies of scale and responsible for increase coordination. recoupments: third party liability, program integrity, and accounting. SMA focuses on SMA applies a mix of meeting compliance HIPAA and state-specific thresholds for state standards. and federal regulations using state-specific standards.",
-          "level_2": "Manage TPL Recovery",
-          "level_3": "SMA fully integrates the process within SMA with MITA Framework, industry standards, used for electronic interchanges between agencies and other entities that are sources of TPL information (e.g., COB information is available via the Health Information Exchange (HIE). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information.",
-          "level_4": "SMA fully integrates the process interstate to the extent possible with information exchange via the regional Health Information Exchange (HIE). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange.",
-          "level_5": "SMA fully integrates the process nationally to the extent possible with information exchange via the Nationwide Health Information Network (NwHIN). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information."
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question How does the State Medicaid Agency conduct coordination of benefits (COB)? performing the process?",
-        "levels": {
-          "level_1": "Very little SMA collaborates with collaboration occurs other agencies and entities with other agencies to adopt HIPAA standards to standardize and EDI transactions. information exchange or business tasks.",
-          "level_2": "",
-          "level_3": "available electronically to members and providers. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
-          "level_4": "SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
-          "level_5": "SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+          "level_1": "activity to accomplish to accomplish tasks. tasks. The process is primarily manual utilizing a mix of paper, telephone, facsimile, and some proprietary Electronic Data Interchange (EDI). SMA manually SMA uses electronic validates Information information from other regarding third-party payers for information resources. matching and validating of member TPL information. There is little SMA centralizes common coordination between processes to achieve the portions of SMA economies of scale and responsible for increase coordination. recoupments: third party liability, program integrity, and accounting. SMA focuses on SMA applies a mix of meeting compliance HIPAA and state-specific thresholds for state standards. and federal regulations using state-specific standards. SMA primarily Some TPL recovery is conducts TPL payer-to-provider and the recovery via payer- remaining is payer-to- to-provider COB. payer COB. Very little SMA collaborates with collaboration occurs other agencies and entities with other agencies to adopt HIPAA standards to standardize and EDI transactions. information exchange or business tasks.",
+          "level_2": "Manage TPL Recovery Manage TPL Recovery",
+          "level_3": "extent possible within the intrastate. The process uses MITA Framework, industry standards, for payer- to-payer Coordination of Benefits (COB) process reducing the burden to providers and optimizing timeliness. MITA interface standards support completely automatic validation of TPL information. SMA fully integrates the process within SMA with MITA Framework, industry standards, used for electronic interchanges between agencies and other entities that are sources of TPL information (e.g., COB information is available via the Health Information Exchange (HIE). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA conducts TPL recovery via payer- to-payer COB. SMA has communications available electronically to members and providers. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "extent possible across the interstate. SMA automates process to the full extent possible across the interstate to validate TPL information. SMA fully integrates the process interstate to the extent possible with information exchange via the regional Health Information Exchange (HIE). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA conducts TPL recovery via payer- to-payer COB. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "extent possible across the nation. SMA automates process to the full extent possible across the nation to validate TPL information. SMA fully integrates the process nationally to the extent possible with information exchange via the Nationwide Health Information Network (NwHIN). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA conducts TPL recovery via payer- to-payer COB. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
         "category": "Business Capability Quality: Timeliness of Process",
         "question": "How timely is the end-to-end process?",
         "levels": {
-          "level_1": "mandated automation. Timeliness requirements for exceeds legal timeliness (i.e., the requirements. The process",
+          "level_1": "mandated automation. Timeliness requirements for exceeds legal timeliness (i.e., the requirements. The process process achieves completes in weeks. results within the time specified by law or regulation). The process completes in multiple months.",
           "level_2": "Manage TPL Recovery",
-          "level_3": "collaboration, use of information sharing, standards, and",
-          "level_4": "real time. Processes that use clinical information",
-          "level_5": "time. Processes improve further through"
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. The process completes in multiple in business days.",
+          "level_4": "real time. Processes that use clinical information result in immediate action, response, and results. SMA has interstate interoperability, which further improves timeliness over Level 3. The process completes within hours.",
+          "level_5": "time. Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
         }
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate is the information in the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually accuracy of information but intensive and the decision-making susceptible to process may be erroneous inconsistent or or misleading. Accuracy is incorrect information. higher than at Level 1. Stakeholders are unable to rely on information for decision-making.",
+          "level_1": "collection is manually accuracy of information but intensive and the decision-making susceptible to process may be erroneous inconsistent or or misleading. Accuracy is incorrect information. higher than at Level 1. Stakeholders are unable to rely on information for decision-making. SMA stores SMA stores information in information in disparate systems, but disparate systems automation and HIPAA including paper standards increase storage and obtains accessibility over Level 1. information manually.",
           "level_2": "Manage TPL Recovery",
-          "level_3": "and workflow increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized",
-          "level_4": "collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is",
-          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is"
-        }
-      },
-      {
-        "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accessible is the information in the process?",
-        "levels": {
-          "level_1": "disparate systems automation and HIPAA including paper standards increase storage and obtains accessibility over Level 1. information manually.",
-          "level_2": "",
-          "level_3": "exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
-          "level_4": "and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
-          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+          "level_3": "and workflow increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy is 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 9% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
@@ -80,14 +47,14 @@
         "levels": {
           "level_1": "effectiveness ratio over Level 1.",
           "level_2": "Manage TPL Recovery",
-          "level_3": "standards further improving cost effectiveness ratio",
-          "level_4": "recognized standards for interstate",
-          "level_5": "recognized standards for national (and"
+          "level_3": "standards further improving cost effectiveness ratio over Level 2.",
+          "level_4": "recognized standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_5": "recognized standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
         }
       },
       {
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
-        "question": "Capability Question How efficient is the process?",
+        "question": "How efficient is the process?",
         "levels": {
           "level_1": "Process is labor Automation and state intensive. There is standards increase wasted effort or productivity. Efficiency is expense to higher than Level 1. accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "",
@@ -98,7 +65,7 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate are the results of the process?",
+        "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "opportunity for rules definitions reduce human error. error and improve Accuracy is low. accuracy above Level 1.",
           "level_2": "",
@@ -120,7 +87,7 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Manage Estate Recovery Capability Question Is the process primarily manual or automatic? recovery? How integrated is the process?",
+        "question": "Manage Estate Recovery Is the process primarily manual or automatic? recovery? How integrated is the process?",
         "levels": {
           "level_1": "paper-based activity to accomplish tasks. SMA communicates with stakeholders and members’ personal representatives via telephone, in person, facsimile, e-mail and mail. SMA has little coordination with other entities that are information sources.",
           "level_2": "automatic processes to accomplish tasks. Communication to stakeholders and members personal representatives is a mix of telephone, facsimile, and mail, plus the use of e-mail and electronic interchange for exchange of larger or standardized sets of information. Agencies are standardizing information to increase coordination",

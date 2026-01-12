@@ -24,7 +24,18 @@
       "• Business partner receives appropriate assistance, communication, and/or information packages.",
       "• Tracking information as needed for measuring performance and business activity monitoring."
     ],
-    "process_steps": [],
+    "process_steps": [
+      "1. START: Receive request for communication.",
+      "2. Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and requestor has completed all required fields.",
+      "3. Validate that the provided information is authentic.",
+      "4. Agency logs request for communication.",
+      "5. Determine content and method of communication (e.g., email, mail, publication, mobile device, facsimile, telephone, web, or Electronic Data Interchange (EDI)).",
+      "6. Prepare content that is linguistically, culturally, and competency appropriate for the communication in agreed upon format.",
+      "7. Review and approve communication.",
+      "8. Generate communication in agreed upon format.",
+      "9. Agency logs communication message.",
+      "10. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, first time resolution rate)."
+    ],
     "diagrams": [],
     "shared_data": [
       "Business Partner data store including service agreements information",

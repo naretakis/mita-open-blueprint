@@ -10,42 +10,20 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Plan Administration Develop Agency Goals and Objectives Capability Question Is the process primarily manual or automatic? change?",
+        "question": "Plan Administration Develop Agency Goals and Objectives Is the process primarily manual or automatic? change? organization? use standards in the process? process?",
         "levels": {
-          "level_1": "manual paper-based activity to accomplish tasks. SMA is unable to adapt easily to changes to the goals and objectives. SMA is unable to provide",
-          "level_2": "automatic processes to accomplish tasks. SMA uses tools to gather, record, analyze, formulate, communicate, and distribute information on goals and objectives to SMA leadership and other state agencies. SMA is able to develop and maintain goals and objectives with collaboration from Develop Agency Goals and Objectives",
-          "level_3": "extent possible within the intrastate. SMA uses brainstorming and automatic collaboration tools that enable statewide input to the goal setting process. SMA develops and maintains goals and objectives with collaboration from other intrastate",
-          "level_4": "extent possible across the interstate. SMA develops and maintains goals and objectives with collaboration from other interstate",
-          "level_5": "extent possible across the nation. SMA develops and maintains goals and objectives with collaboration from other intrastate"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question Are goals and objectives traceable throughout the organization? use standards in the process?",
-        "levels": {
-          "level_1": "objectives. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
-          "level_2": "objectives. SMA applies a mix of nationally recognized and state-specific standards. Develop Agency Goals and Objectives",
-          "level_3": "the intrastate. SMA uses business intelligence tools to monitor progress toward benchmarks. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information.",
-          "level_4": "across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange.",
-          "level_5": "across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information."
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
-        "levels": {
-          "level_1": "business tasks.",
-          "level_2": "transactions.",
-          "level_3": "share reusable business services.",
-          "level_4": "share reusable processes including clinical information.",
-          "level_5": "maximize automation of routine operations."
+          "level_1": "manual paper-based activity to accomplish tasks. SMA is unable to adapt easily to changes to the goals and objectives. SMA is unable to provide timely information to stakeholders. SMA is unable to trace operational activities directly to goals and objectives. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "automatic processes to accomplish tasks. SMA uses tools to gather, record, analyze, formulate, communicate, and distribute information on goals and objectives to SMA leadership and other state agencies. SMA is able to develop and maintain goals and objectives with collaboration from Develop Agency Goals and Objectives other agencies that encourages flexibility. SMA is able to trace some operational activities directly to goals and objectives. SMA applies a mix of nationally recognized and state-specific standards. Develop Agency Goals and Objectives SMA collaborates with other agencies and entities to adopt standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "extent possible within the intrastate. SMA uses brainstorming and automatic collaboration tools that enable statewide input to the goal setting process. SMA develops and maintains goals and objectives with collaboration from other intrastate agencies. SMA quickly distributes modifications to policy to stakeholders. SMA directly ties all relevant operational activities to goals and objectives within the intrastate. SMA uses business intelligence tools to monitor progress toward benchmarks. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "extent possible across the interstate. SMA develops and maintains goals and objectives with collaboration from other interstate agencies. SMA distributes in near- real time modifications to policy to stakeholders. SMA directly ties all relevant operational activities to goals and objectives across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "extent possible across the nation. SMA develops and maintains goals and objectives with collaboration from other intrastate agencies. SMA distributes in near- real time modifications to policy to stakeholders. SMA directly ties all relevant operational activities to goals and objectives across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
         "category": "Business Capability Quality: Timeliness of Process",
         "question": "How timely is the end-to-end process?",
         "levels": {
-          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). SMA develops goals and objectives in an ad hoc manner. Time to complete process is",
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). SMA develops goals and objectives in an ad hoc manner. Time to complete process is indeterminate.",
           "level_2": "use of automation. SMA conducts more frequent review and modification to goals and objectives. The process completes in less than one (1) month. Develop Agency Goals and Objectives",
           "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. SMA develops, modifies, tracks, and report on goals and objectives in generally less than one (1) week.",
           "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has interstate interoperability, which further improves timeliness over Level 3.",
@@ -54,18 +32,18 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate is the information in the process? the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually. Goals and",
-          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Goals and objectives are up-to-date and more accurate. SMA stores information in disparate systems, but automation and standards increase Develop Agency Goals and Objectives",
-          "level_3": "collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry",
-          "level_4": "collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is",
-          "level_5": "industry standards for information exchange with national agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is"
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually. Goals and objectives are vague and incomplete.",
+          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Goals and objectives are up-to-date and more accurate. SMA stores information in disparate systems, but automation and standards increase Develop Agency Goals and Objectives accessibility over Level 1.",
+          "level_3": "collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Goals and objectives are central, up-to-date and accurate. Accessibility is greater than Level 2.",
+          "level_4": "collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "industry standards for information exchange with national agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
         "category": "Business Capability Quality: Cost Effectiveness",
-        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "question": "What is the cost of the process compared to the benefits of its results?",
         "levels": {
           "level_1": "",
           "level_2": "cost effectiveness ratio over Level 1. Develop Agency Goals and Objectives",
@@ -76,7 +54,7 @@
       },
       {
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
-        "question": "Capability Question How efficient is the process?",
+        "question": "How efficient is the process?",
         "levels": {
           "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
@@ -98,7 +76,7 @@
       },
       {
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
-        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "question": "Does the business process satisfy stakeholders?",
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
@@ -109,7 +87,7 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Maintain Program Policy Capability Question Is the process primarily manual or automatic? change?",
+        "question": "Maintain Program Policy Is the process primarily manual or automatic? change?",
         "levels": {
           "level_1": "manual paper-based activity to accomplish tasks. SMA is unable to adapt easily to changes to the program policy and provide timely information to stakeholders.",
           "level_2": "automatic processes to accomplish tasks. SMA uses tools to gather, record, analyze, formulate, communicate, and distribute information on program policy to SMA leadership and other state agencies. SMA is able to develop and maintained policy with collaboration from other agencies that encourages flexibility.",

@@ -502,14 +502,33 @@ def extract_bpt_process_data(lines, process_name, sub_category, area_name, proce
     # Business Process Steps
     steps_start = find_section_start(lines, 'Business Process Steps')
     if steps_start < 0:
+        # Try finding "Business" followed by "Process" and "Steps" on separate lines
         steps_start = find_section_start(lines, 'Business')
-        if steps_start >= 0 and steps_start + 1 < len(lines):
-            if 'Process Steps' not in lines[steps_start + 1]:
+        if steps_start >= 0:
+            # Check if next line(s) complete "Process Steps"
+            found_steps = False
+            if steps_start + 1 < len(lines):
+                next_line = lines[steps_start + 1].strip()
+                if next_line == 'Process Steps' or 'Process Steps' in next_line:
+                    found_steps = True
+                elif next_line == 'Process' and steps_start + 2 < len(lines):
+                    # Check for "Steps" on the third line
+                    if lines[steps_start + 2].strip() == 'Steps':
+                        found_steps = True
+                        steps_start = steps_start  # Keep the same start, but we'll skip 3 lines
+            if not found_steps:
                 steps_start = -1
     
     if steps_start >= 0:
-        steps_end = find_next_section(lines, steps_start + 2)
-        steps_lines = lines[steps_start + 2:steps_end]
+        # Determine how many lines to skip for the header
+        skip_lines = 1  # Default: "Business Process Steps" on one line
+        if steps_start + 1 < len(lines) and lines[steps_start + 1].strip() == 'Process Steps':
+            skip_lines = 2
+        elif steps_start + 2 < len(lines) and lines[steps_start + 1].strip() == 'Process' and lines[steps_start + 2].strip() == 'Steps':
+            skip_lines = 3
+        
+        steps_end = find_next_section(lines, steps_start + skip_lines)
+        steps_lines = lines[steps_start + skip_lines:steps_end]
         data["process_details"]["process_steps"] = extract_numbered_list(steps_lines)
     
     # Shared Data
@@ -1070,6 +1089,15 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
         # Skip header rows
         if 'Level 1' in question_text or question_text == 'Capability' or question_text == 'Question':
             continue
+        
+        # Skip "Capability Question" prefix text (appears in question column but is a header)
+        if question_text.startswith('Capability Question'):
+            # Strip the prefix if there's more text after it
+            remainder = question_text.replace('Capability Question', '').strip()
+            if remainder:
+                question_text = remainder
+            else:
+                continue
         
         # Skip page headers and process name repeats
         if is_page_header(question_text):

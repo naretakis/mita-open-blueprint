@@ -10,35 +10,13 @@
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Manage Accounts Payable Information Capability Question How integrated is the process? automatic?",
+        "question": "Manage Accounts Payable Information How integrated is the process? automatic? the process? What is the source of the information? process?",
         "levels": {
-          "level_1": "There is little coordination between financial accounting requests for accounts payables. There is limited information exchange between Medicaid Management Information System (MMIS) and state accounting system. The process consists primarily of manual paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and",
-          "level_2": "There is regular communication and coordination between state accounting system and SMA. SMA uses a mix of manual and automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. Manage Accounts Payable Information",
-          "level_3": "SMA fully integrates the process to the extent possible across the intrastate. SMA uses standardized Generally Accepted Accounting Principles (GAAP). SMA automates process to the full extent possible within the intrastate. SMA adopts MITA Framework, industry standards, and other",
-          "level_4": "SMA fully integrates the process to the extent possible across the interstate. SMA automates process to the full extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other",
-          "level_5": "SMA fully integrates the process to the extent possible across the nation. SMA automates process to the full extent possible across the nation. SMA adopts MITA Framework, industry standards, and"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question the process? What is the source of the information?",
-        "levels": {
-          "level_1": "federal regulations using state-specific standards. The source of the information is a mix of manual updates, data entry, Optical Character Recognition (OCR), and proprietary Electronic Data Interchange (EDI) edit, audit and payment processing. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
-          "level_2": "Data sources are increasingly HIPAA Accredited Standards Committee (ASC) X12 837 Health Care Claim. SMA uses a mix of HIPAA compliant and proprietary business rules for encounter and waiver program payment history information SMA collaborates with other agencies and entities to adopt HIPAA standards and EDI transactions. Manage Accounts Payable Information",
-          "level_3": "nationally recognized standards for intrastate exchange of information. Claims attachments are compliant with the ASC X12 275 Patient Information. Premium payment information is compliant with the HIPAA ASC X12 834 Benefit Enrollment and Maintenance, in addition to MITA Framework, industry standards. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business",
-          "level_4": "nationally recognized standards for interstate information exchange. SMA adopts MITA Framework and industry standards across the interstate. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes",
-          "level_5": "other nationally recognized standards for national exchange of information. SMA adopts MITA Framework and industry standards, across the nation. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize"
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Capability Question process?",
-        "levels": {
-          "level_1": "",
-          "level_2": "",
-          "level_3": "services.",
-          "level_4": "including clinical information.",
-          "level_5": "automation of routine operations."
+          "level_1": "There is little coordination between financial accounting requests for accounts payables. There is limited information exchange between Medicaid Management Information System (MMIS) and state accounting system. The process consists primarily of manual paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. The source of the information is a mix of manual updates, data entry, Optical Character Recognition (OCR), and proprietary Electronic Data Interchange (EDI) edit, audit and payment processing. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "There is regular communication and coordination between state accounting system and SMA. SMA uses a mix of manual and automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. Manage Accounts Payable Information Data sources are increasingly HIPAA Accredited Standards Committee (ASC) X12 837 Health Care Claim. SMA uses a mix of HIPAA compliant and proprietary business rules for encounter and waiver program payment history information SMA collaborates with other agencies and entities to adopt HIPAA standards and EDI transactions. Manage Accounts Payable Information",
+          "level_3": "SMA fully integrates the process to the extent possible across the intrastate. SMA uses standardized Generally Accepted Accounting Principles (GAAP). SMA automates process to the full extent possible within the intrastate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. Claims attachments are compliant with the ASC X12 275 Patient Information. Premium payment information is compliant with the HIPAA ASC X12 834 Benefit Enrollment and Maintenance, in addition to MITA Framework, industry standards. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "SMA fully integrates the process to the extent possible across the interstate. SMA automates process to the full extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate information exchange. SMA adopts MITA Framework and industry standards across the interstate. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "SMA fully integrates the process to the extent possible across the nation. SMA automates process to the full extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA adopts MITA Framework and industry standards, across the nation. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
@@ -54,29 +32,18 @@
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "How accurate is the information in the process?",
+        "question": "How accurate is the information in the process? the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect",
-          "level_2": "accuracy of information but the decision-making process may be Manage Accounts Payable Information",
-          "level_3": "increases the reliability of SMA’s internal information. External sources of",
-          "level_4": "increases the reliability of SMA’s internal and external sources of",
-          "level_5": "industry standards for information exchange with national agencies."
-        }
-      },
-      {
-        "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accessible is the information in the process?",
-        "levels": {
-          "level_1": "including paper storage and obtains information manually.",
-          "level_2": "disparate systems, but automation and HIPAA standards increase accessibility over Level 1. Manage Accounts Payable Information",
-          "level_3": "and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
-          "level_4": "and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
-          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision- making. SMA stores information in disparate systems including paper storage and obtains information manually.",
+          "level_2": "accuracy of information but the decision-making process may be Manage Accounts Payable Information erroneous or misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1. Manage Accounts Payable Information",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
         "category": "Business Capability Quality: Cost Effectiveness",
-        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "question": "What is the cost of the process compared to the benefits of its results?",
         "levels": {
           "level_1": "",
           "level_2": "cost effectiveness ratio over Level 1.",
@@ -89,16 +56,16 @@
         "category": "Business Capability Quality: Effort to Perform; Efficiency",
         "question": "How efficient is the process?",
         "levels": {
-          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards.",
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
           "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Manage Accounts Payable Information",
           "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
-          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency",
-          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency"
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
         }
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "Capability Question How accurate are the results of the process?",
+        "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "opportunity for human error. Accuracy is low.",
           "level_2": "business rules definitions reduce error and improve accuracy above Level 1.",
@@ -113,14 +80,14 @@
         "levels": {
           "level_1": "information negatively affecting stakeholder satisfaction with the process.",
           "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1. Manage Accounts Payable Information",
-          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or",
-          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95%",
-          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98%"
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
         }
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Capability Question Manage Accounts Payable Disbursement Capability Question What format does SMA use for payments? automatic? use standards in the process?",
+        "question": "Manage Accounts Payable Disbursement What format does SMA use for payments? automatic? use standards in the process?",
         "levels": {
           "level_1": "automatic check write process to produce a paper check. SMA mails to the provider. State does not use Electronic Funds Transfers (EFT). The process consists primarily of manual paper-based activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using",
           "level_2": "standards for EFT and conforms to HIPAA requirements. SMA sends some paper checks to submitters. SMA encourages electronic billers to adopt EFT payment. SMA uses a mix of manual and automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards.",
