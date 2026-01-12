@@ -10,19 +10,19 @@
     "description": "The Manage Business Relationship Communication business process receives requests for information, appointments, and assistance from business partners, such as inquiries related to a Service Level Agreement (SLA). This business process includes the log, research, development, approval and delivery of routine or ad hoc messages. Information communicated by a variety of methods such as email, mail, publication, mobile device, facsimile, telephone, w (EDI).",
     "trigger_events": {
       "environment_based": [
-        "• Receive inquiry from business partner.",
-        "• Request to send information packages such as a SLA or a Key Performance Indicator (KPI).",
-        "• Receive request for assistance, such as a request for training or change in business partner information.",
-        "• Periodic timetable (e.g., monthly) is due for sending information (e.g., within 24 hours of new business partner agreement and periodic communications such as newsletters or other agency communications)."
+        "Receive inquiry from business partner.",
+        "Request to send information packages such as a SLA or a Key Performance Indicator (KPI).",
+        "Receive request for assistance, such as a request for training or change in business partner information.",
+        "Periodic timetable (e.g., monthly) is due for sending information (e.g., within 24 hours of new business partner agreement and periodic communications such as newsletters or other agency communications)."
       ],
       "interaction_based": [
-        "• Receive requests from other business processes to develop and produce communications for business partners such as alerts from Establish Business Relationship business process.",
-        "• Receive inquiries originating from customer help desk through Manage Business Relationship Information business process."
+        "Receive requests from other business processes to develop and produce communications for business partners such as alerts from Establish Business Relationship business process.",
+        "Receive inquiries originating from customer help desk through Manage Business Relationship Information business process."
       ]
     },
     "results": [
-      "• Business partner receives appropriate assistance, communication, and/or information packages.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Business partner receives appropriate assistance, communication, and/or information packages.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive request for communication.",
@@ -56,13 +56,13 @@
     ],
     "constraints": "The State Medicaid Agency (SMA) and its business partners agree on the content of the communications. Content depends on the business relationship. Content may be standards-based. Communication complies with federal and state regulations that may vary by state. Business partner may have communication barriers such as lack of internet or phone access. Business partner is unable to access needed or requested information.",
     "failures": [
-      "• The SMA is unable to provide linguistically, culturally, or competency appropriate information.",
-      "• Delivery failures due to erroneous contact information or lack of contact information."
+      "The SMA is unable to provide linguistically, culturally, or competency appropriate information.",
+      "Delivery failures due to erroneous contact information or lack of contact information."
     ],
     "performance_measures": [
-      "• Time to complete response: By phone __ minutes; by email __hours; by mail __ days",
-      "• Accuracy of communications = __%",
-      "• Communications successfully delivered = __%"
+      "Time to complete response: By phone __ minutes; by email __hours; by mail __ days",
+      "Accuracy of communications = __%",
+      "Communications successfully delivered = __%"
     ]
   },
   "metadata": {

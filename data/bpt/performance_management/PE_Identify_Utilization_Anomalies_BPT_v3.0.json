@@ -7,24 +7,24 @@
   "process_name": "Identify Utilization Anomalies",
   "process_code": "PE",
   "process_details": {
-    "description": "The Identify Utilization Anomalies business process uses criteria and rules to identify target groups (e.g., providers, contractors, trading partners or members) and establishes patterns or parameters of acceptable and unacceptable behavior, tests individuals against these models, or looks for new and unusual patterns, in order to identify outliers that demonstrate suspicious utilization of program benefits. Internal and external referrals, business intelligence analysis (i.e., historical, current, and predictive views of business operations), and scheduled or on-demand reporting may identify a compliance incident. Identification of utilization anomalies include evaluation of: Provider utilization review Provider compliance review Contractor utilization review (includes managed care organizations) Contractor compliance review Member utilization review Investigation of potential fraud or abuse review Drug utilization review Quality review (e.g., Consumer Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare Effectiveness Data and Information Set (HEDIS) measures) Performance review (e.g., Key Performance Indicator (KPI)) Erroneous payment Contract review Audit Review Other evaluation of information Different criteria and rules, relationships, and information define each type of compliance incident and require different types of external investigation.",
+    "description": "The Identify Utilization Anomalies business process uses criteria and rules to identify target groups (e.g., providers, contractors, trading partners or members) and establishes patterns or parameters of acceptable and unacceptable behavior, tests individuals against these models, or looks for new and unusual patterns, in order to identify outliers that demonstrate suspicious utilization of program benefits. Internal and external referrals, business intelligence analysis (i.e., historical, current, and predictive views of business operations), and scheduled or on-demand reporting may identify a compliance incident. Identification of utilization anomalies include evaluation of:\n• Provider utilization review\n• Provider compliance review\n• Contractor utilization review (includes managed care organizations)\n• Contractor compliance review\n• Member utilization review\n• Investigation of potential fraud or abuse review\n• Drug utilization review\n• Quality review (e.g., Consumer Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare Effectiveness Data and Information Set (HEDIS) measures)\n• Performance review (e.g., Key Performance Indicator (KPI))\n• Erroneous payment\n• Contract review\n• Audit Review\n• Other evaluation of information Different criteria and rules, relationships, and information define each type of compliance incident and require different types of external investigation.",
     "trigger_events": {
       "environment_based": [
-        "• Periodic timetable is due to scan for compliance incidents.",
-        "• Request to examine a specific group, individual, or other entity."
+        "Periodic timetable is due to scan for compliance incidents.",
+        "Request to examine a specific group, individual, or other entity."
       ],
       "interaction_based": [
-        "• Receive alert sent from business process that has outliers from established benchmarks."
+        "Receive alert sent from business process that has outliers from established benchmarks."
       ]
     },
     "results": [
-      "• Identification of utilization anomalies.",
-      "• If applicable, alert sent to notify member via Manage Applicant and Member",
-      "• Communication business process with anomaly information.",
-      "• If applicable, alert sent to notify provider via Manage Provider Communication business process with anomaly information.",
-      "• If applicable, alert sent to notify contractor via Manage Contractor Communication business process with anomaly information.",
-      "• If applicable, alert sent to Establish Compliance Incident business process for further investigation and monitoring.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Identification of utilization anomalies.",
+      "If applicable, alert sent to notify member via Manage Applicant and Member",
+      "Communication business process with anomaly information.",
+      "If applicable, alert sent to notify provider via Manage Provider Communication business process with anomaly information.",
+      "If applicable, alert sent to notify contractor via Manage Contractor Communication business process with anomaly information.",
+      "If applicable, alert sent to Establish Compliance Incident business process for further investigation and monitoring.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive request or reach scheduled timetable review.",
@@ -62,11 +62,11 @@
     ],
     "constraints": "States and programs within States establish different criteria for their investigations. Rules change along with the experience of the state, health care industry best practices, modifications in benefits, or with the addition of new provider types.",
     "failures": [
-      "• Staff is unable to identify target population because of insufficient information."
+      "Staff is unable to identify target population because of insufficient information."
     ],
     "performance_measures": [
-      "• Time to complete the process = within __ hours, ___ minutes",
-      "• Compliance Incident resulting in corrective action, settlement, or collection = __%"
+      "Time to complete the process = within __ hours, ___ minutes",
+      "Compliance Incident resulting in corrective action, settlement, or collection = __%"
     ]
   },
   "metadata": {

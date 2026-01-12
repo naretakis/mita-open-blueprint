@@ -7,30 +7,30 @@
   "process_name": "Enroll Provider",
   "process_code": "EE",
   "process_details": {
-    "description": "The Enroll Provider business process is responsible for enrolling providers into Medicaid that includes: Determination of contracting parameters (e.g., Provider taxonomy, type, category of service that the Provider can bill). Establishment of payment rates and funding sources, taking into consideration service area, incentives or discounts. Alert sent to Manage Contract business process to negotiate contracts. Supporting receipt and verification of program contractor’s Provider enrollment roster information (e.g., from Managed Care Organization (MCO) and Home and Community-Based Services (HCBS)). Alert sent to Manage Provider Information business process to load initial and modified enrollment information, including Providers contracted with program contractors into the Provider data store. Alert sent to Manage Provider Information business process to provide timely and accurate notification, or to make enrollment information required for operations available to all parties and affiliated business processes, including: o Alert sent to Prepare Provider Payment business process for capitation and premium payments. o To prepare Provider Electronic Funds Transfer (EFT) or check with the Manage Accounts Payable Disbursement business process. o The appropriate communications and outreach processes for follow- with the affected parties, including informing parties of their procedural rights. Periodic review is due or receipt of request to: o Negotiate payment rates. o Notify Provider of enrollment determination. Enroll Provider business process supports receipt and verification of program contractor’s Provider enrollment roster information (e.g., name, identification, contract information, type, specialty and services) from Managed Care Organization (MCO) and HCBS organizations.",
+    "description": "The Enroll Provider business process is responsible for enrolling providers into Medicaid that includes:\n• Determination of contracting parameters (e.g., Provider taxonomy, type, category of service that the Provider can bill).\n• Establishment of payment rates and funding sources, taking into consideration service area, incentives or discounts.\n• Alert sent to Manage Contract business process to negotiate contracts.\n• Supporting receipt and verification of program contractor’s Provider enrollment roster information (e.g., from Managed Care Organization (MCO) and Home and Community-Based Services (HCBS)).\n• Alert sent to Manage Provider Information business process to load initial and modified enrollment information, including Providers contracted with program contractors into the Provider data store.\n• Alert sent to Manage Provider Information business process to provide timely and accurate notification, or to make enrollment information required for operations available to all parties and affiliated business processes, including:\n - Alert sent to Prepare Provider Payment business process for capitation and premium payments.\n - To prepare Provider Electronic Funds Transfer (EFT) or check with the Manage Accounts Payable Disbursement business process.\n - The appropriate communications and outreach processes for follow- with the affected parties, including informing parties of their procedural rights.\n• Periodic review is due or receipt of request to:\n - Negotiate payment rates.\n - Notify Provider of enrollment determination. Enroll Provider business process supports receipt and verification of program contractor’s Provider enrollment roster information (e.g., name, identification, contract information, type, specialty and services) from Managed Care Organization (MCO) and HCBS organizations.",
     "trigger_events": {
       "environment_based": [
-        "• Periodic review is due or receipt of to: o Renegotiate payment rates. o Reevaluate enrollment based criteria such as performance measures, or triggered by date such as anniversary date based on Medicaid policy to verify information based on a contractual duration (e.g. year or months).",
-        "• Receive program enrollment or disenrollment information from Medicaid or CHIP.",
-        "• Receive request for provider’s enrollment roster information."
+        "Periodic review is due or receipt of to: o Renegotiate payment rates. o Reevaluate enrollment based criteria such as performance measures, or triggered by date such as anniversary date based on Medicaid policy to verify information based on a contractual duration (e.g. year or months).",
+        "Receive program enrollment or disenrollment information from Medicaid or CHIP.",
+        "Receive request for provider’s enrollment roster information."
       ],
       "interaction_based": [
-        "• Receive newly eligible Provider from Determine Provider Eligibility business process.",
-        "• Receive newly eligibility contractor from Award Contract business process.",
-        "• Receive alert from Manage Performance Measures to revalidate provider."
+        "Receive newly eligible Provider from Determine Provider Eligibility business process.",
+        "Receive newly eligibility contractor from Award Contract business process.",
+        "Receive alert from Manage Performance Measures to revalidate provider."
       ]
     },
     "results": [
-      "• Enrolled, re-enrolled, suspended, or denied enrollment of provider or contractor into programs.",
-      "• If applicable, alert sent to notify provider via Manage Provider Communication business process of enrollment determination.",
-      "• If applicable, alert sent to notify contractor via Manage Contractor Communication business process of enrollment determination.",
-      "• If applicable, alert sent to Manage Contractor Payment for payment arrangement.",
-      "• Alert sent to Perform Provider Outreach to send relevant state policy information.",
-      "• Alert sent to Manage Contract business process to negotiate contract.",
-      "• If applicable, send response for Provider enrollment roster information.",
-      "• Alert sent to notify Health Insurance Marketplace of provider enrollment",
-      "• information.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Enrolled, re-enrolled, suspended, or denied enrollment of provider or contractor into programs.",
+      "If applicable, alert sent to notify provider via Manage Provider Communication business process of enrollment determination.",
+      "If applicable, alert sent to notify contractor via Manage Contractor Communication business process of enrollment determination.",
+      "If applicable, alert sent to Manage Contractor Payment for payment arrangement.",
+      "Alert sent to Perform Provider Outreach to send relevant state policy information.",
+      "Alert sent to Manage Contract business process to negotiate contract.",
+      "If applicable, send response for Provider enrollment roster information.",
+      "Alert sent to notify Health Insurance Marketplace of provider enrollment",
+      "information.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Determine contracting parameters (e.g., Provider taxonomy, categories of service for which the Provider can bill), eligible Provider types, payment types, contract terms and maximums, member enrollment levels, panel size, and any contractor specific benefit packages and procedures.",
@@ -84,15 +84,15 @@
     ],
     "constraints": "The Provider enrollment process will accommodate the full range of Provider types, organizations, specialties, different types of applicants (e.g., the primary Provider, billing agent, pay-to entity), and care settings (e.g., solo office practice, group practice, rural health clinic) as well as different types of applications (e.g., New, Modification, Cancellation, Update). Different business rules may apply to each of these different types. Affiliations - MCO or subpart relationship.",
     "failures": [
-      "• Lack of applicable rates.",
-      "• Provider meets caps or limits moratorium."
+      "Lack of applicable rates.",
+      "Provider meets caps or limits moratorium."
     ],
     "performance_measures": [
-      "• Time to complete Enrollment process = within __ days",
-      "• Accuracy with which edits are applied = ___%",
-      "• Consistency of decisions and disposition = ___%",
-      "• Error rate = __% or less",
-      "• Provider Enrollment Variations Type Subtypes Information Institutional Provider The Institutional Provider application will accommodate a range of institutional Provider types (e.g., inpatient, nursing home, day care), different types of applicants (e.g., the primary Provider, billing agent, pay-to entity), and care settings (e.g., outpatient, emergency room, assisted living). NPI, entity type, taxonomy, type of facility, bed size, equipment, type of institutional services, ownership, trading partner information, billing and payment information, tax code, DRG or other payment type Individual Provider The Individual Billing Provider application will accommodate a range of professional billing"
+      "Time to complete Enrollment process = within __ days",
+      "Accuracy with which edits are applied = ___%",
+      "Consistency of decisions and disposition = ___%",
+      "Error rate = __% or less",
+      "Provider Enrollment Variations Type Subtypes Information Institutional Provider The Institutional Provider application will accommodate a range of institutional Provider types (e.g., inpatient, nursing home, day care), different types of applicants (e.g., the primary Provider, billing agent, pay-to entity), and care settings (e.g., outpatient, emergency room, assisted living). NPI, entity type, taxonomy, type of facility, bed size, equipment, type of institutional services, ownership, trading partner information, billing and payment information, tax code, DRG or other payment type Individual Provider The Individual Billing Provider application will accommodate a range of professional billing"
     ]
   },
   "metadata": {

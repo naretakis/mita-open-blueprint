@@ -10,14 +10,14 @@
     "description": "The Manage Incentive Payment business process accommodates administration of various incentive compensations to payers, providers, and members. Federal or state policy defines the programs, which are typically short duration and limited in scope. The policy defines specific periods, qualification criteria, and certification or verification requirements. The Manage Incentive Payment business process follows the Manage Program Policy business process that manages program administrative rules, whether federal or state, and concludes with paying the payer, provider, or member.",
     "trigger_events": {
       "environment_based": [
-        "• Receive addition or modification of incentive program based on federal or state policy."
+        "Receive addition or modification of incentive program based on federal or state policy."
       ],
       "interaction_based": []
     },
     "results": [
-      "• Alert sent to Manage Accounts Payable Information business process to generate payer, provider or member payment.",
-      "• Tracking information as needed for measuring performance and business",
-      "• activity monitoring."
+      "Alert sent to Manage Accounts Payable Information business process to generate payer, provider or member payment.",
+      "Tracking information as needed for measuring performance and business",
+      "activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive addition or modification of incentive program based on federal or state policy.",
@@ -48,15 +48,15 @@
     ],
     "constraints": "The Manage Incentive Payment business process will adhere to the federal and state policies and business rules that may differ by state.",
     "failures": [
-      "• Payer, provider, or member is not eligible for incentive program.",
-      "• Payer, provider, or member does not perform activities defined in incentive program policy.",
-      "• Payer, provider, or member does not submit artifacts required for compliance."
+      "Payer, provider, or member is not eligible for incentive program.",
+      "Payer, provider, or member does not perform activities defined in incentive program policy.",
+      "Payer, provider, or member does not submit artifacts required for compliance."
     ],
     "performance_measures": [
-      "• Time to complete the process: e.g., Real Time response = within ___seconds, Batch Response = within ___ hours",
-      "• Accuracy with which rules are applied =___%",
-      "• Consistency with which rules are applied=___%",
-      "• Error rate =___% or less"
+      "Time to complete the process: e.g., Real Time response = within ___seconds, Batch Response = within ___ hours",
+      "Accuracy with which rules are applied =___%",
+      "Consistency with which rules are applied=___%",
+      "Error rate =___% or less"
     ]
   },
   "metadata": {

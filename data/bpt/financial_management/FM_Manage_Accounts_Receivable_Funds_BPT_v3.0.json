@@ -10,16 +10,16 @@
     "description": "The Manage Accounts Receivable Funds business process is responsible for all operations aspects of the collection of payment owed to the State Medicaid Agency (SMA). Activities in this business process comply with Cash Management Improvement Act (CMIA), Governmental Accounting Standards Board (GASB) standards and Generally Accepted Accounting Principles (GAAP).",
     "trigger_events": {
       "environment_based": [
-        "• Receive payment (e.g., cash, check, and credit/debit card)."
+        "Receive payment (e.g., cash, check, and credit/debit card)."
       ],
       "interaction_based": [
-        "• Receive electronic payment (e.g., electronic funds transfer).",
-        "• Receive periodic scheduled electronic payments."
+        "Receive electronic payment (e.g., electronic funds transfer).",
+        "Receive periodic scheduled electronic payments."
       ]
     },
     "results": [
-      "• The State Medicaid Agency (SMA) receives payment and applies to accounts receivable.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "The State Medicaid Agency (SMA) receives payment and applies to accounts receivable.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive payment (e.g., cash, check, credit/debit card, electronic funds transfer).",
@@ -48,14 +48,14 @@
     ],
     "constraints": "States may have different payment business rules.",
     "failures": [
-      "• Inability or failure to load initial records or update information in existing records in the Financial data store.",
-      "• The SMA received no payments."
+      "Inability or failure to load initial records or update information in existing records in the Financial data store.",
+      "The SMA received no payments."
     ],
     "performance_measures": [
-      "• Time to complete the process = within __ hours, ___ minutes",
-      "• Accuracy with which updates are applied = __%",
-      "• Consistency with which updates are applied = __%",
-      "• Error rate = __% or less"
+      "Time to complete the process = within __ hours, ___ minutes",
+      "Accuracy with which updates are applied = __%",
+      "Consistency with which updates are applied = __%",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {

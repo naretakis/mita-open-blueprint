@@ -10,19 +10,19 @@
     "description": "The Manage Treatment Plan and Outcomes business process uses federal and state specific criteria and rules to ensure that the providers/contractors chosen and services delivered optimizes member and member population outcomes. It includes activities to track and assess effectiveness of the services, treatment plan, providers/contractors, service planning and coordination, episodes of care, support services, and other relevant factors. It also includes ongoing monitoring, management, and reassessment of services and treatment plans for need, appropriateness, and effectiveness, and monitoring of special member populations (e.g., pregnant women and children, and HIV/intravenous drug users). Health Information Exchange (HIE) monitors a member’s health information.",
     "trigger_events": {
       "environment_based": [
-        "• Periodic review of member’s treatment plan is due. CM Case Management Manage Treatment Plan and Outcomes Item Details",
-        "• Receive request to review member’s treatment plan."
+        "Periodic review of member’s treatment plan is due. CM Case Management Manage Treatment Plan and Outcomes Item Details",
+        "Receive request to review member’s treatment plan."
       ],
       "interaction_based": [
-        "• Receipt from Health Information Exchange (HIE) of a modification in member’s health outcome.",
-        "• Receive treatment plan from Establish Case business process."
+        "Receipt from Health Information Exchange (HIE) of a modification in member’s health outcome.",
+        "Receive treatment plan from Establish Case business process."
       ]
     },
     "results": [
-      "• Member’s treatment plan and outcomes are appropriate for their needs.",
-      "• Send modification (e.g., creates, update, delete) to member’s treatment plan sent to Health Information Exchange (HIE).",
-      "• Member, provider and care coordinators notified of modifications in treatment plan or benefits.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Member’s treatment plan and outcomes are appropriate for their needs.",
+      "Send modification (e.g., creates, update, delete) to member’s treatment plan sent to Health Information Exchange (HIE).",
+      "Member, provider and care coordinators notified of modifications in treatment plan or benefits.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive member’s treatment plan from Establish Case business process.",
@@ -58,13 +58,13 @@
     ],
     "constraints": "Agencies do not coordinate amongst each other in order to share information. Potential political and inter-agency conflicts over appropriate use of health care information.",
     "failures": [
-      "• Care Manager is unable to acquire treatment plan information."
+      "Care Manager is unable to acquire treatment plan information."
     ],
     "performance_measures": [
-      "• Timeliness to complete process = within __ days",
-      "• Accuracy with which changes are applied = ___%",
-      "• Consistency of decisions and disposition = ___%",
-      "• Error rate = __% or less"
+      "Timeliness to complete process = within __ days",
+      "Accuracy with which changes are applied = ___%",
+      "Consistency of decisions and disposition = ___%",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {

@@ -7,17 +7,17 @@
   "process_name": "Award Contract",
   "process_code": "CO",
   "process_details": {
-    "description": "The Award Contract business process utilizes requirements, advanced planning documents, requests for information, request for proposal, and sole source documents to request and receive proposals, veri Request for Proposal (RFP) or sole source requirements, apply evaluation criteria, designate contractor/vendor, post award information, entertain protests, resolve protests, negotiate contracts, and notify parties. In some States, this business process makes a recommendation of award instead of the actual award itself. NOTE: The State Medicaid Agency (SMA) requires billing agents, clearinghouses, or other alternate payee (as defined by the Secretary) to register.",
+    "description": "The Award Contract business process utilizes requirements, advanced planning documents, requests for information, request for proposal, and sole source documents to request and receive proposals, veri Request for Proposal (RFP) or sole source requirements, apply evaluation criteria, designate contractor/vendor, post award information, entertain protests, resolve protests, negotiate contracts, and notify parties. In some States, this business process makes a recommendation of award instead of the actual award itself.\nNOTE: The State Medicaid Agency (SMA) requires billing agents, clearinghouses, or other alternate payee (as defined by the Secretary) to register.",
     "trigger_events": {
       "environment_based": [
-        "• Receive respondent’s proposal or approval for sole source."
+        "Receive respondent’s proposal or approval for sole source."
       ],
       "interaction_based": []
     },
     "results": [
-      "• Alert to send notification of award status to respondent.",
-      "• The SMA negotiates contract with awarded contractor.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Alert to send notification of award status to respondent.",
+      "The SMA negotiates contract with awarded contractor.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive respondent’s proposal (e.g., email, mail, web, or Electronic Data Interchange (EDI).",
@@ -51,19 +51,19 @@
     ],
     "constraints": "The Contractor application will accommodate the full range of contractor types.",
     "failures": [
-      "• Information does not comply with syntax criteria.",
-      "• Not all required information provided.",
-      "• Information provided not authenticated.",
-      "• Parties are unable to negotiate contract (e.g., no agreement on rates).",
-      "• The SMA loses funding.",
-      "• Responder successfully protests an award."
+      "Information does not comply with syntax criteria.",
+      "Not all required information provided.",
+      "Information provided not authenticated.",
+      "Parties are unable to negotiate contract (e.g., no agreement on rates).",
+      "The SMA loses funding.",
+      "Responder successfully protests an award."
     ],
     "performance_measures": [
-      "• Time to complete process = ___ months; ___ weeks",
-      "• Accuracy of information = ___ %",
-      "• Accessibility of information for creating solicitation = ___ months; ___ weeks",
-      "• Consistency of decisions and disposition = ___ %",
-      "• Error rate = __% or less"
+      "Time to complete process = ___ months; ___ weeks",
+      "Accuracy of information = ___ %",
+      "Accessibility of information for creating solicitation = ___ months; ___ weeks",
+      "Consistency of decisions and disposition = ___ %",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {

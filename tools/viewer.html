@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MITA 2014 Data Viewer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .sidebar {
+      width: 320px;
+      background: #2c3e50;
+      color: white;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h1 {
+      font-size: 1.2rem;
+      padding: 1rem;
+      margin: 0;
+      background: #1a252f;
+      position: sticky;
+      top: 0;
+    }
+    .controls {
+      padding: 1rem;
+      background: #34495e;
+    }
+    .controls select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      border: none;
+      border-radius: 4px;
+    }
+    .file-list {
+      padding: 0.5rem;
+    }
+    .file-item {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-bottom: 2px;
+      font-size: 0.85rem;
+    }
+    .file-item:hover {
+      background: #34495e;
+    }
+    .file-item.active {
+      background: #3498db;
+    }
+    .file-item .code {
+      color: #95a5a6;
+      font-size: 0.75rem;
+    }
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 2rem;
+    }
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 2rem;
+    }
+    .header {
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .header h2 {
+      margin: 0 0 0.5rem 0;
+      color: #2c3e50;
+    }
+    .header .meta {
+      color: #7f8c8d;
+      font-size: 0.9rem;
+    }
+    .header .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+    .badge.bpt { background: #27ae60; color: white; }
+    .badge.bcm { background: #9b59b6; color: white; }
+    
+    /* BPT Styles */
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    .section h3 {
+      color: #2c3e50;
+      font-size: 1rem;
+      margin: 0 0 0.5rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid #ecf0f1;
+    }
+    .section p {
+      margin: 0;
+      line-height: 1.6;
+    }
+    .section .description {
+      line-height: 1.6;
+    }
+    .section .description p {
+      margin: 0 0 0.5rem 0;
+    }
+    .section .description ul {
+      margin: 0.25rem 0;
+      padding-left: 1.5rem;
+    }
+    .section .description ul.sub {
+      list-style-type: disc;
+      margin-left: 0.5rem;
+    }
+    .section .description ul.nested {
+      list-style-type: circle;
+      margin-left: 0.5rem;
+    }
+    .process-steps .step {
+      margin-bottom: 1rem;
+    }
+    .process-steps .step-main {
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+    }
+    .process-steps .sub-steps {
+      margin-left: 1.5rem;
+      margin-top: 0.25rem;
+    }
+    .process-steps .sub-step {
+      margin-bottom: 0.25rem;
+    }
+    .process-steps .step-note {
+      margin-left: 1.5rem;
+      margin-top: 0.25rem;
+      padding: 0.5rem;
+      background: #f8f9fa;
+      border-left: 3px solid #ffc107;
+      font-size: 0.9rem;
+    }
+    .section ul {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+    .section li {
+      margin-bottom: 0.25rem;
+      line-height: 1.5;
+    }
+    .trigger-group {
+      margin-bottom: 0.75rem;
+    }
+    .trigger-group h4 {
+      font-size: 0.85rem;
+      color: #7f8c8d;
+      margin: 0 0 0.25rem 0;
+      font-weight: normal;
+      font-style: italic;
+    }
+
+    
+    /* BCM Styles */
+    .question-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+    .question-header {
+      background: #f8f9fa;
+      padding: 1rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .question-header .category {
+      font-size: 0.75rem;
+      color: #7f8c8d;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+    }
+    .question-header .question {
+      font-weight: 600;
+      color: #2c3e50;
+    }
+    .levels {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+    .level {
+      padding: 0.75rem;
+      border-right: 1px solid #e0e0e0;
+      font-size: 0.8rem;
+      line-height: 1.4;
+    }
+    .level:last-child {
+      border-right: none;
+    }
+    .level-header {
+      font-weight: bold;
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      font-size: 0.75rem;
+    }
+    .level-1 .level-header { background: #e74c3c; }
+    .level-2 .level-header { background: #e67e22; }
+    .level-3 .level-header { background: #f1c40f; color: #333; }
+    .level-4 .level-header { background: #27ae60; }
+    .level-5 .level-header { background: #3498db; }
+    .level-content {
+      color: #555;
+    }
+    .level-content.empty {
+      color: #bdc3c7;
+      font-style: italic;
+    }
+    
+    .notes {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 4px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .notes strong {
+      color: #856404;
+    }
+    
+    .placeholder {
+      text-align: center;
+      color: #95a5a6;
+      padding: 4rem 2rem;
+    }
+    .placeholder h2 {
+      color: #bdc3c7;
+    }
+    
+    .diagrams {
+      margin-top: 1rem;
+    }
+    .diagrams img {
+      max-width: 100%;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>MITA 2014 Viewer</h1>
+      <div class="controls">
+        <select id="docType">
+          <option value="bpt">BPT - Business Process Templates</option>
+          <option value="bcm">BCM - Business Capability Models</option>
+        </select>
+        <select id="businessArea">
+          <option value="">Select Business Area...</option>
+        </select>
+      </div>
+      <div class="file-list" id="fileList"></div>
+    </div>
+    <div class="main">
+      <div class="content" id="content">
+        <div class="placeholder">
+          <h2>MITA 2014 Data Viewer</h2>
+          <p>Select a document type and business area from the sidebar to begin.</p>
+          <p>This viewer displays the extracted JSON data for visual verification.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const BUSINESS_AREAS = [
+      { id: 'business_relationship_management', name: 'Business Relationship Management' },
+      { id: 'care_management', name: 'Care Management' },
+      { id: 'contractor_management', name: 'Contractor Management' },
+      { id: 'eligibility_and_enrollment_management', name: 'Eligibility and Enrollment Management' },
+      { id: 'financial_management', name: 'Financial Management' },
+      { id: 'operations_management', name: 'Operations Management' },
+      { id: 'performance_management', name: 'Performance Management' },
+      { id: 'plan_management', name: 'Plan Management' },
+      { id: 'provider_management', name: 'Provider Management' },
+    ];
+
+    let currentFiles = [];
+    let currentData = null;
+
+    // Populate business area dropdown
+    const areaSelect = document.getElementById('businessArea');
+    BUSINESS_AREAS.forEach(area => {
+      const opt = document.createElement('option');
+      opt.value = area.id;
+      opt.textContent = area.name;
+      areaSelect.appendChild(opt);
+    });
+
+    // Event listeners
+    document.getElementById('docType').addEventListener('change', loadFileList);
+    document.getElementById('businessArea').addEventListener('change', loadFileList);
+
+    async function loadFileList() {
+      const docType = document.getElementById('docType').value;
+      const area = document.getElementById('businessArea').value;
+      const fileList = document.getElementById('fileList');
+      
+      if (!area) {
+        fileList.innerHTML = '<div style="padding: 1rem; color: #95a5a6;">Select a business area</div>';
+        return;
+      }
+
+      fileList.innerHTML = '<div style="padding: 1rem; color: #95a5a6;">Loading...</div>';
+
+      try {
+        // Fetch directory listing (we'll need to know the files)
+        const basePath = `../data/${docType}/${area}/`;
+        const response = await fetch(`../data/${docType}/${area}/`);
+        
+        // Since we can't list directories via fetch, we'll use a known pattern
+        // Load the index by trying common file patterns
+        const files = await discoverFiles(docType, area);
+        currentFiles = files;
+        
+        fileList.innerHTML = '';
+        files.forEach((file, idx) => {
+          const div = document.createElement('div');
+          div.className = 'file-item';
+          div.innerHTML = `
+            <div>${file.name}</div>
+            <div class="code">${file.code}</div>
+          `;
+          div.onclick = () => loadFile(file, idx);
+          fileList.appendChild(div);
+        });
+      } catch (err) {
+        fileList.innerHTML = `<div style="padding: 1rem; color: #e74c3c;">Error loading files: ${err.message}</div>`;
+      }
+    }
+
+    async function discoverFiles(docType, area) {
+      // Try to load a manifest or discover files
+      // For simplicity, we'll fetch known files based on the area
+      const files = [];
+      const suffix = docType.toUpperCase();
+      
+      // Fetch one file to get the pattern, then try to find others
+      const testPatterns = await getFilesForArea(docType, area);
+      return testPatterns;
+    }
+
+    async function getFilesForArea(docType, area) {
+      // We need to know what files exist. Let's try fetching based on known patterns.
+      const files = [];
+      const areaCode = {
+        'business_relationship_management': 'BR',
+        'care_management': 'CM',
+        'contractor_management': 'CO',
+        'eligibility_and_enrollment_management': 'EE',
+        'financial_management': 'FM',
+        'operations_management': 'OM',
+        'performance_management': 'PE',
+        'plan_management': 'PL',
+        'provider_management': 'PM',
+      }[area];
+
+      // Known process names per area (simplified - we'll try to fetch and see what works)
+      const knownProcesses = {
+        'business_relationship_management': [
+          'Establish_Business_Relationship',
+          'Manage_Business_Relationship_Communication',
+          'Manage_Business_Relationship_Information',
+          'Terminate_Business_Relationship'
+        ],
+        'care_management': [
+          'Authorize_Referral', 'Authorize_Service', 'Authorize_Treatment_Plan',
+          'Establish_Case', 'Manage_Case_Information', 'Manage_Population_Health_Outreach',
+          'Manage_Registry', 'Manage_Treatment_Plans_and_Outcomes', 'Perform_Screening_and_Assessment'
+        ],
+        'contractor_management': [
+          'Award_Contract', 'Close_Out_Contract', 'Inquire_Contractor_Information',
+          'Manage_Contract', 'Manage_Contractor_Communication', 'Manage_Contractor_Grievance_and_Appeal',
+          'Manage_Contractor_Information', 'Perform_Contractor_Outreach', 'Produce_Solicitation'
+        ],
+        'eligibility_and_enrollment_management': [
+          'Determine_Member_Eligibility', 'Determine_Provider_Eligibility',
+          'Disenroll_Member', 'Disenroll_Provider', 'Enroll_Member', 'Enroll_Provider',
+          'Inquire_Member_Eligibility', 'Inquire_Provider_Information'
+        ],
+        'financial_management': [
+          'Formulate_Budget', 'Generate_Financial_Report', 'Manage_1099',
+          'Manage_Accounts_Payable_Disbursement', 'Manage_Accounts_Payable_Information',
+          'Manage_Accounts_Receivable_Funds', 'Manage_Accounts_Receivable_Information',
+          'Manage_Budget_Information', 'Manage_Capitation_Payment', 'Manage_Contractor_Payment',
+          'Manage_Cost_Settlement', 'Manage_Drug_Rebate', 'Manage_Estate_Recovery',
+          'Manage_Fund', 'Manage_Incentive_Payment', 'Manage_Member_Financial_Participation',
+          'Manage_Provider_Recoupment', 'Manage_TPL_Recovery', 'Prepare_Member_Premium_Invoice'
+        ],
+        'operations_management': [
+          'Apply_Mass_Adjustment', 'Calculate_Spend-Down_Amount', 'Generate_Remittance_Advice',
+          'Inquire_Payment_Status', 'Manage_Data', 'Prepare_Provider_Payment',
+          'Process_Claim', 'Process_Encounter', 'Submit_Electronic_Attachment'
+        ],
+        'performance_management': [
+          'Determine_Adverse_Action_Incident', 'Establish_Compliance_Incident',
+          'Identify_Utilization_Anomalies', 'Manage_Compliance_Incident_Information', 'Prepare_REOMB'
+        ],
+        'plan_management': [
+          'Develop_Agency_Goals_and_Objectives', 'Maintain_Program_Policy',
+          'Maintain_Reference_Information', 'Maintain_State_Plan',
+          'Manage_Health_Benefit_Information', 'Manage_Health_Plan_Information',
+          'Manage_Performance_Measures', 'Manage_Rate_Setting'
+        ],
+        'provider_management': [
+          'Manage_Provider_Communication', 'Manage_Provider_Grievance_and_Appeal',
+          'Manage_Provider_Information', 'Perform_Provider_Outreach', 'Terminate_Provider'
+        ]
+      };
+
+      const processes = knownProcesses[area] || [];
+      const suffix = docType.toUpperCase();
+      
+      for (const proc of processes) {
+        const filename = `${areaCode}_${proc}_${suffix}_v3.0.json`;
+        files.push({
+          filename,
+          name: proc.replace(/_/g, ' '),
+          code: areaCode,
+          path: `../data/${docType}/${area}/${filename}`
+        });
+      }
+      
+      return files;
+    }
+
+    async function loadFile(file, idx) {
+      // Update active state
+      document.querySelectorAll('.file-item').forEach((el, i) => {
+        el.classList.toggle('active', i === idx);
+      });
+
+      const content = document.getElementById('content');
+      content.innerHTML = '<div class="placeholder"><p>Loading...</p></div>';
+
+      try {
+        const response = await fetch(file.path);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        currentData = data;
+        renderContent(data);
+      } catch (err) {
+        content.innerHTML = `<div class="placeholder"><p style="color: #e74c3c;">Error loading file: ${err.message}</p></div>`;
+      }
+    }
+
+    function renderContent(data) {
+      const content = document.getElementById('content');
+      
+      if (data.document_type === 'BPT') {
+        content.innerHTML = renderBPT(data);
+      } else if (data.document_type === 'BCM') {
+        content.innerHTML = renderBCM(data);
+      } else {
+        content.innerHTML = '<div class="placeholder"><p>Unknown document type</p></div>';
+      }
+    }
+
+    function renderBPT(data) {
+      const pd = data.process_details || {};
+      const te = pd.trigger_events || {};
+      
+      let html = `
+        <div class="header">
+          <span class="badge bpt">BPT</span>
+          <span class="badge" style="background: #95a5a6; color: white;">${data.version}</span>
+          <h2>${data.process_name}</h2>
+          <div class="meta">
+            ${data.business_area} › ${data.sub_category || 'N/A'}<br>
+            Process Code: ${data.process_code} | Version Date: ${data.version_date}
+          </div>
+        </div>
+      `;
+
+      // Description
+      if (pd.description) {
+        html += `
+          <div class="section">
+            <h3>Description</h3>
+            <div class="description">${formatDescription(pd.description)}</div>
+          </div>
+        `;
+      }
+
+      // Trigger Events
+      if (te.environment_based?.length || te.interaction_based?.length) {
+        html += `<div class="section"><h3>Trigger Events</h3>`;
+        if (te.environment_based?.length) {
+          html += `
+            <div class="trigger-group">
+              <h4>Environment-based</h4>
+              <ul>${te.environment_based.map(t => `<li>${escapeHtml(t)}</li>`).join('')}</ul>
+            </div>
+          `;
+        }
+        if (te.interaction_based?.length) {
+          html += `
+            <div class="trigger-group">
+              <h4>Interaction-based</h4>
+              <ul>${te.interaction_based.map(t => `<li>${escapeHtml(t)}</li>`).join('')}</ul>
+            </div>
+          `;
+        }
+        html += `</div>`;
+      }
+
+      // Process Steps (already numbered in data, don't add bullets)
+      if (pd.process_steps?.length) {
+        html += `
+          <div class="section">
+            <h3>Business Process Steps (${pd.process_steps.length})</h3>
+            <div class="process-steps">${pd.process_steps.map(s => formatProcessStep(s)).join('')}</div>
+          </div>
+        `;
+      }
+
+      // Results
+      if (pd.results?.length) {
+        html += `
+          <div class="section">
+            <h3>Results</h3>
+            <ul>${pd.results.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul>
+          </div>
+        `;
+      }
+
+      // Shared Data
+      if (pd.shared_data?.length) {
+        html += `
+          <div class="section">
+            <h3>Shared Data</h3>
+            <ul>${pd.shared_data.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>
+          </div>
+        `;
+      }
+
+      // Predecessor/Successor
+      if (pd.predecessor_processes?.length) {
+        html += `
+          <div class="section">
+            <h3>Predecessor Processes</h3>
+            <ul>${pd.predecessor_processes.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
+          </div>
+        `;
+      }
+      if (pd.successor_processes?.length) {
+        html += `
+          <div class="section">
+            <h3>Successor Processes</h3>
+            <ul>${pd.successor_processes.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
+          </div>
+        `;
+      }
+
+      // Constraints
+      if (pd.constraints) {
+        html += `
+          <div class="section">
+            <h3>Constraints</h3>
+            <p>${escapeHtml(pd.constraints)}</p>
+          </div>
+        `;
+      }
+
+      // Failures
+      if (pd.failures?.length) {
+        html += `
+          <div class="section">
+            <h3>Failures</h3>
+            <ul>${pd.failures.map(f => `<li>${escapeHtml(f)}</li>`).join('')}</ul>
+          </div>
+        `;
+      }
+
+      // Performance Measures
+      if (pd.performance_measures?.length) {
+        html += `
+          <div class="section">
+            <h3>Performance Measures</h3>
+            <ul>${pd.performance_measures.map(m => `<li>${escapeHtml(m)}</li>`).join('')}</ul>
+          </div>
+        `;
+      }
+
+      // Metadata
+      html += `
+        <div class="section" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ecf0f1;">
+          <h3>Metadata</h3>
+          <p style="font-size: 0.85rem; color: #7f8c8d;">
+            Source: ${data.metadata?.source_file || 'N/A'}<br>
+            Pages: ${data.metadata?.source_page_range || 'N/A'}<br>
+            Extracted: ${data.metadata?.extracted_date || 'N/A'}
+          </p>
+        </div>
+      `;
+
+      return html;
+    }
+
+    function renderBCM(data) {
+      const mm = data.maturity_model || {};
+      const questions = mm.capability_questions || [];
+
+      let html = `
+        <div class="header">
+          <span class="badge bcm">BCM</span>
+          <span class="badge" style="background: #95a5a6; color: white;">${data.version}</span>
+          <h2>${data.process_name}</h2>
+          <div class="meta">
+            ${data.business_area} › ${data.sub_category || 'N/A'}<br>
+            Process Code: ${data.process_code} | Version Date: ${data.version_date}
+          </div>
+        </div>
+      `;
+
+      // Notes (if present)
+      if (data.notes) {
+        html += `
+          <div class="notes">
+            <strong>Note:</strong> ${escapeHtml(data.notes)}
+          </div>
+        `;
+      }
+
+      html += `<p style="margin-bottom: 1.5rem; color: #7f8c8d;">${questions.length} Capability Questions</p>`;
+
+      // Questions
+      questions.forEach((q, idx) => {
+        const levels = q.levels || {};
+        html += `
+          <div class="question-card">
+            <div class="question-header">
+              <div class="category">${escapeHtml(q.category || 'Uncategorized')}</div>
+              <div class="question">${idx + 1}. ${escapeHtml(q.question)}</div>
+            </div>
+            <div class="levels">
+              ${[1,2,3,4,5].map(n => {
+                const content = levels[`level_${n}`] || '';
+                const isEmpty = !content || content.trim() === '';
+                return `
+                  <div class="level level-${n}">
+                    <div class="level-header">Level ${n}</div>
+                    <div class="level-content ${isEmpty ? 'empty' : ''}">${isEmpty ? '(empty)' : escapeHtml(content)}</div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      });
+
+      // Metadata
+      html += `
+        <div class="section" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ecf0f1;">
+          <h3>Metadata</h3>
+          <p style="font-size: 0.85rem; color: #7f8c8d;">
+            Source: ${data.metadata?.source_file || 'N/A'}<br>
+            Pages: ${data.metadata?.source_page_range || 'N/A'}<br>
+            Extracted: ${data.metadata?.extracted_date || 'N/A'}
+            ${data.metadata?.manual_review ? `<br>Manual Review: ${data.metadata.manual_review}` : ''}
+          </p>
+        </div>
+      `;
+
+      return html;
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function formatProcessStep(step) {
+      if (!step) return '';
+      
+      const lines = step.split('\n');
+      let html = '<div class="step">';
+      let hasSubSteps = false;
+      
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        const trimmed = line.trim();
+        
+        // Main step line (starts with number)
+        if (i === 0 || /^\d+\./.test(trimmed)) {
+          html += `<div class="step-main">${escapeHtml(trimmed)}</div>`;
+          continue;
+        }
+        
+        // Sub-step (starts with letter like "a." or has leading spaces + letter)
+        if (/^\s*[a-z]\.\s/.test(line)) {
+          if (!hasSubSteps) {
+            html += '<div class="sub-steps">';
+            hasSubSteps = true;
+          }
+          html += `<div class="sub-step">${escapeHtml(trimmed)}</div>`;
+          continue;
+        }
+        
+        // NOTE line
+        if (trimmed.startsWith('NOTE:') || trimmed.startsWith('Note:')) {
+          html += `<div class="step-note">${escapeHtml(trimmed)}</div>`;
+          continue;
+        }
+        
+        // Other content - treat as continuation
+        html += `<div class="sub-step">${escapeHtml(trimmed)}</div>`;
+      }
+      
+      if (hasSubSteps) {
+        html += '</div>';
+      }
+      
+      html += '</div>';
+      return html;
+    }
+
+    function formatDescription(text) {
+      if (!text) return '';
+      
+      const lines = text.split('\n');
+      let html = '';
+      let inMainList = false;
+      let inSubList = false;
+      let inNestedList = false;
+      
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        const trimmed = line.trim();
+        
+        // Skip empty lines but close lists if needed
+        if (!trimmed) {
+          if (inNestedList) { html += '</ul>'; inNestedList = false; }
+          if (inSubList) { html += '</ul>'; inSubList = false; }
+          if (inMainList) { html += '</ul>'; inMainList = false; }
+          html += '<br>';
+          continue;
+        }
+        
+        // Check for nested bullet (    · or · at start)
+        if (line.startsWith('    · ') || line.startsWith(' · ') || trimmed.startsWith('· ')) {
+          if (!inNestedList) {
+            if (!inSubList && !inMainList) {
+              html += '<ul>';
+              inMainList = true;
+            }
+            html += '<ul class="nested">';
+            inNestedList = true;
+          }
+          const content = trimmed.startsWith('· ') ? trimmed.slice(2) : line.replace(/^\s*· /, '');
+          html += `<li>${escapeHtml(content)}</li>`;
+          continue;
+        }
+        
+        // Check for sub-bullet (  - at start)
+        if (line.startsWith('  - ') || line.startsWith(' - ')) {
+          // Close nested list if open
+          if (inNestedList) { html += '</ul>'; inNestedList = false; }
+          
+          if (!inSubList) {
+            if (!inMainList) {
+              html += '<ul>';
+              inMainList = true;
+            }
+            html += '<ul class="sub">';
+            inSubList = true;
+          }
+          const content = line.replace(/^\s*- /, '');
+          html += `<li>${escapeHtml(content)}</li>`;
+          continue;
+        }
+        
+        // Check for main bullet (• at start)
+        if (trimmed.startsWith('• ')) {
+          // Close nested and sub lists if open
+          if (inNestedList) { html += '</ul>'; inNestedList = false; }
+          if (inSubList) { html += '</ul>'; inSubList = false; }
+          
+          if (!inMainList) {
+            html += '<ul>';
+            inMainList = true;
+          }
+          const content = trimmed.slice(2);
+          html += `<li>${escapeHtml(content)}</li>`;
+          continue;
+        }
+        
+        // Regular text - close all lists first
+        if (inNestedList) { html += '</ul>'; inNestedList = false; }
+        if (inSubList) { html += '</ul>'; inSubList = false; }
+        if (inMainList) { html += '</ul>'; inMainList = false; }
+        
+        html += `<p>${escapeHtml(trimmed)}</p>`;
+      }
+      
+      // Close any remaining open lists
+      if (inNestedList) html += '</ul>';
+      if (inSubList) html += '</ul>';
+      if (inMainList) html += '</ul>';
+      
+      return html;
+    }
+  </script>
+</body>
+</html>

@@ -10,22 +10,22 @@
     "description": "The Maintain State Plan business process responds to the scheduled and unscheduled prompts to update and revise the Medicaid State Plan. The Medicaid State Plan is the officially recognized statement describing the nature and scope of the State Medicaid program as required under Section 1902 of the Social Security Act.",
     "trigger_events": {
       "environment_based": [
-        "• Periodic timetable (e.g., annual) is due for review of Medicaid State Plan.",
-        "• Periodic timetable (e.g., annual) is due to implement new policy or modification.",
-        "• Ad hoc request for Medicaid State Plan updates."
+        "Periodic timetable (e.g., annual) is due for review of Medicaid State Plan.",
+        "Periodic timetable (e.g., annual) is due to implement new policy or modification.",
+        "Ad hoc request for Medicaid State Plan updates."
       ],
       "interaction_based": []
     },
     "results": [
-      "• The State Medicaid Agency (SMA) defines new or modified Medicaid State Plan.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "The State Medicaid Agency (SMA) defines new or modified Medicaid State Plan.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive prompt or notification to review and update Medicaid State Plan.",
       "2. Review relevant current Medicaid State Plan documentation.",
       "3. Analyze requirements for change to Medicaid State Plan.",
       "4. Research information associated with the change.",
-      "5. Analyze impact of the change and determine whether to move forward with modification based on results of analysis: a. If no modifications to Medicaid State Plan are necessary, END: Business process stops. b. If necessary, request a waiver for submission in accordance with procedures from appropriate authorities.",
+      "5. Analyze impact of the change and determine whether to move forward with modification based on results of analysis:\na. If no modifications to Medicaid State Plan are necessary, END: Business process stops.\nb. If necessary, request a waiver for submission in accordance with procedures from appropriate authorities.",
       "6. Develop Medicaid State Plan modification.",
       "7. Disseminate Medicaid State Plan modification for review, comment and approval by internal and external stakeholders.",
       "8. Refine Medicaid State Plan modification based on feedback.",
@@ -61,11 +61,11 @@
     ],
     "constraints": "Economic conditions shift, making less revenue available to fund the approved and planned budget. The SMA will comply with federal and state regulations.",
     "failures": [
-      "• The SMA is unable to receive approval of Medicaid State Plan from internal or external stakeholders."
+      "The SMA is unable to receive approval of Medicaid State Plan from internal or external stakeholders."
     ],
     "performance_measures": [
-      "• Time to complete the process = within __ days, ___ weeks",
-      "• Achievement of goals and objectives linked to policy implementation"
+      "Time to complete the process = within __ days, ___ weeks",
+      "Achievement of goals and objectives linked to policy implementation"
     ]
   },
   "metadata": {

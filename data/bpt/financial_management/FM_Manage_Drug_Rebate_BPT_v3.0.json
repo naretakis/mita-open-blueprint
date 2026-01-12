@@ -7,17 +7,17 @@
   "process_name": "Manage Drug Rebate",
   "process_code": "FM",
   "process_details": {
-    "description": "The Manage Drug Rebate business process describes the process of managing drug rebate that the State Medicaid Agency (SMA) collects from manufacturers. This business process: Receives quarterly drug rebate information from Centers for Medicare & Medicaid Services (CMS). Compares drug rebate to quarterly payment history information. Identifies drug information matches based on manufacturer and drug code. Applies the rebate factor and volume indicators. Calculates the total rebate per manufacturer. Prepares drug rebate invoices. Sorts the invoices by manufacturer and drug code. Sends the invoice information to the drug manufacturer via the Send Outbound Transaction. Sends an alert to Manage Accounts Receivable Information to monitor for rebate payment.",
+    "description": "The Manage Drug Rebate business process describes the process of managing drug rebate that the State Medicaid Agency (SMA) collects from manufacturers. This business process:\n• Receives quarterly drug rebate information from Centers for Medicare & Medicaid Services (CMS).\n• Compares drug rebate to quarterly payment history information.\n• Identifies drug information matches based on manufacturer and drug code.\n• Applies the rebate factor and volume indicators.\n• Calculates the total rebate per manufacturer.\n• Prepares drug rebate invoices.\n• Sorts the invoices by manufacturer and drug code.\n• Sends the invoice information to the drug manufacturer via the Send Outbound Transaction.\n• Sends an alert to Manage Accounts Receivable Information to monitor for rebate payment.",
     "trigger_events": {
       "environment_based": [],
       "interaction_based": [
-        "• Receive the CMS quarterly drug rebate information from Receive Inbound FM Accounts Receivable Management Manage Drug Rebate Item Details Transaction."
+        "Receive the CMS quarterly drug rebate information from Receive Inbound FM Accounts Receivable Management Manage Drug Rebate Item Details Transaction."
       ]
     },
     "results": [
-      "• Alert sent to invoice the drug manufacturer.",
-      "• Alert sent to Manage Accounts Receivable Information business process to monitor for payment.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Alert sent to invoice the drug manufacturer.",
+      "Alert sent to Manage Accounts Receivable Information business process to monitor for payment.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: The state receives a quarterly file from CMS containing the rebate factors by manufacturer, drug code, and volume.",
@@ -45,15 +45,15 @@
     ],
     "constraints": "The Manage Drug Rebate business process will be in accordance with state- specific drug formulary, business rules, and reporting requirements that may differ by state, and will comply with federal mandates.",
     "failures": [
-      "• CMS does not send quarterly drug rebate information.",
-      "• There are no drug claims for rebate matching the manufacturer and drug codes based on the CMS Drug Product Data for the period. NOTE: the process could complete with errors (e.g., errors in rebate rates, drug payment file errors), and the SMA would correct these errors or disputed amounts in the Manage Accounts Receivable Information business process."
+      "CMS does not send quarterly drug rebate information.",
+      "There are no drug claims for rebate matching the manufacturer and drug codes based on the CMS Drug Product Data for the period. NOTE: the process could complete with errors (e.g., errors in rebate rates, drug payment file errors), and the SMA would correct these errors or disputed amounts in the Manage Accounts Receivable Information business process."
     ],
     "performance_measures": [
-      "• Time to complete the process = e.g., ___ months, ___ weeks or ___ days",
-      "• Accuracy with which the Drug Rebate rules are applied = __%",
-      "• Consistency with which the Drug Rebate rules are applied = __%",
-      "• Amount of drug rebate dollars recovered quarterly = ___%",
-      "• Error rate = __% or less"
+      "Time to complete the process = e.g., ___ months, ___ weeks or ___ days",
+      "Accuracy with which the Drug Rebate rules are applied = __%",
+      "Consistency with which the Drug Rebate rules are applied = __%",
+      "Amount of drug rebate dollars recovered quarterly = ___%",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {

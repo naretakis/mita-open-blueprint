@@ -10,15 +10,15 @@
     "description": "The Develop Agency Goals and Objectives business process periodically assesses and prioritizes the current mission statement, goals, and objectives to determine if changes are necessary. Goals and objectives may warrant change for example, under a new administration, in response to changes in demographics, public opinion or medical industry trends, or in response to regional or national disasters.",
     "trigger_events": {
       "environment_based": [
-        "• Periodic timetable (e.g., annual) is due for review of goals and objectives.",
-        "• Periodic timetable (e.g., annual) is due to implement new goals or objectives.",
-        "• Ad hoc request for goals or objectives updates."
+        "Periodic timetable (e.g., annual) is due for review of goals and objectives.",
+        "Periodic timetable (e.g., annual) is due to implement new goals or objectives.",
+        "Ad hoc request for goals or objectives updates."
       ],
       "interaction_based": []
     },
     "results": [
-      "• The State Medicaid Agency (SMA) defines new or modified statement of goals or objectives.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "The State Medicaid Agency (SMA) defines new or modified statement of goals or objectives.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START. Receive notice that the SMA requires a review of current goals and objectives or the review interval is due.",
@@ -47,11 +47,11 @@
     ],
     "constraints": "Economic conditions shift, making less revenue available to fund the approved and planned budget. The State Medicaid Agency will comply with federal and state regulations.",
     "failures": [
-      "• Stakeholders are unable to reach consensus on the SMA goals and objectives."
+      "Stakeholders are unable to reach consensus on the SMA goals and objectives."
     ],
     "performance_measures": [
-      "• Time to complete the process = within __ days, ___ weeks",
-      "• Achievement of goals and objectives linked to policy implementation"
+      "Time to complete the process = within __ days, ___ weeks",
+      "Achievement of goals and objectives linked to policy implementation"
     ]
   },
   "metadata": {

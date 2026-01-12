@@ -7,21 +7,21 @@
   "process_name": "Manage Population Health Outreach",
   "process_code": "CM",
   "process_details": {
-    "description": "The Manage Population Health Outreach business process is responsible for the implementation of strategy to improve general population health. The State Medicaid Agency (SMA) identifies target populations or individuals for selection by cultural, diagnostic, or other demographic indicators. The inputs to this business process are census, vital statistics, immigration, and other information sources. This business process outputs materials for: Campaigns to enroll new members in existing health plan or health benefit. New health plan or health benefit offering. Modification to existing health plan or health benefit offering. It includes production of information materials and communications to impacted members, providers, and contractors (e.g., program strategies and materials, etc.). The communication of information includes a variety of methods such as email, mail, publication, mobile device, facsimile, telephone, web or Electronic Data Interchange (EDI).",
+    "description": "The Manage Population Health Outreach business process is responsible for the implementation of strategy to improve general population health. The State Medicaid Agency (SMA) identifies target populations or individuals for selection by cultural, diagnostic, or other demographic indicators. The inputs to this business process are census, vital statistics, immigration, and other information sources. This business process outputs materials for:\n• Campaigns to enroll new members in existing health plan or health benefit.\n• New health plan or health benefit offering.\n• Modification to existing health plan or health benefit offering. It includes production of information materials and communications to impacted members, providers, and contractors (e.g., program strategies and materials, etc.). The communication of information includes a variety of methods such as email, mail, publication, mobile device, facsimile, telephone, web or Electronic Data Interchange (EDI).",
     "trigger_events": {
       "environment_based": [
-        "• Receive information from census, vital statistics, public health departments, immigration, and other information sources.",
-        "• Periodic timetable (e.g., monthly, quarterly) to distribute information is due.",
-        "• Receive new population or problem-specific legislated health improvement initiatives.",
-        "• Receive request for information from other originators (e.g., federal actions or constituency interests)."
+        "Receive information from census, vital statistics, public health departments, immigration, and other information sources.",
+        "Periodic timetable (e.g., monthly, quarterly) to distribute information is due.",
+        "Receive new population or problem-specific legislated health improvement initiatives.",
+        "Receive request for information from other originators (e.g., federal actions or constituency interests)."
       ],
       "interaction_based": [
-        "• Receive alert from Establish Case to place member into care management monitoring."
+        "Receive alert from Establish Case to place member into care management monitoring."
       ]
     },
     "results": [
-      "• The SMA produces outreach communications (e.g., mailing brochures, web pages, email, kiosk, and radio, billboard, and TV advertisements) and distributes to targeted populations or individuals. The SMA may also conduct face-to-face meetings.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "The SMA produces outreach communications (e.g., mailing brochures, web pages, email, kiosk, and radio, billboard, and TV advertisements) and distributes to targeted populations or individuals. The SMA may also conduct face-to-face meetings.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive request for outreach materials or communication.",
@@ -62,12 +62,12 @@
     ],
     "constraints": "Agencies do not coordinate amongst each other in order to share information. Potential political and inter-agency conflicts over appropriate use of health care information.",
     "failures": [
-      "• Inter-agency agency communication or lack of access to information impairs ability to gather information to support strategies."
+      "Inter-agency agency communication or lack of access to information impairs ability to gather information to support strategies."
     ],
     "performance_measures": [
-      "• Time to complete communication: By phone __ minutes; by email __hours; by mail __ days",
-      "• Accuracy of communications = __%",
-      "• Communications successfully delivered = __%"
+      "Time to complete communication: By phone __ minutes; by email __hours; by mail __ days",
+      "Accuracy of communications = __%",
+      "Communications successfully delivered = __%"
     ]
   },
   "metadata": {

@@ -98,8 +98,12 @@ def clean_extracted_text(text):
     """Remove any remaining page header artifacts from extracted text."""
     # Normalize dashes first
     text = text.replace('‐', '-').replace('–', '-').replace('—', '-')
-    # Normalize whitespace (including newlines within the text)
-    text = re.sub(r'\s+', ' ', text)
+    
+    # Normalize spaces (but preserve newlines)
+    # Replace multiple spaces with single space
+    text = re.sub(r'[ \t]+', ' ', text)
+    # Normalize multiple newlines to max 2
+    text = re.sub(r'\n{3,}', '\n\n', text)
     
     # Patterns to remove
     patterns = [
@@ -157,6 +161,7 @@ def extract_bulleted_list(lines, stop_patterns=None):
     """
     Extract a bulleted list from lines.
     Handles bullets on separate lines from content.
+    Returns clean text without bullet characters (let the consumer format).
     """
     if stop_patterns is None:
         stop_patterns = BPT_SECTIONS
@@ -188,7 +193,7 @@ def extract_bulleted_list(lines, stop_patterns=None):
             if current_item:
                 cleaned = clean_extracted_text(current_item)
                 if cleaned:
-                    items.append(f"• {cleaned}")
+                    items.append(cleaned)
                 current_item = ""
             in_bullet = True
             i += 1
@@ -199,7 +204,7 @@ def extract_bulleted_list(lines, stop_patterns=None):
             if current_item:
                 cleaned = clean_extracted_text(current_item)
                 if cleaned:
-                    items.append(f"• {cleaned}")
+                    items.append(cleaned)
             current_item = line[2:]
             in_bullet = True
             i += 1
@@ -218,7 +223,7 @@ def extract_bulleted_list(lines, stop_patterns=None):
     if current_item:
         cleaned = clean_extracted_text(current_item)
         if cleaned:
-            items.append(f"• {cleaned}")
+            items.append(cleaned)
     
     return items
 
@@ -226,13 +231,13 @@ def extract_bulleted_list(lines, stop_patterns=None):
 def extract_numbered_list(lines, stop_patterns=None):
     """
     Extract a numbered list (1., 2., etc.) from lines.
-    Handles wrapped content and page breaks.
+    Preserves sub-steps (a., b., c.) and NOTE: blocks with proper formatting.
     """
     if stop_patterns is None:
         stop_patterns = BPT_SECTIONS
     
     items = []
-    current_item = ""
+    current_item_lines = []
     current_num = 0
     skip_until_number = False
     
@@ -258,17 +263,15 @@ def extract_numbered_list(lines, stop_patterns=None):
         if any(line == pat or line.startswith(pat + ' ') for pat in stop_patterns):
             break
         
-        # Check for numbered item
+        # Check for main numbered item (1., 2., etc.)
         match = re.match(r'^(\d+)\.\s*(.*)$', line)
         if match:
             skip_until_number = False
             # Save previous item
-            if current_item:
-                cleaned = clean_extracted_text(current_item)
-                if cleaned:
-                    items.append(cleaned)
+            if current_item_lines:
+                items.append(format_step_with_substeps(current_item_lines))
             current_num = int(match.group(1))
-            current_item = f"{current_num}. {match.group(2)}"
+            current_item_lines = [f"{current_num}. {match.group(2)}"]
             continue
         
         # Skip empty lines
@@ -279,17 +282,38 @@ def extract_numbered_list(lines, stop_patterns=None):
         if skip_until_number:
             continue
         
-        # Continue previous item
-        if current_item:
-            current_item += " " + line
+        # Check for sub-step (a., b., c., etc.)
+        sub_match = re.match(r'^([a-z])\.\s*(.*)$', line)
+        if sub_match and current_item_lines:
+            current_item_lines.append(f"  {sub_match.group(1)}. {sub_match.group(2)}")
+            continue
+        
+        # Check for NOTE: at start of line
+        if line.startswith('NOTE:') or line.startswith('Note:'):
+            if current_item_lines:
+                current_item_lines.append(f"  {line}")
+            continue
+        
+        # Continue previous line (wrapped text)
+        if current_item_lines:
+            # Append to the last line in current_item_lines
+            current_item_lines[-1] += " " + line
     
     # Don't forget the last item
-    if current_item:
-        cleaned = clean_extracted_text(current_item)
-        if cleaned:
-            items.append(cleaned)
+    if current_item_lines:
+        items.append(format_step_with_substeps(current_item_lines))
     
     return items
+
+
+def format_step_with_substeps(lines):
+    """Format a step with its sub-steps, preserving structure."""
+    result_lines = []
+    for line in lines:
+        cleaned = clean_extracted_text(line)
+        if cleaned:
+            result_lines.append(cleaned)
+    return "\n".join(result_lines)
 
 
 # =============================================================================
@@ -623,49 +647,136 @@ def find_next_section(lines, start_idx):
 
 
 def extract_description(lines):
-    """Extract a description, joining wrapped lines."""
-    text_parts = []
-    current = ""
+    """
+    Extract a description, preserving paragraph structure and bullet lists.
     
-    for line in lines:
-        line = line.strip()
-        
-        # Skip empty lines (paragraph break)
-        if not line:
-            if current:
-                text_parts.append(current)
-                current = ""
-            continue
+    Returns text with:
+    - Paragraphs separated by double newlines
+    - Bullet items on their own lines with "• " prefix
+    - Sub-bullets with "  - " prefix (indented)
+    """
+    result_lines = []
+    current_text = ""
+    pending_bullet = None  # None, 'main', 'sub', 'nested'
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
         
         # Skip page headers
         if is_page_header(line):
+            i += 1
             continue
         
-        # Skip section markers
+        # Skip section markers - we've hit the next section
         if line in BPT_SECTIONS:
             break
         
-        # Skip standalone bullet characters
-        if line in BULLET_CHARS:
+        # Empty line = paragraph break
+        if not line:
+            if current_text:
+                result_lines.append(current_text)
+                current_text = ""
+            pending_bullet = None
+            i += 1
             continue
         
-        # Replace inline bullet characters with proper bullets
-        for bullet in BULLET_CHARS:
-            if bullet and bullet in line:
-                line = line.replace(bullet, '•')
+        # Check if this is a bullet character on its own line
+        if line in BULLET_CHARS:
+            # Save current text first
+            if current_text:
+                result_lines.append(current_text)
+                current_text = ""
+            pending_bullet = 'main'
+            i += 1
+            continue
         
-        # Join lines
-        if current:
-            current += " " + line
+        # Check for sub-bullet markers (o, ○)
+        if line in ['o', 'O', '○', '◦']:
+            if current_text:
+                result_lines.append(current_text)
+                current_text = ""
+            pending_bullet = 'sub'
+            i += 1
+            continue
+        
+        # Check for nested bullet markers on their own
+        if line in ['', '▪', '■', '□']:
+            if current_text:
+                result_lines.append(current_text)
+                current_text = ""
+            pending_bullet = 'nested'
+            i += 1
+            continue
+        
+        # Check for inline bullet at start of line (main bullets)
+        if line.startswith('• ') or line.startswith('- ') or line.startswith('\uf0b7 '):
+            if current_text:
+                result_lines.append(current_text)
+            clean_line = line[2:] if line.startswith('• ') or line.startswith('- ') else line[2:]
+            current_text = "• " + clean_line
+            pending_bullet = None
+            i += 1
+            continue
+        
+        # Check for inline sub-bullet (o markers)
+        if line.startswith('o ') or line.startswith('○ '):
+            if current_text:
+                result_lines.append(current_text)
+            current_text = "  - " + line[2:]
+            pending_bullet = None
+            i += 1
+            continue
+        
+        # Check for inline nested bullet (\uf0fc is checkmark/nested bullet in PDFs)
+        if line.startswith('\uf0fc ') or line.startswith(' '):
+            if current_text:
+                result_lines.append(current_text)
+            clean_line = line[2:] if line.startswith('\uf0fc ') else line[2:]
+            current_text = "    · " + clean_line
+            pending_bullet = None
+            i += 1
+            continue
+        
+        # If we have a pending bullet, this line is the bullet content
+        if pending_bullet:
+            if current_text:
+                result_lines.append(current_text)
+            if pending_bullet == 'main':
+                current_text = "• " + line
+            elif pending_bullet == 'sub':
+                current_text = "  - " + line
+            else:  # nested
+                current_text = "    · " + line
+            pending_bullet = None
+            i += 1
+            continue
+        
+        # Check for NOTE: which should start a new paragraph
+        if line.startswith('NOTE:') or line.startswith('Note:'):
+            if current_text:
+                result_lines.append(current_text)
+            current_text = line
+            i += 1
+            continue
+        
+        # Regular continuation of current text
+        if current_text:
+            current_text += " " + line
         else:
-            current = line
+            current_text = line
+        
+        i += 1
     
-    if current:
-        text_parts.append(current)
+    # Don't forget the last part
+    if current_text:
+        result_lines.append(current_text)
     
-    # Clean and join
-    result = "\n\n".join(text_parts)
+    # Join with appropriate newlines
+    result = "\n".join(result_lines)
+    
     return clean_extracted_text(result)
+
 
 
 def extract_trigger_events(lines):
@@ -686,9 +797,9 @@ def extract_trigger_events(lines):
         if 'Environment-based' in line or 'Environment based' in line:
             if current_item and current_category:
                 if current_category == 'environment':
-                    environment.append(f"• {clean_text(current_item)}")
+                    environment.append(clean_text(current_item))
                 else:
-                    interaction.append(f"• {clean_text(current_item)}")
+                    interaction.append(clean_text(current_item))
             current_category = 'environment'
             current_item = ""
             continue
@@ -696,9 +807,9 @@ def extract_trigger_events(lines):
         if 'Interaction-based' in line or 'Interaction based' in line:
             if current_item and current_category:
                 if current_category == 'environment':
-                    environment.append(f"• {clean_text(current_item)}")
+                    environment.append(clean_text(current_item))
                 else:
-                    interaction.append(f"• {clean_text(current_item)}")
+                    interaction.append(clean_text(current_item))
             current_category = 'interaction'
             current_item = ""
             continue
@@ -711,15 +822,19 @@ def extract_trigger_events(lines):
         if line in BULLET_CHARS:
             if current_item and current_category:
                 if current_category == 'environment':
-                    environment.append(f"• {clean_text(current_item)}")
+                    environment.append(clean_text(current_item))
                 else:
-                    interaction.append(f"• {clean_text(current_item)}")
+                    interaction.append(clean_text(current_item))
             current_item = ""
             continue
         
         # Skip section markers
         if line in BPT_SECTIONS:
             break
+        
+        # Strip leading bullet if present
+        if line.startswith('• ') or line.startswith('- '):
+            line = line[2:]
         
         # Add to current item
         if current_item:
@@ -730,13 +845,13 @@ def extract_trigger_events(lines):
     # Don't forget last item
     if current_item and current_category:
         if current_category == 'environment':
-            environment.append(f"• {clean_text(current_item)}")
+            environment.append(clean_text(current_item))
         else:
-            interaction.append(f"• {clean_text(current_item)}")
+            interaction.append(clean_text(current_item))
     
     # If no categorization found, put all in interaction (default)
     if not environment and not interaction and current_item:
-        interaction.append(f"• {clean_text(current_item)}")
+        interaction.append(clean_text(current_item))
     
     return environment, interaction
 

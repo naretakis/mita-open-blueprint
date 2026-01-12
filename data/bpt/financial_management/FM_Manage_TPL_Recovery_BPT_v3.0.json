@@ -7,19 +7,19 @@
   "process_name": "Manage TPL Recovery",
   "process_code": "FM",
   "process_details": {
-    "description": "The Manage TPL Recovery business process begins by receiving Third-Party Liability (TPL) information from various sources such as external and internal information matches, tips, referrals, attorneys, compliance management incident, Medicaid Fraud Control Unit (MFCU), providers, and insurance companies. The business process: Identifies the provider or TPL carrier, locates recoverable claims. Creates the coordination of benefits file. Creates post-payment recovery files. Sends notification to other payer or provider from the Manage Provider Communication business process.",
+    "description": "The Manage TPL Recovery business process begins by receiving Third-Party Liability (TPL) information from various sources such as external and internal information matches, tips, referrals, attorneys, compliance management incident, Medicaid Fraud Control Unit (MFCU), providers, and insurance companies. The business process:\n• Identifies the provider or TPL carrier, locates recoverable claims.\n• Creates the coordination of benefits file.\n• Creates post-payment recovery files.\n• Sends notification to other payer or provider from the Manage Provider Communication business process.",
     "trigger_events": {
       "environment_based": [
-        "• Receive third-party liability information from outside sources via the Determine Member Eligibility business process.",
-        "• Receive third-party liability information from internal and external eligibility information matches. State transition-based Trigger Events:",
-        "• Receive claims payment information from Process Claim or Process Encounter business process."
+        "Receive third-party liability information from outside sources via the Determine Member Eligibility business process.",
+        "Receive third-party liability information from internal and external eligibility information matches. State transition-based Trigger Events:",
+        "Receive claims payment information from Process Claim or Process Encounter business process."
       ],
       "interaction_based": []
     },
     "results": [
-      "• Alert sent to notify third-party liability of recovery request.",
-      "• Alert sent to Manage Accounts Receivable Information business process to monitor for payment.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Alert sent to notify third-party liability of recovery request.",
+      "Alert sent to Manage Accounts Receivable Information business process to monitor for payment.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive third-party liability information.",
@@ -60,15 +60,15 @@
     ],
     "constraints": "States differ in the rules applied to TPL recoveries. Capabilities related to information matches vary and some States utilize recovery services contractors. The state’s integration of eligibility determination systems also has significant impact on their ability to cost avoid versus cost recover.",
     "failures": [
-      "• Inability to identify third-party payer from received third-party liability information.",
-      "• Identified third-party payer denies liability or otherwise refuses to pay."
+      "Inability to identify third-party payer from received third-party liability information.",
+      "Identified third-party payer denies liability or otherwise refuses to pay."
     ],
     "performance_measures": [
-      "• Time to complete the process = Real Time response = within __ seconds, Batch Response = within __hours",
-      "• Accuracy with which the TPL rules are applied = __%",
-      "• Consistency with which the TPL rules are applied = __%",
-      "• Amount of dollars recovered = ___%",
-      "• Error rate (false recovery demands) = __% or less"
+      "Time to complete the process = Real Time response = within __ seconds, Batch Response = within __hours",
+      "Accuracy with which the TPL rules are applied = __%",
+      "Consistency with which the TPL rules are applied = __%",
+      "Amount of dollars recovered = ___%",
+      "Error rate (false recovery demands) = __% or less"
     ]
   },
   "metadata": {

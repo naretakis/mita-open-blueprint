@@ -7,20 +7,20 @@
   "process_name": "Manage Cost Settlement",
   "process_code": "FM",
   "process_details": {
-    "description": "The Manage Cost Settlement business process begins with the submission of the provider’s annual Medicare Cost Report to Medicaid. Staff makes inquires for paid, denied, and adjusted claims information in the Claims data store. The business process includes: Reviewing provider costs and establishing a basis for cost settlements or compliance reviews. Receiving audited Medicare Cost Report from intermediaries. Capturing the necessary provider cost settlement information. Calculating the final annual cost settlement based on the Medicare Cost Report. Generating the information for notification to the provider. Verifying the information is correct. Producing the notifications to providers. Establishing interim reimbursement rates. NOTE: In some States, the State Medicaid Agency (SMA) may make cost settlements through the Apply Mass Adjustment business process.",
+    "description": "The Manage Cost Settlement business process begins with the submission of the provider’s annual Medicare Cost Report to Medicaid. Staff makes inquires for paid, denied, and adjusted claims information in the Claims data store. The business process includes:\n• Reviewing provider costs and establishing a basis for cost settlements or compliance reviews.\n• Receiving audited Medicare Cost Report from intermediaries.\n• Capturing the necessary provider cost settlement information.\n• Calculating the final annual cost settlement based on the Medicare Cost Report.\n• Generating the information for notification to the provider.\n• Verifying the information is correct.\n• Producing the notifications to providers.\n• Establishing interim reimbursement rates.\nNOTE: In some States, the State Medicaid Agency (SMA) may make cost settlements through the Apply Mass Adjustment business process.",
     "trigger_events": {
       "environment_based": [
-        "• Receive provider costs from claims history data store.",
-        "• Receive Medicare Cost Report.",
-        "• Prompt for annual provider cost review."
+        "Receive provider costs from claims history data store.",
+        "Receive Medicare Cost Report.",
+        "Prompt for annual provider cost review."
       ],
       "interaction_based": []
     },
     "results": [
-      "• Alert sent to notify provider of cost settlement information.",
-      "• Alert sent to Manage Accounts Receivable Information business process to monitor for payment.",
-      "• Alert sent to Manage Rate Setting business process of interim reimbursement rates.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Alert sent to notify provider of cost settlement information.",
+      "Alert sent to Manage Accounts Receivable Information business process to monitor for payment.",
+      "Alert sent to Manage Rate Setting business process of interim reimbursement rates.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive Medicare Cost Report from provider.",
@@ -59,16 +59,16 @@
     ],
     "constraints": "Cost Settlement information will conform to CMS and state-specific reporting requirements.",
     "failures": [
-      "• This process has no failure modes that prevent the process from completion.",
-      "• Delays are the result of delays in the audited Medicare Cost Report.",
-      "• A provider may file a grievance if it does not agree with established rates or settlement amounts."
+      "This process has no failure modes that prevent the process from completion.",
+      "Delays are the result of delays in the audited Medicare Cost Report.",
+      "A provider may file a grievance if it does not agree with established rates or settlement amounts."
     ],
     "performance_measures": [
-      "• Time to complete the process = e.g., ___ months, ___ weeks or ___ days",
-      "• Accuracy with which the SMA applies Cost Settlement rules = __%",
-      "• Consistency with which the SMA applies Cost Settlement rules = __%",
-      "• Number of grievances or protests received = __",
-      "• Error rate = __% or less"
+      "Time to complete the process = e.g., ___ months, ___ weeks or ___ days",
+      "Accuracy with which the SMA applies Cost Settlement rules = __%",
+      "Consistency with which the SMA applies Cost Settlement rules = __%",
+      "Number of grievances or protests received = __",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {

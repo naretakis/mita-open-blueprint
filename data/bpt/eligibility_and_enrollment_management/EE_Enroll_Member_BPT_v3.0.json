@@ -7,21 +7,21 @@
   "process_name": "Enroll Member",
   "process_code": "EE",
   "process_details": {
-    "description": "The Enroll Member business process receives eligibility information from the Determine Member Eligibility business process, the Health Insurance Marketplace, or any insurance affordability program (e.g., Children’s Health Insurance Program [CHIP] or Basic Health Program [BHP]). It determines additional qualifications for enrollment in health benefits for which the member is eligible, and produces notifications for coordination of communications to the member, provider, and to the insurance affordability programs. The Marketplace, Agency or enrollment brokers may perform some or all of the steps in this business process. NOTE: There is a separate business process for Disenroll Member. NOTE: Applications and Accounts - An individual seeking eligibility for enrollment in a qualified health plan through the Health Insurance Marketplace, advance premium tax credits, cost-sharing reductions, Medicaid, CHIP or BHP completes and submits an on-line, telephone, in-person, or paper application for verification and eligibility determination. The Health Insurance Marketplace or insurance affordability program accepts application data and manages information in an “account” by the receiving program to enable access to this information during the verification and eligibility determination processes, as well as after the conclusion of the process to support change reporting and for other purposes.",
+    "description": "The Enroll Member business process receives eligibility information from the Determine Member Eligibility business process, the Health Insurance Marketplace, or any insurance affordability program (e.g., Children’s Health Insurance Program [CHIP] or Basic Health Program [BHP]). It determines additional qualifications for enrollment in health benefits for which the member is eligible, and produces notifications for coordination of communications to the member, provider, and to the insurance affordability programs. The Marketplace, Agency or enrollment brokers may perform some or all of the steps in this business process.\n\nNOTE: There is a separate business process for Disenroll Member.\nNOTE: Applications and Accounts - An individual seeking eligibility for enrollment in a qualified health plan through the Health Insurance Marketplace, advance premium tax credits, cost-sharing reductions, Medicaid, CHIP or BHP completes and submits an on-line, telephone, in-person, or paper application for verification and eligibility determination. The Health Insurance Marketplace or insurance affordability program accepts application data and manages information in an “account” by the receiving program to enable access to this information during the verification and eligibility determination processes, as well as after the conclusion of the process to support change reporting and for other purposes.",
     "trigger_events": {
       "environment_based": [
-        "• Receive presumptive eligibility determination from provider."
+        "Receive presumptive eligibility determination from provider."
       ],
       "interaction_based": [
-        "• Receive enrollment determination from Determine Member Eligibility business process."
+        "Receive enrollment determination from Determine Member Eligibility business process."
       ]
     },
     "results": [
-      "• Enroll eligible member in Medicaid health plans and health benefits.",
-      "• Alert sent to Manage Applicant and Member Communication to send welcome package, health plan, if applicable, health benefits, and identification cards.",
-      "• Alert sent to send enrollment information to contractor.",
-      "• If applicable, alert sent to Manage Member Financial Participation for premium payment arrangement.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Enroll eligible member in Medicaid health plans and health benefits.",
+      "Alert sent to Manage Applicant and Member Communication to send welcome package, health plan, if applicable, health benefits, and identification cards.",
+      "Alert sent to send enrollment information to contractor.",
+      "If applicable, alert sent to Manage Member Financial Participation for premium payment arrangement.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive eligibility determination to enroll member.",
@@ -52,16 +52,16 @@
     ],
     "constraints": "State may have different programs and different enrollment criteria, or may use enrollment brokers for some or all of the business process steps. States may require non-HIPAA covered contractors to use the ANSI X12 834 Benefit Enrollment and Maintenance transaction or may rely on State specific formats for contractor notification.",
     "failures": [
-      "• Alert fails to reach member or contractor.",
-      "• Duplicate enrollment requests,",
-      "• Required field missing or not correct"
+      "Alert fails to reach member or contractor.",
+      "Duplicate enrollment requests,",
+      "Required field missing or not correct"
     ],
     "performance_measures": [
-      "• Time to complete process: successful applicant is enrolled within __ days",
-      "• Accuracy of enrollment = ___%",
-      "• Consistency of enrollments and disposition = ___%",
-      "• Error rate is __% or less",
-      "• Disenroll Member"
+      "Time to complete process: successful applicant is enrolled within __ days",
+      "Accuracy of enrollment = ___%",
+      "Consistency of enrollments and disposition = ___%",
+      "Error rate is __% or less",
+      "Disenroll Member"
     ]
   },
   "metadata": {

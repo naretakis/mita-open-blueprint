@@ -10,15 +10,15 @@
     "description": "The Maintain Program Policy Business Process responds to requests or needs for change in the enterprise’s programs, benefits, or business rules, based on factors such as federal or state regulations, governing board or commission directives, Quality Improvement Organization’s findings, federal or state audits, enterprise decisions, or consumer pressure.",
     "trigger_events": {
       "environment_based": [
-        "• Periodic timetable (e.g., annual) is due for review of program policy.",
-        "• Periodic timetable (e.g., annual) is due to implement new program policy or modification.",
-        "• Ad hoc request for program policy updates."
+        "Periodic timetable (e.g., annual) is due for review of program policy.",
+        "Periodic timetable (e.g., annual) is due to implement new program policy or modification.",
+        "Ad hoc request for program policy updates."
       ],
       "interaction_based": []
     },
     "results": [
-      "• The State Medicaid Agency (SMA) defines new or modified statement of program policy.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "The State Medicaid Agency (SMA) defines new or modified statement of program policy.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive request to add, delete, or change policy.",
@@ -55,12 +55,12 @@
     ],
     "constraints": "Economic conditions shift, making less revenue available to fund the approved and planned budget. The SMA will comply with federal and state regulations.",
     "failures": [
-      "• Cost/benefit analysis does not support proposed policy.",
-      "• Inability to obtain necessary approvals."
+      "Cost/benefit analysis does not support proposed policy.",
+      "Inability to obtain necessary approvals."
     ],
     "performance_measures": [
-      "• Time to complete the process = within __ days, ___ weeks",
-      "• Achievement of goals and objectives linked to policy implementation"
+      "Time to complete the process = within __ days, ___ weeks",
+      "Achievement of goals and objectives linked to policy implementation"
     ]
   },
   "metadata": {

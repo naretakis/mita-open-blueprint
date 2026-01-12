@@ -10,30 +10,30 @@
     "description": "The Manage Compliance Incident Information business process is responsible for the monitoring of incidents of utilization anomalies. Activities include referring (e.g., escalation) incident to another incident manager or agency, modificatio incident information, journaling activities, and disposition of incident.",
     "trigger_events": {
       "environment_based": [
-        "• Staff periodically reviews incident.",
-        "• Staff modifies incident information due to follow-up activities.",
-        "• Receive requests for suppression of information or corrective action from federal and state law enforcement.",
-        "• Receive compliance investigation information from Centers for Medicare & Medicaid Services (CMS).",
-        "• Receive compliance investigation information from Medicaid Fraud Control Unit (MFCU).",
-        "• Receive compliance investigation information from Office of Inspector General (OIG).",
-        "• Receive self-disclosure of actual or potential violations from provider."
+        "Staff periodically reviews incident.",
+        "Staff modifies incident information due to follow-up activities.",
+        "Receive requests for suppression of information or corrective action from federal and state law enforcement.",
+        "Receive compliance investigation information from Centers for Medicare & Medicaid Services (CMS).",
+        "Receive compliance investigation information from Medicaid Fraud Control Unit (MFCU).",
+        "Receive compliance investigation information from Office of Inspector General (OIG).",
+        "Receive self-disclosure of actual or potential violations from provider."
       ],
       "interaction_based": [
-        "• Receive alert from Establish Compliance Incident business process of new incident."
+        "Receive alert from Establish Compliance Incident business process of new incident."
       ]
     },
     "results": [
-      "• Monitored incident and tracked.",
-      "• Determination of disposition and closure of incident.",
-      "• If applicable, alert sent to notify member via Manage Applicant and Member Communication business process of incident tracking information.",
-      "• If applicable, alert sent to notify provider via Manage Provider Communication business process of incident tracking information.",
-      "• If applicable, alert sent to notify contractor via Manage Contractor Communication business process of incident tracking information.",
-      "• If applicable, alert sent to Determine Adverse Action Incident business process for further investigation.",
-      "• If applicable, notification sent to state or federal law enforcement agencies of possible criminal investigation.",
-      "• If applicable, notification sent to CMS for compliance investigation.",
-      "• If applicable, notification sent to MFCU of compliance investigation.",
-      "• If applicable, notification sent to OIG of compliance investigation.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Monitored incident and tracked.",
+      "Determination of disposition and closure of incident.",
+      "If applicable, alert sent to notify member via Manage Applicant and Member Communication business process of incident tracking information.",
+      "If applicable, alert sent to notify provider via Manage Provider Communication business process of incident tracking information.",
+      "If applicable, alert sent to notify contractor via Manage Contractor Communication business process of incident tracking information.",
+      "If applicable, alert sent to Determine Adverse Action Incident business process for further investigation.",
+      "If applicable, notification sent to state or federal law enforcement agencies of possible criminal investigation.",
+      "If applicable, notification sent to CMS for compliance investigation.",
+      "If applicable, notification sent to MFCU of compliance investigation.",
+      "If applicable, notification sent to OIG of compliance investigation.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive established incident.",
@@ -76,13 +76,13 @@
     ],
     "constraints": "States and programs within States establish different criteria for their investigations. Rules change along with the experience of the state, health care best practices, modifications in benefits, and with the addition of new provider and member types.",
     "failures": [
-      "• This business process has no failure modes that prevent the process from completion."
+      "This business process has no failure modes that prevent the process from completion."
     ],
     "performance_measures": [
-      "• Time to complete the process = e.g., ___ days, ___ hours or ___ minutes",
-      "• Accuracy with which rules are applied = __%",
-      "• Consistency with which rules are applied = __%",
-      "• Error rate = __% or less"
+      "Time to complete the process = e.g., ___ days, ___ hours or ___ minutes",
+      "Accuracy with which rules are applied = __%",
+      "Consistency with which rules are applied = __%",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {

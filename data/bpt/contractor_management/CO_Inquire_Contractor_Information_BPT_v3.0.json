@@ -11,12 +11,12 @@
     "trigger_events": {
       "environment_based": [],
       "interaction_based": [
-        "• Receive contract verification request from Receive Inbound Transaction."
+        "Receive contract verification request from Receive Inbound Transaction."
       ]
     },
     "results": [
-      "• Contract verification response sent to requestor.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "Contract verification response sent to requestor.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive contract verification request.",
@@ -41,15 +41,15 @@
     ],
     "constraints": "The State Medicaid Agency (SMA) determines what information to share.",
     "failures": [
-      "• The SMA is unable to find contractor information.",
-      "• The SMA is unable to respond to a request.",
-      "• Validation failed.",
-      "• Requestor provides incomplete information (e.g., missing required information elements)."
+      "The SMA is unable to find contractor information.",
+      "The SMA is unable to respond to a request.",
+      "Validation failed.",
+      "Requestor provides incomplete information (e.g., missing required information elements)."
     ],
     "performance_measures": [
-      "• Time to verify Contractor information and generate response information: e.g., Real Time response = within __ seconds, Batch Response = within __ hours",
-      "• Response Accuracy = ___%",
-      "• Error rate = __% or less"
+      "Time to verify Contractor information and generate response information: e.g., Real Time response = within __ seconds, Batch Response = within __ hours",
+      "Response Accuracy = ___%",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {

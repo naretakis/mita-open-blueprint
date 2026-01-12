@@ -10,16 +10,16 @@
     "description": "The Close Out Contract business process begins with an expired contract or an order to terminate a contract. The business process ensures the obligations of the current contract are complete and the turnover to the new contractor proceeds according to contractual obligations.",
     "trigger_events": {
       "environment_based": [
-        "• Contract reaches the end of its effective period."
+        "Contract reaches the end of its effective period."
       ],
       "interaction_based": [
-        "• Receive alert from Determine Adverse Action Incident business process to cease activities with contractor."
+        "Receive alert from Determine Adverse Action Incident business process to cease activities with contractor."
       ]
     },
     "results": [
-      "• The contract closes.",
-      "• Alert sent to notify contractor of termination of contract.",
-      "• Tracking information as needed for measuring performance and business activity monitoring."
+      "The contract closes.",
+      "Alert sent to notify contractor of termination of contract.",
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive expired contract or instruction to terminate a contract.",
@@ -45,15 +45,15 @@
     ],
     "constraints": "Each state may have its own requirements for contract termination.",
     "failures": [
-      "• The State Medicaid Agency (SMA) receives incomplete termination instructions.",
-      "• Contractor data store contains invalid information."
+      "The State Medicaid Agency (SMA) receives incomplete termination instructions.",
+      "Contractor data store contains invalid information."
     ],
     "performance_measures": [
-      "• Time to complete process = ___ months; ___ weeks",
-      "• Accuracy of information = ___ %",
-      "• Accessibility of information for terminating contract = ___ months; ___ weeks",
-      "• Consistency of decisions and disposition = ___ %",
-      "• Error rate = __% or less"
+      "Time to complete process = ___ months; ___ weeks",
+      "Accuracy of information = ___ %",
+      "Accessibility of information for terminating contract = ___ months; ___ weeks",
+      "Consistency of decisions and disposition = ___ %",
+      "Error rate = __% or less"
     ]
   },
   "metadata": {
