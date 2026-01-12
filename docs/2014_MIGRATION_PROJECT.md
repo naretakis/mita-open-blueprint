@@ -95,12 +95,18 @@ The original MITA data in this repository was extracted from the February 2012 v
 - [x] Fix BPT process steps formatting (preserve sub-steps a/b/c and NOTE blocks)
 - [x] Remove duplicate bullet artifacts from trigger events and results
 - [x] Defer image/table extraction for manual handling (edge case in EE area only)
+- [x] Fix BCM page break issues causing truncated/merged questions
+- [x] Fix BCM process boundary detection (find process names, not table headers)
+- [x] Add category header filtering (exclude section headers like "Accounts Payable Management")
+- [x] Fix BCM question separation (detect new questions even with level content on same row)
+- [x] Add NOTE display support in viewer.html (yellow background, below question text)
+- [x] Remove spurious category header BCM files (18 files removed)
 
 **Validation Results:**
-- 152 files validated, all pass schema validation
+- 151 files validated, all pass schema validation
 - 76 BPT files: 817 total process steps
-- 76 BCM files: 601 total capability questions
-- 2 informational warnings (verified correct per source PDFs)
+- 75 BCM files: 801 total capability questions
+- 1 informational warning (FM_Manage_Capitation_Payment_BPT has 2 steps - correct per source)
 
 ### Phase 7: Documentation Updates 🔴 NOT STARTED
 - [ ] Update `docs/DATA_STRUCTURE.md`
@@ -125,6 +131,8 @@ The original MITA data in this repository was extracted from the February 2012 v
 | 2026-01-12 | Schema approved | User approved proposed schema with trigger event categorization, diagrams support, and formatting preservation |
 | 2026-01-12 | No image dimensions in JSON | Not useful for consumers; keep schema simple |
 | 2026-01-12 | Manual fix for edge cases | OM_Calculate_Spend-Down_Amount is a special deprecated process (L4/L5 not applicable); manual correction preferred over over-engineering extraction |
+| 2026-01-12 | Remove category header BCM files | Section headers (e.g., "Accounts Payable Management", "Case Management") were incorrectly extracted as processes; removed 18 spurious files |
+| 2026-01-12 | 75 BCM processes (not 76) | One process per business area is actually a category header, not a process; true count is 75 BCM processes |
 
 ---
 
@@ -225,10 +233,12 @@ The original MITA data in this repository was extracted from the February 2012 v
 | Financial Management | ✅ 19 processes | ✅ 19 processes |
 | Member Management | ❌ (empty) | ❌ (empty) |
 | Operations Management | ✅ 9 processes | ✅ 9 processes |
-| Performance Management | ✅ 5 processes | ✅ 5 processes |
+| Performance Management | ✅ 4 processes | ✅ 5 processes |
 | Plan Management | ✅ 8 processes | ✅ 8 processes |
 | Provider Management | ✅ 5 processes | ✅ 5 processes |
-| **TOTAL** | **76 processes** | **76 processes** |
+| **TOTAL** | **75 processes** | **76 processes** |
+
+Note: BCM has 75 processes (not 76) because Performance Management has one fewer BCM than BPT after removing category headers.
 
 ---
 
@@ -237,7 +247,7 @@ The original MITA data in this repository was extracted from the February 2012 v
 | File | Action | Date |
 |------|--------|------|
 | `data/` | Moved to `data-archived-2012/` | 2026-01-12 |
-| `data/bcm/` | Created with 76 JSON files | 2026-01-12 |
+| `data/bcm/` | Created with 75 JSON files | 2026-01-12 |
 | `data/bpt/` | Created with 76 JSON files + 76 images | 2026-01-12 |
 | `docs/2014_MIGRATION_PROJECT.md` | Created | 2026-01-12 |
 | `docs/PROPOSED_SCHEMA_2014.md` | Created | 2026-01-12 |
@@ -245,7 +255,7 @@ The original MITA data in this repository was extracted from the February 2012 v
 | `tools/extract_2014.py` | Created (BPT + BCM extraction) | 2026-01-12 |
 | `tools/validate_2014.py` | Created (2014 schema validation) | 2026-01-12 |
 | `OM_Calculate_Spend-Down_Amount_BCM_v3.0.json` | Manual fix (15 questions, L4/L5 N/A) | 2026-01-12 |
-| `tools/viewer.html` | Created (visual QA tool) | 2026-01-12 |
+| `tools/viewer.html` | Created (visual QA tool with NOTE display) | 2026-01-12 |
 
 ---
 
@@ -254,22 +264,27 @@ The original MITA data in this repository was extracted from the February 2012 v
 The following changes are staged for the next commit:
 
 - **76 BPT files**: Re-exported with improved formatting (bullets, sub-bullets, sub-steps, NOTE blocks)
-- **1 BCM file**: `OM_Calculate_Spend-Down_Amount_BCM_v3.0.json` manual fix
-- **tools/extract_2014.py**: Formatting improvements for descriptions and process steps
-- **tools/viewer.html**: New HTML viewer for visual QA
+- **75 BCM files**: Re-exported with fixed page break handling and question separation
+- **18 BCM files deleted**: Spurious category header files removed
+- **tools/extract_2014.py**: 
+  - BCM process boundary detection improvements
+  - Category header filtering
+  - Question separation fixes
+  - Page break handling fixes
+- **tools/viewer.html**: NOTE display support (yellow background, below question text)
 
 **Suggested commit message:**
 ```
-BPT formatting improvements and visual QA viewer
+BCM extraction fixes: page breaks, question separation, category filtering
 
-- Fixed description extraction to preserve paragraphs, bullets, sub-bullets
-- Fixed process steps to preserve sub-steps (a/b/c) and NOTE blocks
-- Removed duplicate bullet artifacts from trigger events and results
-- Created tools/viewer.html for visual QA of extracted data
-- Deferred image/table extraction for manual handling (EE area edge case)
-- Re-exported all 76 BPT files with improved formatting
+- Fixed process boundary detection to find actual process names instead of table headers
+- Added category header filtering to exclude section headers (e.g., "Accounts Payable Management")
+- Fixed question merging issue where multiple questions on same row were combined
+- Fixed page break handling - category headers like "FM – Accounts Payable Management" no longer stop extraction
+- Fixed "Business Capability Quality" headers being treated as new process names
+- Added NOTE display support in viewer.html
 
-Validation: 152 files pass, 817 process steps, 601 capability questions
+Validation: 151 files pass (76 BPT, 75 BCM), 817 steps, 801 questions
 ```
 
 ---

@@ -3,53 +3,97 @@
   "version": "3.0",
   "version_date": "May 2014",
   "business_area": "Contractor Management",
-  "sub_category": "Contractor Management",
+  "sub_category": "Contractor Information Management",
   "process_name": "Manage Contractor Information",
   "process_code": "CO",
   "maturity_model": {
     "capability_questions": [
       {
         "category": "Business Capability Descriptions",
-        "question": "Contractor Information Management Manage Contractor Information Is the process manual or automatic? information validated? use standards in the process? process?",
+        "question": "Is the process manual or automatic?",
         "levels": {
-          "level_1": "activity to accomplish tasks. Staff receives instructions to update the contractor master file from many sources via paper and facsimile. Validation is manual and subjective. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
-          "level_2": "automatic processes to accomplish tasks. Validation is consistent and based on business rules definitions. Manage Contractor Information SMA applies a mix of HIPAA and state- specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions.",
-          "level_3": "extent possible within the intrastate. SMA produces audit trail of decisions 100% of the time. SMA adopts MITA Framework, industry standards, and national standards within the intrastate that use standardized business rules definitions for consistent validation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
-          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and national standards across the interstate that use regional standardized business rules definitions for consistent validation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes.",
-          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and national standards across the nation that uses national standardized business rules definitions for consistent validation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+          "level_1": "The process consists primarily of manual activity to accomplish tasks. Staff receives instructions to update the contractor master file from many sources via paper and facsimile.",
+          "level_2": "SMA uses a mix of manual and automatic processes to accomplish tasks.",
+          "level_3": "SMA automates process to the full extent possible within the intrastate. SMA produces audit trail of decisions 100% of the time.",
+          "level_4": "SMA automates process to the full extent possible across the interstate.",
+          "level_5": "SMA automates process to the full extent possible across the nation."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "How is the information regarding the Contractor information validated?",
+        "levels": {
+          "level_1": "Validation is manual and subjective.",
+          "level_2": "Validation is consistent and based on business rules definitions. Manage Contractor Information",
+          "level_3": "SMA adopts MITA Framework, industry standards, and national standards within the intrastate that use standardized business rules definitions for consistent validation.",
+          "level_4": "SMA adopts MITA Framework, industry standards, and national standards across the interstate that use regional standardized business rules definitions for consistent validation.",
+          "level_5": "SMA adopts MITA Framework, industry standards, and national standards across the nation that uses national standardized business rules definitions for consistent validation."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Does the State Medicaid Agency use standards in the process?",
+        "levels": {
+          "level_1": "SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
+          "level_2": "SMA applies a mix of HIPAA and state- specific standards.",
+          "level_3": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information.",
+          "level_4": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate information exchange.",
+          "level_5": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes.",
+          "level_5": "SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
         }
       },
       {
         "category": "Business Capability Quality: Timeliness of Process",
         "question": "How timely is this end-to-end process?",
         "levels": {
-          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Maintenance of contract files, contract amendment, and related documents is a manual process.",
-          "level_2": "of automation. SMA scans and stores contracts, amendments, and Manage Contractor Information relevant documents. Timeliness exceeds legal requirements.",
-          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2.",
-          "level_4": "time. SMA has interstate interoperability, which further improves timeliness over Level 3.",
-          "level_5": "Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
+          "level_1": "Process meets threshold or mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Maintenance of contract files, contract amendment, and related documents is a manual process.",
+          "level_2": "Process timeliness improves through use of automation. SMA scans and stores contracts, amendments, and Manage Contractor Information relevant documents. Timeliness exceeds legal requirements.",
+          "level_3": "Timeliness improves via state and federal collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2.",
+          "level_4": "Information is available in near real time. SMA has interstate interoperability, which further improves timeliness over Level 3.",
+          "level_5": "Information is available in real time. Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
         }
       },
       {
         "category": "Business Capability Quality: Data Access and Accuracy",
-        "question": "How accurate is the information in the process? the process?",
+        "question": "How accurate is the information in the process?",
         "levels": {
-          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper storage and obtains information manually.",
-          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Contractor Information SMA stores information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
-          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy is 98% or higher. SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
-          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework for information exchange by interstate agencies. Decision- making is automatic using regional standardized business rules definitions. Accuracy is 98% or higher. SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
-          "level_5": "national information exchange. Decision- making is automatic using national standardized business rules definitions. Accuracy is 98% or higher. SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+          "level_1": "Use of direct data entry for information collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "HIPAA standard transactions improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Contractor Information",
+          "level_3": "Automation of information collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy is 98% or higher.",
+          "level_4": "Automation of information collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework for information exchange by interstate agencies. Decision- making is automatic using regional standardized business rules definitions. Accuracy is 98% or higher.",
+          "level_5": "SMA adopts MITA Framework for national information exchange. Decision- making is automatic using national standardized business rules definitions. Accuracy is 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accessible is the information in the process?",
+        "levels": {
+          "level_1": "SMA stores information in disparate systems including paper storage and obtains information manually.",
+          "level_2": "SMA stores information in disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
+          "level_3": "SMA obtains information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "SMA obtains information easily and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "SMA obtains information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
         }
       },
       {
         "category": "Business Capability Quality: Cost Effectiveness",
         "question": "What is the cost of the process compared to the benefits of the results?",
         "levels": {
-          "level_1": "",
-          "level_2": "cost effectiveness ratio over Level 1. Manage Contractor Information",
-          "level_3": "standards further improving cost effectiveness ratio over Level 2.",
-          "level_4": "standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
-          "level_5": "standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
+          "level_1": "High relative cost due to low number of automatic, standardized tasks.",
+          "level_2": "Automation improves process and allows focus on exception resolution, improving cost effectiveness ratio over Level 1. Manage Contractor Information",
+          "level_3": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards further improving cost effectiveness ratio over Level 2.",
+          "level_4": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_5": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
         }
       },
       {
@@ -67,33 +111,22 @@
         "category": "Business Capability Quality: Data Access and Accuracy",
         "question": "How accurate are the results of the process?",
         "levels": {
-          "level_1": "opportunity for human error. Accuracy is low.",
-          "level_2": "business rules definitions reduce error and improve accuracy above Level 1. Manage Contractor Information",
-          "level_3": "standards and information exchange with intrastate agencies and entities improving accuracy to 90% or higher.",
-          "level_4": "standards and information exchange with interstate agencies and entities improving accuracy to 98% or higher.",
-          "level_5": "standards and information exchange with national agencies and entities improving accuracy to 98% or higher."
+          "level_1": "Manual processes result in greater opportunity for human error. Accuracy is low.",
+          "level_2": "Automation and standardized business rules definitions reduce error and improve accuracy above Level 1. Manage Contractor Information",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving accuracy to 90% or higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving accuracy to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving accuracy to 98% or higher."
         }
       },
       {
         "category": "Business Capability Quality: Utility or Value to Stakeholders",
         "question": "Does the business process satisfy stakeholders?",
         "levels": {
-          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
-          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
-          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
-          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
-          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
-        }
-      },
-      {
-        "category": "Business Capability Descriptions",
-        "question": "Inquire Contractor Information Is the process primarily manual or automatic? use standards in the process?",
-        "levels": {
-          "level_1": "activity to accomplish tasks. The inquirer contacts SMA by telephone, facsimile, or mail and receives responses via the same modes. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific",
-          "level_2": "automatic processes to accomplish tasks. Agencies provide web portals for inquiries and responses. Inquirers have access under the state mandatory requirements for access to public information regarding the contractor and contract. SMA applies a mix of HIPAA and state- specific standards.",
-          "level_3": "extent possible within the intrastate. SMA integrates web portals to improve access to Contractor information. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange",
-          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate information",
-          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of"
+          "level_1": "Stakeholders lack confidence in information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "Automation and standardization provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
         }
       }
     ]

@@ -197,6 +197,14 @@
       font-weight: 600;
       color: #2c3e50;
     }
+    .question-note {
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      background: #fff3cd;
+      border-left: 3px solid #ffc107;
+      font-size: 0.85rem;
+      color: #856404;
+    }
     .levels {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -654,11 +662,13 @@
       // Questions
       questions.forEach((q, idx) => {
         const levels = q.levels || {};
+        const noteHtml = q.note ? `<div class="question-note"><strong>NOTE:</strong> ${escapeHtml(q.note)}</div>` : '';
         html += `
           <div class="question-card">
             <div class="question-header">
               <div class="category">${escapeHtml(q.category || 'Uncategorized')}</div>
               <div class="question">${idx + 1}. ${escapeHtml(q.question)}</div>
+              ${noteHtml}
             </div>
             <div class="levels">
               ${[1,2,3,4,5].map(n => {
@@ -667,7 +677,7 @@
                 return `
                   <div class="level level-${n}">
                     <div class="level-header">Level ${n}</div>
-                    <div class="level-content ${isEmpty ? 'empty' : ''}">${isEmpty ? '(empty)' : escapeHtml(content)}</div>
+                    <div class="level-content ${isEmpty ? 'empty' : ''}">${isEmpty ? '(empty)' : formatLevelContent(content)}</div>
                   </div>
                 `;
               }).join('')}
@@ -699,6 +709,28 @@
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;');
+    }
+
+    function formatLevelContent(text) {
+      if (!text) return '';
+      
+      // Split by newlines and format each part
+      const parts = text.split('\n');
+      let html = '';
+      
+      for (const part of parts) {
+        const trimmed = part.trim();
+        if (!trimmed) continue;
+        
+        // Check for NOTE: blocks
+        if (trimmed.startsWith('NOTE:') || trimmed.startsWith('Note:')) {
+          html += `<div style="margin-top: 0.5rem; padding: 0.25rem 0.5rem; background: #fff3cd; border-left: 2px solid #ffc107; font-size: 0.75rem;"><strong>NOTE:</strong> ${escapeHtml(trimmed.replace(/^NOTE:\s*/i, ''))}</div>`;
+        } else {
+          html += escapeHtml(trimmed) + ' ';
+        }
+      }
+      
+      return html.trim();
     }
 
     function formatProcessStep(step) {

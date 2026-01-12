@@ -943,54 +943,122 @@ def extract_bcm_processes(pdf_path, area_name):
     processes = []
     process_code = AREA_CODES.get(area_name, "XX")
     
-    # Find process boundaries by looking for "Capability" followed by "Question"
-    # or "Capability Question" on the same line
+    # Known category headers that should NOT be treated as process names
+    # These are section headers that group related processes
+    category_headers = {
+        # Financial Management categories
+        'Accounts Receivable Management',
+        'Accounts Payable Management', 
+        'Fiscal Management',
+        # Provider Management categories
+        'Provider Information Management',
+        'Provider Support',
+        # Plan Management categories
+        'Health Plan Administration',
+        'Health Benefits Administration',
+        'Plan Administration',
+        # Contractor Management categories
+        'Contract Management',
+        'Contractor Information Management',
+        'Contractor Support',
+        # Operations Management categories
+        'Claims Adjudication',
+        'Payment and Reporting',
+        # Performance Management categories
+        'Compliance Management',
+        # Care Management categories
+        'Authorization Determination',
+        'Case Management',
+        # Eligibility and Enrollment categories
+        'Provider Enrollment',
+        # Business Relationship Management categories
+        'Standards Management',
+        # Top-level business area names (should never be process names)
+        'Member Management',
+        'Provider Management',
+        'Care Management',
+        'Plan Management',
+        'Operations Management',
+        'Performance Management',
+        'Contractor Management',
+        'Business Relationship Management',
+        'Eligibility and Enrollment Management',
+        'Financial Management',
+    }
+    
+    # Find process boundaries by looking for process names
+    # Process names appear on their own line, often preceded by the category line (e.g., "FM – Accounts Payable Management")
     process_starts = []
+    seen_names = set()
     
     for i, line in enumerate(all_lines):
         line_stripped = line.strip()
-        is_capability_header = False
         
-        # Check for "Capability" alone followed by "Question" on next line
-        if line_stripped == 'Capability':
-            if i + 1 < len(all_lines) and 'Question' in all_lines[i + 1]:
-                is_capability_header = True
-        # Check for "Capability Question" on same line (sometimes with Level info)
-        elif line_stripped.startswith('Capability Question'):
-            is_capability_header = True
+        # Skip empty lines and headers
+        if not line_stripped or len(line_stripped) < 3:
+            continue
+        if 'Part I' in line_stripped or 'Page' in line_stripped or 'Version' in line_stripped:
+            continue
+        if 'May 2014' in line_stripped:
+            continue
+        if line_stripped in ['Details', 'Item', 'Item Details', 'Capability', 'Question', 'Capability Question']:
+            continue
+        if line_stripped.startswith('Level '):
+            continue
+        if 'Business Capability' in line_stripped:
+            continue
+        if 'Appendix' in line_stripped:
+            continue
         
-        if is_capability_header:
-            # Look backwards for process name
-            process_name = None
-            sub_category = None
-            
-            for j in range(i - 1, max(0, i - 8), -1):
-                candidate = all_lines[j].strip()
-                
-                # Skip empty and header lines
-                if not candidate or len(candidate) < 3:
-                    continue
-                if 'Part I' in candidate or 'Page' in candidate or 'Version' in candidate:
-                    continue
-                if 'May 2014' in candidate:
-                    continue
-                # Skip "Details" and "Item" markers
-                if candidate in ['Details', 'Item', 'Item Details']:
-                    continue
-                
-                # Check for category line (contains – or process code)
-                if '–' in candidate and process_code in candidate:
-                    sub_category = candidate
-                    continue
-                
-                # This should be the process name
-                if not process_name and candidate[0].isupper():
-                    process_name = candidate
+        # Skip known category headers
+        if line_stripped in category_headers:
+            continue
+        
+        # Check if this looks like a process name
+        # Process names are title case, don't contain '–' (that's the category line), 
+        # and are followed by either a category line or a "Capability" header
+        if '–' in line_stripped:
+            continue
+        if '?' in line_stripped:  # Questions, not process names
+            continue
+        
+        # Check if this could be a process name by looking at context
+        # A process name should be followed by either:
+        # 1. A category line (e.g., "FM – Accounts Payable Management")
+        # 2. A "Capability" header
+        # 3. Another process name (for the next process)
+        is_process_name = False
+        sub_category = None
+        
+        # Look ahead for context
+        for j in range(i + 1, min(i + 5, len(all_lines))):
+            next_line = all_lines[j].strip()
+            if not next_line:
+                continue
+            # Category line follows process name
+            if '–' in next_line and process_code in next_line:
+                is_process_name = True
+                sub_category = next_line
+                break
+            # Capability header follows (sometimes directly)
+            if next_line == 'Capability' or next_line.startswith('Capability Question'):
+                is_process_name = True
+                break
+            # Another title-case line might be the category or next process
+            if next_line[0].isupper() and '?' not in next_line:
+                # Check if it's a category line
+                if '–' in next_line:
+                    is_process_name = True
+                    sub_category = next_line
                     break
-            
-            if process_name and process_name not in [p['name'] for p in process_starts]:
+        
+        if is_process_name and line_stripped not in seen_names:
+            # Verify it looks like a process name (title case, reasonable length)
+            words = line_stripped.split()
+            if len(words) >= 2 and all(w[0].isupper() or w in ['the', 'and', 'or', 'of', 'to', 'for', 'in', 'a', 'an'] for w in words if w):
+                seen_names.add(line_stripped)
                 process_starts.append({
-                    'name': process_name,
+                    'name': line_stripped,
                     'sub_category': sub_category,
                     'start_line': i,
                     'start_page': page_map.get(i, 1)
@@ -998,11 +1066,14 @@ def extract_bcm_processes(pdf_path, area_name):
     
     # Extract each process
     for idx, proc in enumerate(process_starts):
-        # Determine end line
+        # Determine end line - use the start of the next process
         if idx + 1 < len(process_starts):
-            end_line = process_starts[idx + 1]['start_line'] - 3
+            end_line = process_starts[idx + 1]['start_line']
         else:
             end_line = len(all_lines)
+        
+        # Determine end page
+        end_page = page_map.get(end_line - 1, proc['start_page'])
         
         process_lines = all_lines[proc['start_line']:end_line]
         
@@ -1013,7 +1084,7 @@ def extract_bcm_processes(pdf_path, area_name):
             area_name,
             process_code,
             proc['start_page'],
-            page_map.get(end_line - 1, proc['start_page']),
+            end_page,
             pdf_path  # Pass PDF path for position-based extraction
         )
         
@@ -1083,13 +1154,15 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
     doc = fitz.open(pdf_path)
     
     # Column x-coordinate thresholds (based on PDF analysis)
+    # Header positions: Question ~100, L1 ~209, L2 ~313, L3 ~429, L4 ~545, L5 ~649
+    # Thresholds are midpoints between column headers
     COL_THRESHOLDS = [
-        (0, 175, 'question'),
-        (175, 285, 'level_1'),
-        (285, 395, 'level_2'),
-        (395, 505, 'level_3'),
-        (505, 615, 'level_4'),
-        (615, 800, 'level_5'),
+        (0, 155, 'question'),
+        (155, 261, 'level_1'),
+        (261, 371, 'level_2'),
+        (371, 487, 'level_3'),
+        (487, 597, 'level_4'),
+        (597, 800, 'level_5'),
     ]
     def get_column(x):
         for low, high, name in COL_THRESHOLDS:
@@ -1102,6 +1175,10 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
     
     # Process each page in the range
     all_rows = []
+    
+    # Track when we've found our target process (to skip content from previous process on first page)
+    found_process = False
+    process_name_lower = process_name.lower()
     
     for page_num in range(start_page - 1, min(end_page, len(doc))):
         page = doc[page_num]
@@ -1118,14 +1195,23 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
                     if not text:
                         continue
                     
+                    # Check if this is our target process name (marks the start of our content)
+                    if not found_process and process_name_lower in text.lower():
+                        found_process = True
+                    
                     # Skip page header text
                     if is_page_header(text):
                         continue
-                    # Skip level labels in content
+                    # Skip level labels in content (table header row)
                     if text in ['Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5']:
                         continue
-                    # Skip common artifacts
-                    if text in ['Details', 'Item', 'Item Details']:
+                    # Skip table header text (appears at top of each page)
+                    if text in ['Capability', 'Question', 'Capability Question', 'Details', 'Item', 'Item Details']:
+                        continue
+                    
+                    # On the first page, only collect items after we've found our process name
+                    # This skips content from the previous process that spills onto this page
+                    if page_num == start_page - 1 and not found_process:
                         continue
                     
                     bbox = span['bbox']
@@ -1157,8 +1243,11 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
     # Now process rows to extract questions and levels
     current_category = "Business Capability Descriptions"
     current_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+    pending_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}  # Buffer for levels before ? is seen
     question_text_parts = []
+    current_note_parts = []  # Buffer for NOTE content
     in_question = False
+    seen_first_question = False  # Track if we've processed at least one question
     
     for row in all_rows:
         # Separate items by column
@@ -1169,19 +1258,46 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
         question_text = ' '.join(row_by_col['question'])
         has_level_content = any(row_by_col[f'level_{i}'] for i in range(1, 6))
         
+        # Skip category headers like "FM – Accounts Payable Management" that repeat on each page
+        if question_text and '–' in question_text:
+            continue
+        
+        # Check if we've hit a new process (stop condition)
+        # A new process is indicated by its name appearing in the question column
+        # This happens after we've already seen at least one question
+        # Skip this check for Business Capability headers (they're category headers, not process names)
+        if seen_first_question and question_text and not has_level_content:
+            if 'Business Capability' not in question_text:
+                # Check if this looks like a process name (not a question)
+                # Process names don't end with ? and often contain "Management" or match known patterns
+                if '?' not in question_text and not question_text.startswith('NOTE'):
+                    # Check if it looks like a different process name
+                    # Process names are typically title case and don't start with question words
+                    question_starters = ['Is ', 'How ', 'What ', 'Does ', 'Are ', 'Can ', 'Will ']
+                    if not any(question_text.startswith(w) for w in question_starters):
+                        # This might be a new process name - check if it's different from ours
+                        if process_name_lower not in question_text.lower():
+                            # Looks like we've hit the next process, stop here
+                            break
+        
         # Check for category headers
         if 'Business Capability' in question_text:
             # Save previous question if exists
             if question_text_parts and in_question:
                 q_text = ' '.join(question_text_parts)
                 if '?' in q_text:
-                    questions.append({
+                    q_obj = {
                         'category': current_category,
                         'question': clean_text(q_text),
-                        'levels': {k: clean_text(' '.join(v)) for k, v in current_levels.items()}
-                    })
+                        'levels': {k: format_bcm_level_text(v) for k, v in current_levels.items()}
+                    }
+                    if current_note_parts:
+                        q_obj['note'] = clean_text(' '.join(current_note_parts))
+                    questions.append(q_obj)
                 question_text_parts = []
+                current_note_parts = []
                 current_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+                pending_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
                 in_question = False
             
             # Update category
@@ -1201,8 +1317,11 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
                 current_category = "Business Capability Quality: Accuracy of Process Results"
             continue
         
-        # Skip header rows
-        if 'Level 1' in question_text or question_text == 'Capability' or question_text == 'Question':
+        # Skip header rows (table headers that repeat on each page)
+        # These contain "Capability", "Question", or "Capability Question" in the question column
+        if question_text in ['Capability', 'Question', 'Capability Question']:
+            continue
+        if 'Level 1' in question_text:
             continue
         
         # Skip "Capability Question" prefix text (appears in question column but is a header)
@@ -1214,51 +1333,168 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
             else:
                 continue
         
+        # Skip rows that look like table headers (have "Capability" or "Question" with level content)
+        # This catches cases where the header spans multiple rows
+        if question_text in ['Capability', 'Question'] and has_level_content:
+            continue
+        
+        # Handle NOTE: blocks in question column - capture them for the next question
+        if question_text.startswith('NOTE:') or question_text.startswith('Note:'):
+            # Start or continue capturing NOTE content
+            note_content = re.sub(r'^NOTE:\s*', '', question_text, flags=re.IGNORECASE)
+            current_note_parts.append(note_content)
+            continue
+        
+        # If we're in a NOTE block (have note parts but no question yet), continue capturing
+        if current_note_parts and not question_text_parts and not has_level_content:
+            # This might be continuation of the NOTE
+            # Check if it looks like question content
+            question_starters = ['Is ', 'How ', 'What ', 'Does ', 'Are ', 'Can ', 'Will ']
+            has_question_word = any(question_text.startswith(w) for w in question_starters)
+            if not has_question_word and '?' not in question_text:
+                # Continuation of NOTE
+                current_note_parts.append(question_text)
+                continue
+        
         # Skip page headers and process name repeats
         if is_page_header(question_text):
             continue
         if question_text and '–' in question_text:  # Category header like "CM – Case Management"
             continue
         
+        # Check if question text contains an embedded NOTE that should be separated
+        # Pattern: "Some text NOTE: note content Is the process...?"
+        if 'NOTE:' in question_text and '?' in question_text:
+            # Split out the NOTE and keep only the question part
+            # Find where the actual question starts (look for common question patterns)
+            note_match = re.search(r'(.*?)(NOTE:.*?)(\s*(?:Is the|How |What |Does |Are ).*\?.*)', question_text, re.IGNORECASE | re.DOTALL)
+            if note_match:
+                # Keep only the question part
+                question_text = note_match.group(3).strip()
+        
         # If we have a question ending with ?, this completes the question text
         if '?' in question_text:
             question_text_parts.append(question_text)
             in_question = True
-            # Collect level content from this row
+            # Merge pending levels (collected before ?) with current levels
             for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
+                current_levels[level].extend(pending_levels[level])
+                pending_levels[level] = []
                 if row_by_col[level]:
                     current_levels[level].extend(row_by_col[level])
-        elif in_question and has_level_content:
-            # Continue collecting level content for current question
-            for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
-                if row_by_col[level]:
-                    current_levels[level].extend(row_by_col[level])
+        
         elif in_question and question_text and not has_level_content:
-            # New question starting - save the previous one
+            # New question starting (no level content) - save the previous one
             q_text = ' '.join(question_text_parts)
             if '?' in q_text:
-                questions.append({
+                q_obj = {
                     'category': current_category,
                     'question': clean_text(q_text),
-                    'levels': {k: clean_text(' '.join(v)) for k, v in current_levels.items()}
-                })
-            # Start new question
+                    'levels': {k: format_bcm_level_text(v) for k, v in current_levels.items()}
+                }
+                if current_note_parts:
+                    q_obj['note'] = clean_text(' '.join(current_note_parts))
+                questions.append(q_obj)
+                seen_first_question = True
+            # Start new question - reset note parts too
             question_text_parts = [question_text]
+            current_note_parts = []
             current_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+            pending_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
             in_question = False  # Will become True when we see the ?
+        
+        elif in_question and question_text and has_level_content:
+            # Check if this looks like a new question starting (has question starter words)
+            # If so, save the previous question and start a new one
+            question_starters = ['Is ', 'How ', 'What ', 'Does ', 'Are ', 'Can ', 'Will ']
+            if any(question_text.startswith(w) for w in question_starters):
+                # New question starting - save the previous one
+                q_text = ' '.join(question_text_parts)
+                if '?' in q_text:
+                    q_obj = {
+                        'category': current_category,
+                        'question': clean_text(q_text),
+                        'levels': {k: format_bcm_level_text(v) for k, v in current_levels.items()}
+                    }
+                    if current_note_parts:
+                        q_obj['note'] = clean_text(' '.join(current_note_parts))
+                    questions.append(q_obj)
+                    seen_first_question = True
+                # Start new question
+                question_text_parts = [question_text]
+                current_note_parts = []
+                current_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+                pending_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+                in_question = False
+                # Collect level content for this new question
+                for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
+                    if row_by_col[level]:
+                        pending_levels[level].extend(row_by_col[level])
+            else:
+                # Continue collecting level content for current question
+                for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
+                    if row_by_col[level]:
+                        current_levels[level].extend(row_by_col[level])
+                        
+        elif in_question and has_level_content:
+            # Continue collecting level content for current question (no question text)
+            for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
+                if row_by_col[level]:
+                    current_levels[level].extend(row_by_col[level])
         elif question_text and not in_question:
             # Building up question text before the ?
-            question_text_parts.append(question_text)
+            # Skip rows that are clearly not part of a question:
+            # - Process/area name headers
+            # - NOTE blocks
+            # - Text that doesn't look like question content
+            
+            # Skip NOTE blocks
+            if question_text.startswith('NOTE:') or question_text.startswith('Note:'):
+                continue
+            
+            # Skip if this looks like a process/area header (contains "Management" but no question words)
+            question_starters = ['Is ', 'How ', 'What ', 'Does ', 'Are ', 'Can ', 'Will ']
+            has_question_word = any(question_text.startswith(w) or f' {w}' in question_text for w in question_starters)
+            
+            # If we already have question parts that look like a question, keep building
+            # Otherwise, only add if this looks like question content
+            if question_text_parts or has_question_word or '?' in question_text:
+                question_text_parts.append(question_text)
+                # Also buffer any level content we see on these rows
+                for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
+                    if row_by_col[level]:
+                        pending_levels[level].extend(row_by_col[level])
     
     # Don't forget the last question
     if question_text_parts and in_question:
         q_text = ' '.join(question_text_parts)
         if '?' in q_text:
-            questions.append({
+            q_obj = {
                 'category': current_category,
                 'question': clean_text(q_text),
-                'levels': {k: clean_text(' '.join(v)) for k, v in current_levels.items()}
-            })
+                'levels': {k: format_bcm_level_text(v) for k, v in current_levels.items()}
+            }
+            if current_note_parts:
+                q_obj['note'] = clean_text(' '.join(current_note_parts))
+            questions.append(q_obj)
+    
+    return questions
+
+
+def format_bcm_level_text(text_parts):
+    """
+    Format BCM level text, preserving NOTE: blocks on separate lines.
+    """
+    if not text_parts:
+        return ""
+    
+    # Join all parts with spaces first
+    text = ' '.join(text_parts)
+    
+    # Insert newline before NOTE: (case-insensitive)
+    text = re.sub(r'\s+(NOTE:)', r'\n\1', text, flags=re.IGNORECASE)
+    
+    return clean_text(text)
     
     return questions
 
