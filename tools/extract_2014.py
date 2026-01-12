@@ -1262,6 +1262,14 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
         if question_text and '–' in question_text:
             continue
         
+        # Skip table headers that repeat on each page (must be before stop condition check)
+        if question_text in ['Capability', 'Question', 'Capability Question']:
+            continue
+        if question_text.startswith('Capability Question Level'):
+            continue
+        if 'Level 1' in question_text and 'Level 2' in question_text:
+            continue
+        
         # Check if we've hit a new process (stop condition)
         # A new process is indicated by its name appearing in the question column
         # This happens after we've already seen at least one question
@@ -1315,13 +1323,6 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
                 current_category = "Business Capability Quality: Utility or Value to Stakeholders"
             elif 'Accuracy' in question_text:
                 current_category = "Business Capability Quality: Accuracy of Process Results"
-            continue
-        
-        # Skip header rows (table headers that repeat on each page)
-        # These contain "Capability", "Question", or "Capability Question" in the question column
-        if question_text in ['Capability', 'Question', 'Capability Question']:
-            continue
-        if 'Level 1' in question_text:
             continue
         
         # Skip "Capability Question" prefix text (appears in question column but is a header)
