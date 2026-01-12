@@ -1,0 +1,139 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Contractor Management",
+  "sub_category": "Contractor Management",
+  "process_name": "Produce Solicitation",
+  "process_code": "CO",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Contract Management Produce Solicitation Capability Question How integrated or central is the process? automatic?",
+        "levels": {
+          "level_1": "solicitation is necessary. SMA stores the procurement information for manual reuse, and it is not possible to share information. The process consists primarily of manual activity to accomplish tasks. Production of a solicitation consists primarily of manual, paper-based steps. This requires manual",
+          "level_2": "and is electronic. There is coordination between agencies. Requirements tracking and maintenance are central. SMA uses a mix of manual and automatic processes to accomplish tasks. SMA coordinates between agencies electronic contract information from Produce Solicitation",
+          "level_3": "information. Coordination between agencies eliminates duplication of contracted services. SMA automates process to the full extent possible within the intrastate. SMA automates contract information from central location.",
+          "level_4": "standards, and other national standards by interstate agencies and entities allow for shared business services. SMA automates process to the full extent possible across the interstate.",
+          "level_5": "standards, and other national standards by national agencies and entities allow for shared business services. SMA automates process to the full extent possible across the nation."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question What is the primary mechanism for publication of the solicitation and communication with potential respondents?",
+        "levels": {
+          "level_1": "facsimile. Publication of the solicitation may be via electronic media. Potential respondents can use telephone, facsimile, in person, e-mail, or paper as a way to keep current on any updates during the produce solicitation process.",
+          "level_2": "publication of the solicitation and communication concerning updates and solicitation status with potential respondents. Produce Solicitation",
+          "level_3": "",
+          "level_4": "",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Does the State Medicaid Agency use standards in the process? process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "and state-specific standards. SMA collaborates with other agencies and entities to adopt nationally recognized standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the",
+          "level_2": "of automation. SMA uses web portals, email distribution and Produce Solicitation",
+          "level_3": "collaboration, use of information sharing, standards, and",
+          "level_4": "time. SMA has interstate interoperability. The",
+          "level_5": "Processes improve further through connectivity with"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information available to the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or",
+          "level_2": "standards improve accuracy of information but the decision-making Produce Solicitation",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of",
+          "level_4": "increases the reliability of SMA’s internal and external sources of",
+          "level_5": "industry standards for information exchange with national agencies. Decision-"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually. There is limited access to information by constraints of the manual process and updates to information.",
+          "level_2": "disparate systems, but automation and nationally recognized and state-specific standards increase accessibility over Level 1. Accessing information to research and compile solicitation content, Produce Solicitation",
+          "level_3": "and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. SMA has enhanced the process support outcome-oriented program",
+          "level_4": "and exchanges with interstate agencies and entities. Accessing information to research and compile solicitation content takes less than three (3) weeks.",
+          "level_5": "exchanges with national agencies and entities. Accessing information to research/compile solicitation content takes less than three (3) weeks."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "of solicitation tools to manage Produce Solicitation",
+          "level_3": "standards. SMA enhances process to",
+          "level_4": "standards for interstate information",
+          "level_5": "standards for national (and international)"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Inconsistencies and ambiguities increase the number of respondent questions and can lead to post",
+          "level_2": "standardized business rules definitions reduce error. SMA centralizes and coordinates contract information between Produce Solicitation",
+          "level_3": "standards and information exchange with intrastate agencies and entities. SMA enhances the process to support improved program",
+          "level_4": "standards and information exchange with interstate agencies and entities improving accuracy to 98% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving accuracy to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1. Produce Solicitation",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Award Contract Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. Respondent mails the paper proposal(s) to SMA. Manual validation, verification, and assessment of proposal information are required.",
+          "level_2": "processes to accomplish tasks. Submission of proposals is via electronic media (e.g., Web portal). SMA implements a centrally accessible electronic storage of proposal materials and internal",
+          "level_3": "extent possible within the intrastate.",
+          "level_4": "extent possible across the interstate.",
+          "level_5": "extent possible across the nation."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Contractor Management/Contractor Management BCM.pdf",
+    "source_page_range": "36-45",
+    "extracted_date": "2026-01-12"
+  }
+}

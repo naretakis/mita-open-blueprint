@@ -1,0 +1,139 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Provider Management",
+  "sub_category": "Provider Management",
+  "process_name": "Manage Provider Grievance and Appeal",
+  "process_code": "PM",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Manage Provider Grievance and Appeal Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. The process is entirely paper-based, which results in cumbersome document",
+          "level_2": "automatic processes to accomplish tasks. The process conducts some of its activities electronically, except where the law Manage Provider Grievance and Appeal",
+          "level_3": "extent possible within the intrastate. The process conducts the majority of its activities electronically, except",
+          "level_4": "to the extent possible across the interstate.",
+          "level_5": "nationally to the extent possible across the nation."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question How central is the grievance and appeals process?",
+        "levels": {
+          "level_1": "resolve grievances and appeals from providers. This contributes to inconsistent application of relevant laws and administrative policies inhibiting performance",
+          "level_2": "standardize the administration of the process to achieve economies of scale, thereby increasing coordination and improving consistent application of business rules and Manage Provider Grievance and Appeal",
+          "level_3": "standards, and other nationally recognized standards within intrastate state further increases coordination and reuse of standardized Grievance & Appeal business services.",
+          "level_4": "standards, and other nationally recognized standards within interstate the region further increases coordination and reuse of standardized Grievance & Appeal business services.",
+          "level_5": "standards, and other nationally recognized standards across the national further increases coordination and reuse of standardized Grievance & Appeal"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Do providers know how to access the grievance and appeals process? manage the process? use standards in the process?",
+        "levels": {
+          "level_1": "right door for filing grievances and appeals. SMA follows guidelines for opening, documenting, and resolving the case. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
+          "level_2": "procedures for filing grievances and appeals. SMA establishes a Review Board to review cases. SMA establishes a formal Management Plan. SMA applies a mix of nationally recognized and state-specific standards. Manage Provider Grievance and Appeal",
+          "level_3": "state. SMA administers the process as part of the Medicaid Enterprise using a comprehensive Management Plan. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information.",
+          "level_4": "region. SMA administers the process as part of the Medicaid Enterprise using a comprehensive Management Plan within the region. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for regional exchange of information.",
+          "level_5": "the nation. SMA administers the process as part of the Medicaid Enterprise using a comprehensive Management Plan across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "",
+          "level_2": "transactions.",
+          "level_3": "reusable business services.",
+          "level_4": "reusable processes including clinical information.",
+          "level_5": "improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Cases typically require",
+          "level_2": "of automation. Timeliness exceeds legal requirements. Duration of process is 100 business days or less. Manage Provider Grievance and Appeal",
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. Duration of process is 45 business days or less.",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has regional interoperability, which",
+          "level_5": "time. Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Provider Grievance and Appeal",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher.",
+          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange by regional agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy rating is at 99% or",
+          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information required for the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually. Contractors have difficulty accessing program business rules to discern the merit of their grievance or appeal.",
+          "level_2": "disparate systems. Contractors have limited access to program business rules to discern whether their grievances or appeals have merit. Automation and HIPAA standards increase accessibility over Level 1.",
+          "level_3": "exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Contractors can electronically access program business rules to discern whether their grievances or appeals have merit. Accessibility is greater than Level 2.",
+          "level_4": "exchanges with regional agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "What is the cost to perform the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness Manage Provider Grievance and Appeal",
+          "level_3": "standards further improving cost",
+          "level_4": "standards for regional information exchange",
+          "level_5": "recognized standards for"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Cases may require months to complete. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity allowing for more time on improving process and working on exceptions. Efficiency is higher than Level 1. Manage Provider Grievance and Appeal",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities. The process is consistent, orderly, and allows staff to spend even more time on quality outcomes and process improvement. Efficiency improves to 95% or higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with regional agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "business rules definitions reduce error and support business activity monitoring of performance measures, which in turn provide information needed for process improvements. SMA improves accuracy above Level 1.",
+          "level_3": "standards and information exchange with intrastate agencies and entities. The process collects information about the types of grievance and appeal it handles and uses it to discern program improvement opportunities that may reduce the issues that give rise to grievances and appeals. Accuracy improves to 90% or higher.",
+          "level_4": "standards and information exchange with regional agencies and entities improving accuracy to 98% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving accuracy to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Does the business process satisfy Capability Question stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information that resolves cases in a shorter period. Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with regional agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Provider Management/Provider Management.pdf",
+    "source_page_range": "21-29",
+    "extracted_date": "2026-01-12"
+  }
+}

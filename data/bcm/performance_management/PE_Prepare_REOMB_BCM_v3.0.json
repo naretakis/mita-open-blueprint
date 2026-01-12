@@ -1,0 +1,117 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Performance Management",
+  "sub_category": "Performance Management",
+  "process_name": "Prepare REOMB",
+  "process_code": "PE",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Prepare REOMB Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "levels": {
+          "level_1": "paper-based activity to accomplish tasks. SMA identifies the samples and generates Recipient Explanation of Medical Benefits (REOMB) manually. Distribution is via the mail. SMA focuses on meeting compliance thresholds for state and federal",
+          "level_2": "automatic processes to accomplish tasks. SMA uses sampling enhancements to target selected populations. SMA applies a mix of HIPAA and state- specific standards. Prepare REOMB",
+          "level_3": "extent possible within the intrastate. SMA may integrate the REOMB with Personal Health Records (PHR). When SMA uses PHR, it enhances the sampling process to target selected populations. SMA generates EOBs automatically that are available via web portal. SMA adopts MITA Framework, industry standards, and other nationally recognized",
+          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized",
+          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question If sampling is used, what sampling algorithm is used? appropriate?",
+        "levels": {
+          "level_1": "produce random samples of REOMB monthly. Functionally, linguistically, culturally, and competency appropriate outreach and education materials are lacking because they are difficult and costly to produce.",
+          "level_2": "target selected populations. Outreach material is functionally, linguistically, culturally, and competency appropriate, but at great expense. SMA limits outreach material by state defined parameters (e.g., only two (2) Prepare REOMB",
+          "level_3": "SMA generates the sampling dynamically based on provider billing patterns and Surveillance Utilization Review System results. SMA automates process to the full extent possible across the intrastate. Use of electronic communications makes provision of functionally, linguistically, culturally, and competency appropriate outreach",
+          "level_4": "SMA automates process to the full extent possible across the interstate.",
+          "level_5": "SMA automates process to the full extent possible across the nation."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "",
+          "level_2": "transactions.",
+          "level_3": "reusable business services.",
+          "level_4": "reusable processes including clinical information.",
+          "level_5": "maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation).",
+          "level_2": "use of automation. Timeliness exceeds legal requirements. Prepare REOMB",
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2.",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has interstate interoperability, which further improves timeliness",
+          "level_5": "Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Prepare REOMB",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Decision-making is automatic using standardized business rules definitions. Members can review data online and report on a questionable service through a web interface Accuracy rating is at 99% or higher.",
+          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional standardized business rules definitions. Members have direct access to Personal Health Records. Accuracy rating is at 99% or",
+          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "Effectiveness is 50% or below, associated with responses to the REOMB that lead to program savings.",
+          "level_2": "cost effectiveness ratio over Level 1. Flexibility in targeting REOMB over manually identifying the sample improves effectiveness of responses to 75% or better.",
+          "level_3": "standards further improving cost effectiveness ratio over Level 2.Integration with Personal Health Record may increase effectiveness to 85% or better.",
+          "level_4": "standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_5": "standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Prepare REOMB",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities. The member returns",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "business rules definitions reduce error and improve accuracy above Level 1.",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving accuracy to 99% or higher.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving accuracy to 99% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving accuracy to 99% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater Prepare REOMB",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder",
+          "level_4": "standards and information exchange with interstate agencies and entities improving",
+          "level_5": "standards and information exchange with national agencies and entities improving"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Performance Management/Performance Management BCM.pdf",
+    "source_page_range": "29-35",
+    "extracted_date": "2026-01-12"
+  }
+}

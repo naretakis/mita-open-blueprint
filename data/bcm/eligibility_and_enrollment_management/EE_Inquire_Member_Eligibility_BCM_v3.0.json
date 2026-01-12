@@ -1,0 +1,128 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Eligibility and Enrollment Management",
+  "sub_category": "Eligibility and Enrollment Management",
+  "process_name": "Inquire Member Eligibility",
+  "process_code": "EE",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Inquire Member Eligibility Capability Question NOTE: Applications and Accounts: An individual seeking eligibility for health insurance applies online, via phone, via mail, or in person. Accepted application data is managed in an “account” by the receiving program to enable access to this information during the verification and eligibility determination processes, as well as after the conclusion of the process to support change reporting and for other purposes. Is the process primarily manual or automated? use standards in the process?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific",
+          "level_2": "automated processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards. Inquire Member Eligibility",
+          "level_3": "eligibility process through use of shared enrollment service to maximum extent possible with CHIP and the Marketplace. SMA adopts MITA Framework, industry standards (e.g., HIPAA, Affordable Care Act) and other nationally recognized standards for",
+          "level_4": "eligibility process eligibility process through use of through use of shared shared enrollment enrollment service and service integrated is fully integrated with with CHIP and CHIP and Marketplace. Marketplace. SMA adopts MITA SMA adopts MITA Framework, industry Framework, industry standards (e.g., standards e.g., HIPAA, HIPAA, Affordable Affordable Care Act), Care Act) and other and other nationally nationally recognized recognized standards standards for for national exchange",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "",
+          "level_2": "transactions. Inquire Member Eligibility",
+          "level_3": "inquiry standards.",
+          "level_4": "inquiry process. The SMA works with state and national data sources, the Marketplace, and CHIP agency to establish data exchanges and supporting activities with programs in other",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "Capability Question How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (e.g., the process achieves results within the time specified by law, or regulation). Eligibility inquiries may take multiple business days.",
+          "level_2": "use of automation. Timeliness always meets legal requirements. SMA completes eligibility inquiries in less than two (2) business day.",
+          "level_3": "use of automation. Timeliness always meets legal requirements. SMA completes eligibility inquiries in one (1) business day.",
+          "level_4": "use of automation. improve further through Timeliness always connectivity with other meets legal regions, States and requirements. with federal agencies. Information is Most processes available in near real execute at the point of time. service. Timeliness improves over Level 4.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or Inquire Member Eligibility",
+          "level_3": "industry standards for eligibillity inquiries. Decision- making is automatic using business rule",
+          "level_4": "industry standards Framework, and for eligibillity national standards for inquiries. Decision- eligibility inquiries. making is automatic Decision-making is using business rule automatic using",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually. Systems experience extended scheduled and unscheduled downtime",
+          "level_2": "disparate systems, but automation and HIPAA standards increase accessibility over Level 1. Systems experience extended scheduled and unscheduled downtime",
+          "level_3": "information from Marketplace and CHIP agency based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "information from from Marketplace and Marketplace and CHIP agency based CHIP agency based on MITA Framework on MITA Framework and industry and industry standards. standards. Accessibility is greater Accessibility is than Level 4. greater than Level 3.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "increasing cost effectiveness ratio over Level 1. Inquire Member Eligibility",
+          "level_3": "messages and other nationally recognized standards further increasing cost",
+          "level_4": "and other nationally nationally recognized recognized standards for national standards for information exchange. information SMA increases cost",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and agency performance standards. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
+          "level_3": "SMA adopts shared enrollment services improving efficiency to 90% or higher.",
+          "level_4": "SMA adopts shared SMA uses shared enrollment services enrollment services improving efficiency improving efficiency to to 95% or higher. 98% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "reduce error and improve accuracy above Level 1. Inquire Member Eligibility",
+          "level_3": "for interacting with other state agencies and entities, improving accuracy",
+          "level_4": "for interacting with interacting with agencies and entities agencies and entities across some states across all states improving accuracy improving accuracy to",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Capability Question How satisfied are the stakeholders?",
+        "levels": {
+          "level_1": "Stakeholders lack confidence in information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "Automation and standardization provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "SMA adopts standard messages for interacting with other state agencies and entities, improving stakeholder satisfaction to 80% or higher.",
+          "level_4": "SMA adopts SMA adopts standard standard messages messages for for interacting with interacting with agencies and entities agencies and entities across some states, across all states, improving improving stakeholder stakeholder satisfaction to 98% or satisfaction to 90% higher. or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Provider Enrollment Determine Provider Eligibility Capability Question Does enrollment process meet state and federal regulations or policies?",
+        "levels": {
+          "level_1": "and accurately. The process",
+          "level_2": "applications timely and accurately. SMA uses a mix of",
+          "level_3": "enrollment applications timely and accurately including includes one-stop collaboration across SMA including dual- eligibility with Medicare and CHIP as well as enhancing background check and screening by level of risk with federal agencies. The enrollment",
+          "level_4": "enrollment applications timely and accurately. SMA collaborates with federal agencies for regional validation of background information and screening by level of risk in near-real time enrollment based on taxonomy. The enrollment",
+          "level_5": "enrollment applications timely and accurately. SMA uses federated registries that identify providers across the country, who qualify to serve special populations or are disqualified based on criminal activity. The enrollment"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Eligibility and Enrollment Management/Eligibility and Enrollment Management BCM.pdf",
+    "source_page_range": "27-33",
+    "extracted_date": "2026-01-12"
+  }
+}

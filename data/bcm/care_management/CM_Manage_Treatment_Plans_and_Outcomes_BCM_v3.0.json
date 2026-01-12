@@ -1,0 +1,128 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Care Management",
+  "sub_category": "Care Management",
+  "process_name": "Manage Treatment Plans and Outcomes",
+  "process_code": "CM",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Manage Treatment Plans and Outcomes Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "levels": {
+          "level_1": "manual activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little",
+          "level_2": "automatic processes to accomplish tasks. A mix of HIPAA information standards and state- specific standards are applied. SMA collaborates Manage Treatment Plans and Outcomes",
+          "level_3": "extent possible extent possible within the state across the interstate Health Information region via the Exchange (HIE). regional Health Information Exchange (HIE). SMA adopts MITA SMA adopts MITA Framework, industry Framework, industry standards, and standards, and other nationally other nationally recognized recognized standards for standards for clinical intrastate state and regional Health Health Information Information Exchange (HIE) Exchange (HIE) exchange of clinical exchange of clinical information. information. SMA collaborates SMA collaborates",
+          "level_4": "to the extent possible via the Nationwide Health Information Network (NwHIN). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of clinical information via the NwHIN. SMA collaborates with",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Medicaid Agency collaborate with other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "exchange or business tasks.",
+          "level_2": "Interchange (EDI) transactions.",
+          "level_3": "entities to adopt entities to adopt national standards, national standards, and to develop and and to develop and share reusable share reusable business services. processes including clinical information.",
+          "level_4": "interoperability improvements that maximize automation of routine operations.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation).",
+          "level_2": "use of automation. Timeliness exceeds legal requirements. Manage Treatment Plans and Outcomes",
+          "level_3": "collaboration, use of real time. Processes information sharing, that use clinical standards, and information result in regional information immediate action, exchange hubs. response, and Timeliness exceeds results. SMA has Level 2. regional Health Information Exchange (HIE) interoperability, which further improves timeliness",
+          "level_4": "Processes improve further through connectivity via the NwHIN. Most processes execute at the point of service. Results are almost immediate.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Treatment Plans and Outcomes",
+          "level_3": "collection increases collection increases the reliability of the reliability of state Health regional Health Information Information Exchange (HIE)’s Exchange (HIE)’s internal information. internal and external External sources of sources of information use information. MITA Framework for SMA adopts MITA information Framework for exchange. Decision- information making is automatic exchange by using standardized regional Health business rules Information definitions. Exchange (HIE). Accuracy rating is at Decision-making is 99% or higher. automatic using regional standardized business rules definitions.",
+          "level_4": "national information exchange via the NwHIN. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually.",
+          "level_2": "disparate systems, but automation and HIPAA standards increase accessibility over Level 1.",
+          "level_3": "information from information from intrastate state interstate regional Health Information Health Information Exchange (HIE) and Exchange (HIE) and entities based on entities. MITA Framework Accessibility is and industry greater than Level standards. 3. Accessibility is greater than Level 2.",
+          "level_4": "via the NwHIN. Accessibility is greater than Level 4.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness ratio over Level 1. Manage Treatment Plans and Outcomes",
+          "level_3": "standards by state recognized Health Information standards for Exchange (HIE) regional Health further improving Information",
+          "level_4": "standards for national (and international) information exchange via the NwHIN",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
+          "level_3": "SMA adopts MITA SMA adopts MITA Framework, industry Framework, industry standards and standards and information information exchange with exchange with intrastate state regional Health Health Information Information Exchange (HIE) and Exchange (HIE) and entities improving entities improving efficiency to 95% or efficiency to 98% or higher. higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange via the NwHIN improving efficiency to 98% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the Capability Question process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "business rules definitions reduce error and improve accuracy above Level 1.",
+          "level_3": "standards and standards and information information exchange with exchange with intrastate state regional Health Health Information Information Exchange (HIE) and Exchange (HIE) and entities improving entities improving accuracy to 90% or accuracy to 98% or higher. higher.",
+          "level_4": "standards and information exchange via the NwHIN improving accuracy to 98% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1. Manage Treatment Plans and Outcomes",
+          "level_3": "standards and standards and information information exchange with exchange with intrastate state regional Health Health Information Information Exchange (HIE) and Exchange (HIE) and entities improving entities improving stakeholder stakeholder satisfaction to 90% satisfaction to 95% or higher. or higher. SMA uses survey or questionnaire for information",
+          "level_4": "standards and information exchange via the NwHIN improving stakeholder satisfaction to 98% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Authorization Determination Authorize Referral Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. Primary care provider approves of services by other providers in keeping with state business",
+          "level_2": "automatic processes to accomplish tasks. Primary care provider uses an on-line form to authorize the",
+          "level_3": "extent possible within the intrastate.",
+          "level_4": "extent possible within the region.",
+          "level_5": "extent possible across the nation."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Care Management/Care Management BCM.pdf",
+    "source_page_range": "33-39",
+    "extracted_date": "2026-01-12"
+  }
+}

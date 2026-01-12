@@ -1,0 +1,139 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Contractor Management",
+  "sub_category": "Contractor Management",
+  "process_name": "Award Contract",
+  "process_code": "CO",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Award Contract Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. Respondent mails the paper proposal(s) to SMA. Manual validation, verification, and assessment of proposal information are required.",
+          "level_2": "processes to accomplish tasks. Submission of proposals is via electronic media (e.g., Web portal). SMA implements a centrally accessible electronic storage of proposal materials and internal Award Contract",
+          "level_3": "extent possible within the intrastate.",
+          "level_4": "extent possible across the interstate.",
+          "level_5": "extent possible across the nation."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question What is the primary mechanism for receipt of proposals and communication with respondents? use standards in the process?",
+        "levels": {
+          "level_1": "in person, and facsimile. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific",
+          "level_2": "means of communication (e.g., submission of proposals via a Web portal, e-mail, or Compact Disc (CD)). SMA uses paper, telephone, in person, and facsimile for communications. SMA applies a mix of nationally recognized and state-specific. Award Contract",
+          "level_3": "standards within the intrastate. SMA automates receipt of proposals and communication with respondents. The process still requires some in person communication. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange",
+          "level_4": "standards across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for clinical and interstate",
+          "level_5": "standards across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question How does the State Medicaid Agency verify proposal information? process?",
+        "levels": {
+          "level_1": "document verification sources via mail, telephone, or facsimile. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "Contractor information are available such as Employer Identification Number (EIN), status of tax payment. SMA collaborates with other agencies and entities to adopt nationally recognized standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "and other nationally recognized standards enable more automatic information verification within the intrastate. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "and other nationally recognized standards enable more automatic information verification across the interstate. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "and other nationally recognized standards enable more automatic information verification across the nation. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "Capability Question How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). The process may require three (3) to seven (7) months.",
+          "level_2": "of automation. Timeliness exceeds legal requirements.",
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2.",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has interstate interoperability, which further improves timeliness over Level 3.",
+          "level_5": "Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate is the information available to the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for",
+          "level_2": "standards improve accuracy of information but the decision-making process may be erroneous or misleading. Use of standards set by the Award Contract",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information",
+          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for",
+          "level_5": "industry standards for information exchange with national agencies. Decision- making is automatic using national standardized business rules"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage. SMA manually obtains or validates information.",
+          "level_2": "disparate systems, but adopts automation and nationally recognized standards. State procurement office increases standardization and the use of electronic Award Contract",
+          "level_3": "exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness ratio over Level 1.",
+          "level_3": "standards further improving cost effectiveness ratio over Level 2.",
+          "level_4": "standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_5": "standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "How efficient is the Capability Question process?",
+        "levels": {
+          "level_1": "intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
+          "level_2": "standards increase productivity. Efficiency is higher than Level 1.",
+          "level_3": "Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
+          "level_4": "Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error and the process requires additional oversight to ensure compliance with state and federal procurement business rules.",
+          "level_2": "rules definitions reduce error, level of oversight required, and improve accuracy above Level 1. Award Contract",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving accuracy to 90% or higher.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving accuracy to 98% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving accuracy to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process. Staff is dissatisfied with the level of manual effort to validate, verify, and assess the proposal data, duplication of efforts across SMA, and the frequency that stakeholders appeal decisions. Respondents are dissatisfied with the burden of the process and the length of time.",
+          "level_2": "provides clear and useful information. Adoptions of state standards improve staff ability to validate, verify, and assess the proposal data, thus increasing staff satisfaction with the process. Respondent satisfaction improves with the ability to submit electronic proposals, increasing consistency in decisions and the reduction in turnaround time. Stakeholder satisfaction is greater Award Contract",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Manage Contract Capability Question How integrated or central is the process? or automatic?",
+        "levels": {
+          "level_1": "management. Each coordination between SMA may interface agencies increases the with a state’s exchange of information procurement office and increases efficiency in but oversight of the contract management. management of a Coordination among SMA contract lies with programs for procurement SMA who requested or management of the contract. There contracts is improved. is little or no coordination among SMA programs for procurement or management of contracts. The process SMA uses a mix of manual consists primarily of and automatic processes manual paper-based to accomplish tasks. activity to Contract SMA stores",
+          "level_2": "",
+          "level_3": "industry standards and other national standards. There is full coordination among agencies in relation to the management of contracts. SMA automates central contract tracking, thus reducing duplication and increasing quality in managing contracts. SMA automates process to the full extent possible within the intrastate.",
+          "level_4": "standards, and other national standards by interstate agencies and entities allow for shared business services. SMA automates process to the full extent possible across the",
+          "level_5": "standards, and other national standards by national agencies and entities allow for shared business services. SMA automates process to the full extent possible across the nation."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Contractor Management/Contractor Management BCM.pdf",
+    "source_page_range": "45-54",
+    "extracted_date": "2026-01-12"
+  }
+}

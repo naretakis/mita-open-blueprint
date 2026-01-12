@@ -1,0 +1,128 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Care Management",
+  "sub_category": "Care Management",
+  "process_name": "Perform Screening and Assessment",
+  "process_code": "CM",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Perform Screening and Assessment Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks.",
+          "level_2": "automatic processes to accomplish tasks. Perform Screening and Assessment",
+          "level_3": "extent possible extent possible within the intrastate across the interstate and includes more region across via screenings and the regional Health assessments for Information treatment and Exchange (HIE). disease management.",
+          "level_4": "extent possible via the Nationwide Health Information Network (NwHIN).",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Does the State Medicaid Agency use standards in the process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or",
+          "level_2": "information standards and state- specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) Perform Screening and Assessment",
+          "level_3": "standards, and standards, and other nationally other nationally recognized recognized standards for a state standards for clinical Health Information and interstate Exchange (HIE). information exchange of clinical information via the regional Health Information Exchange (HIE). SMA collaborates SMA collaborates with other intrastate with other interstate state Health regional Health Information Information Exchange (HIE) and Exchange (HIE) and entities to adopt entities to adopt national standards, national standards,",
+          "level_4": "standards, and other nationally recognized standards for national exchange of clinical information via the NwHIN. SMA collaborates with the NwHIN agencies and entities for national (and international) interoperability improvements that",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question process?",
+        "levels": {
+          "level_1": "business tasks.",
+          "level_2": "transactions.",
+          "level_3": "and to develop and and to develop and share reusable share reusable business services. processes including clinical information.",
+          "level_4": "maximize automation of routine operations.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation).",
+          "level_2": "use of automation. Timeliness exceeds legal requirements.",
+          "level_3": "collaboration, use of real time. Processes information sharing, that use clinical standards, and information result in regional information immediate action, exchange hubs. response, and Timeliness exceeds results. Regional Level 2. SMA has regional Health Information Exchange (HIE) interoperability, which further improves timeliness over Level 3.",
+          "level_4": "Processes improve further through connectivity via the NwHIN. Most processes execute at the point of service. Results are almost immediate.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate is the information in Capability Question the process? the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems",
+          "level_2": "improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, Perform Screening and Assessment",
+          "level_3": "collection increases collection increases the reliability of the reliability of state Health regional Health Information Information Exchange (HIE)’s Exchange (HIE)’s internal information. internal and external External sources of sources of information use information. SMA MITA Framework for adopts MITA information Framework for exchange. Decision- information making is automatic exchange by using standardized interstate regional business rules Health Information definitions. Exchange (HIE). Accuracy rating is at Decision-making is 99% or higher. automatic using regional standardized business rules definitions. Accuracy rating is at 99% or higher. SMA easily obtains SMA easily obtains and uses and uses information from information from",
+          "level_4": "information exchange via the NwHIN. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher. SMA easily obtains and uses information via the NwHIN.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness ratio over Level 1. Perform Screening and Assessment",
+          "level_3": "standards by state recognized Health Information standards by the Exchange (HIE) region for regional further improving Health Information cost effectiveness Exchange (HIE) ratio over Level 2. exchange improving cost effectiveness ratio over Level 3.",
+          "level_4": "standards for national (and international) information exchange via the NwHIN improving cost effectiveness ratio over level 4.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
+          "level_3": "SMA adopts MITA SMA adopts MITA Framework, industry Framework, industry standards and standards and information information exchange with exchange with the intrastate state regional Health Health Information Information Exchange (HIE) and Exchange (HIE) and entities improving entities improving efficiency to 95% or efficiency to 98% or higher. higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange via the NwHIN improving efficiency to 98% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "business rules definitions reduce error and improve accuracy above Level 1. Perform Screening and Assessment",
+          "level_3": "standards and standards and information information exchange with exchange with intrastate state regional Health Health Information Information Exchange (HIE) and Exchange (HIE) and entities improving entities improving",
+          "level_4": "standards and information exchange via the NwHIN improving accuracy to 98% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "standards and standards and information information exchange with exchange with intrastate state regional Health Health Information Information Exchange (HIE) and Exchange (HIE) and entities improving entities improving stakeholder stakeholder satisfaction to 90% satisfaction to 95% or higher. or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange via the NwHIN improving stakeholder satisfaction to 98% or higher.",
+          "level_5": ""
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Manage Treatment Plans and Outcomes Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "levels": {
+          "level_1": "manual activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. Very little",
+          "level_2": "automatic processes to accomplish tasks. A mix of HIPAA information standards and state- specific standards are applied. SMA collaborates",
+          "level_3": "extent possible extent possible within the state across the interstate Health Information region via the Exchange (HIE). regional Health Information Exchange (HIE). SMA adopts MITA SMA adopts MITA Framework, industry Framework, industry standards, and standards, and other nationally other nationally recognized recognized standards for standards for clinical intrastate state and regional Health Health Information Information Exchange (HIE) Exchange (HIE) exchange of clinical exchange of clinical information. information. SMA collaborates SMA collaborates",
+          "level_4": "to the extent possible via the Nationwide Health Information Network (NwHIN). SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of clinical information via the NwHIN. SMA collaborates with",
+          "level_5": ""
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Care Management/Care Management BCM.pdf",
+    "source_page_range": "26-33",
+    "extracted_date": "2026-01-12"
+  }
+}

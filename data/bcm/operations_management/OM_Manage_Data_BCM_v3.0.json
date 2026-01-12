@@ -1,0 +1,117 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Operations Management",
+  "sub_category": "Operations Management",
+  "process_name": "Manage Data",
+  "process_code": "OM",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Manage Data Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "accomplish Extract, Transform and Load (ETL) tasks. SMA focuses on meeting compliance",
+          "level_2": "automatic ETL processes to accomplish tasks. SMA applies a mix of industry and state- Manage Data",
+          "level_3": "extent possible within the intrastate. SMA adopts MITA Framework, industry",
+          "level_4": "extent possible, across the interstate. SMA includes clinical information in the process. SMA adopts MITA Framework, industry",
+          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question use standards in the process? process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "specific standards. SMA collaborates with other agencies and entities to adopt standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or",
+          "level_2": "of automation. Timeliness exceeds legal requirements. Manage Data",
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has",
+          "level_5": "Processes improve further through connectivity with other States and with federal agencies. Most processes"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information in the process? the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. SMA stores information in disparate systems including paper",
+          "level_2": "accuracy of information, but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. SMA stores information in disparate systems, but automation and Manage Data",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use industry standards for information exchange. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with intrastate agencies",
+          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA uses industry standards for information exchange with interstate agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with interstate agencies",
+          "level_5": "information exchange with national agencies. Accuracy rating is at 99% or higher. SMA obtains information easily and exchanges with national agencies"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness ratio over Level 1.",
+          "level_3": "standards further improving cost effectiveness ratio over Level 2.",
+          "level_4": "standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_5": "standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Manage Data",
+          "level_3": "SMA adopts MITA Framework, industry standards, and information exchange with intrastate agencies and entities",
+          "level_4": "SMA adopts MITA Framework, industry standards, and information exchange with interstate agencies and entities",
+          "level_5": "SMA adopts MITA Framework, industry standards, and information exchange with national agencies and entities"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "business rules definitions reduce error and improve accuracy above Level 1.",
+          "level_3": "standards, and information exchange with intrastate agencies and entities improving accuracy to 90% or higher.",
+          "level_4": "standards, and information exchange with interstate agencies and entities improving accuracy to 98% or higher.",
+          "level_5": "standards, and information exchange with national agencies and entities improving accuracy to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Does the business process satisfy Capability Question stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Claims Adjudication Process Claim Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "paper-based activity to accomplish tasks. SMA scans or manually enters claims into an electronic record format.",
+          "level_2": "automatic processes to accomplish tasks. SMA continues to accept paper claims, but most providers submit claims electronically.",
+          "level_3": "extent possible within the intrastate. Providers submit claims electronically. SMA adjudicates claims via standardized business rules definitions according to methodologies of the National Correct Coding Initiative (NCCI).",
+          "level_4": "extent possible via regional standardized business rules definitions.",
+          "level_5": "extent possible across the nation via national standardized business rules definitions."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Operations Management/Operations Management BCM.pdf",
+    "source_page_range": "18-24",
+    "extracted_date": "2026-01-12"
+  }
+}

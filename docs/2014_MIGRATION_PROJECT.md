@@ -5,7 +5,7 @@
 **Objective**: Replace the 2012 MITA v3.0 data with the May 2014 updated versions while preserving the 2012 data for historical reference.
 
 **Start Date**: January 12, 2026  
-**Status**: 🟡 In Progress
+**Status**: 🟢 Phase 5 Complete (Extraction Done)
 
 ---
 
@@ -63,18 +63,26 @@ The original MITA data in this repository was extracted from the February 2012 v
 
 **Schema finalized**: `docs/PROPOSED_SCHEMA_2014.md`
 
-### Phase 4: Build Extraction Tools 🟡 READY TO START
-- [ ] Create text cleaning/formatting utilities
-- [ ] Create BPT extraction module
-- [ ] Create BCM extraction module  
-- [ ] Create image extraction module (for EE area)
-- [ ] Test on Care Management (9 processes, no diagrams)
-- [ ] Test on Eligibility & Enrollment (8 processes + diagrams)
+### Phase 4: Build Extraction Tools ✅ COMPLETE
+- [x] Create text cleaning/formatting utilities
+- [x] Create BPT extraction module
+- [x] Create BCM extraction module with position-based table parsing
+- [x] Create image extraction module (for EE area)
+- [x] Test on Care Management (9 processes, no diagrams)
+- [x] Test on Eligibility & Enrollment (8 processes + diagrams)
 
-### Phase 5: Extract & Convert All Data 🔴 NOT STARTED
-- [ ] Process all BCM business areas (10 areas)
-- [ ] Process all BPT business areas (10 areas)
-- [ ] Generate all JSON files
+**Tool created**: `tools/extract_2014.py`
+
+### Phase 5: Extract & Convert All Data ✅ COMPLETE
+- [x] Process all BPT business areas (9 areas, 76 processes)
+- [x] Process all BCM business areas (9 areas, 76 processes)
+- [x] Generate all JSON files
+- [x] Extract images for Eligibility & Enrollment BPTs
+
+**Extraction Results:**
+- 76 BPT processes with full content extraction
+- 76 BCM processes with position-based maturity level parsing
+- 76 diagram images extracted for EE area
 
 ### Phase 6: Validation & QA 🔴 NOT STARTED
 - [ ] Update validation script for new schema

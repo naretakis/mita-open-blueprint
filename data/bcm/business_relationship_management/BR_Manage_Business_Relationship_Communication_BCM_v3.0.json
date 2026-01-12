@@ -1,0 +1,150 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Business Relationship Management",
+  "sub_category": "Business Relationship Management",
+  "process_name": "Manage Business Relationship Communication",
+  "process_code": "BR",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question stakeholders?",
+        "levels": {
+          "level_1": "negatively affecting useful information. stakeholder Stakeholder satisfaction with the satisfaction is process. greater than Level 1.",
+          "level_2": "exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_3": "",
+          "level_4": "information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Manage Business Relationship Communication Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "manual activity to accomplish tasks. Manage Business Relationship Communication",
+          "level_2": "automatic processes within the intrastate. to gather, record, SMA supports automatic",
+          "level_3": "",
+          "level_4": "extent possible",
+          "level_5": "extent possible"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Is communication linguistically, culturally, and competency appropriate?",
+        "levels": {
+          "level_1": "appropriate communications are lacking because they are difficult and costly to produce. SMA focuses on meeting compliance Manage Business Relationship Communication",
+          "level_2": "competency communications makes appropriate, but at provision of functionally, great expense, or linguistically, culturally, SMA has state and competency defined parameters appropriate (e.g., only two (2) communications more languages used). cost-effective. SMA applies a mix SMA adopts MITA of HIPAA and state- Framework, industry",
+          "level_3": "",
+          "level_4": "SMA adopts MITA Framework, industry",
+          "level_5": "SMA adopts MITA Framework, industry"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question use standards in the process? process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "specific standards. standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates SMA collaborates with with other agencies other intrastate agencies and entities to adopt and entities to adopt HIPAA standards national standards, and and EDI transactions to develop and share for business partner reusable business communications. services for business partner communications.",
+          "level_3": "",
+          "level_4": "standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes for business partner communications.",
+          "level_5": "standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is this end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law Manage Business Relationship Communication",
+          "level_2": "use of automation. collaboration, use of Timeliness reduces information sharing, the timeframes of standards, and regional Level 1. information exchange hubs. Process completes in less than",
+          "level_3": "",
+          "level_4": "time. SMA has interstate interoperability, which further improves timeliness",
+          "level_5": "Processes improve further through connectivity with other States and with federal agencies. Results are almost"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making. Manage Business Relationship Communication",
+          "level_2": "accuracy of increases the reliability information but the of SMA internal decision-making information. External process may be sources of information erroneous or use MITA Framework for misleading. information exchange. Accuracy is higher Decision-making is than at Level 1. automatic using intrastate standardized business rules definitions. Accuracy rating is at 99% or higher.",
+          "level_3": "",
+          "level_4": "increases the reliability of SMA internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional",
+          "level_5": "national information exchange. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually.",
+          "level_2": "disparate systems, with intrastate agencies but automation and and entities based on HIPAA standards MITA Framework and increase industry standards. accessibility over Accessibility is greater Level 1. than Level 2.",
+          "level_3": "",
+          "level_4": "and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "What is the cost to perform the process compared to the benefits of the results?",
+        "levels": {
+          "level_1": "Manage Business Relationship Communication",
+          "level_2": "improving cost standards further effectiveness ratio improving cost over Level 1. SMA effectiveness ratio over reduces the cost per Level 2. unit of",
+          "level_3": "",
+          "level_4": "standards for interstate information exchange. SMA increases cost effectiveness ratio",
+          "level_5": "standards for national (and international) information exchange. SMA increases cost"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
+          "level_2": "Automation and SMA adopts MITA state standards Framework, industry increase standards and productivity. information exchange Efficiency is higher with intrastate agencies than Level 1. and entities improving efficiency to 95% or higher.",
+          "level_3": "",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low. Manage Business Relationship Communication",
+          "level_2": "business rules standards and definitions reduce information exchange error and improve with intrastate agencies accuracy above and entities improving accuracy to 90% or",
+          "level_3": "",
+          "level_4": "standards and information exchange with interstate agencies and entities",
+          "level_5": "standards and information exchange with national agencies and entities"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and standards and useful information. information exchange Stakeholder with intrastate agencies satisfaction is and entities improving greater than Level 1. stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_3": "",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Manage Business Relationship Information Capability Question Is the process primarily manual or automatic? standards in the process?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
+          "level_2": "automatic processes to gather, record, communicate, and distribute information to SMA leadership, other state agencies, and participating providers regarding updating the business relationship. SMA applies a mix of HIPAA and state- specific standards to modify and amend business relationships and their relevant manual",
+          "level_3": "extent possible within the intrastate. SMA and its trading partners (other agencies, entities, and providers) agree to automatic updates to the Service Level Agreement (SLA) governing the exchange of health care information. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information.",
+          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate information exchange.",
+          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national exchange of information."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Business Relationship Management/Business Relationship Management BCM.pdf",
+    "source_page_range": "7-14",
+    "extracted_date": "2026-01-12"
+  }
+}

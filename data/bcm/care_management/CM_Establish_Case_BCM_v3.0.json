@@ -1,0 +1,128 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Care Management",
+  "sub_category": "Care Management",
+  "process_name": "Establish Case",
+  "process_code": "CM",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Case Management Establish Case Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. SMA focuses on meeting compliance",
+          "level_2": "automatic processes to accomplish tasks. SMA applies a mix of HIPAA and state- Establish Case",
+          "level_3": "extent possible within the intrastate and targets members for assessments, treatment plans and outcome tracking, and disease management. SMA exchanges clinical information within a state Health Information Exchange (HIE). SMA adopts MITA Framework, industry",
+          "level_4": "extent possible within the region and targets members for assessments, treatment plans and outcome tracking, and disease management. SMA exchanges clinical information via a regional Health Information Exchange (HIE). SMA adopts MITA Framework, industry",
+          "level_5": "extent possible nationally and targets members for assessments, treatment plans and outcome tracking, and disease management. SMA exchanges clinical information nationally via the Nationwide Health Information Network (NwHIN). SMA adopts MITA Framework, industry"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question use standards in the process? process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies to standardize information exchange or business tasks. The process consists primarily of manual processes (e.g. telephone contacts, facsimile, letters) to gather and share information between social service agencies, physician offices and other provider types to",
+          "level_2": "specific standards. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions. Permits authorized users to access other information bases and retrieve pertinent information about the member (i.e. eligibility, claims history) improving over Level 1. Establish Case",
+          "level_3": "standards, and other nationally recognized standards for state Health Information Exchange (HIE). SMA collaborates with other intrastate agencies, and entities and the Regional Health Information Organization (RHIO) to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "standards, and other nationally recognized standards for clinical and interstate information exchange of information to a regional Health Information Exchange (HIE). SMA collaborates with other regional agencies, and entities, and the RHIO to adopt national standards, and to develop and share reusable processes including clinical information shared via a regional Health Information Exchange (HIE).",
+          "level_5": "standards, and other nationally recognized standards for national exchange of information via the NwHIN. SMA collaborates with national agencies, and entities, and the RHIO for national (and international) interoperability improvements that maximize automation of routine operations shared across the NwHIN."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "Capability Question How timely is this end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation).",
+          "level_2": "of automation. Timeliness exceeds legal requirements.",
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2. Process completes, on the average, within seven (7) business days.",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has regional Health Information Exchange (HIE) interoperability, which further improves timeliness over Level 3.",
+          "level_5": "Processes improve further through connectivity with other States and with federal agencies via NwHIN. Most processes execute at the point of service. Results are almost immediate."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or",
+          "level_2": "accuracy of information but the decision-making process may be Establish Case",
+          "level_3": "increases the reliability of a state Health Information Exchange (HIE)’s",
+          "level_4": "increases the reliability of the regional SMA internal and external sources",
+          "level_5": "national information exchange. Decision- making is automatic using national"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually.",
+          "level_2": "disparate systems, but automation and HIPAA standards increase accessibility over Level 1 information Establish Case",
+          "level_3": "and exchanges with intrastate agencies and entities from a Health Information Exchange (HIE) based on MITA Framework. Accessibility information takes no more than three (3)",
+          "level_4": "exchanges with regional agencies from an interstate regional Health Information Exchange (HIE) and entities. Accessibility takes no more than three (3) seconds.",
+          "level_5": "and exchanges with national agencies. Accessibility takes no more than three (3) seconds."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the cost to perform the process compared to the benefits of the results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness ratio over Level 1.",
+          "level_3": "standards for state Health Information Exchange (HIE) further improving cost effectiveness ratio over Level 2.",
+          "level_4": "standards for interstate and regional Health Information Exchange (HIE) exchange improving cost effectiveness ratio over Level 3.",
+          "level_5": "standards for national exchange of information via the NwHIN improving cost effectiveness ratio over level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Establish Case",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate Health Information Exchange (HIE) and entities improving",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate regional Health Information Exchange (HIE) and entities",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with the NwHIN improving efficiency to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "business rules definitions reduce error and improve accuracy above Level 1.",
+          "level_3": "standards and information exchange with intrastate Health Information Exchange (HIE) and entities improving accuracy to 95% or higher.",
+          "level_4": "standards and information exchange with interstate regional Health Information Exchange (HIE) and entities improving accuracy to 98% or higher.",
+          "level_5": "standards and information exchange with the NwHIN improving accuracy to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater Establish Case",
+          "level_3": "standards and information exchange with intrastate agencies Health Information",
+          "level_4": "standards and information exchange with interstate regional Health Information Exchange",
+          "level_5": "standards and information exchange with the NwHIN improving stakeholder"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Manage Case Information Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "paper-based activity to accomplish tasks.",
+          "level_2": "automatic processes",
+          "level_3": "extent possible within the intrastate Health",
+          "level_4": "extent possible across the interstate",
+          "level_5": "extent possible nationally via the"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Care Management/Care Management BCM.pdf",
+    "source_page_range": "1-7",
+    "extracted_date": "2026-01-12"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Eligibility and Enrollment Management",
+  "sub_category": "Eligibility and Enrollment Management",
+  "process_name": "Determine Member Eligibility",
+  "process_code": "EE",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Eligibility and Enrollment Management Determine Member Eligibility Capability Question NOTE: Applications and Accounts: An individual seeking health insurance applies online, via phone, via mail, or in person. Accepted application data is managed in an “account” by the receiving entity to enable access to this information during the verification and eligibility determination processes, as well as after the conclusion of the process to support enrollment, change reporting and for other purposes. Is the process primarily manual or automated?",
+        "levels": {
+          "level_1": "involvement. All verifications require applicants to submit paper documentation.",
+          "level_2": "involvement; staff accesses verification information from electronic data sources. Determine Member Eligibility",
+          "level_3": "gross income (MAGI) eligibility for the majority of applicants without human involvement. SMA uses a well- developed automated interface with the Marketplace and CHIP agency. SMA uses interface",
+          "level_4": "the majority of applicants without human involvement. SMA participates in a shared eligibility service with the Marketplace and CHIP agency that eliminates the need for any interfaces to support eligibility",
+          "level_5": "the majority of applicants without human involvement. SMA participates in a shared eligibility service with the Marketplace and CHIP agency that accommodates MAGI and non-MAGI eligibility."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Does the State Medicaid Agency use standards in the process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards.",
+          "level_2": "HIPAA) and state- specific standards. Determine Member Eligibility",
+          "level_3": "HIPAA, Administrative Simplification, Health Information Technology",
+          "level_4": "HIPAA, Administrative Simplification, Health Information Technology",
+          "level_5": "HIPAA, Administrative Simplification, Health Information Technology"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "business tasks.",
+          "level_2": "transactions. Determine Member Eligibility",
+          "level_3": "shared understanding of workflow and a process for issue resolution.",
+          "level_4": "eligibility service and to conduct joint planning and population management efforts.",
+          "level_5": "eligibility service and to conduct joint planning and population management efforts."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "Capability Question How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (e.g., the process achieves results within the time specified by law, or regulation).",
+          "level_2": "use of automation. Timeliness always meets requirements. To the extent that SMA requires paper, it takes multiple weeks to complete Determine Member Eligibility",
+          "level_3": "increased use of automation. When electronic data is available and consistent with an applicant’s attestation,",
+          "level_4": "through increased use of automation. When electronic data is available and consistent with an applicant’s attestation,",
+          "level_5": "through increased use of automation. When electronic data is available and consistent with an applicant’s attestation,"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question Capability Question How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "improving accuracy of information but the decision-making process may be erroneous or misleading and human involvement leads to incorrect information. Accuracy is higher than at Level 1. Determine Member Eligibility",
+          "level_3": "verification process and eligibility determination based on MAGI, which eliminates the vast majority of human error from the process. Accuracy challenges still exist in the manual processing of documentation, but SMA reduces errors as much as possible through standard operating procedures.",
+          "level_4": "verification process and eligibility determination based on MAGI, which eliminates the vast majority of human error from the process. SMA uses shared eligibility service to eliminate inaccuracy in application of rules across insurance affordability programs. Accuracy challenges",
+          "level_5": "verification process and eligibility determination for MAGI and non- MAGI, which eliminates the vast majority of human error from the process. SMA uses shared eligibility service to eliminate inaccuracy in application of rules across insurance affordability programs."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually.Verification requires manual contact via telephone, facsimile, or mail. Systems experience extended scheduled and unscheduled",
+          "level_2": "disparate systems, but use of electronic information, automation and HIPAA standards increase accessibility over Level 1. Systems experience extended scheduled and unscheduled downtime. Determine Member Eligibility",
+          "level_3": "information from the Marketplace, CHIP, Basic Health Program (BHP), and local data sources upon request based on MITA Framework and industry standards. SMA maintains individual information in an electronic account",
+          "level_4": "CHIP, and BHP information through use of shared eligibility service. SMA maintains individual information in an electronic account shared across insurance affordability programs that is accessible to the",
+          "level_5": "CHIP, and BHP information through use of shared eligibility service. SMA maintains individual information in an electronic account shared across insurance affordability programs that is accessible to the"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the ratio for the cost of eligibility determination compared to the value of the results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "over Level 1. Determine Member Eligibility",
+          "level_3": "recognized standards further increasing cost effectiveness ratio",
+          "level_4": "industry standards, and other nationally recognized standards for",
+          "level_5": "effectiveness ratio over level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and agency performance standards. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
+          "level_3": "Reliance on automated processes improves efficiency to 90% or higher.",
+          "level_4": "Use of shared eligibility service for MAGI population improves efficiency to 95% or higher. .",
+          "level_5": "Use of shared eligibility services for all populations improves efficiency to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the process?",
+        "levels": {
+          "level_1": "manually and inconsistently,",
+          "level_2": "rules, which increases accuracy. Determine Member Eligibility",
+          "level_3": "eligibility determination for",
+          "level_4": "eligibility determination for",
+          "level_5": "eligibility determination for"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Capability Question Capability Question How satisfied are the stakeholders?",
+        "levels": {
+          "level_1": "Stakeholders lack confidence in information, negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "Automation and standardization provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "Automation of MAGI process and reliance on electronic verification improve stakeholder satisfaction to 80% or higher.",
+          "level_4": "Use of shared eligibility service increases the efficiency, speed, and accuracy of the process, improving stakeholder satisfaction to 90% or higher.",
+          "level_5": "Use of shared eligibility service that incorporates non- MAGI eligibility increases the efficiency, speed, and accuracy of the process, improving stakeholder satisfaction to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Enroll Member Capability Question NOTE: Applications and Accounts: An individual seeking health insurance applies online, via phone, via mail, or in person. Accepted application data is managed in an “account” by the receiving program to enable access to this information during the verification and eligibility determination processes, as well as after the conclusion of the process to support enrollment, change reporting and for other purposes. Is the process primarily manual or automated?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. SMA focuses on meeting compliance thresholds for state and federal",
+          "level_2": "automated processes to accomplish tasks. SMA applies a mix of HIPAA and state- specific standards.",
+          "level_3": "system and plan selection opportunities for individuals that are eligible based on MAGI. SMA adopts national standards (e.g. HIPAA, Administrative",
+          "level_4": "system and plan selection opportunities for individuals that are eligible based on MAGI. SMA fully integrates with CHIP and Marketplace plan choice and enrollment process. SMA adopts industry standards (e.g., HIPAA, Administrative",
+          "level_5": "system and plan selection opportunities for individuals that are eligible based on MAGI or non-MAGI. SMA fully integrates with CHIP and Marketplace plan choice and enrollment process. SMA adopts industry standards e.g., HIPAA, Administrative"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Eligibility and Enrollment Management/Eligibility and Enrollment Management BCM.pdf",
+    "source_page_range": "1-12",
+    "extracted_date": "2026-01-12"
+  }
+}

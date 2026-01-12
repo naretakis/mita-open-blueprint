@@ -1,0 +1,128 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Contractor Management",
+  "sub_category": "Contractor Management",
+  "process_name": "Perform Contractor Outreach",
+  "process_code": "CO",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Perform Contractor Outreach Capability Question Is the process manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. SMA conducts the process via mail, in person, and telephone for individual communications; and flyers, radio, TV,",
+          "level_2": "automatic processes to accomplish tasks. SMA conducts process via a web portal for existing contractors. SMA targets populations to receive Perform Contractor Outreach",
+          "level_3": "extent possible within the intrastate. The process is electronic. Audience downloads, saves or prints publications. SMA also uses publications the law",
+          "level_4": "extent possible across the interstate.",
+          "level_5": "extent possible across the nation."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Is communication linguistically, culturally, and competency appropriate?",
+        "levels": {
+          "level_1": "appropriate outreach and education materials are lacking because they are difficult and costly to produce. SMA focuses on",
+          "level_2": "competency appropriate, but at great expense. SMA limits outreach material by state defined parameters (e.g., only two (2) languages used). SMA applies a mix of Perform Contractor Outreach",
+          "level_3": "Use of electronic communications makes provision of functionally, linguistically, culturally, and competency appropriate outreach material more cost- effective. SMA adopts MITA",
+          "level_4": "SMA adopts MITA",
+          "level_5": "SMA adopts MITA"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Medicaid Agency use standards in the process? How formalized is the process? process?",
+        "levels": {
+          "level_1": "and federal regulations using state-specific standards. The process is informal and inconsistent. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "The process is formal across SMA with proper reviews to ensure correctness and legality. SMA keeps accurate logs of all outreach initiatives. SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions. Perform Contractor Outreach",
+          "level_3": "nationally recognized standards for intrastate exchange of information. SMA adopts automatic workflow within intrastate to ensure accuracy and proper reviews. SMA stores and transfers relevant inquiry documents electronically. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "nationally recognized standards for clinical and interstate information exchange. SMA adopts automatic workflow within interstate to ensure accuracy and proper reviews. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical",
+          "level_5": "nationally recognized standards for national exchange of information. SMA adopts automatic workflow within nation to ensure accuracy and proper reviews. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "Capability Question How timely is the process End-to- End?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Timeliness depends on the type of outreach. It is ad hoc in nature. Outreach activity duration is relatively lengthy.",
+          "level_2": "of automation and web portal distribution of information. Timeliness exceeds legal requirements.",
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. SMA releases alerts and information immediately. Timeliness exceeds Level 2.",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has interstate interoperability, which further improves timeliness over Level 3.",
+          "level_5": "Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to",
+          "level_2": "accuracy of information but the decision-making Perform Contractor Outreach",
+          "level_3": "increases the reliability of SMA’s internal information.",
+          "level_4": "increases the reliability of SMA’s internal and external",
+          "level_5": "industry standards for information exchange with national"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually.",
+          "level_2": "disparate systems, but automation and nationally recognized standards increase accessibility over Level 1.",
+          "level_3": "exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "Capability Question What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness ratio over Level 1.",
+          "level_3": "standards further improving cost effectiveness ratio over Level 2.",
+          "level_4": "standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_5": "standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How efficient is the process. Capability Question How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low. SMA launches outreach to a general audience but is unable to align content with targeted audience negatively affecting accuracy.",
+          "level_2": "business rules definitions reduce errors. Capability to match outreach with target audience improves the accuracy of the process. SMA improves accuracy above Level 1.",
+          "level_3": "standards and information exchange with intrastate agencies and entities. SMA uses methods to target outreach to contractors that met specific needs. Accuracy is 90% or higher.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving accuracy to 98% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving accuracy to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "How satisfied are the stakeholders with the process?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1. Perform Contractor Outreach",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Manage Contractor Grievance and Appeal Capability Question Is the process primarily manual or automatic? appeals process?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. The process is entirely paper based, which results in cumbersome document management and process inefficiencies. Disparate programs file, manage, and resolve grievances and appeals from",
+          "level_2": "processes to accomplish tasks. The process conducts some of its activities electronically, except where federal and state regulations require paper documents. SMA is able to scan documents for capturing electronic information. Agencies begin to centralize or standardize the administration of the process to achieve",
+          "level_3": "extent possible within the intrastate. The process conducts the majority of its activities electronically, except where federal and state regulations require paper documents. SMA is able to scan documents for capturing electronic information. SMA adopts MITA Framework, industry standards, and other nationally recognized",
+          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry standards, and other nationally recognized",
+          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry standards, and other nationally recognized"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Contractor Management/Contractor Management BCM.pdf",
+    "source_page_range": "20-28",
+    "extracted_date": "2026-01-12"
+  }
+}

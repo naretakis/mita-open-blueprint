@@ -1,0 +1,128 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Financial Management",
+  "sub_category": "Financial Management",
+  "process_name": "Manage Budget Information",
+  "process_code": "FM",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Manage Budget Information Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "paper-based activity to accomplish tasks. SMA focuses on meeting compliance",
+          "level_2": "processes to accomplish tasks. SMA applies a mix of nationally recognized Manage Budget Information",
+          "level_3": "extent possible within the intrastate. SMA adopts MITA Framework, industry",
+          "level_4": "extent possible across the interstate. SMA adopts MITA Framework, industry",
+          "level_5": "extent possible across the nation. SMA adopts MITA Framework, industry"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question use standards in the process? process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards for budget management. Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
+          "level_2": "and state-specific standards. SMA collaborates with other agencies and entities to adopt nationally recognized standards and Electronic Data Interchange (EDI) transactions.",
+          "level_3": "standards, and other nationally recognized standards for intrastate exchange of information. SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
+          "level_4": "standards, and other nationally recognized standards for clinical and interstate information exchange. SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
+          "level_5": "standards, and other nationally recognized standards for national exchange of information. SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law",
+          "level_2": "of automation. Timeliness exceeds legal requirements. Manage Budget Information",
+          "level_3": "collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds",
+          "level_4": "time. Processes that use clinical information result in immediate action, response, and results. SMA has",
+          "level_5": "Processes improve further through connectivity with other States and with federal agencies. Most processes"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "standards improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Budget Information",
+          "level_3": "increases the reliability of SMA’s internal information. External sources of information use nationally recognized standards for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy rating is at 99% or higher.",
+          "level_4": "increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Decision-making is automatic using regional standardized business rules definitions. Accuracy",
+          "level_5": "industry standards for information exchange with national agencies. Decision-making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually.",
+          "level_2": "but automation and nationally recognized standards increase accessibility over Level 1.",
+          "level_3": "exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "and exchanges with interstate agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "What is the cost of the process compared to the benefits of its results?",
+        "levels": {
+          "level_1": "",
+          "level_2": "cost effectiveness ratio over Level 1. Manage Budget Information",
+          "level_3": "standards further improving cost effectiveness ratio over Level 2.",
+          "level_4": "standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
+          "level_5": "standards for national (and international) information exchange. SMA increases cost"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "Capability Question How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
+          "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
+          "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
+          "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "rules definitions reduce error and improve accuracy above Level 1. Manage Budget Information",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving accuracy to",
+          "level_4": "standards and information exchange with interstate agencies and entities",
+          "level_5": "standards and information exchange with national agencies and entities"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Capability Question Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
+          "level_3": "standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
+          "level_4": "standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
+          "level_5": "standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Manage Fund Capability Question Is the process primarily manual or automatic? use standards in the process?",
+        "levels": {
+          "level_1": "paper-based activity to accomplish tasks. Data is stored in electronic format, but the analysis and application of decisions regarding allocations and reporting are manual. SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
+          "level_2": "automatic processes to accomplish tasks. Use of Commercial Off-the-Shelf (COTS) products to support SMA financial functions improves ability to access information, analyze, and make decisions regarding allocation and reporting. SMA applies a mix of HIPAA and state- specific standards.",
+          "level_3": "extent possible within the intrastate. SMA adopts MITA Framework, industry standards, and other nationally recognized standards for intrastate exchange of information.",
+          "level_4": "extent possible extent possible across across the the nation. interstate. SMA adopts MITA SMA adopts MITA Framework, industry Framework, industry standards, and standards, and other other nationally nationally recognized recognized standards for national standards for exchange of clinical and information. interstate information",
+          "level_5": ""
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Financial Management/Financial Management BCM.pdf",
+    "source_page_range": "98-104",
+    "extracted_date": "2026-01-12"
+  }
+}

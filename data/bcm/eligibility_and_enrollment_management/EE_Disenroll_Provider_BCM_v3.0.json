@@ -1,0 +1,139 @@
+{
+  "document_type": "BCM",
+  "version": "3.0",
+  "version_date": "May 2014",
+  "business_area": "Eligibility and Enrollment Management",
+  "sub_category": "Eligibility and Enrollment Management",
+  "process_name": "Disenroll Provider",
+  "process_code": "EE",
+  "maturity_model": {
+    "capability_questions": [
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Disenroll Provider Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks.",
+          "level_2": "processes to accomplish tasks. Disenroll Provider",
+          "level_3": "disenrollment process within the intrastate. SMA shares Provider Network information with",
+          "level_4": "provider disenrollment within the region. SMA shares Provider Network information with",
+          "level_5": "disenrollment process across the nation. SMA shares Provider Network information with"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Does the State Medicaid Agency use standards in the process?",
+        "levels": {
+          "level_1": "thresholds for state and federal regulations using state-specific standards. Very little collaboration occurs with other agencies",
+          "level_2": "standards. SMA collaborates with other agencies and entities to adopt HIPAA Disenroll Provider",
+          "level_3": "standard provider disenrollment interfaces, and other nationally recognized provider disenrollment standards for intrastate exchange of provider disenrollment information. SMA collaborates with other intrastate agencies and",
+          "level_4": "standard provider disenrollment interfaces, and other nationally recognized provider disenrollment standards for regional exchange of provider disenrollment information. SMA collaborates with other regional agencies and",
+          "level_5": "standard provider disenrollment interfaces, and other nationally recognized provider disenrollment standards for national exchange of provider disenrollment information. SMA collaborates with agencies and entities for national"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question other agencies or entities in performing the process?",
+        "levels": {
+          "level_1": "exchange or business tasks.",
+          "level_2": "transactions.",
+          "level_3": "disenrollment standards as well as develop and share reusable business services.",
+          "level_4": "disenrollment standards as well as develop and share reusable provider disenrollment processes including clinical information.",
+          "level_5": "improvements that maximize automation of routine provider disenrollment operations."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Timeliness of Process",
+        "question": "How timely is the end-to-end process?",
+        "levels": {
+          "level_1": "mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Process completes within ten (10) business days or",
+          "level_2": "automation. Timeliness exceeds legal requirements. Process completes within five (5) business days or less. Disenroll Provider",
+          "level_3": "collaboration, use of provider disenrollment information sharing, standards, and regional information exchange hubs. Process completes in 24 hours or less.",
+          "level_4": "information is available in near real time. Provider disenrollment processes ensure immediate action, response, and results. SMA has regional interoperability,",
+          "level_5": "information is available in real time. Provider disenrollment processes improve further through connectivity with other States and with federal agencies. Most"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate is the information in the process?",
+        "levels": {
+          "level_1": "collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
+          "level_2": "accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Disenroll Provider",
+          "level_3": "disenrollment increasing the reliability of SMA’s internal information. External sources of provider disenrollment information use MITA Framework and industry standards for information exchange. Decision- making is automatic using standardized business rules",
+          "level_4": "provider disenrollment information increasing the reliability of regional sources of information. SMA adopts MITA Framework and provider disenrollment standards for information exchange with regional agencies. Decision-making is",
+          "level_5": "industry standards for national information exchange. Decision- making is automatic using national standardized business rules definitions. Accuracy rating is at 99% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accessible is the information in the process?",
+        "levels": {
+          "level_1": "disparate systems including paper storage and obtains information manually.",
+          "level_2": "automation and HIPAA standards increase accessibility over Level 1.",
+          "level_3": "disenrollment information easily and exchanges with intrastate agencies and entities based on MITA Framework and industry standards. Accessibility is greater than Level 2.",
+          "level_4": "disenrollment information easily and exchanges with regional agencies and entities. Accessibility is greater than Level 3.",
+          "level_5": "disenrollment information easily and exchanges with national agencies and entities. Accessibility is greater than Level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Cost Effectiveness",
+        "question": "What is the cost of the process compared to the benefits of its Capability Question results?",
+        "levels": {
+          "level_1": "standardized tasks.",
+          "level_2": "effectiveness ratio over Level 1.",
+          "level_3": "and other nationally recognized standards further improving cost effectiveness ratio over Level 2.",
+          "level_4": "standard messages, and other nationally recognized provider disenrollment standards for regional information exchange improving cost effectiveness ratio over Level 3.",
+          "level_5": "and other nationally recognized standards for national (and international) information exchange of provider disenrollment information improving cost effectiveness ratio over level 4."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Effort to Perform; Efficiency",
+        "question": "How efficient is the process?",
+        "levels": {
+          "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Disenroll Provider",
+          "level_3": "SMA adopts MITA Framework and provider disenrollment standard messages with intrastate agencies and entities improving efficiency to 95% or",
+          "level_4": "SMA adopts MITA Framework and provider disenrollment standard messages with regional agencies and entities improving efficiency to 98% or",
+          "level_5": "SMA adopts MITA Framework and provider disenrollment standard messages with national agencies and entities improving efficiency to 98% or"
+        }
+      },
+      {
+        "category": "Business Capability Quality: Data Access and Accuracy",
+        "question": "Capability Question How accurate are the results of the process?",
+        "levels": {
+          "level_1": "opportunity for human error. Accuracy is low.",
+          "level_2": "rules definitions reduce error and improve accuracy above Level 1.",
+          "level_3": "provider disenrollment standard messages with intrastate agencies and entities improving accuracy to 90% or higher.",
+          "level_4": "provider disenrollment standard messages with regional SMA and entities improving accuracy to 98% or higher.",
+          "level_5": "provider disenrollment standard messages with national agencies and entities improving accuracy to 98% or higher."
+        }
+      },
+      {
+        "category": "Business Capability Quality: Utility or Value to Stakeholders",
+        "question": "Does the business process satisfy stakeholders?",
+        "levels": {
+          "level_1": "information negatively affecting stakeholder satisfaction with the process.",
+          "level_2": "clear and useful information. Stakeholder satisfaction is greater than Level 1. Disenroll Provider",
+          "level_3": "provider disenrollment standard messages with intrastate agencies and entities improving",
+          "level_4": "provider disenrollment standard messages with regional agencies and entities improving",
+          "level_5": "provider disenrollment standard messages with national agencies and entities improving"
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "Capability Question Inquire Provider Information Capability Question Is the process primarily manual or automatic?",
+        "levels": {
+          "level_1": "activity to accomplish tasks. SMA receives most requests via",
+          "level_2": "processes to accomplish tasks. SMA submits",
+          "level_3": "automatic to the extent possible within",
+          "level_4": "automatic to the extent possible within",
+          "level_5": "automatic to the extent possible"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Eligibility and Enrollment Management/Eligibility and Enrollment Management BCM.pdf",
+    "source_page_range": "50-57",
+    "extracted_date": "2026-01-12"
+  }
+}
