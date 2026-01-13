@@ -1,8 +1,49 @@
-# MITA Validation Tools
+# MITA Tools
 
-This directory contains tools for validating MITA JSON data files.
+This directory contains tools for extracting and validating MITA JSON data files.
 
 ## Available Tools
+
+### extract_bpt_2014.py
+
+Extracts BPT (Business Process Table) data from the May 2014 MITA PDFs.
+
+**Usage:**
+
+```bash
+# Extract a single business area
+.venv/bin/python3 tools/extract_bpt_2014.py --area "Care Management"
+
+# Extract with process diagrams
+.venv/bin/python3 tools/extract_bpt_2014.py --area "Care Management" --with-images
+
+# Extract all business areas
+.venv/bin/python3 tools/extract_bpt_2014.py --all
+
+# Force overwrite existing files
+.venv/bin/python3 tools/extract_bpt_2014.py --all --force
+```
+
+**Note:** By default, existing files are NOT overwritten. Use `--force` to overwrite.
+
+### extract_bcm_2014.py.archived
+
+**⚠️ ARCHIVED - DO NOT USE**
+
+The BCM extraction script has been archived because the BCM JSON files in `data/bcm/` were **manually verified and corrected** against the source PDFs. The automated extraction had systematic issues that required manual fixes.
+
+The file is preserved for reference only. Running it will display an error message and exit.
+
+### validate_2014.py
+
+Validates all extracted JSON files for structural correctness and content quality.
+
+**Usage:**
+
+```bash
+.venv/bin/python3 tools/validate_2014.py
+.venv/bin/python3 tools/validate_2014.py --verbose  # Show detailed warnings
+```
 
 ### comprehensive_validation.py
 

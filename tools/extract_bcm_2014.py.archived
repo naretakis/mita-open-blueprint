@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+"""
+██████╗  ██████╗     ███╗   ██╗ ██████╗ ████████╗    ██╗   ██╗███████╗███████╗
+██╔══██╗██╔═══██╗    ████╗  ██║██╔═══██╗╚══██╔══╝    ██║   ██║██╔════╝██╔════╝
+██║  ██║██║   ██║    ██╔██╗ ██║██║   ██║   ██║       ██║   ██║███████╗█████╗  
+██║  ██║██║   ██║    ██║╚██╗██║██║   ██║   ██║       ██║   ██║╚════██║██╔══╝  
+██████╔╝╚██████╔╝    ██║ ╚████║╚██████╔╝   ██║       ╚██████╔╝███████║███████╗
+╚═════╝  ╚═════╝     ╚═╝  ╚═══╝ ╚═════╝    ╚═╝        ╚═════╝ ╚══════╝╚══════╝
+
+ARCHIVED - BCM EXTRACTION SCRIPT
+================================
+
+This script has been ARCHIVED because the BCM JSON files in data/bcm/ were 
+MANUALLY VERIFIED AND CORRECTED against the source PDFs.
+
+The automated extraction had systematic issues that required manual fixes:
+1. Process names incorrectly inserted into level_2 content
+2. Wrong category assignments for "How accurate are the results?" questions
+3. Various parsing artifacts from PDF table extraction
+
+DO NOT RUN THIS SCRIPT - it will overwrite the manually verified BCM data.
+
+If you need to understand the BCM extraction logic for reference, the code
+is preserved below. For BPT extraction, use extract_bpt_2014.py instead.
+
+Original file: tools/extract_2014.py (combined BPT+BCM extraction)
+Archived: January 2026
+Reason: BCM data manually verified - 76 BCMs, 835 maturity questions
+
+To restore BCM extraction capability (NOT RECOMMENDED):
+1. Rename this file to extract_bcm_2014.py
+2. Remove the safety check in main()
+3. Run with --force flag
+
+================================================================================
+"""
+
+import sys
+
+def main():
+    print("=" * 70)
+    print("ERROR: This BCM extraction script has been ARCHIVED")
+    print("=" * 70)
+    print()
+    print("The BCM JSON files in data/bcm/ were manually verified and corrected.")
+    print("Running this script would overwrite that work.")
+    print()
+    print("If you need to:")
+    print("  - Extract BPT data: use extract_bpt_2014.py")
+    print("  - View BCM data: see data/bcm/")
+    print("  - Understand BCM extraction logic: read this file's source code")
+    print()
+    print("To force BCM extraction (NOT RECOMMENDED):")
+    print("  1. Edit this file and remove the safety check in main()")
+    print("  2. Rename to extract_bcm_2014.py")
+    print("  3. Run with --force flag")
+    print()
+    return 1
+
+
+if __name__ == '__main__':
+    sys.exit(main())
+
+
+# =============================================================================
+# ARCHIVED BCM EXTRACTION CODE (FOR REFERENCE ONLY)
+# =============================================================================
+# 
+# The following code is preserved for reference but is not executed.
+# It was extracted from the original tools/extract_2014.py file.
+#
+# Key functions that were used:
+#   - extract_bcm_processes(pdf_path, area_name)
+#   - extract_bcm_process_data(lines, process_name, ...)
+#   - extract_bcm_with_positions(pdf_path, process_name, start_page, end_page)
+#   - extract_capability_questions(lines)
+#   - format_bcm_level_text(text_parts)
+#
+# Column thresholds used for PDF parsing:
+#   Q (0-155), L1 (155-261), L2 (261-371), L3 (371-487), L4 (487-597), L5 (597-800)
+#
+# Known issues that required manual fixes:
+#   1. Process name appearing in level_2 content (e.g., "Manage Contractor Communication")
+#   2. "How accurate are the results?" question assigned wrong category
+#      - Should be: "Business Capability Quality: Accuracy of Process Results"
+#      - Was often: "Business Capability Quality: Data Access and Accuracy"
+#   3. "Levels 4" and "Levels 5" artifacts in some EEM BCMs
+#
+# =============================================================================
