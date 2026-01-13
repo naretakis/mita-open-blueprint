@@ -1,0 +1,41 @@
+# Eligibility and Enrollment Management BCM Manual Construction Progress
+
+## Status
+- [x] Determine Member Eligibility (pages 1-12) - 10 questions - VERIFIED ✓ (8 process name removals + category fix)
+- [x] Determine Provider Eligibility (pages 33-42) - 15 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Disenroll Member (pages 21-27) - 10 questions - VERIFIED ✓ (5 process name removals + category fix)
+- [x] Disenroll Provider (pages 50-57) - 10 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Enroll Member (pages 12-21) - 10 questions - VERIFIED ✓ (multiple process name/Levels removals + category fix)
+- [x] Enroll Provider (pages 42-50) - 13 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Inquire Member Eligibility (pages 27-33) - 10 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Inquire Provider Information (pages 57-63) - 10 questions - VERIFIED ✓ (process name removals + category fix)
+
+## Reference
+- Raw dump file: `tools/temp_eem_bcm_dump.txt`
+- Column thresholds: Q (0-155), L1 (155-261), L2 (261-371), L3 (371-487), L4 (487-597), L5 (597-800)
+
+## Instructions for Verification
+1. Read this file to see progress
+2. Read `tools/temp_eem_bcm_dump.txt` for the relevant page range
+3. Compare the dump to the JSON file - verify:
+   - All questions are present (not merged)
+   - Categories are correctly assigned
+   - Level content is complete and accurate
+4. Fix any issues by editing the JSON file
+5. Mark as verified in this file
+
+## Expected Categories
+Each BCM should have questions in these categories:
+- Business Capability Descriptions (varies by process)
+- Business Capability Quality: Timeliness of Process
+- Business Capability Quality: Data Access and Accuracy
+- Business Capability Quality: Cost Effectiveness
+- Business Capability Quality: Effort to Perform; Efficiency
+- Business Capability Quality: Utility or Value to Stakeholders
+- (Some also have: Business Capability Quality: Accuracy of Process Results)
+
+## Common Issues Found in Financial Management
+- Questions merged together that should be separate
+- Missing quality category questions (extraction stopped early)
+- Wrong category assignments (e.g., Data Access question labeled as Timeliness)
+- Process name appearing in level text (extraction artifact)

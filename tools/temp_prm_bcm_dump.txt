@@ -1,0 +1,3645 @@
+====================================================================================================
+PROVIDER MANAGEMENT BCM - RAW DUMP FOR MANUAL JSON CONSTRUCTION
+====================================================================================================
+
+Column thresholds: Q (0-155), L1 (155-261), L2 (261-371), L3 (371-487), L4 (487-597), L5 (597-800)
+
+
+================================================================================
+PAGE 1
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 500
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  72.0 y= 122.9 | Provider Information Management
+[Q  ] x=  72.0 y= 157.0 | Manage Provider Information
+[Q  ] x=  77.4 y= 190.1 | PM – Provider Information Management
+[L2 ] x= 320.0 y= 215.2 | Manage Provider Information
+[Q  ] x=  77.4 y= 240.5 | Capability
+[Q  ] x=  77.4 y= 253.1 | Question
+[L1 ] x= 183.0 y= 240.5 | Level 1
+[L2 ] x= 300.6 y= 240.5 | Level 2
+[L3 ] x= 408.3 y= 240.5 | Level 3
+[L4 ] x= 515.5 y= 240.5 | Level 4
+[L5 ] x= 620.6 y= 240.5 | Level 5
+[Q  ] x=  77.4 y= 278.2 | Business Capability Descriptions
+[Q  ] x=  77.4 y= 302.2 | Is the process
+[Q  ] x=  77.4 y= 313.7 | primarily manual or
+[Q  ] x=  77.4 y= 325.3 | automatic?
+[L1 ] x= 183.0 y= 302.3 | The process consists
+[L1 ] x= 183.0 y= 313.8 | primarily of manual
+[L1 ] x= 183.0 y= 325.4 | paper-based activity to
+[L1 ] x= 183.0 y= 336.8 | accomplish tasks.
+[L2 ] x= 300.6 y= 302.3 | SMA uses a mix of
+[L2 ] x= 300.6 y= 313.8 | manual and
+[L2 ] x= 300.6 y= 325.4 | automatic processes
+[L2 ] x= 300.6 y= 336.8 | to accomplish tasks.
+[L3 ] x= 408.3 y= 302.3 | SMA automates
+[L3 ] x= 408.3 y= 313.8 | process to the full
+[L3 ] x= 408.3 y= 325.4 | extent possible within
+[L3 ] x= 408.3 y= 336.8 | the intrastate and
+[L3 ] x= 408.3 y= 348.3 | stores the enhanced
+[L3 ] x= 408.3 y= 359.8 | provider background
+[L3 ] x= 408.3 y= 371.3 | and screening
+[L3 ] x= 408.3 y= 382.9 | information as well as
+[L3 ] x= 408.3 y= 394.4 | application fees
+[L3 ] x= 408.3 y= 405.8 | within the state.
+[L3 ] x= 408.3 y= 417.3 | Provider Network
+[L3 ] x= 408.3 y= 428.8 | information is shared
+[L3 ] x= 408.3 y= 440.3 | with Health Insurance
+[L3 ] x= 408.3 y= 451.9 | Marketplace (HIX).
+[L3 ] x= 408.3 y= 463.4 | SMA produces audit
+[L3 ] x= 408.3 y= 474.8 | trail of decision 100%
+[L3 ] x= 408.3 y= 486.3 | of the time.
+[L4 ] x= 515.5 y= 302.3 | SMA automates
+[L4 ] x= 515.5 y= 313.8 | process to the full
+[L4 ] x= 515.5 y= 325.4 | extent possible
+[L4 ] x= 515.5 y= 336.8 | across the interstate
+[L4 ] x= 515.5 y= 348.3 | and stores the
+[L4 ] x= 515.5 y= 359.8 | enhanced provider
+[L4 ] x= 515.5 y= 371.3 | background and
+[L4 ] x= 515.5 y= 382.9 | screening
+[L4 ] x= 515.5 y= 394.4 | information as well
+[L4 ] x= 515.5 y= 405.8 | as application fees
+[L4 ] x= 515.5 y= 417.3 | within the region.
+[L4 ] x= 515.5 y= 428.8 | Provider Network
+[L4 ] x= 515.5 y= 440.3 | information is shared
+[L4 ] x= 515.5 y= 451.9 | with Health
+[L4 ] x= 515.5 y= 463.4 | Insurance
+[L4 ] x= 515.5 y= 474.8 | Marketplace (HIX).
+[L5 ] x= 620.6 y= 302.3 | SMA automates
+[L5 ] x= 620.6 y= 313.8 | process to the full
+[L5 ] x= 620.6 y= 325.4 | extent possible
+[L5 ] x= 620.6 y= 336.8 | across the nation.
+[L5 ] x= 620.6 y= 348.3 | This process uses
+[L5 ] x= 620.6 y= 359.8 | and stores the
+[L5 ] x= 620.6 y= 371.3 | enhanced provider
+[L5 ] x= 620.6 y= 382.9 | background and
+[L5 ] x= 620.6 y= 394.4 | screening
+[L5 ] x= 620.6 y= 405.8 | information as well
+[L5 ] x= 620.6 y= 417.3 | as application fees in
+[L5 ] x= 620.6 y= 428.8 | a federal repository.
+[L5 ] x= 620.6 y= 440.3 | Provider Network
+[L5 ] x= 620.6 y= 451.9 | information is shared
+[L5 ] x= 620.6 y= 463.4 | with Health
+[L5 ] x= 620.6 y= 474.8 | Insurance
+[L5 ] x= 620.6 y= 486.3 | Marketplace (HIX).
+
+================================================================================
+PAGE 2
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 501
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Information Management
+[L2 ] x= 320.0 y= 147.9 | Manage Provider Information
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 183.0 y= 173.3 | Level 1
+[L2 ] x= 300.6 y= 173.3 | Level 2
+[L3 ] x= 408.3 y= 173.3 | Level 3
+[L4 ] x= 515.5 y= 173.3 | Level 4
+[L5 ] x= 620.6 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 211.0 | How does the State
+[Q  ] x=  77.4 y= 222.5 | Medicaid Agency
+[Q  ] x=  77.4 y= 234.0 | validate application
+[Q  ] x=  77.4 y= 245.4 | information?
+[L1 ] x= 183.0 y= 211.1 | SMA manually
+[L1 ] x= 183.0 y= 222.6 | validates information.
+[L1 ] x= 183.0 y= 234.2 | Staff contacts external
+[L1 ] x= 183.0 y= 245.6 | and internal document
+[L1 ] x= 183.0 y= 257.1 | verification sources via
+[L1 ] x= 183.0 y= 268.6 | telephone, facsimile,
+[L1 ] x= 183.0 y= 280.1 | mail. Decisions on
+[L1 ] x= 183.0 y= 291.6 | information verifications
+[L1 ] x= 183.0 y= 303.2 | take multiple business
+[L1 ] x= 183.0 y= 314.6 | days. Validation is
+[L1 ] x= 183.0 y= 326.1 | manual and subjective.
+[L2 ] x= 300.6 y= 211.1 | Many application
+[L2 ] x= 300.6 y= 222.6 | information
+[L2 ] x= 300.6 y= 234.2 | validations are
+[L2 ] x= 300.6 y= 245.6 | automatic (Social
+[L2 ] x= 300.6 y= 257.1 | Security Number
+[L2 ] x= 300.6 y= 268.6 | (SSN), address, birth
+[L2 ] x= 300.6 y= 280.1 | certificate, etc.).
+[L2 ] x= 300.6 y= 291.6 | Validation is
+[L2 ] x= 300.6 y= 303.2 | consistent and based
+[L2 ] x= 300.6 y= 314.6 | on business rules.
+[L3 ] x= 408.3 y= 211.1 | SMA adopts MITA
+[L3 ] x= 408.3 y= 222.6 | Framework, industry
+[L3 ] x= 408.3 y= 234.2 | standards, and
+[L3 ] x= 408.3 y= 245.6 | national standards
+[L3 ] x= 408.3 y= 257.1 | within the intrastate
+[L3 ] x= 408.3 y= 268.6 | that use standardized
+[L3 ] x= 408.3 y= 280.1 | business rules
+[L3 ] x= 408.3 y= 291.6 | definitions for
+[L3 ] x= 408.3 y= 303.2 | consistent validation
+[L3 ] x= 408.3 y= 314.6 | within the state.
+[L4 ] x= 515.5 y= 211.1 | SMA adopts MITA
+[L4 ] x= 515.5 y= 222.6 | Framework, industry
+[L4 ] x= 515.5 y= 234.2 | standards, and
+[L4 ] x= 515.5 y= 245.6 | national standards
+[L4 ] x= 515.5 y= 257.1 | across the interstate
+[L4 ] x= 515.5 y= 268.6 | that use regional
+[L4 ] x= 515.5 y= 280.1 | standardized
+[L4 ] x= 515.5 y= 291.6 | business rules
+[L4 ] x= 515.5 y= 303.2 | definitions for
+[L4 ] x= 515.5 y= 314.6 | consistent validation
+[L4 ] x= 515.5 y= 326.1 | within the region.
+[L5 ] x= 620.6 y= 211.1 | SMA adopts MITA
+[L5 ] x= 620.6 y= 222.6 | Framework, industry
+[L5 ] x= 620.6 y= 234.2 | standards, and
+[L5 ] x= 620.6 y= 245.6 | national standards
+[L5 ] x= 620.6 y= 257.1 | across the nation
+[L5 ] x= 620.6 y= 268.6 | that use national
+[L5 ] x= 620.6 y= 280.1 | standardized
+[L5 ] x= 620.6 y= 291.6 | business rules
+[L5 ] x= 620.6 y= 303.2 | definitions for
+[L5 ] x= 620.6 y= 314.6 | consistent validation.
+[Q  ] x=  77.4 y= 350.0 | Does the State
+[Q  ] x=  77.4 y= 361.5 | Medicaid Agency
+[Q  ] x=  77.4 y= 373.0 | use standards in
+[Q  ] x=  77.4 y= 384.5 | the process?
+[L1 ] x= 183.0 y= 350.1 | SMA focuses on
+[L1 ] x= 183.0 y= 361.6 | meeting compliance
+[L1 ] x= 183.0 y= 373.1 | thresholds for state and
+[L1 ] x= 183.0 y= 384.7 | federal regulations
+[L1 ] x= 183.0 y= 396.2 | using state-specific
+[L1 ] x= 183.0 y= 407.6 | standards.
+[L2 ] x= 300.6 y= 350.1 | SMA applies a mix of
+[L2 ] x= 300.6 y= 361.6 | HIPAA and state-
+[L2 ] x= 300.6 y= 373.1 | specific standards.
+[L3 ] x= 408.3 y= 350.1 | SMA adopts MITA
+[L3 ] x= 408.3 y= 361.6 | Framework, industry
+[L3 ] x= 408.3 y= 373.1 | standards, and other
+[L3 ] x= 408.3 y= 384.7 | nationally recognized
+[L3 ] x= 408.3 y= 396.2 | standards for
+[L3 ] x= 408.3 y= 407.6 | intrastate exchange
+[L3 ] x= 408.3 y= 419.1 | of information.
+[L4 ] x= 515.5 y= 350.1 | SMA adopts MITA
+[L4 ] x= 515.5 y= 361.6 | Framework, industry
+[L4 ] x= 515.5 y= 373.1 | standards, and other
+[L4 ] x= 515.5 y= 384.7 | nationally recognized
+[L4 ] x= 515.5 y= 396.2 | standards for clinical
+[L4 ] x= 515.5 y= 407.6 | and interstate
+[L4 ] x= 515.5 y= 419.1 | information
+[L4 ] x= 515.5 y= 430.6 | exchange of
+[L4 ] x= 515.5 y= 442.1 | information on a
+[L4 ] x= 515.5 y= 453.7 | regional basis.
+[L5 ] x= 620.6 y= 350.1 | SMA adopts MITA
+[L5 ] x= 620.6 y= 361.6 | Framework, industry
+[L5 ] x= 620.6 y= 373.1 | standards, and other
+[L5 ] x= 620.6 y= 384.7 | nationally recognized
+[L5 ] x= 620.6 y= 396.2 | standards for
+[L5 ] x= 620.6 y= 407.6 | national exchange of
+[L5 ] x= 620.6 y= 419.1 | information
+[L5 ] x= 620.6 y= 430.6 | mandated by federal
+[L5 ] x= 620.6 y= 442.1 | standards.
+[Q  ] x=  77.4 y= 477.6 | How does the State
+[Q  ] x=  77.4 y= 489.0 | Medicaid Agency
+[Q  ] x=  77.4 y= 500.5 | collaborate with
+[L1 ] x= 183.0 y= 477.7 | Very little collaboration
+[L1 ] x= 183.0 y= 489.1 | occurs with other
+[L1 ] x= 183.0 y= 500.6 | agencies to standardize
+[L2 ] x= 300.6 y= 477.7 | SMA collaborates
+[L2 ] x= 300.6 y= 489.1 | with other agencies
+[L2 ] x= 300.6 y= 500.6 | and entities to adopt
+[L3 ] x= 408.3 y= 477.7 | SMA collaborates
+[L3 ] x= 408.3 y= 489.1 | with other intrastate
+[L3 ] x= 408.3 y= 500.6 | agencies and entities
+[L4 ] x= 515.5 y= 477.7 | SMA collaborates
+[L4 ] x= 515.5 y= 489.1 | with other regional
+[L4 ] x= 515.5 y= 500.6 | agencies and entities
+[L5 ] x= 620.6 y= 477.7 | SMA collaborates
+[L5 ] x= 620.6 y= 489.1 | with federal agencies
+[L5 ] x= 620.6 y= 500.6 | and entities for
+
+================================================================================
+PAGE 3
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 502
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Information Management
+[L2 ] x= 320.0 y= 147.9 | Manage Provider Information
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 183.0 y= 173.3 | Level 1
+[L2 ] x= 300.6 y= 173.3 | Level 2
+[L3 ] x= 408.3 y= 173.3 | Level 3
+[L4 ] x= 515.5 y= 173.3 | Level 4
+[L5 ] x= 620.6 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 205.0 | other agencies or
+[Q  ] x=  77.4 y= 216.5 | entities in
+[Q  ] x=  77.4 y= 228.0 | performing the
+[Q  ] x=  77.4 y= 239.4 | process?
+[L1 ] x= 183.0 y= 205.1 | information exchange
+[L1 ] x= 183.0 y= 216.6 | or business tasks.
+[L2 ] x= 300.6 y= 205.1 | HIPAA standards and
+[L2 ] x= 300.6 y= 216.6 | Electronic Data
+[L2 ] x= 300.6 y= 228.2 | Interchange (EDI)
+[L2 ] x= 300.6 y= 239.6 | transactions.
+[L3 ] x= 408.3 y= 205.1 | to adopt national
+[L3 ] x= 408.3 y= 216.6 | standards, and to
+[L3 ] x= 408.3 y= 228.2 | develop and share
+[L3 ] x= 408.3 y= 239.6 | reusable business
+[L3 ] x= 408.3 y= 251.1 | services.
+[L4 ] x= 515.5 y= 205.1 | to adopt national
+[L4 ] x= 515.5 y= 216.6 | standards, and to
+[L4 ] x= 515.5 y= 228.2 | develop and share
+[L4 ] x= 515.5 y= 239.6 | reusable processes
+[L4 ] x= 515.5 y= 251.1 | including clinical
+[L4 ] x= 515.5 y= 262.6 | information.
+[L5 ] x= 620.6 y= 205.1 | national (and
+[L5 ] x= 620.6 y= 216.6 | international)
+[L5 ] x= 620.6 y= 228.2 | interoperability
+[L5 ] x= 620.6 y= 239.6 | improvements that
+[L5 ] x= 620.6 y= 251.1 | maximize
+[L5 ] x= 620.6 y= 262.6 | automation of routine
+[L5 ] x= 620.6 y= 274.1 | operations.
+[Q  ] x=  77.4 y= 298.0 | Business Capability Quality: Timeliness of Process
+[Q  ] x=  77.4 y= 322.0 | How timely is the
+[Q  ] x=  77.4 y= 333.5 | end-to-end
+[Q  ] x=  77.4 y= 345.1 | process?
+[L1 ] x= 183.0 y= 322.1 | Process meets
+[L1 ] x= 183.0 y= 333.7 | threshold or mandated
+[L1 ] x= 183.0 y= 345.2 | requirements for
+[L1 ] x= 183.0 y= 356.6 | timeliness (i.e., the
+[L1 ] x= 183.0 y= 368.1 | process achieves
+[L1 ] x= 183.0 y= 379.6 | results within the time
+[L1 ] x= 183.0 y= 391.1 | specified by law or
+[L1 ] x= 183.0 y= 402.7 | regulation). Manual and
+[L1 ] x= 183.0 y= 414.2 | semi-automatic steps
+[L1 ] x= 183.0 y= 425.6 | delay updates; updates
+[L1 ] x= 183.0 y= 437.1 | take from one week to
+[L1 ] x= 183.0 y= 448.6 | one month.
+[L1 ] x= 183.0 y= 460.2 | Notifications are
+[L1 ] x= 183.0 y= 471.7 | inconsistent in regards
+[L1 ] x= 183.0 y= 483.1 | to time, and in general,
+[L1 ] x= 183.0 y= 494.6 | are not timely (i.e., five
+[L1 ] x= 183.0 y= 506.1 | (5) or more business
+[L2 ] x= 300.6 y= 322.1 | Process timeliness
+[L2 ] x= 300.6 y= 333.7 | improves through use
+[L2 ] x= 300.6 y= 345.2 | of automation.
+[L2 ] x= 300.6 y= 356.6 | Timeliness exceeds
+[L2 ] x= 300.6 y= 368.1 | legal requirements.
+[L2 ] x= 300.6 y= 379.6 | On the average,
+[L2 ] x= 300.6 y= 391.1 | updates occur daily
+[L2 ] x= 300.6 y= 402.7 | (within 24 hours).
+[L2 ] x= 300.6 y= 414.2 | Notifications are
+[L2 ] x= 300.6 y= 425.6 | available on the day
+[L2 ] x= 300.6 y= 437.1 | of the modification.
+[L3 ] x= 408.3 y= 322.1 | Timeliness improves
+[L3 ] x= 408.3 y= 333.7 | via state and federal
+[L3 ] x= 408.3 y= 345.2 | collaboration, use of
+[L3 ] x= 408.3 y= 356.6 | information sharing,
+[L3 ] x= 408.3 y= 368.1 | standards, and
+[L3 ] x= 408.3 y= 379.6 | regional Health
+[L3 ] x= 408.3 y= 391.1 | Insurance
+[L3 ] x= 408.3 y= 402.7 | Marketplace (HIX).
+[L3 ] x= 408.3 y= 414.2 | Timeliness exceeds
+[L3 ] x= 408.3 y= 425.6 | Level 2.
+[L4 ] x= 515.5 y= 322.1 | Information is
+[L4 ] x= 515.5 y= 333.7 | available in near real
+[L4 ] x= 515.5 y= 345.2 | time. SMA has
+[L4 ] x= 515.5 y= 356.6 | regional
+[L4 ] x= 515.5 y= 368.1 | interoperability,
+[L4 ] x= 515.5 y= 379.6 | which further
+[L4 ] x= 515.5 y= 391.1 | improves timeliness
+[L4 ] x= 515.5 y= 402.7 | over Level 3.
+[L5 ] x= 620.6 y= 322.1 | Information is
+[L5 ] x= 620.6 y= 333.7 | available in real time.
+[L5 ] x= 620.6 y= 345.2 | Processes improve
+[L5 ] x= 620.6 y= 356.6 | further through
+[L5 ] x= 620.6 y= 368.1 | connectivity with
+[L5 ] x= 620.6 y= 379.6 | other States and with
+[L5 ] x= 620.6 y= 391.1 | federal agencies.
+[L5 ] x= 620.6 y= 402.7 | Most processes
+[L5 ] x= 620.6 y= 414.2 | execute at the point
+[L5 ] x= 620.6 y= 425.6 | of service. Results
+[L5 ] x= 620.6 y= 437.1 | are almost
+[L5 ] x= 620.6 y= 448.6 | immediate.
+
+================================================================================
+PAGE 4
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 503
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Information Management
+[L2 ] x= 320.0 y= 147.9 | Manage Provider Information
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 183.0 y= 173.3 | Level 1
+[L2 ] x= 300.6 y= 173.3 | Level 2
+[L3 ] x= 408.3 y= 173.3 | Level 3
+[L4 ] x= 515.5 y= 173.3 | Level 4
+[L5 ] x= 620.6 y= 173.3 | Level 5
+[L1 ] x= 183.0 y= 205.1 | days later than the
+[L1 ] x= 183.0 y= 216.6 | update).
+[Q  ] x=  77.4 y= 240.5 | Business Capability Quality: Data Access and Accuracy
+[Q  ] x=  77.4 y= 264.5 | How accurate is the
+[Q  ] x=  77.4 y= 276.0 | information in the
+[Q  ] x=  77.4 y= 287.4 | process?
+[L1 ] x= 183.0 y= 264.6 | Use of direct data entry
+[L1 ] x= 183.0 y= 276.2 | for information
+[L1 ] x= 183.0 y= 287.6 | collection is manually
+[L1 ] x= 183.0 y= 299.1 | intensive and
+[L1 ] x= 183.0 y= 310.6 | susceptible to
+[L1 ] x= 183.0 y= 322.1 | inconsistent or incorrect
+[L1 ] x= 183.0 y= 333.7 | information.
+[L1 ] x= 183.0 y= 345.2 | Stakeholders are
+[L1 ] x= 183.0 y= 356.6 | unable to rely on
+[L1 ] x= 183.0 y= 368.1 | information for
+[L1 ] x= 183.0 y= 379.6 | decision-making.
+[L2 ] x= 300.6 y= 264.6 | HIPAA standard
+[L2 ] x= 300.6 y= 276.2 | transactions improve
+[L2 ] x= 300.6 y= 287.6 | accuracy of
+[L2 ] x= 300.6 y= 299.1 | information but the
+[L2 ] x= 300.6 y= 310.6 | decision-making
+[L2 ] x= 300.6 y= 322.1 | process may be
+[L2 ] x= 300.6 y= 333.7 | erroneous or
+[L2 ] x= 300.6 y= 345.2 | misleading. Accuracy
+[L2 ] x= 300.6 y= 356.6 | is higher than at
+[L2 ] x= 300.6 y= 368.1 | Level 1.
+[L3 ] x= 408.3 y= 264.6 | Automation of
+[L3 ] x= 408.3 y= 276.2 | information collection
+[L3 ] x= 408.3 y= 287.6 | increases the
+[L3 ] x= 408.3 y= 299.1 | reliability of SMA’s
+[L3 ] x= 408.3 y= 310.6 | internal information.
+[L3 ] x= 408.3 y= 322.1 | External sources of
+[L3 ] x= 408.3 y= 333.7 | information use MITA
+[L3 ] x= 408.3 y= 345.2 | Framework and
+[L3 ] x= 408.3 y= 356.6 | industry standards for
+[L3 ] x= 408.3 y= 368.1 | information
+[L3 ] x= 408.3 y= 379.6 | exchange. Decision-
+[L3 ] x= 408.3 y= 391.1 | making is automatic
+[L3 ] x= 408.3 y= 402.7 | using standardized
+[L3 ] x= 408.3 y= 414.2 | business rules
+[L3 ] x= 408.3 y= 425.6 | definitions. Accuracy
+[L3 ] x= 408.3 y= 437.1 | rating is at 99% or
+[L3 ] x= 408.3 y= 448.6 | higher.
+[L4 ] x= 515.5 y= 264.6 | Automation of
+[L4 ] x= 515.5 y= 276.2 | information collection
+[L4 ] x= 515.5 y= 287.6 | increases the
+[L4 ] x= 515.5 y= 299.1 | reliability of regional
+[L4 ] x= 515.5 y= 310.6 | sources of
+[L4 ] x= 515.5 y= 322.1 | information. SMA
+[L4 ] x= 515.5 y= 333.7 | adopts MITA
+[L4 ] x= 515.5 y= 345.2 | Framework and
+[L4 ] x= 515.5 y= 356.6 | industry standards
+[L4 ] x= 515.5 y= 368.1 | for information
+[L4 ] x= 515.5 y= 379.6 | exchange by
+[L4 ] x= 515.5 y= 391.1 | regional agencies.
+[L4 ] x= 515.5 y= 402.7 | Decision-making is
+[L4 ] x= 515.5 y= 414.2 | automatic using
+[L4 ] x= 515.5 y= 425.6 | regional
+[L4 ] x= 515.5 y= 437.1 | standardized
+[L4 ] x= 515.5 y= 448.6 | business rules
+[L4 ] x= 515.5 y= 460.2 | definitions. Accuracy
+[L4 ] x= 515.5 y= 471.7 | rating is at 99% or
+[L4 ] x= 515.5 y= 483.1 | higher.
+[L5 ] x= 620.6 y= 264.6 | SMA adopts MITA
+[L5 ] x= 620.6 y= 276.2 | Framework and
+[L5 ] x= 620.6 y= 287.6 | industry standards
+[L5 ] x= 620.6 y= 299.1 | for information
+[L5 ] x= 620.6 y= 310.6 | exchange with
+[L5 ] x= 620.6 y= 322.1 | national agencies.
+[L5 ] x= 620.6 y= 333.7 | Decision-making is
+[L5 ] x= 620.6 y= 345.2 | automatic using
+[L5 ] x= 620.6 y= 356.6 | national
+[L5 ] x= 620.6 y= 368.1 | standardized
+[L5 ] x= 620.6 y= 379.6 | business rules
+[L5 ] x= 620.6 y= 391.1 | definitions. Accuracy
+[L5 ] x= 620.6 y= 402.7 | rating is at 99% or
+[L5 ] x= 620.6 y= 414.2 | higher.
+
+================================================================================
+PAGE 5
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 504
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Information Management
+[L2 ] x= 320.0 y= 147.9 | Manage Provider Information
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 183.0 y= 173.3 | Level 1
+[L2 ] x= 300.6 y= 173.3 | Level 2
+[L3 ] x= 408.3 y= 173.3 | Level 3
+[L4 ] x= 515.5 y= 173.3 | Level 4
+[L5 ] x= 620.6 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 229.0 | How accessible is
+[Q  ] x=  77.4 y= 240.5 | the information in
+[Q  ] x=  77.4 y= 252.0 | the process?
+[L1 ] x= 183.0 y= 229.1 | SMA stores information
+[L1 ] x= 183.0 y= 240.6 | in disparate systems
+[L1 ] x= 183.0 y= 252.2 | including paper storage
+[L1 ] x= 183.0 y= 263.6 | and obtains information
+[L1 ] x= 183.0 y= 275.1 | manually.
+[L2 ] x= 300.6 y= 229.1 | SMA stores
+[L2 ] x= 300.6 y= 240.6 | information in
+[L2 ] x= 300.6 y= 252.2 | disparate systems,
+[L2 ] x= 300.6 y= 263.6 | but automation and
+[L2 ] x= 300.6 y= 275.1 | HIPAA standards
+[L2 ] x= 300.6 y= 286.6 | increase accessibility
+[L2 ] x= 300.6 y= 298.1 | over Level 1.
+[L3 ] x= 408.3 y= 229.1 | SMA obtains
+[L3 ] x= 408.3 y= 240.6 | information easily
+[L3 ] x= 408.3 y= 252.2 | and exchanges with
+[L3 ] x= 408.3 y= 263.6 | intrastate agencies
+[L3 ] x= 408.3 y= 275.1 | and entities based on
+[L3 ] x= 408.3 y= 286.6 | MITA Framework and
+[L3 ] x= 408.3 y= 298.1 | industry standards.
+[L3 ] x= 408.3 y= 309.6 | Accessibility is
+[L3 ] x= 408.3 y= 321.2 | greater than Level 2.
+[L4 ] x= 515.5 y= 229.1 | SMA obtains
+[L4 ] x= 515.5 y= 240.6 | information easily
+[L4 ] x= 515.5 y= 252.2 | and exchanges with
+[L4 ] x= 515.5 y= 263.6 | regional agencies
+[L4 ] x= 515.5 y= 275.1 | and entities.
+[L4 ] x= 515.5 y= 286.6 | Accessibility is
+[L4 ] x= 515.5 y= 298.1 | greater than Level 3.
+[L5 ] x= 620.6 y= 229.1 | SMA obtains
+[L5 ] x= 620.6 y= 240.6 | information easily
+[L5 ] x= 620.6 y= 252.2 | and exchanges with
+[L5 ] x= 620.6 y= 263.6 | national agencies
+[L5 ] x= 620.6 y= 275.1 | and entities.
+[L5 ] x= 620.6 y= 286.6 | Accessibility is
+[L5 ] x= 620.6 y= 298.1 | greater than Level 4.
+[Q  ] x=  77.4 y= 345.1 | Business Capability Quality: Cost-Effectiveness
+[Q  ] x=  77.4 y= 369.1 | What is the cost of
+[Q  ] x=  77.4 y= 380.5 | the process
+[Q  ] x=  77.4 y= 392.0 | compared to the
+[Q  ] x=  77.4 y= 403.5 | benefits of its
+[Q  ] x=  77.4 y= 415.0 | results?
+[L1 ] x= 183.0 y= 369.2 | High relative cost due
+[L1 ] x= 183.0 y= 380.6 | to low number of
+[L1 ] x= 183.0 y= 392.1 | automatic, standardized
+[L1 ] x= 183.0 y= 403.6 | tasks. Requires
+[L1 ] x= 183.0 y= 415.1 | numerous data entry
+[L1 ] x= 183.0 y= 426.7 | staff to key new and
+[L1 ] x= 183.0 y= 438.2 | updated information,
+[L1 ] x= 183.0 y= 449.6 | and reconcile
+[L1 ] x= 183.0 y= 461.1 | duplicates and data
+[L1 ] x= 183.0 y= 472.6 | inconsistencies
+[L2 ] x= 300.6 y= 369.2 | Automation improves
+[L2 ] x= 300.6 y= 380.6 | process and allows
+[L2 ] x= 300.6 y= 392.1 | focus on exception
+[L2 ] x= 300.6 y= 403.6 | resolution, improving
+[L2 ] x= 300.6 y= 415.1 | cost effectiveness
+[L2 ] x= 300.6 y= 426.7 | ratio over Level 1.
+[L3 ] x= 408.3 y= 369.2 | SMA adopts MITA
+[L3 ] x= 408.3 y= 380.6 | Framework, industry
+[L3 ] x= 408.3 y= 392.1 | standards, and other
+[L3 ] x= 408.3 y= 403.6 | nationally recognized
+[L3 ] x= 408.3 y= 415.1 | standards further
+[L3 ] x= 408.3 y= 426.7 | improving cost
+[L3 ] x= 408.3 y= 438.2 | effectiveness ratio
+[L3 ] x= 408.3 y= 449.6 | over Level 2.
+[L4 ] x= 515.5 y= 369.2 | SMA adopts MITA
+[L4 ] x= 515.5 y= 380.6 | Framework, industry
+[L4 ] x= 515.5 y= 392.1 | standards, and other
+[L4 ] x= 515.5 y= 403.6 | nationally recognized
+[L4 ] x= 515.5 y= 415.1 | standards for
+[L4 ] x= 515.5 y= 426.7 | regional information
+[L4 ] x= 515.5 y= 438.2 | exchange improving
+[L4 ] x= 515.5 y= 449.6 | cost effectiveness
+[L4 ] x= 515.5 y= 461.1 | ratio over Level 3.
+[L5 ] x= 620.6 y= 369.2 | SMA adopts MITA
+[L5 ] x= 620.6 y= 380.6 | Framework, industry
+[L5 ] x= 620.6 y= 392.1 | standards, and other
+[L5 ] x= 620.6 y= 403.6 | nationally recognized
+[L5 ] x= 620.6 y= 415.1 | standards for
+[L5 ] x= 620.6 y= 426.7 | national (and
+[L5 ] x= 620.6 y= 438.2 | international)
+[L5 ] x= 620.6 y= 449.6 | information
+[L5 ] x= 620.6 y= 461.1 | exchange. SMA
+[L5 ] x= 620.6 y= 472.6 | increases cost
+[L5 ] x= 620.6 y= 484.2 | effectiveness ratio
+[L5 ] x= 620.6 y= 495.7 | over level 4.
+
+================================================================================
+PAGE 6
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 505
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Information Management
+[L2 ] x= 320.0 y= 147.9 | Manage Provider Information
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 183.0 y= 173.3 | Level 1
+[L2 ] x= 300.6 y= 173.3 | Level 2
+[L3 ] x= 408.3 y= 173.3 | Level 3
+[L4 ] x= 515.5 y= 173.3 | Level 4
+[L5 ] x= 620.6 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 229.0 | Business Capability Quality: Effort to Perform; Efficiency
+[Q  ] x=  77.4 y= 253.0 | How efficient is the
+[Q  ] x=  77.4 y= 264.5 | process?
+[L1 ] x= 183.0 y= 253.1 | Process is labor
+[L1 ] x= 183.0 y= 264.6 | intensive. There is
+[L1 ] x= 183.0 y= 276.2 | wasted effort or
+[L1 ] x= 183.0 y= 287.6 | expense to accomplish
+[L1 ] x= 183.0 y= 299.1 | tasks. Process meets
+[L1 ] x= 183.0 y= 310.6 | minimum state process
+[L1 ] x= 183.0 y= 322.1 | guidelines and SMA
+[L1 ] x= 183.0 y= 333.7 | performance standards.
+[L1 ] x= 183.0 y= 345.2 | Efficiency is low.
+[L2 ] x= 300.6 y= 253.1 | Automation and state
+[L2 ] x= 300.6 y= 264.6 | standards increase
+[L2 ] x= 300.6 y= 276.2 | productivity.
+[L2 ] x= 300.6 y= 287.6 | Efficiency is higher
+[L2 ] x= 300.6 y= 299.1 | than Level 1.
+[L3 ] x= 408.3 y= 253.1 | SMA adopts MITA
+[L3 ] x= 408.3 y= 264.6 | Framework, industry
+[L3 ] x= 408.3 y= 276.2 | standards and
+[L3 ] x= 408.3 y= 287.6 | information exchange
+[L3 ] x= 408.3 y= 299.1 | with intrastate
+[L3 ] x= 408.3 y= 310.6 | agencies and entities
+[L3 ] x= 408.3 y= 322.1 | improving efficiency
+[L3 ] x= 408.3 y= 333.7 | to 95% or higher.
+[L4 ] x= 515.5 y= 253.1 | SMA adopts MITA
+[L4 ] x= 515.5 y= 264.6 | Framework, industry
+[L4 ] x= 515.5 y= 276.2 | standards and
+[L4 ] x= 515.5 y= 287.6 | information
+[L4 ] x= 515.5 y= 299.1 | exchange with
+[L4 ] x= 515.5 y= 310.6 | regional agencies
+[L4 ] x= 515.5 y= 322.1 | and entities
+[L4 ] x= 515.5 y= 333.7 | improving efficiency
+[L4 ] x= 515.5 y= 345.2 | to 98% or higher.
+[L5 ] x= 620.6 y= 253.1 | SMA adopts MITA
+[L5 ] x= 620.6 y= 264.6 | Framework, industry
+[L5 ] x= 620.6 y= 276.2 | standards and
+[L5 ] x= 620.6 y= 287.6 | information
+[L5 ] x= 620.6 y= 299.1 | exchange with
+[L5 ] x= 620.6 y= 310.6 | national agencies
+[L5 ] x= 620.6 y= 322.1 | and entities
+[L5 ] x= 620.6 y= 333.7 | improving efficiency
+[L5 ] x= 620.6 y= 345.2 | to 98% or higher.
+[Q  ] x=  77.4 y= 369.1 | Business Capability Quality: Accuracy of Process Results
+[Q  ] x=  77.4 y= 393.1 | How accurate are
+[Q  ] x=  77.4 y= 404.5 | the results of the
+[Q  ] x=  77.4 y= 416.0 | process?
+[L1 ] x= 183.0 y= 393.2 | Manual processes
+[L1 ] x= 183.0 y= 404.6 | result in greater
+[L1 ] x= 183.0 y= 416.1 | opportunity for human
+[L1 ] x= 183.0 y= 427.6 | error. Accuracy is low.
+[L2 ] x= 300.6 y= 393.2 | Automation and
+[L2 ] x= 300.6 y= 404.6 | standardized
+[L2 ] x= 300.6 y= 416.1 | business rules
+[L2 ] x= 300.6 y= 427.6 | definitions reduce
+[L2 ] x= 300.6 y= 439.1 | error and improve
+[L2 ] x= 300.6 y= 450.7 | accuracy above Level
+[L2 ] x= 300.6 y= 462.2 | 1.
+[L3 ] x= 408.3 y= 393.2 | SMA adopts MITA
+[L3 ] x= 408.3 y= 404.6 | Framework, industry
+[L3 ] x= 408.3 y= 416.1 | standards and
+[L3 ] x= 408.3 y= 427.6 | information exchange
+[L3 ] x= 408.3 y= 439.1 | with intrastate
+[L3 ] x= 408.3 y= 450.7 | agencies and entities
+[L3 ] x= 408.3 y= 462.2 | improving accuracy
+[L3 ] x= 408.3 y= 473.6 | to 90% or higher.
+[L4 ] x= 515.5 y= 393.2 | SMA adopts MITA
+[L4 ] x= 515.5 y= 404.6 | Framework, industry
+[L4 ] x= 515.5 y= 416.1 | standards and
+[L4 ] x= 515.5 y= 427.6 | information
+[L4 ] x= 515.5 y= 439.1 | exchange with
+[L4 ] x= 515.5 y= 450.7 | regional agencies
+[L4 ] x= 515.5 y= 462.2 | and entities
+[L4 ] x= 515.5 y= 473.6 | improving accuracy
+[L4 ] x= 515.5 y= 485.1 | to 98% or higher.
+[L5 ] x= 620.6 y= 393.2 | SMA adopts MITA
+[L5 ] x= 620.6 y= 404.6 | Framework, industry
+[L5 ] x= 620.6 y= 416.1 | standards and
+[L5 ] x= 620.6 y= 427.6 | information
+[L5 ] x= 620.6 y= 439.1 | exchange with
+[L5 ] x= 620.6 y= 450.7 | national agencies
+[L5 ] x= 620.6 y= 462.2 | and entities
+[L5 ] x= 620.6 y= 473.6 | improving accuracy
+[L5 ] x= 620.6 y= 485.1 | to 98% or higher.
+
+================================================================================
+PAGE 7
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 506
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Information Management
+[L2 ] x= 320.0 y= 147.9 | Manage Provider Information
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 183.0 y= 173.3 | Level 1
+[L2 ] x= 300.6 y= 173.3 | Level 2
+[L3 ] x= 408.3 y= 173.3 | Level 3
+[L4 ] x= 515.5 y= 173.3 | Level 4
+[L5 ] x= 620.6 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 211.0 | Business Capability Quality: Utility or Value to Stakeholders
+[Q  ] x=  77.4 y= 235.0 | Does the business
+[Q  ] x=  77.4 y= 246.5 | process satisfy
+[Q  ] x=  77.4 y= 258.0 | stakeholders?
+[L1 ] x= 183.0 y= 235.1 | Stakeholders lack
+[L1 ] x= 183.0 y= 246.6 | confidence in
+[L1 ] x= 183.0 y= 258.2 | information negatively
+[L1 ] x= 183.0 y= 269.6 | affecting stakeholder
+[L1 ] x= 183.0 y= 281.1 | satisfaction with the
+[L1 ] x= 183.0 y= 292.6 | process.
+[L2 ] x= 300.6 y= 235.1 | Automation and
+[L2 ] x= 300.6 y= 246.6 | standardization
+[L2 ] x= 300.6 y= 258.2 | provides clear and
+[L2 ] x= 300.6 y= 269.6 | useful information.
+[L2 ] x= 300.6 y= 281.1 | Stakeholder
+[L2 ] x= 300.6 y= 292.6 | satisfaction is greater
+[L2 ] x= 300.6 y= 304.1 | than Level 1.
+[L3 ] x= 408.3 y= 235.1 | SMA adopts MITA
+[L3 ] x= 408.3 y= 246.6 | Framework, industry
+[L3 ] x= 408.3 y= 258.2 | standards and
+[L3 ] x= 408.3 y= 269.6 | information exchange
+[L3 ] x= 408.3 y= 281.1 | with intrastate
+[L3 ] x= 408.3 y= 292.6 | agencies and entities
+[L3 ] x= 408.3 y= 304.1 | improving
+[L3 ] x= 408.3 y= 315.6 | stakeholder
+[L3 ] x= 408.3 y= 327.2 | satisfaction to 90% or
+[L3 ] x= 408.3 y= 338.6 | higher.
+[L3 ] x= 408.3 y= 350.1 | SMA uses survey or
+[L3 ] x= 408.3 y= 361.6 | questionnaire for
+[L3 ] x= 408.3 y= 373.1 | information
+[L3 ] x= 408.3 y= 384.7 | collection.
+[L4 ] x= 515.5 y= 235.1 | SMA adopts MITA
+[L4 ] x= 515.5 y= 246.6 | Framework, industry
+[L4 ] x= 515.5 y= 258.2 | standards and
+[L4 ] x= 515.5 y= 269.6 | information
+[L4 ] x= 515.5 y= 281.1 | exchange with
+[L4 ] x= 515.5 y= 292.6 | regional agencies
+[L4 ] x= 515.5 y= 304.1 | and entities
+[L4 ] x= 515.5 y= 315.6 | improving
+[L4 ] x= 515.5 y= 327.2 | stakeholder
+[L4 ] x= 515.5 y= 338.6 | satisfaction to 95%
+[L4 ] x= 515.5 y= 350.1 | or higher.
+[L5 ] x= 620.6 y= 235.1 | SMA adopts MITA
+[L5 ] x= 620.6 y= 246.6 | Framework, industry
+[L5 ] x= 620.6 y= 258.2 | standards and
+[L5 ] x= 620.6 y= 269.6 | information
+[L5 ] x= 620.6 y= 281.1 | exchange with
+[L5 ] x= 620.6 y= 292.6 | national agencies
+[L5 ] x= 620.6 y= 304.1 | and entities
+[L5 ] x= 620.6 y= 315.6 | improving
+[L5 ] x= 620.6 y= 327.2 | stakeholder
+[L5 ] x= 620.6 y= 338.6 | satisfaction to 98%
+[L5 ] x= 620.6 y= 350.1 | or higher.
+
+================================================================================
+PAGE 8
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 507
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  72.0 y= 116.6 | Terminate Provider
+[Q  ] x=  77.4 y= 149.6 | PM – Provider Information Management
+[L2 ] x= 344.1 y= 174.7 | Terminate Provider
+[Q  ] x=  77.4 y= 199.8 | Capability
+[Q  ] x=  77.4 y= 212.5 | Question
+[L1 ] x= 185.4 y= 199.9 | Level 1
+[L2 ] x= 293.5 y= 199.9 | Level 2
+[L3 ] x= 401.5 y= 199.9 | Level 3
+[L4 ] x= 509.5 y= 199.9 | Level 4
+[L5 ] x= 617.5 y= 199.9 | Level 5
+[Q  ] x=  77.4 y= 237.6 | Business Capability Descriptions
+[Q  ] x=  77.4 y= 261.6 | Is the process
+[Q  ] x=  77.4 y= 273.2 | primarily manual or
+[Q  ] x=  77.4 y= 284.7 | automatic?
+[L1 ] x= 185.4 y= 261.8 | The process
+[L1 ] x= 185.4 y= 273.3 | consists primarily of
+[L1 ] x= 185.4 y= 284.8 | manual paper-based
+[L1 ] x= 185.4 y= 296.3 | activity to
+[L1 ] x= 185.4 y= 307.8 | accomplish tasks.
+[L2 ] x= 293.5 y= 261.8 | SMA uses a mix of
+[L2 ] x= 293.5 y= 273.3 | manual and
+[L2 ] x= 293.5 y= 284.8 | automatic processes
+[L2 ] x= 293.5 y= 296.3 | to accomplish tasks.
+[L3 ] x= 401.5 y= 261.8 | SMA automates
+[L3 ] x= 401.5 y= 273.3 | process to the full
+[L3 ] x= 401.5 y= 284.8 | extent possible and
+[L3 ] x= 401.5 y= 296.3 | stores the provider
+[L3 ] x= 401.5 y= 307.8 | termination
+[L3 ] x= 401.5 y= 319.4 | information within
+[L3 ] x= 401.5 y= 330.8 | the state.
+[L3 ] x= 401.5 y= 342.3 | SMA automates
+[L3 ] x= 401.5 y= 353.8 | process to the full
+[L3 ] x= 401.5 y= 365.3 | extent possible
+[L3 ] x= 401.5 y= 376.9 | within the intrastate.
+[L3 ] x= 401.5 y= 388.4 | SMA shares
+[L3 ] x= 401.5 y= 399.8 | Provider Network
+[L3 ] x= 401.5 y= 411.3 | information with
+[L3 ] x= 401.5 y= 422.8 | Health Insurance
+[L3 ] x= 401.5 y= 434.3 | Marketplace (HIX).
+[L3 ] x= 401.5 y= 445.9 | SMA produces audit
+[L3 ] x= 401.5 y= 457.4 | trail of termination
+[L3 ] x= 401.5 y= 468.8 | decision 100% of the
+[L3 ] x= 401.5 y= 480.3 | time.
+[L4 ] x= 509.5 y= 261.8 | SMA automates
+[L4 ] x= 509.5 y= 273.3 | process to the full
+[L4 ] x= 509.5 y= 284.8 | extent possible and
+[L4 ] x= 509.5 y= 296.3 | stores the provider
+[L4 ] x= 509.5 y= 307.8 | termination
+[L4 ] x= 509.5 y= 319.4 | information for the
+[L4 ] x= 509.5 y= 330.8 | region. SMA
+[L4 ] x= 509.5 y= 342.3 | automates process
+[L4 ] x= 509.5 y= 353.8 | to the full extent
+[L4 ] x= 509.5 y= 365.3 | possible across the
+[L4 ] x= 509.5 y= 376.9 | interstate.
+[L4 ] x= 509.5 y= 388.4 | SMA shares
+[L4 ] x= 509.5 y= 399.8 | Provider Network
+[L4 ] x= 509.5 y= 411.3 | information with
+[L4 ] x= 509.5 y= 422.8 | Health Insurance
+[L4 ] x= 509.5 y= 434.3 | Marketplace (HIX).
+[L5 ] x= 617.5 y= 261.8 | SMA automates
+[L5 ] x= 617.5 y= 273.3 | process to the full
+[L5 ] x= 617.5 y= 284.8 | extent possible This
+[L5 ] x= 617.5 y= 296.3 | process uses and
+[L5 ] x= 617.5 y= 307.8 | stores the provider
+[L5 ] x= 617.5 y= 319.4 | termination
+[L5 ] x= 617.5 y= 330.8 | information in a
+[L5 ] x= 617.5 y= 342.3 | federal repository.
+[L5 ] x= 617.5 y= 353.8 | SMA automates
+[L5 ] x= 617.5 y= 365.3 | process to the full
+[L5 ] x= 617.5 y= 376.9 | extent possible
+[L5 ] x= 617.5 y= 388.4 | across the nation.
+[L5 ] x= 617.5 y= 399.8 | SMA shares
+[L5 ] x= 617.5 y= 411.3 | Provider Network
+[L5 ] x= 617.5 y= 422.8 | information with
+[L5 ] x= 617.5 y= 434.3 | Health Insurance
+[L5 ] x= 617.5 y= 445.9 | Marketplace (HIX).
+[Q  ] x=  77.4 y= 504.2 | Does the State
+[L1 ] x= 185.4 y= 504.3 | SMA focuses on
+[L2 ] x= 293.5 y= 504.3 | SMA applies a mix
+[L3 ] x= 401.5 y= 504.3 | SMA automates
+[L4 ] x= 509.5 y= 504.3 | SMA automates
+[L5 ] x= 617.5 y= 504.3 | SMA adopts MITA
+
+================================================================================
+PAGE 9
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 508
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 123.0 | PM – Provider Information Management
+[L2 ] x= 344.1 y= 147.9 | Terminate Provider
+[Q  ] x=  77.4 y= 173.1 | Capability
+[Q  ] x=  77.4 y= 185.8 | Question
+[L1 ] x= 185.4 y= 173.3 | Level 1
+[L2 ] x= 293.5 y= 173.3 | Level 2
+[L3 ] x= 401.5 y= 173.3 | Level 3
+[L4 ] x= 509.5 y= 173.3 | Level 4
+[L5 ] x= 617.5 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 205.0 | Medicaid Agency
+[Q  ] x=  77.4 y= 216.5 | use standards in
+[Q  ] x=  77.4 y= 228.0 | the process?
+[L1 ] x= 185.4 y= 205.1 | meeting compliance
+[L1 ] x= 185.4 y= 216.6 | thresholds for state
+[L1 ] x= 185.4 y= 228.2 | and federal
+[L1 ] x= 185.4 y= 239.6 | regulations using
+[L1 ] x= 185.4 y= 251.1 | state-specific
+[L1 ] x= 185.4 y= 262.6 | standards.
+[L2 ] x= 293.5 y= 205.1 | of HIPAA and state-
+[L2 ] x= 293.5 y= 216.6 | specific standards.
+[L3 ] x= 401.5 y= 205.1 | process to the full
+[L3 ] x= 401.5 y= 216.6 | extent possible and
+[L3 ] x= 401.5 y= 228.2 | stores the provider
+[L3 ] x= 401.5 y= 239.6 | background and
+[L3 ] x= 401.5 y= 251.1 | screening
+[L3 ] x= 401.5 y= 262.6 | termination
+[L3 ] x= 401.5 y= 274.1 | information within
+[L3 ] x= 401.5 y= 285.6 | the state.
+[L3 ] x= 401.5 y= 297.2 | SMA adopts MITA
+[L3 ] x= 401.5 y= 308.6 | Framework, industry
+[L3 ] x= 401.5 y= 320.1 | standards, and other
+[L3 ] x= 401.5 y= 331.6 | nationally
+[L3 ] x= 401.5 y= 343.1 | recognized
+[L3 ] x= 401.5 y= 354.7 | standards for
+[L3 ] x= 401.5 y= 366.2 | intrastate exchange
+[L3 ] x= 401.5 y= 377.6 | of information.
+[L4 ] x= 509.5 y= 205.1 | process to the full
+[L4 ] x= 509.5 y= 216.6 | extent possible and
+[L4 ] x= 509.5 y= 228.2 | stores the provider
+[L4 ] x= 509.5 y= 239.6 | background and
+[L4 ] x= 509.5 y= 251.1 | screening
+[L4 ] x= 509.5 y= 262.6 | termination
+[L4 ] x= 509.5 y= 274.1 | information for the
+[L4 ] x= 509.5 y= 285.6 | region standard
+[L4 ] x= 509.5 y= 297.2 | messages and other
+[L4 ] x= 509.5 y= 308.6 | nationally
+[L4 ] x= 509.5 y= 320.1 | recognized
+[L4 ] x= 509.5 y= 331.6 | standards for clinical
+[L4 ] x= 509.5 y= 343.1 | and interstate
+[L4 ] x= 509.5 y= 354.7 | information
+[L4 ] x= 509.5 y= 366.2 | exchange.
+[L5 ] x= 617.5 y= 205.1 | Framework, industry
+[L5 ] x= 617.5 y= 216.6 | standards, and
+[L5 ] x= 617.5 y= 228.2 | national standards
+[L5 ] x= 617.5 y= 239.6 | for consistent
+[L5 ] x= 617.5 y= 251.1 | validation at a
+[L5 ] x= 617.5 y= 262.6 | federal level and
+[L5 ] x= 617.5 y= 274.1 | stored in a federal
+[L5 ] x= 617.5 y= 285.6 | repository standard
+[L5 ] x= 617.5 y= 297.2 | messages and other
+[L5 ] x= 617.5 y= 308.6 | nationally
+[L5 ] x= 617.5 y= 320.1 | recognized
+[L5 ] x= 617.5 y= 331.6 | standards for
+[L5 ] x= 617.5 y= 343.1 | national exchange of
+[L5 ] x= 617.5 y= 354.7 | information.
+[Q  ] x=  77.4 y= 401.5 | How does the State
+[Q  ] x=  77.4 y= 413.0 | Medicaid Agency
+[Q  ] x=  77.4 y= 424.5 | collaborate with
+[Q  ] x=  77.4 y= 436.0 | other agencies or
+[Q  ] x=  77.4 y= 447.5 | entities in
+[Q  ] x=  77.4 y= 459.0 | performing the
+[Q  ] x=  77.4 y= 470.5 | process?
+[L1 ] x= 185.4 y= 401.6 | Very little
+[L1 ] x= 185.4 y= 413.1 | collaboration occurs
+[L1 ] x= 185.4 y= 424.6 | with other agencies
+[L1 ] x= 185.4 y= 436.1 | to standardize
+[L1 ] x= 185.4 y= 447.7 | information
+[L1 ] x= 185.4 y= 459.1 | exchange or
+[L1 ] x= 185.4 y= 470.6 | business tasks.
+[L2 ] x= 293.5 y= 401.6 | SMA collaborates
+[L2 ] x= 293.5 y= 413.1 | with other agencies
+[L2 ] x= 293.5 y= 424.6 | and entities to adopt
+[L2 ] x= 293.5 y= 436.1 | HIPAA standards
+[L2 ] x= 293.5 y= 447.7 | and Electronic Data
+[L2 ] x= 293.5 y= 459.1 | Interchange (EDI)
+[L2 ] x= 293.5 y= 470.6 | transactions.
+[L3 ] x= 401.5 y= 401.6 | SMA collaborates
+[L3 ] x= 401.5 y= 413.1 | with other intrastate
+[L3 ] x= 401.5 y= 424.6 | agencies and
+[L3 ] x= 401.5 y= 436.1 | entities to adopt
+[L3 ] x= 401.5 y= 447.7 | national standards,
+[L3 ] x= 401.5 y= 459.1 | and to develop and
+[L3 ] x= 401.5 y= 470.6 | share reusable
+[L3 ] x= 401.5 y= 482.1 | business services.
+[L4 ] x= 509.5 y= 401.6 | SMA collaborates
+[L4 ] x= 509.5 y= 413.1 | with other regional
+[L4 ] x= 509.5 y= 424.6 | agencies and
+[L4 ] x= 509.5 y= 436.1 | entities to adopt
+[L4 ] x= 509.5 y= 447.7 | national standards,
+[L4 ] x= 509.5 y= 459.1 | and to develop and
+[L4 ] x= 509.5 y= 470.6 | share reusable
+[L4 ] x= 509.5 y= 482.1 | processes including
+[L4 ] x= 509.5 y= 493.6 | clinical information.
+[L5 ] x= 617.5 y= 401.6 | SMA collaborates
+[L5 ] x= 617.5 y= 413.1 | with federal
+[L5 ] x= 617.5 y= 424.6 | agencies and
+[L5 ] x= 617.5 y= 436.1 | entities for national
+[L5 ] x= 617.5 y= 447.7 | (and international)
+[L5 ] x= 617.5 y= 459.1 | interoperability
+[L5 ] x= 617.5 y= 470.6 | improvements that
+[L5 ] x= 617.5 y= 482.1 | maximize
+[L5 ] x= 617.5 y= 493.6 | automation of
+[L5 ] x= 617.5 y= 505.2 | routine operations.
+
+================================================================================
+PAGE 10
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 509
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 123.0 | PM – Provider Information Management
+[L2 ] x= 344.1 y= 147.9 | Terminate Provider
+[Q  ] x=  77.4 y= 173.1 | Capability
+[Q  ] x=  77.4 y= 185.8 | Question
+[L1 ] x= 185.4 y= 173.3 | Level 1
+[L2 ] x= 293.5 y= 173.3 | Level 2
+[L3 ] x= 401.5 y= 173.3 | Level 3
+[L4 ] x= 509.5 y= 173.3 | Level 4
+[L5 ] x= 617.5 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 211.0 | Business Capability Quality: Timeliness of Process
+[Q  ] x=  77.4 y= 235.0 | How timely is the
+[Q  ] x=  77.4 y= 246.5 | end-to-end
+[Q  ] x=  77.4 y= 258.0 | process?
+[L1 ] x= 185.4 y= 235.1 | Process meets
+[L1 ] x= 185.4 y= 246.6 | threshold or
+[L1 ] x= 185.4 y= 258.2 | mandated
+[L1 ] x= 185.4 y= 269.6 | requirements for
+[L1 ] x= 185.4 y= 281.1 | timeliness (i.e., the
+[L1 ] x= 185.4 y= 292.6 | process achieves
+[L1 ] x= 185.4 y= 304.1 | results within the
+[L1 ] x= 185.4 y= 315.6 | time specified by law
+[L1 ] x= 185.4 y= 327.2 | or regulation).
+[L2 ] x= 293.5 y= 235.1 | Process timeliness
+[L2 ] x= 293.5 y= 246.6 | improves through
+[L2 ] x= 293.5 y= 258.2 | use of automation.
+[L2 ] x= 293.5 y= 269.6 | Timeliness exceeds
+[L2 ] x= 293.5 y= 281.1 | legal requirements.
+[L3 ] x= 401.5 y= 235.1 | Timeliness improves
+[L3 ] x= 401.5 y= 246.6 | via state and federal
+[L3 ] x= 401.5 y= 258.2 | collaboration, use of
+[L3 ] x= 401.5 y= 269.6 | information sharing,
+[L3 ] x= 401.5 y= 281.1 | standards, and
+[L3 ] x= 401.5 y= 292.6 | regional information
+[L3 ] x= 401.5 y= 304.1 | exchange hubs.
+[L3 ] x= 401.5 y= 315.6 | Timeliness exceeds
+[L3 ] x= 401.5 y= 327.2 | Level 2.
+[L4 ] x= 509.5 y= 235.1 | Information is
+[L4 ] x= 509.5 y= 246.6 | available in near real
+[L4 ] x= 509.5 y= 258.2 | time. Processes that
+[L4 ] x= 509.5 y= 269.6 | use clinical
+[L4 ] x= 509.5 y= 281.1 | information result in
+[L4 ] x= 509.5 y= 292.6 | immediate action,
+[L4 ] x= 509.5 y= 304.1 | response, and
+[L4 ] x= 509.5 y= 315.6 | results. SMA has
+[L4 ] x= 509.5 y= 327.2 | regional
+[L4 ] x= 509.5 y= 338.6 | interoperability,
+[L4 ] x= 509.5 y= 350.1 | which further
+[L4 ] x= 509.5 y= 361.6 | improves timeliness
+[L4 ] x= 509.5 y= 373.1 | over Level 3.
+[L5 ] x= 617.5 y= 235.1 | Information is
+[L5 ] x= 617.5 y= 246.6 | available in real
+[L5 ] x= 617.5 y= 258.2 | time. Processes
+[L5 ] x= 617.5 y= 269.6 | improve further
+[L5 ] x= 617.5 y= 281.1 | through connectivity
+[L5 ] x= 617.5 y= 292.6 | with other States
+[L5 ] x= 617.5 y= 304.1 | and with federal
+[L5 ] x= 617.5 y= 315.6 | agencies. Most
+[L5 ] x= 617.5 y= 327.2 | processes execute
+[L5 ] x= 617.5 y= 338.6 | at the point of
+[L5 ] x= 617.5 y= 350.1 | service. Results are
+[L5 ] x= 617.5 y= 361.6 | almost immediate.
+[Q  ] x=  77.4 y= 397.0 | Business Capability Quality: Data Access and Accuracy
+[Q  ] x=  77.4 y= 421.0 | How accurate is
+[Q  ] x=  77.4 y= 432.5 | the information in
+[Q  ] x=  77.4 y= 444.1 | the process?
+[L1 ] x= 185.4 y= 421.1 | Use of direct data
+[L1 ] x= 185.4 y= 432.7 | entry for information
+[L1 ] x= 185.4 y= 444.2 | collection is
+[L1 ] x= 185.4 y= 455.6 | manually intensive
+[L1 ] x= 185.4 y= 467.1 | and susceptible to
+[L1 ] x= 185.4 y= 478.6 | inconsistent or
+[L1 ] x= 185.4 y= 490.2 | incorrect
+[L1 ] x= 185.4 y= 501.7 | information.
+[L2 ] x= 293.5 y= 421.1 | HIPAA standard
+[L2 ] x= 293.5 y= 432.7 | transactions improve
+[L2 ] x= 293.5 y= 444.2 | accuracy of
+[L2 ] x= 293.5 y= 455.6 | information but the
+[L2 ] x= 293.5 y= 467.1 | decision-making
+[L2 ] x= 293.5 y= 478.6 | process may be
+[L2 ] x= 293.5 y= 490.2 | erroneous or
+[L2 ] x= 293.5 y= 501.7 | misleading.
+[L3 ] x= 401.5 y= 421.1 | Automation of
+[L3 ] x= 401.5 y= 432.7 | information
+[L3 ] x= 401.5 y= 444.2 | collection increases
+[L3 ] x= 401.5 y= 455.6 | the reliability of
+[L3 ] x= 401.5 y= 467.1 | SMA’s internal
+[L3 ] x= 401.5 y= 478.6 | information. External
+[L3 ] x= 401.5 y= 490.2 | sources of
+[L3 ] x= 401.5 y= 501.7 | information use
+[L4 ] x= 509.5 y= 421.1 | Automation of
+[L4 ] x= 509.5 y= 432.7 | information
+[L4 ] x= 509.5 y= 444.2 | collection increases
+[L4 ] x= 509.5 y= 455.6 | the reliability of
+[L4 ] x= 509.5 y= 467.1 | SMA’s internal and
+[L4 ] x= 509.5 y= 478.6 | external sources of
+[L4 ] x= 509.5 y= 490.2 | information. SMA
+[L4 ] x= 509.5 y= 501.7 | adopts MITA
+[L5 ] x= 617.5 y= 421.1 | SMA adopts MITA
+[L5 ] x= 617.5 y= 432.7 | Framework and
+[L5 ] x= 617.5 y= 444.2 | industry standards
+[L5 ] x= 617.5 y= 455.6 | for information
+[L5 ] x= 617.5 y= 467.1 | exchange with
+[L5 ] x= 617.5 y= 478.6 | national agencies.
+[L5 ] x= 617.5 y= 490.2 | Decision-making is
+[L5 ] x= 617.5 y= 501.7 | automatic using
+
+================================================================================
+PAGE 11
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 510
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 123.0 | PM – Provider Information Management
+[L2 ] x= 344.1 y= 147.9 | Terminate Provider
+[Q  ] x=  77.4 y= 173.1 | Capability
+[Q  ] x=  77.4 y= 185.8 | Question
+[L1 ] x= 185.4 y= 173.3 | Level 1
+[L2 ] x= 293.5 y= 173.3 | Level 2
+[L3 ] x= 401.5 y= 173.3 | Level 3
+[L4 ] x= 509.5 y= 173.3 | Level 4
+[L5 ] x= 617.5 y= 173.3 | Level 5
+[L1 ] x= 185.4 y= 205.1 | Stakeholders are
+[L1 ] x= 185.4 y= 216.6 | unable to rely on
+[L1 ] x= 185.4 y= 228.2 | information for
+[L1 ] x= 185.4 y= 239.6 | decision-making.
+[L2 ] x= 293.5 y= 205.1 | Accuracy is higher
+[L2 ] x= 293.5 y= 216.6 | than at Level 1.
+[L3 ] x= 401.5 y= 205.1 | MITA Framework
+[L3 ] x= 401.5 y= 216.6 | and industry
+[L3 ] x= 401.5 y= 228.2 | standards for
+[L3 ] x= 401.5 y= 239.6 | information
+[L3 ] x= 401.5 y= 251.1 | exchange. Decision-
+[L3 ] x= 401.5 y= 262.6 | making is automatic
+[L3 ] x= 401.5 y= 274.1 | using standardized
+[L3 ] x= 401.5 y= 285.6 | business rules
+[L3 ] x= 401.5 y= 297.2 | definitions. Accuracy
+[L3 ] x= 401.5 y= 308.6 | rating is at 99% or
+[L3 ] x= 401.5 y= 320.1 | higher.
+[L4 ] x= 509.5 y= 205.1 | Framework and
+[L4 ] x= 509.5 y= 216.6 | industry standards
+[L4 ] x= 509.5 y= 228.2 | for information
+[L4 ] x= 509.5 y= 239.6 | exchange by
+[L4 ] x= 509.5 y= 251.1 | regional agencies.
+[L4 ] x= 509.5 y= 262.6 | Decision-making is
+[L4 ] x= 509.5 y= 274.1 | automatic using
+[L4 ] x= 509.5 y= 285.6 | regional
+[L4 ] x= 509.5 y= 297.2 | standardized
+[L4 ] x= 509.5 y= 308.6 | business rules
+[L4 ] x= 509.5 y= 320.1 | definitions. Accuracy
+[L4 ] x= 509.5 y= 331.6 | rating is at 99% or
+[L4 ] x= 509.5 y= 343.1 | higher.
+[L5 ] x= 617.5 y= 205.1 | national
+[L5 ] x= 617.5 y= 216.6 | standardized
+[L5 ] x= 617.5 y= 228.2 | business rules
+[L5 ] x= 617.5 y= 239.6 | definitions. Accuracy
+[L5 ] x= 617.5 y= 251.1 | rating is at 99% or
+[L5 ] x= 617.5 y= 262.6 | higher.
+[Q  ] x=  77.4 y= 367.0 | How accessible is
+[Q  ] x=  77.4 y= 378.5 | the information in
+[Q  ] x=  77.4 y= 390.1 | the process?
+[L1 ] x= 185.4 y= 367.1 | SMA stores
+[L1 ] x= 185.4 y= 378.7 | information in
+[L1 ] x= 185.4 y= 390.2 | disparate systems
+[L1 ] x= 185.4 y= 401.6 | including paper
+[L1 ] x= 185.4 y= 413.1 | storage and obtains
+[L1 ] x= 185.4 y= 424.6 | information
+[L1 ] x= 185.4 y= 436.1 | manually.
+[L2 ] x= 293.5 y= 367.1 | SMA stores
+[L2 ] x= 293.5 y= 378.7 | information in
+[L2 ] x= 293.5 y= 390.2 | disparate systems,
+[L2 ] x= 293.5 y= 401.6 | but automation and
+[L2 ] x= 293.5 y= 413.1 | HIPAA standards
+[L2 ] x= 293.5 y= 424.6 | increase
+[L2 ] x= 293.5 y= 436.1 | accessibility over
+[L2 ] x= 293.5 y= 447.7 | Level 1.
+[L3 ] x= 401.5 y= 367.1 | SMA obtains
+[L3 ] x= 401.5 y= 378.7 | information easily
+[L3 ] x= 401.5 y= 390.2 | and exchanges with
+[L3 ] x= 401.5 y= 401.6 | intrastate agencies
+[L3 ] x= 401.5 y= 413.1 | and entities based
+[L3 ] x= 401.5 y= 424.6 | on MITA Framework
+[L3 ] x= 401.5 y= 436.1 | and industry
+[L3 ] x= 401.5 y= 447.7 | standards.
+[L3 ] x= 401.5 y= 459.1 | Accessibility is
+[L3 ] x= 401.5 y= 470.6 | greater than Level 2.
+[L4 ] x= 509.5 y= 367.1 | SMA obtains
+[L4 ] x= 509.5 y= 378.7 | information easily
+[L4 ] x= 509.5 y= 390.2 | and exchanges with
+[L4 ] x= 509.5 y= 401.6 | regional agencies
+[L4 ] x= 509.5 y= 413.1 | and entities.
+[L4 ] x= 509.5 y= 424.6 | Accessibility is
+[L4 ] x= 509.5 y= 436.1 | greater than Level 3.
+[L5 ] x= 617.5 y= 367.1 | SMA obtains
+[L5 ] x= 617.5 y= 378.7 | information easily
+[L5 ] x= 617.5 y= 390.2 | and exchanges with
+[L5 ] x= 617.5 y= 401.6 | national agencies
+[L5 ] x= 617.5 y= 413.1 | and entities.
+[L5 ] x= 617.5 y= 424.6 | Accessibility is
+[L5 ] x= 617.5 y= 436.1 | greater than Level 4.
+
+================================================================================
+PAGE 12
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 511
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 123.0 | PM – Provider Information Management
+[L2 ] x= 344.1 y= 147.9 | Terminate Provider
+[Q  ] x=  77.4 y= 173.1 | Capability
+[Q  ] x=  77.4 y= 185.8 | Question
+[L1 ] x= 185.4 y= 173.3 | Level 1
+[L2 ] x= 293.5 y= 173.3 | Level 2
+[L3 ] x= 401.5 y= 173.3 | Level 3
+[L4 ] x= 509.5 y= 173.3 | Level 4
+[L5 ] x= 617.5 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 211.0 | Business Capability Quality: Cost-Effectiveness
+[Q  ] x=  77.4 y= 235.0 | What is the cost of
+[Q  ] x=  77.4 y= 246.5 | the process
+[Q  ] x=  77.4 y= 258.0 | compared to the
+[Q  ] x=  77.4 y= 269.4 | benefits of its
+[Q  ] x=  77.4 y= 281.0 | results?
+[L1 ] x= 185.4 y= 235.1 | High relative cost due
+[L1 ] x= 185.4 y= 246.6 | to low number of
+[L1 ] x= 185.4 y= 258.2 | automatic,
+[L1 ] x= 185.4 y= 269.6 | standardized tasks.
+[L2 ] x= 293.5 y= 235.1 | Automation improves
+[L2 ] x= 293.5 y= 246.6 | process and allows
+[L2 ] x= 293.5 y= 258.2 | focus on exception
+[L2 ] x= 293.5 y= 269.6 | resolution, improving
+[L2 ] x= 293.5 y= 281.1 | cost effectiveness
+[L2 ] x= 293.5 y= 292.6 | ratio over Level 1.
+[L3 ] x= 401.5 y= 235.1 | SMA adopts MITA
+[L3 ] x= 401.5 y= 246.6 | Framework, industry
+[L3 ] x= 401.5 y= 258.2 | standards, and other
+[L3 ] x= 401.5 y= 269.6 | nationally recognized
+[L3 ] x= 401.5 y= 281.1 | standards further
+[L3 ] x= 401.5 y= 292.6 | improving cost
+[L3 ] x= 401.5 y= 304.1 | effectiveness ratio
+[L3 ] x= 401.5 y= 315.6 | over Level 2.
+[L4 ] x= 509.5 y= 235.1 | SMA adopts MITA
+[L4 ] x= 509.5 y= 246.6 | Framework, industry
+[L4 ] x= 509.5 y= 258.2 | standards, and other
+[L4 ] x= 509.5 y= 269.6 | nationally
+[L4 ] x= 509.5 y= 281.1 | recognized
+[L4 ] x= 509.5 y= 292.6 | standards for
+[L4 ] x= 509.5 y= 304.1 | regional information
+[L4 ] x= 509.5 y= 315.6 | exchange improving
+[L4 ] x= 509.5 y= 327.2 | cost effectiveness
+[L4 ] x= 509.5 y= 338.6 | ratio over Level 3.
+[L5 ] x= 617.5 y= 235.1 | SMA adopts MITA
+[L5 ] x= 617.5 y= 246.6 | Framework, industry
+[L5 ] x= 617.5 y= 258.2 | standards, and other
+[L5 ] x= 617.5 y= 269.6 | nationally
+[L5 ] x= 617.5 y= 281.1 | recognized
+[L5 ] x= 617.5 y= 292.6 | standards for
+[L5 ] x= 617.5 y= 304.1 | national (and
+[L5 ] x= 617.5 y= 315.6 | international)
+[L5 ] x= 617.5 y= 327.2 | information
+[L5 ] x= 617.5 y= 338.6 | exchange. SMA
+[L5 ] x= 617.5 y= 350.1 | increases cost
+[L5 ] x= 617.5 y= 361.6 | effectiveness ratio
+[L5 ] x= 617.5 y= 373.1 | over level 4.
+[Q  ] x=  77.4 y= 397.0 | Business Capability Quality: Effort to Perform; Efficiency
+[Q  ] x=  77.4 y= 421.0 | How efficient is the
+[Q  ] x=  77.4 y= 432.5 | process?
+[L1 ] x= 185.4 y= 421.1 | Process is labor
+[L1 ] x= 185.4 y= 432.7 | intensive. There is
+[L1 ] x= 185.4 y= 444.2 | wasted effort or
+[L1 ] x= 185.4 y= 455.6 | expense to
+[L1 ] x= 185.4 y= 467.1 | accomplish tasks.
+[L1 ] x= 185.4 y= 478.6 | Process meets
+[L1 ] x= 185.4 y= 490.2 | minimum state
+[L1 ] x= 185.4 y= 501.7 | process guidelines
+[L2 ] x= 293.5 y= 421.1 | Automation and state
+[L2 ] x= 293.5 y= 432.7 | standards increase
+[L2 ] x= 293.5 y= 444.2 | productivity.
+[L2 ] x= 293.5 y= 455.6 | Efficiency is higher
+[L2 ] x= 293.5 y= 467.1 | than Level 1.
+[L3 ] x= 401.5 y= 421.1 | SMA adopts MITA
+[L3 ] x= 401.5 y= 432.7 | Framework, industry
+[L3 ] x= 401.5 y= 444.2 | standards and
+[L3 ] x= 401.5 y= 455.6 | information exchange
+[L3 ] x= 401.5 y= 467.1 | with intrastate
+[L3 ] x= 401.5 y= 478.6 | agencies and entities
+[L3 ] x= 401.5 y= 490.2 | improving efficiency
+[L3 ] x= 401.5 y= 501.7 | to 95% or higher.
+[L4 ] x= 509.5 y= 421.1 | SMA adopts MITA
+[L4 ] x= 509.5 y= 432.7 | Framework, industry
+[L4 ] x= 509.5 y= 444.2 | standards and
+[L4 ] x= 509.5 y= 455.6 | information
+[L4 ] x= 509.5 y= 467.1 | exchange with
+[L4 ] x= 509.5 y= 478.6 | regional agencies
+[L4 ] x= 509.5 y= 490.2 | and entities
+[L4 ] x= 509.5 y= 501.7 | improving efficiency
+[L5 ] x= 617.5 y= 421.1 | SMA adopts MITA
+[L5 ] x= 617.5 y= 432.7 | Framework, industry
+[L5 ] x= 617.5 y= 444.2 | standards and
+[L5 ] x= 617.5 y= 455.6 | information
+[L5 ] x= 617.5 y= 467.1 | exchange with
+[L5 ] x= 617.5 y= 478.6 | national agencies
+[L5 ] x= 617.5 y= 490.2 | and entities
+[L5 ] x= 617.5 y= 501.7 | improving efficiency
+
+================================================================================
+PAGE 13
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 512
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 123.0 | PM – Provider Information Management
+[L2 ] x= 344.1 y= 147.9 | Terminate Provider
+[Q  ] x=  77.4 y= 173.1 | Capability
+[Q  ] x=  77.4 y= 185.8 | Question
+[L1 ] x= 185.4 y= 173.3 | Level 1
+[L2 ] x= 293.5 y= 173.3 | Level 2
+[L3 ] x= 401.5 y= 173.3 | Level 3
+[L4 ] x= 509.5 y= 173.3 | Level 4
+[L5 ] x= 617.5 y= 173.3 | Level 5
+[L1 ] x= 185.4 y= 205.1 | and SMA
+[L1 ] x= 185.4 y= 216.6 | performance
+[L1 ] x= 185.4 y= 228.2 | standards. Efficiency
+[L1 ] x= 185.4 y= 239.6 | is low.
+[L4 ] x= 509.5 y= 205.1 | to 98% or higher.
+[L5 ] x= 617.5 y= 205.1 | to 98% or higher.
+[Q  ] x=  77.4 y= 263.4 | Business Capability Quality: Accuracy of Process Results
+[Q  ] x=  77.4 y= 287.4 | How accurate are
+[Q  ] x=  77.4 y= 299.0 | the results of the
+[Q  ] x=  77.4 y= 310.5 | process?
+[L1 ] x= 185.4 y= 287.6 | Manual processes
+[L1 ] x= 185.4 y= 299.1 | result in greater
+[L1 ] x= 185.4 y= 310.6 | opportunity for
+[L1 ] x= 185.4 y= 322.1 | human error.
+[L1 ] x= 185.4 y= 333.7 | Accuracy is low.
+[L2 ] x= 293.5 y= 287.6 | Automation and
+[L2 ] x= 293.5 y= 299.1 | standardized
+[L2 ] x= 293.5 y= 310.6 | business rules
+[L2 ] x= 293.5 y= 322.1 | definitions reduce
+[L2 ] x= 293.5 y= 333.7 | error and improve
+[L2 ] x= 293.5 y= 345.2 | accuracy above
+[L2 ] x= 293.5 y= 356.6 | Level 1.
+[L3 ] x= 401.5 y= 287.6 | SMA adopts MITA
+[L3 ] x= 401.5 y= 299.1 | Framework, industry
+[L3 ] x= 401.5 y= 310.6 | standards and
+[L3 ] x= 401.5 y= 322.1 | information
+[L3 ] x= 401.5 y= 333.7 | exchange with
+[L3 ] x= 401.5 y= 345.2 | intrastate agencies
+[L3 ] x= 401.5 y= 356.6 | and entities
+[L3 ] x= 401.5 y= 368.1 | improving accuracy
+[L3 ] x= 401.5 y= 379.6 | to 90% or higher.
+[L4 ] x= 509.5 y= 287.6 | SMA adopts MITA
+[L4 ] x= 509.5 y= 299.1 | Framework, industry
+[L4 ] x= 509.5 y= 310.6 | standards and
+[L4 ] x= 509.5 y= 322.1 | information
+[L4 ] x= 509.5 y= 333.7 | exchange with
+[L4 ] x= 509.5 y= 345.2 | regional agencies
+[L4 ] x= 509.5 y= 356.6 | and entities
+[L4 ] x= 509.5 y= 368.1 | improving accuracy
+[L4 ] x= 509.5 y= 379.6 | to 98% or higher.
+[L5 ] x= 617.5 y= 287.6 | SMA adopts MITA
+[L5 ] x= 617.5 y= 299.1 | Framework, industry
+[L5 ] x= 617.5 y= 310.6 | standards and
+[L5 ] x= 617.5 y= 322.1 | information
+[L5 ] x= 617.5 y= 333.7 | exchange with
+[L5 ] x= 617.5 y= 345.2 | national agencies
+[L5 ] x= 617.5 y= 356.6 | and entities
+[L5 ] x= 617.5 y= 368.1 | improving accuracy
+[L5 ] x= 617.5 y= 379.6 | to 98% or higher.
+[Q  ] x=  77.4 y= 403.5 | Business Capability Quality: Utility or Value to Stakeholders
+[Q  ] x=  77.4 y= 427.5 | Does the business
+[Q  ] x=  77.4 y= 439.0 | process satisfy
+[Q  ] x=  77.4 y= 450.6 | stakeholders?
+[L1 ] x= 185.4 y= 427.6 | Stakeholders lack
+[L1 ] x= 185.4 y= 439.1 | confidence in
+[L1 ] x= 185.4 y= 450.7 | information
+[L1 ] x= 185.4 y= 462.2 | negatively affecting
+[L1 ] x= 185.4 y= 473.6 | stakeholder
+[L1 ] x= 185.4 y= 485.1 | satisfaction with the
+[L1 ] x= 185.4 y= 496.6 | process.
+[L2 ] x= 293.5 y= 427.6 | Automation and
+[L2 ] x= 293.5 y= 439.1 | standardization
+[L2 ] x= 293.5 y= 450.7 | provides clear and
+[L2 ] x= 293.5 y= 462.2 | useful information.
+[L2 ] x= 293.5 y= 473.6 | Stakeholder
+[L2 ] x= 293.5 y= 485.1 | satisfaction is
+[L2 ] x= 293.5 y= 496.6 | greater than Level 1.
+[L3 ] x= 401.5 y= 427.6 | SMA adopts MITA
+[L3 ] x= 401.5 y= 439.1 | Framework, industry
+[L3 ] x= 401.5 y= 450.7 | standards and
+[L3 ] x= 401.5 y= 462.2 | information exchange
+[L3 ] x= 401.5 y= 473.6 | with intrastate
+[L3 ] x= 401.5 y= 485.1 | agencies and entities
+[L3 ] x= 401.5 y= 496.6 | improving
+[L3 ] x= 401.5 y= 508.2 | stakeholder
+[L4 ] x= 509.5 y= 427.6 | SMA adopts MITA
+[L4 ] x= 509.5 y= 439.1 | Framework, industry
+[L4 ] x= 509.5 y= 450.7 | standards and
+[L4 ] x= 509.5 y= 462.2 | information
+[L4 ] x= 509.5 y= 473.6 | exchange with
+[L4 ] x= 509.5 y= 485.1 | regional agencies
+[L4 ] x= 509.5 y= 496.6 | and entities
+[L4 ] x= 509.5 y= 508.2 | improving
+[L5 ] x= 617.5 y= 427.6 | SMA adopts MITA
+[L5 ] x= 617.5 y= 439.1 | Framework, industry
+[L5 ] x= 617.5 y= 450.7 | standards and
+[L5 ] x= 617.5 y= 462.2 | information
+[L5 ] x= 617.5 y= 473.6 | exchange with
+[L5 ] x= 617.5 y= 485.1 | national agencies
+[L5 ] x= 617.5 y= 496.6 | and entities
+[L5 ] x= 617.5 y= 508.2 | improving
+
+================================================================================
+PAGE 14
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 513
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 123.0 | PM – Provider Information Management
+[L2 ] x= 344.1 y= 147.9 | Terminate Provider
+[Q  ] x=  77.4 y= 173.1 | Capability
+[Q  ] x=  77.4 y= 185.8 | Question
+[L1 ] x= 185.4 y= 173.3 | Level 1
+[L2 ] x= 293.5 y= 173.3 | Level 2
+[L3 ] x= 401.5 y= 173.3 | Level 3
+[L4 ] x= 509.5 y= 173.3 | Level 4
+[L5 ] x= 617.5 y= 173.3 | Level 5
+[L3 ] x= 401.5 y= 205.1 | satisfaction to 90% or
+[L3 ] x= 401.5 y= 216.6 | higher.
+[L3 ] x= 401.5 y= 228.2 | SMA uses survey or
+[L3 ] x= 401.5 y= 239.6 | questionnaire for
+[L3 ] x= 401.5 y= 251.1 | information collection.
+[L4 ] x= 509.5 y= 205.1 | stakeholder
+[L4 ] x= 509.5 y= 216.6 | satisfaction to 95%
+[L4 ] x= 509.5 y= 228.2 | or higher.
+[L5 ] x= 617.5 y= 205.1 | stakeholder
+[L5 ] x= 617.5 y= 216.6 | satisfaction to 98%
+[L5 ] x= 617.5 y= 228.2 | or higher.
+[Q  ] x=  72.0 y= 300.2 | Provider Support
+[Q  ] x=  72.0 y= 334.3 | Manage Provider Communication
+[Q  ] x=  79.3 y= 367.4 | PM – Provider Support
+[L2 ] x= 308.6 y= 392.4 | Manage Provider Communication
+[Q  ] x= 101.4 y= 417.6 | Capability
+[Q  ] x= 103.8 y= 430.2 | Question
+[L1 ] x= 216.3 y= 417.8 | Level 1
+[L2 ] x= 323.7 y= 417.8 | Level 2
+[L3 ] x= 431.1 y= 417.8 | Level 3
+[L4 ] x= 538.4 y= 417.8 | Level 4
+[L5 ] x= 645.8 y= 417.8 | Level 5
+[Q  ] x=  79.3 y= 455.5 | Business Capability Descriptions
+[Q  ] x=  79.3 y= 479.5 | Is the process
+[Q  ] x=  79.3 y= 491.0 | primarily manual or
+[Q  ] x=  79.3 y= 502.5 | automatic?
+[L1 ] x= 186.6 y= 479.6 | The process consists
+[L1 ] x= 186.6 y= 491.1 | primarily of manual
+[L1 ] x= 186.6 y= 502.6 | activity to accomplish
+[L2 ] x= 294.0 y= 479.6 | SMA uses a mix of
+[L2 ] x= 294.0 y= 491.1 | manual and
+[L2 ] x= 294.0 y= 502.6 | automatic processes
+[L3 ] x= 401.5 y= 479.6 | SMA automates
+[L3 ] x= 401.5 y= 491.1 | process to the full
+[L3 ] x= 401.5 y= 502.6 | extent possible within
+[L4 ] x= 508.8 y= 479.6 | SMA automates
+[L4 ] x= 508.8 y= 491.1 | process to the full
+[L4 ] x= 508.8 y= 502.6 | extent possible within
+[L5 ] x= 616.2 y= 479.6 | SMA automates
+[L5 ] x= 616.2 y= 491.1 | process to the full
+[L5 ] x= 616.2 y= 502.6 | extent possible
+
+================================================================================
+PAGE 15
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 514
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  79.3 y= 122.9 | PM – Provider Support
+[L2 ] x= 308.6 y= 147.9 | Manage Provider Communication
+[Q  ] x= 101.4 y= 173.1 | Capability
+[Q  ] x= 103.8 y= 185.8 | Question
+[L1 ] x= 216.3 y= 173.3 | Level 1
+[L2 ] x= 323.7 y= 173.3 | Level 2
+[L3 ] x= 431.1 y= 173.3 | Level 3
+[L4 ] x= 538.4 y= 173.3 | Level 4
+[L5 ] x= 645.8 y= 173.3 | Level 5
+[L1 ] x= 186.6 y= 205.1 | tasks. SMA conducts
+[L1 ] x= 186.6 y= 216.6 | this process primarily
+[L1 ] x= 186.6 y= 228.2 | via paper, facsimile,
+[L1 ] x= 186.6 y= 239.6 | and telephone.
+[L2 ] x= 294.0 y= 205.1 | to accomplish tasks.
+[L2 ] x= 294.0 y= 216.6 | The process
+[L2 ] x= 294.0 y= 228.2 | increases the use of
+[L2 ] x= 294.0 y= 239.6 | electronic methods.
+[L2 ] x= 294.0 y= 251.1 | SMA accepts
+[L2 ] x= 294.0 y= 262.6 | inquiries that provider
+[L2 ] x= 294.0 y= 274.1 | responds to online or
+[L2 ] x= 294.0 y= 285.6 | by telephone.
+[L3 ] x= 401.5 y= 205.1 | the intrastate
+[L3 ] x= 401.5 y= 216.6 | including
+[L3 ] x= 401.5 y= 228.2 | communication
+[L3 ] x= 401.5 y= 239.6 | delivery by email,
+[L3 ] x= 401.5 y= 251.1 | paper, mobile
+[L3 ] x= 401.5 y= 262.6 | devices, Automatic
+[L3 ] x= 401.5 y= 274.1 | Voice Response
+[L3 ] x= 401.5 y= 285.6 | System (AVRS),
+[L3 ] x= 401.5 y= 297.2 | telephone, facsimile,
+[L3 ] x= 401.5 y= 308.6 | web portal or
+[L3 ] x= 401.5 y= 320.1 | Electronic Data
+[L3 ] x= 401.5 y= 331.6 | Interchange (EDI)
+[L3 ] x= 401.5 y= 343.1 | transaction.
+[L3 ] x= 401.5 y= 354.7 | Portal includes
+[L3 ] x= 401.5 y= 366.2 | usability features or
+[L3 ] x= 401.5 y= 377.6 | functions that
+[L3 ] x= 401.5 y= 389.1 | accommodate the
+[L3 ] x= 401.5 y= 400.6 | needs of persons
+[L3 ] x= 401.5 y= 412.1 | with disabilities,
+[L3 ] x= 401.5 y= 423.7 | including those who
+[L3 ] x= 401.5 y= 435.1 | use assistive
+[L3 ] x= 401.5 y= 446.6 | technology.
+[L4 ] x= 508.8 y= 205.1 | the region.
+[L5 ] x= 616.2 y= 205.1 | across the nation.
+[Q  ] x=  79.3 y= 470.5 | Is communication
+[Q  ] x=  79.3 y= 482.0 | linguistically,
+[Q  ] x=  79.3 y= 493.5 | culturally, and
+[Q  ] x=  79.3 y= 505.0 | competency
+[L1 ] x= 186.6 y= 470.6 | Functionally,
+[L1 ] x= 186.6 y= 482.1 | linguistically,
+[L1 ] x= 186.6 y= 493.6 | culturally, and
+[L1 ] x= 186.6 y= 505.2 | competency
+[L2 ] x= 294.0 y= 470.6 | Communication is
+[L2 ] x= 294.0 y= 482.1 | functionally,
+[L2 ] x= 294.0 y= 493.6 | linguistically,
+[L2 ] x= 294.0 y= 505.2 | culturally, and
+[L3 ] x= 401.5 y= 470.6 | SMA automates
+[L3 ] x= 401.5 y= 482.1 | process to the full
+[L3 ] x= 401.5 y= 493.6 | extent possible
+[L3 ] x= 401.5 y= 505.2 | across the intrastate.
+[L4 ] x= 508.8 y= 470.6 | SMA automates
+[L4 ] x= 508.8 y= 482.1 | process to the full
+[L4 ] x= 508.8 y= 493.6 | extent possible within
+[L4 ] x= 508.8 y= 505.2 | the region.
+[L5 ] x= 616.2 y= 470.6 | SMA automates
+[L5 ] x= 616.2 y= 482.1 | process to the full
+[L5 ] x= 616.2 y= 493.6 | extent possible
+[L5 ] x= 616.2 y= 505.2 | across the nation.
+
+================================================================================
+PAGE 16
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 515
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  79.3 y= 122.9 | PM – Provider Support
+[L2 ] x= 308.6 y= 147.9 | Manage Provider Communication
+[Q  ] x= 101.4 y= 173.1 | Capability
+[Q  ] x= 103.8 y= 185.8 | Question
+[L1 ] x= 216.3 y= 173.3 | Level 1
+[L2 ] x= 323.7 y= 173.3 | Level 2
+[L3 ] x= 431.1 y= 173.3 | Level 3
+[L4 ] x= 538.4 y= 173.3 | Level 4
+[L5 ] x= 645.8 y= 173.3 | Level 5
+[Q  ] x=  79.3 y= 205.0 | appropriate?
+[L1 ] x= 186.6 y= 205.1 | appropriate
+[L1 ] x= 186.6 y= 216.6 | communications are
+[L1 ] x= 186.6 y= 228.2 | lacking because they
+[L1 ] x= 186.6 y= 239.6 | are difficult and costly
+[L1 ] x= 186.6 y= 251.1 | to produce.
+[L2 ] x= 294.0 y= 205.1 | competency
+[L2 ] x= 294.0 y= 216.6 | appropriate, but at
+[L2 ] x= 294.0 y= 228.2 | great expense. SMA
+[L2 ] x= 294.0 y= 239.6 | limits outreach
+[L2 ] x= 294.0 y= 251.1 | material by state
+[L2 ] x= 294.0 y= 262.6 | defined parameters
+[L2 ] x= 294.0 y= 274.1 | (e.g., only two (2)
+[L2 ] x= 294.0 y= 285.6 | languages used).
+[L3 ] x= 401.5 y= 205.1 | Use of electronic
+[L3 ] x= 401.5 y= 216.6 | communications
+[L3 ] x= 401.5 y= 228.2 | makes provision of
+[L3 ] x= 401.5 y= 239.6 | functionally,
+[L3 ] x= 401.5 y= 251.1 | linguistically,
+[L3 ] x= 401.5 y= 262.6 | culturally, and
+[L3 ] x= 401.5 y= 274.1 | competency
+[L3 ] x= 401.5 y= 285.6 | appropriate
+[L3 ] x= 401.5 y= 297.2 | communications
+[L3 ] x= 401.5 y= 308.6 | more cost-effective.
+[Q  ] x=  79.3 y= 332.5 | Does the State
+[Q  ] x=  79.3 y= 344.0 | Medicaid Agency
+[Q  ] x=  79.3 y= 355.5 | use standards in
+[Q  ] x=  79.3 y= 367.0 | the process?
+[L1 ] x= 186.6 y= 332.6 | SMA focuses on
+[L1 ] x= 186.6 y= 344.1 | meeting compliance
+[L1 ] x= 186.6 y= 355.6 | thresholds for state
+[L1 ] x= 186.6 y= 367.1 | and federal
+[L1 ] x= 186.6 y= 378.7 | regulations using
+[L1 ] x= 186.6 y= 390.2 | state-specific
+[L1 ] x= 186.6 y= 401.6 | standards.
+[L2 ] x= 294.0 y= 332.6 | SMA applies a mix of
+[L2 ] x= 294.0 y= 344.1 | HIPAA and state-
+[L2 ] x= 294.0 y= 355.6 | specific standards.
+[L2 ] x= 294.0 y= 367.1 | SMA establishes a
+[L2 ] x= 294.0 y= 378.7 | formal
+[L2 ] x= 294.0 y= 390.2 | Communications
+[L2 ] x= 294.0 y= 401.6 | Management Plan.
+[L3 ] x= 401.5 y= 332.6 | SMA adopts MITA
+[L3 ] x= 401.5 y= 344.1 | Framework, industry
+[L3 ] x= 401.5 y= 355.6 | standards, and other
+[L3 ] x= 401.5 y= 367.1 | nationally recognized
+[L3 ] x= 401.5 y= 378.7 | standards for
+[L3 ] x= 401.5 y= 390.2 | intrastate state
+[L3 ] x= 401.5 y= 401.6 | exchange of
+[L3 ] x= 401.5 y= 413.1 | information.
+[L4 ] x= 508.8 y= 332.6 | SMA adopts MITA
+[L4 ] x= 508.8 y= 344.1 | Framework, industry
+[L4 ] x= 508.8 y= 355.6 | standards, and other
+[L4 ] x= 508.8 y= 367.1 | nationally recognized
+[L4 ] x= 508.8 y= 378.7 | standards for
+[L4 ] x= 508.8 y= 390.2 | regional exchange of
+[L4 ] x= 508.8 y= 401.6 | information.
+[L5 ] x= 616.2 y= 332.6 | SMA adopts MITA
+[L5 ] x= 616.2 y= 344.1 | Framework, industry
+[L5 ] x= 616.2 y= 355.6 | standards, and other
+[L5 ] x= 616.2 y= 367.1 | nationally recognized
+[L5 ] x= 616.2 y= 378.7 | standards for national
+[L5 ] x= 616.2 y= 390.2 | exchange of
+[L5 ] x= 616.2 y= 401.6 | information.
+[Q  ] x=  79.3 y= 437.0 | How does the State
+[Q  ] x=  79.3 y= 448.5 | Medicaid Agency
+[Q  ] x=  79.3 y= 460.0 | collaborate with
+[Q  ] x=  79.3 y= 471.6 | other agencies or
+[Q  ] x=  79.3 y= 483.0 | entities in
+[Q  ] x=  79.3 y= 494.5 | performing the
+[L1 ] x= 186.6 y= 437.1 | Very little
+[L1 ] x= 186.6 y= 448.6 | collaboration occurs
+[L1 ] x= 186.6 y= 460.2 | with other agencies
+[L1 ] x= 186.6 y= 471.7 | to standardize
+[L1 ] x= 186.6 y= 483.1 | information exchange
+[L1 ] x= 186.6 y= 494.6 | or business tasks.
+[L2 ] x= 294.0 y= 437.1 | SMA collaborates
+[L2 ] x= 294.0 y= 448.6 | with other agencies
+[L2 ] x= 294.0 y= 460.2 | and entities to adopt
+[L2 ] x= 294.0 y= 471.7 | HIPAA standards and
+[L2 ] x= 294.0 y= 483.1 | EDI transactions.
+[L3 ] x= 401.5 y= 437.1 | SMA collaborates
+[L3 ] x= 401.5 y= 448.6 | with other intrastate
+[L3 ] x= 401.5 y= 460.2 | agencies and entities
+[L3 ] x= 401.5 y= 471.7 | to adopt national
+[L3 ] x= 401.5 y= 483.1 | standards, and to
+[L3 ] x= 401.5 y= 494.6 | develop and share
+[L3 ] x= 401.5 y= 506.1 | reusable business
+[L4 ] x= 508.8 y= 437.1 | SMA collaborates
+[L4 ] x= 508.8 y= 448.6 | with other regional
+[L4 ] x= 508.8 y= 460.2 | state agencies and
+[L4 ] x= 508.8 y= 471.7 | entities to adopt
+[L4 ] x= 508.8 y= 483.1 | national standards,
+[L4 ] x= 508.8 y= 494.6 | and to develop and
+[L4 ] x= 508.8 y= 506.1 | share reusable
+[L5 ] x= 616.2 y= 437.1 | SMA collaborates
+[L5 ] x= 616.2 y= 448.6 | with federal agencies
+[L5 ] x= 616.2 y= 460.2 | and entities for
+[L5 ] x= 616.2 y= 471.7 | national (and
+[L5 ] x= 616.2 y= 483.1 | international)
+[L5 ] x= 616.2 y= 494.6 | interoperability
+[L5 ] x= 616.2 y= 506.1 | improvements that
+
+================================================================================
+PAGE 17
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 516
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  79.3 y= 122.9 | PM – Provider Support
+[L2 ] x= 308.6 y= 147.9 | Manage Provider Communication
+[Q  ] x= 101.4 y= 173.1 | Capability
+[Q  ] x= 103.8 y= 185.8 | Question
+[L1 ] x= 216.3 y= 173.3 | Level 1
+[L2 ] x= 323.7 y= 173.3 | Level 2
+[L3 ] x= 431.1 y= 173.3 | Level 3
+[L4 ] x= 538.4 y= 173.3 | Level 4
+[L5 ] x= 645.8 y= 173.3 | Level 5
+[Q  ] x=  79.3 y= 205.0 | process?
+[L3 ] x= 401.5 y= 205.1 | services.
+[L4 ] x= 508.8 y= 205.1 | processes including
+[L4 ] x= 508.8 y= 216.6 | clinical information.
+[L5 ] x= 616.2 y= 205.1 | maximize automation
+[L5 ] x= 616.2 y= 216.6 | of routine operations.
+[Q  ] x=  79.3 y= 240.5 | Business Capability Quality: Timeliness of Process
+[Q  ] x=  79.3 y= 264.5 | How timely is the
+[Q  ] x=  79.3 y= 276.0 | end-to-end
+[Q  ] x=  79.3 y= 287.4 | process?
+[L1 ] x= 186.6 y= 264.6 | Process meets
+[L1 ] x= 186.6 y= 276.2 | threshold or
+[L1 ] x= 186.6 y= 287.6 | mandated
+[L1 ] x= 186.6 y= 299.1 | requirements for
+[L1 ] x= 186.6 y= 310.6 | timeliness (i.e., the
+[L1 ] x= 186.6 y= 322.1 | process achieves
+[L1 ] x= 186.6 y= 333.7 | results within the time
+[L1 ] x= 186.6 y= 345.2 | specified by law or
+[L1 ] x= 186.6 y= 356.6 | regulation).Requests
+[L1 ] x= 186.6 y= 368.1 | may take multiple
+[L1 ] x= 186.6 y= 379.6 | business days.
+[L2 ] x= 294.0 y= 264.6 | Process timeliness
+[L2 ] x= 294.0 y= 276.2 | improves through use
+[L2 ] x= 294.0 y= 287.6 | of automation.
+[L2 ] x= 294.0 y= 299.1 | Providers have
+[L2 ] x= 294.0 y= 310.6 | access to self-
+[L2 ] x= 294.0 y= 322.1 | services via a web
+[L2 ] x= 294.0 y= 333.7 | portal resolving their
+[L2 ] x= 294.0 y= 345.2 | inquiries themselves.
+[L2 ] x= 294.0 y= 356.6 | SMA answers most
+[L2 ] x= 294.0 y= 368.1 | requests in 24 hours
+[L2 ] x= 294.0 y= 379.6 | or less. Multiple web
+[L2 ] x= 294.0 y= 391.1 | portals may exist as
+[L2 ] x= 294.0 y= 402.7 | providers may work
+[L2 ] x= 294.0 y= 414.2 | with multiple
+[L2 ] x= 294.0 y= 425.6 | agencies. Timeliness
+[L2 ] x= 294.0 y= 437.1 | exceeds legal
+[L2 ] x= 294.0 y= 448.6 | requirements.
+[L3 ] x= 401.5 y= 264.6 | Timeliness improves
+[L3 ] x= 401.5 y= 276.2 | via state and federal
+[L3 ] x= 401.5 y= 287.6 | collaboration, use of
+[L3 ] x= 401.5 y= 299.1 | information sharing,
+[L3 ] x= 401.5 y= 310.6 | standards, and
+[L3 ] x= 401.5 y= 322.1 | regional information
+[L3 ] x= 401.5 y= 333.7 | exchange hubs. SMA
+[L3 ] x= 401.5 y= 345.2 | responds to most
+[L3 ] x= 401.5 y= 356.6 | common inquiries in
+[L3 ] x= 401.5 y= 368.1 | real-time. Exceptions
+[L3 ] x= 401.5 y= 379.6 | may require 24 hours
+[L3 ] x= 401.5 y= 391.1 | or less. SMA
+[L3 ] x= 401.5 y= 402.7 | integrates web
+[L3 ] x= 401.5 y= 414.2 | portals so providers
+[L3 ] x= 401.5 y= 425.6 | have consistent way
+[L3 ] x= 401.5 y= 437.1 | of communicating.
+[L4 ] x= 508.8 y= 264.6 | Information is
+[L4 ] x= 508.8 y= 276.2 | available in near real
+[L4 ] x= 508.8 y= 287.6 | time. SMA has
+[L4 ] x= 508.8 y= 299.1 | regional
+[L4 ] x= 508.8 y= 310.6 | interoperability, which
+[L4 ] x= 508.8 y= 322.1 | further improves
+[L4 ] x= 508.8 y= 333.7 | timeliness over Level
+[L4 ] x= 508.8 y= 345.2 | 3.
+[L5 ] x= 616.2 y= 264.6 | Information is
+[L5 ] x= 616.2 y= 276.2 | available in real time.
+[L5 ] x= 616.2 y= 287.6 | Processes improve
+[L5 ] x= 616.2 y= 299.1 | further through
+[L5 ] x= 616.2 y= 310.6 | connectivity with
+[L5 ] x= 616.2 y= 322.1 | other States and with
+[L5 ] x= 616.2 y= 333.7 | federal agencies.
+[L5 ] x= 616.2 y= 345.2 | Most processes
+[L5 ] x= 616.2 y= 356.6 | execute at the point
+[L5 ] x= 616.2 y= 368.1 | of service. Results
+[L5 ] x= 616.2 y= 379.6 | are almost
+[L5 ] x= 616.2 y= 391.1 | immediate.
+[Q  ] x=  79.3 y= 472.5 | Business Capability Quality: Data Access and Accuracy
+[Q  ] x=  79.3 y= 496.5 | How accurate is the
+[Q  ] x=  79.3 y= 508.0 | information in the
+[L1 ] x= 186.6 y= 496.6 | Use of direct data
+[L1 ] x= 186.6 y= 508.2 | entry for information
+[L2 ] x= 294.0 y= 496.6 | HIPAA standard
+[L2 ] x= 294.0 y= 508.2 | transactions improve
+[L3 ] x= 401.5 y= 496.6 | Automation of
+[L3 ] x= 401.5 y= 508.2 | information collection
+[L4 ] x= 508.8 y= 496.6 | Automation of
+[L4 ] x= 508.8 y= 508.2 | information collection
+[L5 ] x= 616.2 y= 496.6 | SMA adopts MITA
+[L5 ] x= 616.2 y= 508.2 | Framework and
+
+================================================================================
+PAGE 18
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 517
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  79.3 y= 122.9 | PM – Provider Support
+[L2 ] x= 308.6 y= 147.9 | Manage Provider Communication
+[Q  ] x= 101.4 y= 173.1 | Capability
+[Q  ] x= 103.8 y= 185.8 | Question
+[L1 ] x= 216.3 y= 173.3 | Level 1
+[L2 ] x= 323.7 y= 173.3 | Level 2
+[L3 ] x= 431.1 y= 173.3 | Level 3
+[L4 ] x= 538.4 y= 173.3 | Level 4
+[L5 ] x= 645.8 y= 173.3 | Level 5
+[Q  ] x=  79.3 y= 205.0 | process?
+[L1 ] x= 186.6 y= 205.1 | collection is manually
+[L1 ] x= 186.6 y= 216.6 | intensive and
+[L1 ] x= 186.6 y= 228.2 | susceptible to
+[L1 ] x= 186.6 y= 239.6 | inconsistent or
+[L1 ] x= 186.6 y= 251.1 | incorrect information.
+[L1 ] x= 186.6 y= 262.6 | Stakeholders are
+[L1 ] x= 186.6 y= 274.1 | unable to rely on
+[L1 ] x= 186.6 y= 285.6 | information for
+[L1 ] x= 186.6 y= 297.2 | decision-making.
+[L2 ] x= 294.0 y= 205.1 | accuracy of
+[L2 ] x= 294.0 y= 216.6 | information but the
+[L2 ] x= 294.0 y= 228.2 | decision-making
+[L2 ] x= 294.0 y= 239.6 | process may be
+[L2 ] x= 294.0 y= 251.1 | erroneous or
+[L2 ] x= 294.0 y= 262.6 | misleading. Accuracy
+[L2 ] x= 294.0 y= 274.1 | is higher than at
+[L2 ] x= 294.0 y= 285.6 | Level 1.
+[L3 ] x= 401.5 y= 205.1 | increases the
+[L3 ] x= 401.5 y= 216.6 | reliability of SMA’s
+[L3 ] x= 401.5 y= 228.2 | internal information.
+[L3 ] x= 401.5 y= 239.6 | External sources of
+[L3 ] x= 401.5 y= 251.1 | information use MITA
+[L3 ] x= 401.5 y= 262.6 | Framework and
+[L3 ] x= 401.5 y= 274.1 | industry standards for
+[L3 ] x= 401.5 y= 285.6 | information
+[L3 ] x= 401.5 y= 297.2 | exchange. Decision-
+[L3 ] x= 401.5 y= 308.6 | making is automatic
+[L3 ] x= 401.5 y= 320.1 | using standardized
+[L3 ] x= 401.5 y= 331.6 | business rules
+[L3 ] x= 401.5 y= 343.1 | definitions. Accuracy
+[L3 ] x= 401.5 y= 354.7 | rating is at 99% or
+[L3 ] x= 401.5 y= 366.2 | higher.
+[L4 ] x= 508.8 y= 205.1 | increases the
+[L4 ] x= 508.8 y= 216.6 | reliability of regional
+[L4 ] x= 508.8 y= 228.2 | agencies’ internal
+[L4 ] x= 508.8 y= 239.6 | and external sources
+[L4 ] x= 508.8 y= 251.1 | of information. SMA
+[L4 ] x= 508.8 y= 262.6 | adopts MITA
+[L4 ] x= 508.8 y= 274.1 | Framework and
+[L4 ] x= 508.8 y= 285.6 | industry standards for
+[L4 ] x= 508.8 y= 297.2 | information exchange
+[L4 ] x= 508.8 y= 308.6 | by regional agencies.
+[L4 ] x= 508.8 y= 320.1 | Decision-making is
+[L4 ] x= 508.8 y= 331.6 | automatic using
+[L4 ] x= 508.8 y= 343.1 | regional standardized
+[L4 ] x= 508.8 y= 354.7 | business rules
+[L4 ] x= 508.8 y= 366.2 | definitions. Accuracy
+[L4 ] x= 508.8 y= 377.6 | rating is at 99% or
+[L4 ] x= 508.8 y= 389.1 | higher.
+[L5 ] x= 616.2 y= 205.1 | industry standards for
+[L5 ] x= 616.2 y= 216.6 | information exchange
+[L5 ] x= 616.2 y= 228.2 | with national
+[L5 ] x= 616.2 y= 239.6 | agencies. Decision-
+[L5 ] x= 616.2 y= 251.1 | making is automatic
+[L5 ] x= 616.2 y= 262.6 | using national
+[L5 ] x= 616.2 y= 274.1 | standardized
+[L5 ] x= 616.2 y= 285.6 | business rules
+[L5 ] x= 616.2 y= 297.2 | definitions. Accuracy
+[L5 ] x= 616.2 y= 308.6 | rating is at 99% or
+[L5 ] x= 616.2 y= 320.1 | higher.
+[Q  ] x=  79.3 y= 413.0 | How accessible is
+[Q  ] x=  79.3 y= 424.5 | the information in
+[Q  ] x=  79.3 y= 436.0 | the process?
+[L1 ] x= 186.6 y= 413.1 | SMA stores
+[L1 ] x= 186.6 y= 424.6 | information in
+[L1 ] x= 186.6 y= 436.1 | disparate systems
+[L1 ] x= 186.6 y= 447.7 | including paper
+[L1 ] x= 186.6 y= 459.1 | storage and obtains
+[L1 ] x= 186.6 y= 470.6 | information manually.
+[L2 ] x= 294.0 y= 413.1 | SMA stores
+[L2 ] x= 294.0 y= 424.6 | information in
+[L2 ] x= 294.0 y= 436.1 | disparate systems,
+[L2 ] x= 294.0 y= 447.7 | but automation and
+[L2 ] x= 294.0 y= 459.1 | HIPAA standards
+[L2 ] x= 294.0 y= 470.6 | increase accessibility
+[L2 ] x= 294.0 y= 482.1 | over Level 1.
+[L3 ] x= 401.5 y= 413.1 | SMA obtains
+[L3 ] x= 401.5 y= 424.6 | information easily
+[L3 ] x= 401.5 y= 436.1 | and exchanges with
+[L3 ] x= 401.5 y= 447.7 | intrastate agencies
+[L3 ] x= 401.5 y= 459.1 | and entities based on
+[L3 ] x= 401.5 y= 470.6 | MITA Framework and
+[L3 ] x= 401.5 y= 482.1 | industry standards.
+[L3 ] x= 401.5 y= 493.6 | Accessibility is
+[L3 ] x= 401.5 y= 505.2 | greater than Level 2.
+[L4 ] x= 508.8 y= 413.1 | SMA obtains
+[L4 ] x= 508.8 y= 424.6 | information easily
+[L4 ] x= 508.8 y= 436.1 | and exchanges with
+[L4 ] x= 508.8 y= 447.7 | regional agencies
+[L4 ] x= 508.8 y= 459.1 | and entities.
+[L4 ] x= 508.8 y= 470.6 | Accessibility is
+[L4 ] x= 508.8 y= 482.1 | greater than Level 3.
+[L5 ] x= 616.2 y= 413.1 | SMA obtains
+[L5 ] x= 616.2 y= 424.6 | information easily
+[L5 ] x= 616.2 y= 436.1 | and exchanges with
+[L5 ] x= 616.2 y= 447.7 | national agencies
+[L5 ] x= 616.2 y= 459.1 | and entities.
+[L5 ] x= 616.2 y= 470.6 | Accessibility is
+[L5 ] x= 616.2 y= 482.1 | greater than Level 4.
+
+================================================================================
+PAGE 19
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 518
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  79.3 y= 122.9 | PM – Provider Support
+[L2 ] x= 308.6 y= 147.9 | Manage Provider Communication
+[Q  ] x= 101.4 y= 173.1 | Capability
+[Q  ] x= 103.8 y= 185.8 | Question
+[L1 ] x= 216.3 y= 173.3 | Level 1
+[L2 ] x= 323.7 y= 173.3 | Level 2
+[L3 ] x= 431.1 y= 173.3 | Level 3
+[L4 ] x= 538.4 y= 173.3 | Level 4
+[L5 ] x= 645.8 y= 173.3 | Level 5
+[Q  ] x=  79.3 y= 211.0 | Business Capability Quality: Cost-Effectiveness
+[Q  ] x=  79.3 y= 235.0 | What is the cost of
+[Q  ] x=  79.3 y= 246.5 | the process
+[Q  ] x=  79.3 y= 258.0 | compared to the
+[Q  ] x=  79.3 y= 269.4 | benefits of the
+[Q  ] x=  79.3 y= 281.0 | results?
+[L1 ] x= 186.6 y= 235.1 | High relative cost due
+[L1 ] x= 186.6 y= 246.6 | to low number of
+[L1 ] x= 186.6 y= 258.2 | automatic,
+[L1 ] x= 186.6 y= 269.6 | standardized tasks.
+[L2 ] x= 294.0 y= 235.1 | Automation improves
+[L2 ] x= 294.0 y= 246.6 | process and allows
+[L2 ] x= 294.0 y= 258.2 | focus on exception
+[L2 ] x= 294.0 y= 269.6 | resolution, improving
+[L2 ] x= 294.0 y= 281.1 | cost effectiveness
+[L2 ] x= 294.0 y= 292.6 | ratio over Level 1.
+[L3 ] x= 401.5 y= 235.1 | SMA adopts MITA
+[L3 ] x= 401.5 y= 246.6 | Framework, industry
+[L3 ] x= 401.5 y= 258.2 | standards, and other
+[L3 ] x= 401.5 y= 269.6 | nationally recognized
+[L3 ] x= 401.5 y= 281.1 | standards further
+[L3 ] x= 401.5 y= 292.6 | improving cost
+[L3 ] x= 401.5 y= 304.1 | effectiveness ratio
+[L3 ] x= 401.5 y= 315.6 | over Level 2.
+[L4 ] x= 508.8 y= 235.1 | SMA adopts MITA
+[L4 ] x= 508.8 y= 246.6 | Framework, industry
+[L4 ] x= 508.8 y= 258.2 | standards, and other
+[L4 ] x= 508.8 y= 269.6 | nationally recognized
+[L4 ] x= 508.8 y= 281.1 | standards for
+[L4 ] x= 508.8 y= 292.6 | regional information
+[L4 ] x= 508.8 y= 304.1 | exchange improving
+[L4 ] x= 508.8 y= 315.6 | cost effectiveness
+[L4 ] x= 508.8 y= 327.2 | ratio over Level 3.
+[L5 ] x= 616.2 y= 235.1 | SMA adopts MITA
+[L5 ] x= 616.2 y= 246.6 | Framework, industry
+[L5 ] x= 616.2 y= 258.2 | standards, and other
+[L5 ] x= 616.2 y= 269.6 | nationally recognized
+[L5 ] x= 616.2 y= 281.1 | standards for national
+[L5 ] x= 616.2 y= 292.6 | (and international)
+[L5 ] x= 616.2 y= 304.1 | information
+[L5 ] x= 616.2 y= 315.6 | exchange. SMA
+[L5 ] x= 616.2 y= 327.2 | increases cost
+[L5 ] x= 616.2 y= 338.6 | effectiveness ratio
+[L5 ] x= 616.2 y= 350.1 | over level 4.
+[Q  ] x=  79.3 y= 391.5 | Business Capability Quality: Effort to Perform; Efficiency
+[Q  ] x=  79.3 y= 415.5 | How efficient is the
+[Q  ] x=  79.3 y= 427.0 | process?
+[L1 ] x= 186.6 y= 415.6 | Process is labor
+[L1 ] x= 186.6 y= 427.1 | intensive. There is
+[L1 ] x= 186.6 y= 438.7 | wasted effort or
+[L1 ] x= 186.6 y= 450.2 | expense to
+[L1 ] x= 186.6 y= 461.6 | accomplish tasks.
+[L1 ] x= 186.6 y= 473.1 | Process meets
+[L1 ] x= 186.6 y= 484.6 | minimum state
+[L1 ] x= 186.6 y= 496.2 | process guidelines
+[L1 ] x= 186.6 y= 507.7 | and SMA
+[L2 ] x= 294.0 y= 415.6 | Automation and state
+[L2 ] x= 294.0 y= 427.1 | standards increase
+[L2 ] x= 294.0 y= 438.7 | productivity.
+[L2 ] x= 294.0 y= 450.2 | Efficiency is higher
+[L2 ] x= 294.0 y= 461.6 | than Level 1.
+[L3 ] x= 401.5 y= 415.6 | SMA adopts MITA
+[L3 ] x= 401.5 y= 427.1 | Framework, industry
+[L3 ] x= 401.5 y= 438.7 | standards and
+[L3 ] x= 401.5 y= 450.2 | information exchange
+[L3 ] x= 401.5 y= 461.6 | with intrastate
+[L3 ] x= 401.5 y= 473.1 | agencies and entities
+[L3 ] x= 401.5 y= 484.6 | improving efficiency
+[L3 ] x= 401.5 y= 496.2 | to 95% or higher.
+[L4 ] x= 508.8 y= 415.6 | SMA adopts MITA
+[L4 ] x= 508.8 y= 427.1 | Framework, industry
+[L4 ] x= 508.8 y= 438.7 | standards and
+[L4 ] x= 508.8 y= 450.2 | information exchange
+[L4 ] x= 508.8 y= 461.6 | with regional
+[L4 ] x= 508.8 y= 473.1 | agencies and entities
+[L4 ] x= 508.8 y= 484.6 | improving efficiency
+[L4 ] x= 508.8 y= 496.2 | to 98% or higher.
+[L5 ] x= 616.2 y= 415.6 | SMA adopts MITA
+[L5 ] x= 616.2 y= 427.1 | Framework, industry
+[L5 ] x= 616.2 y= 438.7 | standards and
+[L5 ] x= 616.2 y= 450.2 | information exchange
+[L5 ] x= 616.2 y= 461.6 | with national
+[L5 ] x= 616.2 y= 473.1 | agencies and entities
+[L5 ] x= 616.2 y= 484.6 | improving efficiency
+[L5 ] x= 616.2 y= 496.2 | to 98% or higher.
+
+================================================================================
+PAGE 20
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 519
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  79.3 y= 122.9 | PM – Provider Support
+[L2 ] x= 308.6 y= 147.9 | Manage Provider Communication
+[Q  ] x= 101.4 y= 173.1 | Capability
+[Q  ] x= 103.8 y= 185.8 | Question
+[L1 ] x= 216.3 y= 173.3 | Level 1
+[L2 ] x= 323.7 y= 173.3 | Level 2
+[L3 ] x= 431.1 y= 173.3 | Level 3
+[L4 ] x= 538.4 y= 173.3 | Level 4
+[L5 ] x= 645.8 y= 173.3 | Level 5
+[L1 ] x= 186.6 y= 205.1 | performance
+[L1 ] x= 186.6 y= 216.6 | standards. Efficiency
+[L1 ] x= 186.6 y= 228.2 | is low.
+[Q  ] x=  79.3 y= 252.0 | Business Capability Quality: Accuracy of Process Results
+[Q  ] x=  79.3 y= 276.0 | How accurate are
+[Q  ] x=  79.3 y= 287.4 | the process
+[Q  ] x=  79.3 y= 299.0 | results?
+[L1 ] x= 186.6 y= 276.2 | Manual processes
+[L1 ] x= 186.6 y= 287.6 | result in greater
+[L1 ] x= 186.6 y= 299.1 | opportunity for
+[L1 ] x= 186.6 y= 310.6 | human error.
+[L1 ] x= 186.6 y= 322.1 | Accuracy is low.
+[L2 ] x= 294.0 y= 276.2 | Automation and
+[L2 ] x= 294.0 y= 287.6 | standardized
+[L2 ] x= 294.0 y= 299.1 | business rules
+[L2 ] x= 294.0 y= 310.6 | definitions reduce
+[L2 ] x= 294.0 y= 322.1 | error and improve
+[L2 ] x= 294.0 y= 333.7 | accuracy above
+[L2 ] x= 294.0 y= 345.2 | Level 1.
+[L3 ] x= 401.5 y= 276.2 | SMA adopts MITA
+[L3 ] x= 401.5 y= 287.6 | Framework, industry
+[L3 ] x= 401.5 y= 299.1 | standards and
+[L3 ] x= 401.5 y= 310.6 | information exchange
+[L3 ] x= 401.5 y= 322.1 | with intrastate
+[L3 ] x= 401.5 y= 333.7 | agencies and entities
+[L3 ] x= 401.5 y= 345.2 | improving accuracy
+[L3 ] x= 401.5 y= 356.6 | to 90% or higher.
+[L4 ] x= 508.8 y= 276.2 | SMA adopts MITA
+[L4 ] x= 508.8 y= 287.6 | Framework, industry
+[L4 ] x= 508.8 y= 299.1 | standards and
+[L4 ] x= 508.8 y= 310.6 | information exchange
+[L4 ] x= 508.8 y= 322.1 | with regional
+[L4 ] x= 508.8 y= 333.7 | agencies and entities
+[L4 ] x= 508.8 y= 345.2 | improving accuracy
+[L4 ] x= 508.8 y= 356.6 | to 98% or higher.
+[L5 ] x= 616.2 y= 276.2 | SMA adopts MITA
+[L5 ] x= 616.2 y= 287.6 | Framework, industry
+[L5 ] x= 616.2 y= 299.1 | standards and
+[L5 ] x= 616.2 y= 310.6 | information exchange
+[L5 ] x= 616.2 y= 322.1 | with national
+[L5 ] x= 616.2 y= 333.7 | agencies and entities
+[L5 ] x= 616.2 y= 345.2 | improving accuracy
+[L5 ] x= 616.2 y= 356.6 | to 98% or higher.
+[Q  ] x=  79.3 y= 380.5 | Business Capability Quality: Utility or Value to Stakeholders
+[Q  ] x=  79.3 y= 404.5 | Does the business
+[Q  ] x=  79.3 y= 416.0 | process satisfy
+[Q  ] x=  79.3 y= 427.5 | stakeholders?
+[L1 ] x= 186.6 y= 404.6 | Stakeholders lack
+[L1 ] x= 186.6 y= 416.1 | confidence in
+[L1 ] x= 186.6 y= 427.6 | information
+[L1 ] x= 186.6 y= 439.1 | negatively affecting
+[L1 ] x= 186.6 y= 450.7 | stakeholder
+[L1 ] x= 186.6 y= 462.2 | satisfaction with the
+[L1 ] x= 186.6 y= 473.6 | process.
+[L2 ] x= 294.0 y= 404.6 | Automation and
+[L2 ] x= 294.0 y= 416.1 | standardization
+[L2 ] x= 294.0 y= 427.6 | provides clear and
+[L2 ] x= 294.0 y= 439.1 | useful information.
+[L2 ] x= 294.0 y= 450.7 | Stakeholder
+[L2 ] x= 294.0 y= 462.2 | satisfaction is greater
+[L2 ] x= 294.0 y= 473.6 | than Level 1.
+[L3 ] x= 401.5 y= 404.6 | SMA adopts MITA
+[L3 ] x= 401.5 y= 416.1 | Framework, industry
+[L3 ] x= 401.5 y= 427.6 | standards and
+[L3 ] x= 401.5 y= 439.1 | information exchange
+[L3 ] x= 401.5 y= 450.7 | with intrastate
+[L3 ] x= 401.5 y= 462.2 | agencies and entities
+[L3 ] x= 401.5 y= 473.6 | improving
+[L3 ] x= 401.5 y= 485.1 | stakeholder
+[L3 ] x= 401.5 y= 496.6 | satisfaction to 90% or
+[L3 ] x= 401.5 y= 508.2 | higher.
+[L4 ] x= 508.8 y= 404.6 | SMA adopts MITA
+[L4 ] x= 508.8 y= 416.1 | Framework, industry
+[L4 ] x= 508.8 y= 427.6 | standards and
+[L4 ] x= 508.8 y= 439.1 | information exchange
+[L4 ] x= 508.8 y= 450.7 | with regional
+[L4 ] x= 508.8 y= 462.2 | agencies and entities
+[L4 ] x= 508.8 y= 473.6 | improving
+[L4 ] x= 508.8 y= 485.1 | stakeholder
+[L4 ] x= 508.8 y= 496.6 | satisfaction to 95% or
+[L5 ] x= 616.2 y= 404.6 | SMA adopts MITA
+[L5 ] x= 616.2 y= 416.1 | Framework, industry
+[L5 ] x= 616.2 y= 427.6 | standards and
+[L5 ] x= 616.2 y= 439.1 | information exchange
+[L5 ] x= 616.2 y= 450.7 | with national
+[L5 ] x= 616.2 y= 462.2 | agencies and entities
+[L5 ] x= 616.2 y= 473.6 | improving
+[L5 ] x= 616.2 y= 485.1 | stakeholder
+[L5 ] x= 616.2 y= 496.6 | satisfaction to 98% or
+
+================================================================================
+PAGE 21
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 520
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  79.3 y= 122.9 | PM – Provider Support
+[L2 ] x= 308.6 y= 147.9 | Manage Provider Communication
+[Q  ] x= 101.4 y= 173.1 | Capability
+[Q  ] x= 103.8 y= 185.8 | Question
+[L1 ] x= 216.3 y= 173.3 | Level 1
+[L2 ] x= 323.7 y= 173.3 | Level 2
+[L3 ] x= 431.1 y= 173.3 | Level 3
+[L4 ] x= 538.4 y= 173.3 | Level 4
+[L5 ] x= 645.8 y= 173.3 | Level 5
+[L3 ] x= 401.5 y= 205.1 | SMA uses survey or
+[L3 ] x= 401.5 y= 216.6 | questionnaire for
+[L3 ] x= 401.5 y= 228.2 | information
+[L3 ] x= 401.5 y= 239.6 | collection.
+[L4 ] x= 508.8 y= 205.1 | higher.
+[L5 ] x= 616.2 y= 205.1 | higher.
+[Q  ] x=  72.0 y= 282.3 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 315.4 | PM – Provider Support
+[L2 ] x= 292.4 y= 340.5 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 365.8 | Capability
+[Q  ] x=  77.4 y= 378.4 | Question
+[L1 ] x= 186.3 y= 365.8 | Level 1
+[L2 ] x= 295.2 y= 365.8 | Level 2
+[L3 ] x= 404.1 y= 365.8 | Level 3
+[L4 ] x= 513.1 y= 365.8 | Level 4
+[L5 ] x= 621.9 y= 365.8 | Level 5
+[Q  ] x=  77.4 y= 403.5 | Business Capability Descriptions
+[Q  ] x=  77.4 y= 427.5 | Is the process
+[Q  ] x=  77.4 y= 438.9 | primarily manual or
+[Q  ] x=  77.4 y= 450.4 | automatic?
+[L1 ] x= 186.3 y= 427.6 | The process consists
+[L1 ] x= 186.3 y= 439.0 | primarily of manual
+[L1 ] x= 186.3 y= 450.6 | activity to accomplish
+[L1 ] x= 186.3 y= 462.1 | tasks. The process is
+[L1 ] x= 186.3 y= 473.6 | entirely paper-based,
+[L1 ] x= 186.3 y= 485.1 | which results in
+[L1 ] x= 186.3 y= 496.6 | cumbersome
+[L1 ] x= 186.3 y= 508.0 | document
+[L2 ] x= 295.2 y= 427.6 | SMA uses a mix of
+[L2 ] x= 295.2 y= 439.0 | manual and
+[L2 ] x= 295.2 y= 450.6 | automatic processes
+[L2 ] x= 295.2 y= 462.1 | to accomplish tasks.
+[L2 ] x= 295.2 y= 473.6 | The process conducts
+[L2 ] x= 295.2 y= 485.1 | some of its activities
+[L2 ] x= 295.2 y= 496.6 | electronically, except
+[L2 ] x= 295.2 y= 508.0 | where the law
+[L3 ] x= 404.1 y= 427.6 | SMA automates
+[L3 ] x= 404.1 y= 439.0 | process to the full
+[L3 ] x= 404.1 y= 450.6 | extent possible within
+[L3 ] x= 404.1 y= 462.1 | the intrastate. The
+[L3 ] x= 404.1 y= 473.6 | process conducts the
+[L3 ] x= 404.1 y= 485.1 | majority of its
+[L3 ] x= 404.1 y= 496.6 | activities
+[L3 ] x= 404.1 y= 508.0 | electronically, except
+[L4 ] x= 513.1 y= 427.6 | SMA fully automates
+[L4 ] x= 513.1 y= 439.0 | the process regionally
+[L4 ] x= 513.1 y= 450.6 | to the extent possible
+[L4 ] x= 513.1 y= 462.1 | across the interstate.
+[L5 ] x= 621.9 y= 427.6 | SMA fully automates
+[L5 ] x= 621.9 y= 439.0 | the process
+[L5 ] x= 621.9 y= 450.6 | nationally to the
+[L5 ] x= 621.9 y= 462.1 | extent possible
+[L5 ] x= 621.9 y= 473.6 | across the nation.
+
+================================================================================
+PAGE 22
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 521
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[L1 ] x= 186.3 y= 205.1 | management and
+[L1 ] x= 186.3 y= 216.6 | process inefficiencies.
+[L2 ] x= 295.2 y= 205.1 | requires paper
+[L2 ] x= 295.2 y= 216.6 | documents. In this
+[L2 ] x= 295.2 y= 228.2 | case, SMA scans the
+[L2 ] x= 295.2 y= 239.6 | documents for
+[L2 ] x= 295.2 y= 251.1 | electronic information
+[L2 ] x= 295.2 y= 262.6 | capture.
+[L3 ] x= 404.1 y= 205.1 | where the law
+[L3 ] x= 404.1 y= 216.6 | requires paper
+[L3 ] x= 404.1 y= 228.2 | documents. In this
+[L3 ] x= 404.1 y= 239.6 | case, SMA scans
+[L3 ] x= 404.1 y= 251.1 | documents for
+[L3 ] x= 404.1 y= 262.6 | electronic information
+[L3 ] x= 404.1 y= 274.1 | capture.
+[L3 ] x= 404.1 y= 285.6 | SMA produces audit
+[L3 ] x= 404.1 y= 297.2 | trail of grievance and
+[L3 ] x= 404.1 y= 308.6 | appeal decision 100%
+[L3 ] x= 404.1 y= 320.1 | of the time.
+[Q  ] x=  77.4 y= 379.0 | How central is the
+[Q  ] x=  77.4 y= 390.5 | grievance and
+[Q  ] x=  77.4 y= 402.1 | appeals process?
+[L1 ] x= 186.3 y= 379.1 | Disparate programs
+[L1 ] x= 186.3 y= 390.7 | file, manage, and
+[L1 ] x= 186.3 y= 402.2 | resolve grievances
+[L1 ] x= 186.3 y= 413.6 | and appeals from
+[L1 ] x= 186.3 y= 425.1 | providers. This
+[L1 ] x= 186.3 y= 436.6 | contributes to
+[L1 ] x= 186.3 y= 448.1 | inconsistent
+[L1 ] x= 186.3 y= 459.7 | application of relevant
+[L1 ] x= 186.3 y= 471.1 | laws and
+[L1 ] x= 186.3 y= 482.6 | administrative policies
+[L1 ] x= 186.3 y= 494.1 | inhibiting
+[L1 ] x= 186.3 y= 505.6 | performance
+[L2 ] x= 295.2 y= 379.1 | Agencies begin to
+[L2 ] x= 295.2 y= 390.7 | centralize or
+[L2 ] x= 295.2 y= 402.2 | standardize the
+[L2 ] x= 295.2 y= 413.6 | administration of the
+[L2 ] x= 295.2 y= 425.1 | process to achieve
+[L2 ] x= 295.2 y= 436.6 | economies of scale,
+[L2 ] x= 295.2 y= 448.1 | thereby increasing
+[L2 ] x= 295.2 y= 459.7 | coordination and
+[L2 ] x= 295.2 y= 471.1 | improving consistent
+[L2 ] x= 295.2 y= 482.6 | application of
+[L2 ] x= 295.2 y= 494.1 | business rules and
+[L3 ] x= 404.1 y= 379.1 | SMA adopts MITA
+[L3 ] x= 404.1 y= 390.7 | Framework, industry
+[L3 ] x= 404.1 y= 402.2 | standards, and other
+[L3 ] x= 404.1 y= 413.6 | nationally recognized
+[L3 ] x= 404.1 y= 425.1 | standards within
+[L3 ] x= 404.1 y= 436.6 | intrastate state further
+[L3 ] x= 404.1 y= 448.1 | increases
+[L3 ] x= 404.1 y= 459.7 | coordination and
+[L3 ] x= 404.1 y= 471.1 | reuse of standardized
+[L3 ] x= 404.1 y= 482.6 | Grievance & Appeal
+[L3 ] x= 404.1 y= 494.1 | business services.
+[L4 ] x= 513.1 y= 379.1 | SMA adopts MITA
+[L4 ] x= 513.1 y= 390.7 | Framework, industry
+[L4 ] x= 513.1 y= 402.2 | standards, and other
+[L4 ] x= 513.1 y= 413.6 | nationally recognized
+[L4 ] x= 513.1 y= 425.1 | standards within
+[L4 ] x= 513.1 y= 436.6 | interstate the region
+[L4 ] x= 513.1 y= 448.1 | further increases
+[L4 ] x= 513.1 y= 459.7 | coordination and
+[L4 ] x= 513.1 y= 471.1 | reuse of standardized
+[L4 ] x= 513.1 y= 482.6 | Grievance & Appeal
+[L4 ] x= 513.1 y= 494.1 | business services.
+[L5 ] x= 621.9 y= 379.1 | SMA adopts MITA
+[L5 ] x= 621.9 y= 390.7 | Framework, industry
+[L5 ] x= 621.9 y= 402.2 | standards, and other
+[L5 ] x= 621.9 y= 413.6 | nationally
+[L5 ] x= 621.9 y= 425.1 | recognized
+[L5 ] x= 621.9 y= 436.6 | standards across
+[L5 ] x= 621.9 y= 448.1 | the national further
+[L5 ] x= 621.9 y= 459.7 | increases
+[L5 ] x= 621.9 y= 471.1 | coordination and
+[L5 ] x= 621.9 y= 482.6 | reuse of
+[L5 ] x= 621.9 y= 494.1 | standardized
+[L5 ] x= 621.9 y= 505.6 | Grievance & Appeal
+
+================================================================================
+PAGE 23
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 522
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[L1 ] x= 186.3 y= 205.1 | monitoring.
+[L2 ] x= 295.2 y= 205.1 | appeals disposed.
+[L5 ] x= 621.9 y= 205.1 | business services.
+[Q  ] x=  77.4 y= 229.0 | Do providers know
+[Q  ] x=  77.4 y= 240.5 | how to access the
+[Q  ] x=  77.4 y= 252.0 | grievance and
+[Q  ] x=  77.4 y= 263.4 | appeals process?
+[L1 ] x= 186.3 y= 229.1 | Providers have
+[L1 ] x= 186.3 y= 240.6 | difficulty finding the
+[L1 ] x= 186.3 y= 252.2 | right door for filing
+[L1 ] x= 186.3 y= 263.6 | grievances and
+[L1 ] x= 186.3 y= 275.1 | appeals.
+[L2 ] x= 295.2 y= 229.1 | SMA clearly identifies
+[L2 ] x= 295.2 y= 240.6 | the policy and
+[L2 ] x= 295.2 y= 252.2 | procedures for filing
+[L2 ] x= 295.2 y= 263.6 | grievances and
+[L2 ] x= 295.2 y= 275.1 | appeals. SMA
+[L2 ] x= 295.2 y= 286.6 | establishes a Review
+[L2 ] x= 295.2 y= 298.1 | Board to review
+[L2 ] x= 295.2 y= 309.6 | cases.
+[L3 ] x= 404.1 y= 229.1 | SMA standardizes the
+[L3 ] x= 404.1 y= 240.6 | process within the
+[L3 ] x= 404.1 y= 252.2 | state.
+[L4 ] x= 513.1 y= 229.1 | SMA standardizes the
+[L4 ] x= 513.1 y= 240.6 | process within the
+[L4 ] x= 513.1 y= 252.2 | region.
+[L5 ] x= 621.9 y= 229.1 | SMA standardizes
+[L5 ] x= 621.9 y= 240.6 | the process across
+[L5 ] x= 621.9 y= 252.2 | the nation.
+[Q  ] x=  77.4 y= 333.5 | How does the State
+[Q  ] x=  77.4 y= 345.1 | Medicaid Agency
+[Q  ] x=  77.4 y= 356.5 | manage the
+[Q  ] x=  77.4 y= 368.0 | process?
+[L1 ] x= 186.3 y= 333.7 | SMA follows
+[L1 ] x= 186.3 y= 345.2 | guidelines for
+[L1 ] x= 186.3 y= 356.6 | opening,
+[L1 ] x= 186.3 y= 368.1 | documenting, and
+[L1 ] x= 186.3 y= 379.6 | resolving the case.
+[L2 ] x= 295.2 y= 333.7 | SMA establishes a
+[L2 ] x= 295.2 y= 345.2 | formal Management
+[L2 ] x= 295.2 y= 356.6 | Plan.
+[L3 ] x= 404.1 y= 333.7 | SMA administers the
+[L3 ] x= 404.1 y= 345.2 | process as part of the
+[L3 ] x= 404.1 y= 356.6 | Medicaid Enterprise
+[L3 ] x= 404.1 y= 368.1 | using a
+[L3 ] x= 404.1 y= 379.6 | comprehensive
+[L3 ] x= 404.1 y= 391.1 | Management Plan.
+[L4 ] x= 513.1 y= 333.7 | SMA administers the
+[L4 ] x= 513.1 y= 345.2 | process as part of the
+[L4 ] x= 513.1 y= 356.6 | Medicaid Enterprise
+[L4 ] x= 513.1 y= 368.1 | using a
+[L4 ] x= 513.1 y= 379.6 | comprehensive
+[L4 ] x= 513.1 y= 391.1 | Management Plan
+[L4 ] x= 513.1 y= 402.7 | within the region.
+[L5 ] x= 621.9 y= 333.7 | SMA administers the
+[L5 ] x= 621.9 y= 345.2 | process as part of
+[L5 ] x= 621.9 y= 356.6 | the Medicaid
+[L5 ] x= 621.9 y= 368.1 | Enterprise using a
+[L5 ] x= 621.9 y= 379.6 | comprehensive
+[L5 ] x= 621.9 y= 391.1 | Management Plan
+[L5 ] x= 621.9 y= 402.7 | across the nation.
+[Q  ] x=  77.4 y= 426.5 | Does the State
+[Q  ] x=  77.4 y= 438.1 | Medicaid Agency
+[Q  ] x=  77.4 y= 449.5 | use standards in the
+[Q  ] x=  77.4 y= 461.0 | process?
+[L1 ] x= 186.3 y= 426.7 | SMA focuses on
+[L1 ] x= 186.3 y= 438.2 | meeting compliance
+[L1 ] x= 186.3 y= 449.6 | thresholds for state
+[L1 ] x= 186.3 y= 461.1 | and federal
+[L1 ] x= 186.3 y= 472.6 | regulations using
+[L1 ] x= 186.3 y= 484.2 | state-specific
+[L1 ] x= 186.3 y= 495.7 | standards.
+[L2 ] x= 295.2 y= 426.7 | SMA applies a mix of
+[L2 ] x= 295.2 y= 438.2 | nationally recognized
+[L2 ] x= 295.2 y= 449.6 | and state-specific
+[L2 ] x= 295.2 y= 461.1 | standards.
+[L3 ] x= 404.1 y= 426.7 | SMA adopts MITA
+[L3 ] x= 404.1 y= 438.2 | Framework, industry
+[L3 ] x= 404.1 y= 449.6 | standards, and other
+[L3 ] x= 404.1 y= 461.1 | nationally recognized
+[L3 ] x= 404.1 y= 472.6 | standards for
+[L3 ] x= 404.1 y= 484.2 | intrastate exchange
+[L3 ] x= 404.1 y= 495.7 | of information.
+[L4 ] x= 513.1 y= 426.7 | SMA adopts MITA
+[L4 ] x= 513.1 y= 438.2 | Framework, industry
+[L4 ] x= 513.1 y= 449.6 | standards, and other
+[L4 ] x= 513.1 y= 461.1 | nationally recognized
+[L4 ] x= 513.1 y= 472.6 | standards for regional
+[L4 ] x= 513.1 y= 484.2 | exchange of
+[L4 ] x= 513.1 y= 495.7 | information.
+[L5 ] x= 621.9 y= 426.7 | SMA adopts MITA
+[L5 ] x= 621.9 y= 438.2 | Framework, industry
+[L5 ] x= 621.9 y= 449.6 | standards, and other
+[L5 ] x= 621.9 y= 461.1 | nationally
+[L5 ] x= 621.9 y= 472.6 | recognized
+[L5 ] x= 621.9 y= 484.2 | standards for
+[L5 ] x= 621.9 y= 495.7 | national exchange of
+
+================================================================================
+PAGE 24
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 523
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[L5 ] x= 621.9 y= 205.1 | information.
+[Q  ] x=  77.4 y= 229.0 | How does the State
+[Q  ] x=  77.4 y= 240.5 | Medicaid Agency
+[Q  ] x=  77.4 y= 252.0 | collaborate with
+[Q  ] x=  77.4 y= 263.4 | other agencies or
+[Q  ] x=  77.4 y= 275.0 | entities in
+[Q  ] x=  77.4 y= 286.5 | performing the
+[Q  ] x=  77.4 y= 298.0 | process?
+[L1 ] x= 186.3 y= 229.1 | Very little
+[L1 ] x= 186.3 y= 240.6 | collaboration occurs
+[L1 ] x= 186.3 y= 252.2 | with other agencies to
+[L1 ] x= 186.3 y= 263.6 | standardize
+[L1 ] x= 186.3 y= 275.1 | information exchange
+[L1 ] x= 186.3 y= 286.6 | or business tasks.
+[L2 ] x= 295.2 y= 229.1 | SMA collaborates
+[L2 ] x= 295.2 y= 240.6 | with other agencies
+[L2 ] x= 295.2 y= 252.2 | and entities to adopt
+[L2 ] x= 295.2 y= 263.6 | HIPAA standards and
+[L2 ] x= 295.2 y= 275.1 | Electronic Data
+[L2 ] x= 295.2 y= 286.6 | Interchange (EDI)
+[L2 ] x= 295.2 y= 298.1 | transactions.
+[L3 ] x= 404.1 y= 229.1 | SMA collaborates
+[L3 ] x= 404.1 y= 240.6 | with other intrastate
+[L3 ] x= 404.1 y= 252.2 | agencies and entities
+[L3 ] x= 404.1 y= 263.6 | to adopt national
+[L3 ] x= 404.1 y= 275.1 | standards, and to
+[L3 ] x= 404.1 y= 286.6 | develop and share
+[L3 ] x= 404.1 y= 298.1 | reusable business
+[L3 ] x= 404.1 y= 309.6 | services.
+[L4 ] x= 513.1 y= 229.1 | SMA collaborates
+[L4 ] x= 513.1 y= 240.6 | with other regional
+[L4 ] x= 513.1 y= 252.2 | agencies and entities
+[L4 ] x= 513.1 y= 263.6 | to adopt national
+[L4 ] x= 513.1 y= 275.1 | standards, and to
+[L4 ] x= 513.1 y= 286.6 | develop and share
+[L4 ] x= 513.1 y= 298.1 | reusable processes
+[L4 ] x= 513.1 y= 309.6 | including clinical
+[L4 ] x= 513.1 y= 321.2 | information.
+[L5 ] x= 621.9 y= 229.1 | SMA collaborates
+[L5 ] x= 621.9 y= 240.6 | with federal
+[L5 ] x= 621.9 y= 252.2 | agencies and
+[L5 ] x= 621.9 y= 263.6 | entities for national
+[L5 ] x= 621.9 y= 275.1 | (and international)
+[L5 ] x= 621.9 y= 286.6 | interoperability
+[L5 ] x= 621.9 y= 298.1 | improvements that
+[L5 ] x= 621.9 y= 309.6 | maximize
+[L5 ] x= 621.9 y= 321.2 | automation of
+[L5 ] x= 621.9 y= 332.6 | routine operations.
+[Q  ] x=  77.4 y= 374.0 | Business Capability Quality: Timeliness of Process
+[Q  ] x=  77.4 y= 398.0 | How timely is the
+[Q  ] x=  77.4 y= 409.5 | end-to-end
+[Q  ] x=  77.4 y= 421.0 | process?
+[L1 ] x= 186.3 y= 398.1 | Process meets
+[L1 ] x= 186.3 y= 409.6 | threshold or
+[L1 ] x= 186.3 y= 421.1 | mandated
+[L1 ] x= 186.3 y= 432.7 | requirements for
+[L1 ] x= 186.3 y= 444.2 | timeliness (i.e., the
+[L1 ] x= 186.3 y= 455.6 | process achieves
+[L1 ] x= 186.3 y= 467.1 | results within the time
+[L1 ] x= 186.3 y= 478.6 | specified by law or
+[L1 ] x= 186.3 y= 490.2 | regulation). Cases
+[L1 ] x= 186.3 y= 501.7 | typically require
+[L2 ] x= 295.2 y= 398.1 | Process timeliness
+[L2 ] x= 295.2 y= 409.6 | improves through use
+[L2 ] x= 295.2 y= 421.1 | of automation.
+[L2 ] x= 295.2 y= 432.7 | Timeliness exceeds
+[L2 ] x= 295.2 y= 444.2 | legal requirements.
+[L2 ] x= 295.2 y= 455.6 | Duration of process is
+[L2 ] x= 295.2 y= 467.1 | 100 business days or
+[L2 ] x= 295.2 y= 478.6 | less.
+[L3 ] x= 404.1 y= 398.1 | Timeliness improves
+[L3 ] x= 404.1 y= 409.6 | via state and federal
+[L3 ] x= 404.1 y= 421.1 | collaboration, use of
+[L3 ] x= 404.1 y= 432.7 | information sharing,
+[L3 ] x= 404.1 y= 444.2 | standards, and
+[L3 ] x= 404.1 y= 455.6 | regional information
+[L3 ] x= 404.1 y= 467.1 | exchange hubs.
+[L3 ] x= 404.1 y= 478.6 | Duration of process is
+[L3 ] x= 404.1 y= 490.2 | 45 business days or
+[L3 ] x= 404.1 y= 501.7 | less.
+[L4 ] x= 513.1 y= 398.1 | Information is
+[L4 ] x= 513.1 y= 409.6 | available in near real
+[L4 ] x= 513.1 y= 421.1 | time. Processes that
+[L4 ] x= 513.1 y= 432.7 | use clinical
+[L4 ] x= 513.1 y= 444.2 | information result in
+[L4 ] x= 513.1 y= 455.6 | immediate action,
+[L4 ] x= 513.1 y= 467.1 | response, and
+[L4 ] x= 513.1 y= 478.6 | results. SMA has
+[L4 ] x= 513.1 y= 490.2 | regional
+[L4 ] x= 513.1 y= 501.7 | interoperability, which
+[L5 ] x= 621.9 y= 398.1 | Information is
+[L5 ] x= 621.9 y= 409.6 | available in real
+[L5 ] x= 621.9 y= 421.1 | time. Processes
+[L5 ] x= 621.9 y= 432.7 | improve further
+[L5 ] x= 621.9 y= 444.2 | through connectivity
+[L5 ] x= 621.9 y= 455.6 | with other States
+[L5 ] x= 621.9 y= 467.1 | and with federal
+[L5 ] x= 621.9 y= 478.6 | agencies. Most
+[L5 ] x= 621.9 y= 490.2 | processes execute
+[L5 ] x= 621.9 y= 501.7 | at the point of
+
+================================================================================
+PAGE 25
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 524
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[L1 ] x= 186.3 y= 205.1 | months to complete.
+[L1 ] x= 186.3 y= 216.6 | Duration of process is
+[L1 ] x= 186.3 y= 228.2 | 180 business days or
+[L1 ] x= 186.3 y= 239.6 | longer.
+[L3 ] x= 404.1 y= 205.1 | SMA distributes
+[L3 ] x= 404.1 y= 216.6 | Notice of appeal
+[L3 ] x= 404.1 y= 228.2 | rights 15 minutes or
+[L3 ] x= 404.1 y= 239.6 | less 100% of the
+[L3 ] x= 404.1 y= 251.1 | time.
+[L4 ] x= 513.1 y= 205.1 | further improves
+[L4 ] x= 513.1 y= 216.6 | timeliness over Level
+[L4 ] x= 513.1 y= 228.2 | 3.
+[L5 ] x= 621.9 y= 205.1 | service. Results are
+[L5 ] x= 621.9 y= 216.6 | almost immediate.
+[Q  ] x=  77.4 y= 275.0 | Business Capability Quality: Data Access and Accuracy
+[Q  ] x=  77.4 y= 299.0 | How accurate is the
+[Q  ] x=  77.4 y= 310.5 | information in the
+[Q  ] x=  77.4 y= 322.0 | process?
+[L1 ] x= 186.3 y= 299.1 | Use of direct data
+[L1 ] x= 186.3 y= 310.6 | entry for information
+[L1 ] x= 186.3 y= 322.1 | collection is manually
+[L1 ] x= 186.3 y= 333.7 | intensive and
+[L1 ] x= 186.3 y= 345.2 | susceptible to
+[L1 ] x= 186.3 y= 356.6 | inconsistent or
+[L1 ] x= 186.3 y= 368.1 | incorrect information.
+[L1 ] x= 186.3 y= 379.6 | Stakeholders are
+[L1 ] x= 186.3 y= 391.1 | unable to rely on
+[L1 ] x= 186.3 y= 402.7 | information for
+[L1 ] x= 186.3 y= 414.2 | decision-making.
+[L2 ] x= 295.2 y= 299.1 | Nationally recognized
+[L2 ] x= 295.2 y= 310.6 | standards improve
+[L2 ] x= 295.2 y= 322.1 | accuracy of
+[L2 ] x= 295.2 y= 333.7 | information but the
+[L2 ] x= 295.2 y= 345.2 | decision-making
+[L2 ] x= 295.2 y= 356.6 | process may be
+[L2 ] x= 295.2 y= 368.1 | erroneous or
+[L2 ] x= 295.2 y= 379.6 | misleading. Accuracy
+[L2 ] x= 295.2 y= 391.1 | is higher than at Level
+[L2 ] x= 295.2 y= 402.7 | 1.
+[L3 ] x= 404.1 y= 299.1 | Automation of
+[L3 ] x= 404.1 y= 310.6 | information collection
+[L3 ] x= 404.1 y= 322.1 | increases the
+[L3 ] x= 404.1 y= 333.7 | reliability of SMA’s
+[L3 ] x= 404.1 y= 345.2 | internal information.
+[L3 ] x= 404.1 y= 356.6 | External sources of
+[L3 ] x= 404.1 y= 368.1 | information use MITA
+[L3 ] x= 404.1 y= 379.6 | Framework and
+[L3 ] x= 404.1 y= 391.1 | industry standards for
+[L3 ] x= 404.1 y= 402.7 | information
+[L3 ] x= 404.1 y= 414.2 | exchange. Decision-
+[L3 ] x= 404.1 y= 425.6 | making is automatic
+[L3 ] x= 404.1 y= 437.1 | using standardized
+[L3 ] x= 404.1 y= 448.6 | business rules
+[L3 ] x= 404.1 y= 460.2 | definitions. Accuracy
+[L3 ] x= 404.1 y= 471.7 | rating is at 99% or
+[L3 ] x= 404.1 y= 483.1 | higher.
+[L4 ] x= 513.1 y= 299.1 | Automation of
+[L4 ] x= 513.1 y= 310.6 | information collection
+[L4 ] x= 513.1 y= 322.1 | increases the
+[L4 ] x= 513.1 y= 333.7 | reliability of SMA’s
+[L4 ] x= 513.1 y= 345.2 | internal and external
+[L4 ] x= 513.1 y= 356.6 | sources of
+[L4 ] x= 513.1 y= 368.1 | information. SMA
+[L4 ] x= 513.1 y= 379.6 | adopts MITA
+[L4 ] x= 513.1 y= 391.1 | Framework and
+[L4 ] x= 513.1 y= 402.7 | industry standards for
+[L4 ] x= 513.1 y= 414.2 | information exchange
+[L4 ] x= 513.1 y= 425.6 | by regional agencies.
+[L4 ] x= 513.1 y= 437.1 | Decision-making is
+[L4 ] x= 513.1 y= 448.6 | automatic using
+[L4 ] x= 513.1 y= 460.2 | regional standardized
+[L4 ] x= 513.1 y= 471.7 | business rules
+[L4 ] x= 513.1 y= 483.1 | definitions. Accuracy
+[L4 ] x= 513.1 y= 494.6 | rating is at 99% or
+[L5 ] x= 621.9 y= 299.1 | SMA adopts MITA
+[L5 ] x= 621.9 y= 310.6 | Framework and
+[L5 ] x= 621.9 y= 322.1 | industry standards
+[L5 ] x= 621.9 y= 333.7 | for information
+[L5 ] x= 621.9 y= 345.2 | exchange with
+[L5 ] x= 621.9 y= 356.6 | national agencies.
+[L5 ] x= 621.9 y= 368.1 | Decision-making is
+[L5 ] x= 621.9 y= 379.6 | automatic using
+[L5 ] x= 621.9 y= 391.1 | national
+[L5 ] x= 621.9 y= 402.7 | standardized
+[L5 ] x= 621.9 y= 414.2 | business rules
+[L5 ] x= 621.9 y= 425.6 | definitions. Accuracy
+[L5 ] x= 621.9 y= 437.1 | rating is at 99% or
+[L5 ] x= 621.9 y= 448.6 | higher.
+
+================================================================================
+PAGE 26
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 525
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[L4 ] x= 513.1 y= 205.1 | higher.
+[Q  ] x=  77.4 y= 229.0 | How accessible is
+[Q  ] x=  77.4 y= 240.5 | the information
+[Q  ] x=  77.4 y= 252.0 | required for the
+[Q  ] x=  77.4 y= 263.4 | process?
+[L1 ] x= 186.3 y= 229.1 | SMA stores
+[L1 ] x= 186.3 y= 240.6 | information in
+[L1 ] x= 186.3 y= 252.2 | disparate systems
+[L1 ] x= 186.3 y= 263.6 | including paper
+[L1 ] x= 186.3 y= 275.1 | storage and obtains
+[L1 ] x= 186.3 y= 286.6 | information manually.
+[L1 ] x= 186.3 y= 298.1 | Contractors have
+[L1 ] x= 186.3 y= 309.6 | difficulty accessing
+[L1 ] x= 186.3 y= 321.2 | program business
+[L1 ] x= 186.3 y= 332.6 | rules to discern the
+[L1 ] x= 186.3 y= 344.1 | merit of their
+[L1 ] x= 186.3 y= 355.6 | grievance or appeal.
+[L2 ] x= 295.2 y= 229.1 | SMA stores
+[L2 ] x= 295.2 y= 240.6 | information in
+[L2 ] x= 295.2 y= 252.2 | disparate systems.
+[L2 ] x= 295.2 y= 263.6 | Contractors have
+[L2 ] x= 295.2 y= 275.1 | limited access to
+[L2 ] x= 295.2 y= 286.6 | program business
+[L2 ] x= 295.2 y= 298.1 | rules to discern
+[L2 ] x= 295.2 y= 309.6 | whether their
+[L2 ] x= 295.2 y= 321.2 | grievances or appeals
+[L2 ] x= 295.2 y= 332.6 | have merit.
+[L2 ] x= 295.2 y= 344.1 | Automation and
+[L2 ] x= 295.2 y= 355.6 | HIPAA standards
+[L2 ] x= 295.2 y= 367.1 | increase accessibility
+[L2 ] x= 295.2 y= 378.7 | over Level 1.
+[L3 ] x= 404.1 y= 229.1 | SMA obtains
+[L3 ] x= 404.1 y= 240.6 | information easily and
+[L3 ] x= 404.1 y= 252.2 | exchanges with
+[L3 ] x= 404.1 y= 263.6 | intrastate agencies
+[L3 ] x= 404.1 y= 275.1 | and entities based on
+[L3 ] x= 404.1 y= 286.6 | MITA Framework and
+[L3 ] x= 404.1 y= 298.1 | industry standards.
+[L3 ] x= 404.1 y= 309.6 | Contractors can
+[L3 ] x= 404.1 y= 321.2 | electronically access
+[L3 ] x= 404.1 y= 332.6 | program business
+[L3 ] x= 404.1 y= 344.1 | rules to discern
+[L3 ] x= 404.1 y= 355.6 | whether their
+[L3 ] x= 404.1 y= 367.1 | grievances or appeals
+[L3 ] x= 404.1 y= 378.7 | have merit.
+[L3 ] x= 404.1 y= 390.2 | Accessibility is
+[L3 ] x= 404.1 y= 401.6 | greater than Level 2.
+[L4 ] x= 513.1 y= 229.1 | SMA obtains
+[L4 ] x= 513.1 y= 240.6 | information easily and
+[L4 ] x= 513.1 y= 252.2 | exchanges with
+[L4 ] x= 513.1 y= 263.6 | regional agencies and
+[L4 ] x= 513.1 y= 275.1 | entities.
+[L4 ] x= 513.1 y= 286.6 | Accessibility is
+[L4 ] x= 513.1 y= 298.1 | greater than Level 3.
+[L5 ] x= 621.9 y= 229.1 | SMA obtains
+[L5 ] x= 621.9 y= 240.6 | information easily
+[L5 ] x= 621.9 y= 252.2 | and exchanges with
+[L5 ] x= 621.9 y= 263.6 | national agencies
+[L5 ] x= 621.9 y= 275.1 | and entities.
+[L5 ] x= 621.9 y= 286.6 | Accessibility is
+[L5 ] x= 621.9 y= 298.1 | greater than Level 4.
+[Q  ] x=  77.4 y= 425.5 | Business Capability Quality: Cost-Effectiveness
+[Q  ] x=  77.4 y= 449.5 | What is the cost to
+[Q  ] x=  77.4 y= 461.0 | perform the process
+[Q  ] x=  77.4 y= 472.5 | compared to the
+[Q  ] x=  77.4 y= 484.0 | benefits of its
+[Q  ] x=  77.4 y= 495.6 | results?
+[L1 ] x= 186.3 y= 449.6 | High relative cost due
+[L1 ] x= 186.3 y= 461.1 | to low number of
+[L1 ] x= 186.3 y= 472.6 | automatic,
+[L1 ] x= 186.3 y= 484.2 | standardized tasks.
+[L2 ] x= 295.2 y= 449.6 | Automation improves
+[L2 ] x= 295.2 y= 461.1 | process and allows
+[L2 ] x= 295.2 y= 472.6 | focus on exception
+[L2 ] x= 295.2 y= 484.2 | resolution, improving
+[L2 ] x= 295.2 y= 495.7 | cost effectiveness
+[L3 ] x= 404.1 y= 449.6 | SMA adopts MITA
+[L3 ] x= 404.1 y= 461.1 | Framework, industry
+[L3 ] x= 404.1 y= 472.6 | standards, and other
+[L3 ] x= 404.1 y= 484.2 | nationally recognized
+[L3 ] x= 404.1 y= 495.7 | standards further
+[L3 ] x= 404.1 y= 507.1 | improving cost
+[L4 ] x= 513.1 y= 449.6 | SMA adopts MITA
+[L4 ] x= 513.1 y= 461.1 | Framework, industry
+[L4 ] x= 513.1 y= 472.6 | standards, and other
+[L4 ] x= 513.1 y= 484.2 | nationally recognized
+[L4 ] x= 513.1 y= 495.7 | standards for regional
+[L4 ] x= 513.1 y= 507.1 | information exchange
+[L5 ] x= 621.9 y= 449.6 | SMA adopts MITA
+[L5 ] x= 621.9 y= 461.1 | Framework, industry
+[L5 ] x= 621.9 y= 472.6 | standards, and other
+[L5 ] x= 621.9 y= 484.2 | nationally
+[L5 ] x= 621.9 y= 495.7 | recognized
+[L5 ] x= 621.9 y= 507.1 | standards for
+
+================================================================================
+PAGE 27
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 526
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[L2 ] x= 295.2 y= 205.1 | ratio over Level 1.
+[L3 ] x= 404.1 y= 205.1 | effectiveness ratio
+[L3 ] x= 404.1 y= 216.6 | over Level 2.
+[L4 ] x= 513.1 y= 205.1 | improving cost
+[L4 ] x= 513.1 y= 216.6 | effectiveness ratio
+[L4 ] x= 513.1 y= 228.2 | over Level 3.
+[L5 ] x= 621.9 y= 205.1 | national (and
+[L5 ] x= 621.9 y= 216.6 | international)
+[L5 ] x= 621.9 y= 228.2 | information
+[L5 ] x= 621.9 y= 239.6 | exchange. SMA
+[L5 ] x= 621.9 y= 251.1 | increases cost
+[L5 ] x= 621.9 y= 262.6 | effectiveness ratio
+[L5 ] x= 621.9 y= 274.1 | over level 4.
+[Q  ] x=  77.4 y= 298.0 | Business Capability Quality: Effort to Perform; Efficiency
+[Q  ] x=  77.4 y= 322.0 | How efficient is the
+[Q  ] x=  77.4 y= 333.5 | process?
+[L1 ] x= 186.3 y= 322.1 | Process is labor
+[L1 ] x= 186.3 y= 333.7 | intensive. There is
+[L1 ] x= 186.3 y= 345.2 | wasted effort or
+[L1 ] x= 186.3 y= 356.6 | expense to
+[L1 ] x= 186.3 y= 368.1 | accomplish tasks.
+[L1 ] x= 186.3 y= 379.6 | Process meets
+[L1 ] x= 186.3 y= 391.1 | minimum state
+[L1 ] x= 186.3 y= 402.7 | process guidelines
+[L1 ] x= 186.3 y= 414.2 | and SMA
+[L1 ] x= 186.3 y= 425.6 | performance
+[L1 ] x= 186.3 y= 437.1 | standards. Cases
+[L1 ] x= 186.3 y= 448.6 | may require months
+[L1 ] x= 186.3 y= 460.2 | to complete.
+[L1 ] x= 186.3 y= 471.7 | Efficiency is low.
+[L2 ] x= 295.2 y= 322.1 | Automation and state
+[L2 ] x= 295.2 y= 333.7 | standards increase
+[L2 ] x= 295.2 y= 345.2 | productivity allowing
+[L2 ] x= 295.2 y= 356.6 | for more time on
+[L2 ] x= 295.2 y= 368.1 | improving process
+[L2 ] x= 295.2 y= 379.6 | and working on
+[L2 ] x= 295.2 y= 391.1 | exceptions. Efficiency
+[L2 ] x= 295.2 y= 402.7 | is higher than Level 1.
+[L3 ] x= 404.1 y= 322.1 | SMA adopts MITA
+[L3 ] x= 404.1 y= 333.7 | Framework, industry
+[L3 ] x= 404.1 y= 345.2 | standards and
+[L3 ] x= 404.1 y= 356.6 | information exchange
+[L3 ] x= 404.1 y= 368.1 | with intrastate
+[L3 ] x= 404.1 y= 379.6 | agencies and entities.
+[L3 ] x= 404.1 y= 391.1 | The process is
+[L3 ] x= 404.1 y= 402.7 | consistent, orderly,
+[L3 ] x= 404.1 y= 414.2 | and allows staff to
+[L3 ] x= 404.1 y= 425.6 | spend even more
+[L3 ] x= 404.1 y= 437.1 | time on quality
+[L3 ] x= 404.1 y= 448.6 | outcomes and
+[L3 ] x= 404.1 y= 460.2 | process
+[L3 ] x= 404.1 y= 471.7 | improvement.
+[L3 ] x= 404.1 y= 483.1 | Efficiency improves to
+[L3 ] x= 404.1 y= 494.6 | 95% or higher.
+[L4 ] x= 513.1 y= 322.1 | SMA adopts MITA
+[L4 ] x= 513.1 y= 333.7 | Framework, industry
+[L4 ] x= 513.1 y= 345.2 | standards and
+[L4 ] x= 513.1 y= 356.6 | information exchange
+[L4 ] x= 513.1 y= 368.1 | with regional
+[L4 ] x= 513.1 y= 379.6 | agencies and entities
+[L4 ] x= 513.1 y= 391.1 | improving efficiency
+[L4 ] x= 513.1 y= 402.7 | to 98% or higher.
+[L5 ] x= 621.9 y= 322.1 | SMA adopts MITA
+[L5 ] x= 621.9 y= 333.7 | Framework, industry
+[L5 ] x= 621.9 y= 345.2 | standards and
+[L5 ] x= 621.9 y= 356.6 | information
+[L5 ] x= 621.9 y= 368.1 | exchange with
+[L5 ] x= 621.9 y= 379.6 | national agencies
+[L5 ] x= 621.9 y= 391.1 | and entities
+[L5 ] x= 621.9 y= 402.7 | improving efficiency
+[L5 ] x= 621.9 y= 414.2 | to 98% or higher.
+
+================================================================================
+PAGE 28
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 527
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 211.0 | Business Capability Quality: Accuracy of Process Results
+[Q  ] x=  77.4 y= 235.0 | How accurate are
+[Q  ] x=  77.4 y= 246.5 | the results of the
+[Q  ] x=  77.4 y= 258.0 | process?
+[L1 ] x= 186.3 y= 235.1 | Manual processes
+[L1 ] x= 186.3 y= 246.6 | result in greater
+[L1 ] x= 186.3 y= 258.2 | opportunity for human
+[L1 ] x= 186.3 y= 269.6 | error. Accuracy is
+[L1 ] x= 186.3 y= 281.1 | low.
+[L2 ] x= 295.2 y= 235.1 | Automation and
+[L2 ] x= 295.2 y= 246.6 | standardized
+[L2 ] x= 295.2 y= 258.2 | business rules
+[L2 ] x= 295.2 y= 269.6 | definitions reduce
+[L2 ] x= 295.2 y= 281.1 | error and support
+[L2 ] x= 295.2 y= 292.6 | business activity
+[L2 ] x= 295.2 y= 304.1 | monitoring of
+[L2 ] x= 295.2 y= 315.6 | performance
+[L2 ] x= 295.2 y= 327.2 | measures, which in
+[L2 ] x= 295.2 y= 338.6 | turn provide
+[L2 ] x= 295.2 y= 350.1 | information needed
+[L2 ] x= 295.2 y= 361.6 | for process
+[L2 ] x= 295.2 y= 373.1 | improvements.
+[L2 ] x= 295.2 y= 384.7 | SMA improves
+[L2 ] x= 295.2 y= 396.2 | accuracy above Level
+[L2 ] x= 295.2 y= 407.6 | 1.
+[L3 ] x= 404.1 y= 235.1 | SMA adopts MITA
+[L3 ] x= 404.1 y= 246.6 | Framework, industry
+[L3 ] x= 404.1 y= 258.2 | standards and
+[L3 ] x= 404.1 y= 269.6 | information exchange
+[L3 ] x= 404.1 y= 281.1 | with intrastate
+[L3 ] x= 404.1 y= 292.6 | agencies and entities.
+[L3 ] x= 404.1 y= 304.1 | The process collects
+[L3 ] x= 404.1 y= 315.6 | information about the
+[L3 ] x= 404.1 y= 327.2 | types of grievance
+[L3 ] x= 404.1 y= 338.6 | and appeal it handles
+[L3 ] x= 404.1 y= 350.1 | and uses it to discern
+[L3 ] x= 404.1 y= 361.6 | program improvement
+[L3 ] x= 404.1 y= 373.1 | opportunities that
+[L3 ] x= 404.1 y= 384.7 | may reduce the
+[L3 ] x= 404.1 y= 396.2 | issues that give rise
+[L3 ] x= 404.1 y= 407.6 | to grievances and
+[L3 ] x= 404.1 y= 419.1 | appeals.
+[L3 ] x= 404.1 y= 430.6 | Accuracy improves to
+[L3 ] x= 404.1 y= 442.1 | 90% or higher.
+[L4 ] x= 513.1 y= 235.1 | SMA adopts MITA
+[L4 ] x= 513.1 y= 246.6 | Framework, industry
+[L4 ] x= 513.1 y= 258.2 | standards and
+[L4 ] x= 513.1 y= 269.6 | information exchange
+[L4 ] x= 513.1 y= 281.1 | with regional
+[L4 ] x= 513.1 y= 292.6 | agencies and entities
+[L4 ] x= 513.1 y= 304.1 | improving accuracy to
+[L4 ] x= 513.1 y= 315.6 | 98% or higher.
+[L5 ] x= 621.9 y= 235.1 | SMA adopts MITA
+[L5 ] x= 621.9 y= 246.6 | Framework, industry
+[L5 ] x= 621.9 y= 258.2 | standards and
+[L5 ] x= 621.9 y= 269.6 | information
+[L5 ] x= 621.9 y= 281.1 | exchange with
+[L5 ] x= 621.9 y= 292.6 | national agencies
+[L5 ] x= 621.9 y= 304.1 | and entities
+[L5 ] x= 621.9 y= 315.6 | improving accuracy
+[L5 ] x= 621.9 y= 327.2 | to 98% or higher.
+[Q  ] x=  77.4 y= 466.0 | Business Capability Quality: Utility or Value to Stakeholders
+[Q  ] x=  77.4 y= 490.0 | Does the business
+[Q  ] x=  77.4 y= 501.6 | process satisfy
+[L1 ] x= 186.3 y= 490.2 | Stakeholders lack
+[L1 ] x= 186.3 y= 501.7 | confidence in
+[L2 ] x= 295.2 y= 490.2 | Automation and
+[L2 ] x= 295.2 y= 501.7 | standardization
+[L3 ] x= 404.1 y= 490.2 | SMA adopts MITA
+[L3 ] x= 404.1 y= 501.7 | Framework, industry
+[L4 ] x= 513.1 y= 490.2 | SMA adopts MITA
+[L4 ] x= 513.1 y= 501.7 | Framework, industry
+[L5 ] x= 621.9 y= 490.2 | SMA adopts MITA
+[L5 ] x= 621.9 y= 501.7 | Framework, industry
+
+================================================================================
+PAGE 29
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 528
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.4 y= 122.9 | PM – Provider Support
+[L2 ] x= 292.4 y= 147.9 | Manage Provider Grievance and Appeal
+[Q  ] x=  77.4 y= 173.3 | Capability
+[Q  ] x=  77.4 y= 185.9 | Question
+[L1 ] x= 186.3 y= 173.3 | Level 1
+[L2 ] x= 295.2 y= 173.3 | Level 2
+[L3 ] x= 404.1 y= 173.3 | Level 3
+[L4 ] x= 513.1 y= 173.3 | Level 4
+[L5 ] x= 621.9 y= 173.3 | Level 5
+[Q  ] x=  77.4 y= 205.0 | stakeholders?
+[L1 ] x= 186.3 y= 205.1 | information negatively
+[L1 ] x= 186.3 y= 216.6 | affecting stakeholder
+[L1 ] x= 186.3 y= 228.2 | satisfaction with the
+[L1 ] x= 186.3 y= 239.6 | process.
+[L2 ] x= 295.2 y= 205.1 | provides clear and
+[L2 ] x= 295.2 y= 216.6 | useful information
+[L2 ] x= 295.2 y= 228.2 | that resolves cases in
+[L2 ] x= 295.2 y= 239.6 | a shorter period.
+[L2 ] x= 295.2 y= 251.1 | Stakeholder
+[L2 ] x= 295.2 y= 262.6 | satisfaction is greater
+[L2 ] x= 295.2 y= 274.1 | than Level 1.
+[L3 ] x= 404.1 y= 205.1 | standards and
+[L3 ] x= 404.1 y= 216.6 | information exchange
+[L3 ] x= 404.1 y= 228.2 | with intrastate
+[L3 ] x= 404.1 y= 239.6 | agencies and entities
+[L3 ] x= 404.1 y= 251.1 | improving stakeholder
+[L3 ] x= 404.1 y= 262.6 | satisfaction to 90% or
+[L3 ] x= 404.1 y= 274.1 | higher.
+[L3 ] x= 404.1 y= 285.6 | SMA uses survey or
+[L3 ] x= 404.1 y= 297.2 | questionnaire for
+[L3 ] x= 404.1 y= 308.6 | information collection.
+[L4 ] x= 513.1 y= 205.1 | standards and
+[L4 ] x= 513.1 y= 216.6 | information exchange
+[L4 ] x= 513.1 y= 228.2 | with regional
+[L4 ] x= 513.1 y= 239.6 | agencies and entities
+[L4 ] x= 513.1 y= 251.1 | improving stakeholder
+[L4 ] x= 513.1 y= 262.6 | satisfaction to 95% or
+[L4 ] x= 513.1 y= 274.1 | higher.
+[L5 ] x= 621.9 y= 205.1 | standards and
+[L5 ] x= 621.9 y= 216.6 | information
+[L5 ] x= 621.9 y= 228.2 | exchange with
+[L5 ] x= 621.9 y= 239.6 | national agencies
+[L5 ] x= 621.9 y= 251.1 | and entities
+[L5 ] x= 621.9 y= 262.6 | improving
+[L5 ] x= 621.9 y= 274.1 | stakeholder
+[L5 ] x= 621.9 y= 285.6 | satisfaction to 98%
+[L5 ] x= 621.9 y= 297.2 | or higher.
+[Q  ] x=  72.0 y= 345.3 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 378.3 | PM – Provider Support
+[L2 ] x= 325.4 y= 403.5 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 428.8 | Capability
+[Q  ] x=  77.1 y= 441.4 | Question
+[L1 ] x= 175.6 y= 428.8 | Level 1
+[L2 ] x= 282.9 y= 428.8 | Level 2
+[L3 ] x= 392.2 y= 428.8 | Level 3
+[L4 ] x= 510.5 y= 428.8 | Level 4
+[L5 ] x= 616.8 y= 428.8 | Level 5
+[Q  ] x=  77.1 y= 466.5 | Business Capability Descriptions
+[Q  ] x=  77.1 y= 490.5 | Is the process
+[Q  ] x=  77.1 y= 501.9 | manual or
+[L1 ] x= 175.6 y= 490.6 | The process consists
+[L1 ] x= 175.6 y= 502.0 | primarily of manual
+[L2 ] x= 282.9 y= 490.6 | SMA uses a mix of
+[L2 ] x= 282.9 y= 502.0 | manual and automatic
+[L3 ] x= 392.2 y= 490.6 | SMA automates
+[L3 ] x= 392.2 y= 502.0 | process to the full
+[L4 ] x= 510.5 y= 490.6 | SMA automates
+[L4 ] x= 510.5 y= 502.0 | process to the full
+[L5 ] x= 616.8 y= 490.6 | SMA automates
+[L5 ] x= 616.8 y= 502.0 | process to the full
+
+================================================================================
+PAGE 30
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 529
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.1 y= 122.9 | PM – Provider Support
+[L2 ] x= 325.4 y= 147.9 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 173.3 | Capability
+[Q  ] x=  77.1 y= 185.9 | Question
+[L1 ] x= 175.6 y= 173.3 | Level 1
+[L2 ] x= 282.9 y= 173.3 | Level 2
+[L3 ] x= 392.2 y= 173.3 | Level 3
+[L4 ] x= 510.5 y= 173.3 | Level 4
+[L5 ] x= 616.8 y= 173.3 | Level 5
+[Q  ] x=  77.1 y= 205.0 | automatic?
+[L1 ] x= 175.6 y= 205.1 | activity to accomplish
+[L1 ] x= 175.6 y= 216.6 | tasks. SMA primarily
+[L1 ] x= 175.6 y= 228.2 | conducts the process
+[L1 ] x= 175.6 y= 239.6 | via mail, in person
+[L1 ] x= 175.6 y= 251.1 | and telephone for
+[L1 ] x= 175.6 y= 262.6 | individual
+[L1 ] x= 175.6 y= 274.1 | communications; and
+[L1 ] x= 175.6 y= 285.6 | flyers, radio, TV,
+[L1 ] x= 175.6 y= 297.2 | newspapers, and
+[L1 ] x= 175.6 y= 308.6 | publications for public
+[L1 ] x= 175.6 y= 320.1 | media.
+[L1 ] x= 175.6 y= 331.6 | At this level, there is
+[L1 ] x= 175.6 y= 343.1 | no targeting of
+[L1 ] x= 175.6 y= 354.7 | providers.
+[L2 ] x= 282.9 y= 205.1 | processes to
+[L2 ] x= 282.9 y= 216.6 | accomplish tasks.
+[L2 ] x= 282.9 y= 228.2 | SMA conducts
+[L2 ] x= 282.9 y= 239.6 | process via a web
+[L2 ] x= 282.9 y= 251.1 | portal for existing
+[L2 ] x= 282.9 y= 262.6 | providers. SMA target
+[L2 ] x= 282.9 y= 274.1 | populations to receive
+[L2 ] x= 282.9 y= 285.6 | communications via
+[L2 ] x= 282.9 y= 297.2 | mail, in person and
+[L2 ] x= 282.9 y= 308.6 | telephone for
+[L2 ] x= 282.9 y= 320.1 | individual
+[L2 ] x= 282.9 y= 331.6 | communications; and
+[L2 ] x= 282.9 y= 343.1 | flyers, radio, TV,
+[L2 ] x= 282.9 y= 354.7 | newspapers, and
+[L2 ] x= 282.9 y= 366.2 | publications public
+[L2 ] x= 282.9 y= 377.6 | media.
+[L3 ] x= 392.2 y= 205.1 | extent possible within
+[L3 ] x= 392.2 y= 216.6 | the state. The process
+[L3 ] x= 392.2 y= 228.2 | is electronic. Audience
+[L3 ] x= 392.2 y= 239.6 | downloads, saves or
+[L3 ] x= 392.2 y= 251.1 | prints publications.
+[L3 ] x= 392.2 y= 262.6 | Portal includes usability
+[L3 ] x= 392.2 y= 274.1 | features or functions
+[L3 ] x= 392.2 y= 285.6 | that accommodate the
+[L3 ] x= 392.2 y= 297.2 | needs of persons with
+[L3 ] x= 392.2 y= 308.6 | disabilities, including
+[L3 ] x= 392.2 y= 320.1 | those who use assistive
+[L3 ] x= 392.2 y= 331.6 | technology.
+[L4 ] x= 510.5 y= 205.1 | extent possible within
+[L4 ] x= 510.5 y= 216.6 | the region.
+[L5 ] x= 616.8 y= 205.1 | extent possible
+[L5 ] x= 616.8 y= 216.6 | across the nation.
+[Q  ] x=  77.1 y= 401.5 | Is communication
+[Q  ] x=  77.1 y= 413.0 | linguistically,
+[Q  ] x=  77.1 y= 424.5 | culturally, and
+[Q  ] x=  77.1 y= 436.0 | competency
+[Q  ] x=  77.1 y= 447.5 | appropriate?
+[L1 ] x= 175.6 y= 401.6 | Functionally,
+[L1 ] x= 175.6 y= 413.1 | linguistically,
+[L1 ] x= 175.6 y= 424.6 | culturally, and
+[L1 ] x= 175.6 y= 436.1 | competency
+[L1 ] x= 175.6 y= 447.7 | appropriate outreach
+[L1 ] x= 175.6 y= 459.1 | and education
+[L1 ] x= 175.6 y= 470.6 | materials are lacking
+[L1 ] x= 175.6 y= 482.1 | because they are
+[L1 ] x= 175.6 y= 493.6 | difficult and costly to
+[L1 ] x= 175.6 y= 505.2 | produce.
+[L2 ] x= 282.9 y= 401.6 | Outreach material is
+[L2 ] x= 282.9 y= 413.1 | functionally,
+[L2 ] x= 282.9 y= 424.6 | linguistically,
+[L2 ] x= 282.9 y= 436.1 | culturally, and
+[L2 ] x= 282.9 y= 447.7 | competency
+[L2 ] x= 282.9 y= 459.1 | appropriate, but at
+[L2 ] x= 282.9 y= 470.6 | great expense. SMA
+[L2 ] x= 282.9 y= 482.1 | limits outreach
+[L2 ] x= 282.9 y= 493.6 | material by state
+[L2 ] x= 282.9 y= 505.2 | defined parameters
+[L3 ] x= 392.2 y= 401.6 | SMA automates
+[L3 ] x= 392.2 y= 413.1 | process to the full
+[L3 ] x= 392.2 y= 424.6 | extent possible across
+[L3 ] x= 392.2 y= 436.1 | the intrastate. Use of
+[L3 ] x= 392.2 y= 447.7 | electronic
+[L3 ] x= 392.2 y= 459.1 | communications makes
+[L3 ] x= 392.2 y= 470.6 | provision of functionally,
+[L3 ] x= 392.2 y= 482.1 | linguistically, culturally,
+[L3 ] x= 392.2 y= 493.6 | and competency
+[L3 ] x= 392.2 y= 505.2 | appropriate outreach
+[L4 ] x= 510.5 y= 401.6 | SMA automates
+[L4 ] x= 510.5 y= 413.1 | process to the full
+[L4 ] x= 510.5 y= 424.6 | extent possible within
+[L4 ] x= 510.5 y= 436.1 | the region.
+[L5 ] x= 616.8 y= 401.6 | SMA automates
+[L5 ] x= 616.8 y= 413.1 | process to the full
+[L5 ] x= 616.8 y= 424.6 | extent possible
+[L5 ] x= 616.8 y= 436.1 | across the nation.
+
+================================================================================
+PAGE 31
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 530
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.1 y= 122.9 | PM – Provider Support
+[L2 ] x= 325.4 y= 147.9 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 173.3 | Capability
+[Q  ] x=  77.1 y= 185.9 | Question
+[L1 ] x= 175.6 y= 173.3 | Level 1
+[L2 ] x= 282.9 y= 173.3 | Level 2
+[L3 ] x= 392.2 y= 173.3 | Level 3
+[L4 ] x= 510.5 y= 173.3 | Level 4
+[L5 ] x= 616.8 y= 173.3 | Level 5
+[L2 ] x= 282.9 y= 205.1 | (e.g., only two (2)
+[L2 ] x= 282.9 y= 216.6 | languages used).
+[L3 ] x= 392.2 y= 205.1 | material more cost-
+[L3 ] x= 392.2 y= 216.6 | effective.
+[Q  ] x=  77.1 y= 240.5 | Does the State
+[Q  ] x=  77.1 y= 252.0 | Medicaid Agency
+[Q  ] x=  77.1 y= 263.4 | use standards in
+[Q  ] x=  77.1 y= 275.0 | the process?
+[L1 ] x= 175.6 y= 240.6 | SMA focuses on
+[L1 ] x= 175.6 y= 252.2 | meeting compliance
+[L1 ] x= 175.6 y= 263.6 | thresholds for state
+[L1 ] x= 175.6 y= 275.1 | and federal
+[L1 ] x= 175.6 y= 286.6 | regulations using
+[L1 ] x= 175.6 y= 298.1 | state-specific
+[L1 ] x= 175.6 y= 309.6 | standards.
+[L2 ] x= 282.9 y= 240.6 | SMA applies a mix of
+[L2 ] x= 282.9 y= 252.2 | HIPAA and state-
+[L2 ] x= 282.9 y= 263.6 | specific standards.
+[L3 ] x= 392.2 y= 240.6 | SMA adopts MITA
+[L3 ] x= 392.2 y= 252.2 | Framework, industry
+[L3 ] x= 392.2 y= 263.6 | standards, and other
+[L3 ] x= 392.2 y= 275.1 | nationally recognized
+[L3 ] x= 392.2 y= 286.6 | standards for intrastate
+[L3 ] x= 392.2 y= 298.1 | exchange of
+[L3 ] x= 392.2 y= 309.6 | information.
+[L4 ] x= 510.5 y= 240.6 | SMA adopts MITA
+[L4 ] x= 510.5 y= 252.2 | Framework, industry
+[L4 ] x= 510.5 y= 263.6 | standards, and other
+[L4 ] x= 510.5 y= 275.1 | nationally recognized
+[L4 ] x= 510.5 y= 286.6 | standards for clinical
+[L4 ] x= 510.5 y= 298.1 | and interstate
+[L4 ] x= 510.5 y= 309.6 | information
+[L4 ] x= 510.5 y= 321.2 | exchange of
+[L4 ] x= 510.5 y= 332.6 | information within the
+[L4 ] x= 510.5 y= 344.1 | region.
+[L5 ] x= 616.8 y= 240.6 | SMA adopts MITA
+[L5 ] x= 616.8 y= 252.2 | Framework, industry
+[L5 ] x= 616.8 y= 263.6 | standards, and other
+[L5 ] x= 616.8 y= 275.1 | nationally recognized
+[L5 ] x= 616.8 y= 286.6 | standards for national
+[L5 ] x= 616.8 y= 298.1 | exchange of
+[L5 ] x= 616.8 y= 309.6 | information.
+[Q  ] x=  77.1 y= 368.0 | How formalized is
+[Q  ] x=  77.1 y= 379.5 | the process?
+[L1 ] x= 175.6 y= 368.1 | The process is
+[L1 ] x= 175.6 y= 379.6 | informal and
+[L1 ] x= 175.6 y= 391.1 | inconsistent.
+[L2 ] x= 282.9 y= 368.1 | The process is formal
+[L2 ] x= 282.9 y= 379.6 | across SMA with
+[L2 ] x= 282.9 y= 391.1 | proper reviews to
+[L2 ] x= 282.9 y= 402.7 | ensure correctness
+[L2 ] x= 282.9 y= 414.2 | and legality. SMA
+[L2 ] x= 282.9 y= 425.6 | keeps accurate logs
+[L2 ] x= 282.9 y= 437.1 | kept of all outreach
+[L2 ] x= 282.9 y= 448.6 | initiatives.
+[L3 ] x= 392.2 y= 368.1 | SMA adopts automatic
+[L3 ] x= 392.2 y= 379.6 | workflow within the
+[L3 ] x= 392.2 y= 391.1 | intrastate to ensure
+[L3 ] x= 392.2 y= 402.7 | accuracy and proper
+[L3 ] x= 392.2 y= 414.2 | reviews. SMA transfers
+[L3 ] x= 392.2 y= 425.6 | and stores the
+[L3 ] x= 392.2 y= 437.1 | documents
+[L3 ] x= 392.2 y= 448.6 | electronically.
+[L4 ] x= 510.5 y= 368.1 | SMA adopts
+[L4 ] x= 510.5 y= 379.6 | automatic workflow
+[L4 ] x= 510.5 y= 391.1 | within the region to
+[L4 ] x= 510.5 y= 402.7 | ensure accuracy and
+[L4 ] x= 510.5 y= 414.2 | proper reviews.
+[L5 ] x= 616.8 y= 368.1 | SMA adopts national
+[L5 ] x= 616.8 y= 379.6 | automatic workflow to
+[L5 ] x= 616.8 y= 391.1 | ensure accuracy and
+[L5 ] x= 616.8 y= 402.7 | proper reviews.
+[Q  ] x=  77.1 y= 472.5 | How does the
+[Q  ] x=  77.1 y= 484.0 | State Medicaid
+[Q  ] x=  77.1 y= 495.6 | Agency
+[Q  ] x=  77.1 y= 507.0 | collaborate with
+[L1 ] x= 175.6 y= 472.6 | Very little
+[L1 ] x= 175.6 y= 484.2 | collaboration occurs
+[L1 ] x= 175.6 y= 495.7 | with other agencies
+[L1 ] x= 175.6 y= 507.1 | to standardize
+[L2 ] x= 282.9 y= 472.6 | SMA collaborates
+[L2 ] x= 282.9 y= 484.2 | with other agencies
+[L2 ] x= 282.9 y= 495.7 | and entities to adopt
+[L2 ] x= 282.9 y= 507.1 | HIPAA standards and
+[L3 ] x= 392.2 y= 472.6 | SMA collaborates with
+[L3 ] x= 392.2 y= 484.2 | other intrastate
+[L3 ] x= 392.2 y= 495.7 | agencies and entities to
+[L3 ] x= 392.2 y= 507.1 | adopt national
+[L4 ] x= 510.5 y= 472.6 | SMA collaborates
+[L4 ] x= 510.5 y= 484.2 | with other regional
+[L4 ] x= 510.5 y= 495.7 | agencies and entities
+[L4 ] x= 510.5 y= 507.1 | to adopt national
+[L5 ] x= 616.8 y= 472.6 | SMA collaborates
+[L5 ] x= 616.8 y= 484.2 | with federal agencies
+[L5 ] x= 616.8 y= 495.7 | and entities for
+[L5 ] x= 616.8 y= 507.1 | national (and
+
+================================================================================
+PAGE 32
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 531
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.1 y= 122.9 | PM – Provider Support
+[L2 ] x= 325.4 y= 147.9 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 173.3 | Capability
+[Q  ] x=  77.1 y= 185.9 | Question
+[L1 ] x= 175.6 y= 173.3 | Level 1
+[L2 ] x= 282.9 y= 173.3 | Level 2
+[L3 ] x= 392.2 y= 173.3 | Level 3
+[L4 ] x= 510.5 y= 173.3 | Level 4
+[L5 ] x= 616.8 y= 173.3 | Level 5
+[Q  ] x=  77.1 y= 205.0 | other agencies or
+[Q  ] x=  77.1 y= 216.5 | entities in
+[Q  ] x=  77.1 y= 228.0 | performing the
+[Q  ] x=  77.1 y= 239.4 | process?
+[L1 ] x= 175.6 y= 205.1 | information exchange
+[L1 ] x= 175.6 y= 216.6 | or business tasks.
+[L2 ] x= 282.9 y= 205.1 | Electronic Data
+[L2 ] x= 282.9 y= 216.6 | Interchange (EDI)
+[L2 ] x= 282.9 y= 228.2 | transactions.
+[L3 ] x= 392.2 y= 205.1 | standards, and to
+[L3 ] x= 392.2 y= 216.6 | develop and share
+[L3 ] x= 392.2 y= 228.2 | reusable business
+[L3 ] x= 392.2 y= 239.6 | services.
+[L4 ] x= 510.5 y= 205.1 | standards, and to
+[L4 ] x= 510.5 y= 216.6 | develop and share
+[L4 ] x= 510.5 y= 228.2 | reusable processes
+[L4 ] x= 510.5 y= 239.6 | including clinical
+[L4 ] x= 510.5 y= 251.1 | information.
+[L5 ] x= 616.8 y= 205.1 | international)
+[L5 ] x= 616.8 y= 216.6 | interoperability
+[L5 ] x= 616.8 y= 228.2 | improvements that
+[L5 ] x= 616.8 y= 239.6 | maximize automation
+[L5 ] x= 616.8 y= 251.1 | of routine operations.
+[Q  ] x=  77.1 y= 275.0 | Business Capability Quality: Timeliness of Process
+[Q  ] x=  77.1 y= 299.0 | How timely is the
+[Q  ] x=  77.1 y= 310.5 | end-to-end
+[Q  ] x=  77.1 y= 322.0 | process?
+[L1 ] x= 175.6 y= 299.1 | Process meets
+[L1 ] x= 175.6 y= 310.6 | threshold or
+[L1 ] x= 175.6 y= 322.1 | mandated
+[L1 ] x= 175.6 y= 333.7 | requirements for
+[L1 ] x= 175.6 y= 345.2 | timeliness (i.e., the
+[L1 ] x= 175.6 y= 356.6 | process achieves
+[L1 ] x= 175.6 y= 368.1 | results within the time
+[L1 ] x= 175.6 y= 379.6 | specified by law or
+[L1 ] x= 175.6 y= 391.1 | regulation).
+[L1 ] x= 175.6 y= 402.7 | Timeliness depends
+[L1 ] x= 175.6 y= 414.2 | on the type of
+[L1 ] x= 175.6 y= 425.6 | outreach. It is ad hoc
+[L1 ] x= 175.6 y= 437.1 | in nature. Outreach
+[L1 ] x= 175.6 y= 448.6 | activity duration is
+[L1 ] x= 175.6 y= 460.2 | relatively lengthy.
+[L2 ] x= 282.9 y= 299.1 | Process timeliness
+[L2 ] x= 282.9 y= 310.6 | improves through use
+[L2 ] x= 282.9 y= 322.1 | of automation and
+[L2 ] x= 282.9 y= 333.7 | web portal distribution
+[L2 ] x= 282.9 y= 345.2 | of information.
+[L2 ] x= 282.9 y= 356.6 | Timeliness exceeds
+[L2 ] x= 282.9 y= 368.1 | legal requirements.
+[L3 ] x= 392.2 y= 299.1 | Timeliness improves via
+[L3 ] x= 392.2 y= 310.6 | state and federal
+[L3 ] x= 392.2 y= 322.1 | collaboration, use of
+[L3 ] x= 392.2 y= 333.7 | information sharing,
+[L3 ] x= 392.2 y= 345.2 | standards, and regional
+[L3 ] x= 392.2 y= 356.6 | information exchange
+[L3 ] x= 392.2 y= 368.1 | hubs. SMA releases
+[L3 ] x= 392.2 y= 379.6 | alerts and information
+[L3 ] x= 392.2 y= 391.1 | immediately. Timeliness
+[L3 ] x= 392.2 y= 402.7 | exceeds Level 2.
+[L4 ] x= 510.5 y= 299.1 | Information is
+[L4 ] x= 510.5 y= 310.6 | available in near real
+[L4 ] x= 510.5 y= 322.1 | time. Processes that
+[L4 ] x= 510.5 y= 333.7 | use clinical
+[L4 ] x= 510.5 y= 345.2 | information result in
+[L4 ] x= 510.5 y= 356.6 | immediate action,
+[L4 ] x= 510.5 y= 368.1 | response, and
+[L4 ] x= 510.5 y= 379.6 | results. SMA has
+[L4 ] x= 510.5 y= 391.1 | regional
+[L4 ] x= 510.5 y= 402.7 | interoperability,
+[L4 ] x= 510.5 y= 414.2 | which further
+[L4 ] x= 510.5 y= 425.6 | improves timeliness
+[L4 ] x= 510.5 y= 437.1 | over Level 3.
+[L5 ] x= 616.8 y= 299.1 | Information is
+[L5 ] x= 616.8 y= 310.6 | available in real time.
+[L5 ] x= 616.8 y= 322.1 | Processes improve
+[L5 ] x= 616.8 y= 333.7 | further through
+[L5 ] x= 616.8 y= 345.2 | connectivity with
+[L5 ] x= 616.8 y= 356.6 | other States and with
+[L5 ] x= 616.8 y= 368.1 | federal agencies.
+[L5 ] x= 616.8 y= 379.6 | Most processes
+[L5 ] x= 616.8 y= 391.1 | execute at the point
+[L5 ] x= 616.8 y= 402.7 | of service. Results
+[L5 ] x= 616.8 y= 414.2 | are almost
+[L5 ] x= 616.8 y= 425.6 | immediate.
+[Q  ] x=  77.1 y= 484.0 | Business Capability Quality: Data Access and Accuracy
+[Q  ] x=  77.1 y= 508.0 | How accurate is
+[L1 ] x= 175.6 y= 508.2 | Use of direct data
+[L2 ] x= 282.9 y= 508.2 | HIPAA standard
+[L3 ] x= 392.2 y= 508.2 | Automation of
+[L4 ] x= 510.5 y= 508.2 | Automation of
+[L5 ] x= 616.8 y= 508.2 | SMA adopts MITA
+
+================================================================================
+PAGE 33
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 532
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.1 y= 122.9 | PM – Provider Support
+[L2 ] x= 325.4 y= 147.9 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 173.3 | Capability
+[Q  ] x=  77.1 y= 185.9 | Question
+[L1 ] x= 175.6 y= 173.3 | Level 1
+[L2 ] x= 282.9 y= 173.3 | Level 2
+[L3 ] x= 392.2 y= 173.3 | Level 3
+[L4 ] x= 510.5 y= 173.3 | Level 4
+[L5 ] x= 616.8 y= 173.3 | Level 5
+[Q  ] x=  77.1 y= 205.0 | the information in
+[Q  ] x=  77.1 y= 216.5 | the process?
+[L1 ] x= 175.6 y= 205.1 | entry for information
+[L1 ] x= 175.6 y= 216.6 | collection is manually
+[L1 ] x= 175.6 y= 228.2 | intensive and
+[L1 ] x= 175.6 y= 239.6 | susceptible to
+[L1 ] x= 175.6 y= 251.1 | inconsistent or
+[L1 ] x= 175.6 y= 262.6 | incorrect information.
+[L1 ] x= 175.6 y= 274.1 | Stakeholders are
+[L1 ] x= 175.6 y= 285.6 | unable to rely on
+[L1 ] x= 175.6 y= 297.2 | information for
+[L1 ] x= 175.6 y= 308.6 | decision-making.
+[L2 ] x= 282.9 y= 205.1 | transactions improve
+[L2 ] x= 282.9 y= 216.6 | accuracy of
+[L2 ] x= 282.9 y= 228.2 | information but the
+[L2 ] x= 282.9 y= 239.6 | decision-making
+[L2 ] x= 282.9 y= 251.1 | process may be
+[L2 ] x= 282.9 y= 262.6 | erroneous or
+[L2 ] x= 282.9 y= 274.1 | misleading. Accuracy
+[L2 ] x= 282.9 y= 285.6 | is higher than at Level
+[L2 ] x= 282.9 y= 297.2 | 1.
+[L3 ] x= 392.2 y= 205.1 | information collection
+[L3 ] x= 392.2 y= 216.6 | increases the reliability
+[L3 ] x= 392.2 y= 228.2 | of SMA’s internal
+[L3 ] x= 392.2 y= 239.6 | information. External
+[L3 ] x= 392.2 y= 251.1 | sources of information
+[L3 ] x= 392.2 y= 262.6 | use MITA Framework
+[L3 ] x= 392.2 y= 274.1 | and industry standards
+[L3 ] x= 392.2 y= 285.6 | for information
+[L3 ] x= 392.2 y= 297.2 | exchange. Decision-
+[L3 ] x= 392.2 y= 308.6 | making is automatic
+[L3 ] x= 392.2 y= 320.1 | using standardized
+[L3 ] x= 392.2 y= 331.6 | business rules
+[L3 ] x= 392.2 y= 343.1 | definitions. Accuracy is
+[L3 ] x= 392.2 y= 354.7 | 95% or higher.
+[L4 ] x= 510.5 y= 205.1 | information collection
+[L4 ] x= 510.5 y= 216.6 | increases the
+[L4 ] x= 510.5 y= 228.2 | reliability of SMA’s
+[L4 ] x= 510.5 y= 239.6 | internal and external
+[L4 ] x= 510.5 y= 251.1 | sources of
+[L4 ] x= 510.5 y= 262.6 | information. SMA
+[L4 ] x= 510.5 y= 274.1 | adopts MITA
+[L4 ] x= 510.5 y= 285.6 | Framework and
+[L4 ] x= 510.5 y= 297.2 | industry standards
+[L4 ] x= 510.5 y= 308.6 | for information
+[L4 ] x= 510.5 y= 320.1 | exchange by regional
+[L4 ] x= 510.5 y= 331.6 | agencies. Decision-
+[L4 ] x= 510.5 y= 343.1 | making is automatic
+[L4 ] x= 510.5 y= 354.7 | using regional
+[L4 ] x= 510.5 y= 366.2 | standardized
+[L4 ] x= 510.5 y= 377.6 | business rules
+[L4 ] x= 510.5 y= 389.1 | definitions. Accuracy
+[L4 ] x= 510.5 y= 400.6 | is 95% or higher.
+[L5 ] x= 616.8 y= 205.1 | Framework and
+[L5 ] x= 616.8 y= 216.6 | industry standards for
+[L5 ] x= 616.8 y= 228.2 | information exchange
+[L5 ] x= 616.8 y= 239.6 | with national
+[L5 ] x= 616.8 y= 251.1 | agencies. Decision-
+[L5 ] x= 616.8 y= 262.6 | making is automatic
+[L5 ] x= 616.8 y= 274.1 | using national
+[L5 ] x= 616.8 y= 285.6 | standardized
+[L5 ] x= 616.8 y= 297.2 | business rules
+[L5 ] x= 616.8 y= 308.6 | definitions. Accuracy
+[L5 ] x= 616.8 y= 320.1 | is 95% or higher.
+[Q  ] x=  77.1 y= 424.5 | How accessible is
+[Q  ] x=  77.1 y= 436.0 | the information in
+[Q  ] x=  77.1 y= 447.5 | the process?
+[L1 ] x= 175.6 y= 424.6 | SMA stores
+[L1 ] x= 175.6 y= 436.1 | information in
+[L1 ] x= 175.6 y= 447.7 | disparate systems
+[L1 ] x= 175.6 y= 459.1 | including paper
+[L1 ] x= 175.6 y= 470.6 | storage and obtains
+[L1 ] x= 175.6 y= 482.1 | information manually.
+[L2 ] x= 282.9 y= 424.6 | SMA stores
+[L2 ] x= 282.9 y= 436.1 | information in
+[L2 ] x= 282.9 y= 447.7 | disparate systems,
+[L2 ] x= 282.9 y= 459.1 | but automation and
+[L2 ] x= 282.9 y= 470.6 | nationally recognized
+[L2 ] x= 282.9 y= 482.1 | standards increase
+[L2 ] x= 282.9 y= 493.6 | accessibility over
+[L2 ] x= 282.9 y= 505.2 | Level 1.
+[L3 ] x= 392.2 y= 424.6 | SMA obtains
+[L3 ] x= 392.2 y= 436.1 | information easily and
+[L3 ] x= 392.2 y= 447.7 | exchanges with
+[L3 ] x= 392.2 y= 459.1 | intrastate agencies and
+[L3 ] x= 392.2 y= 470.6 | entities based on MITA
+[L3 ] x= 392.2 y= 482.1 | Framework and industry
+[L3 ] x= 392.2 y= 493.6 | standards.
+[L3 ] x= 392.2 y= 505.2 | Accessibility is greater
+[L4 ] x= 510.5 y= 424.6 | SMA obtains
+[L4 ] x= 510.5 y= 436.1 | information easily
+[L4 ] x= 510.5 y= 447.7 | and exchanges with
+[L4 ] x= 510.5 y= 459.1 | regional agencies
+[L4 ] x= 510.5 y= 470.6 | and entities.
+[L4 ] x= 510.5 y= 482.1 | Accessibility is
+[L4 ] x= 510.5 y= 493.6 | greater than Level 3.
+[L5 ] x= 616.8 y= 424.6 | SMA obtains
+[L5 ] x= 616.8 y= 436.1 | information easily and
+[L5 ] x= 616.8 y= 447.7 | exchanges with
+[L5 ] x= 616.8 y= 459.1 | national agencies and
+[L5 ] x= 616.8 y= 470.6 | entities.
+[L5 ] x= 616.8 y= 482.1 | Accessibility is
+[L5 ] x= 616.8 y= 493.6 | greater than Level 4.
+
+================================================================================
+PAGE 34
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 533
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.1 y= 122.9 | PM – Provider Support
+[L2 ] x= 325.4 y= 147.9 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 173.3 | Capability
+[Q  ] x=  77.1 y= 185.9 | Question
+[L1 ] x= 175.6 y= 173.3 | Level 1
+[L2 ] x= 282.9 y= 173.3 | Level 2
+[L3 ] x= 392.2 y= 173.3 | Level 3
+[L4 ] x= 510.5 y= 173.3 | Level 4
+[L5 ] x= 616.8 y= 173.3 | Level 5
+[L3 ] x= 392.2 y= 205.1 | than Level 2.
+[Q  ] x=  77.1 y= 229.0 | Business Capability Quality: Cost-Effectiveness
+[Q  ] x=  77.1 y= 253.0 | What is the cost
+[Q  ] x=  77.1 y= 264.5 | of the process
+[Q  ] x=  77.1 y= 276.0 | compared to the
+[Q  ] x=  77.1 y= 287.4 | benefits of its
+[Q  ] x=  77.1 y= 299.0 | results?
+[L1 ] x= 175.6 y= 253.1 | High relative cost due
+[L1 ] x= 175.6 y= 264.6 | to low number of
+[L1 ] x= 175.6 y= 276.2 | automatic,
+[L1 ] x= 175.6 y= 287.6 | standardized tasks.
+[L2 ] x= 282.9 y= 253.1 | Automation improves
+[L2 ] x= 282.9 y= 264.6 | process and allows
+[L2 ] x= 282.9 y= 276.2 | focus on exception
+[L2 ] x= 282.9 y= 287.6 | resolution, improving
+[L2 ] x= 282.9 y= 299.1 | cost effectiveness
+[L2 ] x= 282.9 y= 310.6 | ratio over Level 1.
+[L3 ] x= 392.2 y= 253.1 | SMA adopts MITA
+[L3 ] x= 392.2 y= 264.6 | Framework, industry
+[L3 ] x= 392.2 y= 276.2 | standards, and other
+[L3 ] x= 392.2 y= 287.6 | nationally recognized
+[L3 ] x= 392.2 y= 299.1 | standards further
+[L3 ] x= 392.2 y= 310.6 | improving cost
+[L3 ] x= 392.2 y= 322.1 | effectiveness ratio over
+[L3 ] x= 392.2 y= 333.7 | Level 2.
+[L4 ] x= 510.5 y= 253.1 | SMA adopts MITA
+[L4 ] x= 510.5 y= 264.6 | Framework, industry
+[L4 ] x= 510.5 y= 276.2 | standards, and other
+[L4 ] x= 510.5 y= 287.6 | nationally recognized
+[L4 ] x= 510.5 y= 299.1 | standards for
+[L4 ] x= 510.5 y= 310.6 | regional information
+[L4 ] x= 510.5 y= 322.1 | exchange improving
+[L4 ] x= 510.5 y= 333.7 | cost effectiveness
+[L4 ] x= 510.5 y= 345.2 | ratio over Level 3.
+[L5 ] x= 616.8 y= 253.1 | SMA adopts MITA
+[L5 ] x= 616.8 y= 264.6 | Framework, industry
+[L5 ] x= 616.8 y= 276.2 | standards, and other
+[L5 ] x= 616.8 y= 287.6 | nationally recognized
+[L5 ] x= 616.8 y= 299.1 | standards for national
+[L5 ] x= 616.8 y= 310.6 | (and international)
+[L5 ] x= 616.8 y= 322.1 | information
+[L5 ] x= 616.8 y= 333.7 | exchange. SMA
+[L5 ] x= 616.8 y= 345.2 | increases cost
+[L5 ] x= 616.8 y= 356.6 | effectiveness ratio
+[L5 ] x= 616.8 y= 368.1 | over level 4.
+[Q  ] x=  77.1 y= 409.5 | Business Capability Quality: Effort to Perform; Efficiency
+[Q  ] x=  77.1 y= 433.5 | How efficient is
+[Q  ] x=  77.1 y= 445.0 | the process.
+[L1 ] x= 175.6 y= 433.6 | Process is labor
+[L1 ] x= 175.6 y= 445.1 | intensive. There is
+[L1 ] x= 175.6 y= 456.7 | wasted effort or
+[L1 ] x= 175.6 y= 468.2 | expense to
+[L1 ] x= 175.6 y= 479.6 | accomplish tasks.
+[L1 ] x= 175.6 y= 491.1 | Process meets
+[L1 ] x= 175.6 y= 502.6 | minimum state
+[L2 ] x= 282.9 y= 433.6 | Automation and state
+[L2 ] x= 282.9 y= 445.1 | standards increase
+[L2 ] x= 282.9 y= 456.7 | productivity.
+[L2 ] x= 282.9 y= 468.2 | Efficiency is higher
+[L2 ] x= 282.9 y= 479.6 | than Level 1.
+[L3 ] x= 392.2 y= 433.6 | SMA adopts MITA
+[L3 ] x= 392.2 y= 445.1 | Framework, industry
+[L3 ] x= 392.2 y= 456.7 | standards and
+[L3 ] x= 392.2 y= 468.2 | information exchange
+[L3 ] x= 392.2 y= 479.6 | with intrastate agencies
+[L3 ] x= 392.2 y= 491.1 | and entities improving
+[L3 ] x= 392.2 y= 502.6 | efficiency to 95% or
+[L4 ] x= 510.5 y= 433.6 | SMA adopts MITA
+[L4 ] x= 510.5 y= 445.1 | Framework, industry
+[L4 ] x= 510.5 y= 456.7 | standards and
+[L4 ] x= 510.5 y= 468.2 | information
+[L4 ] x= 510.5 y= 479.6 | exchange with
+[L4 ] x= 510.5 y= 491.1 | regional agencies
+[L4 ] x= 510.5 y= 502.6 | and entities
+[L5 ] x= 616.8 y= 433.6 | SMA adopts MITA
+[L5 ] x= 616.8 y= 445.1 | Framework, industry
+[L5 ] x= 616.8 y= 456.7 | standards and
+[L5 ] x= 616.8 y= 468.2 | information exchange
+[L5 ] x= 616.8 y= 479.6 | with national
+[L5 ] x= 616.8 y= 491.1 | agencies and entities
+[L5 ] x= 616.8 y= 502.6 | improving efficiency
+
+================================================================================
+PAGE 35
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 534
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.1 y= 122.9 | PM – Provider Support
+[L2 ] x= 325.4 y= 147.9 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 173.3 | Capability
+[Q  ] x=  77.1 y= 185.9 | Question
+[L1 ] x= 175.6 y= 173.3 | Level 1
+[L2 ] x= 282.9 y= 173.3 | Level 2
+[L3 ] x= 392.2 y= 173.3 | Level 3
+[L4 ] x= 510.5 y= 173.3 | Level 4
+[L5 ] x= 616.8 y= 173.3 | Level 5
+[L1 ] x= 175.6 y= 205.1 | process guidelines
+[L1 ] x= 175.6 y= 216.6 | and SMA
+[L1 ] x= 175.6 y= 228.2 | performance
+[L1 ] x= 175.6 y= 239.6 | standards. Efficiency
+[L1 ] x= 175.6 y= 251.1 | is low.
+[L3 ] x= 392.2 y= 205.1 | higher.
+[L4 ] x= 510.5 y= 205.1 | improving efficiency
+[L4 ] x= 510.5 y= 216.6 | to 98% or higher.
+[L5 ] x= 616.8 y= 205.1 | to 98% or higher.
+[Q  ] x=  77.1 y= 275.0 | Business Capability Quality: Accuracy of Process Results
+[Q  ] x=  77.1 y= 299.0 | How accurate are
+[Q  ] x=  77.1 y= 310.5 | the results of the
+[Q  ] x=  77.1 y= 322.0 | process?
+[L1 ] x= 175.6 y= 299.1 | Manual processes
+[L1 ] x= 175.6 y= 310.6 | result in greater
+[L1 ] x= 175.6 y= 322.1 | opportunity for
+[L1 ] x= 175.6 y= 333.7 | human error.
+[L1 ] x= 175.6 y= 345.2 | Accuracy is low. SMA
+[L1 ] x= 175.6 y= 356.6 | launches outreach to
+[L1 ] x= 175.6 y= 368.1 | a general audience
+[L1 ] x= 175.6 y= 379.6 | but does not align
+[L1 ] x= 175.6 y= 391.1 | content with target
+[L1 ] x= 175.6 y= 402.7 | audience negatively
+[L1 ] x= 175.6 y= 414.2 | affecting accuracy.
+[L2 ] x= 282.9 y= 299.1 | Automation and
+[L2 ] x= 282.9 y= 310.6 | standardized
+[L2 ] x= 282.9 y= 322.1 | business rules
+[L2 ] x= 282.9 y= 333.7 | definitions reduce
+[L2 ] x= 282.9 y= 345.2 | errors. Capability to
+[L2 ] x= 282.9 y= 356.6 | match outreach with
+[L2 ] x= 282.9 y= 368.1 | target audience
+[L2 ] x= 282.9 y= 379.6 | improves the
+[L2 ] x= 282.9 y= 391.1 | accuracy of the
+[L2 ] x= 282.9 y= 402.7 | process. SMA
+[L2 ] x= 282.9 y= 414.2 | improves accuracy
+[L2 ] x= 282.9 y= 425.6 | above Level 1.
+[L3 ] x= 392.2 y= 299.1 | SMA adopts MITA
+[L3 ] x= 392.2 y= 310.6 | Framework, industry
+[L3 ] x= 392.2 y= 322.1 | standards and
+[L3 ] x= 392.2 y= 333.7 | information exchange
+[L3 ] x= 392.2 y= 345.2 | with intrastate agencies
+[L3 ] x= 392.2 y= 356.6 | and entities. SMA uses
+[L3 ] x= 392.2 y= 368.1 | methods to target
+[L3 ] x= 392.2 y= 379.6 | outreach to contractors
+[L3 ] x= 392.2 y= 391.1 | that met
+[L3 ] x= 431.5 y= 391.1 | specific needs.
+[L3 ] x= 392.2 y= 402.7 | Accuracy is 90% or
+[L3 ] x= 392.2 y= 414.2 | higher.
+[L4 ] x= 510.5 y= 299.1 | SMA adopts MITA
+[L4 ] x= 510.5 y= 310.6 | Framework, industry
+[L4 ] x= 510.5 y= 322.1 | standards and
+[L4 ] x= 510.5 y= 333.7 | information
+[L4 ] x= 510.5 y= 345.2 | exchange with
+[L4 ] x= 510.5 y= 356.6 | regional agencies
+[L4 ] x= 510.5 y= 368.1 | and entities
+[L4 ] x= 510.5 y= 379.6 | improving accuracy
+[L4 ] x= 510.5 y= 391.1 | to 98% or higher.
+[L5 ] x= 616.8 y= 299.1 | SMA adopts MITA
+[L5 ] x= 616.8 y= 310.6 | Framework, industry
+[L5 ] x= 616.8 y= 322.1 | standards and
+[L5 ] x= 616.8 y= 333.7 | information exchange
+[L5 ] x= 616.8 y= 345.2 | with national
+[L5 ] x= 616.8 y= 356.6 | agencies and entities
+[L5 ] x= 616.8 y= 368.1 | improving accuracy to
+[L5 ] x= 616.8 y= 379.6 | 98% or higher.
+[Q  ] x=  77.1 y= 449.5 | Business Capability Quality: Utility or Value to Stakeholders
+[Q  ] x=  77.1 y= 473.5 | How satisfied are
+[Q  ] x=  77.1 y= 485.0 | the stakeholders?
+[L1 ] x= 175.6 y= 473.6 | Stakeholders lack
+[L1 ] x= 175.6 y= 485.1 | confidence in
+[L1 ] x= 175.6 y= 496.6 | information
+[L1 ] x= 175.6 y= 508.2 | negatively affecting
+[L2 ] x= 282.9 y= 473.6 | Automation and
+[L2 ] x= 282.9 y= 485.1 | standardization
+[L2 ] x= 282.9 y= 496.6 | provides clear and
+[L2 ] x= 282.9 y= 508.2 | useful information.
+[L3 ] x= 392.2 y= 473.6 | SMA adopts MITA
+[L3 ] x= 392.2 y= 485.1 | Framework, industry
+[L3 ] x= 392.2 y= 496.6 | standards and
+[L3 ] x= 392.2 y= 508.2 | information exchange
+[L4 ] x= 510.5 y= 473.6 | SMA adopts MITA
+[L4 ] x= 510.5 y= 485.1 | Framework, industry
+[L4 ] x= 510.5 y= 496.6 | standards and
+[L4 ] x= 510.5 y= 508.2 | information
+[L5 ] x= 616.8 y= 473.6 | SMA adopts MITA
+[L5 ] x= 616.8 y= 485.1 | Framework, industry
+[L5 ] x= 616.8 y= 496.6 | standards and
+[L5 ] x= 616.8 y= 508.2 | information exchange
+
+================================================================================
+PAGE 36
+================================================================================
+[Q  ] x=  72.0 y=  44.4 | Part I Part 1 - Business Architecture
+[L4 ] x= 516.3 y=  44.4 | Appendix D - Business Capability Matrix
+[L5 ] x= 675.9 y=  59.1 | Details
+[L5 ] x= 608.4 y= 524.4 | Part I, Appendix D - Page 535
+[L5 ] x= 679.5 y= 533.5 | May 2014
+[L5 ] x= 674.3 y= 542.8 | Version 3.0
+[Q  ] x=  77.1 y= 122.9 | PM – Provider Support
+[L2 ] x= 325.4 y= 147.9 | Perform Provider Outreach
+[Q  ] x=  77.1 y= 173.3 | Capability
+[Q  ] x=  77.1 y= 185.9 | Question
+[L1 ] x= 175.6 y= 173.3 | Level 1
+[L2 ] x= 282.9 y= 173.3 | Level 2
+[L3 ] x= 392.2 y= 173.3 | Level 3
+[L4 ] x= 510.5 y= 173.3 | Level 4
+[L5 ] x= 616.8 y= 173.3 | Level 5
+[L1 ] x= 175.6 y= 205.1 | stakeholder
+[L1 ] x= 175.6 y= 216.6 | satisfaction with the
+[L1 ] x= 175.6 y= 228.2 | process.
+[L2 ] x= 282.9 y= 205.1 | Stakeholder
+[L2 ] x= 282.9 y= 216.6 | satisfaction is greater
+[L2 ] x= 282.9 y= 228.2 | than Level 1.
+[L3 ] x= 392.2 y= 205.1 | with intrastate agencies
+[L3 ] x= 392.2 y= 216.6 | and entities improving
+[L3 ] x= 392.2 y= 228.2 | stakeholder satisfaction
+[L3 ] x= 392.2 y= 239.6 | to 90% or higher.
+[L3 ] x= 392.2 y= 251.1 | SMA uses survey or
+[L3 ] x= 392.2 y= 262.6 | questionnaire for
+[L3 ] x= 392.2 y= 274.1 | information collection.
+[L4 ] x= 510.5 y= 205.1 | exchange with
+[L4 ] x= 510.5 y= 216.6 | regional agencies
+[L4 ] x= 510.5 y= 228.2 | and entities
+[L4 ] x= 510.5 y= 239.6 | improving
+[L4 ] x= 510.5 y= 251.1 | stakeholder
+[L4 ] x= 510.5 y= 262.6 | satisfaction to 95%
+[L4 ] x= 510.5 y= 274.1 | or higher.
+[L5 ] x= 616.8 y= 205.1 | with national
+[L5 ] x= 616.8 y= 216.6 | agencies and entities
+[L5 ] x= 616.8 y= 228.2 | improving stakeholder
+[L5 ] x= 616.8 y= 239.6 | satisfaction to 98% or
+[L5 ] x= 616.8 y= 251.1 | higher.

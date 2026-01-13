@@ -13,7 +13,7 @@
         "question": "Is the process primarily manual or automatic?",
         "levels": {
           "level_1": "The process consists primarily of manual paper-based activity to accomplish tasks. SMA scans or manually enters encounters into an electronic record format.",
-          "level_2": "SMA uses a mix of manual and automatic processes to accomplish tasks. SMA continues to accept paper encounters, but most managed care organizations submit encounters electronically. Process Encounter",
+          "level_2": "SMA uses a mix of manual and automatic processes to accomplish tasks. SMA continues to accept paper encounters, but most managed care organizations submit encounters electronically",
           "level_3": "SMA automates process to the full extent possible within the intrastate. Managed care organizations and any other external processor (e.g., Pharmacy Benefits Management (PBM), mental health, dental or other agencies) submit all encounters electronically. SMA adjudicates encounters via standardized business rules definitions according to methodologies of the National Correct Coding Initiative (NCCI).",
           "level_4": "SMA automates process to the full extent possible via regional standardized business rules definitions.",
           "level_5": "SMA automates process to the full extent possible via national standardized business rules definitions."
@@ -21,13 +21,24 @@
       },
       {
         "category": "Business Capability Descriptions",
-        "question": "Does the State Medicaid Agency use standards in the process? How integrated is the process?",
+        "question": "Does the State Medicaid Agency use standards in the process?",
         "levels": {
-          "level_1": "SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards. There is little coordination between the portions of SMA responsible for encounter processing.",
-          "level_2": "SMA applies a mix of HIPAA Accredited Standards Committee (ASC) X12 837 Health Care Claim and National Council for Prescription Drug Programs (NCPDP) and state-specific standards. SMA receives encounter information electronically or via web sites. SMA centralizes common processes to achieve economies of scale and increase coordination.",
-          "level_3": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards (e.g., code sets) for encounter processing. SMA fully integrates process between intrastate agencies and other entities.",
-          "level_4": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate encounter processing. SMA integrates process to the full extent possible across the interstate.",
-          "level_5": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national encounter processing. SMA integrates process to the full extent possible across the nation."
+          "level_1": "SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
+          "level_2": "SMA applies a mix of HIPAA Accredited Standards Committee (ASC) X12 837 Health Care Claim and National Council for Prescription Drug Programs (NCPDP) and state-specific standards. SMA receives encounter information electronically or via web sites.",
+          "level_3": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards (e.g., code sets) for encounter processing.",
+          "level_4": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate encounter processing.",
+          "level_5": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national encounter processing."
+        }
+      },
+      {
+        "category": "Business Capability Descriptions",
+        "question": "How integrated is the process?",
+        "levels": {
+          "level_1": "There is little coordination between the portions of SMA responsible for encounter processing.",
+          "level_2": "SMA centralizes common processes to achieve economies of scale and increase coordination.",
+          "level_3": "SMA fully integrates process between intrastate agencies and other entities.",
+          "level_4": "SMA integrates process to the full extent possible across the interstate.",
+          "level_5": "SMA integrates process to the full extent possible across the nation."
         }
       },
       {
@@ -46,7 +57,7 @@
         "question": "How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
         "levels": {
           "level_1": "Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
-          "level_2": "SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions. Process Encounter",
+          "level_2": "SMA collaborates with other agencies and entities to adopt HIPAA standards and Electronic Data Interchange (EDI) transactions",
           "level_3": "SMA collaborates with other intrastate agencies and entities to adopt national standards, and to develop and share reusable business services.",
           "level_4": "SMA collaborates with other interstate agencies and entities to adopt national standards, and to develop and share reusable processes including clinical information.",
           "level_5": "SMA collaborates with agencies and entities for national (and international) interoperability improvements that maximize automation of routine operations."
@@ -101,14 +112,14 @@
         "question": "How efficient is the process?",
         "levels": {
           "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
-          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1. Process Encounter",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1",
           "level_3": "SMA adopts MITA Framework, industry standards, by intrastate agencies and entities improving efficiency to 95% or higher.",
           "level_4": "SMA adopts MITA Framework, industry standards, by interstate agencies and entities improving efficiency to 98% or higher.",
           "level_5": "SMA adopts MITA Framework, industry standards, by national agencies and entities improving efficiency to 98% or higher."
         }
       },
       {
-        "category": "Business Capability Quality: Data Access and Accuracy",
+        "category": "Business Capability Quality: Accuracy of Process Results",
         "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "Manual processes result in greater opportunity for human error. Accuracy is low.",

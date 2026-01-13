@@ -24,7 +24,7 @@
         "question": "How is the information regarding the Contractor information validated?",
         "levels": {
           "level_1": "Validation is manual and subjective.",
-          "level_2": "Validation is consistent and based on business rules definitions. Manage Contractor Information",
+          "level_2": "Validation is consistent and based on business rules definitions.",
           "level_3": "SMA adopts MITA Framework, industry standards, and national standards within the intrastate that use standardized business rules definitions for consistent validation.",
           "level_4": "SMA adopts MITA Framework, industry standards, and national standards across the interstate that use regional standardized business rules definitions for consistent validation.",
           "level_5": "SMA adopts MITA Framework, industry standards, and national standards across the nation that uses national standardized business rules definitions for consistent validation."
@@ -57,7 +57,7 @@
         "question": "How timely is this end-to-end process?",
         "levels": {
           "level_1": "Process meets threshold or mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation). Maintenance of contract files, contract amendment, and related documents is a manual process.",
-          "level_2": "Process timeliness improves through use of automation. SMA scans and stores contracts, amendments, and Manage Contractor Information relevant documents. Timeliness exceeds legal requirements.",
+          "level_2": "Process timeliness improves through use of automation. SMA scans and stores contracts, amendments, and relevant documents. Timeliness exceeds legal requirements.",
           "level_3": "Timeliness improves via state and federal collaboration, use of information sharing, standards, and regional information exchange hubs. Timeliness exceeds Level 2.",
           "level_4": "Information is available in near real time. SMA has interstate interoperability, which further improves timeliness over Level 3.",
           "level_5": "Information is available in real time. Processes improve further through connectivity with other States and with federal agencies. Most processes execute at the point of service. Results are almost immediate."
@@ -68,7 +68,7 @@
         "question": "How accurate is the information in the process?",
         "levels": {
           "level_1": "Use of direct data entry for information collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
-          "level_2": "HIPAA standard transactions improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1. Manage Contractor Information",
+          "level_2": "HIPAA standard transactions improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1.",
           "level_3": "Automation of information collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework for information exchange. Decision- making is automatic using standardized business rules definitions. Accuracy is 98% or higher.",
           "level_4": "Automation of information collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework for information exchange by interstate agencies. Decision- making is automatic using regional standardized business rules definitions. Accuracy is 98% or higher.",
           "level_5": "SMA adopts MITA Framework for national information exchange. Decision- making is automatic using national standardized business rules definitions. Accuracy is 98% or higher."
@@ -90,7 +90,7 @@
         "question": "What is the cost of the process compared to the benefits of the results?",
         "levels": {
           "level_1": "High relative cost due to low number of automatic, standardized tasks.",
-          "level_2": "Automation improves process and allows focus on exception resolution, improving cost effectiveness ratio over Level 1. Manage Contractor Information",
+          "level_2": "Automation improves process and allows focus on exception resolution, improving cost effectiveness ratio over Level 1.",
           "level_3": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards further improving cost effectiveness ratio over Level 2.",
           "level_4": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for interstate information exchange. SMA increases cost effectiveness ratio over Level 3.",
           "level_5": "SMA adopts MITA Framework, industry standards, and other nationally recognized standards for national (and international) information exchange. SMA increases cost effectiveness ratio over level 4."
@@ -108,11 +108,11 @@
         }
       },
       {
-        "category": "Business Capability Quality: Data Access and Accuracy",
+        "category": "Business Capability Quality: Accuracy of Process Results",
         "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "Manual processes result in greater opportunity for human error. Accuracy is low.",
-          "level_2": "Automation and standardized business rules definitions reduce error and improve accuracy above Level 1. Manage Contractor Information",
+          "level_2": "Automation and standardized business rules definitions reduce error and improve accuracy above Level 1.",
           "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving accuracy to 90% or higher.",
           "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving accuracy to 98% or higher.",
           "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving accuracy to 98% or higher."

@@ -25,7 +25,7 @@
         "question": "Does the State Medicaid Agency use standards in the process?",
         "levels": {
           "level_1": "SMA focuses on meeting compliance thresholds for state and federal regulations using state-specific standards.",
-          "level_2": "SMA applies a mix of HIPAA and state- specific standards. Inquire Member Eligibility",
+          "level_2": "SMA applies a mix of HIPAA and state- specific standards",
           "level_3": "SMA adopts MITA Framework, industry standards (e.g., HIPAA, Affordable Care Act) and other nationally recognized standards for intrastate exchange of member eligibility information.",
           "level_4": "SMA adopts MITA Framework, industry standards (e.g., HIPAA, Affordable Care Act) and other nationally recognized standards for interstate exchange of member eligibility information and actively participates in the ongoing development of related standards.",
           "level_5": "SMA adopts MITA Framework, industry standards e.g., HIPAA, Affordable Care Act), and other nationally recognized standards for national exchange of member elgibility information, actively participates in the ongoing development of standards, and works with other States and federal agencies to develop and adopt standards related to eligibility inquiry process."
@@ -36,7 +36,7 @@
         "question": "How does the State Medicaid Agency collaborate with other agencies or entities in performing the process?",
         "levels": {
           "level_1": "Very little collaboration occurs with other agencies to standardize information exchange or business tasks.",
-          "level_2": "The agency collaborates with other agencies and entities to adopt HIPAA standards and EDI transactions. Inquire Member Eligibility",
+          "level_2": "The agency collaborates with other agencies and entities to adopt HIPAA standards and EDI transactions",
           "level_3": "SMA collaborates with insurance affordability programs to develop and implement common eligibility inquiry standards.",
           "level_4": "SMA participates in a joint governance effort with the Marketplace and CHIP agency to manage the eligibility inquiry process.",
           "level_5": "SMA participates in a joint governance effort with the Marketplace and CHIP agency to manage the eligibility inquiry process. The SMA works with state and national data sources, the Marketplace, and CHIP agency to establish data exchanges and supporting activities with programs in other States."
@@ -58,7 +58,7 @@
         "question": "How accurate is the information in the process?",
         "levels": {
           "level_1": "Use of direct data entry for information collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
-          "level_2": "HIPAA standard transactions improve accuracy of information but the decision-making process may be erroneous or Inquire Member Eligibility misleading. Accuracy is higher than at Level 1.",
+          "level_2": "HIPAA standard transactions improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1.",
           "level_3": "SMA adopts MITA Framework and industry standards for eligibillity inquiries. Decision- making is automatic using business rule engines Accuracy is 90% or higher.",
           "level_4": "SMA adopts MITA Framework and industry standards for eligibillity inquiries. Decision- making is automatic using business rule engines. Accuracy is 95% or higher.",
           "level_5": "SMA uses Marketplace, MITA Framework, and national standards for eligibility inquiries. Decision-making is automatic using business rule engines. Accuracy is 98% or higher."
@@ -80,7 +80,7 @@
         "question": "What is the cost of the process compared to the benefits of its results?",
         "levels": {
           "level_1": "High relative cost due to low number of automated, standardized tasks.",
-          "level_2": "Automation improves process and allows focus on exception resolution, increasing cost effectiveness ratio over Level 1. Inquire Member Eligibility",
+          "level_2": "Automation improves process and allows focus on exception resolution, increasing cost effectiveness ratio over Level 1",
           "level_3": "SMA adopts Marketplace, MITA Framework, and intrastate standard messages and other nationally recognized standards further increasing cost effectiveness ratio over Level 2.",
           "level_4": "SMA adopts Marketplace, MITA Framework, regional standard messages and other nationally recognized standards for information exchange increasing cost effectiveness ratio over Level 3.",
           "level_5": "SMA adopts Marketplace, MITA Framework, industry standards, and other nationally recognized standards for national information exchange. SMA increases cost effectiveness ratio over level 4."
@@ -98,11 +98,11 @@
         }
       },
       {
-        "category": "Business Capability Quality: Data Access and Accuracy",
+        "category": "Business Capability Quality: Accuracy of Process Results",
         "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "Manual processes results in greater opportunity for human error. Accuracy is low.",
-          "level_2": "Automation and business rules reduce error and improve accuracy above Level 1. Inquire Member Eligibility",
+          "level_2": "Automation and business rules reduce error and improve accuracy above Level 1",
           "level_3": "SMA adopts standard messages for interacting with other state agencies and entities, improving accuracy to 90% or higher.",
           "level_4": "SMA adopts standard messages for interacting with agencies and entities across some states improving accuracy to 95% or higher.",
           "level_5": "SMA adopts standard messages for interacting with agencies and entities across all states improving accuracy to 98% or higher."

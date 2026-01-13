@@ -46,7 +46,7 @@
         "question": "How timely is the end-to-end inquiry process?",
         "levels": {
           "level_1": "Process meets threshold or mandated requirements for timeliness (i.e., the process achieves results within the time specified by law or regulation).",
-          "level_2": "Process timeliness improves through use of automation. Timeliness exceeds legal requirements. Inquire Provider Information",
+          "level_2": "Process timeliness improves through use of automation. Timeliness exceeds legal requirements",
           "level_3": "Timeliness improves via state and federal collaboration, use of provider inquiry information sharing, standards, and regional information exchange hubs. Timeliness is ten (10) seconds or less.",
           "level_4": "Information Provider enrollment information is available in near real time. Provider inquiry processes that use clinical provider inquiry information result in immediate action, response, and results. SMA has regional interoperability, which further improves timeliness over Level 3.",
           "level_5": "Provider enrollment information is available in real time. Provider inquiry processes improve further through connectivity with other States and with federal agencies. Most provider inquiry processes execute at the point of service. Results are almost immediate."
@@ -90,14 +90,14 @@
         "question": "How efficient is the process?",
         "levels": {
           "level_1": "Process is labor intensive. There is wasted effort or expense to accomplish tasks. Process meets minimum state process guidelines and SMA performance standards. Efficiency is low.",
-          "level_2": "Automation and state standards increase productivity. Inquire Provider Information Efficiency is higher than Level 1.",
+          "level_2": "Automation and state standards increase productivity. Efficiency is higher than Level 1.",
           "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving efficiency to 95% or higher.",
           "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving efficiency to 98% or higher.",
           "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving efficiency to 98% or higher."
         }
       },
       {
-        "category": "Business Capability Quality: Data Access and Accuracy",
+        "category": "Business Capability Quality: Accuracy of Process Results",
         "question": "How accurate are the results of the process?",
         "levels": {
           "level_1": "Manual processes result in greater opportunity for human error. Accuracy is low.",
@@ -112,7 +112,7 @@
         "question": "Does the business process satisfy stakeholders?",
         "levels": {
           "level_1": "Stakeholders lack confidence in information negatively affecting stakeholder satisfaction with the process.",
-          "level_2": "Automation and standardization provides clear and useful information. Inquire Provider Information Stakeholder satisfaction is greater than Level 1.",
+          "level_2": "Automation and standardization provides clear and useful information. Stakeholder satisfaction is greater than Level 1.",
           "level_3": "SMA adopts MITA Framework, industry standards and information exchange with intrastate agencies and entities improving stakeholder satisfaction to 90% or higher. SMA uses survey or questionnaire for information collection.",
           "level_4": "SMA adopts MITA Framework, industry standards and information exchange with interstate agencies and entities improving stakeholder satisfaction to 95% or higher.",
           "level_5": "SMA adopts MITA Framework, industry standards and information exchange with national agencies and entities improving stakeholder satisfaction to 98% or higher."

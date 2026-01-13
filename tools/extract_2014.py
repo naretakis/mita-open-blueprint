@@ -1488,7 +1488,38 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
                 question_text = note_match.group(3).strip()
         
         # If we have a question ending with ?, this completes the question text
+        # BUT first check if this is a NEW question starting (previous question already complete)
         if '?' in question_text:
+            question_starters = ['Is ', 'How ', 'What ', 'Does ', 'Are ', 'Can ', 'Will ', 'Is the ', 'How does ', 'What is ', 'Does the ', 'Are the ', 'Can the ', 'Will the ']
+            starts_with_question_word = any(question_text.startswith(w) for w in question_starters)
+            
+            # Check if we already have a complete question (has ?) and this is a new one starting
+            if question_text_parts and starts_with_question_word:
+                existing_text = ' '.join(question_text_parts)
+                if '?' in existing_text:
+                    # Previous question is complete - save it first
+                    q_obj = {
+                        'category': current_category,
+                        'question': clean_text(existing_text),
+                        'levels': {k: format_bcm_level_text(v) for k, v in current_levels.items()}
+                    }
+                    if current_note_parts:
+                        q_obj['note'] = clean_text(' '.join(current_note_parts))
+                    questions.append(q_obj)
+                    seen_first_question = True
+                    # Start fresh with this new question
+                    question_text_parts = [question_text]
+                    current_note_parts = []
+                    current_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+                    pending_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+                    in_question = True
+                    # Collect level content for this new question
+                    for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
+                        if row_by_col[level]:
+                            current_levels[level].extend(row_by_col[level])
+                    continue
+            
+            # Normal case - append to current question
             question_text_parts.append(question_text)
             in_question = True
             # Merge pending levels (collected before ?) with current levels
@@ -1568,8 +1599,36 @@ def extract_bcm_with_positions(pdf_path, process_name, start_page, end_page):
                 continue
             
             # Skip if this looks like a process/area header (contains "Management" but no question words)
-            question_starters = ['Is ', 'How ', 'What ', 'Does ', 'Are ', 'Can ', 'Will ']
-            has_question_word = any(question_text.startswith(w) or f' {w}' in question_text for w in question_starters)
+            question_starters = ['Is ', 'How ', 'What ', 'Does ', 'Are ', 'Can ', 'Will ', 'Is the ', 'How does ', 'What is ', 'Does the ', 'Are the ', 'Can the ', 'Will the ']
+            has_question_word = any(question_text.startswith(w) for w in question_starters)
+            
+            # Check if this looks like a NEW question starting while we're still building the previous one
+            # This happens when questions are on consecutive rows without a clear separator
+            if question_text_parts and has_question_word:
+                # We have existing question parts AND this row starts with a question word
+                # Check if the existing parts already form a complete question (has ?)
+                existing_text = ' '.join(question_text_parts)
+                if '?' in existing_text:
+                    # Previous question is complete - save it and start new one
+                    q_obj = {
+                        'category': current_category,
+                        'question': clean_text(existing_text),
+                        'levels': {k: format_bcm_level_text(v) for k, v in pending_levels.items()}
+                    }
+                    if current_note_parts:
+                        q_obj['note'] = clean_text(' '.join(current_note_parts))
+                    questions.append(q_obj)
+                    seen_first_question = True
+                    # Start fresh
+                    question_text_parts = [question_text]
+                    current_note_parts = []
+                    current_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+                    pending_levels = {'level_1': [], 'level_2': [], 'level_3': [], 'level_4': [], 'level_5': []}
+                    # Collect level content for this new question
+                    for level in ['level_1', 'level_2', 'level_3', 'level_4', 'level_5']:
+                        if row_by_col[level]:
+                            pending_levels[level].extend(row_by_col[level])
+                    continue
             
             # If we already have question parts that look like a question, keep building
             # Otherwise, only add if this looks like question content
