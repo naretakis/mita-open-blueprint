@@ -46,8 +46,9 @@ When CMS releases new MITA versions:
 
 1. Open an issue to discuss the new version
 2. Follow the conversion methodology in `docs/CONVERSION_METHODOLOGY.md`
-3. Validate all conversions
-4. Submit a Pull Request with the new data
+3. Archive existing data (see `docs/2014_MIGRATION_PROJECT.md` for reference)
+4. Validate all conversions using `tools/validate_2014.py`
+5. Submit a Pull Request with the new data
 
 ### 5. Enhance Tooling
 
@@ -116,6 +117,7 @@ Before submitting changes to JSON files:
 3. **Content Accuracy**: Verify against source PDF
 4. **Completeness**: Include all required fields
 5. **Consistency**: Follow naming conventions
+6. **Run Validation**: Execute `python tools/validate_2014.py` to verify all files pass
 
 ### Source Verification
 
@@ -125,6 +127,7 @@ All data changes must be verifiable against source PDFs:
 - Quote relevant source text
 - Explain any interpretation decisions
 - Document any ambiguities in source material
+- Source PDFs are located in `source-pdfs/may-2014-update/` (current) and `source-pdfs/archived-2012-versions/` (historical)
 
 ## Issue Templates
 
@@ -165,6 +168,7 @@ Pull requests are evaluated on:
 
 - [Data Structure Guide](docs/DATA_STRUCTURE.md)
 - [Conversion Methodology](docs/CONVERSION_METHODOLOGY.md)
+- [2014 Migration Project](docs/2014_MIGRATION_PROJECT.md)
 - [Usage Examples](docs/EXAMPLES.md)
 - [Official CMS MITA Documentation](https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework)
 

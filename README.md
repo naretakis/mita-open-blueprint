@@ -4,21 +4,22 @@ A comprehensive, machine-readable dataset of CMS MITA (Medicaid Information Tech
 
 ## Overview
 
-This repository contains all 144 MITA v3.0 documents converted from PDF to structured JSON format:
-- **72 BPT files** - Business Process Templates with detailed process steps and workflows
-- **72 BCM files** - Business Capability Maturity models with 5-level maturity assessments
+This repository contains all 152 MITA v3.0 documents (May 2014 Update) converted from PDF to structured JSON format:
+- **76 BPT files** - Business Process Templates with detailed process steps and workflows
+- **76 BCM files** - Business Capability Maturity models with 5-level maturity assessments
 
-The data covers all 10 MITA business areas:
+The data covers 9 MITA business areas:
 - Business Relationship Management
 - Care Management
 - Contractor Management
 - Eligibility and Enrollment Management
 - Financial Management
-- Member Management
 - Operations Management
 - Performance Management
 - Plan Management
 - Provider Management
+
+> **Note**: Member Management is defined in the MITA framework but has no published BCM/BPT documents.
 
 ## Quick Start
 
@@ -168,7 +169,9 @@ See [docs/DATA_STRUCTURE.md](docs/DATA_STRUCTURE.md) for complete schema documen
 - **[Data Structure Guide](docs/DATA_STRUCTURE.md)** - Complete field definitions and schemas
 - **[Conversion Methodology](docs/CONVERSION_METHODOLOGY.md)** - How PDFs were converted to JSON
 - **[Usage Examples](docs/EXAMPLES.md)** - Common queries and usage patterns
+- **[2014 Migration Project](docs/2014_MIGRATION_PROJECT.md)** - Details of the 2012→2014 migration
 - **[Source PDFs](source-pdfs/)** - Original CMS MITA PDF documents
+- **[Archived 2012 Data](data-archived-2012/)** - Previous MITA v3.0 (February 2012) data
 
 ## Validation
 
@@ -181,18 +184,21 @@ To validate the data yourself:
 
 ```bash
 cd tools
-python comprehensive_validation.py
+python validate_2014.py           # Quick validation for 2014 schema
+python comprehensive_validation.py # Full validation suite
 ```
+
+A visual QA tool is also available at `tools/viewer.html` for browsing the JSON data.
 
 See [tools/README.md](tools/README.md) for more information.
 
 ## Statistics
 
-- **Total Files**: 144 (72 BCM + 72 BPT)
-- **BCM Questions**: 729 capability questions
-- **BCM Maturity Levels**: 3,645 level descriptions
-- **BPT Process Steps**: 693 documented steps
-- **Business Areas**: 10 complete domains
+- **Total Files**: 152 (76 BCM + 76 BPT)
+- **BCM Questions**: 815 capability questions
+- **BCM Maturity Levels**: 4,075 level descriptions
+- **BPT Process Steps**: 822 documented steps
+- **Business Areas**: 9 complete domains
 
 ## Contributing
 
@@ -203,7 +209,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
 
 ## Attribution & Disclaimer
 
-This dataset is derived from the **CMS Medicaid Information Technology Architecture (MITA) Framework Version 3.0**, published by the Centers for Medicare & Medicaid Services (CMS).
+This dataset is derived from the **CMS Medicaid Information Technology Architecture (MITA) Framework Version 3.0 (May 2014 Update)**, published by the Centers for Medicare & Medicaid Services (CMS).
 
 **Original Source**: [CMS MITA Framework](https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-architecture/medicaid-information-technology-architecture-framework)
 
@@ -230,8 +236,22 @@ See [LICENSE](LICENSE) for full license text.
 
 ## Changelog
 
+### Version 2.0.0 (January 2026)
+- **Major update**: Migrated from MITA v3.0 (February 2012) to MITA v3.0 Update (May 2014)
+- Increased from 144 to 152 files (72 → 76 BCM, 72 → 76 BPT)
+- Added 4 new Member-related processes in Eligibility & Enrollment Management:
+  - Determine Member Eligibility
+  - Enroll Member
+  - Disenroll Member
+  - Inquire Member Eligibility
+- Enhanced trigger events with environment-based and interaction-based categorization
+- Added process flow diagrams for Eligibility & Enrollment BPTs
+- Archived 2012 data to `data-archived-2012/` for historical reference
+- New validation tools: `validate_2014.py`, `viewer.html`
+- Updated extraction tooling for 2014 PDF structure
+
 ### Version 1.0.0 (December 2025)
-- Initial release with all MITA v3.0 BCM and BPT documents
+- Initial release with all MITA v3.0 BCM and BPT documents (February 2012)
 - 144 files converted and validated
 - Complete documentation and validation tools
 
@@ -243,5 +263,5 @@ See [LICENSE](LICENSE) for full license text.
 
 ---
 
-**Last Updated**: December 2025  
-**MITA Version**: 3.0 (February 2012)
+**Last Updated**: January 2026  
+**MITA Version**: 3.0 Update (May 2014)
