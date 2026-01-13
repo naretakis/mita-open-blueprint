@@ -13,7 +13,7 @@
         "Periodic timetable (e.g., daily, weekly) is due for adjudication and payment cycles."
       ],
       "interaction_based": [
-        "Receive encounter via Accredited Standards Committee (ASC) X12 837 Health OM Claims Adjudication Process Encounter Item Details Care Claim encounter transactions.",
+        "Receive encounter via Accredited Standards Committee (ASC) X12 837 Health Care Claim encounter transactions.",
         "Receive Retail Pharmacy Encounter Transaction (National Council for Prescription Drug Programs (NCPDP) Telecommunications Standard)."
       ]
     },

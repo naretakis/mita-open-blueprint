@@ -1,0 +1,2147 @@
+====================================================================================================
+PLAN MANAGEMENT BPT - RAW DUMP FOR MANUAL JSON VERIFICATION
+====================================================================================================
+
+This file contains raw text extracted from the PDF with position information.
+Use this to verify the BPT JSON files are accurate.
+
+
+================================================================================
+PAGE 1
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 187
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Develop Agency Goals and Objectives
+[x=  77.4 y= 133.2] PL Plan Administration
+[x= 205.7 y= 152.4] Develop Agency Goals and Objectives
+[x= 102.1 y= 171.5] Item
+[x= 329.4 y= 171.5] Details
+[x=  77.4 y= 185.5] Description
+[x= 160.3 y= 185.5] The
+[x= 180.4 y= 185.5] Develop Agency Goals and Objectives
+[x= 362.7 y= 185.5] business process periodically
+[x= 160.3 y= 197.0] assesses and prioritizes the current mission statement, goals, and objectives to
+[x= 160.3 y= 208.5] determine if changes are necessary. Goals and objectives may warrant change for
+[x= 160.3 y= 220.0] example, under a new administration, in response to changes in demographics,
+[x= 160.3 y= 231.5] public opinion or medical industry trends, or in response to regional or national
+[x= 160.3 y= 243.0] disasters.
+[x=  77.4 y= 257.0] Trigger Event
+[x= 160.3 y= 257.0] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 274.2] 
+[x= 178.3 y= 275.2] Periodic timetable (e.g., annual) is due for review of goals and objectives.
+[x= 160.3 y= 292.3] 
+[x= 178.3 y= 293.3] Periodic timetable (e.g., annual) is due to implement new goals or objectives.
+[x= 160.3 y= 310.5] 
+[x= 178.3 y= 311.5] Ad hoc request for goals or objectives updates.
+[x=  77.4 y= 330.5] Result
+[x= 160.3 y= 335.2] 
+[x= 178.3 y= 336.2] The State Medicaid Agency (SMA) defines new or modified statement of goals
+[x= 178.3 y= 347.7] or objectives.
+[x= 160.3 y= 364.9] 
+[x= 178.3 y= 365.9] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 377.4] activity monitoring.
+[x=  77.4 y= 396.5] Business
+[x=  77.4 y= 407.9] Process Steps
+[x= 160.3 y= 401.4] 1.
+[x= 178.3 y= 401.4] START.
+[x= 214.4 y= 401.4] Receive notice that the SMA requires a review of current goals and
+[x= 178.3 y= 412.9] objectives or the review interval is due.
+[x= 160.3 y= 430.4] 2. Review existing goals, objectives, and priorities.
+[x= 160.3 y= 447.9] 3. Review information such as current performance measurements, industry
+[x= 178.3 y= 459.4] successes, budget, and other States/programs successes.
+[x= 160.3 y= 476.9] 4. Convene Stakeholders.
+[x= 160.3 y= 494.3] 5. Develop consensus on changes and priorities.
+[x= 160.3 y= 511.9] 6.
+[x= 178.3 y= 511.9] END
+[x= 199.5 y= 511.9] . Publish new or revised statement of goals and objectives, including
+[x= 178.3 y= 523.4] performance measurements and priorities.
+[x=  77.4 y= 542.4] Shared Data
+[x= 160.3 y= 547.4] Plan data store including Medicaid State Plan, health plan, health benefits,
+[x= 160.3 y= 558.8] performance measures, and benchmarks information
+[x= 160.3 y= 576.4] Business Activity data store including performance information (e.g., Consumer
+[x= 160.3 y= 587.9] Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare
+[x= 160.3 y= 599.3] Effectiveness Data and Information Set (HEDIS) measures)
+[x=  77.4 y= 618.4] Predecessor
+[x= 160.3 y= 623.5] Manage Performance Measures
+[x=  77.4 y= 642.4] Successor
+[x= 160.3 y= 647.5] Manage Health Plan Information
+[x= 160.3 y= 665.0] Manage Health Benefit Information
+[x= 160.3 y= 682.5] Maintain Program Policy
+[x= 160.3 y= 700.0] Maintain State Plan
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 187 
+May 2014 
+Version 3.0 
+ 
+ 
+Develop Agency Goals and Objectives 
+PL Plan Administration 
+Develop Agency Goals and Objectives 
+Item 
+Details 
+Description 
+The Develop Agency Goals and Objectives business process periodically 
+assesses and prioritizes the current mission statement, goals, and objectives to 
+determine if changes are necessary. Goals and objectives may warrant change for 
+example, under a new administration, in response to changes in demographics, 
+public opinion or medical industry trends, or in response to regional or national 
+disasters. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic timetable (e.g., annual) is due for review of goals and objectives.  
+ 
+Periodic timetable (e.g., annual) is due to implement new goals or objectives. 
+ 
+Ad hoc request for goals or objectives updates. 
+Result 
+ 
+The State Medicaid Agency (SMA) defines new or modified statement of goals 
+or objectives. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START. Receive notice that the SMA requires a review of current goals and 
+objectives or the review interval is due. 
+2. Review existing goals, objectives, and priorities. 
+3. Review information such as current performance measurements, industry 
+successes, budget, and other States/programs successes. 
+4. Convene Stakeholders. 
+5. Develop consensus on changes and priorities. 
+6. END. Publish new or revised statement of goals and objectives, including 
+performance measurements and priorities. 
+Shared Data 
+Plan data store including Medicaid State Plan, health plan, health benefits, 
+performance measures, and benchmarks information 
+Business Activity data store including performance information (e.g., Consumer 
+Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare 
+Effectiveness Data and Information Set (HEDIS) measures) 
+Predecessor 
+Manage Performance Measures 
+Successor 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Maintain Program Policy 
+Maintain State Plan  
+
+
+================================================================================
+PAGE 2
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 188
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Plan Administration
+[x= 205.7 y= 125.7] Develop Agency Goals and Objectives
+[x= 102.1 y= 144.8] Item
+[x= 329.4 y= 144.8] Details
+[x= 160.3 y= 157.9] Manage Performance Measures
+[x=  77.4 y= 176.8] Constraints
+[x= 160.3 y= 181.8] Economic conditions shift, making less revenue available to fund the approved and
+[x= 160.3 y= 193.3] planned budget.
+[x= 160.3 y= 210.8] The State Medicaid Agency will comply with federal and state regulations.
+[x=  77.4 y= 229.9] Failures
+[x= 160.3 y= 234.5] 
+[x= 178.3 y= 235.5] Stakeholders are unable to reach consensus on the SMA goals and objectives.
+[x=  77.4 y= 254.6] Performance
+[x=  77.4 y= 266.0] Measures
+[x= 160.3 y= 259.2] 
+[x= 178.3 y= 260.2] Time to complete the process = within __ days, ___ weeks
+[x= 160.3 y= 277.3] 
+[x= 178.3 y= 278.3] Achievement of goals and objectives linked to policy implementation
+[x=  72.0 y= 321.3] Maintain Program Policy
+[x=  77.4 y= 354.3] PL Plan Administration
+[x= 241.8 y= 373.5] Maintain Program Policy
+[x= 102.1 y= 392.6] Item
+[x= 329.4 y= 392.6] Details
+[x=  77.4 y= 406.6] Description
+[x= 160.3 y= 406.6] The
+[x= 180.4 y= 406.6] Maintain Program Policy
+[x= 297.0 y= 406.6] Business Process responds to requests or needs for
+[x= 160.3 y= 418.1] change in the enterprise’s programs, benefits, or business rules, based on factors
+[x= 160.3 y= 429.6] such as federal or state regulations, governing board or commission directives,
+[x= 160.3 y= 441.1] Quality Improvement Organization’s findings, federal or state audits, enterprise
+[x= 160.3 y= 452.6] decisions, or consumer pressure.
+[x=  77.4 y= 466.6] Trigger Event
+[x= 160.3 y= 466.6] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 483.8] 
+[x= 178.3 y= 484.8] Periodic timetable (e.g., annual) is due for review of program policy.
+[x= 160.3 y= 502.0] 
+[x= 178.3 y= 503.0] Periodic timetable (e.g., annual) is due to implement new program policy or
+[x= 178.3 y= 514.4] modification.
+[x= 160.3 y= 531.6] 
+[x= 178.3 y= 532.6] Ad hoc request for program policy updates.
+[x=  77.4 y= 551.6] Result
+[x= 160.3 y= 556.3] 
+[x= 178.3 y= 557.3] The State Medicaid Agency (SMA) defines new or modified statement of
+[x= 178.3 y= 568.8] program policy.
+[x= 160.3 y= 586.0] 
+[x= 178.3 y= 587.0] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 598.5] activity monitoring.
+[x=  77.4 y= 617.6] Business
+[x=  77.4 y= 629.0] Process Steps
+[x= 160.3 y= 622.5] 1.
+[x= 178.3 y= 622.5] START
+[x= 211.7 y= 622.5] : Receive request to add, delete, or change policy.
+[x= 160.3 y= 640.0] 2. Request information to analyze policy.
+[x= 160.3 y= 657.5] 3. Assess impact of policy on budget, stakeholders, and other benefits.
+[x= 160.3 y= 675.0] 4. Formulate and publish policy.
+[x= 160.3 y= 692.5] 5. Hold public hearings.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 188 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Plan Administration 
+Develop Agency Goals and Objectives 
+Item 
+Details 
+Manage Performance Measures 
+Constraints 
+Economic conditions shift, making less revenue available to fund the approved and 
+planned budget. 
+The State Medicaid Agency will comply with federal and state regulations. 
+Failures 
+ 
+Stakeholders are unable to reach consensus on the SMA goals and objectives. 
+Performance 
+Measures 
+ 
+Time to complete the process = within __ days, ___ weeks 
+ 
+Achievement of goals and objectives linked to policy implementation 
+ 
+Maintain Program Policy 
+PL Plan Administration 
+Maintain Program Policy 
+Item 
+Details 
+Description 
+The Maintain Program Policy Business Process responds to requests or needs for 
+change in the enterprise’s programs, benefits, or business rules, based on factors 
+such as federal or state regulations, governing board or commission directives, 
+Quality Improvement Organization’s findings, federal or state audits, enterprise 
+decisions, or consumer pressure. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic timetable (e.g., annual) is due for review of program policy. 
+ 
+Periodic timetable (e.g., annual) is due to implement new program policy or 
+modification. 
+ 
+Ad hoc request for program policy updates. 
+Result 
+ 
+The State Medicaid Agency (SMA) defines new or modified statement of 
+program policy. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request to add, delete, or change policy. 
+2. Request information to analyze policy. 
+3. Assess impact of policy on budget, stakeholders, and other benefits. 
+4. Formulate and publish policy. 
+5. Hold public hearings. 
+
+
+================================================================================
+PAGE 3
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 189
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Plan Administration
+[x= 241.8 y= 125.7] Maintain Program Policy
+[x= 102.1 y= 144.8] Item
+[x= 329.4 y= 144.8] Details
+[x= 160.3 y= 157.8] 6. Revise policy.
+[x= 160.3 y= 175.3] 7. Seek all federal and state administrative and regulatory approvals.
+[x= 160.3 y= 192.8] 8. If applicable, assess impact of requested revisions.
+[x= 160.3 y= 210.3] 9. Determine effective date and date span for policy in coordination with other
+[x= 178.3 y= 221.8] enterprise considerations.
+[x= 160.3 y= 239.3] 10. If applicable, develop training plan for new policy.
+[x= 160.3 y= 256.8] 11. Develop implementation plan for policy.
+[x= 160.3 y= 274.3] 12.
+[x= 178.3 y= 274.3] END
+[x= 199.5 y= 274.3] : Disseminate policy.
+[x=  77.4 y= 293.3] Shared Data
+[x= 160.3 y= 298.3] Plan data store including Medicaid State Plan, health plan, health benefits,
+[x= 160.3 y= 309.8] performance measures, and benchmarks information
+[x= 160.3 y= 327.3] Business Activity data store including performance information (e.g., Consumer
+[x= 160.3 y= 338.8] Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare
+[x= 160.3 y= 350.3] Effectiveness Data and Information Set (HEDIS) measures)
+[x=  77.4 y= 369.3] Predecessor
+[x= 160.3 y= 374.4] Develop Agency Goals and Objectives
+[x= 160.3 y= 391.9] Manage Performance Measures
+[x= 160.3 y= 409.4] Maintain State Plan
+[x=  77.4 y= 428.3] Successor
+[x= 160.3 y= 433.4] Manage Health Plan Information
+[x= 160.3 y= 450.9] Manage Health Benefit Information
+[x= 160.3 y= 468.4] Maintain State Plan
+[x= 160.3 y= 485.9] Manage Performance Measures
+[x= 160.3 y= 503.4] Establish Business Relationship
+[x=  77.4 y= 522.3] Constraints
+[x= 160.3 y= 527.3] Economic conditions shift, making less revenue available to fund the approved and
+[x= 160.3 y= 538.8] planned budget.
+[x= 160.3 y= 556.3] The SMA will comply with federal and state regulations.
+[x=  77.4 y= 575.3] Failures
+[x= 160.3 y= 580.0] 
+[x= 178.3 y= 581.0] Cost/benefit analysis does not support proposed policy.
+[x= 160.3 y= 598.1] 
+[x= 178.3 y= 599.1] Inability to obtain necessary approvals.
+[x=  77.4 y= 618.2] Performance
+[x=  77.4 y= 629.7] Measures
+[x= 160.3 y= 622.8] 
+[x= 178.3 y= 623.8] Time to complete the process = within __ days, ___ weeks
+[x= 160.3 y= 641.0] 
+[x= 178.3 y= 642.0] Achievement of goals and objectives linked to policy implementation
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 189 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Plan Administration 
+Maintain Program Policy 
+Item 
+Details 
+6. Revise policy. 
+7. Seek all federal and state administrative and regulatory approvals. 
+8. If applicable, assess impact of requested revisions.  
+9. Determine effective date and date span for policy in coordination with other 
+enterprise considerations. 
+10. If applicable, develop training plan for new policy. 
+11. Develop implementation plan for policy. 
+12. END: Disseminate policy. 
+Shared Data 
+Plan data store including Medicaid State Plan, health plan, health benefits, 
+performance measures, and benchmarks information 
+Business Activity data store including performance information (e.g., Consumer 
+Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare 
+Effectiveness Data and Information Set (HEDIS) measures) 
+Predecessor 
+Develop Agency Goals and Objectives 
+Manage Performance Measures 
+Maintain State Plan 
+Successor 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Maintain State Plan  
+Manage Performance Measures 
+Establish Business Relationship 
+Constraints 
+Economic conditions shift, making less revenue available to fund the approved and 
+planned budget. 
+The SMA will comply with federal and state regulations. 
+Failures 
+ 
+Cost/benefit analysis does not support proposed policy. 
+ 
+Inability to obtain necessary approvals. 
+Performance 
+Measures 
+ 
+Time to complete the process = within __ days, ___ weeks 
+ 
+Achievement of goals and objectives linked to policy implementation 
+ 
+ 
+ 
+
+
+================================================================================
+PAGE 4
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 190
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Maintain State Plan
+[x=  77.4 y= 133.2] PL Plan Administration
+[x= 255.5 y= 152.4] Maintain State Plan
+[x= 102.3 y= 171.5] Item
+[x= 329.6 y= 171.5] Details
+[x=  77.4 y= 185.5] Description
+[x= 160.7 y= 185.5] The
+[x= 180.7 y= 185.5] Maintain State Plan
+[x= 272.4 y= 185.5] business process responds to the scheduled and
+[x= 160.7 y= 197.0] unscheduled prompts to update and revise the Medicaid State Plan. The Medicaid
+[x= 160.7 y= 208.5] State Plan is the officially recognized statement describing the nature and scope of
+[x= 160.7 y= 220.0] the State Medicaid program as required under Section 1902 of the Social Security
+[x= 160.7 y= 231.5] Act.
+[x=  77.4 y= 245.5] Trigger Event
+[x= 160.7 y= 245.5] Environment-based Trigger Events to include but not limited to:
+[x= 160.7 y= 262.7] 
+[x= 178.7 y= 263.7] Periodic timetable (e.g., annual) is due for review of Medicaid State Plan.
+[x= 160.7 y= 280.8] 
+[x= 178.7 y= 281.8] Periodic timetable (e.g., annual) is due to implement new policy or modification.
+[x= 160.7 y= 299.0] 
+[x= 178.7 y= 300.0] Ad hoc request for Medicaid State Plan updates.
+[x=  77.4 y= 319.1] Result
+[x= 160.7 y= 323.7] 
+[x= 178.7 y= 324.7] The State Medicaid Agency (SMA) defines new or modified Medicaid State
+[x= 178.7 y= 336.2] Plan.
+[x= 160.7 y= 353.4] 
+[x= 178.7 y= 354.4] Tracking information as needed for measuring performance and business
+[x= 178.7 y= 365.9] activity monitoring.
+[x=  77.4 y= 385.0] Business
+[x=  77.4 y= 396.4] Process Steps
+[x= 160.7 y= 389.9] 1.
+[x= 178.7 y= 389.9] START:
+[x= 215.4 y= 389.9] Receive prompt or notification to review and update Medicaid State
+[x= 178.7 y= 401.4] Plan.
+[x= 160.7 y= 418.9] 2. Review relevant current Medicaid State Plan documentation.
+[x= 160.7 y= 436.4] 3. Analyze requirements for change to Medicaid State Plan.
+[x= 160.7 y= 453.9] 4. Research information associated with the change.
+[x= 160.7 y= 471.4] 5. Analyze impact of the change and determine whether to move forward with
+[x= 178.7 y= 482.9] modification based on results of analysis:
+[x= 196.7 y= 500.3] a. If no modifications to Medicaid State Plan are necessary,
+[x= 469.3 y= 500.3] END:
+[x= 214.7 y= 511.9] Business process stops.
+[x= 196.7 y= 529.4] b. If necessary, request a waiver for submission in accordance with
+[x= 214.7 y= 540.8] procedures from appropriate authorities.
+[x= 160.7 y= 558.4] 6. Develop Medicaid State Plan modification.
+[x= 160.7 y= 575.9] 7. Disseminate Medicaid State Plan modification for review, comment and
+[x= 178.7 y= 587.3] approval by internal and external stakeholders.
+[x= 160.7 y= 604.9] 8. Refine Medicaid State Plan modification based on feedback.
+[x= 160.7 y= 622.4] 9. Conduct Medicaid State Plan Amendment (SPA) review process with CMS.
+[x= 160.7 y= 639.8] 10.
+[x= 178.7 y= 639.8] END:
+[x= 203.2 y= 639.8] Publish Medicaid State Plan Amendment.
+[x=  77.4 y= 658.9] Shared Data
+[x= 160.7 y= 663.8] Plan data store including Medicaid State Plan, health plan, health benefits,
+[x= 160.7 y= 675.4] performance measures, and benchmarks information
+[x= 160.7 y= 692.9] Business Activity data store including performance information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 190 
+May 2014 
+Version 3.0 
+ 
+ 
+Maintain State Plan 
+PL Plan Administration 
+Maintain State Plan 
+Item 
+Details 
+Description 
+The Maintain State Plan business process responds to the scheduled and 
+unscheduled prompts to update and revise the Medicaid State Plan. The Medicaid 
+State Plan is the officially recognized statement describing the nature and scope of 
+the State Medicaid program as required under Section 1902 of the Social Security 
+Act. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic timetable (e.g., annual) is due for review of Medicaid State Plan. 
+ 
+Periodic timetable (e.g., annual) is due to implement new policy or modification. 
+ 
+Ad hoc request for Medicaid State Plan updates. 
+Result 
+ 
+The State Medicaid Agency (SMA) defines new or modified Medicaid State 
+Plan. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive prompt or notification to review and update Medicaid State 
+Plan. 
+2. Review relevant current Medicaid State Plan documentation. 
+3. Analyze requirements for change to Medicaid State Plan. 
+4. Research information associated with the change. 
+5. Analyze impact of the change and determine whether to move forward with 
+modification based on results of analysis:  
+a. If no modifications to Medicaid State Plan are necessary, END: 
+Business process stops. 
+b. If necessary, request a waiver for submission in accordance with 
+procedures from appropriate authorities. 
+6. Develop Medicaid State Plan modification. 
+7. Disseminate Medicaid State Plan modification for review, comment and 
+approval by internal and external stakeholders.  
+8. Refine Medicaid State Plan modification based on feedback. 
+9. Conduct Medicaid State Plan Amendment (SPA) review process with CMS. 
+10. END: Publish Medicaid State Plan Amendment. 
+Shared Data 
+Plan data store including Medicaid State Plan, health plan, health benefits, 
+performance measures, and benchmarks information 
+Business Activity data store including performance information 
+
+
+================================================================================
+PAGE 5
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 191
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Plan Administration
+[x= 255.5 y= 125.7] Maintain State Plan
+[x= 102.3 y= 144.8] Item
+[x= 329.6 y= 144.8] Details
+[x=  77.4 y= 158.8] Predecessor
+[x= 160.7 y= 163.9] Develop Agency Goals and Objectives
+[x= 160.7 y= 181.4] Maintain Program Policy
+[x= 160.7 y= 199.0] Manage Performance Measures
+[x= 160.7 y= 216.4] Manage Budget Information
+[x=  77.4 y= 235.3] Successor
+[x= 160.7 y= 240.4] Manage Health Plan Information
+[x= 160.7 y= 257.9] Manage Health Benefit Information
+[x= 160.7 y= 275.5] Manage Performance Measures
+[x= 160.7 y= 292.9] Manage Applicant and Member Communication
+[x= 160.7 y= 310.4] Perform Population and Member Outreach
+[x= 160.7 y= 328.0] Manage Provider Communication
+[x= 160.7 y= 345.4] Perform Provider Outreach
+[x= 160.7 y= 362.9] Manage Contractor Communication
+[x= 160.7 y= 380.4] Perform Contractor Outreach
+[x= 160.7 y= 397.9] Manage Business Relationship Communication
+[x= 160.7 y= 415.4] Manage Compliance Incident Information
+[x= 160.7 y= 432.9] Formulate Budget
+[x= 160.7 y= 450.4] Manage Data
+[x= 160.7 y= 467.9] Establish Business Relationship
+[x=  77.4 y= 486.8] Constraints
+[x= 160.7 y= 491.8] Economic conditions shift, making less revenue available to fund the approved and
+[x= 160.7 y= 503.3] planned budget.
+[x= 160.7 y= 520.8] The SMA will comply with federal and state regulations.
+[x=  77.4 y= 539.8] Failures
+[x= 160.7 y= 544.5] 
+[x= 178.7 y= 545.5] The SMA is unable to receive approval of Medicaid State Plan from internal or
+[x= 178.7 y= 557.0] external stakeholders.
+[x=  77.4 y= 576.1] Performance
+[x=  77.4 y= 587.5] Measures
+[x= 160.7 y= 580.6] 
+[x= 178.7 y= 581.6] Time to complete the process = within __ days, ___ weeks
+[x= 160.7 y= 598.8] 
+[x= 178.7 y= 599.8] Achievement of goals and objectives linked to policy implementation
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 191 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Plan Administration 
+Maintain State Plan 
+Item 
+Details 
+Predecessor 
+Develop Agency Goals and Objectives 
+Maintain Program Policy 
+Manage Performance Measures 
+Manage Budget Information 
+Successor 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Manage Performance Measures 
+Manage Applicant and Member Communication 
+Perform Population and Member Outreach 
+Manage Provider Communication 
+Perform Provider Outreach 
+Manage Contractor Communication 
+Perform Contractor Outreach 
+Manage Business Relationship Communication 
+Manage Compliance Incident Information 
+Formulate Budget  
+Manage Data 
+Establish Business Relationship 
+Constraints 
+Economic conditions shift, making less revenue available to fund the approved and 
+planned budget. 
+The SMA will comply with federal and state regulations. 
+Failures 
+ 
+The SMA is unable to receive approval of Medicaid State Plan from internal or 
+external stakeholders. 
+Performance 
+Measures 
+ 
+Time to complete the process = within __ days, ___ weeks 
+ 
+Achievement of goals and objectives linked to policy implementation 
+ 
+
+
+================================================================================
+PAGE 6
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 192
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Manage Health Plan Information
+[x=  77.4 y= 133.2] PL Health Plan Administration
+[x= 222.2 y= 152.4] Manage Health Plan Information
+[x= 102.1 y= 171.5] Item
+[x= 329.4 y= 171.5] Details
+[x=  77.4 y= 185.5] Description
+[x= 160.3 y= 185.5] The
+[x= 180.4 y= 185.5] Manage Health Plan Information
+[x= 332.6 y= 185.5] business process includes evaluation of
+[x= 160.3 y= 197.0] federal or state regulations, legislative and judicial mandates, federal or state audits
+[x= 160.3 y= 208.5] governing board or commission directives, Quality Improvement Organization’s
+[x= 160.3 y= 220.0] findings, enterprise decisions, and consumer pressure to develop or enhance
+[x= 160.3 y= 231.5] enterprise business rules, benefit plans and services available to members. The
+[x= 160.3 y= 243.0] State Medicaid Agency (SMA) collaboratively develops Health Plan service offerings
+[x= 160.3 y= 254.5] with input and review by other agencies and stakeholders. This business process
+[x= 160.3 y= 266.0] ensures the organization is on track with the goals and objectives of the SMA and is
+[x= 160.3 y= 277.5] in concert with statewide goals.
+[x=  77.4 y= 291.5] Trigger Event
+[x= 160.3 y= 291.5] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 308.7] 
+[x= 178.3 y= 309.7] Periodic timetable (e.g., annual) is due for review of policy.
+[x= 160.3 y= 326.8] 
+[x= 178.3 y= 327.8] Periodic timetable (e.g., annual) is due to implement new policy or modification.
+[x= 160.3 y= 345.0] 
+[x= 178.3 y= 346.0] Ad hoc request for program policy updates.
+[x=  77.4 y= 365.0] Result
+[x= 160.3 y= 369.7] 
+[x= 178.3 y= 370.7] The SMA defines new or modified policy.
+[x= 160.3 y= 387.9] 
+[x= 178.3 y= 388.9] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 400.4] activity monitoring.
+[x=  77.4 y= 419.5] Business
+[x=  77.4 y= 430.9] Process Steps
+[x= 160.3 y= 424.4] 1.
+[x= 178.3 y= 424.4] START:
+[x= 215.0 y= 424.4] Notification of legal or administrative mandates that have potential
+[x= 178.3 y= 435.9] impact to Health Plan policy.
+[x= 160.3 y= 453.4] 2. Analyze legal or administrative mandates and determine whether to create,
+[x= 178.3 y= 464.9] revise, or terminate Health Plan policy.
+[x= 160.3 y= 482.3] 3. Assess impact of policy on budget, stakeholders, and other benefits.
+[x= 160.3 y= 499.9] 4. Create, revise, or terminate Health Plan policy and publish new, revised Health
+[x= 178.3 y= 511.4] Plan policy, or notification of intent to terminate existing Health Plan policy.
+[x= 160.3 y= 528.8] 5. Hold public hearings regarding Health Plan policy.
+[x= 160.3 y= 546.4] 6. Revise Health Plan policy as necessary.
+[x= 160.3 y= 563.9] 7. Submit Health Plan policy to federal and state administrative and regulatory
+[x= 178.3 y= 575.3] agencies for approval.
+[x= 160.3 y= 592.9] 8. Assess impact of requested revisions, if applicable.
+[x= 160.3 y= 610.4] 9. Determine effective date and duration for Health Plan policy in coordination with
+[x= 178.3 y= 621.8] other enterprise considerations.
+[x= 160.3 y= 639.4] 10. Develop training plan for new, revised or discontinued Health Plan policy.
+[x= 160.3 y= 656.9] 11. Develop implementation or transition plan for new, revised, or discontinued
+[x= 178.3 y= 668.3] Health Plan policy.
+[x= 160.3 y= 685.9] 12. Implement Health Plan policy.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 192 
+May 2014 
+Version 3.0 
+ 
+ 
+Manage Health Plan Information 
+PL Health Plan Administration 
+Manage Health Plan Information 
+Item 
+Details 
+Description 
+The Manage Health Plan Information business process includes evaluation of 
+federal or state regulations, legislative and judicial mandates, federal or state audits 
+governing board or commission directives, Quality Improvement Organization’s 
+findings, enterprise decisions, and consumer pressure to develop or enhance 
+enterprise business rules, benefit plans and services available to members. The 
+State Medicaid Agency (SMA) collaboratively develops Health Plan service offerings 
+with input and review by other agencies and stakeholders. This business process 
+ensures the organization is on track with the goals and objectives of the SMA and is 
+in concert with statewide goals.  
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic timetable (e.g., annual) is due for review of policy.  
+ 
+Periodic timetable (e.g., annual) is due to implement new policy or modification.  
+ 
+Ad hoc request for program policy updates. 
+Result 
+ 
+The SMA defines new or modified policy. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Notification of legal or administrative mandates that have potential 
+impact to Health Plan policy. 
+2. Analyze legal or administrative mandates and determine whether to create, 
+revise, or terminate Health Plan policy.  
+3. Assess impact of policy on budget, stakeholders, and other benefits. 
+4. Create, revise, or terminate Health Plan policy and publish new, revised Health 
+Plan policy, or notification of intent to terminate existing Health Plan policy. 
+5. Hold public hearings regarding Health Plan policy. 
+6. Revise Health Plan policy as necessary.  
+7. Submit Health Plan policy to federal and state administrative and regulatory 
+agencies for approval. 
+8. Assess impact of requested revisions, if applicable.  
+9. Determine effective date and duration for Health Plan policy in coordination with 
+other enterprise considerations. 
+10. Develop training plan for new, revised or discontinued Health Plan policy. 
+11. Develop implementation or transition plan for new, revised, or discontinued 
+Health Plan policy. 
+12. Implement Health Plan policy. 
+
+
+================================================================================
+PAGE 7
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 193
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Health Plan Administration
+[x= 222.2 y= 125.7] Manage Health Plan Information
+[x= 102.1 y= 144.8] Item
+[x= 329.4 y= 144.8] Details
+[x= 160.3 y= 157.8] 13.
+[x= 178.3 y= 157.8] END:
+[x= 202.8 y= 157.8] Send Health Plan policy to Health Insurance Marketplace for certification.
+[x=  77.4 y= 176.8] Shared Data
+[x= 160.3 y= 181.8] Financial data store including budget information
+[x= 160.3 y= 199.3] Member data store including demographic information
+[x= 160.3 y= 216.8] Contractor data store including provider network information
+[x= 160.3 y= 234.3] Provider data store including provider network information
+[x= 160.3 y= 251.8] Plan data store including policy information
+[x= 160.3 y= 269.3] Health Benefit data store including benefit program and benefit information
+[x= 160.3 y= 286.8] Reference data store including code set information
+[x= 160.3 y= 304.3] Authorization data store including authorization and treatment plan information
+[x= 160.3 y= 321.8] Business Activity data store including performance information (e.g., Consumer
+[x= 160.3 y= 333.3] Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare
+[x= 160.3 y= 344.8] Effectiveness Data and Information Set (HEDIS) measures)
+[x=  77.4 y= 363.8] Predecessor
+[x= 160.3 y= 368.9] Develop Agency Goals and Objectives
+[x= 160.3 y= 386.4] Maintain Program Policy
+[x= 160.3 y= 403.9] Maintain State Plan
+[x= 160.3 y= 421.4] Manage Health Benefit Information
+[x= 160.3 y= 438.9] Manage Performance Measures
+[x= 160.3 y= 456.4] Formulate Budget
+[x= 160.3 y= 473.9] Manage Budget Information
+[x=  77.4 y= 492.8] Successor
+[x= 160.3 y= 497.9] Manage Health Benefit Information
+[x= 160.3 y= 515.4] Manage Reference Information
+[x= 160.3 y= 532.9] Manage Rate Setting
+[x= 160.3 y= 550.4] Manage Performance Measures
+[x= 160.3 y= 567.9] Manage Applicant and Member Communication
+[x= 160.3 y= 585.4] Perform Population and Member Outreach
+[x= 160.3 y= 602.9] Manage Provider Communication
+[x= 160.3 y= 620.4] Perform Provider Outreach
+[x= 160.3 y= 637.9] Manage Contractor Communication
+[x= 160.3 y= 655.4] Perform Contractor Outreach
+[x= 160.3 y= 672.9] Manage Business Relationship Communication
+[x= 160.3 y= 690.4] Establish Compliance Incident
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 193 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Plan Administration 
+Manage Health Plan Information 
+Item 
+Details 
+13. END: Send Health Plan policy to Health Insurance Marketplace for certification. 
+Shared Data 
+Financial data store including budget information 
+Member data store including demographic information 
+Contractor data store including provider network information 
+Provider data store including provider network information 
+Plan data store including policy information 
+Health Benefit data store including benefit program and benefit information 
+Reference data store including code set information 
+Authorization data store including authorization and treatment plan information 
+Business Activity data store including performance information (e.g., Consumer 
+Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare 
+Effectiveness Data and Information Set (HEDIS) measures) 
+Predecessor 
+Develop Agency Goals and Objectives  
+Maintain Program Policy 
+Maintain State Plan 
+Manage Health Benefit Information 
+Manage Performance Measures 
+Formulate Budget 
+Manage Budget Information 
+Successor 
+Manage Health Benefit Information 
+Manage Reference Information 
+Manage Rate Setting 
+Manage Performance Measures 
+Manage Applicant and Member Communication 
+Perform Population and Member Outreach 
+Manage Provider Communication 
+Perform Provider Outreach 
+Manage Contractor Communication 
+Perform Contractor Outreach 
+Manage Business Relationship Communication 
+Establish Compliance Incident 
+
+
+================================================================================
+PAGE 8
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 194
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Health Plan Administration
+[x= 222.2 y= 125.7] Manage Health Plan Information
+[x= 102.1 y= 144.8] Item
+[x= 329.4 y= 144.8] Details
+[x= 160.3 y= 157.9] Manage Compliance Incident Information
+[x= 160.3 y= 175.4] Formulate Budget
+[x= 160.3 y= 193.0] Manage Data
+[x=  77.4 y= 211.9] Constraints
+[x= 160.3 y= 216.8] Economic conditions shift, making less revenue available to fund the approved and
+[x= 160.3 y= 228.3] planned budget.
+[x= 160.3 y= 245.8] The SMA will comply with federal and state regulations.
+[x=  77.4 y= 264.8] Failures
+[x= 160.3 y= 269.5] 
+[x= 178.3 y= 270.5] Cost/benefit analysis does not support proposed policy.
+[x= 160.3 y= 287.7] 
+[x= 178.3 y= 288.7] Inability to obtain necessary approvals.
+[x=  77.4 y= 307.7] Performance
+[x=  77.4 y= 319.2] Measures
+[x= 160.3 y= 312.3] 
+[x= 178.3 y= 313.3] Time to complete the process = within __ days, ___ weeks
+[x= 160.3 y= 330.5] 
+[x= 178.3 y= 331.5] Achievement of goals and objectives linked to policy implementation
+[x=  72.0 y= 374.5] Manage Performance Measures
+[x=  77.4 y= 401.5] PL Health Plan Management
+[x= 223.4 y= 414.6] Manage Performance Measures
+[x= 102.1 y= 427.8] Item
+[x= 329.4 y= 427.8] Details
+[x=  77.4 y= 441.8] Description
+[x= 160.3 y= 441.8] The
+[x= 180.3 y= 441.8] Manage Performance Measures
+[x= 330.4 y= 441.8] business process involves the design,
+[x= 160.3 y= 453.3] implementation, and maintenance of mechanisms and measures the State Medicaid
+[x= 160.3 y= 464.8] Agency (SMA) uses to monitor the business activities and performance of the State
+[x= 160.3 y= 476.3] Medicaid Enterprise’s business processes and programs. This includes the steps
+[x= 160.3 y= 487.8] involved in defining the criteria by which the SMA measures activities and programs
+[x= 160.3 y= 499.3] (e.g., Consumer Assessment of Healthcare Providers and Systems (CAPHS) and
+[x= 160.3 y= 510.8] Healthcare Effectiveness Data and Information Set (HEDIS) measures). This
+[x= 160.3 y= 522.3] business process develops the reports and other mechanisms that it uses to track
+[x= 160.3 y= 533.8] activity and effectiveness at all levels of monitoring. Business Intelligence analysis
+[x= 160.3 y= 545.3] (i.e., historical, current and predictive views of business operations) occurs within
+[x= 160.3 y= 556.8] this process.
+[x= 160.3 y= 581.8] Examples of performance measures and associated reports may be things such as:
+[x= 160.3 y= 594.3] Goal
+[x= 181.4 y= 594.3] : The SMA makes prompt and accurate payments to providers.
+[x= 160.3 y= 605.8] Measurement:
+[x= 224.2 y= 605.8] Pay or deny 95% of all clean claims within 30 days of receipt.
+[x= 160.3 y= 617.3] Mechanism:
+[x= 214.1 y= 617.3] The SMA generates weekly report on claims processing timelines.
+[x= 160.3 y= 642.3] Goal
+[x= 181.4 y= 642.3] : Accurately and efficiently, draw and report funds in accordance with the
+[x= 160.3 y= 653.8] federal Cash Management Improvement Act (CMIA) and general cash management
+[x= 160.3 y= 665.3] principles and timeframes to maximize non-general fund recovery.
+[x= 160.3 y= 676.8] Measurement:
+[x= 224.2 y= 676.8] Draw 98% of funds with the minimum time allowed under CMIA.
+[x= 160.3 y= 688.3] Mechanism
+[x= 211.4 y= 688.3] : The SMA generates monthly report on funds drawn.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 194 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Plan Administration 
+Manage Health Plan Information 
+Item 
+Details 
+Manage Compliance Incident Information 
+Formulate Budget  
+Manage Data 
+Constraints 
+Economic conditions shift, making less revenue available to fund the approved and 
+planned budget. 
+The SMA will comply with federal and state regulations. 
+Failures 
+ 
+Cost/benefit analysis does not support proposed policy. 
+ 
+Inability to obtain necessary approvals. 
+Performance 
+Measures 
+ 
+Time to complete the process = within __ days, ___ weeks 
+ 
+Achievement of goals and objectives linked to policy implementation 
+ 
+Manage Performance Measures 
+PL Health Plan Management 
+Manage Performance Measures 
+Item 
+Details 
+Description 
+The Manage Performance Measures business process involves the design, 
+implementation, and maintenance of mechanisms and measures the State Medicaid 
+Agency (SMA) uses to monitor the business activities and performance of the State 
+Medicaid Enterprise’s business processes and programs. This includes the steps 
+involved in defining the criteria by which the SMA measures activities and programs 
+(e.g., Consumer Assessment of Healthcare Providers and Systems (CAPHS) and 
+Healthcare Effectiveness Data and Information Set (HEDIS) measures). This 
+business process develops the reports and other mechanisms that it uses to track 
+activity and effectiveness at all levels of monitoring. Business Intelligence analysis 
+(i.e., historical, current and predictive views of business operations) occurs within 
+this process. 
+ 
+Examples of performance measures and associated reports may be things such as: 
+Goal: The SMA makes prompt and accurate payments to providers.  
+Measurement: Pay or deny 95% of all clean claims within 30 days of receipt.  
+Mechanism: The SMA generates weekly report on claims processing timelines. 
+ 
+Goal: Accurately and efficiently, draw and report funds in accordance with the 
+federal Cash Management Improvement Act (CMIA) and general cash management 
+principles and timeframes to maximize non-general fund recovery.  
+Measurement: Draw 98% of funds with the minimum time allowed under CMIA.  
+Mechanism: The SMA generates monthly report on funds drawn. 
+ 
+
+
+================================================================================
+PAGE 9
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 195
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PL Health Plan Management
+[x= 223.4 y= 113.7] Manage Performance Measures
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.8] Goal:
+[x= 184.2 y= 139.8] Improve health care outcomes for Medicaid members.
+[x= 160.3 y= 151.3] Measurement:
+[x= 224.2 y= 151.3] Reduce emergency room visits by ten percent by assigning a primary
+[x= 160.3 y= 162.8] care case manager.
+[x= 160.3 y= 174.3] Mechanism:
+[x= 214.1 y= 174.3] The SMA generates monthly report comparing emergency room usage
+[x= 160.3 y= 185.8] by member for the period prior to and after Primary Care Case Managers (PCCM)
+[x= 160.3 y= 197.3] assignment.
+[x=  77.4 y= 211.3] Trigger Event
+[x= 160.3 y= 211.3] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 228.5] 
+[x= 178.3 y= 229.5] Receive request to revise or develop new performance measures and/or
+[x= 178.3 y= 241.0] reporting.
+[x= 160.3 y= 258.1] 
+[x= 178.3 y= 259.1] Notification of a periodic review of measures and/or reporting is due.
+[x= 160.3 y= 276.3] 
+[x= 178.3 y= 277.3] Receive notification for executing a periodic monitoring activity.
+[x= 160.3 y= 294.5] 
+[x= 178.3 y= 295.5] Receive notice describing an incident requiring monitoring.
+[x=  77.4 y= 314.5] Result
+[x= 160.3 y= 319.2] 
+[x= 178.3 y= 320.2] Update to the criteria, mechanisms, and/or reports utilized to monitor
+[x= 178.3 y= 331.7] performance measures.
+[x= 160.3 y= 348.9] 
+[x= 178.3 y= 349.9] Produce reporting related to the incident analysis or periodic monitoring results.
+[x= 160.3 y= 367.0] 
+[x= 178.3 y= 368.0] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 379.5] activity monitoring.
+[x=  77.4 y= 398.6] Business
+[x=  77.4 y= 410.1] Process Steps
+[x= 160.3 y= 403.5] 1.
+[x= 178.3 y= 403.5] START:
+[x= 215.0 y= 403.5] Receive request or reach scheduled review time.
+[x= 160.3 y= 421.0] 2. Review existing performance measures and reports.
+[x= 160.3 y= 438.5] 3. Revise, delete or add to existing measures and reports.
+[x= 160.3 y= 456.0] 4. Produce updated definition of performance measures.
+[x= 160.3 y= 473.5] 5. Monitor business activity against established performance measures.
+[x= 160.3 y= 491.0] 6. Assess resulting information with business intelligence methods (i.e., historical,
+[x= 178.3 y= 502.5] current and predictive views of business operations).
+[x= 160.3 y= 520.0] 7. Produce reporting.
+[x= 160.3 y= 537.5] 8.
+[x= 178.3 y= 537.5] END:
+[x= 202.7 y= 537.5] Disseminate information to designated members (e.g., individuals or
+[x= 178.3 y= 549.0] business processes).
+[x=  77.4 y= 568.0] Shared Data
+[x= 160.3 y= 573.0] Business Activity data store including performance information (e.g., CAPHS and
+[x= 160.3 y= 584.5] HEDIS measures)
+[x=  77.4 y= 603.5] Predecessor
+[x= 160.3 y= 608.5] NOTE:
+[x= 191.4 y= 608.5] Any MITA business process could be a predecessor to any performance
+[x= 160.3 y= 620.0] monitoring activity depending on the performance measures.
+[x= 160.3 y= 637.6] Develop Agency Goals and Objectives
+[x= 160.3 y= 655.1] Maintain Program Policy
+[x= 160.3 y= 672.6] Maintain State Plan
+[x= 160.3 y= 690.1] Manage Health Plan Information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 195 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Plan Management 
+Manage Performance Measures 
+Item 
+Details 
+Goal: Improve health care outcomes for Medicaid members. 
+Measurement: Reduce emergency room visits by ten percent by assigning a primary 
+care case manager.  
+Mechanism: The SMA generates monthly report comparing emergency room usage 
+by member for the period prior to and after Primary Care Case Managers (PCCM) 
+assignment.  
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive request to revise or develop new performance measures and/or 
+reporting. 
+ 
+Notification of a periodic review of measures and/or reporting is due. 
+ 
+Receive notification for executing a periodic monitoring activity. 
+ 
+Receive notice describing an incident requiring monitoring. 
+Result 
+ 
+Update to the criteria, mechanisms, and/or reports utilized to monitor 
+performance measures.  
+ 
+Produce reporting related to the incident analysis or periodic monitoring results. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring.  
+Business 
+Process Steps 
+1. START: Receive request or reach scheduled review time. 
+2. Review existing performance measures and reports. 
+3. Revise, delete or add to existing measures and reports. 
+4. Produce updated definition of performance measures. 
+5. Monitor business activity against established performance measures. 
+6. Assess resulting information with business intelligence methods (i.e., historical, 
+current and predictive views of business operations). 
+7. Produce reporting.  
+8. END: Disseminate information to designated members (e.g., individuals or 
+business processes). 
+Shared Data 
+Business Activity data store including performance information (e.g., CAPHS and 
+HEDIS measures) 
+Predecessor 
+NOTE: Any MITA business process could be a predecessor to any performance 
+monitoring activity depending on the performance measures. 
+Develop Agency Goals and Objectives 
+Maintain Program Policy 
+Maintain State Plan 
+Manage Health Plan Information 
+
+
+================================================================================
+PAGE 10
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 196
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PL Health Plan Management
+[x= 223.4 y= 113.7] Manage Performance Measures
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.9] Identify Utilization Anomalies
+[x= 160.3 y= 157.4] Manage Compliance Incident Information
+[x=  77.4 y= 176.3] Successor
+[x= 160.3 y= 181.4] Send Outbound Information
+[x= 160.3 y= 199.0] Manage Health Plan Information
+[x= 160.3 y= 216.4] Formulate Budget
+[x= 160.3 y= 233.9] Establish Compliance Incident
+[x= 160.3 y= 251.5] Manage Data
+[x= 160.3 y= 268.9] Develop Agency Goals and Objectives
+[x= 160.3 y= 286.4] Maintain Program Policy
+[x= 160.3 y= 304.0] Maintain State Plan
+[x=  77.4 y= 322.9] Constraints
+[x= 160.3 y= 327.8] The SMA will comply with federal and state regulations. Business intelligence tools
+[x= 160.3 y= 339.3] have different abilities depending on the tool utilized and technical configuration.
+[x=  77.4 y= 358.3] Failures
+[x= 160.3 y= 363.0] 
+[x= 178.3 y= 364.0] Inability to access relevant information.
+[x=  77.4 y= 383.0] Performance
+[x=  77.4 y= 394.6] Measures
+[x= 160.3 y= 387.6] 
+[x= 178.3 y= 388.6] Time to complete the process = within __ hours, ___ minutes
+[x= 160.3 y= 405.8] 
+[x= 178.3 y= 406.8] Accuracy with which State Medicaid Enterprise applies updates
+[x= 160.3 y= 424.0] 
+[x= 178.3 y= 425.0] Consistency with which State Medicaid Enterprise applies updates
+[x= 160.3 y= 442.2] 
+[x= 178.3 y= 443.2] Error rate = __%
+[x= 160.3 y= 460.3] 
+[x= 178.3 y= 461.3] Effectiveness of performance measures
+[x= 160.3 y= 478.5] 
+[x= 178.3 y= 479.5] Ease of implementation of performance measures
+[x=  72.0 y= 522.5] Manage Health Benefit Information
+[x=  77.4 y= 555.5] PL Health Benefit Administration
+[x= 215.2 y= 574.6] Manage Health Benefit Information
+[x= 102.1 y= 593.8] Item
+[x= 329.3 y= 593.8] Details
+[x=  77.4 y= 607.9] Description
+[x= 160.1 y= 607.9] The
+[x= 180.2 y= 607.9] Manage Health Benefit Information
+[x= 345.2 y= 607.9] business process includes the activities
+[x= 160.1 y= 619.3] for development and implementation of health benefit packages to accommodate
+[x= 160.1 y= 630.8] service delivery to targeted member populations.
+[x= 160.1 y= 655.8] The health benefit package accommodates information to support current and future
+[x= 160.1 y= 667.3] health benefit packages for members eligible for programs administered by the State
+[x= 160.1 y= 678.8] Medicaid Agency (SMA). The SMA determines benefit terms and limitations, and
+[x= 160.1 y= 690.3] applicable periods for services defined within a health benefit package.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 196 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Plan Management 
+Manage Performance Measures 
+Item 
+Details 
+Identify Utilization Anomalies 
+Manage Compliance Incident Information 
+Successor 
+Send Outbound Information 
+Manage Health Plan Information 
+Formulate Budget 
+Establish Compliance Incident 
+Manage Data 
+Develop Agency Goals and Objectives 
+Maintain Program Policy 
+Maintain State Plan 
+Constraints 
+The SMA will comply with federal and state regulations. Business intelligence tools 
+have different abilities depending on the tool utilized and technical configuration.  
+Failures 
+ 
+Inability to access relevant information. 
+Performance 
+Measures 
+ 
+Time to complete the process = within __ hours, ___ minutes 
+ 
+Accuracy with which State Medicaid Enterprise applies updates  
+ 
+Consistency with which State Medicaid Enterprise applies updates  
+ 
+Error rate = __% 
+ 
+Effectiveness of performance measures 
+ 
+Ease of implementation of performance measures 
+ 
+Manage Health Benefit Information 
+PL Health Benefit Administration 
+Manage Health Benefit Information 
+Item 
+Details 
+Description 
+The Manage Health Benefit Information business process includes the activities 
+for development and implementation of health benefit packages to accommodate 
+service delivery to targeted member populations.  
+ 
+The health benefit package accommodates information to support current and future 
+health benefit packages for members eligible for programs administered by the State 
+Medicaid Agency (SMA). The SMA determines benefit terms and limitations, and 
+applicable periods for services defined within a health benefit package. 
+ 
+
+
+================================================================================
+PAGE 11
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 197
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Health Benefit Administration
+[x= 215.2 y= 125.7] Manage Health Benefit Information
+[x= 102.1 y= 144.8] Item
+[x= 329.3 y= 144.8] Details
+[x= 160.1 y= 157.8] Health benefit package administration involves the ability to determine, define and
+[x= 160.1 y= 169.3] coordinate and modify the following parameters within the SMA, as the Medicaid
+[x= 160.1 y= 180.8] Enterprise policies, funding and business decisions dictate:
+[x= 160.1 y= 198.0] 
+[x= 178.1 y= 199.0] Multiple health benefit package definitions targeted to specific populations.
+[x= 160.1 y= 216.1] 
+[x= 178.1 y= 217.1] Service categories to define available covered service.
+[x= 160.1 y= 234.3] 
+[x= 178.1 y= 235.3] Federal and state regulations define service limitations to restrict utilization.
+[x= 160.1 y= 252.5] 
+[x= 178.1 y= 253.5] Customization of edits and audits relative to SMA policy.
+[x= 160.1 y= 270.7] 
+[x= 178.1 y= 271.7] Utilization tracking of limited services at the member level.
+[x= 160.1 y= 288.9] 
+[x= 178.1 y= 289.9] Generation of state and federal reporting requirements.
+[x=  77.4 y= 308.9] Trigger Event
+[x= 160.1 y= 308.8] State transition-based Trigger Events:
+[x= 160.1 y= 326.1] 
+[x= 178.1 y= 327.1] Receive information to load as initial records or updates to existing records from
+[x= 178.1 y= 338.5] any Business Area.
+[x= 160.1 y= 356.0] Interaction-based Trigger Events to include but not limited to:
+[x= 160.1 y= 373.2] 
+[x= 178.1 y= 374.2] Receive inquiry for health benefit information from enterprise business
+[x= 178.1 y= 385.7] processes.
+[x= 160.1 y= 402.9] 
+[x= 178.1 y= 403.9] Receive an inquiry from authorized external parties (e.g., a legislator requests
+[x= 178.1 y= 415.4] outcome measures for a particular program).
+[x= 160.1 y= 432.8] Environmental Trigger Events:
+[x= 160.1 y= 450.1] 
+[x= 178.1 y= 451.1] Periodic or near real-time transmission of program information to authorized
+[x= 178.1 y= 462.5] external parties or systems, (e.g., Centers for Medicare & Medicaid Services
+[x= 178.1 y= 474.1] (CMS) or Medicaid Statistical Information System (MSIS)).
+[x=  77.4 y= 493.1] Result
+[x= 160.1 y= 493.1] All Business Areas load new or updated information and have access to the Health
+[x= 160.1 y= 504.5] Benefit Information data store to use for analysis, reporting, and decision reporting
+[x= 160.1 y= 516.1] including:
+[x= 160.1 y= 533.2] 
+[x= 178.1 y= 534.2] Response to inquiries from authorized requestors and/or applications.
+[x= 160.1 y= 551.4] 
+[x= 178.1 y= 552.4] Provision to all other Health Plan Management business processes with
+[x= 178.1 y= 563.9] program information as needed (i.e., to develop benefit packages and drug
+[x= 178.1 y= 575.4] formularies, set rates, analyze and project budgets, perform accounting
+[x= 178.1 y= 586.9] functions, manage federal financial participation (FFP), measure quality,
+[x= 178.1 y= 598.4] outcomes and performance, and develop policies and strategic initiatives, etc.).
+[x= 160.1 y= 615.6] 
+[x= 178.1 y= 616.6] Provision to all MITA business processes with program information needed
+[x= 178.1 y= 628.0] (e.g., to manage communications, manage business relationships, perform
+[x= 178.1 y= 639.5] outreach and education, and manage contracts).
+[x= 160.1 y= 656.7] 
+[x= 178.1 y= 657.7] Delivery of information to external parties or systems for reporting (e.g., CMS
+[x= 178.1 y= 669.2] Medicaid Statistical Information System (MSIS) and public health for population
+[x= 178.1 y= 680.7] health studies).
+[x= 160.1 y= 697.9] 
+[x= 178.1 y= 698.9] Delivery of modification to health benefits to Health Insurance Marketplace for
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 197 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Benefit Administration 
+Manage Health Benefit Information 
+Item 
+Details 
+Health benefit package administration involves the ability to determine, define and 
+coordinate and modify the following parameters within the SMA, as the Medicaid 
+Enterprise policies, funding and business decisions dictate: 
+ 
+Multiple health benefit package definitions targeted to specific populations. 
+ 
+Service categories to define available covered service. 
+ 
+Federal and state regulations define service limitations to restrict utilization. 
+ 
+Customization of edits and audits relative to SMA policy. 
+ 
+Utilization tracking of limited services at the member level. 
+ 
+Generation of state and federal reporting requirements. 
+Trigger Event 
+State transition-based Trigger Events: 
+ 
+Receive information to load as initial records or updates to existing records from 
+any Business Area. 
+Interaction-based Trigger Events to include but not limited to:  
+ 
+Receive inquiry for health benefit information from enterprise business 
+processes.  
+ 
+Receive an inquiry from authorized external parties (e.g., a legislator requests 
+outcome measures for a particular program). 
+Environmental Trigger Events:  
+ 
+Periodic or near real-time transmission of program information to authorized 
+external parties or systems, (e.g., Centers for Medicare & Medicaid Services 
+(CMS) or Medicaid Statistical Information System (MSIS)). 
+Result 
+All Business Areas load new or updated information and have access to the Health 
+Benefit Information data store to use for analysis, reporting, and decision reporting 
+including: 
+ 
+Response to inquiries from authorized requestors and/or applications. 
+ 
+Provision to all other Health Plan Management business processes with 
+program information as needed (i.e., to develop benefit packages and drug 
+formularies, set rates, analyze and project budgets, perform accounting 
+functions, manage federal financial participation (FFP), measure quality, 
+outcomes and performance, and develop policies and strategic initiatives, etc.). 
+ 
+Provision to all MITA business processes with program information needed 
+(e.g., to manage communications, manage business relationships, perform 
+outreach and education, and manage contracts). 
+ 
+Delivery of information to external parties or systems for reporting (e.g., CMS 
+Medicaid Statistical Information System (MSIS) and public health for population 
+health studies). 
+ 
+Delivery of modification to health benefits to Health Insurance Marketplace for 
+
+
+================================================================================
+PAGE 12
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 198
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Health Benefit Administration
+[x= 215.2 y= 125.7] Manage Health Benefit Information
+[x= 102.1 y= 144.8] Item
+[x= 329.3 y= 144.8] Details
+[x= 178.1 y= 157.8] certification.
+[x= 160.1 y= 175.0] 
+[x= 178.1 y= 176.0] Tracking information as needed for measuring performance and business
+[x= 178.1 y= 187.5] activity monitoring.
+[x=  77.4 y= 206.6] Business
+[x=  77.4 y= 218.0] Process Steps
+[x= 160.1 y= 211.5] 1.
+[x= 178.1 y= 211.5] START:
+[x= 214.9 y= 211.5] The modification of health plan policy determines the health plan
+[x= 178.1 y= 223.0] benefit packages that require definition or modifications to comply with the
+[x= 178.1 y= 234.5] policy.
+[x= 160.1 y= 252.0] 2. Create and modify health plan benefit packages that support definition of
+[x= 178.1 y= 263.5] services available for various SMA programs.
+[x= 160.1 y= 281.0] 3. Define the effective date and duration of the health plan benefit packages.
+[x= 160.1 y= 298.5] 4. Define the health plan benefit package coverage narrative.
+[x= 160.1 y= 316.0] 5. Define services specific to unique health plan benefit packages.
+[x= 160.1 y= 333.5] 6. Specify limitations at both the service and monetary levels relative to health plan
+[x= 178.1 y= 345.0] benefit packages and service categories.
+[x= 160.1 y= 362.5] 7. Define any applicable member monetary constraints that include co-pay, co-
+[x= 178.1 y= 374.0] insurance, deductible, and share of cost amounts, limits, and lifetime
+[x= 178.1 y= 385.5] maximums.
+[x= 160.1 y= 403.0] 8.
+[x= 178.1 y= 403.0] END:
+[x= 202.6 y= 403.0] Send health plan benefit services to Health Insurance Marketplace for
+[x= 178.1 y= 414.5] certification.
+[x=  77.4 y= 433.5] Shared Data
+[x= 160.1 y= 438.5] Business Activity data store including performance information (e.g., Consumer
+[x= 160.1 y= 450.0] Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare
+[x= 160.1 y= 461.5] Effectiveness Data and Information Set (HEDIS) measures)
+[x= 160.1 y= 479.0] Plan data store including policy and health benefit information
+[x= 160.1 y= 496.5] Health Benefit data store including benefit package and benefits information
+[x= 160.1 y= 514.0] Provider data store including provider network and contract information
+[x= 160.1 y= 531.5] Contractor data store including provider network and contract information
+[x= 160.1 y= 548.9] Member data store including applicant or member demographics, enrollment,
+[x= 160.1 y= 560.5] financial, social, functional and clinical information
+[x= 160.1 y= 578.0] Claims data store including payment history
+[x=  77.4 y= 597.0] Predecessor
+[x= 160.1 y= 602.1] Develop Agency Goals and Objectives
+[x= 160.1 y= 619.6] Maintain Program Policy
+[x= 160.1 y= 637.1] Maintain State Plan
+[x= 160.1 y= 654.6] Manage Health Plan Information
+[x= 160.1 y= 672.1] Manage Rate Setting
+[x= 160.1 y= 689.6] Manage Reference Information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 198 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Benefit Administration 
+Manage Health Benefit Information 
+Item 
+Details 
+certification. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: The modification of health plan policy determines the health plan 
+benefit packages that require definition or modifications to comply with the 
+policy. 
+2. Create and modify health plan benefit packages that support definition of 
+services available for various SMA programs. 
+3. Define the effective date and duration of the health plan benefit packages. 
+4. Define the health plan benefit package coverage narrative. 
+5. Define services specific to unique health plan benefit packages. 
+6. Specify limitations at both the service and monetary levels relative to health plan 
+benefit packages and service categories. 
+7. Define any applicable member monetary constraints that include co-pay, co-
+insurance, deductible, and share of cost amounts, limits, and lifetime 
+maximums. 
+8. END: Send health plan benefit services to Health Insurance Marketplace for 
+certification.  
+Shared Data 
+Business Activity data store including performance information (e.g., Consumer 
+Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare 
+Effectiveness Data and Information Set (HEDIS) measures) 
+Plan data store including policy and health benefit information 
+Health Benefit data store including benefit package and benefits information 
+Provider data store including provider network and contract information 
+Contractor data store including provider network and contract information 
+Member data store including applicant or member demographics, enrollment, 
+financial, social, functional and clinical information 
+Claims data store including payment history 
+Predecessor 
+Develop Agency Goals and Objectives  
+Maintain Program Policy 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Rate Setting 
+Manage Reference Information 
+
+
+================================================================================
+PAGE 13
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 199
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.5] PL Health Benefit Administration
+[x= 215.2 y= 125.7] Manage Health Benefit Information
+[x= 102.1 y= 144.8] Item
+[x= 329.3 y= 144.8] Details
+[x=  77.4 y= 158.8] Successor
+[x= 160.1 y= 163.9] Manage Health Plan Information
+[x= 160.1 y= 181.4] Manage Reference Information
+[x= 160.1 y= 199.0] Manage Data
+[x=  77.4 y= 217.9] Constraints
+[x= 160.1 y= 217.9] Policies and procedures will differ by state, especially those relating to information
+[x= 160.1 y= 229.3] standards, record keeping, and privacy.
+[x=  77.4 y= 243.4] Failures
+[x= 160.1 y= 248.0] 
+[x= 178.1 y= 249.0] Inability or failure to load initial records, properly analyze, update, or locate
+[x= 178.1 y= 260.5] existing records in the Business Activity data store.
+[x=  77.4 y= 279.5] Performance
+[x=  77.4 y= 291.1] Measures
+[x= 160.1 y= 284.1] 
+[x= 178.1 y= 285.1] Time to store information = within __ minutes
+[x= 160.1 y= 302.3] 
+[x= 178.1 y= 303.3] Time to access information = within __ minutes
+[x= 160.1 y= 320.5] 
+[x= 178.1 y= 321.5] Error rate = __% or less
+[x=  72.0 y= 364.5] Manage Reference Information
+[x=  77.4 y= 391.5] PL Health Benefit Administration
+[x= 224.1 y= 404.7] Manage Reference Information
+[x= 102.1 y= 417.8] Item
+[x= 329.4 y= 417.8] Details
+[x=  77.4 y= 431.8] Description
+[x= 160.3 y= 436.8] The
+[x= 180.4 y= 436.8] Manage Reference Information
+[x= 326.5 y= 436.8] business process is responsible for all
+[x= 160.3 y= 448.3] operations aspects for the creation, modification, and deletions of reference code
+[x= 160.3 y= 459.8] information. The
+[x= 235.4 y= 459.8] Process Claim
+[x= 304.3 y= 459.8] business process additions or adjustments trigger
+[x= 160.3 y= 471.3] this business process. Additional triggers for
+[x= 358.7 y= 471.3] Manage Reference Information
+[x= 160.3 y= 482.8] business process include the addition of a new health plan or benefit, or the
+[x= 160.3 y= 494.3] modification to an existing program due to the passage of new state or federal
+[x= 160.3 y= 505.8] legislation, or budgetary modifications. The business process includes revising code
+[x= 160.3 y= 517.3] information (e.g., Healthcare Common Procedure Coding System (HCPCS), Current
+[x= 160.3 y= 528.8] Procedural Terminology (CPT), National Drug Code (NDC)), and/or revenue codes.
+[x= 160.3 y= 540.3] Business process also adds rates associated with those codes and updates existing
+[x= 160.3 y= 551.8] rates. The business process updates and adds information from the
+[x= 462.1 y= 551.8] Manage
+[x= 160.3 y= 563.3] Member Information
+[x= 259.3 y= 563.3] and
+[x= 278.7 y= 563.3] Manage Provider Information
+[x= 419.9 y= 563.3] business processes as
+[x= 160.3 y= 574.8] well as
+[x= 193.7 y= 574.8] drug formulary, health plan and health benefit information.
+[x= 160.3 y= 609.8] Designate Approved Services and Drug Formulary
+[x= 160.3 y= 627.3] The Designate Approved Services and Drug Formulary activity is responsible for
+[x= 160.3 y= 638.8] review of new and/or modified service codes (e.g., HCPCS, International
+[x= 160.3 y= 650.3] Classification of Diseases (ICD) or NDC) for possible inclusion in various Medicaid
+[x= 160.3 y= 661.8] Benefit programs. The State Medicaid Agency (SMA) may include or exclude certain
+[x= 160.3 y= 673.3] services and drugs in each benefit package.
+[x= 160.3 y= 690.8] Internal or external team(s) of medical, policy, and rates staff review service, supply,
+[x= 160.3 y= 702.3] and drug codes to determine fiscal impacts and medical appropriateness for the
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 199 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Benefit Administration 
+Manage Health Benefit Information 
+Item 
+Details 
+Successor 
+Manage Health Plan Information 
+Manage Reference Information 
+Manage Data 
+Constraints 
+Policies and procedures will differ by state, especially those relating to information 
+standards, record keeping, and privacy. 
+Failures 
+ 
+Inability or failure to load initial records, properly analyze, update, or locate 
+existing records in the Business Activity data store. 
+Performance 
+Measures 
+ 
+Time to store information = within __ minutes 
+ 
+Time to access information = within __ minutes 
+ 
+Error rate = __% or less 
+ 
+Manage Reference Information 
+PL Health Benefit Administration 
+ Manage Reference Information 
+Item 
+Details 
+Description 
+The Manage Reference Information business process is responsible for all 
+operations aspects for the creation, modification, and deletions of reference code 
+information. The Process Claim business process additions or adjustments trigger 
+this business process. Additional triggers for Manage Reference Information 
+business process include the addition of a new health plan or benefit, or the 
+modification to an existing program due to the passage of new state or federal 
+legislation, or budgetary modifications. The business process includes revising code 
+information (e.g., Healthcare Common Procedure Coding System (HCPCS), Current 
+Procedural Terminology (CPT), National Drug Code (NDC)), and/or revenue codes. 
+Business process also adds rates associated with those codes and updates existing 
+rates. The business process updates and adds information from the Manage 
+Member Information and Manage Provider Information business processes as 
+well as drug formulary, health plan and health benefit information. 
+ 
+Designate Approved Services and Drug Formulary 
+The Designate Approved Services and Drug Formulary activity is responsible for 
+review of new and/or modified service codes (e.g., HCPCS, International 
+Classification of Diseases (ICD) or NDC) for possible inclusion in various Medicaid 
+Benefit programs. The State Medicaid Agency (SMA) may include or exclude certain 
+services and drugs in each benefit package. 
+Internal or external team(s) of medical, policy, and rates staff review service, supply, 
+and drug codes to determine fiscal impacts and medical appropriateness for the 
+
+
+================================================================================
+PAGE 14
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 200
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PL Health Benefit Administration
+[x= 224.1 y= 113.7] Manage Reference Information
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.8] inclusion or exclusion of codes to various benefit plans. The review team is
+[x= 160.3 y= 151.3] responsible for reviewing any legislation to determine scope of care requirements
+[x= 160.3 y= 162.8] that the SMA will meet. Review includes the identification of any modifications or
+[x= 160.3 y= 174.3] additions needed for regulations, policies, and or Medicaid State Plan in order to
+[x= 160.3 y= 185.8] accommodate the inclusion or exclusion of service/drug codes. The review team is
+[x= 160.3 y= 197.3] also responsible for the defining coverage criteria and establishing any limitations or
+[x= 160.3 y= 208.8] authorization requirements for approved codes.
+[x=  77.4 y= 227.8] Trigger Event
+[x= 160.3 y= 227.8] Interaction-based Trigger Events to include but not limited to:
+[x= 160.3 y= 245.0] 
+[x= 178.3 y= 246.0] Receive new or modification of reference information from
+[x= 437.3 y= 246.0] Process Claim
+[x= 178.3 y= 257.5] business process.
+[x= 160.3 y= 274.6] 
+[x= 178.3 y= 275.6] Receive new or modification of health plan information from
+[x= 443.9 y= 275.6] Manage Health
+[x= 178.3 y= 287.2] Plan Information
+[x= 257.2 y= 287.2] business process.
+[x= 160.3 y= 304.3] 
+[x= 178.3 y= 305.3] Receive new or modification of health benefits information from
+[x= 460.1 y= 305.3] Manage Health
+[x= 178.3 y= 316.8] Benefit Information
+[x= 270.0 y= 316.8] business process.
+[x= 160.3 y= 334.3] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 351.5] 
+[x= 178.3 y= 352.5] Addition or modification to health plan or health benefit as directed by state or
+[x= 178.3 y= 364.0] federal legislation or budgetary modifications.
+[x= 160.3 y= 381.1] 
+[x= 178.3 y= 382.1] Receive revised reference code set by industry standards organization.
+[x= 160.3 y= 399.3] 
+[x= 178.3 y= 400.3] Annual, bi-annual, quarterly or other review of newly established or modified
+[x= 178.3 y= 411.8] service codes and National Drug Codes as published by maintainers of medical
+[x= 178.3 y= 423.4] codes.
+[x=  77.4 y= 442.4] Result
+[x= 160.3 y= 447.0] 
+[x= 178.3 y= 448.0] Addition or modification of reference code set elements.
+[x= 160.3 y= 465.2] 
+[x= 178.3 y= 466.2] Alert sent to notify provider and contractor of reference code addition or
+[x= 178.3 y= 477.7] modification.
+[x= 160.3 y= 494.8] 
+[x= 178.3 y= 495.8] Approved services and drug formularies established and defined.
+[x= 160.3 y= 513.0] 
+[x= 178.3 y= 514.0] The SMA approved or denied service codes and NDC codes for inclusion or
+[x= 178.3 y= 525.5] exclusion in one or more Medicaid Health Plan.
+[x= 160.3 y= 542.7] 
+[x= 178.3 y= 543.7] Alert sent to notify impacted member of approved services and drug formulary.
+[x= 160.3 y= 560.8] 
+[x= 178.3 y= 561.8] Alert sent to
+[x= 234.5 y= 561.8] Manage Rate Setting
+[x= 332.9 y= 561.8] business process to establish rates for
+[x= 178.3 y= 573.4] approved services and drug formulas.
+[x= 160.3 y= 590.5] 
+[x= 178.3 y= 591.5] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 603.1] activity monitoring.
+[x=  77.4 y= 622.1] Business
+[x=  77.4 y= 633.6] Process Steps
+[x= 160.3 y= 627.1] 1.
+[x= 178.3 y= 627.1] START:
+[x= 215.0 y= 627.1] Receive addition or modification of reference information.
+[x= 160.3 y= 644.5] 2. Review addition or modification to determine impact to coverage requirements
+[x= 178.3 y= 656.0] based on current benefit programs.
+[x= 160.3 y= 673.6] 3. Add or update codes or rates, including pre- and post-verification for accuracy.
+[x= 160.3 y= 691.0] 4. Add or update member benefits, including pre- and post-verification for
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 200 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Benefit Administration 
+ Manage Reference Information 
+Item 
+Details 
+inclusion or exclusion of codes to various benefit plans. The review team is 
+responsible for reviewing any legislation to determine scope of care requirements 
+that the SMA will meet. Review includes the identification of any modifications or 
+additions needed for regulations, policies, and or Medicaid State Plan in order to 
+accommodate the inclusion or exclusion of service/drug codes. The review team is 
+also responsible for the defining coverage criteria and establishing any limitations or 
+authorization requirements for approved codes. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to:  
+ 
+Receive new or modification of reference information from Process Claim 
+business process. 
+ 
+Receive new or modification of health plan information from Manage Health 
+Plan Information business process. 
+ 
+Receive new or modification of health benefits information from Manage Health 
+Benefit Information business process. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Addition or modification to health plan or health benefit as directed by state or 
+federal legislation or budgetary modifications. 
+ 
+Receive revised reference code set by industry standards organization. 
+ 
+Annual, bi-annual, quarterly or other review of newly established or modified 
+service codes and National Drug Codes as published by maintainers of medical 
+codes. 
+Result 
+ 
+Addition or modification of reference code set elements. 
+ 
+Alert sent to notify provider and contractor of reference code addition or 
+modification. 
+ 
+Approved services and drug formularies established and defined. 
+ 
+The SMA approved or denied service codes and NDC codes for inclusion or 
+exclusion in one or more Medicaid Health Plan. 
+ 
+Alert sent to notify impacted member of approved services and drug formulary.  
+ 
+Alert sent to Manage Rate Setting business process to establish rates for 
+approved services and drug formulas. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive addition or modification of reference information. 
+2. Review addition or modification to determine impact to coverage requirements 
+based on current benefit programs. 
+3. Add or update codes or rates, including pre- and post-verification for accuracy. 
+4. Add or update member benefits, including pre- and post-verification for 
+
+
+================================================================================
+PAGE 15
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 201
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PL Health Benefit Administration
+[x= 224.1 y= 113.7] Manage Reference Information
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 178.3 y= 139.8] accuracy.
+[x= 160.3 y= 157.3] 5. Add or update drug formulary information, including pre- and post-verification for
+[x= 178.3 y= 168.8] accuracy.
+[x= 160.3 y= 186.3] 6. Add or update program under which services are available.
+[x= 160.3 y= 203.8] 7.
+[x= 178.3 y= 203.8] END:
+[x= 202.8 y= 203.8] Send alert to notify provider and contractor of reference code addition or
+[x= 178.3 y= 215.3] modification.
+[x= 160.3 y= 232.8] Designate Approved Services and Drug Formulary
+[x= 160.3 y= 250.3] 1.
+[x= 178.3 y= 250.3] START:
+[x= 215.0 y= 250.3] Receive addition or modification of codes information.
+[x= 160.3 y= 267.8] 2. Review new or modified coding to determine impact to coverage requirements
+[x= 178.3 y= 279.3] based on current benefit programs.
+[x= 160.3 y= 296.8] 3. Approve addition or elimination of services or NDC.
+[x= 160.3 y= 314.3] 4. Determine coverage policies.
+[x= 160.3 y= 331.8] 5. Review and identify modifications to Medicaid State Plan.
+[x= 160.3 y= 349.3] 6. Review and identify modifications to regulations.
+[x= 160.3 y= 366.8] 7. Recommend modifications to the State Medicaid Enterprise.
+[x= 160.3 y= 384.3] 8.
+[x= 178.3 y= 384.3] END:
+[x= 202.8 y= 384.3] Send alert to notify provider, contractor, and impacted member of
+[x= 178.3 y= 395.8] approved services and drug formulary.
+[x=  77.4 y= 414.8] Shared Data
+[x= 160.3 y= 419.8] Reference data store including code set, drug formulary, and service code formulary
+[x= 160.3 y= 431.3] information
+[x= 160.3 y= 448.8] Member data store including health benefits information
+[x= 160.3 y= 466.3] Provider data store including provider network information
+[x= 160.3 y= 483.8] Contractor data store including provider network information
+[x= 160.3 y= 501.3] Health Benefit data store including benefit and rate information
+[x=  77.4 y= 520.3] Predecessor
+[x= 160.3 y= 525.4] Receive Inbound Transaction
+[x= 160.3 y= 542.9] Manage Rate Setting
+[x= 160.3 y= 560.4] Manage Health Plan Information
+[x= 160.3 y= 577.9] Manage Health Benefit Information
+[x= 160.3 y= 595.4] Process Claim
+[x= 160.3 y= 612.9] Process Encounter
+[x=  77.4 y= 631.8] Successor
+[x= 160.3 y= 636.9] Process Claim
+[x= 160.3 y= 654.4] Process Encounter
+[x= 160.3 y= 671.9] Manage Rate Setting
+[x= 160.3 y= 689.4] Manage Provider Communication
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 201 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Benefit Administration 
+ Manage Reference Information 
+Item 
+Details 
+accuracy. 
+5. Add or update drug formulary information, including pre- and post-verification for 
+accuracy. 
+6. Add or update program under which services are available. 
+7. END: Send alert to notify provider and contractor of reference code addition or 
+modification. 
+Designate Approved Services and Drug Formulary 
+1. START: Receive addition or modification of codes information. 
+2. Review new or modified coding to determine impact to coverage requirements 
+based on current benefit programs. 
+3. Approve addition or elimination of services or NDC. 
+4. Determine coverage policies. 
+5. Review and identify modifications to Medicaid State Plan. 
+6. Review and identify modifications to regulations. 
+7. Recommend modifications to the State Medicaid Enterprise. 
+8. END: Send alert to notify provider, contractor, and impacted member of 
+approved services and drug formulary. 
+Shared Data 
+Reference data store including code set, drug formulary, and service code formulary 
+information 
+Member data store including health benefits information 
+Provider data store including provider network information 
+Contractor data store including provider network information 
+Health Benefit data store including benefit and rate information 
+Predecessor 
+Receive Inbound Transaction 
+Manage Rate Setting 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Process Claim 
+Process Encounter 
+Successor 
+Process Claim 
+Process Encounter 
+Manage Rate Setting 
+Manage Provider Communication 
+
+
+================================================================================
+PAGE 16
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 202
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PL Health Benefit Administration
+[x= 224.1 y= 113.7] Manage Reference Information
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.9] Manage Contractor Communication
+[x= 160.3 y= 157.4] Manage Applicant and Member Communication
+[x= 160.3 y= 175.0] Manage Data
+[x=  77.4 y= 193.9] Constraints
+[x= 160.3 y= 193.9] The SMA will maintain the Reference data store according to federal and state-
+[x= 160.3 y= 205.3] specific policies and procedures, and comply with any code authority requirements.
+[x= 160.3 y= 217.8] The SMA establishes service and drug formularies. Policies and procedures may
+[x= 160.3 y= 229.3] differ from state to state.
+[x=  77.4 y= 243.4] Failures
+[x= 160.3 y= 248.0] 
+[x= 178.3 y= 249.0] The review does not take place prior to the effective date of the codes.
+[x=  77.4 y= 268.1] Performance
+[x=  77.4 y= 279.5] Measures
+[x= 160.3 y= 272.7] 
+[x= 178.3 y= 273.7] Time to complete process: e.g., Real Time response = within __ seconds, Batch
+[x= 178.3 y= 285.2] Response = within __ days
+[x= 160.3 y= 302.3] 
+[x= 178.3 y= 303.3] Accuracy of decisions = ___%
+[x= 160.3 y= 320.5] 
+[x= 178.3 y= 321.5] Consistency of decisions and disposition = ___%
+[x= 160.3 y= 338.7] 
+[x= 178.3 y= 339.7] Error rate = __% or less
+[x=  72.0 y= 382.6] Manage Rate Setting
+[x=  77.4 y= 409.6] PL Health Benefit Administration
+[x= 251.9 y= 422.8] Manage Rate Setting
+[x= 105.8 y= 436.0] Item
+[x= 333.0 y= 436.0] Details
+[x=  77.4 y= 450.0] Description
+[x= 167.5 y= 450.0] The
+[x= 187.6 y= 450.0] Manage Rate Setting
+[x= 285.9 y= 450.0] business process responds to requests to add or
+[x= 167.5 y= 461.5] modify rates for any service or product covered by the Medicaid Program.
+[x=  77.4 y= 475.5] Trigger Event
+[x= 167.5 y= 475.4] Environment-based Trigger Events to include but not limited to:
+[x= 167.5 y= 492.7] 
+[x= 185.5 y= 493.7] Receive official request for rate setting addition or modification.
+[x= 167.5 y= 510.8] 
+[x= 185.5 y= 511.8] Periodic timetable is due for rate addition or modification.
+[x= 167.5 y= 529.0] 
+[x= 185.5 y= 530.0] Receive the addition or modification of rate information.
+[x=  77.4 y= 549.0] Result
+[x= 167.5 y= 553.6] 
+[x= 185.5 y= 554.6] The State Medicaid Agency (SMA) defines new rate with effective date and
+[x= 185.5 y= 566.2] date span.
+[x= 167.5 y= 583.3] 
+[x= 185.5 y= 584.3] The SMA rejects rate request.
+[x= 167.5 y= 601.5] 
+[x= 185.5 y= 602.5] Alert sent to notify provider and contractor of rate modification.
+[x= 167.5 y= 619.6] 
+[x= 185.5 y= 620.6] Tracking information as needed for measuring performance and business
+[x= 185.5 y= 632.2] activity monitoring.
+[x=  77.4 y= 651.2] Business
+[x=  77.4 y= 662.8] Process Steps
+[x= 167.5 y= 656.2] 1.
+[x= 185.5 y= 656.2] START
+[x= 218.9 y= 656.2] . Receive notification of request for addition or modification of rate.
+[x= 167.5 y= 673.7] 2. Research and analyze rate, which may include request information to
+[x= 185.5 y= 685.2] determine initial or updated rate.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 202 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Benefit Administration 
+ Manage Reference Information 
+Item 
+Details 
+Manage Contractor Communication 
+Manage Applicant and Member Communication 
+Manage Data 
+Constraints 
+The SMA will maintain the Reference data store according to federal and state-
+specific policies and procedures, and comply with any code authority requirements. 
+The SMA establishes service and drug formularies. Policies and procedures may 
+differ from state to state. 
+Failures 
+ 
+The review does not take place prior to the effective date of the codes. 
+Performance 
+Measures 
+ 
+Time to complete process: e.g., Real Time response = within __ seconds, Batch 
+Response = within __ days 
+ 
+Accuracy of decisions = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+Manage Rate Setting 
+PL Health Benefit Administration 
+Manage Rate Setting 
+Item 
+Details 
+Description 
+The Manage Rate Setting business process responds to requests to add or 
+modify rates for any service or product covered by the Medicaid Program. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive official request for rate setting addition or modification.  
+ 
+Periodic timetable is due for rate addition or modification.  
+ 
+Receive the addition or modification of rate information. 
+Result 
+ 
+The State Medicaid Agency (SMA) defines new rate with effective date and 
+date span. 
+ 
+The SMA rejects rate request. 
+ 
+Alert sent to notify provider and contractor of rate modification. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START. Receive notification of request for addition or modification of rate. 
+2. Research and analyze rate, which may include request information to 
+determine initial or updated rate.  
+
+
+================================================================================
+PAGE 17
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 203
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PL Health Benefit Administration
+[x= 251.9 y= 113.7] Manage Rate Setting
+[x= 105.8 y= 126.8] Item
+[x= 333.0 y= 126.8] Details
+[x= 167.5 y= 139.8] 3. Validate rate requested or establish rate.
+[x= 167.5 y= 157.3] 4. Optional: Perform What-if scenarios analysis.
+[x= 167.5 y= 174.8] 5. Create rate update or deny the request.
+[x= 167.5 y= 192.3] 6.
+[x= 185.5 y= 192.3] END:
+[x= 210.0 y= 192.3] Send alert to notify provider and contractor of rate addition or
+[x= 185.5 y= 203.8] modification.
+[x=  77.4 y= 222.8] Shared Data
+[x= 167.5 y= 227.8] Business Activity data store including performance measures Consumer
+[x= 167.5 y= 239.3] Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare
+[x= 167.5 y= 250.8] Effectiveness Data and Information Set (HEDIS))information
+[x= 167.5 y= 268.3] Plan data store including policy information
+[x= 167.5 y= 285.8] Health Benefit data store including benefit package and benefit information
+[x= 167.5 y= 303.3] Claims data store including payment information
+[x= 167.5 y= 320.8] Provider data store including provider network and Contract information
+[x= 167.5 y= 338.3] Contractor data store including provider network information
+[x=  77.4 y= 357.3] Predecessor
+[x= 167.5 y= 362.4] Manage Health Plan Information
+[x=  77.4 y= 381.3] Successor
+[x= 167.5 y= 386.4] Manage Health Plan Information
+[x= 167.5 y= 403.9] Manage Health Benefit Information
+[x= 167.5 y= 421.4] Manage Provider Communication
+[x= 167.5 y= 438.9] Manage Contractor Communication
+[x= 167.5 y= 456.4] Manage Reference Information
+[x=  77.4 y= 475.3] Constraints
+[x= 167.5 y= 475.3] The SMA will conform to mandates from the legislature or court. For a new service,
+[x= 167.5 y= 486.8] procedure or product, information may not exist to assist in establishing a rate.
+[x=  77.4 y= 500.8] Failures
+[x= 167.5 y= 505.5] 
+[x= 185.5 y= 506.5] The SMA does not have enough information to validate rate or perform What-if
+[x= 185.5 y= 518.0] scenario analysis delaying or interrupting the process.
+[x= 167.5 y= 535.2] 
+[x= 185.5 y= 536.2] Process includes possible denial of rate setting request.
+[x=  77.4 y= 555.2] Performance
+[x=  77.4 y= 566.7] Measures
+[x= 167.5 y= 559.8] 
+[x= 185.5 y= 560.8] Time to establish/update rate or reject rate request = __ hours or days
+[x= 167.5 y= 578.0] 
+[x= 185.5 y= 579.0] Accuracy: The process produces acceptable results __ % of the time
+[x= 167.5 y= 596.2] 
+[x= 185.5 y= 597.2] Efficiency: Combination of staff plus automated processes results in utilization
+[x= 185.5 y= 608.6] of __ FTEs per occurrence of this process
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 203 
+May 2014 
+Version 3.0 
+ 
+ 
+PL Health Benefit Administration 
+Manage Rate Setting 
+Item 
+Details 
+3. Validate rate requested or establish rate. 
+4. Optional: Perform What-if scenarios analysis. 
+5. Create rate update or deny the request. 
+6. END: Send alert to notify provider and contractor of rate addition or 
+modification.  
+Shared Data 
+Business Activity data store including performance measures Consumer 
+Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare 
+Effectiveness Data and Information Set (HEDIS))information 
+Plan data store including policy information 
+Health Benefit data store including benefit package and benefit information 
+Claims data store including payment information 
+Provider data store including provider network and Contract information 
+Contractor data store including provider network information 
+Predecessor 
+Manage Health Plan Information 
+Successor 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Manage Provider Communication 
+Manage Contractor Communication 
+Manage Reference Information 
+Constraints 
+The SMA will conform to mandates from the legislature or court. For a new service, 
+procedure or product, information may not exist to assist in establishing a rate. 
+Failures 
+ 
+The SMA does not have enough information to validate rate or perform What-if 
+scenario analysis delaying or interrupting the process. 
+ 
+Process includes possible denial of rate setting request.  
+Performance 
+Measures 
+ 
+Time to establish/update rate or reject rate request = __ hours or days 
+ 
+Accuracy: The process produces acceptable results __ % of the time 
+ 
+Efficiency: Combination of staff plus automated processes results in utilization 
+of __ FTEs per occurrence of this process 
+ 
+

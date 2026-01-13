@@ -19,7 +19,7 @@
       "interaction_based": [
         "Receive disenrollment request from insurance affordability program.",
         "Receive disenrollment request from Manage Compliance Incident Information business process for continued failure to make payments.",
-        "Receive disenrollment request from Determine Adverse Action Incident business process to remove member from services. EE Member Enrollment Disenroll Member Item Details"
+        "Receive disenrollment request from Determine Adverse Action Incident business process to remove member from services."
       ]
     },
     "results": [

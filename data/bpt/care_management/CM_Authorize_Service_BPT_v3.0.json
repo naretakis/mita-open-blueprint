@@ -11,7 +11,7 @@
     "trigger_events": {
       "environment_based": [
         "Provider submits a request for service in accordance with state policy.",
-        "Provider submits additional information for existing service authorization request. CM Authorization Determination Authorize Service Item Details"
+        "Provider submits additional information for existing service authorization request."
       ],
       "interaction_based": [
         "Receive service request from Health Information Exchange (HIE) via ASC X12 278 Health Care Services Review Request and Response transaction.",
@@ -41,7 +41,7 @@
       "12. Check for medical or functional necessity and appropriateness.",
       "13. Check against current service authorizations for duplicates.",
       "14. Validate completeness of supporting documentation.",
-      "15. Deny based on insufficient/erroneous information or authorization for service not",
+      "15. Deny based on insufficient/erroneous information or authorization for service not medically necessary. Go to step 13.",
       "16. Suspend the authorization request based on need for additional information. Go to step 13.",
       "17. Approve service authorization request (this includes approved with modifications.",
       "18. Send alert to send service authorization to requestor via ASC X12 278 Health Care Services Review Request and Response transaction.",

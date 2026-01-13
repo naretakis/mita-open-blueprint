@@ -1,0 +1,3565 @@
+====================================================================================================
+OPERATIONS MANAGEMENT BPT - RAW DUMP FOR MANUAL JSON VERIFICATION
+====================================================================================================
+
+This file contains raw text extracted from the PDF with position information.
+Use this to verify the BPT JSON files are accurate.
+
+
+================================================================================
+PAGE 1
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 145
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Generate Remittance Advice
+[x=  77.4 y= 127.2] OM Payment and Reporting
+[x= 231.4 y= 140.4] Generate Remittance Advice
+[x= 101.9 y= 153.5] Item
+[x= 329.2 y= 153.5] Details
+[x=  77.4 y= 172.6] Description
+[x= 159.8 y= 172.5] The
+[x= 179.9 y= 172.5] Generate Remittance Advice
+[x= 315.5 y= 172.5] business process describes the activity of
+[x= 159.8 y= 184.0] preparing remittance advice/encounter Electronic Data Interchange (EDI)
+[x= 159.8 y= 195.5] transactions that providers use to reconcile their accounts receivables. This
+[x= 159.8 y= 207.0] business process begins with receipt of information resulting from the
+[x= 468.8 y= 207.0] Process
+[x= 159.8 y= 218.5] Claim
+[x= 187.1 y= 218.5] business process, performing required manipulation according to business
+[x= 159.8 y= 230.0] rules and formatting the results into the required output information that process
+[x= 159.8 y= 241.5] sends to
+[x= 200.5 y= 241.5] Send Outbound Transaction
+[x= 334.9 y= 241.5] .
+[x=  77.4 y= 265.6] Trigger Event
+[x= 159.8 y= 265.5] Interaction-based Trigger Events to include but not limited to:
+[x= 159.8 y= 282.7] 
+[x= 177.8 y= 283.7] Receive the claims information from the
+[x= 356.3 y= 283.7] Process Claim
+[x= 425.2 y= 283.7] business process.
+[x=  77.4 y= 307.7] Result
+[x= 159.8 y= 307.3] 
+[x= 177.8 y= 308.3] Alert to send to provider Accredited Standards Committee (ASC) X12 835
+[x= 177.8 y= 319.9] Health Care Claim Payment/Advice transaction.
+[x= 159.8 y= 337.0] 
+[x= 177.8 y= 338.0] Tracking information as needed for measuring performance and business
+[x= 177.8 y= 349.5] activity monitoring.
+[x=  77.4 y= 373.6] Business
+[x=  77.4 y= 385.1] Process Steps
+[x= 159.8 y= 373.5] 1.
+[x= 177.8 y= 373.5] START:
+[x= 214.6 y= 373.5] Receive claims information from the
+[x= 379.0 y= 373.5] Process Claim
+[x= 448.0 y= 373.5] business process.
+[x= 159.8 y= 391.0] 2. Perform required information manipulation according to business rules, including
+[x= 177.8 y= 402.5] the reporting of any edit or audit errors that resulted in denials or modifications
+[x= 177.8 y= 414.0] of payment from the reimbursement amount submitted on the claim, e.g.,
+[x= 177.8 y= 425.5] bundling or unbundling of services.
+[x= 159.8 y= 443.0] 3. Generate remittance advice transaction.
+[x= 159.8 y= 460.5] 4. Send alert to send to provider ASC X12 835 Health Care Claim
+[x= 177.8 y= 472.0] Payment/Remittance Advice transactions.
+[x= 159.8 y= 489.5] 5.
+[x= 177.8 y= 489.5] END:
+[x= 202.3 y= 489.5] If applicable, receive alert from receiver via ASC X12 TA1 Interchange
+[x= 177.8 y= 501.0] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 177.8 y= 512.5] Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading
+[x= 177.8 y= 524.0] Partner Agreement (TPA).
+[x=  77.4 y= 548.1] Shared Data
+[x= 159.8 y= 548.0] Provider data store including provider network and contract information
+[x= 159.8 y= 565.5] Claims data store including payment information
+[x=  77.4 y= 589.6] Predecessor
+[x= 159.8 y= 589.6] Process Claim
+[x=  77.4 y= 613.6] Successor
+[x= 159.8 y= 613.6] Send Outbound Transaction
+[x= 159.8 y= 631.1] Manage Data
+[x=  77.4 y= 655.1] Constraints
+[x= 159.8 y= 655.0] Remittance Advice-Encounter Reports conforms to the format and content in
+[x= 159.8 y= 666.5] accordance with federal and state-specific reporting requirements, e.g., using HIPAA
+[x= 159.8 y= 678.0] Transaction Standard Companion Guide that may differ based on situational fields
+[x= 159.8 y= 689.5] determined by state policy.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 145 
+May 2014 
+Version 3.0 
+ 
+ 
+Generate Remittance Advice 
+OM Payment and Reporting 
+Generate Remittance Advice 
+Item 
+Details 
+Description 
+The Generate Remittance Advice business process describes the activity of 
+preparing remittance advice/encounter Electronic Data Interchange (EDI) 
+transactions that providers use to reconcile their accounts receivables. This 
+business process begins with receipt of information resulting from the Process 
+Claim business process, performing required manipulation according to business 
+rules and formatting the results into the required output information that process 
+sends to Send Outbound Transaction.  
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to:  
+ 
+Receive the claims information from the Process Claim business process. 
+Result 
+ 
+Alert to send to provider Accredited Standards Committee (ASC) X12 835 
+Health Care Claim Payment/Advice transaction. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring.  
+Business 
+Process Steps 
+1. START: Receive claims information from the Process Claim business process. 
+2. Perform required information manipulation according to business rules, including 
+the reporting of any edit or audit errors that resulted in denials or modifications 
+of payment from the reimbursement amount submitted on the claim, e.g., 
+bundling or unbundling of services. 
+3. Generate remittance advice transaction. 
+4. Send alert to send to provider ASC X12 835 Health Care Claim 
+Payment/Remittance Advice transactions. 
+5. END: If applicable, receive alert from receiver via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+Shared Data 
+Provider data store including provider network and contract information 
+Claims data store including payment information 
+Predecessor 
+Process Claim 
+Successor 
+Send Outbound Transaction  
+Manage Data 
+Constraints 
+Remittance Advice-Encounter Reports conforms to the format and content in 
+accordance with federal and state-specific reporting requirements, e.g., using HIPAA 
+Transaction Standard Companion Guide that may differ based on situational fields 
+determined by state policy. 
+
+
+================================================================================
+PAGE 2
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 146
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Payment and Reporting
+[x= 231.4 y= 113.7] Generate Remittance Advice
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x=  77.4 y= 145.9] Failures
+[x= 159.8 y= 145.5] 
+[x= 177.8 y= 146.5] Unresolved conflicts in the reported details in the remittance advice.
+[x=  77.4 y= 170.6] Performance
+[x=  77.4 y= 182.0] Measures
+[x= 159.8 y= 170.2] 
+[x= 177.8 y= 171.2] Time to complete the process: e.g., Real Time response = within __ seconds,
+[x= 177.8 y= 182.6] Batch Response = within __ hours
+[x= 159.8 y= 199.8] 
+[x= 177.8 y= 200.8] Accuracy with which remittance advice/encounter report rules are applied =
+[x= 177.8 y= 212.3] ___%
+[x= 159.8 y= 229.5] 
+[x= 177.8 y= 230.5] Error rate = __% or less
+[x=  72.0 y= 272.3] Inquire Payment Status
+[x=  77.4 y= 299.4] OM Payment and Reporting
+[x= 244.9 y= 312.5] Inquire Payment Status
+[x= 101.4 y= 325.6] Item
+[x= 328.7 y= 325.6] Details
+[x=  77.4 y= 344.7] Description
+[x= 158.9 y= 344.6] The
+[x= 178.9 y= 344.6] Inquire Payment Status
+[x= 290.0 y= 344.6] business process begins with receiving an Accredited
+[x= 158.9 y= 356.2] Standards Committee (ASC) X12 276 Health Care Claim Status Request transaction
+[x= 158.9 y= 367.7] or a request for information received through other means such as email, paper,
+[x= 158.9 y= 379.1] telephone, facsimile, web, or Automated Voice Response (AVR). The business
+[x= 158.9 y= 390.7] process handles the request for the status of a specified claim(s), retrieves
+[x= 158.9 y= 402.1] information from the claims payment history, and generates the response
+[x= 158.9 y= 413.6] information. In addition, the business process formats the information into the ASC
+[x= 158.9 y= 425.2] X12 277 Health Care Information Status Notification transaction, or other mechanism
+[x= 158.9 y= 436.6] for responding, via the media used to communicate the inquiry, and sends claim
+[x= 158.9 y= 448.1] status response via the
+[x= 264.5 y= 448.1] Send Outbound Transaction
+[x= 399.0 y= 448.1] .
+[x=  77.4 y= 472.2] Trigger Event
+[x= 158.9 y= 472.1] Interaction-based Trigger Events to include but not limited to:
+[x= 158.9 y= 489.3] 
+[x= 176.9 y= 490.3] Receive status request via ASC X12 276 Health Care Claim Status Request
+[x= 176.9 y= 501.8] transaction.
+[x= 158.9 y= 519.3] Environment-based Trigger Events to include but not limited to:
+[x= 158.9 y= 536.5] 
+[x= 176.9 y= 537.5] Receive status request via email, mail, mobile device, facsimile, telephone, or
+[x= 176.9 y= 549.0] web.
+[x=  77.4 y= 573.1] Result
+[x= 158.9 y= 572.6] 
+[x= 176.9 y= 573.7] Requester received claims status information.
+[x= 158.9 y= 590.8] 
+[x= 176.9 y= 591.8] If applicable, response sent via ASC X12 277 Health Care Information Status
+[x= 176.9 y= 603.4] Notification transactions to requester.
+[x= 158.9 y= 620.5] 
+[x= 176.9 y= 621.5] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 176.9 y= 633.0] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.9 y= 644.5] Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.9 y= 656.0] Partner Agreement (TPA).
+[x= 158.9 y= 673.2] 
+[x= 176.9 y= 674.2] Tracking information as needed for measuring performance and business
+[x= 176.9 y= 685.7] activity monitoring.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 146 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Payment and Reporting 
+Generate Remittance Advice 
+Item 
+Details 
+Failures 
+ 
+Unresolved conflicts in the reported details in the remittance advice. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within __ seconds, 
+Batch Response = within __ hours 
+ 
+Accuracy with which remittance advice/encounter report rules are applied = 
+___% 
+ 
+Error rate = __% or less 
+ 
+Inquire Payment Status 
+OM Payment and Reporting 
+Inquire Payment Status 
+Item 
+Details 
+Description 
+The Inquire Payment Status business process begins with receiving an Accredited 
+Standards Committee (ASC) X12 276 Health Care Claim Status Request transaction 
+or a request for information received through other means such as email, paper, 
+telephone, facsimile, web, or Automated Voice Response (AVR). The business 
+process handles the request for the status of a specified claim(s), retrieves 
+information from the claims payment history, and generates the response 
+information. In addition, the business process formats the information into the ASC 
+X12 277 Health Care Information Status Notification transaction, or other mechanism 
+for responding, via the media used to communicate the inquiry, and sends claim 
+status response via the Send Outbound Transaction. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive status request via ASC X12 276 Health Care Claim Status Request 
+transaction. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive status request via email, mail, mobile device, facsimile, telephone, or 
+web. 
+Result 
+ 
+Requester received claims status information. 
+ 
+If applicable, response sent via ASC X12 277 Health Care Information Status 
+Notification transactions to requester. 
+ 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+
+
+================================================================================
+PAGE 3
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 147
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Payment and Reporting
+[x= 244.9 y= 113.7] Inquire Payment Status
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x=  77.4 y= 145.9] Business
+[x=  77.4 y= 157.4] Process Steps
+[x= 158.9 y= 145.8] 1.
+[x= 176.9 y= 145.8] START:
+[x= 213.6 y= 145.8] Receive claim status request.
+[x= 203.9 y= 163.3] a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 221.9 y= 174.8] Acknowledgment, 997 Functional Acknowledgment, 999
+[x= 221.9 y= 186.3] Implementation Acknowledgment, and/or the 824 Application Advice
+[x= 221.9 y= 197.8] transaction(s) per Trading Partner Agreement (TPA).
+[x= 458.1 y= 197.8] END:
+[x= 482.6 y= 197.8] Business
+[x= 221.9 y= 209.3] process ends.
+[x= 158.9 y= 226.8] 2. Agency logs claim status request.
+[x= 158.9 y= 244.3] 3. Validate requester has authorization to receive requested information.
+[x= 158.9 y= 261.8] 4. Inquire the payment status information to obtain required requested data
+[x= 176.9 y= 273.3] elements (e.g., member birth date, member last and first name, member ID,
+[x= 176.9 y= 284.8] claim service date, internal control number, medical record number).
+[x= 158.9 y= 302.3] 5. Generate claim status response.
+[x= 158.9 y= 319.8] 6. If applicable, provide claim status response via ASC X12 277 Health Care
+[x= 176.9 y= 331.3] Information Status Notification transactions to requester.
+[x= 158.9 y= 348.8] 7.
+[x= 176.9 y= 348.8] END:
+[x= 204.1 y= 348.8] If applicable, receive alert from submitter via ASC X12 TA1 Interchange
+[x= 176.9 y= 360.3] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.9 y= 371.8] Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.9 y= 383.3] Partner Agreement (TPA).
+[x=  77.4 y= 407.3] Shared Data
+[x= 158.9 y= 407.3] Claim data store including payment information
+[x=  77.4 y= 431.3] Predecessor
+[x= 158.9 y= 431.3] Receive Inbound Transaction
+[x= 158.9 y= 448.9] Process Claim
+[x= 158.9 y= 466.4] Process Encounter
+[x= 158.9 y= 483.9] Generate Remittance Advice
+[x= 158.9 y= 501.4] Apply Mass Adjustment
+[x=  77.4 y= 525.4] Successor
+[x= 158.9 y= 525.4] Send Outbound Transaction
+[x=  77.4 y= 549.4] Constraints
+[x= 158.9 y= 549.3] Payment Status Inquiry and Response will conform to the format and content in
+[x= 158.9 y= 560.8] accordance with federal and state-specific requirements, e.g., using HIPAA
+[x= 158.9 y= 572.3] Transaction Standard Companion Guide that may differ based on situational fields
+[x= 158.9 y= 583.8] determined by state policy.
+[x=  77.4 y= 607.9] Failures
+[x= 158.9 y= 607.5] 
+[x= 176.9 y= 608.5] The State Medicaid Agency (SMA) does not receive the claim Payment Status
+[x= 176.9 y= 620.0] Inquiry submission.
+[x=  77.4 y= 644.0] Performance
+[x=  77.4 y= 655.5] Measures
+[x= 158.9 y= 643.6] 
+[x= 176.9 y= 644.6] Time to complete the process: e.g., Real Time response = within __ seconds,
+[x= 176.9 y= 656.2] Batch Response = within __ hours
+[x= 158.9 y= 673.3] 
+[x= 176.9 y= 674.3] Accuracy with which payment status rules are applied = __%
+[x= 158.9 y= 691.5] 
+[x= 176.9 y= 692.5] Consistency with which payment status rules are applied = __%
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 147 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Payment and Reporting 
+Inquire Payment Status 
+Item 
+Details 
+Business 
+Process Steps 
+1. START: Receive claim status request.  
+a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 
+Implementation Acknowledgment, and/or the 824 Application Advice 
+transaction(s) per Trading Partner Agreement (TPA). END: Business 
+process ends. 
+2. Agency logs claim status request. 
+3. Validate requester has authorization to receive requested information. 
+4. Inquire the payment status information to obtain required requested data 
+elements (e.g., member birth date, member last and first name, member ID, 
+claim service date, internal control number, medical record number). 
+5. Generate claim status response. 
+6. If applicable, provide claim status response via ASC X12 277 Health Care 
+Information Status Notification transactions to requester. 
+7. END: If applicable, receive alert from submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+Shared Data 
+Claim data store including payment information 
+Predecessor 
+Receive Inbound Transaction 
+Process Claim 
+Process Encounter 
+Generate Remittance Advice 
+Apply Mass Adjustment 
+Successor 
+Send Outbound Transaction 
+Constraints 
+Payment Status Inquiry and Response will conform to the format and content in 
+accordance with federal and state-specific requirements, e.g., using HIPAA 
+Transaction Standard Companion Guide that may differ based on situational fields 
+determined by state policy. 
+Failures 
+ 
+The State Medicaid Agency (SMA) does not receive the claim Payment Status 
+Inquiry submission.  
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within __ seconds, 
+Batch Response = within __ hours 
+ 
+Accuracy with which payment status rules are applied = __% 
+ 
+Consistency with which payment status rules are applied = __% 
+
+
+================================================================================
+PAGE 4
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 148
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Payment and Reporting
+[x= 244.9 y= 113.7] Inquire Payment Status
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x= 158.9 y= 139.4] 
+[x= 176.9 y= 140.5] Error rate = __% or less
+[x=  72.0 y= 164.9] Prepare Provider Payment
+[x=  77.8 y= 191.8] OM Payment and Reporting
+[x= 237.2 y= 205.0] Prepare Provider Payment
+[x= 102.5 y= 218.1] Item
+[x= 329.8 y= 218.1] Details
+[x=  77.8 y= 231.2] Description
+[x= 161.4 y= 231.1] The
+[x= 181.4 y= 231.1] Prepare Provider Payment
+[x= 309.3 y= 231.1] business process is responsible for the
+[x= 161.4 y= 242.6] preparation of the payment report information. Reports sent via email, mail, or
+[x= 161.4 y= 254.2] Electronic Data Interchange (EDI) to providers and used to reconcile their accounts
+[x= 161.4 y= 265.6] receivable.
+[x= 161.4 y= 283.1] Many Home and Community-Based Services (HCBS) are not part of the traditional
+[x= 161.4 y= 294.7] Medicaid health plan. Services tend to be member specific and often arranged
+[x= 161.4 y= 306.1] through a plan of care. Atypical providers who render services for HCBS waivers
+[x= 161.4 y= 317.6] may not have authorization, or may not adjudicate in the same manner as other
+[x= 161.4 y= 329.2] health care providers. This business process begins with receipt of HCBS
+[x= 161.4 y= 340.6] information from the
+[x= 253.1 y= 340.6] Process Claim
+[x= 322.1 y= 340.6] business process or capitation information
+[x= 161.4 y= 352.1] from
+[x= 184.2 y= 352.1] Process Encounter
+[x= 275.4 y= 352.1] business process, performing required manipulation
+[x= 161.4 y= 363.6] according to business rules, and formatting the results into the required information.
+[x= 161.4 y= 381.1] The
+[x= 181.4 y= 381.1] capitation payment activity includes a per-member-per-month payment for
+[x= 161.4 y= 392.6] Managed Care Organizations (MCO), Primary Care Case Managers (PCCM), and
+[x= 161.4 y= 404.1] other capitated programs. This business process begins with a timetable for
+[x= 161.4 y= 415.6] scheduled correspondence stipulated by Trading Partner Agreement (TPA) and
+[x= 161.4 y= 427.1] includes retrieving enrollment and benefit transaction information from the Member
+[x= 161.4 y= 438.6] data store, retrieving the rate information associated with the plan from the Provider
+[x= 161.4 y= 450.1] or Contractor data store, and formatting the payment into the required information.
+[x=  77.8 y= 468.2] Trigger Event
+[x= 161.4 y= 468.1] Interaction-based Trigger Events to include but not limited to:
+[x= 161.4 y= 485.3] 
+[x= 179.4 y= 486.3] Alert from
+[x= 225.5 y= 486.3] Process Claim
+[x= 294.5 y= 486.3] business process to prepare HCBS payment.
+[x= 161.4 y= 503.5] 
+[x= 179.4 y= 504.5] Alert from
+[x= 225.5 y= 504.5] Process Encounter
+[x= 316.7 y= 504.5] business process to prepare capitation
+[x= 179.4 y= 515.9] payment.
+[x= 161.4 y= 533.5] Environment-based Trigger Events to include but not limited to:
+[x= 161.4 y= 550.6] 
+[x= 179.4 y= 551.6] Periodic timetable (e.g., monthly) is due for capitation payment.
+[x=  77.8 y= 569.7] Result
+[x= 161.4 y= 575.3] 
+[x= 179.4 y= 576.3] Generated Provider’s payment report.
+[x= 161.4 y= 593.5] 
+[x= 179.4 y= 594.5] Alert to send HCBS payment information to member.
+[x= 161.4 y= 611.7] 
+[x= 179.4 y= 612.7] Alert to send capitation payment information to member.
+[x= 161.4 y= 629.8] 
+[x= 179.4 y= 630.8] Tracking information as needed for measuring performance and business
+[x= 179.4 y= 642.3] activity monitoring.
+[x=  77.8 y= 660.4] Business
+[x=  77.8 y= 671.9] Process Steps
+[x= 162.3 y= 666.3] HCBS Payment
+[x= 161.4 y= 683.8] 1.
+[x= 179.4 y= 683.8] START:
+[x= 216.1 y= 683.8] Receive alert from
+[x= 302.8 y= 683.8] Process Claim
+[x= 374.4 y= 683.8] business process.
+[x= 161.4 y= 701.3] 2. Perform required information manipulation according to business rules,
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 148 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Payment and Reporting 
+Inquire Payment Status 
+Item 
+Details 
+ 
+Error rate = __% or less 
+Prepare Provider Payment 
+OM Payment and Reporting 
+Prepare Provider Payment 
+Item 
+Details 
+Description 
+The Prepare Provider Payment business process is responsible for the 
+preparation of the payment report information. Reports sent via email, mail, or 
+Electronic Data Interchange (EDI) to providers and used to reconcile their accounts 
+receivable.  
+Many Home and Community-Based Services (HCBS) are not part of the traditional 
+Medicaid health plan. Services tend to be member specific and often arranged 
+through a plan of care. Atypical providers who render services for HCBS waivers 
+may not have authorization, or may not adjudicate in the same manner as other 
+health care providers. This business process begins with receipt of HCBS 
+information from the Process Claim business process or capitation information 
+from Process Encounter business process, performing required manipulation 
+according to business rules, and formatting the results into the required information. 
+The capitation payment activity includes a per-member-per-month payment for 
+Managed Care Organizations (MCO), Primary Care Case Managers (PCCM), and 
+other capitated programs. This business process begins with a timetable for 
+scheduled correspondence stipulated by Trading Partner Agreement (TPA) and 
+includes retrieving enrollment and benefit transaction information from the Member 
+data store, retrieving the rate information associated with the plan from the Provider 
+or Contractor data store, and formatting the payment into the required information. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Alert from Process Claim business process to prepare HCBS payment. 
+ 
+Alert from Process Encounter business process to prepare capitation 
+payment. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic timetable (e.g., monthly) is due for capitation payment. 
+Result 
+ 
+Generated Provider’s payment report. 
+ 
+Alert to send HCBS payment information to member. 
+ 
+Alert to send capitation payment information to member. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+HCBS Payment 
+1. START: Receive alert from Process Claim business process. 
+2. Perform required information manipulation according to business rules, 
+
+
+================================================================================
+PAGE 5
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 149
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.8 y= 100.5] OM Payment and Reporting
+[x= 237.2 y= 113.7] Prepare Provider Payment
+[x= 102.5 y= 126.8] Item
+[x= 329.8 y= 126.8] Details
+[x= 179.4 y= 139.8] including the reporting of any edit or audit errors that resulted in denials or
+[x= 179.4 y= 151.3] modifications of payment from the reimbursement amount submitted on the
+[x= 179.4 y= 162.8] claim, such as bundling or unbundling of services.
+[x= 161.4 y= 180.3] 3. Calculate payment amount.
+[x= 161.4 y= 197.8] 4. Generate payment report.
+[x= 161.4 y= 215.3] 5.
+[x= 179.4 y= 215.3] END:
+[x= 203.9 y= 215.3] Send alert to submit HCBS payment information to member.
+[x= 162.3 y= 232.8] Capitation Payment
+[x= 161.4 y= 250.3] 1.
+[x= 179.4 y= 250.3] START:
+[x= 216.1 y= 250.3] Periodic timetable is due for capitation payment.
+[x= 161.4 y= 267.8] 2. Perform required information manipulation according to business rules,
+[x= 179.4 y= 279.3] including the reporting of any edit or audit errors that resulted in denials or
+[x= 179.4 y= 290.8] modifications of payment from the reimbursement amount submitted on the
+[x= 179.4 y= 302.3] claim, such as bundling or unbundling of services.
+[x= 161.4 y= 319.8] 3. Calculate payment amount.
+[x= 161.4 y= 337.3] 4. Generate payment report.
+[x= 161.4 y= 354.8] 5.
+[x= 179.4 y= 354.8] END:
+[x= 203.9 y= 354.8] Send alert to submit capitation payment information to member.
+[x=  77.8 y= 372.8] Shared Data
+[x= 161.4 y= 372.8] Claims data store including payment information
+[x= 161.4 y= 390.3] Reference data store including code set, drug formulary, and service code formulary
+[x= 161.4 y= 401.8] information
+[x= 161.4 y= 419.3] Care management data store including prior authorization information
+[x= 161.4 y= 436.8] Member data store including demographics and third-party insurance information
+[x= 161.4 y= 454.3] Provider data store including provider network and contract information
+[x= 161.4 y= 471.8] Contractor data store including provider network and contract information
+[x= 161.4 y= 489.3] Financial data store including accounts payable information
+[x=  77.8 y= 507.4] Predecessor
+[x= 161.4 y= 507.4] Process Claim
+[x= 161.4 y= 524.9] Process Encounter
+[x=  77.8 y= 542.9] Successor
+[x= 161.4 y= 542.9] Send Outbound Transaction
+[x= 161.4 y= 560.4] Manage Contractor Payment
+[x=  77.8 y= 578.3] Constraints
+[x= 161.4 y= 578.3] The
+[x= 181.4 y= 578.3] Prepare Provider Payment
+[x= 306.5 y= 578.3] business process will adhere to the federal and
+[x= 161.4 y= 589.8] state policies and business rules that may differ by state.
+[x=  77.8 y= 607.9] Failures
+[x= 161.4 y= 613.5] 
+[x= 179.4 y= 614.5] No alerts received from
+[x= 285.6 y= 614.5] Process Claim
+[x= 357.2 y= 614.5] or
+[x= 368.9 y= 614.5] Process Encounter
+[x= 462.9 y= 614.5] business
+[x= 179.4 y= 626.0] processes.
+[x=  77.8 y= 644.0] Performance
+[x=  77.8 y= 655.5] Measures
+[x= 161.4 y= 649.6] 
+[x= 179.4 y= 650.6] Time to complete the process: e.g., Real Time response = within ___seconds,
+[x= 179.4 y= 662.2] Batch Response = within ___ hours
+[x= 161.4 y= 679.3] 
+[x= 179.4 y= 680.3] Accuracy with which rules are applied =___%
+[x= 161.4 y= 697.5] 
+[x= 179.4 y= 698.5] Consistency with which rules are applied=___%
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 149 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Payment and Reporting 
+Prepare Provider Payment 
+Item 
+Details 
+including the reporting of any edit or audit errors that resulted in denials or 
+modifications of payment from the reimbursement amount submitted on the 
+claim, such as bundling or unbundling of services. 
+3. Calculate payment amount. 
+4. Generate payment report. 
+5. END: Send alert to submit HCBS payment information to member.  
+Capitation Payment 
+1. START: Periodic timetable is due for capitation payment. 
+2. Perform required information manipulation according to business rules, 
+including the reporting of any edit or audit errors that resulted in denials or 
+modifications of payment from the reimbursement amount submitted on the 
+claim, such as bundling or unbundling of services. 
+3. Calculate payment amount. 
+4. Generate payment report. 
+5. END: Send alert to submit capitation payment information to member. 
+Shared Data 
+Claims data store including payment information 
+Reference data store including code set, drug formulary, and service code formulary 
+information 
+Care management data store including prior authorization information 
+Member data store including demographics and third-party insurance information 
+Provider data store including provider network and contract information 
+Contractor data store including provider network and contract information 
+Financial data store including accounts payable information 
+Predecessor 
+Process Claim 
+Process Encounter 
+Successor 
+Send Outbound Transaction 
+Manage Contractor Payment 
+Constraints 
+The Prepare Provider Payment business process will adhere to the federal and 
+state policies and business rules that may differ by state. 
+Failures 
+ 
+No alerts received from Process Claim or Process Encounter business 
+processes. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within ___seconds, 
+Batch Response = within ___ hours 
+ 
+Accuracy with which rules are applied =___% 
+ 
+Consistency with which rules are applied=___% 
+
+
+================================================================================
+PAGE 6
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 150
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.8 y= 100.5] OM Payment and Reporting
+[x= 237.2 y= 113.7] Prepare Provider Payment
+[x= 102.5 y= 126.8] Item
+[x= 329.8 y= 126.8] Details
+[x= 161.4 y= 139.4] 
+[x= 179.4 y= 140.5] Error rate =___% or less
+[x=  72.0 y= 182.3] Process Claim
+[x=  77.4 y= 209.4] OM Claims Adjudication
+[x= 268.1 y= 222.5] Process Claim
+[x= 101.3 y= 235.6] Item
+[x= 328.6 y= 235.6] Details
+[x=  77.4 y= 254.7] Description
+[x= 158.8 y= 254.6] The
+[x= 178.8 y= 254.6] Process Claim
+[x= 247.7 y= 254.6] business process receives original or adjusted claim (e.g.,
+[x= 158.8 y= 266.2] institutional, professional, dental, pharmacy, and waiver) information via web or
+[x= 158.8 y= 277.6] Electronic Data Interchange (EDI) transaction, assigns an internal control number,
+[x= 158.8 y= 289.1] and
+[x= 158.8 y= 306.3] 
+[x= 176.8 y= 307.3] Determines its submission status, and based on that:
+[x= 176.8 y= 325.5] o
+[x= 194.8 y= 324.8] Performs Claims Edits:
+[x= 194.8 y= 342.4] 
+[x= 212.8 y= 342.3] Edit a single transaction for valid syntax and format, identifiers and
+[x= 212.8 y= 353.8] codes, dates, and other information required for the transaction.
+[x= 194.8 y= 371.3] 
+[x= 212.8 y= 371.3] Validate business edits, service coverage, Third-Party Liability (TPL),
+[x= 212.8 y= 382.8] and reference coding.
+[x= 176.8 y= 401.0] o
+[x= 194.8 y= 400.3] Performs Claims Audits:
+[x= 194.8 y= 417.8] 
+[x= 212.8 y= 417.8] Verify against historical information.
+[x= 194.8 y= 435.4] 
+[x= 212.8 y= 435.3] Verify that services requiring authorization have approval, clinical
+[x= 212.8 y= 446.8] appropriateness, and payment integrity.
+[x= 176.8 y= 465.0] o
+[x= 194.8 y= 464.3] Suspends claim that fail edits or audits for return to the provider for
+[x= 194.8 y= 475.8] corrections, additional information, or internal review according to state
+[x= 194.8 y= 487.3] defined business rules.
+[x= 176.8 y= 505.5] o
+[x= 194.8 y= 504.8] Applies National Correct Coding Initiative (NCCI) Edits.
+[x= 176.8 y= 523.0] o
+[x= 194.8 y= 522.3] Applies Diagnosis Related Group (DRG)/Ambulatory Payment Classification
+[x= 194.8 y= 533.8] (APC), as appropriate.
+[x= 176.8 y= 552.0] o
+[x= 194.8 y= 551.3] Prices Claims:
+[x= 194.8 y= 568.9] 
+[x= 212.8 y= 568.8] Calculate state allowed amount.
+[x= 194.8 y= 586.3] 
+[x= 212.8 y= 586.3] Calculate paid amount.
+[x= 158.8 y= 603.8] NOTE:
+[x= 189.9 y= 603.8] All fee-for-services claim types will go through most of the business process
+[x= 158.8 y= 615.3] steps but with different business rules associated with the different claim types. Both
+[x= 158.8 y= 626.8] Centers for Medicaid & Medicaid Services (CMS) and state policy determine
+[x= 158.8 y= 638.3] business rules for claims edits, audits, and pricing methodologies. State business
+[x= 158.8 y= 649.8] rules define whether the State Medicaid Agency (SMA) pays, suspends, flags for
+[x= 158.8 y= 661.3] information, or denies a claim. State business rules define whether an edit is fatal or
+[x= 158.8 y= 672.8] non-fatal as well.
+[x= 236.6 y= 672.8] See Constraints
+[x= 307.8 y= 672.8] .
+[x= 158.8 y= 690.3] NOTE:
+[x= 189.9 y= 690.3] An adjustment to a claim is on an exception use case to this business
+[x= 158.8 y= 701.8] process that follows the same process path except it requires a link to the previously
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 150 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Payment and Reporting 
+Prepare Provider Payment 
+Item 
+Details 
+ 
+Error rate =___% or less 
+ 
+Process Claim 
+OM Claims Adjudication 
+Process Claim 
+Item 
+Details 
+Description 
+The Process Claim business process receives original or adjusted claim (e.g., 
+institutional, professional, dental, pharmacy, and waiver) information via web or 
+Electronic Data Interchange (EDI) transaction, assigns an internal control number, 
+and 
+ 
+Determines its submission status, and based on that: 
+o 
+Performs Claims Edits: 
+ Edit a single transaction for valid syntax and format, identifiers and 
+codes, dates, and other information required for the transaction.  
+ Validate business edits, service coverage, Third-Party Liability (TPL), 
+and reference coding. 
+o 
+Performs Claims Audits: 
+ Verify against historical information. 
+ Verify that services requiring authorization have approval, clinical 
+appropriateness, and payment integrity. 
+o 
+Suspends claim that fail edits or audits for return to the provider for 
+corrections, additional information, or internal review according to state 
+defined business rules. 
+o 
+Applies National Correct Coding Initiative (NCCI) Edits. 
+o 
+Applies Diagnosis Related Group (DRG)/Ambulatory Payment Classification 
+(APC), as appropriate. 
+o 
+Prices Claims: 
+ Calculate state allowed amount.  
+ Calculate paid amount. 
+NOTE: All fee-for-services claim types will go through most of the business process 
+steps but with different business rules associated with the different claim types. Both 
+Centers for Medicaid & Medicaid Services (CMS) and state policy determine 
+business rules for claims edits, audits, and pricing methodologies. State business 
+rules define whether the State Medicaid Agency (SMA) pays, suspends, flags for 
+information, or denies a claim. State business rules define whether an edit is fatal or 
+non-fatal as well. See Constraints. 
+NOTE: An adjustment to a claim is on an exception use case to this business 
+process that follows the same process path except it requires a link to the previously 
+
+
+================================================================================
+PAGE 7
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 151
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 268.1 y= 113.7] Process Claim
+[x= 101.3 y= 126.8] Item
+[x= 328.6 y= 126.8] Details
+[x= 158.8 y= 139.8] submitted processed claim in order to reverse the original claim payment and
+[x= 158.8 y= 151.3] associate the original and replacement claim in the payment information.
+[x= 158.8 y= 168.8] NOTE:
+[x= 189.8 y= 168.8] This business process is part of a suite including
+[x= 412.1 y= 168.8] Calculate Spend-down
+[x= 158.8 y= 180.3] Amount,
+[x= 202.1 y= 180.3] Submit Electronic Attachment
+[x= 344.9 y= 180.3] , and
+[x= 370.0 y= 180.3] Generate Remittance Advice
+[x= 158.8 y= 191.8] business processes.
+[x=  77.4 y= 215.9] Trigger Event
+[x= 158.8 y= 215.8] Interaction-based Trigger Events to include but not limited to:
+[x= 158.8 y= 233.0] 
+[x= 176.8 y= 234.0] Receive claim via Accredited Standards Committee (ASC) X12 837 Health Care
+[x= 176.8 y= 245.5] Claim fee-for-services claims transactions.
+[x= 158.8 y= 262.6] 
+[x= 176.8 y= 263.6] Receive Retail Pharmacy Claim Transaction (National Council for Prescription
+[x= 176.8 y= 275.2] Drug Programs (NCPDP) Telecommunications Standard).
+[x= 158.8 y= 292.7] Environment-based Trigger Events to include but not limited to:
+[x= 158.8 y= 309.8] 
+[x= 176.8 y= 310.8] Receive a scanned or direct-data-entered paper claim.
+[x= 158.8 y= 328.0] 
+[x= 176.8 y= 329.0] Periodic (e.g., daily, weekly) adjudication/payment cycles is due.
+[x=  77.4 y= 353.0] Result
+[x= 158.8 y= 352.6] 
+[x= 176.8 y= 353.6] The SMA adjudicates a claim.
+[x= 158.8 y= 370.8] 
+[x= 176.8 y= 371.8] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 176.8 y= 383.3] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.8 y= 394.9] Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.8 y= 406.3] Partner Agreement (TPA).
+[x= 158.8 y= 423.5] 
+[x= 176.8 y= 424.5] If applicable, alert sent to send to submitter via ASC X12 277 Health Care
+[x= 176.8 y= 436.0] Information Status Notification for requesting additional information.
+[x= 158.8 y= 453.2] 
+[x= 176.8 y= 454.2] If applicable, receive alert from receiver via ASC X12 TA1 Interchange
+[x= 176.8 y= 465.7] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.8 y= 477.2] Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.8 y= 488.7] Partner Agreement (TPA).
+[x= 158.8 y= 505.8] 
+[x= 176.8 y= 506.8] If applicable, alert sent to
+[x= 290.7 y= 506.8] Generate Remittance Advice
+[x= 426.4 y= 506.8] business process with
+[x= 176.8 y= 518.3] payment and/or error report information.
+[x= 158.8 y= 535.5] 
+[x= 176.8 y= 536.5] Alert sent to
+[x= 232.9 y= 536.5] Prepare Provider Payment
+[x= 358.0 y= 536.5] business process for payment.
+[x= 158.8 y= 553.7] 
+[x= 176.8 y= 554.7] If applicable, alert sent to send to
+[x= 326.3 y= 554.7] Manage TPL Recovery
+[x= 433.0 y= 554.7] business process for
+[x= 176.8 y= 566.2] third-party insurance.
+[x= 158.8 y= 583.3] 
+[x= 176.8 y= 584.3] Alert sent to
+[x= 230.2 y= 584.3] Manage Accounts Receivable Information
+[x= 434.2 y= 584.3] business process with
+[x= 176.8 y= 595.9] payment information.
+[x= 158.8 y= 613.0] 
+[x= 176.8 y= 614.0] Alert sent to
+[x= 230.2 y= 614.0] Manage Accounts Payable Information
+[x= 416.9 y= 614.0] business process with
+[x= 176.8 y= 625.6] HCBS payment information.
+[x= 158.8 y= 642.7] 
+[x= 176.8 y= 643.7] Tracking information as needed for measuring performance and business
+[x= 176.8 y= 655.2] activity monitoring.
+[x=  77.4 y= 679.3] Business
+[x=  77.4 y= 690.8] Process Steps
+[x= 158.8 y= 679.2] 1.
+[x= 176.8 y= 679.2] START:
+[x= 213.5 y= 679.2] Receive claim submission or claim adjustment information.
+[x= 158.8 y= 696.7] 2. Perform Fatal Edits:
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 151 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Claim 
+Item 
+Details 
+submitted processed claim in order to reverse the original claim payment and 
+associate the original and replacement claim in the payment information. 
+NOTE: This business process is part of a suite including Calculate Spend-down 
+Amount, Submit Electronic Attachment, and Generate Remittance Advice 
+business processes. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive claim via Accredited Standards Committee (ASC) X12 837 Health Care 
+Claim fee-for-services claims transactions. 
+ 
+Receive Retail Pharmacy Claim Transaction (National Council for Prescription 
+Drug Programs (NCPDP) Telecommunications Standard). 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive a scanned or direct-data-entered paper claim. 
+ 
+Periodic (e.g., daily, weekly) adjudication/payment cycles is due. 
+Result 
+ 
+The SMA adjudicates a claim. 
+ 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+If applicable, alert sent to send to submitter via ASC X12 277 Health Care 
+Information Status Notification for requesting additional information. 
+ 
+If applicable, receive alert from receiver via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+If applicable, alert sent to Generate Remittance Advice business process with 
+payment and/or error report information. 
+ 
+Alert sent to Prepare Provider Payment business process for payment. 
+ 
+If applicable, alert sent to send to Manage TPL Recovery business process for 
+third-party insurance. 
+ 
+Alert sent to Manage Accounts Receivable Information business process with 
+payment information. 
+ 
+Alert sent to Manage Accounts Payable Information business process with 
+HCBS payment information. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive claim submission or claim adjustment information.  
+2. Perform Fatal Edits: 
+
+
+================================================================================
+PAGE 8
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 152
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 268.1 y= 113.7] Process Claim
+[x= 101.3 y= 126.8] Item
+[x= 328.6 y= 126.8] Details
+[x= 203.8 y= 139.8] a. If electronic claim submission, perform ASC X12N edits for valid
+[x= 221.8 y= 151.3] syntax and format, identifiers and codes, dates, and other information
+[x= 221.8 y= 162.8] required for the transaction according to the agreed-upon levels 1-7
+[x= 221.8 y= 174.3] stated in the Trading Partner Agreement.
+[x= 189.8 y= 191.8] i.
+[x= 213.7 y= 191.8] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 212.8 y= 203.3] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 212.8 y= 214.8] Acknowledgment, and/or the 824 Application Advice transaction(s) per
+[x= 212.8 y= 226.3] Trading Partner Agreement (TPA).
+[x= 368.4 y= 226.3] END:
+[x= 392.8 y= 226.3] Business process stops.
+[x= 203.8 y= 243.8] b. Validate that claim submission meets filing deadlines based on service
+[x= 221.8 y= 255.3] dates.
+[x= 203.8 y= 272.8] c. If applicable, reject claim for electronic or paper claim fatal validation
+[x= 221.8 y= 284.3] errors and send alert to
+[x= 328.0 y= 284.3] Generate Remittance Advice
+[x= 463.6 y= 284.3] business
+[x= 221.8 y= 295.8] process with error report information.
+[x= 388.0 y= 295.8] END:
+[x= 412.5 y= 295.8] Business process stops.
+[x= 158.8 y= 313.3] 3. Perform Non-Fatal Edits:
+[x= 203.8 y= 330.8] a. Determine claim status as initial, adjustment to a processed claim, or a
+[x= 221.8 y= 342.3] duplicate submission that is already in the adjudication process, but
+[x= 221.8 y= 353.8] not yet completed and loaded into payment history (using a unique
+[x= 221.8 y= 365.3] Patient Account Number).
+[x= 189.8 y= 382.8] i.
+[x= 213.7 y= 382.8] If applicable, associate the claim adjustment to the original claim
+[x= 212.8 y= 394.3] submission.
+[x= 203.8 y= 411.8] b. Validate provider information (e.g., provider taxonomy, National
+[x= 221.8 y= 423.3] Provider Identification (NPI), enrollment status, approved to bill for this
+[x= 221.8 y= 434.8] service).
+[x= 203.8 y= 452.3] c. Validate member information (e.g., Member’s eligibility status on the
+[x= 221.8 y= 463.8] date of service, apply third-party resources to the claim).
+[x= 189.8 y= 481.3] i.
+[x= 213.7 y= 481.3] If applicable, alert sent to
+[x= 327.6 y= 481.3] Manage TPL Recovery
+[x= 434.4 y= 481.3] business process for
+[x= 212.8 y= 492.8] third-party insurance.
+[x= 203.8 y= 510.3] d. Validate member’s health benefit covers the service and apply
+[x= 221.8 y= 521.8] appropriate rules. For example:
+[x= 189.8 y= 539.3] i.
+[x= 213.7 y= 539.3] Because adult member benefit package does not cover dental services,
+[x= 212.8 y= 550.8] deny the claim.
+[x= 187.6 y= 562.3] ii.
+[x= 213.7 y= 562.3] Member is in another health plan that is their primary insurance, and the
+[x= 212.8 y= 573.8] Medicaid covers the same service. Designate the claim for the
+[x= 212.8 y= 585.3] Coordination of Benefits (COB) and deny the claim. Under a payer-to-
+[x= 212.8 y= 596.7] payer business model, the primary payer receives the COB claim.
+[x= 203.8 y= 614.3] e. Validate appropriateness of service codes including correct code set
+[x= 221.8 y= 625.8] versions, and correct association of services with diagnosis and
+[x= 221.8 y= 637.2] member demographic and health status.
+[x= 203.8 y= 654.8] f.
+[x= 221.7 y= 654.8] If provider submits service authorization, referral or treatment plan
+[x= 221.8 y= 666.3] number, verify the number, member, provider, service, and date(s) of
+[x= 221.8 y= 677.7] service.
+[x= 203.8 y= 695.3] g. If state-defined business rules identify certain edits that cause a claim
+[x= 221.8 y= 706.8] to suspend, and a claim fails for one or more of them, go to Alternate
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 152 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Claim 
+Item 
+Details 
+a. If electronic claim submission, perform ASC X12N edits for valid 
+syntax and format, identifiers and codes, dates, and other information 
+required for the transaction according to the agreed-upon levels 1-7 
+stated in the Trading Partner Agreement. 
+i. 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per 
+Trading Partner Agreement (TPA). END: Business process stops. 
+b. Validate that claim submission meets filing deadlines based on service 
+dates. 
+c. If applicable, reject claim for electronic or paper claim fatal validation 
+errors and send alert to Generate Remittance Advice business 
+process with error report information. END: Business process stops. 
+3. Perform Non-Fatal Edits: 
+a. Determine claim status as initial, adjustment to a processed claim, or a 
+duplicate submission that is already in the adjudication process, but 
+not yet completed and loaded into payment history (using a unique 
+Patient Account Number). 
+i. 
+If applicable, associate the claim adjustment to the original claim 
+submission. 
+b. Validate provider information (e.g., provider taxonomy, National 
+Provider Identification (NPI), enrollment status, approved to bill for this 
+service). 
+c. Validate member information (e.g., Member’s eligibility status on the 
+date of service, apply third-party resources to the claim). 
+i. 
+If applicable, alert sent to Manage TPL Recovery business process for 
+third-party insurance.  
+d. Validate member’s health benefit covers the service and apply 
+appropriate rules. For example: 
+i. 
+Because adult member benefit package does not cover dental services, 
+deny the claim. 
+ii. 
+Member is in another health plan that is their primary insurance, and the 
+Medicaid covers the same service. Designate the claim for the 
+Coordination of Benefits (COB) and deny the claim. Under a payer-to-
+payer business model, the primary payer receives the COB claim. 
+e. Validate appropriateness of service codes including correct code set 
+versions, and correct association of services with diagnosis and 
+member demographic and health status. 
+f. 
+If provider submits service authorization, referral or treatment plan 
+number, verify the number, member, provider, service, and date(s) of 
+service.  
+g. If state-defined business rules identify certain edits that cause a claim 
+to suspend, and a claim fails for one or more of them, go to Alternate 
+
+
+================================================================================
+PAGE 9
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 153
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 268.1 y= 113.7] Process Claim
+[x= 101.3 y= 126.8] Item
+[x= 328.6 y= 126.8] Details
+[x= 221.8 y= 139.8] Path: Suspended Claim below.
+[x= 158.8 y= 157.3] 4. Perform Audits:
+[x= 203.8 y= 174.8] a. Check payment history for duplicate processed claim using search key
+[x= 221.8 y= 186.3] information such as in-house claim number, date of service, provider
+[x= 221.8 y= 197.8] and member demographics, service, and diagnosis codes.
+[x= 203.8 y= 215.3] b. If provider did not submit service authorization, referral or treatment
+[x= 221.8 y= 226.8] plan, and one exists on file, validate number, member, provider,
+[x= 221.8 y= 238.3] service, and date(s) of service against claims history.
+[x= 203.8 y= 255.8] c. Check Clinical Appropriateness of the services provided based on
+[x= 221.8 y= 267.3] clinical, case, and disease management protocols.
+[x= 203.8 y= 284.8] d. Perform Prospective Payment Integrity Check.
+[x= 203.8 y= 302.3] e. If state-defined business rules identify certain audits that cause a
+[x= 221.8 y= 313.8] claim to suspend, and a claim fails for one or more of them, go to
+[x= 221.8 y= 325.3] Alternate Path: Suspended Claim below.
+[x= 158.8 y= 342.8] 5. Validate National Correct Coding Initiative (NCCI) (bundle/unbundle codes).
+[x= 158.8 y= 360.3] 6. If applicable, apply Diagnosis Related Group (DRG)/Ambulatory Payment
+[x= 176.8 y= 371.8] Classification (APC) business rules, as appropriate.
+[x= 158.8 y= 389.3] 7. Perform Pricing:
+[x= 203.8 y= 406.8] a. Calculates state allowed payment amount by applying pricing
+[x= 221.8 y= 418.3] algorithms (e.g., member-specific pricing, DRG, APC).
+[x= 158.8 y= 435.8] 8. Check for presence of Coordination of Benefits (COB) claim information.
+[x= 203.8 y= 453.3] a. If COB is present:
+[x= 189.8 y= 470.8] i.
+[x= 213.7 y= 470.8] Set status to Deny claim.
+[x= 185.3 y= 482.3] iii.
+[x= 213.7 y= 482.3] Flag and move claim to COB file.
+[x= 184.7 y= 493.8] iv.
+[x= 213.7 y= 493.8] Send alert to
+[x= 273.1 y= 493.8] Send Outbound Process
+[x= 389.8 y= 493.8] with claim adjudication
+[x= 212.8 y= 505.3] information and claim.
+[x= 158.8 y= 522.8] 9. Send alert to
+[x= 236.2 y= 522.8] Generate Remittance Advice
+[x= 371.9 y= 522.8] business process with payment
+[x= 176.8 y= 534.3] information.
+[x= 158.8 y= 551.8] 10. Send alert to
+[x= 233.5 y= 551.8] Manage Accounts Receivable Information
+[x= 437.5 y= 551.8] business process
+[x= 176.8 y= 563.3] with payment information.
+[x= 158.8 y= 580.8] 11. Send alert to
+[x= 233.5 y= 580.8] Manage Accounts Payable Information
+[x= 420.2 y= 580.8] business process with
+[x= 176.8 y= 592.3] payment information.
+[x= 158.8 y= 609.8] 12.
+[x= 176.8 y= 609.8] END:
+[x= 201.2 y= 609.8] Send alert to
+[x= 263.5 y= 609.8] Prepare Provider Payment
+[x= 388.6 y= 609.8] business process for payment.
+[x= 159.7 y= 644.8] Alternate Path: Suspended Claim
+[x= 158.8 y= 662.3] 1.
+[x= 176.8 y= 662.3] START:
+[x= 213.5 y= 662.3] Claim has an assigned suspended status.
+[x= 158.8 y= 679.8] 2. Conduct Internal review
+[x= 203.8 y= 697.3] a. If applicable, reviewer requests further information as an alert sent to
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 153 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Claim 
+Item 
+Details 
+Path: Suspended Claim below. 
+4. Perform Audits: 
+a. Check payment history for duplicate processed claim using search key 
+information such as in-house claim number, date of service, provider 
+and member demographics, service, and diagnosis codes. 
+b. If provider did not submit service authorization, referral or treatment 
+plan, and one exists on file, validate number, member, provider, 
+service, and date(s) of service against claims history. 
+c. Check Clinical Appropriateness of the services provided based on 
+clinical, case, and disease management protocols. 
+d. Perform Prospective Payment Integrity Check. 
+e. If state-defined business rules identify certain audits that cause a 
+claim to suspend, and a claim fails for one or more of them, go to 
+Alternate Path: Suspended Claim below. 
+5. Validate National Correct Coding Initiative (NCCI) (bundle/unbundle codes). 
+6. If applicable, apply Diagnosis Related Group (DRG)/Ambulatory Payment 
+Classification (APC) business rules, as appropriate. 
+7. Perform Pricing: 
+a. Calculates state allowed payment amount by applying pricing 
+algorithms (e.g., member-specific pricing, DRG, APC). 
+8. Check for presence of Coordination of Benefits (COB) claim information.  
+a. If COB is present: 
+i. 
+Set status to Deny claim. 
+iii. 
+Flag and move claim to COB file. 
+iv. 
+Send alert to Send Outbound Process with claim adjudication 
+information and claim. 
+9. Send alert to Generate Remittance Advice business process with payment 
+information.  
+10. Send alert to Manage Accounts Receivable Information business process 
+with payment information. 
+11. Send alert to Manage Accounts Payable Information business process with 
+payment information. 
+12. END: Send alert to Prepare Provider Payment business process for payment. 
+ 
+Alternate Path: Suspended Claim 
+1. START: Claim has an assigned suspended status. 
+2. Conduct Internal review 
+a. If applicable, reviewer requests further information as an alert sent to 
+
+
+================================================================================
+PAGE 10
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 154
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 268.1 y= 113.7] Process Claim
+[x= 101.3 y= 126.8] Item
+[x= 328.6 y= 126.8] Details
+[x= 221.8 y= 139.8] requestor via ASC X12 277 Health Care Information Status
+[x= 221.8 y= 151.3] Notification.
+[x= 189.8 y= 168.8] i.
+[x= 213.7 y= 168.8] If applicable, receive alert from receiver via ASC X12 TA1 Interchange
+[x= 212.8 y= 180.3] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 212.8 y= 191.8] Acknowledgment, and/or the 824 Application Advice transaction(s) per
+[x= 212.8 y= 203.3] Trading Partner Agreement (TPA).
+[x= 187.6 y= 214.8] ii.
+[x= 213.7 y= 214.8] Internal review makes a determination to resolve the edit or audit in
+[x= 212.8 y= 226.3] question.
+[x= 185.3 y= 237.8] iii.
+[x= 213.7 y= 237.8] END:
+[x= 238.1 y= 237.8] Business process stops.
+[x= 158.8 y= 255.3] 3. Provider submits corrected information in response to an error notification.
+[x= 203.8 y= 272.8] a. The claim passes the edit or audit based on additional information
+[x= 221.8 y= 284.3] submitted in response to a request, such as the ASC X12 277 Health
+[x= 221.8 y= 295.8] Care Information Status Notification.
+[x= 385.2 y= 295.8] NOTE:
+[x= 416.3 y= 295.8] The
+[x= 439.1 y= 295.8] Submit Electronic
+[x= 221.8 y= 307.3] Attachment
+[x= 279.5 y= 307.3] business process generates this request and reviews the
+[x= 221.8 y= 318.8] response to validate that the additional information submitted is
+[x= 221.8 y= 330.3] sufficient to pass the edit or audit.
+[x= 158.8 y= 347.8] 4. If there is a favorably resolved suspended claim:
+[x= 203.8 y= 365.3] a. Send alert to
+[x= 281.2 y= 365.3] Generate Remittance Advice
+[x= 419.6 y= 365.3] business process with
+[x= 221.8 y= 376.8] adjudicated claim information.
+[x= 203.8 y= 394.3] b. Go to step 7 of the
+[x= 306.8 y= 394.3] Process Claim
+[x= 375.7 y= 394.3] business process.
+[x= 203.8 y= 411.8] c.
+[x= 221.8 y= 411.8] END:
+[x= 246.2 y= 411.8] Business process stops.
+[x= 158.8 y= 429.3] 5. If provider submits a corrected claim, process it as if it is an original claim.
+[x= 203.8 y= 446.8] a. Go to step 2 of the
+[x= 306.8 y= 446.8] Process Claim
+[x= 375.7 y= 446.8] business process.
+[x= 203.8 y= 464.3] b.
+[x= 221.8 y= 464.3] END:
+[x= 246.2 y= 464.3] Business process stops.
+[x= 158.8 y= 481.8] 6. If there is an unfavorably resolved suspended claim, send alert to
+[x= 468.0 y= 481.8] Generate
+[x= 176.8 y= 493.3] Remittance Advice
+[x= 266.3 y= 493.3] business process with error report information. These
+[x= 176.8 y= 504.8] include failures because the additional information requested for a suspended
+[x= 176.8 y= 516.3] claim is not present, is inadequate or fails to satisfy the edit or audit.
+[x= 158.8 y= 533.8] 7.
+[x= 176.8 y= 533.8] END:
+[x= 201.2 y= 533.8] The SMA resolves the suspended claim.
+[x= 159.7 y= 568.8] Alternate Path: Third Party Liability Failures
+[x= 158.8 y= 586.3] 1.
+[x= 176.8 y= 586.3] START:
+[x= 213.5 y= 586.3] The SMA identifies a third-party resource.
+[x= 158.8 y= 603.8] 2. If a Cost Avoidance for third-party liability exists, reject claim for edit errors.
+[x= 158.8 y= 621.3] 3. Send alert to
+[x= 236.2 y= 621.3] Manage TPL Recovery
+[x= 343.0 y= 621.3] business process for third-party insurance
+[x= 176.8 y= 632.8] recovery.
+[x= 158.8 y= 650.3] 4.
+[x= 176.8 y= 650.3] END:
+[x= 201.2 y= 650.3] Send alert to
+[x= 263.5 y= 650.3] Generate Remittance Advice
+[x= 399.1 y= 650.3] business process with Edit
+[x= 176.8 y= 661.8] Error Report information.
+[x=  77.4 y= 685.9] Shared Data
+[x= 158.8 y= 685.8] EDI Translator data store including ASC X12 Implementation Guide Validation Edits
+[x= 158.8 y= 697.3] for Levels 1 through 7 Claim data store including payment, in-house claim number,
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 154 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Claim 
+Item 
+Details 
+requestor via ASC X12 277 Health Care Information Status 
+Notification. 
+i. 
+If applicable, receive alert from receiver via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per 
+Trading Partner Agreement (TPA). 
+ii. 
+Internal review makes a determination to resolve the edit or audit in 
+question.  
+iii. 
+END: Business process stops. 
+3. Provider submits corrected information in response to an error notification. 
+a. The claim passes the edit or audit based on additional information 
+submitted in response to a request, such as the ASC X12 277 Health 
+Care Information Status Notification. NOTE: The Submit Electronic 
+Attachment business process generates this request and reviews the 
+response to validate that the additional information submitted is 
+sufficient to pass the edit or audit. 
+4. If there is a favorably resolved suspended claim: 
+a. Send alert to Generate Remittance Advice business process with 
+adjudicated claim information. 
+b. Go to step 7 of the Process Claim business process. 
+c. END: Business process stops. 
+5. If provider submits a corrected claim, process it as if it is an original claim. 
+a. Go to step 2 of the Process Claim business process. 
+b. END: Business process stops. 
+6. If there is an unfavorably resolved suspended claim, send alert to Generate 
+Remittance Advice business process with error report information. These 
+include failures because the additional information requested for a suspended 
+claim is not present, is inadequate or fails to satisfy the edit or audit. 
+7. END: The SMA resolves the suspended claim.  
+ 
+Alternate Path: Third Party Liability Failures 
+1. START: The SMA identifies a third-party resource. 
+2. If a Cost Avoidance for third-party liability exists, reject claim for edit errors. 
+3. Send alert to Manage TPL Recovery business process for third-party insurance 
+recovery.  
+4. END: Send alert to Generate Remittance Advice business process with Edit 
+Error Report information. 
+Shared Data 
+EDI Translator data store including ASC X12 Implementation Guide Validation Edits 
+for Levels 1 through 7 Claim data store including payment, in-house claim number, 
+
+
+================================================================================
+PAGE 11
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 155
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 268.1 y= 113.7] Process Claim
+[x= 101.3 y= 126.8] Item
+[x= 328.6 y= 126.8] Details
+[x= 158.8 y= 139.8] and Patient Account Number information
+[x= 158.8 y= 157.3] Provider data store including performing prospective program integrity (e.g.,
+[x= 158.8 y= 168.8] Healthcare Integrity and Protection Data Bank (HIPDB)) and Medicare/Medicaid
+[x= 158.8 y= 180.3] sanctions information, provider network, and contract information
+[x= 158.8 y= 197.8] Member data store including demographics, third-party insurance information, and
+[x= 158.8 y= 209.3] member-specific pricing
+[x= 158.8 y= 226.8] Plan data store including health benefit information (e.g., covered services, units,
+[x= 158.8 y= 238.3] life-time limits, units and funding limits for authorized services, and benefit package-
+[x= 158.8 y= 249.8] specific rates)
+[x= 158.8 y= 267.3] Reference data store including filing deadlines, code set, drug formulary, and service
+[x= 158.8 y= 278.8] code formulary. Additional information includes Diagnosis Related Group (DRG),
+[x= 158.8 y= 290.3] Ambulatory Payment Classification (APC), and National Correct Coding Initiative
+[x= 158.8 y= 301.8] (NCCI) information
+[x= 158.8 y= 319.3] Authorization data store including authorization and treatment plan information
+[x= 158.8 y= 336.8] Rate setting data store including applicable rates
+[x= 158.8 y= 354.3] Claims data store including adjudication and payment history information
+[x= 158.8 y= 371.8] Financial data store including accounts receivable and accounts payable information
+[x=  77.4 y= 395.9] Predecessor
+[x= 158.8 y= 395.9] Receive Inbound Transaction
+[x= 158.8 y= 413.4] Submit Electronic Attachment
+[x=  77.4 y= 437.3] Successor
+[x= 158.8 y= 437.3] Send Outbound Transaction
+[x= 158.8 y= 454.9] Calculate Spend-down Amount
+[x= 158.8 y= 472.4] Generate Remittance Advice
+[x= 158.8 y= 489.9] Prepare Provider Payment
+[x= 158.8 y= 507.4] Manage Accounts Receivable Information
+[x= 158.8 y= 524.9] Manage Accounts Payable Disbursement
+[x= 158.8 y= 542.4] Manage TPL Recovery
+[x= 158.8 y= 559.9] Submit Electronic Attachment
+[x= 158.8 y= 577.4] Manage Data
+[x= 158.8 y= 594.9] Manage Performance Measures
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 155 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Claim 
+Item 
+Details 
+and Patient Account Number information 
+Provider data store including performing prospective program integrity (e.g., 
+Healthcare Integrity and Protection Data Bank (HIPDB)) and Medicare/Medicaid 
+sanctions information, provider network, and contract information 
+Member data store including demographics, third-party insurance information, and 
+member-specific pricing 
+Plan data store including health benefit information (e.g., covered services, units, 
+life-time limits, units and funding limits for authorized services, and benefit package-
+specific rates) 
+Reference data store including filing deadlines, code set, drug formulary, and service 
+code formulary. Additional information includes Diagnosis Related Group (DRG), 
+Ambulatory Payment Classification (APC), and National Correct Coding Initiative 
+(NCCI) information 
+Authorization data store including authorization and treatment plan information 
+Rate setting data store including applicable rates 
+Claims data store including adjudication and payment history information 
+Financial data store including accounts receivable and accounts payable information 
+Predecessor 
+Receive Inbound Transaction 
+Submit Electronic Attachment 
+Successor 
+Send Outbound Transaction 
+Calculate Spend-down Amount 
+Generate Remittance Advice 
+Prepare Provider Payment 
+Manage Accounts Receivable Information 
+Manage Accounts Payable Disbursement 
+Manage TPL Recovery 
+Submit Electronic Attachment  
+Manage Data 
+Manage Performance Measures 
+
+
+================================================================================
+PAGE 12
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 156
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 268.1 y= 113.7] Process Claim
+[x= 101.3 y= 126.8] Item
+[x= 328.6 y= 126.8] Details
+[x=  77.4 y= 145.9] Constraints
+[x= 158.8 y= 145.8] All claim types will go through most of the steps within the
+[x= 416.6 y= 145.8] Process Claim
+[x= 485.6 y= 145.8] business
+[x= 158.8 y= 157.3] process main flow with some variance of business rules and information. Types of
+[x= 158.8 y= 168.8] claim variances include: Institutional, Professional, Dental, Pharmacy, and Waiver
+[x= 158.8 y= 180.3] claims, Medicare Crossover and Medicare Part D pharmacy claims, coordination of
+[x= 158.8 y= 191.8] benefits claims received from payers secondary to Medicaid (e.g., for IHS eligibles),
+[x= 158.8 y= 203.3] and TPL cost-avoided claims.
+[x= 158.8 y= 220.8] The business rules will conform to federal and state-specific rules and pricing
+[x= 158.8 y= 232.3] algorithms. Editing, auditing, and pricing variances could exist on services billed by
+[x= 158.8 y= 243.8] claim type, provider taxonomy code, service line codes, and the process may require
+[x= 158.8 y= 255.3] additional information.
+[x= 158.8 y= 272.8] An adjustment to a claim follows the same business process path except that it
+[x= 158.8 y= 284.3] requires a link to the previously submitted and processed claim in order to reverse
+[x= 158.8 y= 295.8] the original claim payment, and associate the original to the adjustment.
+[x=  77.4 y= 323.2] Failures
+[x= 158.8 y= 323.1] The
+[x= 178.8 y= 323.1] Process Claim
+[x= 247.7 y= 323.1] business process contains a series of potential points of failure.
+[x= 158.8 y= 334.6] The claim could fail any edit or audit. Business rules define whether one or more edit
+[x= 158.8 y= 346.1] or audit failures will result in suspending or denying the claim.
+[x= 158.8 y= 363.6] Fatal Edit Failures:
+[x= 244.9 y= 363.6] Claim information has fatal edit error. For example:
+[x= 158.8 y= 380.8] 
+[x= 176.8 y= 381.8] Claim submitted without all the required information.
+[x= 158.8 y= 399.0] 
+[x= 176.8 y= 400.0] Provider files claim after claim filing deadline.
+[x= 158.8 y= 417.5] Other Edit Failures: Claim information has other errors. For example:
+[x= 158.8 y= 434.6] 
+[x= 176.8 y= 435.6] The SMA does not cover the service because not in health benefit, not provided
+[x= 176.8 y= 447.1] in an approved facility or by an approved provider type.
+[x= 158.8 y= 464.3] 
+[x= 176.8 y= 465.3] Service is not appropriate based on member demographics.
+[x= 158.8 y= 482.5] 
+[x= 176.8 y= 483.5] Member has TPL coverage.
+[x=  77.4 y= 512.6] Performance
+[x=  77.4 y= 524.1] Measures
+[x= 158.8 y= 512.2] 
+[x= 176.8 y= 513.2] Time to complete the process: e.g., Real Time response = within __ seconds,
+[x= 176.8 y= 524.8] Batch Response = within __ hour
+[x= 158.8 y= 541.9] 
+[x= 176.8 y= 542.9] Accuracy with which edits, audits and pricing algorithms are applied and paid
+[x= 176.8 y= 554.4] amount is calculated = ___%
+[x= 158.8 y= 571.6] 
+[x= 176.8 y= 572.6] Consistency of decisions on suspended claims = ___%
+[x= 158.8 y= 589.8] 
+[x= 176.8 y= 590.8] Error rate = __% or less
+[x=  72.0 y= 632.6] Process Encounter
+[x=  77.4 y= 659.6] OM Claims Adjudication
+[x= 255.8 y= 672.7] Process Encounter
+[x= 101.0 y= 685.9] Item
+[x= 328.3 y= 685.9] Details
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 156 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Claim 
+Item 
+Details 
+Constraints 
+All claim types will go through most of the steps within the Process Claim business 
+process main flow with some variance of business rules and information. Types of 
+claim variances include: Institutional, Professional, Dental, Pharmacy, and Waiver 
+claims, Medicare Crossover and Medicare Part D pharmacy claims, coordination of 
+benefits claims received from payers secondary to Medicaid (e.g., for IHS eligibles), 
+and TPL cost-avoided claims. 
+The business rules will conform to federal and state-specific rules and pricing 
+algorithms. Editing, auditing, and pricing variances could exist on services billed by 
+claim type, provider taxonomy code, service line codes, and the process may require 
+additional information. 
+An adjustment to a claim follows the same business process path except that it 
+requires a link to the previously submitted and processed claim in order to reverse 
+the original claim payment, and associate the original to the adjustment. 
+Failures 
+The Process Claim business process contains a series of potential points of failure. 
+The claim could fail any edit or audit. Business rules define whether one or more edit 
+or audit failures will result in suspending or denying the claim. 
+Fatal Edit Failures: Claim information has fatal edit error. For example: 
+ 
+Claim submitted without all the required information. 
+ 
+Provider files claim after claim filing deadline. 
+Other Edit Failures: Claim information has other errors. For example: 
+ 
+The SMA does not cover the service because not in health benefit, not provided 
+in an approved facility or by an approved provider type. 
+ 
+Service is not appropriate based on member demographics. 
+ 
+Member has TPL coverage. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within __ seconds, 
+Batch Response = within __ hour 
+ 
+Accuracy with which edits, audits and pricing algorithms are applied and paid 
+amount is calculated = ___% 
+ 
+Consistency of decisions on suspended claims = ___% 
+ 
+Error rate = __% or less 
+ 
+Process Encounter 
+OM Claims Adjudication 
+Process Encounter 
+Item 
+Details 
+
+
+================================================================================
+PAGE 13
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 157
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 255.8 y= 113.7] Process Encounter
+[x= 101.0 y= 126.8] Item
+[x= 328.3 y= 126.8] Details
+[x=  77.4 y= 145.9] Description
+[x= 158.1 y= 145.8] The
+[x= 178.1 y= 145.8] Process Encounter
+[x= 269.3 y= 145.8] business process receives original or adjusted encounter
+[x= 158.1 y= 157.3] (e.g., institutional, professional, dental, pharmacy, and waiver) information via web or
+[x= 158.1 y= 168.8] Electronic Data Interchange (EDI) transaction and determines its submission status,
+[x= 158.1 y= 180.3] and based on that:
+[x= 158.1 y= 197.5] 
+[x= 176.1 y= 198.5] Performs Encounter Edits:
+[x= 176.1 y= 216.7] o
+[x= 194.1 y= 216.0] Edit a single transaction for valid syntax and format, identifiers and codes,
+[x= 194.1 y= 227.5] dates, and other information required for the transaction.
+[x= 176.1 y= 245.7] o
+[x= 194.1 y= 245.0] Validate business edits, service coverage, Third-Party Liability (TPL), and
+[x= 194.1 y= 256.5] reference coding.
+[x= 158.1 y= 273.6] 
+[x= 176.1 y= 274.6] Performs Encounter Audits:
+[x= 176.1 y= 292.9] o
+[x= 194.1 y= 292.1] Verify against historical information.
+[x= 176.1 y= 310.4] o
+[x= 194.1 y= 309.7] Verify that services requiring authorization have approval, clinical
+[x= 194.1 y= 321.2] appropriateness, and payment integrity.
+[x= 158.1 y= 338.3] 
+[x= 176.1 y= 339.3] Suspends encounter that fail edits or audits for return to the provider for
+[x= 176.1 y= 350.8] corrections, additional information, or internal review according to state defined
+[x= 176.1 y= 362.3] business rules.
+[x= 176.1 y= 380.5] o
+[x= 194.1 y= 379.8] Apply National Correct Coding Initiative (NCCI) Edits.
+[x= 176.1 y= 398.0] o
+[x= 194.1 y= 397.3] Apply Diagnosis Related Group (DRG)/Ambulatory Payment Classification
+[x= 194.1 y= 408.8] (APC), as appropriate.
+[x= 176.1 y= 427.0] o
+[x= 194.1 y= 426.3] Prices Encounters:
+[x= 194.1 y= 443.9] 
+[x= 212.1 y= 443.8] Calculate state allowed amount.
+[x= 194.1 y= 461.4] 
+[x= 212.1 y= 461.3] Calculate paid amount.
+[x= 194.1 y= 478.9] 
+[x= 212.1 y= 478.8] Set paid amount to zero dollars.
+[x= 158.1 y= 496.3] NOTE:
+[x= 189.2 y= 496.3] All encounters will go through most of the business process steps but with
+[x= 158.1 y= 507.8] different business rules associated with the different encounter claim types. Both
+[x= 158.1 y= 519.3] Centers for Medicare & Medicaid Services (CMS) and state policy determine
+[x= 158.1 y= 530.8] business rules for encounter edits, audits, and pricing methodologies. State business
+[x= 158.1 y= 542.3] rules define whether an encounter goes to a to-be-paid status, suspends, flags for
+[x= 158.1 y= 553.8] information, or denies. State business rules define whether an edit is fatal or non-
+[x= 158.1 y= 565.3] fatal as well.
+[x= 215.9 y= 565.3] See Constraints
+[x= 287.0 y= 565.3] .
+[x= 158.1 y= 582.8] NOTE:
+[x= 189.2 y= 582.8] An adjustment to an encounter is on an exception use case to this business
+[x= 158.1 y= 594.3] process that follows the same process path except it requires a link to the previously
+[x= 158.1 y= 605.8] submitted processed encounter in order to reverse the original encounter and
+[x= 158.1 y= 617.3] associate the original and replacement encounter in the calculation information.
+[x= 158.1 y= 634.8] NOTE:
+[x= 189.2 y= 634.8] This business process is part of a suite including
+[x= 411.4 y= 634.8] Calculate Spend-down
+[x= 158.1 y= 646.3] Amount,
+[x= 201.4 y= 646.3] Submit Electronic Attachment
+[x= 344.3 y= 646.3] , and
+[x= 369.3 y= 646.3] Generate Financial Report
+[x= 158.1 y= 657.8] business processes.
+[x=  77.4 y= 681.8] Trigger Event
+[x= 158.1 y= 681.8] Interaction-based Trigger Events to include but not limited to:
+[x= 158.1 y= 699.0] 
+[x= 176.1 y= 700.0] Receive encounter via Accredited Standards Committee (ASC) X12 837 Health
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 157 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Encounter 
+Item 
+Details 
+Description 
+The Process Encounter business process receives original or adjusted encounter 
+(e.g., institutional, professional, dental, pharmacy, and waiver) information via web or 
+Electronic Data Interchange (EDI) transaction and determines its submission status, 
+and based on that: 
+ 
+Performs Encounter Edits: 
+o 
+Edit a single transaction for valid syntax and format, identifiers and codes, 
+dates, and other information required for the transaction.  
+o 
+Validate business edits, service coverage, Third-Party Liability (TPL), and 
+reference coding. 
+ 
+Performs Encounter Audits: 
+o 
+Verify against historical information. 
+o 
+Verify that services requiring authorization have approval, clinical 
+appropriateness, and payment integrity. 
+ 
+Suspends encounter that fail edits or audits for return to the provider for 
+corrections, additional information, or internal review according to state defined 
+business rules. 
+o 
+Apply National Correct Coding Initiative (NCCI) Edits. 
+o 
+Apply Diagnosis Related Group (DRG)/Ambulatory Payment Classification 
+(APC), as appropriate. 
+o 
+Prices Encounters: 
+ Calculate state allowed amount. 
+ Calculate paid amount. 
+ Set paid amount to zero dollars. 
+NOTE: All encounters will go through most of the business process steps but with 
+different business rules associated with the different encounter claim types. Both 
+Centers for Medicare & Medicaid Services (CMS) and state policy determine 
+business rules for encounter edits, audits, and pricing methodologies. State business 
+rules define whether an encounter goes to a to-be-paid status, suspends, flags for 
+information, or denies. State business rules define whether an edit is fatal or non-
+fatal as well. See Constraints. 
+NOTE: An adjustment to an encounter is on an exception use case to this business 
+process that follows the same process path except it requires a link to the previously 
+submitted processed encounter in order to reverse the original encounter and 
+associate the original and replacement encounter in the calculation information. 
+NOTE: This business process is part of a suite including Calculate Spend-down 
+Amount, Submit Electronic Attachment, and Generate Financial Report 
+business processes. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive encounter via Accredited Standards Committee (ASC) X12 837 Health 
+
+
+================================================================================
+PAGE 14
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 158
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 255.8 y= 113.7] Process Encounter
+[x= 101.0 y= 126.8] Item
+[x= 328.3 y= 126.8] Details
+[x= 176.1 y= 139.8] Care Claim encounter transactions.
+[x= 158.1 y= 157.0] 
+[x= 176.1 y= 158.0] Receive Retail Pharmacy Encounter Transaction (National Council for
+[x= 176.1 y= 169.5] Prescription Drug Programs (NCPDP) Telecommunications Standard).
+[x= 158.1 y= 187.0] Environment-based Trigger Events to include but not limited to:
+[x= 158.1 y= 204.1] 
+[x= 176.1 y= 205.1] Periodic timetable (e.g., daily, weekly) is due for adjudication and payment
+[x= 176.1 y= 216.7] cycles.
+[x=  77.4 y= 240.7] Result
+[x= 158.1 y= 240.3] 
+[x= 176.1 y= 241.3] The State Medicaid Agency (SMA) adjudicates an encounter.
+[x= 158.1 y= 258.5] 
+[x= 176.1 y= 259.5] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 176.1 y= 271.0] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.1 y= 282.5] Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.1 y= 294.0] Partner Agreement (TPA).
+[x= 158.1 y= 311.2] 
+[x= 176.1 y= 312.2] If applicable, alert sent to send to submitter via ASC X12 277 Health Care
+[x= 176.1 y= 323.7] Information Status Notification for requesting additional information.
+[x= 158.1 y= 340.8] 
+[x= 176.1 y= 341.8] If applicable, receive alert from receiver via ASC X12 TA1 Interchange
+[x= 176.1 y= 353.3] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.1 y= 364.9] Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.1 y= 376.3] Partner Agreement (TPA).
+[x= 158.1 y= 393.5] 
+[x= 176.1 y= 394.5] Alert sent to
+[x= 232.3 y= 394.5] Prepare Provider Payment
+[x= 357.4 y= 394.5] business process for capitation
+[x= 176.1 y= 406.0] payment.
+[x= 158.1 y= 423.2] 
+[x= 176.1 y= 424.2] If applicable, alert sent to
+[x= 290.0 y= 424.2] Generate Financial Report
+[x= 414.5 y= 424.2] business process with
+[x= 176.1 y= 435.7] payment and/or error report information.
+[x= 158.1 y= 452.8] 
+[x= 176.1 y= 453.8] If applicable, alert sent to send to
+[x= 325.6 y= 453.8] Manage TPL Recovery
+[x= 432.4 y= 453.8] business process for
+[x= 176.1 y= 465.4] third-party insurance.
+[x= 158.1 y= 482.5] 
+[x= 176.1 y= 483.5] Tracking information as needed for measuring performance and business activity
+[x= 176.1 y= 495.1] monitoring.
+[x=  77.4 y= 519.1] Business
+[x=  77.4 y= 530.6] Process Steps
+[x= 158.1 y= 519.1] 1.
+[x= 176.1 y= 519.1] START:
+[x= 212.8 y= 519.1] Receive encounter submission or encounter adjustment information.
+[x= 158.1 y= 536.5] 2. Perform Fatal Edits:
+[x= 203.1 y= 554.0] a. If electronic encounter submission, perform ASC X12N edits for valid
+[x= 221.1 y= 565.6] syntax and format, identifiers and codes, dates, and other information
+[x= 221.1 y= 577.0] required for the transaction according to the agreed-upon levels 1-7
+[x= 221.1 y= 588.5] stated in the Trading Partner Agreement.
+[x= 189.1 y= 606.0] i.
+[x= 213.0 y= 606.0] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 212.1 y= 617.5] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 212.1 y= 629.0] Acknowledgment, and/or the 824 Application Advice transaction(s) per
+[x= 212.1 y= 640.5] Trading Partner Agreement (TPA).
+[x= 365.0 y= 640.5] END:
+[x= 392.2 y= 640.5] Business process stops.
+[x= 203.1 y= 658.0] b. Validate that encounter submission meets filing deadlines based on
+[x= 221.1 y= 669.5] service dates.
+[x= 203.1 y= 687.0] c. If applicable, reject encounter for electronic fatal validation errors and
+[x= 221.1 y= 698.5] send alert to
+[x= 278.9 y= 698.5] Generate Financial Report
+[x= 403.4 y= 698.5] business process with error
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 158 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Encounter 
+Item 
+Details 
+Care Claim encounter transactions. 
+ 
+Receive Retail Pharmacy Encounter Transaction (National Council for 
+Prescription Drug Programs (NCPDP) Telecommunications Standard). 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic timetable (e.g., daily, weekly) is due for adjudication and payment 
+cycles. 
+Result 
+ 
+The State Medicaid Agency (SMA) adjudicates an encounter. 
+ 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+If applicable, alert sent to send to submitter via ASC X12 277 Health Care 
+Information Status Notification for requesting additional information. 
+ 
+If applicable, receive alert from receiver via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+Alert sent to Prepare Provider Payment business process for capitation 
+payment.  
+ 
+If applicable, alert sent to Generate Financial Report business process with 
+payment and/or error report information. 
+ 
+If applicable, alert sent to send to Manage TPL Recovery business process for 
+third-party insurance. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring.  
+Business 
+Process Steps 
+1. START: Receive encounter submission or encounter adjustment information.  
+2. Perform Fatal Edits: 
+a. If electronic encounter submission, perform ASC X12N edits for valid 
+syntax and format, identifiers and codes, dates, and other information 
+required for the transaction according to the agreed-upon levels 1-7 
+stated in the Trading Partner Agreement. 
+i. 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per 
+Trading Partner Agreement (TPA). END: Business process stops. 
+b. Validate that encounter submission meets filing deadlines based on 
+service dates. 
+c. If applicable, reject encounter for electronic fatal validation errors and 
+send alert to Generate Financial Report business process with error 
+
+
+================================================================================
+PAGE 15
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 159
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 255.8 y= 113.7] Process Encounter
+[x= 101.0 y= 126.8] Item
+[x= 328.3 y= 126.8] Details
+[x= 221.1 y= 139.8] report information.
+[x= 305.0 y= 139.8] END:
+[x= 329.5 y= 139.8] Business process stops.
+[x= 158.1 y= 157.3] 3. Perform Non-Fatal Edits:
+[x= 203.1 y= 174.8] a. Determine encounter status as initial, adjustment to a processed
+[x= 221.1 y= 186.3] encounter, or a duplicate submission that is already in the adjudication
+[x= 221.1 y= 197.8] process but not yet completed and loaded into encounter payment
+[x= 221.1 y= 209.3] history (using a unique Patient Account Number).
+[x= 189.1 y= 226.8] i.
+[x= 213.0 y= 226.8] If applicable, associate encounter adjustment to original encounter
+[x= 212.1 y= 238.3] submission.
+[x= 203.1 y= 255.8] b. Validate provider information (e.g., provider taxonomy, NPI, enrollment
+[x= 221.1 y= 267.3] status, approved to bill for this service).
+[x= 203.1 y= 284.8] c. Validate member information (e.g., demographics, eligibility status on
+[x= 221.1 y= 296.3] the date of service).
+[x= 203.1 y= 313.8] d. Validate the SMA covers service in member’s health benefit and apply
+[x= 221.1 y= 325.3] appropriate rules. For example:
+[x= 189.1 y= 342.8] i.
+[x= 213.0 y= 342.8] Adult member benefit package does not cover dental services so deny
+[x= 212.1 y= 354.3] the encounter.
+[x= 203.1 y= 371.8] e. Validate appropriateness of service codes including correct code set
+[x= 221.1 y= 383.3] versions, and correct association of services with diagnosis and
+[x= 221.1 y= 394.8] member demographic and health status.
+[x= 203.1 y= 412.3] f.
+[x= 221.1 y= 412.3] If provider submits service authorization, referral or treatment plan
+[x= 221.1 y= 423.8] number, verify the number, member, provider, service, and date(s) of
+[x= 221.1 y= 435.3] service.
+[x= 203.1 y= 452.8] g. If state defined business rules identify certain edits that cause an
+[x= 221.1 y= 464.3] encounter to suspend, and an encounter fails for one or more of them,
+[x= 221.1 y= 475.8] send alert to
+[x= 278.9 y= 475.8] Generate Financial Report
+[x= 403.4 y= 475.8] business process with error
+[x= 221.1 y= 487.3] report information.
+[x= 305.0 y= 487.3] END:
+[x= 329.5 y= 487.3] Business process stops.
+[x= 158.1 y= 504.8] 4. Perform Audits:
+[x= 203.1 y= 522.3] a. Check encounter history for duplicate processed encounter using
+[x= 221.1 y= 533.8] search key information such as in-house encounter number, date of
+[x= 221.1 y= 545.3] service, provider and member demographics, service, and diagnosis
+[x= 221.1 y= 556.8] codes.
+[x= 203.1 y= 574.3] b. If provider did not submit service authorization, referral or treatment
+[x= 221.1 y= 585.8] plan, and one exists on file, validate number, member, provider,
+[x= 221.1 y= 597.3] service, and date(s) of service against claims history.
+[x= 203.1 y= 614.7] c. Check Clinical Appropriateness of the services provided based on
+[x= 221.1 y= 626.3] clinical, case, and disease management protocols.
+[x= 203.1 y= 643.8] d. Perform Prospective Payment Integrity Check.
+[x= 203.1 y= 661.2] e. If state defined business rules identify certain audits that cause an
+[x= 221.1 y= 672.8] encounter to suspend, and an encounter fails for one or more of them,
+[x= 221.1 y= 684.3] send alert to
+[x= 278.9 y= 684.3] Generate Financial Report
+[x= 403.4 y= 684.3] business process with error
+[x= 221.1 y= 695.7] report information.
+[x= 305.0 y= 695.7] END:
+[x= 329.5 y= 695.7] Business process stops.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 159 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Encounter 
+Item 
+Details 
+report information. END: Business process stops. 
+3. Perform Non-Fatal Edits: 
+a. Determine encounter status as initial, adjustment to a processed 
+encounter, or a duplicate submission that is already in the adjudication 
+process but not yet completed and loaded into encounter payment 
+history (using a unique Patient Account Number). 
+i. 
+If applicable, associate encounter adjustment to original encounter 
+submission. 
+b. Validate provider information (e.g., provider taxonomy, NPI, enrollment 
+status, approved to bill for this service). 
+c. Validate member information (e.g., demographics, eligibility status on 
+the date of service). 
+d. Validate the SMA covers service in member’s health benefit and apply 
+appropriate rules. For example: 
+i. 
+Adult member benefit package does not cover dental services so deny 
+the encounter. 
+e. Validate appropriateness of service codes including correct code set 
+versions, and correct association of services with diagnosis and 
+member demographic and health status. 
+f. 
+If provider submits service authorization, referral or treatment plan 
+number, verify the number, member, provider, service, and date(s) of 
+service. 
+g. If state defined business rules identify certain edits that cause an 
+encounter to suspend, and an encounter fails for one or more of them, 
+send alert to Generate Financial Report business process with error 
+report information. END: Business process stops. 
+4. Perform Audits: 
+a. Check encounter history for duplicate processed encounter using 
+search key information such as in-house encounter number, date of 
+service, provider and member demographics, service, and diagnosis 
+codes. 
+b. If provider did not submit service authorization, referral or treatment 
+plan, and one exists on file, validate number, member, provider, 
+service, and date(s) of service against claims history. 
+c. Check Clinical Appropriateness of the services provided based on 
+clinical, case, and disease management protocols. 
+d. Perform Prospective Payment Integrity Check. 
+e. If state defined business rules identify certain audits that cause an 
+encounter to suspend, and an encounter fails for one or more of them, 
+send alert to Generate Financial Report business process with error 
+report information. END: Business process stops. 
+
+
+================================================================================
+PAGE 16
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 160
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 255.8 y= 113.7] Process Encounter
+[x= 101.0 y= 126.8] Item
+[x= 328.3 y= 126.8] Details
+[x= 158.1 y= 139.8] 5. Validate National Correct Coding Initiative (NCCI) (bundle/unbundle codes).
+[x= 158.1 y= 157.3] 6. If applicable, apply Diagnosis Related Group (DRG)/Ambulatory Payment
+[x= 176.1 y= 168.8] Classification (APC) business rules.
+[x= 158.1 y= 186.3] 7. Perform Pricing (Shadow-Pricing):
+[x= 203.1 y= 203.8] a. Calculates state allowed payment amount by applying pricing
+[x= 221.1 y= 215.3] algorithms (e.g., member-specific pricing, DRG, APC).
+[x= 203.1 y= 232.8] b. Calculates to-be-paid amount by deducting:
+[x= 189.1 y= 250.3] i.
+[x= 213.0 y= 250.3] Contributions provided by Member.
+[x= 186.9 y= 261.8] ii.
+[x= 213.0 y= 261.8] Provider advances, liens, and recoupments.
+[x= 158.1 y= 279.3] 8. Send alert to
+[x= 235.6 y= 279.3] Prepare Provider Payment
+[x= 360.7 y= 279.3] business process for payment.
+[x= 158.1 y= 296.8] 9.
+[x= 176.1 y= 296.8] END:
+[x= 200.6 y= 296.8] Send alert to
+[x= 262.8 y= 296.8] Generate Financial Report
+[x= 387.3 y= 296.8] business process with payment
+[x= 176.1 y= 308.3] information.
+[x= 159.0 y= 343.3] Alternate Path: Suspended Encounter
+[x= 158.1 y= 360.8] 1.
+[x= 176.1 y= 360.8] START:
+[x= 212.8 y= 360.8] Provider submits corrected information in response to an error
+[x= 176.1 y= 372.3] notification.
+[x= 158.1 y= 389.8] 2. Process it as if it is an original encounter.
+[x= 203.1 y= 407.3] a. Go to step 2 of the
+[x= 306.1 y= 407.3] Process Encounter
+[x= 397.3 y= 407.3] business process.
+[x= 158.1 y= 424.8] 3.
+[x= 176.1 y= 424.8] END:
+[x= 200.6 y= 424.8] Business process stops.
+[x=  77.4 y= 448.9] Shared Data
+[x= 158.1 y= 448.8] EDI Translator data store including ASC X12 Implementation Guide Validation Edits
+[x= 158.1 y= 460.3] for Levels 1 through 7 encounter data store including payment, in-house encounter
+[x= 158.1 y= 471.8] number, and Patient Account Number information
+[x= 158.1 y= 489.3] Provider data store including performing prospective program Integrity (e.g., HIPDB)
+[x= 158.1 y= 500.8] and Medicare/Medicaid sanctions information, provider network, and contract
+[x= 158.1 y= 512.3] information
+[x= 158.1 y= 529.8] Member data store including demographics, eligibility, enrollment, and member-
+[x= 158.1 y= 541.3] specific pricing
+[x= 158.1 y= 558.8] Plan data store including health benefit information (e.g., covered services, units,
+[x= 158.1 y= 570.3] life-time limits, units and funding limits for authorized services, and benefit package-
+[x= 158.1 y= 581.8] specific rates)
+[x= 158.1 y= 599.3] Reference data store including filing deadlines, code set, drug formulary, and service
+[x= 158.1 y= 610.8] code formulary. Additional information includes Diagnosis Related Group (DRG),
+[x= 158.1 y= 622.3] Ambulatory Payment Classification (APC), and National Correct Coding Initiative
+[x= 158.1 y= 633.8] (NCCI) information
+[x= 158.1 y= 651.3] Authorization data store including authorization and treatment plan information
+[x= 158.1 y= 668.8] Rate setting data store including applicable rates
+[x= 158.1 y= 686.3] Encounter data store including adjudication and encounter payment history
+[x= 158.1 y= 697.8] information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 160 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Encounter 
+Item 
+Details 
+5. Validate National Correct Coding Initiative (NCCI) (bundle/unbundle codes). 
+6. If applicable, apply Diagnosis Related Group (DRG)/Ambulatory Payment 
+Classification (APC) business rules. 
+7. Perform Pricing (Shadow-Pricing): 
+a. Calculates state allowed payment amount by applying pricing 
+algorithms (e.g., member-specific pricing, DRG, APC).  
+b. Calculates to-be-paid amount by deducting: 
+i. 
+Contributions provided by Member. 
+ii. 
+Provider advances, liens, and recoupments. 
+8. Send alert to Prepare Provider Payment business process for payment. 
+9. END: Send alert to Generate Financial Report business process with payment 
+information.  
+ 
+Alternate Path: Suspended Encounter 
+1. START: Provider submits corrected information in response to an error 
+notification. 
+2. Process it as if it is an original encounter.  
+a. Go to step 2 of the Process Encounter business process. 
+3. END: Business process stops. 
+Shared Data 
+EDI Translator data store including ASC X12 Implementation Guide Validation Edits 
+for Levels 1 through 7 encounter data store including payment, in-house encounter 
+number, and Patient Account Number information 
+Provider data store including performing prospective program Integrity (e.g., HIPDB) 
+and Medicare/Medicaid sanctions information, provider network, and contract 
+information 
+Member data store including demographics, eligibility, enrollment, and member-
+specific pricing 
+ Plan data store including health benefit information (e.g., covered services, units, 
+life-time limits, units and funding limits for authorized services, and benefit package-
+specific rates) 
+Reference data store including filing deadlines, code set, drug formulary, and service 
+code formulary. Additional information includes Diagnosis Related Group (DRG), 
+Ambulatory Payment Classification (APC), and National Correct Coding Initiative 
+(NCCI) information 
+Authorization data store including authorization and treatment plan information 
+Rate setting data store including applicable rates 
+Encounter data store including adjudication and encounter payment history 
+information 
+
+
+================================================================================
+PAGE 17
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 161
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 255.8 y= 113.7] Process Encounter
+[x= 101.0 y= 126.8] Item
+[x= 328.3 y= 126.8] Details
+[x= 158.1 y= 139.8] Financial data store including accounts receivable and accounts payable information
+[x=  77.4 y= 163.9] Predecessor
+[x= 158.1 y= 163.9] Receive Inbound Transaction
+[x= 158.1 y= 181.4] Submit Electronic Attachment
+[x=  77.4 y= 205.4] Successor
+[x= 158.1 y= 205.4] Send Outbound Transaction
+[x= 158.1 y= 223.0] Calculate Spend-down Amount
+[x= 158.1 y= 240.4] Generate Financial Report
+[x= 158.1 y= 257.9] Submit Electronic Attachment
+[x= 158.1 y= 275.5] Manage Data
+[x=  77.4 y= 299.4] Constraints
+[x= 158.1 y= 299.3] All encounter claim types will go through most of the steps within the
+[x= 463.2 y= 299.3] Process
+[x= 158.1 y= 310.8] Encounter
+[x= 207.6 y= 310.8] business process main flow with some variance of business rules and
+[x= 158.1 y= 322.3] information. Types of counter variances include: Institutional, Professional, Dental,
+[x= 158.1 y= 333.8] Pharmacy, and Waiver encounters; Medicare Crossover and Medicare Part D
+[x= 158.1 y= 345.3] pharmacy encounters; and Coordination of Benefits (COB) encounters received from
+[x= 158.1 y= 356.8] payers secondary to Medicaid (e.g., for IHS eligibles).
+[x= 158.1 y= 374.3] The business rules will conform to federal and state-specific rules and pricing
+[x= 158.1 y= 385.8] algorithms. Editing, auditing, and pricing variances could exist on services billed by
+[x= 158.1 y= 397.3] encounter claim type, provider taxonomy code, service line codes, and the process
+[x= 158.1 y= 408.8] may require additional information.
+[x= 158.1 y= 426.3] An adjustment to an encounter follows the same business process path except that it
+[x= 158.1 y= 437.8] requires a link to the previously submitted and processed encounter in order to
+[x= 158.1 y= 449.3] reverse the original encounter and associate the original to the adjustment.
+[x=  77.4 y= 473.3] Failures
+[x= 158.1 y= 473.3] The
+[x= 178.1 y= 473.3] Process Encounter
+[x= 269.3 y= 473.3] business process contains a series of potential points of
+[x= 158.1 y= 484.8] failure. The encounter could fail any edit or audit. Business rules define whether one
+[x= 158.1 y= 496.3] or more edit or audit failures will result in suspending or denying the encounter.
+[x= 158.1 y= 513.8] Fatal Edit Failures:
+[x= 244.3 y= 513.8] Encounter information has fatal edit error. For example:
+[x= 158.1 y= 530.9] 
+[x= 176.1 y= 532.0] Encounter submitted without all the required information.
+[x= 158.1 y= 549.1] 
+[x= 176.1 y= 550.1] Encounter submitted after encounter filing deadline.
+[x= 158.1 y= 567.7] Other Edit Failures: Encounter information has other errors. For example:
+[x= 158.1 y= 584.8] 
+[x= 176.1 y= 585.8] The SMA does not cover the service because it is not in the health benefit, or is
+[x= 176.1 y= 597.3] not in an approved facility or performed by an approved provider type.
+[x= 158.1 y= 614.5] 
+[x= 176.1 y= 615.5] Service is not appropriate based on member demographics.
+[x=  77.4 y= 639.5] Performance
+[x=  77.4 y= 651.1] Measures
+[x= 158.1 y= 639.1] 
+[x= 176.1 y= 640.1] Time to complete
+[x= 255.5 y= 640.1] Process Encounter
+[x= 346.7 y= 640.1] business process: e.g., Real Time
+[x= 176.1 y= 651.7] response = within __ seconds, Batch Response = within __ hour
+[x= 158.1 y= 668.8] 
+[x= 176.1 y= 669.8] Accuracy with which edits, audits, and pricing algorithms are applied and to-be-
+[x= 176.1 y= 681.4] paid and paid amount is calculated = ___%
+[x= 158.1 y= 698.5] 
+[x= 176.1 y= 699.5] Consistency of decisions on suspended encounters = ___%
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 161 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Encounter 
+Item 
+Details 
+Financial data store including accounts receivable and accounts payable information 
+Predecessor 
+Receive Inbound Transaction 
+Submit Electronic Attachment 
+Successor 
+Send Outbound Transaction 
+Calculate Spend-down Amount 
+Generate Financial Report 
+Submit Electronic Attachment  
+Manage Data 
+Constraints 
+All encounter claim types will go through most of the steps within the Process 
+Encounter business process main flow with some variance of business rules and 
+information. Types of counter variances include: Institutional, Professional, Dental, 
+Pharmacy, and Waiver encounters; Medicare Crossover and Medicare Part D 
+pharmacy encounters; and Coordination of Benefits (COB) encounters received from 
+payers secondary to Medicaid (e.g., for IHS eligibles). 
+The business rules will conform to federal and state-specific rules and pricing 
+algorithms. Editing, auditing, and pricing variances could exist on services billed by 
+encounter claim type, provider taxonomy code, service line codes, and the process 
+may require additional information. 
+An adjustment to an encounter follows the same business process path except that it 
+requires a link to the previously submitted and processed encounter in order to 
+reverse the original encounter and associate the original to the adjustment. 
+Failures 
+The Process Encounter business process contains a series of potential points of 
+failure. The encounter could fail any edit or audit. Business rules define whether one 
+or more edit or audit failures will result in suspending or denying the encounter. 
+Fatal Edit Failures: Encounter information has fatal edit error. For example: 
+ 
+Encounter submitted without all the required information. 
+ 
+Encounter submitted after encounter filing deadline. 
+Other Edit Failures: Encounter information has other errors. For example: 
+ 
+The SMA does not cover the service because it is not in the health benefit, or is 
+not in an approved facility or performed by an approved provider type. 
+ 
+Service is not appropriate based on member demographics. 
+Performance 
+Measures 
+ 
+Time to complete Process Encounter business process: e.g., Real Time 
+response = within __ seconds, Batch Response = within __ hour 
+ 
+Accuracy with which edits, audits, and pricing algorithms are applied and to-be-
+paid and paid amount is calculated = ___% 
+ 
+Consistency of decisions on suspended encounters = ___% 
+
+
+================================================================================
+PAGE 18
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 162
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 255.8 y= 113.7] Process Encounter
+[x= 101.0 y= 126.8] Item
+[x= 328.3 y= 126.8] Details
+[x= 158.1 y= 139.4] 
+[x= 176.1 y= 140.5] Error rate = __% or less
+[x=  72.0 y= 182.3] Manage Data
+[x=  77.2 y= 209.4] OM Payment and Reporting
+[x= 272.1 y= 222.5] Manage Data
+[x= 100.9 y= 235.6] Item
+[x= 328.7 y= 235.6] Details
+[x=  77.2 y= 248.7] Description
+[x= 158.8 y= 248.6] The
+[x= 178.8 y= 248.6] Manage Data
+[x= 243.2 y= 248.6] business process is responsible for the preparation of the data
+[x= 158.8 y= 260.2] sets and delivery to federal agencies (e.g., Centers for Medicare & Medicaid
+[x= 158.8 y= 271.6] Services (CMS), Social Security Administration (SSA).) Information exchange may
+[x= 158.8 y= 283.1] include extraction of Medicaid and CHIP Business Information and Solutions
+[x= 158.8 y= 294.7] (MACBIS) information needs (i.e., fee-for-services, managed care, eligibility and
+[x= 158.8 y= 306.1] provider information).
+[x= 158.8 y= 323.6] The
+[x= 178.8 y= 323.6] Manage Data
+[x= 240.5 y= 323.6] business process includes activity to extract the information,
+[x= 158.8 y= 335.2] transform to the required format, encrypt for security, and load the electronic file to
+[x= 158.8 y= 346.6] the target destination.
+[x= 158.8 y= 364.1] The uses for the information include:
+[x= 176.8 y= 381.2] 
+[x= 194.8 y= 382.3] Research and evaluation of health care activities.
+[x= 176.8 y= 399.4] 
+[x= 194.8 y= 400.4] Staff can forecast the utilization and expenditures for a program.
+[x= 176.8 y= 417.6] 
+[x= 194.8 y= 418.6] Staff can analyze policy alternatives.
+[x= 176.8 y= 435.8] 
+[x= 194.8 y= 436.8] State and federal agencies can respond to congressional inquiries.
+[x= 176.8 y= 454.0] 
+[x= 194.8 y= 455.0] Matches to other health related databases.
+[x=  77.2 y= 473.0] Trigger Event
+[x= 158.8 y= 479.0] Environment-based Trigger Events to include but not limited to:
+[x= 158.8 y= 496.2] 
+[x= 176.8 y= 497.2] Periodic (e.g., quarterly) timetable for information is due.
+[x= 158.8 y= 514.3] 
+[x= 176.8 y= 515.3] Receive request for information.
+[x=  77.2 y= 533.4] Result
+[x= 158.8 y= 539.0] 
+[x= 176.8 y= 540.0] Information message sent to target destination.
+[x= 158.8 y= 557.2] 
+[x= 176.8 y= 558.2] Tracking information as needed for measuring performance and business activity
+[x= 176.8 y= 569.7] monitoring.
+[x=  77.2 y= 587.8] Business
+[x=  77.2 y= 599.2] Process Steps
+[x= 158.8 y= 593.7] 1.
+[x= 176.8 y= 593.7] START:
+[x= 213.5 y= 593.7] Receive time event or request to initiate
+[x= 394.6 y= 593.7] Manage Data
+[x= 456.4 y= 593.7] business
+[x= 176.8 y= 605.2] process.
+[x= 158.8 y= 622.7] 2. Extract required information from source data stores.
+[x= 158.8 y= 640.2] 3. Transform information to meet business and technical needs of target
+[x= 176.8 y= 651.7] destination.
+[x= 158.8 y= 669.2] 4. Apply necessary encryption algorithms for security.
+[x= 158.8 y= 686.7] 5.
+[x= 176.8 y= 686.7] END:
+[x= 201.2 y= 686.7] Send message with information to the target destination.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 162 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Process Encounter 
+Item 
+Details 
+ 
+Error rate = __% or less 
+ 
+Manage Data 
+OM Payment and Reporting 
+Manage Data 
+Item 
+Details 
+Description 
+The Manage Data business process is responsible for the preparation of the data 
+sets and delivery to federal agencies (e.g., Centers for Medicare & Medicaid 
+Services (CMS), Social Security Administration (SSA).) Information exchange may 
+include extraction of Medicaid and CHIP Business Information and Solutions 
+(MACBIS) information needs (i.e., fee-for-services, managed care, eligibility and 
+provider information).  
+The Manage Data business process includes activity to extract the information, 
+transform to the required format, encrypt for security, and load the electronic file to 
+the target destination.  
+The uses for the information include: 
+ 
+Research and evaluation of health care activities. 
+ 
+Staff can forecast the utilization and expenditures for a program. 
+ 
+Staff can analyze policy alternatives. 
+ 
+State and federal agencies can respond to congressional inquiries. 
+ 
+Matches to other health related databases. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic (e.g., quarterly) timetable for information is due. 
+ 
+Receive request for information. 
+Result 
+ 
+Information message sent to target destination. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring. 
+Business 
+Process Steps 
+1. START: Receive time event or request to initiate Manage Data business 
+process. 
+2. Extract required information from source data stores. 
+3. Transform information to meet business and technical needs of target 
+destination. 
+4. Apply necessary encryption algorithms for security. 
+5. END: Send message with information to the target destination. 
+
+
+================================================================================
+PAGE 19
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 163
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.2 y= 100.5] OM Payment and Reporting
+[x= 272.1 y= 113.7] Manage Data
+[x= 100.9 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x=  77.2 y= 139.9] Shared Data
+[x= 158.8 y= 139.8] Claims data store including claims, encounters, adjudication, and historical
+[x= 158.8 y= 151.3] information
+[x= 158.8 y= 168.8] Care management data store including treatment plan, outcomes, and authorization
+[x= 158.8 y= 180.3] information
+[x= 158.8 y= 197.8] Plan data store including Medicaid State Plan, health plan, health benefits,
+[x= 158.8 y= 209.3] reference, performance measures, and benchmarks information
+[x= 158.8 y= 226.8] Compliance Incident data store including anomalies and adverse action information
+[x= 158.8 y= 244.3] Member data store including demographics, eligibility determination, enrollment,
+[x= 158.8 y= 255.8] grievance and appeals, communication, and outreach information
+[x= 158.8 y= 273.3] Provider data store including provider network, eligibility determination, enrollment,
+[x= 158.8 y= 284.8] grievance and appeals, communication, and outreach information
+[x= 158.8 y= 302.3] Contractor data store including provider network, enrollment, grievance and appeals,
+[x= 158.8 y= 313.8] communication, and outreach information
+[x= 158.8 y= 331.3] Financial data store including accounts payable and accounts receivable information
+[x=  77.2 y= 349.4] Predecessor
+[x= 158.8 y= 349.3] NOTE:
+[x= 189.9 y= 349.3] Many MITA Framework business processes collect data for extraction of
+[x= 158.8 y= 360.8] information and send to target destination. The following are the business processes
+[x= 158.8 y= 372.3] that manage primary data stores.
+[x= 158.8 y= 389.9] Manage Case Information
+[x= 158.8 y= 407.4] Manage Contractor Information
+[x= 158.8 y= 424.9] Manage Member Information
+[x= 158.8 y= 442.4] Manage Provider Information
+[x= 158.8 y= 459.9] Manage Budget Information
+[x= 158.8 y= 477.4] Manage Accounts Receivable Information
+[x= 158.8 y= 494.9] Manage Accounts Payable Information
+[x= 158.8 y= 512.4] Generate Financial Report
+[x= 158.8 y= 529.9] Process Claim
+[x= 158.8 y= 547.4] Process Encounter
+[x= 158.8 y= 564.9] Generate Remittance Advice
+[x= 158.8 y= 582.4] Manage Compliance Incident Information
+[x= 158.8 y= 599.9] Maintain State Plan
+[x= 158.8 y= 617.4] Manage Health Plan Information
+[x= 158.8 y= 634.9] Manage Health Benefit Information
+[x= 158.8 y= 652.4] Manage Performance Measures
+[x= 158.8 y= 669.9] Manage Reference Information
+[x=  77.2 y= 687.8] Successor
+[x= 158.8 y= 687.8] Send Outbound Transaction
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 163 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Payment and Reporting 
+Manage Data 
+Item 
+Details 
+Shared Data 
+Claims data store including claims, encounters, adjudication, and historical 
+information 
+Care management data store including treatment plan, outcomes, and authorization 
+information 
+Plan data store including Medicaid State Plan, health plan, health benefits, 
+reference, performance measures, and benchmarks information 
+Compliance Incident data store including anomalies and adverse action information 
+Member data store including demographics, eligibility determination, enrollment, 
+grievance and appeals, communication, and outreach information 
+Provider data store including provider network, eligibility determination, enrollment, 
+grievance and appeals, communication, and outreach information 
+Contractor data store including provider network, enrollment, grievance and appeals, 
+communication, and outreach information 
+Financial data store including accounts payable and accounts receivable information 
+Predecessor 
+NOTE: Many MITA Framework business processes collect data for extraction of 
+information and send to target destination. The following are the business processes 
+that manage primary data stores. 
+Manage Case Information 
+Manage Contractor Information 
+Manage Member Information 
+Manage Provider Information 
+Manage Budget Information 
+Manage Accounts Receivable Information 
+Manage Accounts Payable Information 
+Generate Financial Report 
+Process Claim 
+Process Encounter  
+Generate Remittance Advice 
+Manage Compliance Incident Information 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Manage Performance Measures 
+Manage Reference Information 
+Successor 
+Send Outbound Transaction 
+
+
+================================================================================
+PAGE 20
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 164
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.2 y= 100.5] OM Payment and Reporting
+[x= 272.1 y= 113.7] Manage Data
+[x= 100.9 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x=  77.2 y= 139.9] Constraints
+[x= 158.8 y= 139.8] The
+[x= 178.8 y= 139.8] Manage Data
+[x= 243.5 y= 139.8] business process will adhere to the federal requirements for
+[x= 158.8 y= 151.3] submission of information to federal agency.
+[x=  77.2 y= 169.4] Failures
+[x= 158.8 y= 175.0] 
+[x= 176.8 y= 176.0] Requested information is not available for extraction.
+[x= 158.8 y= 193.2] 
+[x= 176.8 y= 194.2] Transformation does not meet the federal requirements for submission.
+[x= 158.8 y= 211.3] 
+[x= 176.8 y= 212.3] Information message does not meet the target destination submission
+[x= 176.8 y= 223.9] requirements.
+[x=  77.2 y= 241.9] Performance
+[x=  77.2 y= 253.4] Measures
+[x= 158.8 y= 247.5] 
+[x= 176.8 y= 248.5] Time to complete the process: e.g., Real Time response = within ___seconds,
+[x= 176.8 y= 260.0] Batch Response = within ___ hours
+[x= 158.8 y= 277.2] 
+[x= 176.8 y= 278.2] Accuracy with which the State Medicaid Agency (SMA) applies rules =___%
+[x= 158.8 y= 295.3] 
+[x= 176.8 y= 296.3] Consistency with which the SMA applies rules =___%
+[x= 158.8 y= 313.5] 
+[x= 176.8 y= 314.5] Error rate =___% or less
+[x=  72.0 y= 338.9] Calculate Spend-Down Amount
+[x=  77.4 y= 365.8] OM Claims Adjudication
+[x= 224.1 y= 379.0] Calculate Spend-Down Amount
+[x= 102.1 y= 392.2] Item
+[x= 329.4 y= 392.2] Details
+[x=  77.4 y= 406.2] Description
+[x= 160.3 y= 411.2] A person that is not eligible for medical coverage when they have income above the
+[x= 160.3 y= 422.7] health plan standards may become eligible for coverage through a process called
+[x= 160.3 y= 434.2] spend-down (see
+[x= 239.8 y= 434.2] Determine Member Eligibility
+[x= 377.1 y= 434.2] business process).
+[x= 160.3 y= 451.7] The
+[x= 180.4 y= 451.7] Calculate Spend-Down Amount
+[x= 329.3 y= 451.7] business process is responsible for tracking
+[x= 160.3 y= 463.1] spend-down amounts and determining if a member meets its responsibility through
+[x= 160.3 y= 474.7] the submission of medical claims. The
+[x= 332.1 y= 474.7] Process Claim
+[x= 400.9 y= 474.7] business process
+[x= 160.3 y= 486.2] automatically accounts for the spend-down amount during adjudication. Once the
+[x= 160.3 y= 497.6] member has met the spend-down obligation, a modification of eligibility status allows
+[x= 160.3 y= 509.2] Medicaid payments to begin and/or resume. This typically occurs in situations where
+[x= 160.3 y= 520.7] a member has a chronic condition and is consistently above the resource levels, but
+[x= 160.3 y= 532.1] it may also occur in other situations.
+[x= 160.3 y= 549.7] The
+[x= 180.4 y= 549.7] Calculate Spend-Down Amount
+[x= 329.3 y= 549.7] business process begins with the receipt of
+[x= 160.3 y= 561.2] member’s health plan information from
+[x= 333.7 y= 561.2] Enroll Member
+[x= 403.2 y= 561.2] business process that
+[x= 160.3 y= 572.6] requires a predetermined amount the member will be financially responsible for prior
+[x= 160.3 y= 584.2] to Medicaid payment for any medical services.
+[x=  77.4 y= 603.2] Trigger Event
+[x= 160.3 y= 603.1] Interaction-based Trigger Events to include but not limited to:
+[x= 160.3 y= 620.4] 
+[x= 178.3 y= 621.4] Receive health plan information from
+[x= 344.0 y= 621.4] Enroll Member
+[x= 416.2 y= 621.4] business process.
+[x=  77.4 y= 640.3] Result
+[x= 160.3 y= 645.0] 
+[x= 178.3 y= 646.0] Member has met spend-down obligation.
+[x= 160.3 y= 663.1] 
+[x= 178.3 y= 664.1] Alert sent to
+[x= 234.5 y= 664.1] Manage Member Information
+[x= 370.6 y= 664.1] with spend-down information.
+[x= 160.3 y= 681.3] 
+[x= 178.3 y= 682.3] Sent notification that Member has met spend-down obligation to member via
+[x= 178.3 y= 693.8] Manage Applicant and Member Communication
+[x= 404.0 y= 693.8] business process.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 164 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Payment and Reporting 
+Manage Data 
+Item 
+Details 
+Constraints 
+The Manage Data business process will adhere to the federal requirements for 
+submission of information to federal agency. 
+Failures 
+ 
+Requested information is not available for extraction. 
+ 
+Transformation does not meet the federal requirements for submission. 
+ 
+Information message does not meet the target destination submission 
+requirements. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within ___seconds, 
+Batch Response = within ___ hours 
+ 
+Accuracy with which the State Medicaid Agency (SMA) applies rules =___% 
+ 
+Consistency with which the SMA applies rules =___% 
+ 
+Error rate =___% or less 
+Calculate Spend-Down Amount 
+OM Claims Adjudication 
+Calculate Spend-Down Amount 
+Item 
+Details 
+Description 
+A person that is not eligible for medical coverage when they have income above the 
+health plan standards may become eligible for coverage through a process called 
+spend-down (see Determine Member Eligibility business process). 
+The Calculate Spend-Down Amount business process is responsible for tracking 
+spend-down amounts and determining if a member meets its responsibility through 
+the submission of medical claims. The Process Claim business process 
+automatically accounts for the spend-down amount during adjudication. Once the 
+member has met the spend-down obligation, a modification of eligibility status allows 
+Medicaid payments to begin and/or resume. This typically occurs in situations where 
+a member has a chronic condition and is consistently above the resource levels, but 
+it may also occur in other situations. 
+The Calculate Spend-Down Amount business process begins with the receipt of 
+member’s health plan information from Enroll Member business process that 
+requires a predetermined amount the member will be financially responsible for prior 
+to Medicaid payment for any medical services. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive health plan information from Enroll Member business process. 
+Result 
+ 
+Member has met spend-down obligation. 
+ 
+Alert sent to Manage Member Information with spend-down information. 
+ 
+Sent notification that Member has met spend-down obligation to member via 
+Manage Applicant and Member Communication business process. 
+
+
+================================================================================
+PAGE 21
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 165
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 224.1 y= 113.7] Calculate Spend-Down Amount
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.4] 
+[x= 178.3 y= 140.5] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 152.0] activity monitoring.
+[x=  77.4 y= 171.1] Business
+[x=  77.4 y= 182.6] Process Steps
+[x= 160.3 y= 176.0] 1.
+[x= 178.3 y= 176.0] START:
+[x= 215.0 y= 176.0] Receive health plan information from
+[x= 383.4 y= 176.0] Enroll Member
+[x= 452.8 y= 176.0] business process
+[x= 160.3 y= 193.5] 2. Determine spend-down obligation amount.
+[x= 160.3 y= 211.0] 3. Receive claim including payment information.
+[x= 160.3 y= 228.5] 4. Subtract medical claim amounts from member’s spend-down until they meet
+[x= 178.3 y= 240.0] their responsibility.
+[x= 160.3 y= 257.5] 5. Send alert to
+[x= 237.8 y= 257.5] Manage Member Information
+[x= 373.9 y= 257.5] with spend-down information.
+[x= 160.3 y= 275.0] 6.
+[x= 178.3 y= 275.0] END:
+[x= 202.8 y= 275.0] Send notification that member has met spend-down obligation via
+[x= 178.3 y= 286.5] Manage Applicant and Member Communication
+[x= 404.0 y= 286.5] business process.
+[x=  77.4 y= 305.5] Shared Data
+[x= 160.3 y= 310.5] Member data store with demographics and spend-down information
+[x= 160.3 y= 328.0] Claims data store with payment information
+[x=  77.4 y= 347.0] Predecessor
+[x= 160.3 y= 352.1] Enroll Member
+[x= 160.3 y= 369.6] Process Claim
+[x=  77.4 y= 388.5] Successor
+[x= 160.3 y= 393.6] Manage Applicant and Member Communication
+[x= 160.3 y= 411.1] Maintain Member Information
+[x=  77.4 y= 430.0] Constraints
+[x= 160.3 y= 430.0] The calculate spend-down will conform to the state-specific policies that may differ
+[x= 160.3 y= 441.5] by state.
+[x=  77.4 y= 455.5] Failures
+[x= 160.3 y= 460.2] 
+[x= 178.3 y= 461.2] No health plan information from
+[x= 320.6 y= 461.2] Enroll Member
+[x= 390.1 y= 461.2] .
+[x=  77.4 y= 480.2] Performance
+[x=  77.4 y= 491.7] Measures
+[x= 160.3 y= 484.8] 
+[x= 178.3 y= 485.8] Time to complete the process: e.g., Real Time response = within __ seconds,
+[x= 178.3 y= 497.3] Batch Response = within__ hours
+[x= 160.3 y= 514.5] 
+[x= 178.3 y= 515.5] Accuracy with which rules are applied
+[x= 160.3 y= 532.6] 
+[x= 178.3 y= 533.6] Consistency of decisions and disposition = __%
+[x= 160.3 y= 550.8] 
+[x= 178.3 y= 551.8] Error rate = __% or less
+[x=  72.0 y= 593.7] Submit Electronic Attachment
+[x=  77.4 y= 620.7] OM Claims Adjudication
+[x= 227.5 y= 633.8] Submit Electronic Attachment
+[x= 101.9 y= 647.0] Item
+[x= 329.2 y= 647.0] Details
+[x=  77.4 y= 661.0] Description
+[x= 159.8 y= 666.0] The
+[x= 179.9 y= 666.0] Submit Electronic Attachment
+[x= 322.7 y= 666.0] business process begins with receiving
+[x= 159.8 y= 677.5] attachment information that either a payer requests (solicited) or a provider submits
+[x= 159.8 y= 689.0] (unsolicited). The solicited attachment information can be in response to requests for
+[x= 159.8 y= 700.5] more information from the following business processes for example:
+[x= 467.2 y= 700.5] Process
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 165 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Calculate Spend-Down Amount 
+Item 
+Details 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring.  
+Business 
+Process Steps 
+1. START: Receive health plan information from Enroll Member business process 
+2. Determine spend-down obligation amount. 
+3. Receive claim including payment information. 
+4. Subtract medical claim amounts from member’s spend-down until they meet 
+their responsibility. 
+5. Send alert to Manage Member Information with spend-down information. 
+6. END: Send notification that member has met spend-down obligation via 
+Manage Applicant and Member Communication business process. 
+Shared Data 
+Member data store with demographics and spend-down information 
+Claims data store with payment information 
+Predecessor 
+Enroll Member 
+Process Claim 
+Successor 
+Manage Applicant and Member Communication 
+Maintain Member Information 
+Constraints 
+The calculate spend-down will conform to the state-specific policies that may differ 
+by state. 
+Failures 
+ 
+No health plan information from Enroll Member. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within __ seconds, 
+Batch Response = within__ hours 
+ 
+Accuracy with which rules are applied 
+ 
+Consistency of decisions and disposition = __% 
+ 
+Error rate = __% or less 
+ 
+Submit Electronic Attachment 
+OM Claims Adjudication 
+Submit Electronic Attachment 
+Item 
+Details 
+Description 
+The Submit Electronic Attachment business process begins with receiving 
+attachment information that either a payer requests (solicited) or a provider submits 
+(unsolicited). The solicited attachment information can be in response to requests for 
+more information from the following business processes for example: Process 
+
+
+================================================================================
+PAGE 22
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 166
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 227.5 y= 113.7] Submit Electronic Attachment
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.8] Claim, Process Encounter
+[x= 283.8 y= 139.8] ,
+[x= 289.3 y= 139.8] Authorize Service
+[x= 373.9 y= 139.8] ,
+[x= 379.4 y= 139.8] Authorize Treatment Plan
+[x= 500.5 y= 139.8] , and
+[x= 159.8 y= 151.3] Manage Estate Recovery
+[x= 277.7 y= 151.3] .
+[x= 159.8 y= 168.8] The business process links attachment information to the associated applicable
+[x= 159.8 y= 180.3] transaction (e.g., claim, prior authorization, treatment plan) or suspends for a
+[x= 159.8 y= 191.8] predetermined time set by state specific business rules, after which the business
+[x= 159.8 y= 203.3] process purges information. The business process validates the successfully
+[x= 159.8 y= 214.8] associated attachment information using application-level edits, determining whether
+[x= 159.8 y= 226.3] the information provides the additional information necessary to adjudicate (i.e.,
+[x= 159.8 y= 237.8] approve, suspend or deny) the transaction.
+[x=  77.4 y= 256.9] Trigger Event
+[x= 159.8 y= 256.8] Interaction-based Trigger Event:
+[x= 159.8 y= 274.0] 
+[x= 177.8 y= 275.0] Receive claim via Accredited Standards Committee (ASC) X12 837 Health Care
+[x= 177.8 y= 286.5] Claim transaction.
+[x= 159.8 y= 303.6] 
+[x= 177.8 y= 304.6] Receive Retail Pharmacy Claim Transaction (National Council for Prescription
+[x= 177.8 y= 316.1] Drug Programs (NCPDP) Telecommunications Standard).
+[x= 159.8 y= 333.3] 
+[x= 177.8 y= 334.3] Receive ASC X12 277 Health Care Information Status Notification requesting
+[x= 177.8 y= 345.8] additional information.
+[x= 159.8 y= 363.0] 
+[x= 177.8 y= 364.0] Receive ASC X12 278 Health Care Servicer Review Information transaction.
+[x= 159.8 y= 381.5] Environment-based Trigger Event:
+[x= 159.8 y= 398.7] 
+[x= 177.8 y= 399.7] Periodic timetable to associate suspended attachment information with
+[x= 177.8 y= 411.2] subsequently received transactions.
+[x=  77.4 y= 430.2] Result
+[x= 159.8 y= 434.8] 
+[x= 177.8 y= 435.8] The State Medicaid Agency (SMA) accepts and associates attachment
+[x= 177.8 y= 447.4] information with the appropriate transaction (e.g., claim, prior authorization,
+[x= 177.8 y= 458.8] treatment plan, etc.).
+[x= 159.8 y= 476.0] 
+[x= 177.8 y= 477.0] If applicable, the SMA rejects attachment information as invalid.
+[x= 159.8 y= 494.2] 
+[x= 177.8 y= 495.2] If applicable, the SMA suspends attachment information awaiting the receipt of a
+[x= 177.8 y= 506.7] matching transaction.
+[x= 159.8 y= 523.8] 
+[x= 177.8 y= 524.8] If applicable, the SMA purges attachment after duration of predetermined time.
+[x= 159.8 y= 542.0] 
+[x= 177.8 y= 543.0] Tracking information as needed for measuring performance and business
+[x= 177.8 y= 554.5] activity monitoring.
+[x=  77.4 y= 573.6] Business
+[x=  77.4 y= 585.1] Process Steps
+[x= 159.8 y= 578.5] 1.
+[x= 177.8 y= 578.5] START:
+[x= 214.6 y= 578.5] Receive attachment information.
+[x= 159.8 y= 596.0] 2. Validate attachment provides all required information.
+[x= 159.8 y= 613.5] 3. Associate attachment information with applicable transaction.
+[x= 159.8 y= 631.0] 4. Validate application level edits such as provider, member, and benefit
+[x= 177.8 y= 642.5] information, and association with transaction.
+[x= 159.8 y= 660.0] 5. Determine whether the attachment supplies the additional information as
+[x= 177.8 y= 671.5] required by state business rules.
+[x= 159.8 y= 689.0] 6. If applicable, reject attachment information as invalid.
+[x= 415.7 y= 689.0] END:
+[x= 440.3 y= 689.0] Business process
+[x= 177.8 y= 700.5] stops.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 166 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Submit Electronic Attachment 
+Item 
+Details 
+Claim, Process Encounter, Authorize Service, Authorize Treatment Plan, and 
+Manage Estate Recovery. 
+The business process links attachment information to the associated applicable 
+transaction (e.g., claim, prior authorization, treatment plan) or suspends for a 
+predetermined time set by state specific business rules, after which the business 
+process purges information. The business process validates the successfully 
+associated attachment information using application-level edits, determining whether 
+the information provides the additional information necessary to adjudicate (i.e., 
+approve, suspend or deny) the transaction.  
+Trigger Event 
+Interaction-based Trigger Event: 
+ 
+Receive claim via Accredited Standards Committee (ASC) X12 837 Health Care 
+Claim transaction. 
+ 
+Receive Retail Pharmacy Claim Transaction (National Council for Prescription 
+Drug Programs (NCPDP) Telecommunications Standard). 
+ 
+Receive ASC X12 277 Health Care Information Status Notification requesting 
+additional information. 
+ 
+Receive ASC X12 278 Health Care Servicer Review Information transaction. 
+Environment-based Trigger Event: 
+ 
+Periodic timetable to associate suspended attachment information with 
+subsequently received transactions. 
+Result 
+ 
+The State Medicaid Agency (SMA) accepts and associates attachment 
+information with the appropriate transaction (e.g., claim, prior authorization, 
+treatment plan, etc.). 
+ 
+If applicable, the SMA rejects attachment information as invalid. 
+ 
+If applicable, the SMA suspends attachment information awaiting the receipt of a 
+matching transaction. 
+ 
+If applicable, the SMA purges attachment after duration of predetermined time. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive attachment information.  
+2. Validate attachment provides all required information. 
+3. Associate attachment information with applicable transaction. 
+4. Validate application level edits such as provider, member, and benefit 
+information, and association with transaction. 
+5. Determine whether the attachment supplies the additional information as 
+required by state business rules. 
+6. If applicable, reject attachment information as invalid. END: Business process 
+stops. 
+
+
+================================================================================
+PAGE 23
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 167
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 227.5 y= 113.7] Submit Electronic Attachment
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.8] 7. If applicable, suspend attachment information awaiting the receipt of a matching
+[x= 177.8 y= 151.3] transaction.
+[x= 232.3 y= 151.3] END:
+[x= 256.8 y= 151.3] Business process stops.
+[x= 159.8 y= 168.8] 8. If applicable, purge attachment after duration of predetermined time.
+[x= 481.9 y= 168.8] END
+[x= 503.1 y= 168.8] :
+[x= 177.8 y= 180.3] Business process stops.
+[x= 159.8 y= 197.8] 9.
+[x= 177.8 y= 197.8] END:
+[x= 202.3 y= 197.8] The SMA accepts and associates attachment information with the
+[x= 177.8 y= 209.3] appropriate transaction.
+[x=  77.4 y= 228.4] Shared Data
+[x= 159.8 y= 233.3] Claims data store with transaction information
+[x= 159.8 y= 250.8] Provider data store with provider network information
+[x= 159.8 y= 268.3] Member data store with demographic information
+[x= 159.8 y= 285.8] Care Management data store with authorization information
+[x= 159.8 y= 303.3] Financial data store including accounts receivable information
+[x=  77.4 y= 322.3] Predecessor
+[x= 159.8 y= 327.4] Receive Inbound Transaction
+[x= 159.8 y= 344.9] Process Claim
+[x= 159.8 y= 362.4] Process Encounter
+[x= 159.8 y= 379.9] Authorize Service
+[x= 159.8 y= 397.4] Authorize Treatment Plan
+[x= 159.8 y= 414.9] Authorize Referral
+[x= 159.8 y= 432.4] Manage Estate Recovery
+[x=  77.4 y= 451.3] Successor
+[x= 159.8 y= 456.4] Send Outbound Transaction
+[x= 159.8 y= 473.9] Process Claim
+[x= 159.8 y= 491.4] Process Encounter
+[x= 159.8 y= 508.9] Authorize Service
+[x= 159.8 y= 526.4] Authorize Treatment Plan
+[x= 159.8 y= 543.9] Authorize Referral
+[x= 159.8 y= 561.4] Manage Estate Recovery
+[x=  77.4 y= 580.3] Constraints
+[x= 159.8 y= 585.3] The attachment information will conform to the format and content in accordance
+[x= 159.8 y= 596.8] with national standards and state-specific rule-reporting requirements, e.g., using
+[x= 159.8 y= 608.3] HIPAA Transaction Standard Companion Guide, and contain valid required
+[x= 159.8 y= 619.8] information content based on several criterion (e.g., type of claim, type of service,
+[x= 159.8 y= 631.3] provider type, and member demographic). The attachment will be consistent with the
+[x= 159.8 y= 642.8] associated original transaction per state rules, and will contain the correct
+[x= 159.8 y= 654.3] information for this business process to execute.
+[x=  77.4 y= 673.3] Failures
+[x= 159.8 y= 678.0] 
+[x= 177.8 y= 679.0] Quality of the image too bad to render as usable.
+[x= 159.8 y= 696.1] 
+[x= 177.8 y= 697.1] Cannot locate applicable transaction (i.e., claim, prior authorization).
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 167 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Submit Electronic Attachment 
+Item 
+Details 
+7. If applicable, suspend attachment information awaiting the receipt of a matching 
+transaction. END: Business process stops. 
+8. If applicable, purge attachment after duration of predetermined time. END: 
+Business process stops. 
+9. END: The SMA accepts and associates attachment information with the 
+appropriate transaction. 
+Shared Data 
+Claims data store with transaction information 
+Provider data store with provider network information  
+Member data store with demographic information  
+Care Management data store with authorization information 
+Financial data store including accounts receivable information 
+Predecessor 
+Receive Inbound Transaction  
+Process Claim 
+Process Encounter 
+Authorize Service 
+Authorize Treatment Plan 
+Authorize Referral 
+Manage Estate Recovery 
+Successor 
+Send Outbound Transaction 
+Process Claim 
+Process Encounter 
+Authorize Service 
+Authorize Treatment Plan 
+Authorize Referral 
+Manage Estate Recovery 
+Constraints 
+The attachment information will conform to the format and content in accordance 
+with national standards and state-specific rule-reporting requirements, e.g., using 
+HIPAA Transaction Standard Companion Guide, and contain valid required 
+information content based on several criterion (e.g., type of claim, type of service, 
+provider type, and member demographic). The attachment will be consistent with the 
+associated original transaction per state rules, and will contain the correct 
+information for this business process to execute. 
+Failures 
+ 
+Quality of the image too bad to render as usable. 
+ 
+Cannot locate applicable transaction (i.e., claim, prior authorization). 
+
+
+================================================================================
+PAGE 24
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 168
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 227.5 y= 113.7] Submit Electronic Attachment
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.4] 
+[x= 177.8 y= 140.5] Attachment is missing required information.
+[x=  77.4 y= 159.6] Performance
+[x=  77.4 y= 171.1] Measures
+[x= 159.8 y= 164.2] 
+[x= 177.8 y= 165.2] Time to complete the process: Real Time response = within __ seconds, Batch
+[x= 177.8 y= 176.6] Response = within __ hours
+[x= 159.8 y= 193.8] 
+[x= 177.8 y= 194.8] Accuracy with which the SMA applies and associates attachments rules = __%
+[x= 159.8 y= 212.0] 
+[x= 177.8 y= 213.0] Number of attachments = __% of total claims. (Processing a higher percentage
+[x= 177.8 y= 224.5] of claims attachments may indicate that a state is able to utilize more clinical
+[x= 177.8 y= 236.0] information when determining whether a claim meets state payment rules)
+[x= 159.8 y= 253.2] 
+[x= 177.8 y= 254.2] Error rate of correctly re-associating attachment information = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 168 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Submit Electronic Attachment 
+Item 
+Details 
+ 
+Attachment is missing required information. 
+Performance 
+Measures 
+ 
+Time to complete the process: Real Time response = within __ seconds, Batch 
+Response = within __ hours 
+ 
+Accuracy with which the SMA applies and associates attachments rules = __% 
+ 
+Number of attachments = __% of total claims. (Processing a higher percentage 
+of claims attachments may indicate that a state is able to utilize more clinical 
+information when determining whether a claim meets state payment rules) 
+ 
+Error rate of correctly re-associating attachment information = __% or less 
+ 
+
+
+================================================================================
+PAGE 25
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 169
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Apply Mass Adjustment
+[x=  77.4 y= 127.2] OM Claims Adjudication
+[x= 243.7 y= 140.4] Apply Mass Adjustment
+[x= 101.6 y= 153.5] Item
+[x= 328.9 y= 153.5] Details
+[x=  77.4 y= 167.5] Description
+[x= 159.2 y= 172.5] The
+[x= 179.2 y= 172.5] Apply Mass Adjustment
+[x= 292.6 y= 172.5] business process begins with the receipt or
+[x= 159.2 y= 184.0] notification of retroactive modifications. These changes may consist of modified
+[x= 159.2 y= 195.5] rates associated with Healthcare Common Procedure Coding System (HCPCS),
+[x= 159.2 y= 207.0] Claim Payment/Advice Transaction (CPT), Revenue Codes, or program
+[x= 159.2 y= 218.5] modifications/conversions that affect payment or reporting. This mass adjustment
+[x= 159.2 y= 230.0] business process includes identifying the payment transactions such as claims or
+[x= 159.2 y= 241.5] capitation payment by identifiers (e.g., claim/bill type, HCPCS, CPT, Revenue
+[x= 159.2 y= 253.0] Code(s), or member identification) that the State Medicaid Agency (SMA) paid
+[x= 159.2 y= 264.5] incorrectly during a specified date range. The business process applies a
+[x= 159.2 y= 276.0] predetermined set or sets of parameters that may reverse or amend the paid or
+[x= 159.2 y= 287.5] denied transactions and repay correctly.
+[x= 159.2 y= 305.0] NOTE:
+[x= 190.3 y= 305.0] Do not confuse this process with the claim adjustment within the
+[x= 159.2 y= 316.5] adjudication process. A mass adjustment may involve many previous payments
+[x= 159.2 y= 328.0] based on a specific date or date range affecting single or multiple providers,
+[x= 159.2 y= 339.5] members, or other payees. Likewise, mass adjustments historically refer to large-
+[x= 159.2 y= 351.0] scale modifications in payments as opposed to disenrollment of a group of members
+[x= 159.2 y= 362.5] from a Managed Care Organization (MCO).
+[x=  77.4 y= 381.5] Trigger Event
+[x= 159.2 y= 386.5] Environment-based Trigger Event:
+[x= 159.2 y= 403.6] 
+[x= 177.2 y= 404.6] Receive a mass adjustment notification of retroactive rate or program
+[x= 177.2 y= 416.2] modifications.
+[x= 159.2 y= 433.3] 
+[x= 177.2 y= 434.3] Correction of system errors resulting in incorrect payment amounts.
+[x= 159.2 y= 451.5] 
+[x= 177.2 y= 452.5] Identification of incorrectly denied claims
+[x=  77.4 y= 471.5] Result
+[x= 159.2 y= 476.2] 
+[x= 177.2 y= 477.2] Validated mass adjustment information applied to previous payment records.
+[x= 159.2 y= 494.4] 
+[x= 177.2 y= 495.4] If applicable, alert sent to notify member via
+[x= 372.8 y= 495.4] Manage Applicant and Member
+[x= 177.2 y= 506.9] Communication
+[x= 252.7 y= 506.9] business process of relevant modifications.
+[x= 159.2 y= 524.0] 
+[x= 177.2 y= 525.0] If applicable, alert sent to notify provider via
+[x= 372.2 y= 525.0] Manage Provider Communication
+[x= 177.2 y= 536.5] business process of relevant modifications.
+[x= 159.2 y= 553.7] 
+[x= 177.2 y= 554.7] If applicable, alert sent to notify contractor via
+[x= 380.6 y= 554.7] Manage Contractor
+[x= 177.2 y= 566.2] Communication
+[x= 252.7 y= 566.2] business process of relevant modifications.
+[x= 159.2 y= 583.3] 
+[x= 177.2 y= 584.3] If applicable, alert sent to send to provider Accredited Standards Committee
+[x= 177.2 y= 595.9] (ASC) X12 835 Health Care Claim Payment/Advice transactions.
+[x= 159.2 y= 613.0] 
+[x= 177.2 y= 614.0] If applicable, alert sent to
+[x= 291.1 y= 614.0] Manage Accounts Receivable Information
+[x= 489.6 y= 614.0] business
+[x= 177.2 y= 625.6] process of relevant modifications.
+[x= 159.2 y= 642.7] 
+[x= 177.2 y= 643.7] If applicable, alert sent to
+[x= 291.1 y= 643.7] Manage Accounts Payable Information
+[x= 475.1 y= 643.7] business
+[x= 177.2 y= 655.2] process of relevant modifications.
+[x= 159.2 y= 672.4] 
+[x= 177.2 y= 673.4] Tracking information as needed for measuring performance and business
+[x= 177.2 y= 684.9] activity monitoring.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 169 
+May 2014 
+Version 3.0 
+ 
+ 
+Apply Mass Adjustment 
+OM Claims Adjudication 
+Apply Mass Adjustment 
+Item 
+Details 
+Description 
+The Apply Mass Adjustment business process begins with the receipt or 
+notification of retroactive modifications. These changes may consist of modified 
+rates associated with Healthcare Common Procedure Coding System (HCPCS), 
+Claim Payment/Advice Transaction (CPT), Revenue Codes, or program 
+modifications/conversions that affect payment or reporting. This mass adjustment 
+business process includes identifying the payment transactions such as claims or 
+capitation payment by identifiers (e.g., claim/bill type, HCPCS, CPT, Revenue 
+Code(s), or member identification) that the State Medicaid Agency (SMA) paid 
+incorrectly during a specified date range. The business process applies a 
+predetermined set or sets of parameters that may reverse or amend the paid or 
+denied transactions and repay correctly.  
+NOTE: Do not confuse this process with the claim adjustment within the 
+adjudication process. A mass adjustment may involve many previous payments 
+based on a specific date or date range affecting single or multiple providers, 
+members, or other payees. Likewise, mass adjustments historically refer to large-
+scale modifications in payments as opposed to disenrollment of a group of members 
+from a Managed Care Organization (MCO). 
+Trigger Event 
+Environment-based Trigger Event: 
+ 
+Receive a mass adjustment notification of retroactive rate or program 
+modifications.  
+ 
+Correction of system errors resulting in incorrect payment amounts. 
+ 
+Identification of incorrectly denied claims 
+Result 
+ 
+Validated mass adjustment information applied to previous payment records. 
+ 
+If applicable, alert sent to notify member via Manage Applicant and Member 
+Communication business process of relevant modifications. 
+ 
+If applicable, alert sent to notify provider via Manage Provider Communication 
+business process of relevant modifications. 
+ 
+If applicable, alert sent to notify contractor via Manage Contractor 
+Communication business process of relevant modifications. 
+ 
+If applicable, alert sent to send to provider Accredited Standards Committee 
+(ASC) X12 835 Health Care Claim Payment/Advice transactions. 
+ 
+If applicable, alert sent to Manage Accounts Receivable Information business 
+process of relevant modifications. 
+ 
+If applicable, alert sent to Manage Accounts Payable Information business 
+process of relevant modifications. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+
+
+================================================================================
+PAGE 26
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 170
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 243.7 y= 113.7] Apply Mass Adjustment
+[x= 101.6 y= 126.8] Item
+[x= 328.9 y= 126.8] Details
+[x=  77.4 y= 140.9] Business
+[x=  77.4 y= 152.4] Process Steps
+[x= 159.2 y= 145.8] 1.
+[x= 177.2 y= 145.8] START:
+[x= 213.9 y= 145.8] Receipt or notification of incorrect payments or denials, based on
+[x= 177.2 y= 157.3] retroactive rate modifications, program modifications, retroactive modifications in
+[x= 177.2 y= 168.8] member eligibility, or system errors.
+[x= 159.2 y= 186.3] 2. Identify the parameters necessary to locate claim records.
+[x= 159.2 y= 203.8] 3. Enter parameters (i.e., corrected information).
+[x= 159.2 y= 221.3] 4. Apply the predetermined set of parameters that reverse the incorrect payments
+[x= 177.2 y= 232.8] or denials.
+[x= 159.2 y= 250.3] 5. If applicable, produce mass adjustment request report.
+[x= 159.2 y= 267.8] 6. Review the mass adjustment report for validity and accuracy.
+[x= 159.2 y= 285.3] 7. If applicable, send alert to notify member via
+[x= 375.6 y= 285.3] Manage Applicant and Member
+[x= 177.2 y= 296.8] Communication
+[x= 252.7 y= 296.8] business process of relevant modifications to their cost share.
+[x= 159.2 y= 314.3] 8. If applicable, send alert to notify provider via
+[x= 375.1 y= 314.3] Manage Provider Communication
+[x= 177.2 y= 325.8] business process of relevant modifications.
+[x= 159.2 y= 343.3] 9. If applicable, send alert to send to provider ASC X12 835 Health Care Claim
+[x= 177.2 y= 354.8] Payment/Advice transactions.
+[x= 159.2 y= 372.3] 10. If applicable, send alert to notify contractor via
+[x= 383.4 y= 372.3] Manage Contractor
+[x= 177.2 y= 383.8] Communication
+[x= 252.7 y= 383.8] business process of relevant modifications.
+[x= 159.2 y= 401.3] 11. If applicable, send alert to
+[x= 293.9 y= 401.3] Manage Accounts Receivable Information
+[x= 492.4 y= 401.3] business
+[x= 177.2 y= 412.8] process of relevant modifications.
+[x= 159.2 y= 430.3] 12. If applicable, send alert to
+[x= 293.9 y= 430.3] Manage Accounts Payable Information
+[x= 477.9 y= 430.3] business
+[x= 177.2 y= 441.8] process of relevant modifications.
+[x= 159.2 y= 459.3] 13.
+[x= 177.2 y= 459.3] END:
+[x= 201.7 y= 459.3] Apply mass adjustment to previous payments.
+[x=  77.4 y= 478.3] Shared Data
+[x= 159.2 y= 483.3] Claims data store with transaction information
+[x= 159.2 y= 500.8] Provider data store with provider network and contract information
+[x= 159.2 y= 518.3] Contractor data store with provider network and contract information
+[x= 159.2 y= 535.8] Member data store with demographic information
+[x= 159.2 y= 553.3] Plan data store including policy information
+[x= 159.2 y= 570.8] Health Benefit data store including benefit program and benefit information
+[x= 159.2 y= 588.3] Financial data store including accounts receivable and accounts payable information
+[x=  77.4 y= 607.3] Predecessor
+[x= 159.2 y= 612.4] Manage Provider Recoupment
+[x= 159.2 y= 629.9] Manage Cost Settlement
+[x=  77.4 y= 648.8] Successor
+[x= 159.2 y= 653.9] Manage Provider Communication
+[x= 159.2 y= 671.4] Manage Contractor Communication
+[x= 159.2 y= 688.9] Manage Applicant and Member Communication
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 170 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Apply Mass Adjustment 
+Item 
+Details 
+Business 
+Process Steps 
+1. START: Receipt or notification of incorrect payments or denials, based on 
+retroactive rate modifications, program modifications, retroactive modifications in 
+member eligibility, or system errors. 
+2. Identify the parameters necessary to locate claim records. 
+3. Enter parameters (i.e., corrected information).  
+4. Apply the predetermined set of parameters that reverse the incorrect payments 
+or denials. 
+5. If applicable, produce mass adjustment request report. 
+6. Review the mass adjustment report for validity and accuracy. 
+7. If applicable, send alert to notify member via Manage Applicant and Member 
+Communication business process of relevant modifications to their cost share. 
+8. If applicable, send alert to notify provider via Manage Provider Communication 
+business process of relevant modifications. 
+9. If applicable, send alert to send to provider ASC X12 835 Health Care Claim 
+Payment/Advice transactions. 
+10. If applicable, send alert to notify contractor via Manage Contractor 
+Communication business process of relevant modifications. 
+11. If applicable, send alert to Manage Accounts Receivable Information business 
+process of relevant modifications. 
+12. If applicable, send alert to Manage Accounts Payable Information business 
+process of relevant modifications. 
+13. END: Apply mass adjustment to previous payments.  
+Shared Data 
+Claims data store with transaction information 
+Provider data store with provider network and contract information  
+Contractor data store with provider network and contract information 
+Member data store with demographic information 
+Plan data store including policy information 
+Health Benefit data store including benefit program and benefit information 
+Financial data store including accounts receivable and accounts payable information 
+Predecessor 
+Manage Provider Recoupment 
+Manage Cost Settlement 
+Successor 
+Manage Provider Communication 
+Manage Contractor Communication 
+Manage Applicant and Member Communication 
+
+
+================================================================================
+PAGE 27
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 171
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] OM Claims Adjudication
+[x= 243.7 y= 113.7] Apply Mass Adjustment
+[x= 101.6 y= 126.8] Item
+[x= 328.9 y= 126.8] Details
+[x= 159.2 y= 139.9] Process Claim
+[x= 159.2 y= 157.4] Process Encounter
+[x= 159.2 y= 175.0] Generate Remittance Advice
+[x= 159.2 y= 192.4] Manage Accounts Receivable Information
+[x= 159.2 y= 209.9] Manage Accounts Payable Information
+[x=  77.4 y= 228.8] Constraints
+[x= 159.2 y= 228.8] The mass adjustment will correctly identify payments for adjustments. Processes
+[x= 159.2 y= 240.3] may vary by state.
+[x=  77.4 y= 254.3] Failures
+[x= 159.2 y= 259.0] 
+[x= 177.2 y= 260.0] Cannot locate all claims, capitation payments, or denials specified for
+[x= 177.2 y= 271.5] adjustment.
+[x=  77.4 y= 290.6] Performance
+[x=  77.4 y= 302.0] Measures
+[x= 159.2 y= 295.2] 
+[x= 177.2 y= 296.2] Time to complete the process: e.g., Real Time response = within ___seconds,
+[x= 177.2 y= 307.7] Batch Response = within ___ hours
+[x= 159.2 y= 324.8] 
+[x= 177.2 y= 325.8] Accuracy with which edit, audit, and pricing rules are applied = ___%
+[x= 159.2 y= 343.0] 
+[x= 177.2 y= 344.0] Error rate = ___% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 171 
+May 2014 
+Version 3.0 
+ 
+ 
+OM Claims Adjudication 
+Apply Mass Adjustment 
+Item 
+Details 
+Process Claim 
+Process Encounter 
+Generate Remittance Advice 
+Manage Accounts Receivable Information 
+Manage Accounts Payable Information 
+Constraints 
+The mass adjustment will correctly identify payments for adjustments. Processes 
+may vary by state. 
+Failures 
+ 
+Cannot locate all claims, capitation payments, or denials specified for 
+adjustment. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within ___seconds, 
+Batch Response = within ___ hours 
+ 
+Accuracy with which edit, audit, and pricing rules are applied = ___% 
+ 
+Error rate = ___% or less 
+ 
+

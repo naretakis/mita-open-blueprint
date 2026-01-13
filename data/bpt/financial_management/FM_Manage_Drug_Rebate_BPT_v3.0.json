@@ -11,7 +11,7 @@
     "trigger_events": {
       "environment_based": [],
       "interaction_based": [
-        "Receive the CMS quarterly drug rebate information from Receive Inbound FM Accounts Receivable Management Manage Drug Rebate Item Details Transaction."
+        "Receive the CMS quarterly drug rebate information from Receive Inbound Transaction."
       ]
     },
     "results": [

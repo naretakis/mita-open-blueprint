@@ -1,0 +1,3158 @@
+====================================================================================================
+CARE MANAGEMENT BPT - RAW DUMP FOR MANUAL JSON VERIFICATION
+====================================================================================================
+
+This file contains raw text extracted from the PDF with position information.
+Use this to verify the BPT JSON files are accurate.
+
+
+================================================================================
+PAGE 1
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 18
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Establish Case
+[x=  77.4 y= 127.2] CM Case Management
+[x= 266.9 y= 140.4] Establish Case
+[x= 102.9 y= 153.5] Item
+[x= 330.2 y= 153.5] Details
+[x=  77.4 y= 172.6] Description
+[x= 161.9 y= 172.5] The Care Management,
+[x= 270.3 y= 172.5] Establish Case
+[x= 344.2 y= 172.5] business process uses criteria and rules
+[x= 161.9 y= 184.0] to:
+[x= 161.9 y= 201.2] 
+[x= 179.9 y= 202.2] Identify target members for specific programs.
+[x= 161.9 y= 219.3] 
+[x= 179.9 y= 220.3] Assign a care manager.
+[x= 161.9 y= 237.5] 
+[x= 179.9 y= 238.5] Assess the member’s needs.
+[x= 161.9 y= 255.7] 
+[x= 179.9 y= 256.7] Select a program.
+[x= 161.9 y= 273.9] 
+[x= 179.9 y= 274.9] Establish a treatment plan.
+[x= 161.9 y= 292.0] 
+[x= 179.9 y= 293.0] Identify and confirm provider.
+[x= 161.9 y= 310.2] 
+[x= 179.9 y= 311.2] Prepare information for communication.
+[x= 161.9 y= 328.7] This business process may establish a case for one individual, a family or a target
+[x= 161.9 y= 340.2] population such as:
+[x= 161.9 y= 357.4] 
+[x= 179.9 y= 358.4] Medicaid Waiver program case management
+[x= 179.9 y= 376.6] o
+[x= 197.9 y= 375.9] Home and Community-Based Services (HCBS)
+[x= 179.9 y= 388.1] o
+[x= 197.9 y= 387.4] Other
+[x= 161.9 y= 404.5] 
+[x= 179.9 y= 405.5] Disease management
+[x= 161.9 y= 422.7] 
+[x= 179.9 y= 423.7] Catastrophic cases
+[x= 161.9 y= 440.9] 
+[x= 179.9 y= 441.9] Early Periodic Screening, Diagnosis, and Treatment (EPSDT)
+[x= 161.9 y= 459.1] 
+[x= 179.9 y= 460.1] Vaccines for children and adults
+[x= 161.9 y= 477.3] 
+[x= 179.9 y= 478.3] Population management
+[x= 161.9 y= 495.8] This business process may initiate a case from claim processing indicators such as:
+[x= 161.9 y= 512.9] 
+[x= 179.9 y= 513.9] Several claims for an individual member over a time interval.
+[x= 161.9 y= 531.1] 
+[x= 179.9 y= 532.1] New claims close to discharge date.
+[x= 161.9 y= 549.3] 
+[x= 179.9 y= 550.3] Claims containing one of the with the following:
+[x= 179.9 y= 568.5] o
+[x= 197.9 y= 567.8] Place of Service – Certain Places of Service
+[x= 179.9 y= 580.0] o
+[x= 197.9 y= 579.3] Discharge Date
+[x= 179.9 y= 591.5] o
+[x= 197.9 y= 590.8] Admit Date
+[x= 179.9 y= 603.0] o
+[x= 197.9 y= 602.3] PWK - Attachments containing lab results, treatment plans, etc.
+[x= 179.9 y= 614.5] o
+[x= 197.9 y= 613.8] NTE - Notes containing discharge plans, goals, treatment plan
+[x= 179.9 y= 626.0] o
+[x= 197.9 y= 625.3] EPSDT Referral Claim
+[x= 179.9 y= 637.5] o
+[x= 197.9 y= 636.8] Claims containing certain types of the following information:
+[x= 197.9 y= 648.4] 
+[x= 215.9 y= 648.3] Principle Diagnosis
+[x= 197.9 y= 659.8] 
+[x= 215.9 y= 659.8] Admitting Diagnosis
+[x= 197.9 y= 671.3] 
+[x= 215.9 y= 671.3] Patient Reason for Visit
+[x= 197.9 y= 682.8] 
+[x= 215.9 y= 682.7] Other Diagnosis Information
+[x= 197.9 y= 694.3] 
+[x= 215.9 y= 694.3] Principle Procedure
+[x= 197.9 y= 705.8] 
+[x= 215.9 y= 705.8] Other Procedure
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 18 
+May 2014 
+Version 3.0 
+ 
+ 
+Establish Case 
+CM Case Management 
+Establish Case 
+Item 
+Details 
+Description 
+The Care Management, Establish Case business process uses criteria and rules 
+to:  
+ 
+Identify target members for specific programs. 
+ 
+Assign a care manager. 
+ 
+Assess the member’s needs. 
+ 
+Select a program. 
+ 
+Establish a treatment plan. 
+ 
+Identify and confirm provider. 
+ 
+Prepare information for communication. 
+This business process may establish a case for one individual, a family or a target 
+population such as: 
+ 
+Medicaid Waiver program case management 
+o 
+Home and Community-Based Services (HCBS) 
+o 
+Other 
+ 
+Disease management 
+ 
+Catastrophic cases 
+ 
+Early Periodic Screening, Diagnosis, and Treatment (EPSDT) 
+ 
+Vaccines for children and adults 
+ 
+Population management 
+This business process may initiate a case from claim processing indicators such as: 
+ 
+Several claims for an individual member over a time interval. 
+ 
+New claims close to discharge date. 
+ 
+Claims containing one of the with the following: 
+o 
+Place of Service – Certain Places of Service 
+o 
+Discharge Date 
+o 
+Admit Date 
+o 
+PWK - Attachments containing lab results, treatment plans, etc. 
+o 
+NTE - Notes containing discharge plans, goals, treatment plan 
+o 
+EPSDT Referral Claim  
+o 
+Claims containing certain types of the following information: 
+ Principle Diagnosis 
+ Admitting Diagnosis 
+ Patient Reason for Visit 
+ Other Diagnosis Information 
+ Principle Procedure 
+ Other Procedure 
+
+
+================================================================================
+PAGE 2
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 19
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Case Management
+[x= 266.9 y= 113.7] Establish Case
+[x= 102.9 y= 126.8] Item
+[x= 330.2 y= 126.8] Details
+[x= 197.9 y= 139.9] 
+[x= 215.9 y= 139.8] Condition Info
+[x= 197.9 y= 151.4] 
+[x= 215.9 y= 151.3] Treatment Code
+[x= 179.9 y= 163.6] o
+[x= 197.9 y= 162.8] Prescription drug claim
+[x= 179.9 y= 175.0] o
+[x= 197.9 y= 174.3] CLIA certification
+[x= 179.9 y= 186.5] o
+[x= 197.9 y= 185.8] Home Health claim
+[x= 179.9 y= 198.1] o
+[x= 197.9 y= 197.3] Test Result
+[x= 161.9 y= 214.8] Different criteria and rules, relationships, and information define each type of health
+[x= 161.9 y= 227.3] care case and require different types of external investigation
+[x= 432.1 y= 226.4] .
+[x= 161.9 y= 245.0] The Health Information Exchange (HIE) provides health information and clinical
+[x= 161.9 y= 256.4] records for member and care coordination with provider and other agencies.
+[x=  77.4 y= 280.5] Trigger Event
+[x= 161.9 y= 280.4] Environment-based Trigger Events to include but not limited to:
+[x= 161.9 y= 297.6] 
+[x= 179.9 y= 298.6] Periodic review to scan for new cases is due.
+[x= 161.9 y= 315.8] 
+[x= 179.9 y= 316.8] Request to look into a specific case.
+[x= 161.9 y= 334.3] Interaction-based Trigger Events to include but not limited to:
+[x= 161.9 y= 351.4] 
+[x= 179.9 y= 352.4] An alert triggered by other events, such as a targeted diagnosis or referral
+[x= 179.9 y= 364.0] generated from information submitted on a claim.
+[x= 161.9 y= 381.1] 
+[x= 179.9 y= 382.1] Receive enrollment of member from
+[x= 341.6 y= 382.1] Enroll Member
+[x= 411.1 y= 382.1] business process.
+[x= 161.9 y= 399.3] 
+[x= 179.9 y= 400.3] Receive information to establish a case (e.g., Electronic Data Interchange
+[x= 179.9 y= 411.8] (EDI)).
+[x=  77.4 y= 435.9] Result
+[x= 161.9 y= 435.5] 
+[x= 179.9 y= 436.5] List of members associated with cases and programs.
+[x= 161.9 y= 453.7] 
+[x= 179.9 y= 454.7] Assessment of the needs of the member for care management.
+[x= 161.9 y= 471.8] 
+[x= 179.9 y= 472.8] Treatment Plan for member.
+[x= 161.9 y= 490.0] 
+[x= 179.9 y= 491.0] Associated Providers List.
+[x= 161.9 y= 508.2] 
+[x= 179.9 y= 509.2] Case file information.
+[x= 161.9 y= 526.3] 
+[x= 179.9 y= 527.3] Communications information for providers and members.
+[x= 161.9 y= 544.5] 
+[x= 179.9 y= 545.5] Alert to notify member of care management case.
+[x= 161.9 y= 562.7] 
+[x= 179.9 y= 563.7] Tracking information as needed for measuring performance and business
+[x= 179.9 y= 575.2] activity monitoring.
+[x=  77.4 y= 599.3] Business
+[x=  77.4 y= 610.7] Process Steps
+[x= 161.9 y= 599.2] 1.
+[x= 179.9 y= 599.2] START:
+[x= 216.6 y= 599.2] Identify candidates for new cases with specific criteria (e.g., patient
+[x= 179.9 y= 610.7] characteristics, medical conditions, location, or age).
+[x= 161.9 y= 628.2] 2. Identify information requirements and parameters to include such items as
+[x= 179.9 y= 639.7] periods of time, data elements, and data relationships.
+[x= 161.9 y= 657.2] 3. Identify new case(s) for care management based on requirements and
+[x= 179.9 y= 668.7] parameters.
+[x= 161.9 y= 686.2] 4. Create case record for each new case.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 19 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Establish Case 
+Item 
+Details 
+ Condition Info 
+ Treatment Code 
+o 
+Prescription drug claim 
+o 
+CLIA certification 
+o 
+Home Health claim 
+o 
+Test Result  
+Different criteria and rules, relationships, and information define each type of health 
+care case and require different types of external investigation. 
+The Health Information Exchange (HIE) provides health information and clinical 
+records for member and care coordination with provider and other agencies. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic review to scan for new cases is due. 
+ 
+Request to look into a specific case. 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+An alert triggered by other events, such as a targeted diagnosis or referral 
+generated from information submitted on a claim. 
+ 
+Receive enrollment of member from Enroll Member business process. 
+ 
+Receive information to establish a case (e.g., Electronic Data Interchange 
+(EDI)). 
+Result 
+ 
+List of members associated with cases and programs. 
+ 
+Assessment of the needs of the member for care management. 
+ 
+Treatment Plan for member. 
+ 
+Associated Providers List. 
+ 
+Case file information. 
+ 
+Communications information for providers and members. 
+ 
+Alert to notify member of care management case. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Identify candidates for new cases with specific criteria (e.g., patient 
+characteristics, medical conditions, location, or age). 
+2. Identify information requirements and parameters to include such items as 
+periods of time, data elements, and data relationships.  
+3. Identify new case(s) for care management based on requirements and 
+parameters. 
+4. Create case record for each new case. 
+
+
+================================================================================
+PAGE 3
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 20
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Case Management
+[x= 266.9 y= 113.7] Establish Case
+[x= 102.9 y= 126.8] Item
+[x= 330.2 y= 126.8] Details
+[x= 161.9 y= 139.8] 5. Assign care manager.
+[x= 161.9 y= 157.3] 6. Care manager reviews health and clinical information from Health Information
+[x= 179.9 y= 168.8] Exchange (HIE).
+[x= 161.9 y= 186.3] 7. Assess the needs of the member for care management.
+[x= 161.9 y= 203.8] 8. Based on needs, determine which program(s) is appropriate for the member.
+[x= 161.9 y= 221.3] 9. Based on needs, establish treatment (care) plan that identifies the services the
+[x= 179.9 y= 232.8] member needs to receive, the types of providers, the care setting, frequency,
+[x= 179.9 y= 244.3] and expected results.
+[x= 161.9 y= 261.8] 10. Based on the treatment plan, select providers to deliver the services, contact
+[x= 179.9 y= 273.3] and confirm availability, record decisions.
+[x= 161.9 y= 290.8] 11. Record care management determination and related information.
+[x= 161.9 y= 308.3] 12.
+[x= 179.9 y= 308.3] END:
+[x= 204.4 y= 308.3] Send alert to notify member of care management case.
+[x=  77.4 y= 332.3] Shared Data
+[x= 161.9 y= 332.3] Member data store including demographics
+[x= 161.9 y= 349.8] Health Information Exchange (HIE) data store including health information, clinical
+[x= 161.9 y= 361.3] record and clinical information
+[x= 161.9 y= 378.8] Enterprise Master Patient Index (EMPI) for single and complete view of patient
+[x= 161.9 y= 390.3] information
+[x= 161.9 y= 407.8] Provider data store including provider network information
+[x= 161.9 y= 425.3] Health Benefits data store including programs and services Information
+[x=  77.4 y= 449.3] Predecessor
+[x= 161.9 y= 449.3] Receive Inbound Transaction
+[x= 161.9 y= 466.9] Enroll Member
+[x= 161.9 y= 484.4] Manage Applicant and Member Communication
+[x= 161.9 y= 501.9] Manage Member Grievance and Appeal
+[x= 161.9 y= 519.4] Identify Utilization Anomalies
+[x=  77.4 y= 543.4] Successor
+[x= 161.9 y= 543.4] Send Outbound Transaction
+[x= 161.9 y= 560.9] Manage Case Information
+[x= 161.9 y= 578.4] Manage Applicant and Member Communication
+[x= 161.9 y= 595.9] Authorize Treatment Plan
+[x= 161.9 y= 613.4] Manage Treatment Plan and Outcomes
+[x=  77.4 y= 637.4] Constraints
+[x= 161.9 y= 637.3] States and programs within States use different criteria to establish cases. Diseases
+[x= 161.9 y= 648.8] included in Disease Management differ from state to state. States define and treat
+[x= 161.9 y= 660.3] catastrophic cases differently. States will conform to required Affordable Care Act
+[x= 161.9 y= 671.8] requirements for EPSDT and immunizations case management.
+[x=  77.4 y= 695.8] Failures
+[x= 161.9 y= 695.4] 
+[x= 179.9 y= 696.4] Details of the case are inconsistent with criteria; discontinued case.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 20 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Establish Case 
+Item 
+Details 
+5. Assign care manager. 
+6. Care manager reviews health and clinical information from Health Information 
+Exchange (HIE).  
+7. Assess the needs of the member for care management. 
+8. Based on needs, determine which program(s) is appropriate for the member. 
+9. Based on needs, establish treatment (care) plan that identifies the services the 
+member needs to receive, the types of providers, the care setting, frequency, 
+and expected results. 
+10. Based on the treatment plan, select providers to deliver the services, contact 
+and confirm availability, record decisions. 
+11. Record care management determination and related information. 
+12. END: Send alert to notify member of care management case. 
+Shared Data 
+Member data store including demographics 
+Health Information Exchange (HIE) data store including health information, clinical 
+record and clinical information 
+Enterprise Master Patient Index (EMPI) for single and complete view of patient 
+information 
+Provider data store including provider network information 
+Health Benefits data store including programs and services Information 
+Predecessor 
+Receive Inbound Transaction 
+Enroll Member 
+Manage Applicant and Member Communication 
+Manage Member Grievance and Appeal 
+Identify Utilization Anomalies 
+Successor 
+Send Outbound Transaction 
+Manage Case Information 
+Manage Applicant and Member Communication 
+Authorize Treatment Plan 
+Manage Treatment Plan and Outcomes 
+Constraints 
+States and programs within States use different criteria to establish cases. Diseases 
+included in Disease Management differ from state to state. States define and treat 
+catastrophic cases differently. States will conform to required Affordable Care Act 
+requirements for EPSDT and immunizations case management. 
+Failures 
+ 
+Details of the case are inconsistent with criteria; discontinued case.  
+
+
+================================================================================
+PAGE 4
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 21
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Case Management
+[x= 266.9 y= 113.7] Establish Case
+[x= 102.9 y= 126.8] Item
+[x= 330.2 y= 126.8] Details
+[x=  77.4 y= 145.9] Performance
+[x=  77.4 y= 157.4] Measures
+[x= 161.9 y= 145.4] 
+[x= 179.9 y= 146.5] Time required to establish a case.
+[x= 161.9 y= 163.6] 
+[x= 179.9 y= 164.6] Effectiveness of selection criteria in determining real cases.
+[x=  72.0 y= 206.5] Manage Case Information
+[x=  77.4 y= 233.6] CM Case Management
+[x= 239.0 y= 246.7] Manage Case Information
+[x= 100.9 y= 259.9] Item
+[x= 328.1 y= 259.9] Details
+[x=  77.4 y= 278.9] Description
+[x= 157.8 y= 278.9] The
+[x= 177.8 y= 278.9] Manage Case Information
+[x= 302.3 y= 278.9] business process uses state-specific criteria and
+[x= 157.8 y= 290.4] rules to ensure appropriate and cost-effective medical, medically-related social and
+[x= 157.8 y= 301.9] behavioral health services are identified, planned, obtained and monitored for
+[x= 157.8 y= 313.4] individuals identified as eligible for care management services under such programs
+[x= 157.8 y= 324.9] as:
+[x= 157.8 y= 342.0] 
+[x= 175.8 y= 343.0] Medicaid Waiver program case management
+[x= 157.8 y= 360.2] 
+[x= 175.8 y= 361.2] Home and Community-Based Services (HCBS)
+[x= 157.8 y= 378.4] 
+[x= 175.8 y= 379.4] Other agency programs
+[x= 157.8 y= 396.6] 
+[x= 175.8 y= 397.6] Disease management
+[x= 157.8 y= 414.7] 
+[x= 175.8 y= 415.7] Catastrophic cases
+[x= 157.8 y= 432.9] 
+[x= 175.8 y= 433.9] Early Periodic Screening, Diagnosis, and Treatment (EPSDT)
+[x= 157.8 y= 451.0] 
+[x= 175.8 y= 452.0] Immunizations for children and adults
+[x= 157.8 y= 469.6] The
+[x= 177.8 y= 469.6] Establish Case
+[x= 249.1 y= 469.6] business process creates each individual case and treatment
+[x= 157.8 y= 481.1] plan.
+[x= 157.8 y= 498.6] The
+[x= 177.8 y= 498.6] Manage Case Information
+[x= 302.3 y= 498.6] business process includes activities to confirm
+[x= 157.8 y= 510.1] delivery of services and compliance with the plan. It also includes activities such as:
+[x= 157.8 y= 527.2] 
+[x= 175.8 y= 528.2] Service planning and coordination.
+[x= 157.8 y= 545.4] 
+[x= 175.8 y= 546.4] Facilitation of services (e.g., finding providers, or establishing limits or
+[x= 175.8 y= 557.9] maximums).
+[x= 157.8 y= 575.1] 
+[x= 175.8 y= 576.1] Advocating for the member.
+[x= 157.8 y= 593.2] 
+[x= 175.8 y= 594.2] Monitoring and reassessment of services for need and cost effectiveness.
+[x= 175.8 y= 612.5] o
+[x= 193.8 y= 611.8] This includes assessing the member’s placement and the services received
+[x= 193.8 y= 623.3] and taking necessary action to ensure that services and placement are
+[x= 193.8 y= 634.7] appropriate to meet the member’s needs.
+[x= 157.8 y= 652.3] The Health Information Exchange (HIE) provides health information and clinical
+[x= 157.8 y= 663.8] records for member and care coordination with provider, pharmacist, and other
+[x= 157.8 y= 675.2] agencies.
+[x=  77.4 y= 699.3] Trigger Event
+[x= 157.8 y= 699.2] Environment-based Trigger Events to include but not limited to:
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 21 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Establish Case 
+Item 
+Details 
+Performance 
+Measures 
+ 
+Time required to establish a case. 
+ 
+Effectiveness of selection criteria in determining real cases. 
+ 
+Manage Case Information 
+CM Case Management 
+Manage Case Information 
+Item 
+Details 
+Description 
+The Manage Case Information business process uses state-specific criteria and 
+rules to ensure appropriate and cost-effective medical, medically-related social and 
+behavioral health services are identified, planned, obtained and monitored for 
+individuals identified as eligible for care management services under such programs 
+as:  
+ 
+Medicaid Waiver program case management 
+ 
+Home and Community-Based Services (HCBS) 
+ 
+Other agency programs 
+ 
+Disease management 
+ 
+Catastrophic cases 
+ 
+Early Periodic Screening, Diagnosis, and Treatment (EPSDT) 
+ 
+Immunizations for children and adults 
+The Establish Case business process creates each individual case and treatment 
+plan. 
+The Manage Case Information business process includes activities to confirm 
+delivery of services and compliance with the plan. It also includes activities such as: 
+ 
+Service planning and coordination. 
+ 
+Facilitation of services (e.g., finding providers, or establishing limits or 
+maximums). 
+ 
+Advocating for the member. 
+ 
+Monitoring and reassessment of services for need and cost effectiveness. 
+o 
+This includes assessing the member’s placement and the services received 
+and taking necessary action to ensure that services and placement are 
+appropriate to meet the member’s needs. 
+The Health Information Exchange (HIE) provides health information and clinical 
+records for member and care coordination with provider, pharmacist, and other 
+agencies. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+
+
+================================================================================
+PAGE 5
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 22
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x= 157.8 y= 100.0] 
+[x= 175.8 y= 101.0] Periodic timetable (e.g. monthly, quarterly) review of a case is due.
+[x= 157.8 y= 118.2] 
+[x= 175.8 y= 119.2] Monitor member’s case activity.
+[x= 157.8 y= 136.4] 
+[x= 175.8 y= 137.4] Receive case modifications (e.g., create, update, or delete).
+[x= 157.8 y= 154.9] Interaction-based Trigger Events to include but not limited to:
+[x= 157.8 y= 172.0] 
+[x= 175.8 y= 173.0] Receive information regarding services delivered/not delivered (including claims
+[x= 175.8 y= 184.6] information).
+[x= 157.8 y= 201.7] 
+[x= 175.8 y= 202.7] Receive health plan or health benefit modification that may affect a treatment
+[x= 175.8 y= 214.3] plan.
+[x= 157.8 y= 231.4] 
+[x= 175.8 y= 232.4] Receive information regarding an enrollment modification, including
+[x= 175.8 y= 243.9] disenrollment.
+[x= 157.8 y= 261.1] 
+[x= 175.8 y= 262.1] Receive information regarding modification in member’s conditions or situation.
+[x=  77.4 y= 286.1] Result
+[x= 157.8 y= 285.7] 
+[x= 175.8 y= 286.7] Updated case history with possible revision to the following:
+[x= 175.8 y= 305.0] o
+[x= 193.8 y= 304.3] Case history
+[x= 175.8 y= 322.5] o
+[x= 193.8 y= 321.8] Needs assessment
+[x= 175.8 y= 340.0] o
+[x= 193.8 y= 339.2] Treatment Plan
+[x= 175.8 y= 357.5] o
+[x= 193.8 y= 356.8] Associated Providers List
+[x= 175.8 y= 375.0] o
+[x= 193.8 y= 374.3] Case file information (e.g., contact dates and times)
+[x= 157.8 y= 391.4] 
+[x= 175.8 y= 392.4] Content of communications sent to providers and members.
+[x= 157.8 y= 409.6] 
+[x= 175.8 y= 410.6] Tracking information as needed for measuring performance and business activity
+[x= 175.8 y= 422.1] monitoring.
+[x=  77.4 y= 446.2] Business
+[x=  77.4 y= 457.7] Process Steps
+[x= 157.8 y= 446.1] 1.
+[x= 175.8 y= 446.1] START:
+[x= 212.5 y= 446.1] Receive request to review case (review of the member’s status and
+[x= 175.8 y= 457.6] needs).
+[x= 157.8 y= 475.1] 2. Based on review, take follow-up action, as needed, to:
+[x= 175.8 y= 493.3] o
+[x= 193.8 y= 492.6] Identify services delivered, issues impeding delivery of service and/or
+[x= 193.8 y= 504.1] member’s progress.
+[x= 175.8 y= 522.3] o
+[x= 193.8 y= 521.6] Establish appointment with member to review case status.
+[x= 175.8 y= 539.8] o
+[x= 193.8 y= 539.1] Contact provider(s) to review member’s progress.
+[x= 175.8 y= 557.3] o
+[x= 193.8 y= 556.6] Review services provided (claims payment information).
+[x= 175.8 y= 574.8] o
+[x= 193.8 y= 574.1] Close case for non-chronic conditions or change in member’s status.
+[x= 157.8 y= 591.6] 3. Revise treatment plan to:
+[x= 175.8 y= 609.8] o
+[x= 193.8 y= 609.1] Add or remove services.
+[x= 175.8 y= 627.3] o
+[x= 193.8 y= 626.6] Change nature of plan (e.g. shifting drug regimen, shifting from drug to
+[x= 193.8 y= 638.1] behavioral).
+[x= 175.8 y= 656.3] o
+[x= 193.8 y= 655.6] Reassess needs.
+[x= 175.8 y= 673.8] o
+[x= 193.8 y= 673.1] Revise expected results.
+[x= 157.8 y= 690.6] 4.
+[x= 175.8 y= 690.6] END:
+[x= 200.3 y= 690.6] Send alert to notify of care management modifications or care coordination
+[x= 175.8 y= 702.1] updates.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 22 
+May 2014 
+Version 3.0 
+ 
+ 
+ 
+Periodic timetable (e.g. monthly, quarterly) review of a case is due. 
+ 
+Monitor member’s case activity. 
+ 
+Receive case modifications (e.g., create, update, or delete). 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive information regarding services delivered/not delivered (including claims 
+information). 
+ 
+Receive health plan or health benefit modification that may affect a treatment 
+plan. 
+ 
+Receive information regarding an enrollment modification, including 
+disenrollment. 
+ 
+Receive information regarding modification in member’s conditions or situation. 
+Result 
+ 
+Updated case history with possible revision to the following: 
+o 
+Case history 
+o 
+Needs assessment  
+o 
+Treatment Plan  
+o 
+Associated Providers List 
+o 
+Case file information (e.g., contact dates and times) 
+ 
+Content of communications sent to providers and members. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring. 
+Business 
+Process Steps 
+1. START: Receive request to review case (review of the member’s status and 
+needs). 
+2. Based on review, take follow-up action, as needed, to: 
+o 
+Identify services delivered, issues impeding delivery of service and/or 
+member’s progress. 
+o 
+Establish appointment with member to review case status. 
+o 
+Contact provider(s) to review member’s progress.  
+o 
+Review services provided (claims payment information). 
+o 
+Close case for non-chronic conditions or change in member’s status. 
+3. Revise treatment plan to: 
+o 
+Add or remove services. 
+o 
+Change nature of plan (e.g. shifting drug regimen, shifting from drug to 
+behavioral). 
+o 
+Reassess needs. 
+o 
+Revise expected results. 
+4. END: Send alert to notify of care management modifications or care coordination 
+updates. 
+
+
+================================================================================
+PAGE 6
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 23
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 106.4] Shared Data
+[x= 157.8 y= 106.4] Member data store including demographics
+[x= 157.8 y= 123.9] Health Information Exchange (HIE) data store including health information, clinical
+[x= 157.8 y= 135.4] record and clinical data
+[x= 157.8 y= 152.9] Enterprise Master Patient Index (EMPI) for single and complete view of patient
+[x= 157.8 y= 164.4] information
+[x= 157.8 y= 181.9] Provider data store including provider network information
+[x= 157.8 y= 199.4] Health Benefits data store including programs and services Information
+[x= 157.8 y= 216.9] Case History data store including action lists, journal notes, reviews and approvals
+[x=  77.4 y= 241.0] Predecessor
+[x= 157.8 y= 241.0] Receive Inbound Transaction
+[x= 157.8 y= 258.5] Perform Screening and Assessment
+[x= 157.8 y= 276.0] Establish Case
+[x= 157.8 y= 293.5] Authorize Referral
+[x= 157.8 y= 311.0] Authorize Service
+[x= 157.8 y= 328.5] Authorize Treatment Plan
+[x= 157.8 y= 346.0] Manage Treatment Plan and Outcomes
+[x=  77.4 y= 369.9] Successor
+[x= 157.8 y= 369.9] Send Outbound Transaction
+[x= 157.8 y= 387.5] Authorize Treatment Plan
+[x= 157.8 y= 405.0] Manage Applicant and Member Communication
+[x= 157.8 y= 422.5] Manage Provider Communication
+[x= 157.8 y= 440.0] Manage Population Health Outreach
+[x= 157.8 y= 457.5] Manage Registry
+[x= 157.8 y= 475.0] Submit Electronic Attachment
+[x= 157.8 y= 492.5] Manage Data
+[x=  77.4 y= 516.4] Constraints
+[x= 157.8 y= 516.4] States and programs within States use different criteria to manage cases. Diseases
+[x= 157.8 y= 527.9] included in Disease Management differ from state to state. States define and treat
+[x= 157.8 y= 539.3] catastrophic cases differently. States will conform to required Affordable Care Act
+[x= 157.8 y= 550.9] requirements for EPSDT and immunizations case management.
+[x=  77.4 y= 574.9] Failures
+[x= 157.8 y= 574.5] 
+[x= 175.8 y= 575.5] Information required to manage case is not available or is inaccurate.
+[x=  77.4 y= 599.6] Performance
+[x=  77.4 y= 611.1] Measures
+[x= 157.8 y= 599.2] 
+[x= 175.8 y= 600.2] The State Medicaid Agency (SMA) updates cases within the timeframe specified
+[x= 175.8 y= 611.7] by state policy.
+[x= 157.8 y= 628.9] 
+[x= 175.8 y= 629.9] Movements towards desired health care outcomes because of improvements in
+[x= 175.8 y= 641.4] case management practices.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 23 
+May 2014 
+Version 3.0 
+ 
+ 
+ 
+Shared Data 
+Member data store including demographics 
+Health Information Exchange (HIE) data store including health information, clinical 
+record and clinical data 
+Enterprise Master Patient Index (EMPI) for single and complete view of patient 
+information 
+Provider data store including provider network information 
+Health Benefits data store including programs and services Information 
+Case History data store including action lists, journal notes, reviews and approvals 
+Predecessor 
+Receive Inbound Transaction 
+Perform Screening and Assessment 
+Establish Case 
+Authorize Referral 
+Authorize Service 
+Authorize Treatment Plan 
+Manage Treatment Plan and Outcomes 
+Successor 
+Send Outbound Transaction 
+Authorize Treatment Plan 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Population Health Outreach 
+Manage Registry 
+Submit Electronic Attachment 
+Manage Data 
+Constraints 
+States and programs within States use different criteria to manage cases. Diseases 
+included in Disease Management differ from state to state. States define and treat 
+catastrophic cases differently. States will conform to required Affordable Care Act 
+requirements for EPSDT and immunizations case management. 
+Failures 
+ 
+Information required to manage case is not available or is inaccurate. 
+Performance 
+Measures 
+ 
+The State Medicaid Agency (SMA) updates cases within the timeframe specified 
+by state policy. 
+ 
+Movements towards desired health care outcomes because of improvements in 
+case management practices.  
+
+
+================================================================================
+PAGE 7
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 24
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Manage Population Health Outreach
+[x=  77.4 y= 127.2] CM Case Management
+[x= 211.6 y= 140.4] Manage Population Health Outreach
+[x= 100.0 y= 153.5] Item
+[x= 327.3 y= 153.5] Details
+[x=  77.4 y= 172.6] Description
+[x= 156.1 y= 172.5] The
+[x= 176.1 y= 172.5] Manage Population Health Outreach
+[x= 347.8 y= 172.5] business process is responsible for the
+[x= 156.1 y= 184.0] implementation of strategy to improve general population health. The State Medicaid
+[x= 156.1 y= 195.5] Agency (SMA) identifies target populations or individuals for selection by cultural,
+[x= 156.1 y= 207.0] diagnostic, or other demographic indicators. The inputs to this business process are
+[x= 156.1 y= 218.5] census, vital statistics, immigration, and other information sources. This business
+[x= 156.1 y= 230.0] process outputs materials for:
+[x= 156.1 y= 247.1] 
+[x= 174.1 y= 248.2] Campaigns to enroll new members in existing health plan or health benefit.
+[x= 156.1 y= 265.3] 
+[x= 174.1 y= 266.3] New health plan or health benefit offering.
+[x= 156.1 y= 283.5] 
+[x= 174.1 y= 284.5] Modification to existing health plan or health benefit offering.
+[x= 156.1 y= 302.0] It includes production of information materials and communications to impacted
+[x= 156.1 y= 313.6] members, providers, and contractors (e.g., program strategies and materials, etc.).
+[x= 156.1 y= 325.0] The communication of information includes a variety of methods such as email, mail,
+[x= 156.1 y= 336.5] publication, mobile device, facsimile, telephone, web or Electronic Data Interchange
+[x= 156.1 y= 348.0] (EDI).
+[x=  77.4 y= 372.1] Trigger Event
+[x= 159.7 y= 372.0] Environment-based Trigger Events to include but not limited to:
+[x= 156.1 y= 389.2] 
+[x= 174.1 y= 390.2] Receive information from census, vital statistics, public health departments,
+[x= 174.1 y= 401.7] immigration, and other information sources.
+[x= 156.1 y= 418.9] 
+[x= 174.1 y= 419.9] Periodic timetable (e.g., monthly, quarterly) to distribute information is due.
+[x= 156.1 y= 437.1] 
+[x= 174.1 y= 438.1] Receive new population or problem-specific legislated health improvement
+[x= 174.1 y= 449.5] initiatives.
+[x= 156.1 y= 466.7] 
+[x= 174.1 y= 467.7] Receive request for information from other originators (e.g., federal actions or
+[x= 174.1 y= 479.2] constituency interests).
+[x= 156.1 y= 496.7] Interaction-based Trigger Events to include but not limited to:
+[x= 156.1 y= 513.9] 
+[x= 174.1 y= 514.9] Receive alert from Establish Case to place member into care management
+[x= 174.1 y= 526.4] monitoring.
+[x=  77.4 y= 550.4] Result
+[x= 156.1 y= 550.0] 
+[x= 174.1 y= 551.0] The SMA produces outreach communications (e.g., mailing brochures, web
+[x= 174.1 y= 562.6] pages, email, kiosk, and radio, billboard, and TV advertisements) and distributes
+[x= 174.1 y= 574.1] to targeted populations or individuals. The SMA may also conduct face-to-face
+[x= 174.1 y= 585.5] meetings.
+[x= 156.1 y= 602.7] 
+[x= 174.1 y= 603.7] Tracking information as needed for measuring performance and business activity
+[x= 174.1 y= 615.2] monitoring.
+[x=  77.4 y= 639.3] Business
+[x=  77.4 y= 650.8] Process
+[x=  77.4 y= 662.3] Steps
+[x= 156.1 y= 639.2] 1.
+[x= 174.1 y= 639.2] START:
+[x= 210.8 y= 639.2] Receive request for outreach materials or communication.
+[x= 156.1 y= 656.7] 2. Target population identified and defined by analyzing information, performance
+[x= 174.1 y= 668.2] measures, feedback from community, and policy directives.
+[x= 156.1 y= 685.7] 3. Approve, deny, or modify decisions to develop outreach communications.
+[x= 156.1 y= 703.2] 4. Determine content and method of communication (e.g., email, mail, publication,
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 24 
+May 2014 
+Version 3.0 
+ 
+ 
+Manage Population Health Outreach 
+CM Case Management 
+Manage Population Health Outreach 
+Item 
+Details 
+Description 
+The Manage Population Health Outreach business process is responsible for the 
+implementation of strategy to improve general population health. The State Medicaid 
+Agency (SMA) identifies target populations or individuals for selection by cultural, 
+diagnostic, or other demographic indicators. The inputs to this business process are 
+census, vital statistics, immigration, and other information sources. This business 
+process outputs materials for:  
+ 
+Campaigns to enroll new members in existing health plan or health benefit. 
+ 
+New health plan or health benefit offering. 
+ 
+Modification to existing health plan or health benefit offering. 
+It includes production of information materials and communications to impacted 
+members, providers, and contractors (e.g., program strategies and materials, etc.). 
+The communication of information includes a variety of methods such as email, mail, 
+publication, mobile device, facsimile, telephone, web or Electronic Data Interchange 
+(EDI).  
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive information from census, vital statistics, public health departments, 
+immigration, and other information sources. 
+ 
+Periodic timetable (e.g., monthly, quarterly) to distribute information is due. 
+ 
+Receive new population or problem-specific legislated health improvement 
+initiatives. 
+ 
+Receive request for information from other originators (e.g., federal actions or 
+constituency interests). 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive alert from Establish Case to place member into care management 
+monitoring. 
+Result 
+ 
+The SMA produces outreach communications (e.g., mailing brochures, web 
+pages, email, kiosk, and radio, billboard, and TV advertisements) and distributes 
+to targeted populations or individuals. The SMA may also conduct face-to-face 
+meetings. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring. 
+Business 
+Process 
+Steps 
+1. START: Receive request for outreach materials or communication. 
+2. Target population identified and defined by analyzing information, performance 
+measures, feedback from community, and policy directives. 
+3. Approve, deny, or modify decisions to develop outreach communications. 
+4. Determine content and method of communication (e.g., email, mail, publication, 
+
+
+================================================================================
+PAGE 8
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 25
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Case Management
+[x= 211.6 y= 113.7] Manage Population Health Outreach
+[x= 100.0 y= 126.8] Item
+[x= 327.3 y= 126.8] Details
+[x= 174.1 y= 139.8] mobile device, facsimile, telephone, web or EDI).
+[x= 156.1 y= 157.3] 5. Determine performance measures.
+[x= 156.1 y= 174.8] 6. Prepare content that is linguistically, culturally, and competency appropriate for
+[x= 174.1 y= 186.3] the communication in agreed upon format.
+[x= 156.1 y= 203.8] 7. Review and approve communication.
+[x= 156.1 y= 221.3] 8. Generate communication in agreed upon format.
+[x= 156.1 y= 238.8] 9. Agency logs communication message sent to target population.
+[x= 156.1 y= 256.3] 10.
+[x= 174.1 y= 256.3] END:
+[x= 201.3 y= 256.3] Evaluate the efficacy of the communication (e.g., customer satisfaction,
+[x= 174.1 y= 267.8] first time resolution rate).
+[x=  77.4 y= 291.9] Shared Data
+[x= 156.1 y= 291.8] Member data store including demographic information
+[x= 156.1 y= 309.3] Provider data store including provider network Information
+[x= 156.1 y= 326.8] Contractor data store including provider network Information
+[x= 156.1 y= 344.3] Plan data store including policy information
+[x= 156.1 y= 361.8] Health Benefit data store including program and service information
+[x= 156.1 y= 379.3] Data from external agencies including: census, vital statistics, immigration, and
+[x= 156.1 y= 390.8] various health registries
+[x=  77.4 y= 414.8] Predecessor
+[x= 156.1 y= 414.8] There are several business processes that can result in the interest or need to reach
+[x= 156.1 y= 426.3] out to the Medicaid population in an attempt to improve behavior or promote
+[x= 156.1 y= 437.8] prevention:
+[x= 156.1 y= 455.4] Identify Utilization Anomalies
+[x= 156.1 y= 472.9] Manage Performance Measures
+[x= 156.1 y= 490.4] Manage Member Grievance and Appeal
+[x= 156.1 y= 507.9] Manage Provider Grievance and Appeal
+[x= 156.1 y= 525.4] Manage Health Plan Information
+[x=  77.4 y= 549.4] Successor
+[x= 156.1 y= 549.4] Manage Applicant and Member Communication
+[x= 156.1 y= 566.9] Perform Population and Member Outreach
+[x= 156.1 y= 584.4] Manage Provider Communication
+[x= 156.1 y= 601.9] Perform Provider Outreach
+[x= 156.1 y= 619.4] Manage Contractor Communication
+[x= 156.1 y= 636.9] Manage Performance Measures
+[x=  77.4 y= 660.8] Constraints
+[x= 156.1 y= 660.8] Agencies do not coordinate amongst each other in order to share information.
+[x= 156.1 y= 678.3] Potential political and inter-agency conflicts over appropriate use of health care
+[x= 156.1 y= 689.8] information.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 25 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Manage Population Health Outreach 
+Item 
+Details 
+mobile device, facsimile, telephone, web or EDI). 
+5. Determine performance measures. 
+6. Prepare content that is linguistically, culturally, and competency appropriate for 
+the communication in agreed upon format. 
+7. Review and approve communication. 
+8. Generate communication in agreed upon format.  
+9. Agency logs communication message sent to target population. 
+10. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, 
+first time resolution rate). 
+Shared Data 
+Member data store including demographic information 
+Provider data store including provider network Information 
+Contractor data store including provider network Information 
+Plan data store including policy information 
+Health Benefit data store including program and service information 
+Data from external agencies including: census, vital statistics, immigration, and 
+various health registries 
+Predecessor 
+There are several business processes that can result in the interest or need to reach 
+out to the Medicaid population in an attempt to improve behavior or promote 
+prevention: 
+Identify Utilization Anomalies 
+Manage Performance Measures 
+Manage Member Grievance and Appeal 
+Manage Provider Grievance and Appeal 
+Manage Health Plan Information 
+Successor 
+Manage Applicant and Member Communication 
+Perform Population and Member Outreach 
+Manage Provider Communication 
+Perform Provider Outreach 
+Manage Contractor Communication 
+Manage Performance Measures 
+Constraints 
+Agencies do not coordinate amongst each other in order to share information.  
+Potential political and inter-agency conflicts over appropriate use of health care 
+information. 
+
+
+================================================================================
+PAGE 9
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 26
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Case Management
+[x= 211.6 y= 113.7] Manage Population Health Outreach
+[x= 100.0 y= 126.8] Item
+[x= 327.3 y= 126.8] Details
+[x=  77.4 y= 145.9] Failures
+[x= 156.1 y= 145.5] 
+[x= 174.1 y= 146.5] Inter-agency agency communication or lack of access to information impairs
+[x= 174.1 y= 158.0] ability to gather information to support strategies.
+[x=  77.4 y= 182.0] Performance
+[x=  77.4 y= 193.6] Measures
+[x= 156.1 y= 181.6] 
+[x= 174.1 y= 182.6] Time to complete communication: By phone __ minutes; by email __hours; by
+[x= 174.1 y= 194.2] mail __ days
+[x= 156.1 y= 211.3] 
+[x= 174.1 y= 212.3] Accuracy of communications = __%
+[x= 156.1 y= 229.5] 
+[x= 174.1 y= 230.5] Communications successfully delivered = __%
+[x=  72.0 y= 272.3] Manage Registry
+[x=  77.4 y= 299.4] CM Case Management
+[x= 262.0 y= 312.5] Manage Registry
+[x= 100.0 y= 325.6] Item
+[x= 327.3 y= 325.6] Details
+[x=  77.4 y= 344.7] Description
+[x= 156.1 y= 344.6] The
+[x= 176.1 y= 344.6] Manage Registry
+[x= 256.1 y= 344.6] business process receives a member’s health outcome
+[x= 156.1 y= 356.2] information, prepares updates for a specific registry (e.g., immunizations, cancer,
+[x= 156.1 y= 367.7] disease) and responds to inquiries with response information. In the context of MITA,
+[x= 156.1 y= 379.1] a medical registry consolidates related records from multiple sources (e.g., intrastate,
+[x= 156.1 y= 390.7] interstate or federal agencies) into one comprehensive data store. This data store
+[x= 156.1 y= 402.1] may or may not reside within the Medicaid information system.
+[x=  77.4 y= 426.2] Trigger Event
+[x= 156.1 y= 426.1] Environment-based Trigger Events to include but not limited to:
+[x= 156.1 y= 443.3] 
+[x= 174.1 y= 444.3] Receive inquiry for health outcome information.
+[x= 156.1 y= 461.8] Interaction-based Trigger Events to include but not limited to:
+[x= 156.1 y= 479.0] 
+[x= 174.1 y= 480.0] Receive health outcomes that The State Medicaid Agency (SMA) sends to a
+[x= 174.1 y= 491.5] registry.
+[x=  77.4 y= 515.6] Result
+[x= 156.1 y= 515.2] 
+[x= 174.1 y= 516.2] The SMA prepares and sends response to inquiry for health outcome.
+[x= 156.1 y= 533.3] 
+[x= 174.1 y= 534.3] The SMA prepares and sends updated health outcome.
+[x= 156.1 y= 551.5] 
+[x= 174.1 y= 552.5] Tracking information as needed for measuring performance and business activity
+[x= 174.1 y= 564.0] monitoring.
+[x=  77.4 y= 588.1] Business
+[x=  77.4 y= 599.6] Process
+[x=  77.4 y= 611.0] Steps
+[x= 156.1 y= 588.0] 1.
+[x= 174.1 y= 588.0] START:
+[x= 210.8 y= 588.0] Receive member’s health outcome information.
+[x= 156.1 y= 605.5] 2. Validate information submitted is correct and as complete as possible.
+[x= 174.1 y= 617.0] Information complies with syntax criteria and submitter has completed all
+[x= 174.1 y= 628.5] required fields.
+[x= 156.1 y= 646.0] 3. Validate that the provided information is authentic.
+[x= 156.1 y= 663.5] 4. Prepare submittal for member’s health outcome information to registry.
+[x= 156.1 y= 681.0] 5.
+[x= 174.1 y= 681.0] END:
+[x= 198.5 y= 681.0] Send member’s health outcome information to registry.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 26 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Manage Population Health Outreach 
+Item 
+Details 
+Failures 
+ 
+Inter-agency agency communication or lack of access to information impairs 
+ability to gather information to support strategies. 
+Performance 
+Measures 
+ 
+Time to complete communication: By phone __ minutes; by email __hours; by 
+mail __ days 
+ 
+Accuracy of communications = __% 
+ 
+Communications successfully delivered = __% 
+ 
+Manage Registry 
+CM Case Management 
+Manage Registry 
+Item 
+Details 
+Description 
+The Manage Registry business process receives a member’s health outcome 
+information, prepares updates for a specific registry (e.g., immunizations, cancer, 
+disease) and responds to inquiries with response information. In the context of MITA, 
+a medical registry consolidates related records from multiple sources (e.g., intrastate, 
+interstate or federal agencies) into one comprehensive data store. This data store 
+may or may not reside within the Medicaid information system. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive inquiry for health outcome information. 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive health outcomes that The State Medicaid Agency (SMA) sends to a 
+registry. 
+Result 
+ 
+The SMA prepares and sends response to inquiry for health outcome. 
+ 
+The SMA prepares and sends updated health outcome. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring. 
+Business 
+Process 
+Steps 
+1. START: Receive member’s health outcome information. 
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and submitter has completed all 
+required fields. 
+3. Validate that the provided information is authentic.  
+4. Prepare submittal for member’s health outcome information to registry. 
+5. END: Send member’s health outcome information to registry.  
+ 
+
+
+================================================================================
+PAGE 10
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 27
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Case Management
+[x= 262.0 y= 113.7] Manage Registry
+[x= 100.0 y= 126.8] Item
+[x= 327.3 y= 126.8] Details
+[x= 157.0 y= 139.8] Alternate Path:
+[x= 156.1 y= 157.3] 1.
+[x= 174.1 y= 157.3] START:
+[x= 210.8 y= 157.3] Receive request for health outcome information.
+[x= 156.1 y= 174.8] 2. Validate requestor has authorization to receive desired information.
+[x= 156.1 y= 192.3] 3. Prepare submittal for member’s health outcome information to requestor.
+[x= 156.1 y= 209.8] 4.
+[x= 174.1 y= 209.8] END:
+[x= 198.5 y= 209.8] Send member’s health outcome information to requestor.
+[x=  77.4 y= 233.9] Shared Data
+[x= 156.1 y= 233.8] Health Registry data store including health outcomes (e.g., immunizations, cancer,
+[x= 156.1 y= 245.3] heart, diabetes, or disease)
+[x= 156.1 y= 262.8] Data sources needed for validation of registry information
+[x= 156.1 y= 280.3] Enterprise Master Patient Index (EMPI) for single and complete view of patient
+[x= 156.1 y= 291.8] information
+[x=  77.4 y= 315.9] Predecessor
+[x= 156.1 y= 315.9] Receive Inbound Transaction
+[x= 156.1 y= 333.4] Manage Case Information
+[x= 156.1 y= 350.9] Manage Health Plan Information
+[x=  77.4 y= 374.9] Successor
+[x= 156.1 y= 374.9] Send Outbound Transaction
+[x= 156.1 y= 392.4] Manage Provider Communication
+[x= 156.1 y= 409.9] Manage Contractor Communication
+[x=  77.4 y= 433.9] Constraints
+[x= 156.1 y= 433.8] State and federal regulations regarding entities authorized to access registry
+[x= 156.1 y= 445.3] information.
+[x=  77.4 y= 469.4] Failures
+[x= 156.1 y= 469.0] 
+[x= 174.1 y= 470.0] The SMA is unable to find registry information to update.
+[x= 156.1 y= 487.2] 
+[x= 174.1 y= 488.2] Requestor does not have authorized access to the Registry.
+[x=  77.4 y= 512.2] Performance
+[x=  77.4 y= 523.7] Measures
+[x= 156.1 y= 511.8] 
+[x= 174.1 y= 512.8] Time to complete registry update = __days
+[x= 156.1 y= 530.0] 
+[x= 174.1 y= 531.0] Successful delivery rate of responses = __%
+[x=  72.0 y= 574.0] Perform Screening and Assessment
+[x=  77.8 y= 601.0] CM Case Management
+[x= 211.6 y= 614.1] Perform Screening and Assessment
+[x= 102.5 y= 627.3] Item
+[x= 329.8 y= 627.3] Details
+[x=  77.8 y= 646.3] Description
+[x= 161.3 y= 646.3] The
+[x= 181.4 y= 646.3] Perform Screening and Assessment
+[x= 353.2 y= 646.3] business process is responsible for the
+[x= 161.3 y= 657.8] evaluation of member’s health information, facilitating evaluations and recording
+[x= 161.3 y= 669.3] results. This business process assesses for certain health and behavioral health
+[x= 161.3 y= 680.8] conditions (e.g., chronic illness, mental health, substance abuse), lifestyle and living
+[x= 161.3 y= 692.3] conditions (e.g., employment, religious affiliation, living situation) to determine risk
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 27 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Manage Registry 
+Item 
+Details 
+Alternate Path: 
+1. START: Receive request for health outcome information. 
+2. Validate requestor has authorization to receive desired information. 
+3. Prepare submittal for member’s health outcome information to requestor. 
+4. END: Send member’s health outcome information to requestor. 
+Shared Data 
+Health Registry data store including health outcomes (e.g., immunizations, cancer, 
+heart, diabetes, or disease) 
+Data sources needed for validation of registry information 
+Enterprise Master Patient Index (EMPI) for single and complete view of patient 
+information 
+Predecessor 
+Receive Inbound Transaction  
+Manage Case Information 
+Manage Health Plan Information 
+Successor 
+Send Outbound Transaction 
+Manage Provider Communication 
+Manage Contractor Communication 
+Constraints 
+State and federal regulations regarding entities authorized to access registry 
+information. 
+Failures 
+ 
+The SMA is unable to find registry information to update. 
+ 
+Requestor does not have authorized access to the Registry. 
+Performance 
+Measures 
+ 
+Time to complete registry update = __days 
+ 
+Successful delivery rate of responses = __% 
+ 
+Perform Screening and Assessment 
+CM Case Management 
+Perform Screening and Assessment 
+Item 
+Details 
+Description 
+The Perform Screening and Assessment business process is responsible for the 
+evaluation of member’s health information, facilitating evaluations and recording 
+results. This business process assesses for certain health and behavioral health 
+conditions (e.g., chronic illness, mental health, substance abuse), lifestyle and living 
+conditions (e.g., employment, religious affiliation, living situation) to determine risk 
+
+
+================================================================================
+PAGE 11
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 28
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.8 y= 100.5] CM Case Management
+[x= 211.6 y= 113.7] Perform Screening and Assessment
+[x= 102.5 y= 126.8] Item
+[x= 329.8 y= 126.8] Details
+[x= 161.3 y= 139.8] factors. This business process:
+[x= 161.3 y= 157.0] 
+[x= 179.3 y= 158.0] Establishes risk categories and hierarchy, severity, and level of need.
+[x= 161.3 y= 175.2] 
+[x= 179.3 y= 176.2] Screens for required fields.
+[x= 161.3 y= 193.3] 
+[x= 179.3 y= 194.3] Edits required fields.
+[x= 161.3 y= 211.5] 
+[x= 179.3 y= 212.5] Verifies information from external sources if available.
+[x= 161.3 y= 229.7] 
+[x= 179.3 y= 230.7] Establishes severity scores and diagnoses.
+[x= 161.3 y= 247.8] 
+[x= 179.3 y= 248.8] Associates with applicable service needs.
+[x= 161.3 y= 266.3] Health Information Exchange (HIE) verifies a member’s health information.
+[x=  77.8 y= 290.4] Trigger Event
+[x= 161.3 y= 290.3] Interaction based Trigger Events:
+[x= 161.3 y= 307.5] 
+[x= 179.3 y= 308.5] Receive new member enrollment alert from
+[x= 373.3 y= 308.5] Enroll Member
+[x= 442.7 y= 308.5] business process.
+[x= 161.3 y= 325.7] 
+[x= 179.3 y= 326.7] Receive redetermination of member enrollment alert from
+[x= 435.6 y= 326.7] Enroll Member
+[x= 179.3 y= 338.2] business process.
+[x=  77.8 y= 362.3] Result
+[x= 161.3 y= 361.9] 
+[x= 179.3 y= 362.9] Member notified of applicable services as needed.
+[x= 161.3 y= 380.1] 
+[x= 179.3 y= 381.1] Tracking information as needed for measuring performance and business
+[x= 179.3 y= 392.5] activity monitoring.
+[x=  77.8 y= 416.6] Business
+[x=  77.8 y= 428.1] Process Steps
+[x= 161.3 y= 416.5] 1.
+[x= 179.3 y= 416.5] START:
+[x= 216.1 y= 416.5] Receive new member or redetermination of member enrollment from
+[x= 179.3 y= 428.0] Enroll Member
+[x= 248.8 y= 428.0] business process.
+[x= 161.3 y= 445.6] 2. Assign Care Manager.
+[x= 161.3 y= 463.0] 3. Gather information for history and/or examinations.
+[x= 161.3 y= 480.5] 4. Determine risk factors and establish risk categories.
+[x= 161.3 y= 498.1] 5. Conduct needs assessment and determines level of need.
+[x= 161.3 y= 515.5] 6. Determine health benefits that are appropriate for the member.
+[x= 161.3 y= 533.0] 7. Staff records screening and assessment results.
+[x= 161.3 y= 550.6] 8. Associate member to applicable services based on results.
+[x= 161.3 y= 568.0] 9.
+[x= 179.3 y= 568.0] END:
+[x= 203.8 y= 568.0] Send alert to notify member of applicable services based on screening
+[x= 179.3 y= 579.5] and assessment.
+[x=  77.8 y= 603.6] Shared Data
+[x= 161.3 y= 603.5] Member data store including demographic information
+[x= 161.3 y= 621.1] Health Information Exchange (HIE) data store including health information, clinical
+[x= 161.3 y= 632.5] record and clinical data
+[x= 161.3 y= 650.0] Plan data store including policy information
+[x= 161.3 y= 667.5] Health Benefit data store including program and service information
+[x= 161.3 y= 685.0] Case History data store including action lists, journal notes, reviews and approvals
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 28 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Perform Screening and Assessment 
+Item 
+Details 
+factors. This business process:  
+ 
+Establishes risk categories and hierarchy, severity, and level of need. 
+ 
+Screens for required fields. 
+ 
+Edits required fields. 
+ 
+Verifies information from external sources if available. 
+ 
+Establishes severity scores and diagnoses. 
+ 
+Associates with applicable service needs. 
+Health Information Exchange (HIE) verifies a member’s health information. 
+Trigger Event 
+Interaction based Trigger Events: 
+ 
+Receive new member enrollment alert from Enroll Member business process. 
+ 
+Receive redetermination of member enrollment alert from Enroll Member 
+business process. 
+Result 
+ 
+Member notified of applicable services as needed. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive new member or redetermination of member enrollment from 
+Enroll Member business process. 
+2. Assign Care Manager. 
+3. Gather information for history and/or examinations. 
+4. Determine risk factors and establish risk categories. 
+5. Conduct needs assessment and determines level of need. 
+6. Determine health benefits that are appropriate for the member. 
+7. Staff records screening and assessment results. 
+8. Associate member to applicable services based on results.  
+9. END: Send alert to notify member of applicable services based on screening 
+and assessment. 
+Shared Data 
+Member data store including demographic information 
+Health Information Exchange (HIE) data store including health information, clinical 
+record and clinical data 
+Plan data store including policy information  
+Health Benefit data store including program and service information 
+Case History data store including action lists, journal notes, reviews and approvals 
+
+
+================================================================================
+PAGE 12
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 29
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.8 y= 100.5] CM Case Management
+[x= 211.6 y= 113.7] Perform Screening and Assessment
+[x= 102.5 y= 126.8] Item
+[x= 329.8 y= 126.8] Details
+[x=  77.8 y= 145.9] Predecessor
+[x= 161.3 y= 145.9] Enroll Member
+[x=  77.8 y= 169.9] Successor
+[x= 161.3 y= 169.9] Manage Case Information
+[x= 161.3 y= 187.4] Manage Applicant and Member Communication
+[x=  77.8 y= 211.4] Constraints
+[x= 161.3 y= 211.3] States may have different screening requirements and health benefits.
+[x= 161.3 y= 228.8] Agencies do not coordinate between each other in order to share information.
+[x= 161.3 y= 246.3] Potential political and inter-agency conflicts over appropriate use of health care
+[x= 161.3 y= 257.8] information.
+[x=  77.8 y= 281.9] Failures
+[x= 161.3 y= 281.5] 
+[x= 179.3 y= 282.5] Care Manager is unable to acquire history and/or examination information.
+[x=  77.8 y= 306.5] Performance
+[x=  77.8 y= 318.1] Measures
+[x= 161.3 y= 306.1] 
+[x= 179.3 y= 307.1] Timeliness to complete process = within __ days
+[x= 161.3 y= 324.3] 
+[x= 179.3 y= 325.3] Accuracy with which changes are applied = ___%
+[x= 161.3 y= 342.5] 
+[x= 179.3 y= 343.5] Consistency of decisions and disposition = ___%
+[x= 161.3 y= 360.7] 
+[x= 179.3 y= 361.7] Error rate = __% or less
+[x=  72.0 y= 404.7] Manage Treatment Plan and Outcomes
+[x=  77.8 y= 431.7] CM Case Management
+[x= 204.5 y= 444.8] Manage Treatment Plan and Outcomes
+[x= 102.2 y= 457.9] Item
+[x= 329.5 y= 457.9] Details
+[x=  77.8 y= 477.1] Description
+[x= 160.7 y= 477.0] The
+[x= 180.8 y= 477.0] Manage Treatment Plan and Outcomes
+[x= 368.0 y= 477.0] business process uses federal and
+[x= 160.7 y= 488.5] state specific criteria and rules to ensure that the providers/contractors chosen and
+[x= 160.7 y= 500.0] services delivered optimizes member and member population outcomes. It includes
+[x= 160.7 y= 511.4] activities to track and assess effectiveness of the services, treatment plan,
+[x= 160.7 y= 523.0] providers/contractors, service planning and coordination, episodes of care, support
+[x= 160.7 y= 534.5] services, and other relevant factors. It also includes ongoing monitoring,
+[x= 160.7 y= 545.9] management, and reassessment of services and treatment plans for need,
+[x= 160.7 y= 557.5] appropriateness, and effectiveness, and monitoring of special member populations
+[x= 160.7 y= 569.0] (e.g., pregnant women and children, and HIV/intravenous drug users).
+[x= 160.7 y= 586.4] Health Information Exchange (HIE) monitors a member’s health information.
+[x=  77.8 y= 610.5] Trigger Event
+[x= 160.7 y= 610.4] Interaction-based Trigger Events to include but not limited to:
+[x= 160.7 y= 627.6] 
+[x= 178.7 y= 628.6] Receipt from Health Information Exchange (HIE) of a modification in member’s
+[x= 178.7 y= 640.1] health outcome.
+[x= 160.7 y= 657.3] 
+[x= 178.7 y= 658.3] Receive treatment plan from
+[x= 307.1 y= 658.3] Establish Case
+[x= 378.3 y= 658.3] business process.
+[x= 160.7 y= 675.8] Environment-based Trigger Events to include but not limited to:
+[x= 160.7 y= 693.0] 
+[x= 178.7 y= 694.0] Periodic review of member’s treatment plan is due.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 29 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Perform Screening and Assessment 
+Item 
+Details 
+Predecessor 
+Enroll Member 
+Successor 
+Manage Case Information 
+Manage Applicant and Member Communication 
+Constraints 
+States may have different screening requirements and health benefits. 
+Agencies do not coordinate between each other in order to share information.  
+Potential political and inter-agency conflicts over appropriate use of health care 
+information. 
+Failures 
+ 
+Care Manager is unable to acquire history and/or examination information. 
+Performance 
+Measures 
+ 
+Timeliness to complete process = within __ days 
+ 
+Accuracy with which changes are applied = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+Manage Treatment Plan and Outcomes 
+CM Case Management 
+Manage Treatment Plan and Outcomes 
+Item 
+Details 
+Description 
+The Manage Treatment Plan and Outcomes business process uses federal and 
+state specific criteria and rules to ensure that the providers/contractors chosen and 
+services delivered optimizes member and member population outcomes. It includes 
+activities to track and assess effectiveness of the services, treatment plan, 
+providers/contractors, service planning and coordination, episodes of care, support 
+services, and other relevant factors. It also includes ongoing monitoring, 
+management, and reassessment of services and treatment plans for need, 
+appropriateness, and effectiveness, and monitoring of special member populations 
+(e.g., pregnant women and children, and HIV/intravenous drug users). 
+Health Information Exchange (HIE) monitors a member’s health information. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receipt from Health Information Exchange (HIE) of a modification in member’s 
+health outcome. 
+ 
+Receive treatment plan from Establish Case business process. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic review of member’s treatment plan is due. 
+
+
+================================================================================
+PAGE 13
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 30
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.8 y= 100.5] CM Case Management
+[x= 204.5 y= 113.7] Manage Treatment Plan and Outcomes
+[x= 102.2 y= 126.8] Item
+[x= 329.5 y= 126.8] Details
+[x= 160.7 y= 139.4] 
+[x= 178.7 y= 140.5] Receive request to review member’s treatment plan.
+[x=  77.8 y= 164.6] Result
+[x= 160.7 y= 164.2] 
+[x= 178.7 y= 165.2] Member’s treatment plan and outcomes are appropriate for their needs.
+[x= 160.7 y= 182.3] 
+[x= 178.7 y= 183.3] Send modification (e.g., creates, update, delete) to member’s treatment plan
+[x= 178.7 y= 194.8] sent to Health Information Exchange (HIE).
+[x= 160.7 y= 212.0] 
+[x= 178.7 y= 213.0] Member, provider and care coordinators notified of modifications in treatment
+[x= 178.7 y= 224.5] plan or benefits.
+[x= 160.7 y= 241.6] 
+[x= 178.7 y= 242.6] Tracking information as needed for measuring performance and business
+[x= 178.7 y= 254.2] activity monitoring.
+[x=  77.8 y= 278.2] Business
+[x=  77.8 y= 289.7] Process Steps
+[x= 160.7 y= 278.2] 1.
+[x= 178.7 y= 278.2] START:
+[x= 215.5 y= 278.2] Receive member’s treatment plan from
+[x= 393.3 y= 278.2] Establish Case
+[x= 464.5 y= 278.2] business
+[x= 178.7 y= 289.7] process.
+[x= 160.7 y= 307.2] 2. Review of effectiveness of the services, treatment plan, providers/contractors,
+[x= 178.7 y= 318.7] service planning and coordination, episodes of care, support services, and other
+[x= 178.7 y= 330.2] relevant factors.
+[x= 160.7 y= 347.7] 3. Determine if modifications are necessary for effective treatment outcome.
+[x= 160.7 y= 365.2] 4. Record required modifications to member’s treatment plan.
+[x= 160.7 y= 382.7] 5.
+[x= 178.7 y= 382.7] END:
+[x= 203.2 y= 382.7] Send notification to member, provider and other care coordinators of
+[x= 178.7 y= 394.2] modification in treatment or benefits.
+[x= 161.6 y= 429.2] Alternate Path:
+[x= 160.7 y= 446.7] 1.
+[x= 178.7 y= 446.7] START:
+[x= 215.5 y= 446.7] Receive treatment plan from Health Information Exchange (HIE).
+[x= 160.7 y= 464.2] 2. Review of effectiveness of the services, treatment plan, providers/contractors,
+[x= 178.7 y= 475.7] service planning and coordination, episodes of care, support services, and other
+[x= 178.7 y= 487.1] relevant factors.
+[x= 160.7 y= 504.7] 3. Determine if modifications are necessary for effective treatment outcome.
+[x= 160.7 y= 522.2] 4. Record required modifications to member’s treatment plan.
+[x= 160.7 y= 539.6] 5. Send notification to member, provider, and other care coordinators of
+[x= 178.7 y= 551.2] modification in treatment or benefits.
+[x= 160.7 y= 568.7] 6.
+[x= 178.7 y= 568.7] END:
+[x= 203.2 y= 568.7] Send modification to member’s treatment plan or benefits to Health
+[x= 178.7 y= 580.1] Information Exchange (HIE).
+[x=  77.8 y= 604.2] Shared Data
+[x= 160.7 y= 604.1] Member data store including demographic and social information
+[x= 160.7 y= 621.7] Health Information Exchange (HIE) data store including health information,
+[x= 160.7 y= 633.2] medically-related social and support services, clinical record, and clinical data
+[x= 160.7 y= 650.6] Case History data store including action lists, journal notes, reviews, and approvals
+[x=  77.8 y= 674.7] Predecessor
+[x= 160.7 y= 674.7] Receive Inbound Transaction
+[x= 160.7 y= 692.3] Establish Case
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 30 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Manage Treatment Plan and Outcomes 
+Item 
+Details 
+ 
+Receive request to review member’s treatment plan. 
+Result 
+ 
+Member’s treatment plan and outcomes are appropriate for their needs. 
+ 
+Send modification (e.g., creates, update, delete) to member’s treatment plan 
+sent to Health Information Exchange (HIE). 
+ 
+Member, provider and care coordinators notified of modifications in treatment 
+plan or benefits. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive member’s treatment plan from Establish Case business 
+process. 
+2. Review of effectiveness of the services, treatment plan, providers/contractors, 
+service planning and coordination, episodes of care, support services, and other 
+relevant factors. 
+3. Determine if modifications are necessary for effective treatment outcome.  
+4. Record required modifications to member’s treatment plan.  
+5. END: Send notification to member, provider and other care coordinators of 
+modification in treatment or benefits. 
+ 
+Alternate Path: 
+1. START: Receive treatment plan from Health Information Exchange (HIE). 
+2. Review of effectiveness of the services, treatment plan, providers/contractors, 
+service planning and coordination, episodes of care, support services, and other 
+relevant factors. 
+3. Determine if modifications are necessary for effective treatment outcome.  
+4. Record required modifications to member’s treatment plan. 
+5. Send notification to member, provider, and other care coordinators of 
+modification in treatment or benefits. 
+6. END: Send modification to member’s treatment plan or benefits to Health 
+Information Exchange (HIE). 
+Shared Data 
+Member data store including demographic and social information 
+Health Information Exchange (HIE) data store including health information, 
+medically-related social and support services, clinical record, and clinical data 
+Case History data store including action lists, journal notes, reviews, and approvals 
+Predecessor 
+Receive Inbound Transaction 
+Establish Case 
+
+
+================================================================================
+PAGE 14
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 31
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.8 y= 100.5] CM Case Management
+[x= 204.5 y= 113.7] Manage Treatment Plan and Outcomes
+[x= 102.2 y= 126.8] Item
+[x= 329.5 y= 126.8] Details
+[x= 160.7 y= 139.9] Authorize Treatment Plan
+[x=  77.8 y= 163.9] Successor
+[x= 160.7 y= 163.9] Send Outbound Transaction
+[x= 160.7 y= 181.4] Authorize Treatment Plan
+[x= 160.7 y= 199.0] Manage Case Information
+[x= 160.7 y= 216.4] Manage Applicant and Member Communication
+[x= 160.7 y= 233.9] Manage Provider Communication
+[x= 160.7 y= 251.5] Manage Contractor Communication
+[x=  77.8 y= 275.4] Constraints
+[x= 160.7 y= 275.3] Agencies do not coordinate amongst each other in order to share information.
+[x= 160.7 y= 286.8] Potential political and inter-agency conflicts over appropriate use of health care
+[x= 160.7 y= 298.3] information.
+[x=  77.8 y= 322.4] Failures
+[x= 160.7 y= 322.0] 
+[x= 178.7 y= 323.0] Care Manager is unable to acquire treatment plan information.
+[x=  77.8 y= 347.0] Performance
+[x=  77.8 y= 358.6] Measures
+[x= 160.7 y= 346.6] 
+[x= 178.7 y= 347.6] Timeliness to complete process = within __ days
+[x= 160.7 y= 364.8] 
+[x= 178.7 y= 365.8] Accuracy with which changes are applied = ___%
+[x= 160.7 y= 383.0] 
+[x= 178.7 y= 384.0] Consistency of decisions and disposition = ___%
+[x= 160.7 y= 401.2] 
+[x= 178.7 y= 402.2] Error rate = __% or less
+[x=  72.0 y= 445.2] Authorize Referral
+[x=  77.4 y= 472.2] CM Authorization Determination
+[x= 258.3 y= 485.3] Authorize Referral
+[x= 101.6 y= 498.4] Item
+[x= 328.9 y= 498.4] Details
+[x=  77.4 y= 517.5] Description
+[x= 159.2 y= 517.4] The
+[x= 179.2 y= 517.4] Authorize Referral
+[x= 265.9 y= 517.4] business process is responsible for referrals between
+[x= 159.2 y= 529.0] providers that the State Medicaid Agency (SMA) approves for payment, based on
+[x= 159.2 y= 540.5] state policy. Examples are referrals by physicians to other providers for laboratory
+[x= 159.2 y= 551.9] procedures, surgery, drugs, or durable medical equipment. The SMA uses this
+[x= 159.2 y= 563.5] business process primarily for Primary Care Case Management programs where
+[x= 159.2 y= 575.0] additional approval controls deemed necessary by the state. Most States do not
+[x= 159.2 y= 586.4] require this additional layer of control.
+[x= 159.2 y= 604.0] NOTE:
+[x= 190.3 y= 604.0] MITA contains three (3) different authorization business processes:
+[x= 177.2 y= 621.5] 1.
+[x= 195.2 y= 621.5] Authorize Service
+[x= 279.7 y= 621.5] – the standard process of prior authorization of services.
+[x= 177.2 y= 632.9] 2.
+[x= 195.2 y= 632.9] Authorize Treatment Plan
+[x= 316.3 y= 632.9] – the approval of a treatment plan prepared by a
+[x= 195.2 y= 644.5] care management team in a care management setting.
+[x= 177.2 y= 656.0] 3.
+[x= 195.2 y= 656.0] Authorize Referral
+[x= 281.9 y= 656.0] – specifically the approval of a referral to another
+[x= 195.2 y= 667.4] provider, requested by a primary care physician.
+[x= 159.2 y= 685.0] The
+[x= 179.2 y= 685.0] Authorize Referral
+[x= 265.9 y= 685.0] business process may encompass both a pre-approved and
+[x= 159.2 y= 696.5] post-approved referral request, especially in the case where the member required
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 31 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Case Management 
+Manage Treatment Plan and Outcomes 
+Item 
+Details 
+Authorize Treatment Plan 
+Successor 
+Send Outbound Transaction 
+Authorize Treatment Plan 
+Manage Case Information 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Contractor Communication 
+Constraints 
+Agencies do not coordinate amongst each other in order to share information. 
+Potential political and inter-agency conflicts over appropriate use of health care 
+information. 
+Failures 
+ 
+Care Manager is unable to acquire treatment plan information. 
+Performance 
+Measures 
+ 
+Timeliness to complete process = within __ days 
+ 
+Accuracy with which changes are applied = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+Authorize Referral 
+CM Authorization Determination 
+Authorize Referral 
+Item 
+Details 
+Description 
+The Authorize Referral business process is responsible for referrals between 
+providers that the State Medicaid Agency (SMA) approves for payment, based on 
+state policy. Examples are referrals by physicians to other providers for laboratory 
+procedures, surgery, drugs, or durable medical equipment. The SMA uses this 
+business process primarily for Primary Care Case Management programs where 
+additional approval controls deemed necessary by the state. Most States do not 
+require this additional layer of control. 
+NOTE: MITA contains three (3) different authorization business processes: 
+1. Authorize Service – the standard process of prior authorization of services. 
+2. Authorize Treatment Plan – the approval of a treatment plan prepared by a 
+care management team in a care management setting. 
+3. Authorize Referral – specifically the approval of a referral to another 
+provider, requested by a primary care physician. 
+The Authorize Referral business process may encompass both a pre-approved and 
+post-approved referral request, especially in the case where the member required 
+
+
+================================================================================
+PAGE 15
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 32
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 258.3 y= 113.7] Authorize Referral
+[x= 101.6 y= 126.8] Item
+[x= 328.9 y= 126.8] Details
+[x= 159.2 y= 139.8] immediate services.
+[x= 159.2 y= 157.3] This business process may include, but is not limited to, referrals for specific types
+[x= 159.2 y= 168.8] and numbers of visits, procedures, surgeries, tests, drugs, durable medical
+[x= 159.2 y= 180.3] equipment, therapies, and institutional days of stay.
+[x= 159.2 y= 197.8] The SMA evaluates requests based on urgency, state priority requirements, and
+[x= 159.2 y= 209.3] type of service/taxonomy (durable medical equipment, speech, physical therapy,
+[x= 159.2 y= 220.8] dental, inpatient, out-of-state). It validates key information, and ensures that the
+[x= 159.2 y= 232.3] referral is appropriate and medically necessary. After review, staff approves,
+[x= 159.2 y= 243.8] modifies, suspends for additional information or denies the request. This business
+[x= 159.2 y= 255.3] process sends an alert to
+[x= 273.7 y= 255.3] Manage Case Information
+[x= 395.4 y= 255.3] business process.
+[x= 159.2 y= 272.8] A post-approved referral request is an editing/auditing function that requires review
+[x= 159.2 y= 284.3] of information after the referral is complete. A review may consist of verifying
+[x= 159.2 y= 295.8] documentation to ensure that the referral is appropriate, and medically and/or
+[x= 159.2 y= 307.3] functionally necessary, and validating provider type and specialty information to
+[x= 159.2 y= 318.8] ensure alignment with agency policies and procedures. Post-approved validation
+[x= 159.2 y= 330.3] typically occurs in the
+[x= 257.0 y= 330.3] Process Claim
+[x= 328.7 y= 330.3] or
+[x= 337.7 y= 330.3] Process Encounter
+[x= 431.6 y= 330.3] business processes.
+[x=  77.4 y= 354.4] Trigger Event
+[x= 159.2 y= 354.3] Interaction-based Trigger Events to include but not limited to:
+[x= 159.2 y= 371.5] 
+[x= 177.2 y= 372.5] Receive referral request from Health Information Exchange (HIE) via Accredited
+[x= 177.2 y= 384.0] Standards Committee (ASC) X12 278 Health Care Services Review Request
+[x= 177.2 y= 395.5] and Response transaction.
+[x= 159.2 y= 412.6] 
+[x= 177.2 y= 413.6] Receive referral request from requestor via ASC X12 278 Health Care Services
+[x= 177.2 y= 425.2] Review Request and Response transaction.
+[x= 159.2 y= 442.6] Environment-based Trigger Events to include but not limited to:
+[x= 159.2 y= 459.8] 
+[x= 177.2 y= 460.8] Provider submits a request to refer patient to other service providers in
+[x= 177.2 y= 472.3] accordance with state policy.
+[x= 159.2 y= 489.5] 
+[x= 177.2 y= 490.5] Provider submits additional information for existing referral request.
+[x=  77.4 y= 514.6] Result
+[x= 159.2 y= 514.1] 
+[x= 177.2 y= 515.2] Send the authorize referral response to the referring provider and the consulting
+[x= 177.2 y= 526.7] provider.
+[x= 159.2 y= 543.8] 
+[x= 177.2 y= 544.8] Alert to send referral information to requestor via ASC X12 278 Health Care
+[x= 177.2 y= 556.3] Services Review Request and Response transaction.
+[x= 159.2 y= 573.5] 
+[x= 177.2 y= 574.5] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 177.2 y= 586.0] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 177.2 y= 597.5] Acknowledgment and/or the 824 Application Advice transaction(s) per Trading
+[x= 177.2 y= 609.0] Partner Agreement (TPA).
+[x= 159.2 y= 626.2] 
+[x= 177.2 y= 627.2] Alert sent to
+[x= 233.3 y= 627.2] Manage Applicant and Member Communication
+[x= 459.0 y= 627.2] to send
+[x= 177.2 y= 638.7] notification of authorized referral response.
+[x= 159.2 y= 655.8] 
+[x= 177.2 y= 656.8] Alert sent to
+[x= 233.3 y= 656.8] Manage Case Information
+[x= 355.1 y= 656.8] business process for purposes of
+[x= 177.2 y= 668.3] responding to member inquiries about the status of a referral request or a filing
+[x= 177.2 y= 679.9] of a grievance or an appeal about the referral response.
+[x= 159.2 y= 697.0] 
+[x= 177.2 y= 698.0] Tracking information as needed for measuring performance and business
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 32 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Referral 
+Item 
+Details 
+immediate services.  
+This business process may include, but is not limited to, referrals for specific types 
+and numbers of visits, procedures, surgeries, tests, drugs, durable medical 
+equipment, therapies, and institutional days of stay.  
+The SMA evaluates requests based on urgency, state priority requirements, and 
+type of service/taxonomy (durable medical equipment, speech, physical therapy, 
+dental, inpatient, out-of-state). It validates key information, and ensures that the 
+referral is appropriate and medically necessary. After review, staff approves, 
+modifies, suspends for additional information or denies the request. This business 
+process sends an alert to Manage Case Information business process. 
+A post-approved referral request is an editing/auditing function that requires review 
+of information after the referral is complete. A review may consist of verifying 
+documentation to ensure that the referral is appropriate, and medically and/or 
+functionally necessary, and validating provider type and specialty information to 
+ensure alignment with agency policies and procedures. Post-approved validation 
+typically occurs in the Process Claim or Process Encounter business processes. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive referral request from Health Information Exchange (HIE) via Accredited 
+Standards Committee (ASC) X12 278 Health Care Services Review Request 
+and Response transaction. 
+ 
+Receive referral request from requestor via ASC X12 278 Health Care Services 
+Review Request and Response transaction. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Provider submits a request to refer patient to other service providers in 
+accordance with state policy. 
+ 
+Provider submits additional information for existing referral request. 
+Result 
+ 
+Send the authorize referral response to the referring provider and the consulting 
+provider.  
+ 
+Alert to send referral information to requestor via ASC X12 278 Health Care 
+Services Review Request and Response transaction. 
+ 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+Alert sent to Manage Applicant and Member Communication to send 
+notification of authorized referral response. 
+ 
+Alert sent to Manage Case Information business process for purposes of 
+responding to member inquiries about the status of a referral request or a filing 
+of a grievance or an appeal about the referral response. 
+ 
+Tracking information as needed for measuring performance and business 
+
+
+================================================================================
+PAGE 16
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 33
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 258.3 y= 113.7] Authorize Referral
+[x= 101.6 y= 126.8] Item
+[x= 328.9 y= 126.8] Details
+[x= 177.2 y= 139.8] activity monitoring.
+[x=  77.4 y= 163.9] Business
+[x=  77.4 y= 175.4] Process Steps
+[x= 159.2 y= 163.8] 1.
+[x= 177.2 y= 163.8] START:
+[x= 213.9 y= 163.8] Receive referral request from authorized provider.
+[x= 159.2 y= 181.3] 2. Validate information submitted is correct and as complete as possible.
+[x= 177.2 y= 192.8] Information complies with syntax criteria and requestor has completed all
+[x= 177.2 y= 204.3] required fields.
+[x= 159.2 y= 221.8] 3. Validate that the provided information is authentic.
+[x= 195.2 y= 239.3] a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 213.2 y= 250.8] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 213.2 y= 262.3] Acknowledgment, and/or the 824 Application Advice transaction(s) per
+[x= 213.2 y= 273.8] Trading Partner Agreement (TPA).
+[x= 368.8 y= 273.8] END:
+[x= 393.2 y= 273.8] Business process stops.
+[x= 159.2 y= 291.3] 4. Assign a tracking number.
+[x= 159.2 y= 308.8] 5. Prioritize Referral Authorization Request.
+[x= 159.2 y= 326.3] 6. Validate the following:
+[x= 159.2 y= 343.8] 7. Member eligibility– for social service model, this entails assessing member’s
+[x= 177.2 y= 355.3] health, functional, and socio-economic status
+[x= 159.2 y= 372.8] 8. Eligibility for requesting and referral providers
+[x= 159.2 y= 390.3] 9. Service coverage and referral requirements
+[x= 159.2 y= 407.8] 10. Diagnosis code
+[x= 159.2 y= 425.3] 11. Procedure code/or procedure groupings
+[x= 159.2 y= 442.8] 12. Check for medical or functional necessity and appropriateness.
+[x= 159.2 y= 460.3] 13. Check against current referral authorizations for duplicates.
+[x= 159.2 y= 477.8] 14. Validate completeness of supporting documentation.
+[x= 159.2 y= 495.3] 15. Deny based on insufficient/erroneous information for referral. Go to step 13.
+[x= 159.2 y= 512.8] 16. Suspend the referral request based on need for additional information – send
+[x= 177.2 y= 524.3] request for additional information. Go to step 13.
+[x= 159.2 y= 541.8] 17. Approve referral request (this includes approved with modifications).
+[x= 159.2 y= 559.3] 18. Send alert to send referral authorization to requestor via ASC X12 278 Health
+[x= 177.2 y= 570.8] Care Services Review Request and Response transaction.
+[x= 159.2 y= 588.3] 19.
+[x= 177.2 y= 588.3] END:
+[x= 201.7 y= 588.3] Send alert to notify member, referring provider, and referred-to provider of
+[x= 177.2 y= 599.8] authorization determination.
+[x= 160.1 y= 634.8] Alternate Path:
+[x= 159.2 y= 652.3] For the authorization of some services, States may use the post-approval rather than
+[x= 159.2 y= 663.8] the prior authorization business process. The post-approval business process will
+[x= 159.2 y= 675.3] cover all steps listed above, but they may execute in a different order depending on
+[x= 159.2 y= 686.8] state rules.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 33 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Referral 
+Item 
+Details 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive referral request from authorized provider.  
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+3. Validate that the provided information is authentic.  
+a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment, and/or the 824 Application Advice transaction(s) per 
+Trading Partner Agreement (TPA). END: Business process stops. 
+4. Assign a tracking number. 
+5. Prioritize Referral Authorization Request. 
+6. Validate the following: 
+7. Member eligibility– for social service model, this entails assessing member’s 
+health, functional, and socio-economic status 
+8. Eligibility for requesting and referral providers 
+9. Service coverage and referral requirements 
+10. Diagnosis code 
+11. Procedure code/or procedure groupings 
+12. Check for medical or functional necessity and appropriateness. 
+13. Check against current referral authorizations for duplicates. 
+14. Validate completeness of supporting documentation. 
+15. Deny based on insufficient/erroneous information for referral. Go to step 13. 
+16. Suspend the referral request based on need for additional information – send 
+request for additional information. Go to step 13. 
+17. Approve referral request (this includes approved with modifications). 
+18. Send alert to send referral authorization to requestor via ASC X12 278 Health 
+Care Services Review Request and Response transaction. 
+19. END: Send alert to notify member, referring provider, and referred-to provider of 
+authorization determination.  
+ 
+Alternate Path: 
+For the authorization of some services, States may use the post-approval rather than 
+the prior authorization business process. The post-approval business process will 
+cover all steps listed above, but they may execute in a different order depending on 
+state rules. 
+
+
+================================================================================
+PAGE 17
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 34
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 258.3 y= 113.7] Authorize Referral
+[x= 101.6 y= 126.8] Item
+[x= 328.9 y= 126.8] Details
+[x=  77.4 y= 145.9] Shared Data
+[x= 159.2 y= 145.8] Member data store including demographic information
+[x= 159.2 y= 163.3] Provider data store including provider network Information
+[x= 159.2 y= 180.8] Health Information Exchange (HIE) data store including health information, clinical
+[x= 159.2 y= 192.3] record, and clinical data
+[x= 159.2 y= 209.8] Claims data store including adjudication information
+[x= 159.2 y= 227.3] Plan data store including health benefits information
+[x=  77.4 y= 251.4] Predecessor
+[x= 159.2 y= 251.4] Receive Inbound Transaction
+[x= 159.2 y= 268.9] Process Claim
+[x= 159.2 y= 286.4] Process Encounter
+[x=  77.4 y= 310.4] Successor
+[x= 159.2 y= 310.4] Send Outbound Transaction
+[x= 159.2 y= 328.0] Process Claim
+[x= 159.2 y= 345.4] Process Encounter
+[x= 159.2 y= 362.9] Manage Case Information
+[x= 159.2 y= 380.4] Manage Applicant and Member Communication
+[x= 159.2 y= 397.9] Manage Provider Communication
+[x= 159.2 y= 415.4] Manage Contractor Communication
+[x= 159.2 y= 432.9] Submit Electronic Attachment
+[x=  77.4 y= 456.8] Constraints
+[x= 159.2 y= 456.8] The authorize referral request information will conform to the format and content in
+[x= 159.2 y= 468.3] accordance with state-specific reporting requirements, e.g., using a HIPAA
+[x= 159.2 y= 479.8] Transaction Standard Companion Guide.
+[x=  77.4 y= 503.9] Failures
+[x= 159.2 y= 503.5] 
+[x= 177.2 y= 504.5] The SMA receives incomplete referral request information.
+[x= 159.2 y= 521.7] 
+[x= 177.2 y= 522.7] Requestor not authorized to make referral request.
+[x= 159.2 y= 539.8] 
+[x= 177.2 y= 540.8] Member not eligible for referred provider services.
+[x=  77.4 y= 564.9] Performance
+[x=  77.4 y= 576.4] Measures
+[x= 159.2 y= 564.5] 
+[x= 177.2 y= 565.5] Time to complete the process: e.g., Real Time response = within __ seconds,
+[x= 177.2 y= 577.0] Batch Response = within __ hours
+[x= 159.2 y= 594.1] 
+[x= 177.2 y= 595.1] Accuracy with which referral authorizations are approved or denied = ___%
+[x= 159.2 y= 612.3] 
+[x= 177.2 y= 613.3] Consistency of decisions in approving or denying referral authorizations = ___%
+[x= 159.2 y= 630.5] 
+[x= 177.2 y= 631.5] Error rate = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 34 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Referral 
+Item 
+Details 
+Shared Data 
+Member data store including demographic information 
+Provider data store including provider network Information  
+Health Information Exchange (HIE) data store including health information, clinical 
+record, and clinical data 
+Claims data store including adjudication information 
+Plan data store including health benefits information 
+Predecessor 
+Receive Inbound Transaction 
+Process Claim 
+Process Encounter 
+Successor 
+Send Outbound Transaction 
+Process Claim 
+Process Encounter 
+Manage Case Information 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Contractor Communication 
+Submit Electronic Attachment 
+Constraints 
+The authorize referral request information will conform to the format and content in 
+accordance with state-specific reporting requirements, e.g., using a HIPAA 
+Transaction Standard Companion Guide.  
+Failures 
+ 
+The SMA receives incomplete referral request information. 
+ 
+Requestor not authorized to make referral request. 
+ 
+Member not eligible for referred provider services.  
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within __ seconds, 
+Batch Response = within __ hours 
+ 
+Accuracy with which referral authorizations are approved or denied = ___% 
+ 
+Consistency of decisions in approving or denying referral authorizations = ___% 
+ 
+Error rate = __% or less 
+ 
+
+
+================================================================================
+PAGE 18
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 35
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Authorize Service
+[x=  77.4 y= 127.2] CM Authorization Determination
+[x= 259.6 y= 140.4] Authorize Service
+[x= 101.4 y= 153.5] Item
+[x= 328.7 y= 153.5] Details
+[x=  77.4 y= 172.6] Description
+[x= 158.9 y= 172.5] The
+[x= 178.9 y= 172.5] Authorize Service
+[x= 266.2 y= 172.5] business process encompasses both a pre-approved and
+[x= 158.9 y= 184.0] post-approved service request. This business process focuses on specific types and
+[x= 158.9 y= 195.5] numbers of visits, procedures, surgeries, tests, drugs, therapies, and durable
+[x= 158.9 y= 207.0] medical equipment. Its primary use is in a fee-for-services setting.
+[x= 158.9 y= 224.5] Prior authorization of a service request is a care management function and begins
+[x= 158.9 y= 236.0] when a care manager requests a service request by mail, facsimile, telephone, or
+[x= 158.9 y= 247.5] Accredited Standards Committee (ASC) X12 278 Health Care Services Review
+[x= 158.9 y= 259.0] Information request transaction. The care manager evaluates requests based on
+[x= 158.9 y= 270.5] state rules for prioritization such as urgency and type of service/taxonomy (e.g.,
+[x= 158.9 y= 282.0] durable medical equipment, speech, physical therapy, dental, and out-of-state),
+[x= 158.9 y= 293.5] validates key information, and ensures that requested service is appropriate and
+[x= 158.9 y= 305.0] medically necessary. After review, staff approves, modifies, denies or suspends for
+[x= 158.9 y= 316.5] additional information the service requests. The State Medicaid Agency (SMA)
+[x= 158.9 y= 328.0] sends the appropriate response information for the outbound ASC X12 278 Health
+[x= 158.9 y= 339.5] Care Services Review Response transaction to the provider using the
+[x= 469.6 y= 339.5] Send
+[x= 158.9 y= 351.1] Outbound Transaction.
+[x= 158.9 y= 368.5] NOTE:
+[x= 190.0 y= 368.5] MITA contains three (3) different authorization business processes:
+[x= 176.9 y= 386.0] 1.
+[x= 194.9 y= 386.0] Authorize Service
+[x= 279.4 y= 386.0] – the standard process of prior authorization of services.
+[x= 176.9 y= 397.5] 2.
+[x= 194.9 y= 397.5] Authorize Treatment Plan
+[x= 316.0 y= 397.5] – the approval of a treatment plan prepared by a
+[x= 194.9 y= 409.0] care management team in a care management setting.
+[x= 176.9 y= 420.5] 3.
+[x= 194.9 y= 420.5] Authorize Referral
+[x= 281.6 y= 420.5] – specifically the approval of a referral to another
+[x= 194.9 y= 432.0] provider, requested by a primary care physician.
+[x= 158.9 y= 449.5] A post-approved service request is an editing/auditing function that requires review
+[x= 158.9 y= 461.0] of information after the service is complete. A review may consist of verifying
+[x= 158.9 y= 472.5] documentation to ensure that the services were appropriate and medically
+[x= 158.9 y= 484.0] necessary, and validating provider type and specialty information to ensure
+[x= 158.9 y= 495.5] alignment with agency policies and procedures. Post-approved validation typically
+[x= 158.9 y= 507.0] occurs in the
+[x= 218.3 y= 507.0] Process Claim
+[x= 290.0 y= 507.0] or
+[x= 300.1 y= 507.0] Process Encounter
+[x= 394.0 y= 507.0] business processes.
+[x= 158.9 y= 524.5] NOTE:
+[x= 190.0 y= 524.5] This business process is part of a suite that includes Service Requests for
+[x= 158.9 y= 536.0] different service types and care settings including Medical, Dental, Drugs, and Off-
+[x= 158.9 y= 547.5] label use of drugs, Social Service, Experimental Treatments, Out-of-State Services,
+[x= 158.9 y= 559.0] and Emergencies.
+[x=  77.4 y= 583.0] Trigger Event
+[x= 158.9 y= 583.0] Interaction-based Trigger Events to include but not limited to:
+[x= 158.9 y= 600.1] 
+[x= 176.9 y= 601.1] Receive service request from Health Information Exchange (HIE) via ASC X12
+[x= 176.9 y= 612.7] 278 Health Care Services Review Request and Response transaction.
+[x= 158.9 y= 629.8] 
+[x= 176.9 y= 630.8] Receive service request from requestor via ASC X12 278 Health Care Services
+[x= 176.9 y= 642.4] Review Request and Response transaction.
+[x= 158.9 y= 659.8] Environment-based Trigger Events to include but not limited to:
+[x= 158.9 y= 677.0] 
+[x= 176.9 y= 678.0] Provider submits a request for service in accordance with state policy.
+[x= 158.9 y= 695.2] 
+[x= 176.9 y= 696.2] Provider submits additional information for existing service authorization request.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 35 
+May 2014 
+Version 3.0 
+ 
+ 
+Authorize Service 
+CM Authorization Determination 
+Authorize Service 
+Item 
+Details 
+Description 
+The Authorize Service business process encompasses both a pre-approved and 
+post-approved service request. This business process focuses on specific types and 
+numbers of visits, procedures, surgeries, tests, drugs, therapies, and durable 
+medical equipment. Its primary use is in a fee-for-services setting. 
+Prior authorization of a service request is a care management function and begins 
+when a care manager requests a service request by mail, facsimile, telephone, or 
+Accredited Standards Committee (ASC) X12 278 Health Care Services Review 
+Information request transaction. The care manager evaluates requests based on 
+state rules for prioritization such as urgency and type of service/taxonomy (e.g., 
+durable medical equipment, speech, physical therapy, dental, and out-of-state), 
+validates key information, and ensures that requested service is appropriate and 
+medically necessary. After review, staff approves, modifies, denies or suspends for 
+additional information the service requests. The State Medicaid Agency (SMA) 
+sends the appropriate response information for the outbound ASC X12 278 Health 
+Care Services Review Response transaction to the provider using the Send 
+Outbound Transaction.  
+NOTE: MITA contains three (3) different authorization business processes: 
+1. Authorize Service – the standard process of prior authorization of services. 
+2. Authorize Treatment Plan – the approval of a treatment plan prepared by a 
+care management team in a care management setting. 
+3. Authorize Referral – specifically the approval of a referral to another 
+provider, requested by a primary care physician. 
+A post-approved service request is an editing/auditing function that requires review 
+of information after the service is complete. A review may consist of verifying 
+documentation to ensure that the services were appropriate and medically 
+necessary, and validating provider type and specialty information to ensure 
+alignment with agency policies and procedures. Post-approved validation typically 
+occurs in the Process Claim or Process Encounter business processes. 
+NOTE: This business process is part of a suite that includes Service Requests for 
+different service types and care settings including Medical, Dental, Drugs, and Off-
+label use of drugs, Social Service, Experimental Treatments, Out-of-State Services, 
+and Emergencies. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to:  
+ 
+Receive service request from Health Information Exchange (HIE) via ASC X12 
+278 Health Care Services Review Request and Response transaction. 
+ 
+Receive service request from requestor via ASC X12 278 Health Care Services 
+Review Request and Response transaction. 
+Environment-based Trigger Events to include but not limited to:  
+ 
+Provider submits a request for service in accordance with state policy. 
+ 
+Provider submits additional information for existing service authorization request. 
+
+
+================================================================================
+PAGE 19
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 36
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 259.6 y= 113.7] Authorize Service
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x=  77.4 y= 145.9] Result
+[x= 158.9 y= 145.5] 
+[x= 176.9 y= 146.5] Service authorization response sent to requestor.
+[x= 158.9 y= 163.6] 
+[x= 176.9 y= 164.6] Alert to send service information to requestor via ASC X12 278 Health Care
+[x= 176.9 y= 176.2] Services Review Request and Response transaction.
+[x= 158.9 y= 193.3] 
+[x= 176.9 y= 194.3] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 176.9 y= 205.9] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.9 y= 217.3] Acknowledgment and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.9 y= 228.8] Partner Agreement (TPA).
+[x= 158.9 y= 246.0] 
+[x= 176.9 y= 247.0] Alert sent to
+[x= 233.0 y= 247.0] Manage Applicant and Member Communication
+[x= 458.7 y= 247.0] to send
+[x= 176.9 y= 258.5] notification of authorized service response.
+[x= 158.9 y= 275.7] 
+[x= 176.9 y= 276.7] Alert sent to
+[x= 233.0 y= 276.7] Manage Case Information
+[x= 357.5 y= 276.7] business process for purposes of
+[x= 176.9 y= 288.2] responding to provider or member inquiries about the status of service request
+[x= 176.9 y= 299.7] or a provider or member filing of a grievance or an appeal about the service
+[x= 176.9 y= 311.2] authorization response.
+[x= 158.9 y= 328.3] 
+[x= 176.9 y= 329.3] Tracking information as needed for measuring performance and business
+[x= 176.9 y= 340.9] activity monitoring.
+[x=  77.4 y= 364.9] Business
+[x=  77.4 y= 376.4] Process Steps
+[x= 158.9 y= 364.9] 1.
+[x= 176.9 y= 364.9] START:
+[x= 213.6 y= 364.9] Receive service authorization request from authorized provider.
+[x= 158.9 y= 382.3] 2. Validate information submitted is correct and as complete as possible.
+[x= 176.9 y= 393.8] Information complies with syntax criteria and requestor has completed all
+[x= 176.9 y= 405.4] required fields.
+[x= 203.9 y= 422.8] a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 221.9 y= 434.3] Acknowledgment, 997 Functional Acknowledgment, 999
+[x= 221.9 y= 445.9] Implementation Acknowledgment and/or the 824 Application Advice
+[x= 221.9 y= 457.3] transaction(s) per Trading Partner Agreement (TPA).
+[x= 458.1 y= 457.3] END:
+[x= 482.6 y= 457.3] Business
+[x= 221.9 y= 468.8] process stops.
+[x= 158.9 y= 486.4] 3. Validate that the provided information is authentic.
+[x= 158.9 y= 503.8] 4. Assign a tracking number.
+[x= 158.9 y= 521.3] 5. Prioritize Service Authorization Request.
+[x= 158.9 y= 538.9] 6. Validate the following:
+[x= 158.9 y= 556.3] 7. Member eligibility – for social service model, this entails assessing member’s
+[x= 176.9 y= 567.8] health, functional, and socio-economic status
+[x= 158.9 y= 585.4] 8. Requesting and servicing providers
+[x= 158.9 y= 602.8] 9. Service coverage and referral requirements
+[x= 158.9 y= 620.3] 10. Diagnosis code
+[x= 158.9 y= 637.9] 11. Procedure code/or procedure groupings
+[x= 158.9 y= 655.3] 12. Check for medical or functional necessity and appropriateness.
+[x= 158.9 y= 672.8] 13. Check against current service authorizations for duplicates.
+[x= 158.9 y= 690.3] 14. Validate completeness of supporting documentation.
+[x= 158.9 y= 707.8] 15. Deny based on insufficient/erroneous information or authorization for service not
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 36 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Service 
+Item 
+Details 
+Result 
+ 
+Service authorization response sent to requestor. 
+ 
+Alert to send service information to requestor via ASC X12 278 Health Care 
+Services Review Request and Response transaction. 
+ 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+Alert sent to Manage Applicant and Member Communication to send 
+notification of authorized service response. 
+ 
+Alert sent to Manage Case Information business process for purposes of 
+responding to provider or member inquiries about the status of service request 
+or a provider or member filing of a grievance or an appeal about the service 
+authorization response.  
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive service authorization request from authorized provider.  
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 
+Implementation Acknowledgment and/or the 824 Application Advice 
+transaction(s) per Trading Partner Agreement (TPA). END: Business 
+process stops. 
+3. Validate that the provided information is authentic. 
+4. Assign a tracking number. 
+5. Prioritize Service Authorization Request. 
+6. Validate the following: 
+7. Member eligibility – for social service model, this entails assessing member’s 
+health, functional, and socio-economic status 
+8. Requesting and servicing providers 
+9. Service coverage and referral requirements 
+10. Diagnosis code 
+11. Procedure code/or procedure groupings 
+12. Check for medical or functional necessity and appropriateness. 
+13. Check against current service authorizations for duplicates. 
+14. Validate completeness of supporting documentation. 
+15. Deny based on insufficient/erroneous information or authorization for service not 
+
+
+================================================================================
+PAGE 20
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 37
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 259.6 y= 113.7] Authorize Service
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x= 176.9 y= 139.8] medically necessary. Go to step 13.
+[x= 158.9 y= 157.3] 16. Suspend the authorization request based on need for additional information. Go
+[x= 176.9 y= 168.8] to step 13.
+[x= 158.9 y= 186.3] 17. Approve service authorization request (this includes approved with
+[x= 176.9 y= 197.8] modifications.
+[x= 158.9 y= 215.3] 18. Send alert to send service authorization to requestor via ASC X12 278 Health
+[x= 176.9 y= 226.8] Care Services Review Request and Response transaction.
+[x= 158.9 y= 244.3] 19.
+[x= 176.9 y= 244.3] END:
+[x= 201.4 y= 244.3] Send alert to notify member and requesting provider of service
+[x= 176.9 y= 255.8] authorization determination.
+[x= 158.9 y= 292.0] Alternate Path:
+[x= 158.9 y= 309.5] For the authorization of some services, States may use the post-approval rather than
+[x= 158.9 y= 320.9] the prior authorization business process. The post-approval business process
+[x= 158.9 y= 332.5] includes all steps listed above, but process executes in a different order depending
+[x= 158.9 y= 344.0] on state rules.
+[x=  77.4 y= 368.0] Shared Data
+[x= 158.9 y= 368.0] Member data store including demographic information
+[x= 158.9 y= 385.4] Provider data store including provider network Information
+[x= 158.9 y= 403.0] Health Information Exchange (HIE) data store including health information, clinical
+[x= 158.9 y= 414.5] record, and clinical data
+[x= 158.9 y= 431.9] Plan data store including health benefits information
+[x= 158.9 y= 449.5] Claims data store including adjudication information
+[x=  77.4 y= 473.5] Predecessor
+[x= 158.9 y= 473.5] Receive Inbound Transaction
+[x= 158.9 y= 491.0] Process Claim
+[x= 158.9 y= 508.6] Process Encounter
+[x=  77.4 y= 532.5] Successor
+[x= 158.9 y= 532.5] Send Outbound Transaction
+[x= 158.9 y= 550.1] Process Claim
+[x= 158.9 y= 567.5] Process Encounter
+[x= 158.9 y= 585.1] Manage Case Information
+[x= 158.9 y= 602.6] Manage Applicant and Member Communication
+[x= 158.9 y= 620.0] Manage Provider Communication
+[x= 158.9 y= 637.6] Manage Contractor Communication
+[x= 158.9 y= 655.1] Submit Electronic Attachment
+[x=  77.4 y= 679.0] Constraints
+[x= 158.9 y= 679.0] The authorize service request information will conform to the format and content in
+[x= 158.9 y= 690.4] accordance with state-specific reporting requirements, e.g., using a HIPAA
+[x= 158.9 y= 701.9] Transaction Standard Companion Guide.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 37 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Service 
+Item 
+Details 
+medically necessary. Go to step 13. 
+16. Suspend the authorization request based on need for additional information. Go 
+to step 13. 
+17. Approve service authorization request (this includes approved with 
+modifications. 
+18. Send alert to send service authorization to requestor via ASC X12 278 Health 
+Care Services Review Request and Response transaction. 
+19. END: Send alert to notify member and requesting provider of service 
+authorization determination. 
+ 
+Alternate Path: 
+For the authorization of some services, States may use the post-approval rather than 
+the prior authorization business process. The post-approval business process 
+includes all steps listed above, but process executes in a different order depending 
+on state rules. 
+Shared Data 
+Member data store including demographic information 
+Provider data store including provider network Information  
+Health Information Exchange (HIE) data store including health information, clinical 
+record, and clinical data  
+Plan data store including health benefits information 
+Claims data store including adjudication information 
+Predecessor 
+Receive Inbound Transaction 
+Process Claim  
+Process Encounter 
+Successor 
+Send Outbound Transaction 
+Process Claim  
+Process Encounter 
+Manage Case Information 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Contractor Communication 
+Submit Electronic Attachment 
+Constraints 
+The authorize service request information will conform to the format and content in 
+accordance with state-specific reporting requirements, e.g., using a HIPAA 
+Transaction Standard Companion Guide.  
+
+
+================================================================================
+PAGE 21
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 38
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 259.6 y= 113.7] Authorize Service
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x=  77.4 y= 145.9] Failures
+[x= 158.9 y= 145.5] 
+[x= 176.9 y= 146.5] The SMA receives incomplete service authorization request.
+[x= 158.9 y= 163.6] 
+[x= 176.9 y= 164.6] Requestor (provider) is not eligible for enrollment or does not have authority to
+[x= 176.9 y= 176.2] make service authorization request for particular service.
+[x= 158.9 y= 193.3] 
+[x= 176.9 y= 194.3] Member is not eligible for services.
+[x=  77.4 y= 218.4] Performance
+[x=  77.4 y= 229.9] Measures
+[x= 158.9 y= 218.0] 
+[x= 176.9 y= 219.0] Time to complete the process: e.g., Real Time response = within __ seconds,
+[x= 176.9 y= 230.5] Batch Response = within __ hours
+[x= 158.9 y= 247.6] 
+[x= 176.9 y= 248.6] Accuracy with which service authorizations are approved or denied = __%
+[x= 158.9 y= 265.8] 
+[x= 176.9 y= 266.8] Consistency of decisions in approving or denying service authorizations = __%
+[x= 158.9 y= 284.0] 
+[x= 176.9 y= 285.0] Error rate = __% or less
+[x=  72.0 y= 326.9] Authorize Treatment Plan
+[x=  77.4 y= 353.8] CM Authorization Determination
+[x= 239.4 y= 367.0] Authorize Treatment Plan
+[x= 101.4 y= 380.2] Item
+[x= 328.7 y= 380.2] Details
+[x=  77.4 y= 399.2] Description
+[x= 158.9 y= 399.2] The
+[x= 178.9 y= 399.2] Authorize Treatment Plan
+[x= 302.8 y= 399.2] business process encompasses both a prior
+[x= 158.9 y= 410.7] authorization and post-approved treatment plan. The State Medicaid Agency (SMA)
+[x= 158.9 y= 422.2] uses the Authorize Treatment Plans primarily in the care coordination setting where
+[x= 158.9 y= 433.7] the care management team assesses the member’s needs, decides on a course of
+[x= 158.9 y= 445.1] treatment, and completes the treatment plan.
+[x= 158.9 y= 462.7] NOTE:
+[x= 190.0 y= 462.7] MITA contains three (3) different authorization business processes:
+[x= 176.9 y= 480.2] 1.
+[x= 194.9 y= 480.2] Authorize Service
+[x= 279.4 y= 480.2] – the standard process of prior authorization of services.
+[x= 176.9 y= 491.6] 2.
+[x= 194.9 y= 491.6] Authorize Treatment Plan
+[x= 316.0 y= 491.6] – the approval of a treatment plan prepared by a
+[x= 194.9 y= 503.2] care management team in a care management setting.
+[x= 176.9 y= 514.7] 3.
+[x= 194.9 y= 514.7] Authorize Referral
+[x= 281.6 y= 514.7] – specifically the approval of a referral to another
+[x= 194.9 y= 526.1] provider, requested by a primary care physician.
+[x= 158.9 y= 543.7] A treatment plan prior-authorizes the named providers or provider types and
+[x= 158.9 y= 555.2] services or category of services. The SMA prior authorizes individual providers for
+[x= 158.9 y= 566.6] the service or category of services, and they do not have to submit their own prior
+[x= 158.9 y= 578.2] authorizations or service requests. A treatment plan typically is a schedule of
+[x= 158.9 y= 589.7] medical, therapeutic, and /or psychological procedures and appointments that spans
+[x= 158.9 y= 601.1] a length of time designed to restore a patient's specific health condition. In contrast,
+[x= 158.9 y= 612.7] the SMA limits an individual service request, primarily associated with fee-for-
+[x= 158.9 y= 624.2] services payment, to focus on a specific visit, services, or products (e.g., a single
+[x= 158.9 y= 635.6] specialist office visit, approval for a specific test or particular piece of Durable
+[x= 158.9 y= 647.2] Medical Equipment (DME)).
+[x= 158.9 y= 664.7] The prior authorized treatment plan generally begins with the receipt of an authorize
+[x= 158.9 y= 676.1] treatment plan request from the care management team. The SMA staff then
+[x= 158.9 y= 687.7] evaluates it based on urgency, state priority requirements, and type of
+[x= 158.9 y= 699.1] service/taxonomy (speech, physical therapy, home health, behavioral, social), and
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 38 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Service 
+Item 
+Details 
+Failures 
+ 
+The SMA receives incomplete service authorization request. 
+ 
+Requestor (provider) is not eligible for enrollment or does not have authority to 
+make service authorization request for particular service. 
+ 
+Member is not eligible for services. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within __ seconds, 
+Batch Response = within __ hours 
+ 
+Accuracy with which service authorizations are approved or denied = __% 
+ 
+Consistency of decisions in approving or denying service authorizations = __% 
+ 
+Error rate = __% or less 
+ 
+Authorize Treatment Plan 
+CM Authorization Determination 
+Authorize Treatment Plan 
+Item 
+Details 
+Description 
+The Authorize Treatment Plan business process encompasses both a prior 
+authorization and post-approved treatment plan. The State Medicaid Agency (SMA) 
+uses the Authorize Treatment Plans primarily in the care coordination setting where 
+the care management team assesses the member’s needs, decides on a course of 
+treatment, and completes the treatment plan.  
+NOTE: MITA contains three (3) different authorization business processes: 
+1. Authorize Service – the standard process of prior authorization of services. 
+2. Authorize Treatment Plan – the approval of a treatment plan prepared by a 
+care management team in a care management setting. 
+3. Authorize Referral – specifically the approval of a referral to another 
+provider, requested by a primary care physician. 
+A treatment plan prior-authorizes the named providers or provider types and 
+services or category of services. The SMA prior authorizes individual providers for 
+the service or category of services, and they do not have to submit their own prior 
+authorizations or service requests. A treatment plan typically is a schedule of 
+medical, therapeutic, and /or psychological procedures and appointments that spans 
+a length of time designed to restore a patient's specific health condition. In contrast, 
+the SMA limits an individual service request, primarily associated with fee-for-
+services payment, to focus on a specific visit, services, or products (e.g., a single 
+specialist office visit, approval for a specific test or particular piece of Durable 
+Medical Equipment (DME)). 
+The prior authorized treatment plan generally begins with the receipt of an authorize 
+treatment plan request from the care management team. The SMA staff then 
+evaluates it based on urgency, state priority requirements, and type of 
+service/taxonomy (speech, physical therapy, home health, behavioral, social), and 
+
+
+================================================================================
+PAGE 22
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 39
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 239.4 y= 113.7] Authorize Treatment Plan
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x= 158.9 y= 139.8] validates key information, and ensures that requested plan of treatment is
+[x= 158.9 y= 151.3] appropriate and medically or behaviorally necessary. After reviewing, staff approves,
+[x= 158.9 y= 162.8] modifies, suspends for additional information or denies the request. Business
+[x= 158.9 y= 174.3] process sends an alert to
+[x= 273.4 y= 174.3] Manage Case Information
+[x= 395.1 y= 174.3] business process.
+[x= 158.9 y= 191.8] A post-approved treatment plan is an audit function that reviews suspended or paid
+[x= 158.9 y= 203.3] claims to ensure the services were appropriate and in accordance with the treatment
+[x= 158.9 y= 214.8] plan.
+[x=  77.4 y= 238.9] Trigger Event
+[x= 158.9 y= 238.8] Interaction-based Trigger Events to include but not limited to:
+[x= 158.9 y= 256.0] 
+[x= 176.9 y= 257.0] Receive treatment plan request from Health Information Exchange (HIE) via
+[x= 176.9 y= 268.5] Accredited Standards Committee (ASC) X12 278 Health Care Services Review
+[x= 176.9 y= 280.0] Request and Response transaction.
+[x= 158.9 y= 297.1] 
+[x= 176.9 y= 298.1] Receive treatment plan request from requestor via ASC X12 278 Health Care
+[x= 176.9 y= 309.7] Services Review Request and Response transaction.
+[x= 158.9 y= 327.2] Environment-based Trigger Events to include but not limited to:
+[x= 158.9 y= 344.3] 
+[x= 176.9 y= 345.3] Care manager submits a request for treatment plan authorization.
+[x= 158.9 y= 362.5] 
+[x= 176.9 y= 363.5] Provider submits a request for treatment plan authorization in accordance with
+[x= 176.9 y= 375.0] state policy.
+[x= 158.9 y= 392.2] 
+[x= 176.9 y= 393.2] Provider submits additional information for existing treatment plan request.
+[x=  77.4 y= 417.2] Result
+[x= 158.9 y= 416.8] 
+[x= 176.9 y= 417.8] The SMA sends the authorization response to requestor.
+[x= 158.9 y= 435.0] 
+[x= 176.9 y= 436.0] Alert sent with treatment plan information to requestor via ASC X12 278 Health
+[x= 176.9 y= 447.5] Care Services Review Request and Response transaction.
+[x= 158.9 y= 464.7] 
+[x= 176.9 y= 465.7] If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 176.9 y= 477.2] Acknowledgment, 997 Functional Acknowledgment, 999 Implementation
+[x= 176.9 y= 488.7] Acknowledgment and/or the 824 Application Advice transaction(s) per Trading
+[x= 176.9 y= 500.2] Partner Agreement (TPA).
+[x= 158.9 y= 517.3] 
+[x= 176.9 y= 518.3] Alert sent to
+[x= 233.0 y= 518.3] Manage Applicant and Member Communication
+[x= 458.7 y= 518.3] to send
+[x= 176.9 y= 529.9] notification of authorized treatment plan response.
+[x= 158.9 y= 547.0] 
+[x= 176.9 y= 548.0] Alert sent to
+[x= 233.0 y= 548.0] Manage Case Information
+[x= 354.8 y= 548.0] business process for purpose of
+[x= 176.9 y= 559.6] responding to provider or member inquiry about the status of a treatment plan
+[x= 176.9 y= 571.0] authorization or member filing of a grievance or an appeal about treatment
+[x= 176.9 y= 582.5] authorization response.
+[x= 158.9 y= 599.7] 
+[x= 176.9 y= 600.7] Tracking information as needed for measuring performance and business
+[x= 176.9 y= 612.2] activity monitoring.
+[x=  77.4 y= 636.2] Business
+[x=  77.4 y= 647.8] Process Steps
+[x= 158.9 y= 636.2] 1.
+[x= 176.9 y= 636.2] START:
+[x= 213.6 y= 636.2] Receive request for Treatment Plan authorization for authorized
+[x= 176.9 y= 647.7] provider or care manager.
+[x= 158.9 y= 665.2] 2. Assign a tracking identifier.
+[x= 158.9 y= 682.7] 3. Validate information submitted is correct and as complete as possible.
+[x= 176.9 y= 694.2] Information complies with syntax criteria and requestor has completed all
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 39 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Treatment Plan 
+Item 
+Details 
+validates key information, and ensures that requested plan of treatment is 
+appropriate and medically or behaviorally necessary. After reviewing, staff approves, 
+modifies, suspends for additional information or denies the request. Business 
+process sends an alert to Manage Case Information business process.  
+A post-approved treatment plan is an audit function that reviews suspended or paid 
+claims to ensure the services were appropriate and in accordance with the treatment 
+plan. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to:  
+ 
+Receive treatment plan request from Health Information Exchange (HIE) via 
+Accredited Standards Committee (ASC) X12 278 Health Care Services Review 
+Request and Response transaction. 
+ 
+Receive treatment plan request from requestor via ASC X12 278 Health Care 
+Services Review Request and Response transaction. 
+Environment-based Trigger Events to include but not limited to:  
+ 
+Care manager submits a request for treatment plan authorization. 
+ 
+Provider submits a request for treatment plan authorization in accordance with 
+state policy. 
+ 
+Provider submits additional information for existing treatment plan request. 
+Result 
+ 
+The SMA sends the authorization response to requestor. 
+ 
+Alert sent with treatment plan information to requestor via ASC X12 278 Health 
+Care Services Review Request and Response transaction. 
+ 
+If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 Implementation 
+Acknowledgment and/or the 824 Application Advice transaction(s) per Trading 
+Partner Agreement (TPA). 
+ 
+Alert sent to Manage Applicant and Member Communication to send 
+notification of authorized treatment plan response. 
+ 
+Alert sent to Manage Case Information business process for purpose of 
+responding to provider or member inquiry about the status of a treatment plan 
+authorization or member filing of a grievance or an appeal about treatment 
+authorization response.  
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request for Treatment Plan authorization for authorized 
+provider or care manager. 
+2. Assign a tracking identifier. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+
+
+================================================================================
+PAGE 23
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 40
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 239.4 y= 113.7] Authorize Treatment Plan
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x= 176.9 y= 139.8] required fields.
+[x= 158.9 y= 157.3] 4. Validate that the provided information is authentic.
+[x= 203.9 y= 174.8] a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange
+[x= 221.9 y= 186.3] Acknowledgment, 997 Functional Acknowledgment, 999
+[x= 221.9 y= 197.8] Implementation Acknowledgment, and/or the 824 Application Advice
+[x= 221.9 y= 209.3] transaction(s) per Trading Partner Agreement (TPA).
+[x= 458.1 y= 209.3] END:
+[x= 482.6 y= 209.3] Business
+[x= 221.9 y= 220.8] process stops.
+[x= 158.9 y= 238.3] 5. Prioritize authorize treatment plan request.
+[x= 158.9 y= 255.8] 6. Validate the following:
+[x= 158.9 y= 273.3] 7. Member eligibility
+[x= 158.9 y= 290.8] 8. Eligibility for requesting and servicing providers
+[x= 158.9 y= 308.3] 9. Service coverage and plan of treatment requirements
+[x= 158.9 y= 325.8] 10. Diagnosis code
+[x= 158.9 y= 343.3] 11. Procedure codes/or procedure groupings
+[x= 158.9 y= 360.8] 12. Check for medical, social, and behavioral appropriateness.
+[x= 158.9 y= 378.3] 13. Check against currently authorized treatment plans and service requests for
+[x= 176.9 y= 389.8] duplication.
+[x= 158.9 y= 407.3] 14. Coordinate services (check for duplicates) across programs and systems.
+[x= 158.9 y= 424.8] 15. Validate completeness of supporting documentation.
+[x= 158.9 y= 442.3] 16. Deny based on insufficient/erroneous information or treatment plan identifying
+[x= 176.9 y= 453.8] services not medically, socially, and/or behaviorally necessary. Go to step 14.
+[x= 158.9 y= 471.3] 17. Suspend the treatment plan request based on the need for additional
+[x= 176.9 y= 482.8] information. Send a request for additional information. Go to step 14.
+[x= 158.9 y= 500.3] 18. Approve plan of treatment request (this includes approved with modifications)
+[x= 176.9 y= 511.8] and send approval response information to requesting parties.
+[x= 158.9 y= 529.3] 19. Send alert to send treatment plan authorization to requestor via ASC X12 278
+[x= 176.9 y= 540.8] Health Care Services Review Request and Response transaction.
+[x= 158.9 y= 558.3] 20.
+[x= 176.9 y= 558.3] END:
+[x= 201.4 y= 558.3] Send alert to notify member, care manager, and provider of authorization
+[x= 176.9 y= 569.8] determination.
+[x=  77.4 y= 593.9] Shared Data
+[x= 158.9 y= 593.8] Member data store including demographic information
+[x= 158.9 y= 611.3] Provider data store including provider network Information
+[x= 158.9 y= 628.8] Health Information Exchange (HIE) data store including health information, clinical
+[x= 158.9 y= 640.3] record, and clinical data
+[x= 158.9 y= 657.8] Plan data store including health benefits information
+[x= 158.9 y= 675.3] Claims data store including adjudication information
+[x=  77.4 y= 699.4] Predecessor
+[x= 158.9 y= 699.4] Receive Inbound Transaction
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 40 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Treatment Plan 
+Item 
+Details 
+required fields. 
+4. Validate that the provided information is authentic. 
+a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange 
+Acknowledgment, 997 Functional Acknowledgment, 999 
+Implementation Acknowledgment, and/or the 824 Application Advice 
+transaction(s) per Trading Partner Agreement (TPA). END: Business 
+process stops. 
+5. Prioritize authorize treatment plan request. 
+6. Validate the following: 
+7. Member eligibility 
+8. Eligibility for requesting and servicing providers 
+9. Service coverage and plan of treatment requirements 
+10. Diagnosis code 
+11. Procedure codes/or procedure groupings 
+12. Check for medical, social, and behavioral appropriateness. 
+13. Check against currently authorized treatment plans and service requests for 
+duplication. 
+14. Coordinate services (check for duplicates) across programs and systems.  
+15. Validate completeness of supporting documentation. 
+16. Deny based on insufficient/erroneous information or treatment plan identifying 
+services not medically, socially, and/or behaviorally necessary. Go to step 14. 
+17. Suspend the treatment plan request based on the need for additional 
+information. Send a request for additional information. Go to step 14.  
+18. Approve plan of treatment request (this includes approved with modifications) 
+and send approval response information to requesting parties. 
+19. Send alert to send treatment plan authorization to requestor via ASC X12 278 
+Health Care Services Review Request and Response transaction. 
+20. END: Send alert to notify member, care manager, and provider of authorization 
+determination. 
+Shared Data 
+Member data store including demographic information 
+Provider data store including provider network Information  
+Health Information Exchange (HIE) data store including health information, clinical 
+record, and clinical data  
+Plan data store including health benefits information 
+Claims data store including adjudication information 
+Predecessor 
+Receive Inbound Transaction 
+
+
+================================================================================
+PAGE 24
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 41
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CM Authorization Determination
+[x= 239.4 y= 113.7] Authorize Treatment Plan
+[x= 101.4 y= 126.8] Item
+[x= 328.7 y= 126.8] Details
+[x= 158.9 y= 139.9] Establish Case
+[x= 158.9 y= 157.4] Manage Case Information
+[x= 158.9 y= 175.0] Manage Treatment Plan and Outcomes
+[x=  77.4 y= 198.9] Successor
+[x= 158.9 y= 198.9] Send Outbound Transaction
+[x= 158.9 y= 216.4] Manage Case Information
+[x= 158.9 y= 233.9] Manage Applicant and Member Communication
+[x= 158.9 y= 251.5] Manage Provider Communication
+[x= 158.9 y= 268.9] Manage Contractor Communication
+[x= 158.9 y= 286.4] Submit Electronic Attachment
+[x= 158.9 y= 304.0] Manage Treatment Plan and Outcomes
+[x=  77.4 y= 327.9] Constraints
+[x= 158.9 y= 327.8] The authorize treatment plan information will conform to the format and content in
+[x= 158.9 y= 339.3] accordance with state-specific reporting requirements, e.g., using a HIPAA
+[x= 158.9 y= 350.8] Transaction Standard Companion Guide.
+[x=  77.4 y= 374.9] Failures
+[x= 158.9 y= 374.5] 
+[x= 176.9 y= 375.5] Invalid beneficiary, invalid provider, invalid service, invalid dates, conflicting
+[x= 176.9 y= 387.0] diagnosis, and treatment plan.
+[x=  77.4 y= 411.1] Performance
+[x=  77.4 y= 422.5] Measures
+[x= 158.9 y= 410.7] 
+[x= 176.9 y= 411.7] Time to complete the process: e.g., Real Time response = within __ seconds,
+[x= 176.9 y= 423.2] Batch Response = within __ hours
+[x= 158.9 y= 440.3] 
+[x= 176.9 y= 441.3] Accuracy with which the SMA approves treatment plan = __%
+[x= 158.9 y= 458.5] 
+[x= 176.9 y= 459.5] Consistency of decisions in approving or denying treatment plans = __%
+[x= 158.9 y= 476.7] 
+[x= 176.9 y= 477.7] Error rate = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 41 
+May 2014 
+Version 3.0 
+ 
+ 
+CM Authorization Determination 
+Authorize Treatment Plan 
+Item 
+Details 
+Establish Case 
+Manage Case Information 
+Manage Treatment Plan and Outcomes 
+Successor 
+Send Outbound Transaction 
+Manage Case Information 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Contractor Communication  
+Submit Electronic Attachment 
+Manage Treatment Plan and Outcomes 
+Constraints 
+The authorize treatment plan information will conform to the format and content in 
+accordance with state-specific reporting requirements, e.g., using a HIPAA 
+Transaction Standard Companion Guide.  
+Failures 
+ 
+Invalid beneficiary, invalid provider, invalid service, invalid dates, conflicting 
+diagnosis, and treatment plan. 
+Performance 
+Measures 
+ 
+Time to complete the process: e.g., Real Time response = within __ seconds, 
+Batch Response = within __ hours 
+ 
+Accuracy with which the SMA approves treatment plan = __% 
+ 
+Consistency of decisions in approving or denying treatment plans = __% 
+ 
+Error rate = __% or less 
+ 
+

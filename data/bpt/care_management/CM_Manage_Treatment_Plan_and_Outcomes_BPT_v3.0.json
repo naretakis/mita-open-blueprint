@@ -10,7 +10,7 @@
     "description": "The Manage Treatment Plan and Outcomes business process uses federal and state specific criteria and rules to ensure that the providers/contractors chosen and services delivered optimizes member and member population outcomes. It includes activities to track and assess effectiveness of the services, treatment plan, providers/contractors, service planning and coordination, episodes of care, support services, and other relevant factors. It also includes ongoing monitoring, management, and reassessment of services and treatment plans for need, appropriateness, and effectiveness, and monitoring of special member populations (e.g., pregnant women and children, and HIV/intravenous drug users). Health Information Exchange (HIE) monitors a member’s health information.",
     "trigger_events": {
       "environment_based": [
-        "Periodic review of member’s treatment plan is due. CM Case Management Manage Treatment Plan and Outcomes Item Details",
+        "Periodic review of member’s treatment plan is due.",
         "Receive request to review member’s treatment plan."
       ],
       "interaction_based": [

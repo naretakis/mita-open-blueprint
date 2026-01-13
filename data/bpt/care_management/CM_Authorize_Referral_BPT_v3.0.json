@@ -24,8 +24,7 @@
       "If applicable, alert sent to submitter via ASC X12 TA1 Interchange Acknowledgment, 997 Functional Acknowledgment, 999 Implementation Acknowledgment and/or the 824 Application Advice transaction(s) per Trading Partner Agreement (TPA).",
       "Alert sent to Manage Applicant and Member Communication to send notification of authorized referral response.",
       "Alert sent to Manage Case Information business process for purposes of responding to member inquiries about the status of a referral request or a filing of a grievance or an appeal about the referral response.",
-      "Tracking information as needed for measuring performance and business",
-      "activity monitoring."
+      "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
       "1. START: Receive referral request from authorized provider.",

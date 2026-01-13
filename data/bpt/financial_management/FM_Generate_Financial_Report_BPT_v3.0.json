@@ -10,7 +10,7 @@
     "description": "It is essential for the State Medicaid Agency (SMA) to be able to generate various financial and program analysis reports to assist with budgetary controls and to ensure that the established benefits and programs are meeting the needs of the member population and are performing according to the intent of the legislative laws or federal reporting requirements. The Generate Financial Report business process begins with a request for information or a timetable for scheduled correspondence. The business process includes:\n• Defining the report attributes (e.g., format, content, frequency, media, and retention).\n• Defining the state and federal budget categories of service, eligibility codes, provider types, and specialties (taxonomy).\n• Extracting required financial information from source data stores.\n• Transforming information to meet business and technical needs of target destination.\n• Applying necessary encryption algorithms for security.\n• Sending alert with information to the target destination.\nNOTE: This business process does not include maintaining the benefits, reference, or program information. Maintenance of the health plan, health benefits, and reference information is in separate business processes.",
     "trigger_events": {
       "environment_based": [
-        "Request to generate on-demand report on financial and/or program information. FM Fiscal Management Generate Financial Report Item Details",
+        "Request to generate on-demand report on financial and/or program information.",
         "Periodic timetable (e.g., daily, weekly, quarterly) is due for financial reporting."
       ],
       "interaction_based": []

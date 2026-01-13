@@ -1,0 +1,1749 @@
+====================================================================================================
+PERFORMANCE MANAGEMENT BPT - RAW DUMP FOR MANUAL JSON VERIFICATION
+====================================================================================================
+
+This file contains raw text extracted from the PDF with position information.
+Use this to verify the BPT JSON files are accurate.
+
+
+================================================================================
+PAGE 1
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 173
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Identify Utilization Anomalies
+[x=  77.4 y= 127.2] PE Compliance Management
+[x= 229.3 y= 140.4] Identify Utilization Anomalies
+[x= 102.1 y= 153.5] Item
+[x= 329.4 y= 153.5] Details
+[x=  77.4 y= 166.6] Description
+[x= 160.3 y= 166.5] The
+[x= 180.4 y= 166.5] Identify Utilization Anomalies
+[x= 319.8 y= 166.5] business process uses criteria and rules to
+[x= 160.3 y= 178.0] identify target groups (e.g., providers, contractors, trading partners or members) and
+[x= 160.3 y= 189.5] establishes patterns or parameters of acceptable and unacceptable behavior, tests
+[x= 160.3 y= 201.0] individuals against these models, or looks for new and unusual patterns, in order to
+[x= 160.3 y= 212.5] identify outliers that demonstrate suspicious utilization of program benefits.
+[x= 160.3 y= 230.0] Internal and external referrals, business intelligence analysis (i.e., historical, current,
+[x= 160.3 y= 241.5] and predictive views of business operations), and scheduled or on-demand reporting
+[x= 160.3 y= 253.0] may identify a compliance incident. Identification of utilization anomalies include
+[x= 160.3 y= 264.5] evaluation of:
+[x= 160.3 y= 281.6] 
+[x= 178.3 y= 282.7] Provider utilization review
+[x= 160.3 y= 299.8] 
+[x= 178.3 y= 300.8] Provider compliance review
+[x= 160.3 y= 318.0] 
+[x= 178.3 y= 319.0] Contractor utilization review (includes managed care organizations)
+[x= 160.3 y= 336.2] 
+[x= 178.3 y= 337.2] Contractor compliance review
+[x= 160.3 y= 354.4] 
+[x= 178.3 y= 355.4] Member utilization review
+[x= 160.3 y= 372.6] 
+[x= 178.3 y= 373.6] Investigation of potential fraud or abuse review
+[x= 160.3 y= 390.7] 
+[x= 178.3 y= 391.7] Drug utilization review
+[x= 160.3 y= 408.9] 
+[x= 178.3 y= 409.9] Quality review (e.g., Consumer Assessment of Healthcare Providers and
+[x= 178.3 y= 421.4] Systems (CAPHS) and Healthcare Effectiveness Data and Information Set
+[x= 178.3 y= 432.9] (HEDIS) measures)
+[x= 160.3 y= 450.1] 
+[x= 178.3 y= 451.1] Performance review (e.g., Key Performance Indicator (KPI))
+[x= 160.3 y= 468.2] 
+[x= 178.3 y= 469.2] Erroneous payment
+[x= 160.3 y= 486.4] 
+[x= 178.3 y= 487.4] Contract review
+[x= 160.3 y= 504.6] 
+[x= 178.3 y= 505.6] Audit Review
+[x= 160.3 y= 522.7] 
+[x= 178.3 y= 523.7] Other evaluation of information
+[x= 160.3 y= 541.3] Different criteria and rules, relationships, and information define each type of
+[x= 160.3 y= 552.8] compliance incident and require different types of external investigation.
+[x=  77.4 y= 570.8] Trigger Event
+[x= 160.3 y= 570.8] Interaction-based Trigger Events to include but not limited to:
+[x= 160.3 y= 587.9] 
+[x= 178.3 y= 588.9] Receive alert sent from business process that has outliers from established
+[x= 178.3 y= 600.4] benchmarks.
+[x= 160.3 y= 617.9] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 635.0] 
+[x= 178.3 y= 636.1] Periodic timetable is due to scan for compliance incidents.
+[x= 160.3 y= 653.2] 
+[x= 178.3 y= 654.2] Request to examine a specific group, individual, or other entity.
+[x=  77.4 y= 672.3] Result
+[x= 160.3 y= 677.9] 
+[x= 178.3 y= 678.9] Identification of utilization anomalies.
+[x= 160.3 y= 696.1] 
+[x= 178.3 y= 697.1] If applicable, alert sent to notify member via
+[x= 373.9 y= 697.1] Manage Applicant and Member
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 173 
+May 2014 
+Version 3.0 
+ 
+ 
+Identify Utilization Anomalies 
+PE Compliance Management 
+Identify Utilization Anomalies 
+Item 
+Details 
+Description 
+The Identify Utilization Anomalies business process uses criteria and rules to 
+identify target groups (e.g., providers, contractors, trading partners or members) and 
+establishes patterns or parameters of acceptable and unacceptable behavior, tests 
+individuals against these models, or looks for new and unusual patterns, in order to 
+identify outliers that demonstrate suspicious utilization of program benefits. 
+Internal and external referrals, business intelligence analysis (i.e., historical, current, 
+and predictive views of business operations), and scheduled or on-demand reporting 
+may identify a compliance incident. Identification of utilization anomalies include 
+evaluation of: 
+ 
+Provider utilization review 
+ 
+Provider compliance review 
+ 
+Contractor utilization review (includes managed care organizations) 
+ 
+Contractor compliance review 
+ 
+Member utilization review 
+ 
+Investigation of potential fraud or abuse review 
+ 
+Drug utilization review 
+ 
+Quality review (e.g., Consumer Assessment of Healthcare Providers and 
+Systems (CAPHS) and Healthcare Effectiveness Data and Information Set 
+(HEDIS) measures) 
+ 
+Performance review (e.g., Key Performance Indicator (KPI)) 
+ 
+Erroneous payment 
+ 
+Contract review 
+ 
+Audit Review 
+ 
+Other evaluation of information 
+Different criteria and rules, relationships, and information define each type of 
+compliance incident and require different types of external investigation. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive alert sent from business process that has outliers from established 
+benchmarks. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Periodic timetable is due to scan for compliance incidents. 
+ 
+Request to examine a specific group, individual, or other entity. 
+Result 
+ 
+Identification of utilization anomalies. 
+ 
+If applicable, alert sent to notify member via Manage Applicant and Member 
+
+
+================================================================================
+PAGE 2
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 174
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 229.3 y= 113.7] Identify Utilization Anomalies
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 178.3 y= 139.8] Communication
+[x= 253.9 y= 139.8] business process with anomaly information.
+[x= 160.3 y= 157.0] 
+[x= 178.3 y= 158.0] If applicable, alert sent to notify provider via
+[x= 373.4 y= 158.0] Manage Provider Communication
+[x= 178.3 y= 169.5] business process with anomaly information.
+[x= 160.3 y= 186.7] 
+[x= 178.3 y= 187.7] If applicable, alert sent to notify contractor via
+[x= 381.8 y= 187.7] Manage Contractor
+[x= 178.3 y= 199.1] Communication
+[x= 253.9 y= 199.1] business process with anomaly information.
+[x= 160.3 y= 216.3] 
+[x= 178.3 y= 217.3] If applicable, alert sent to
+[x= 292.3 y= 217.3] Establish Compliance Incident
+[x= 437.3 y= 217.3] business process for
+[x= 178.3 y= 228.8] further investigation and monitoring.
+[x= 160.3 y= 246.0] 
+[x= 178.3 y= 247.0] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 258.5] activity monitoring.
+[x=  77.4 y= 276.5] Business
+[x=  77.4 y= 288.1] Process Steps
+[x= 160.3 y= 282.5] 1.
+[x= 178.3 y= 282.5] START:
+[x= 215.0 y= 282.5] Receive request or reach scheduled timetable review.
+[x= 160.3 y= 300.0] 2. Review performance measures and benchmark targets.
+[x= 160.3 y= 317.5] 3. Define characteristics of the target group in which the analysis will focus: types
+[x= 178.3 y= 329.0] of provider, location, types of services, member characteristics, medical
+[x= 178.3 y= 340.5] conditions.
+[x= 160.3 y= 358.0] 4. Identify information requirements, both selection parameters and reporting
+[x= 178.3 y= 369.5] parameters to include items such as time period(s), data elements, data
+[x= 178.3 y= 381.0] relationships.
+[x= 160.3 y= 398.5] 5. Identify rules to apply to the information — Select or create rules including
+[x= 178.3 y= 410.0] specified norms, statistical deviations, types of patterns, Boolean logic, ratios,
+[x= 178.3 y= 421.5] percentages.
+[x= 160.3 y= 439.0] 6. Apply rules to targeted group information.
+[x= 160.3 y= 456.5] 7. Record the results.
+[x= 160.3 y= 474.0] 8. If applicable, send alert to notify member via
+[x= 376.7 y= 474.0] Manage Applicant and Member
+[x= 178.3 y= 485.5] Communication
+[x= 253.9 y= 485.5] business process with anomaly information.
+[x= 160.3 y= 503.0] 9. If applicable, send alert to notify provider via
+[x= 376.2 y= 503.0] Manage Provider
+[x= 178.3 y= 514.5] Communication
+[x= 253.9 y= 514.5] business process with anomaly information.
+[x= 160.3 y= 532.0] 10. If applicable, send alert to notify contractor via
+[x= 384.5 y= 532.0] Manage Contractor
+[x= 178.3 y= 543.5] Communication
+[x= 253.9 y= 543.5] business process with anomaly information.
+[x= 160.3 y= 561.0] 11.
+[x= 178.3 y= 561.0] END:
+[x= 202.8 y= 561.0] If applicable, send alert to the
+[x= 338.9 y= 561.0] Establish Compliance Incident
+[x= 484.0 y= 561.0] business
+[x= 178.3 y= 572.5] process for further investigation and monitoring.
+[x=  77.4 y= 590.5] Shared Data
+[x= 160.3 y= 590.5] Member data store including demographics, eligibility, enrollment, and grievance
+[x= 160.3 y= 602.0] information
+[x= 160.3 y= 619.5] Provider data store including provider network, contract, and grievance information
+[x= 160.3 y= 637.0] Contractor data store including provider network, and contract information
+[x= 160.3 y= 654.5] Care Management data store including member health status, clinical data, and
+[x= 160.3 y= 666.0] treatment outcome information
+[x= 160.3 y= 683.5] Claims data store including payment information
+[x= 160.3 y= 701.0] Financial data store including accounts receivable and accounts payable information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 174 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Identify Utilization Anomalies 
+Item 
+Details 
+Communication business process with anomaly information. 
+ 
+If applicable, alert sent to notify provider via Manage Provider Communication 
+business process with anomaly information. 
+ 
+If applicable, alert sent to notify contractor via Manage Contractor 
+Communication business process with anomaly information. 
+ 
+If applicable, alert sent to Establish Compliance Incident business process for 
+further investigation and monitoring. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request or reach scheduled timetable review. 
+2. Review performance measures and benchmark targets. 
+3. Define characteristics of the target group in which the analysis will focus: types 
+of provider, location, types of services, member characteristics, medical 
+conditions.  
+4. Identify information requirements, both selection parameters and reporting 
+parameters to include items such as time period(s), data elements, data 
+relationships. 
+5. Identify rules to apply to the information — Select or create rules including 
+specified norms, statistical deviations, types of patterns, Boolean logic, ratios, 
+percentages. 
+6. Apply rules to targeted group information. 
+7. Record the results. 
+8. If applicable, send alert to notify member via Manage Applicant and Member 
+Communication business process with anomaly information. 
+9. If applicable, send alert to notify provider via Manage Provider 
+Communication business process with anomaly information. 
+10. If applicable, send alert to notify contractor via Manage Contractor 
+Communication business process with anomaly information. 
+11. END: If applicable, send alert to the Establish Compliance Incident business 
+process for further investigation and monitoring.  
+Shared Data 
+Member data store including demographics, eligibility, enrollment, and grievance 
+information 
+Provider data store including provider network, contract, and grievance information 
+Contractor data store including provider network, and contract information 
+Care Management data store including member health status, clinical data, and 
+treatment outcome information 
+Claims data store including payment information 
+Financial data store including accounts receivable and accounts payable information 
+
+
+================================================================================
+PAGE 3
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 175
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 229.3 y= 113.7] Identify Utilization Anomalies
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.8] Business Activity data store including performance information
+[x= 160.3 y= 157.3] Compliance Management data store including compliance incident information
+[x=  77.4 y= 175.4] Predecessor
+[x= 160.3 y= 181.4] Manage Performance Measures
+[x=  77.4 y= 199.4] Successor
+[x= 160.3 y= 205.4] Establish Compliance Incident
+[x= 160.3 y= 223.0] Manage Business Relationship Communication
+[x= 160.3 y= 240.4] Manage Applicant and Member Communication
+[x= 160.3 y= 257.9] Manage Provider Communication
+[x= 160.3 y= 275.5] Manage Contractor Communication
+[x=  77.4 y= 293.4] Constraints
+[x= 160.3 y= 293.3] States and programs within States establish different criteria for their investigations.
+[x= 160.3 y= 304.8] Rules change along with the experience of the state, health care industry best
+[x= 160.3 y= 316.3] practices, modifications in benefits, or with the addition of new provider types.
+[x=  77.4 y= 334.4] Failures
+[x= 160.3 y= 340.0] 
+[x= 178.3 y= 341.0] Staff is unable to identify target population because of insufficient information.
+[x=  77.4 y= 359.0] Performance
+[x=  77.4 y= 370.6] Measures
+[x= 160.3 y= 364.6] 
+[x= 178.3 y= 365.6] Time to complete the process = within __ hours, ___ minutes
+[x= 160.3 y= 382.8] 
+[x= 178.3 y= 383.8] Compliance Incident resulting in corrective action, settlement, or collection =
+[x= 178.3 y= 395.3] __%
+[x=  72.0 y= 438.3] Establish Compliance Incident
+[x=  77.4 y= 465.3] PE Compliance Management
+[x= 226.2 y= 478.5] Establish Compliance Incident
+[x= 103.5 y= 491.6] Item
+[x= 330.8 y= 491.6] Details
+[x=  77.4 y= 505.6] Description
+[x= 163.1 y= 505.6] The
+[x= 183.1 y= 505.6] Establish Compliance Incident
+[x= 328.2 y= 505.6] business process is responsible registration
+[x= 163.1 y= 517.1] of a case for incident tracking of utilization anomalies. It establishes an incident file,
+[x= 163.1 y= 528.6] generates incident identification, assigns an incident manager, links to related
+[x= 163.1 y= 540.1] cases, and collects related documentation.
+[x=  77.4 y= 554.2] Trigger Event
+[x= 163.1 y= 554.1] Incident-based Trigger Events:
+[x= 163.1 y= 571.3] 
+[x= 181.1 y= 572.3] Receive alert to establish incident tracking from
+[x= 393.4 y= 572.3] Identify Utilization Anomalies
+[x= 181.1 y= 583.8] business process.
+[x= 163.1 y= 600.9] 
+[x= 181.1 y= 601.9] Receive alert to establish incident tracking from
+[x= 393.4 y= 601.9] Manage Member Grievance
+[x= 181.1 y= 613.4] and Appeal
+[x= 237.8 y= 613.4] business process.
+[x= 163.1 y= 630.6] 
+[x= 181.1 y= 631.6] Receive alert to establish incident tracking from
+[x= 393.4 y= 631.6] Manage Provider Grievance
+[x= 181.1 y= 643.1] and Appeal
+[x= 237.8 y= 643.1] business process.
+[x= 163.1 y= 660.3] 
+[x= 181.1 y= 661.3] Receive alert to establish incident tracking from
+[x= 393.4 y= 661.3] Manage Contractor
+[x= 181.1 y= 672.8] Grievance and Appeal
+[x= 286.1 y= 672.8] business process.
+[x= 163.1 y= 690.3] Environment-based Trigger Events to include but not limited to:
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 175 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Identify Utilization Anomalies 
+Item 
+Details 
+Business Activity data store including performance information 
+Compliance Management data store including compliance incident information 
+Predecessor 
+Manage Performance Measures 
+Successor 
+Establish Compliance Incident 
+Manage Business Relationship Communication 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Contractor Communication 
+Constraints 
+States and programs within States establish different criteria for their investigations. 
+Rules change along with the experience of the state, health care industry best 
+practices, modifications in benefits, or with the addition of new provider types. 
+Failures 
+ 
+Staff is unable to identify target population because of insufficient information. 
+Performance 
+Measures 
+ 
+Time to complete the process = within __ hours, ___ minutes 
+ 
+Compliance Incident resulting in corrective action, settlement, or collection = 
+__% 
+ 
+Establish Compliance Incident 
+PE Compliance Management 
+Establish Compliance Incident 
+Item 
+Details 
+Description 
+The Establish Compliance Incident business process is responsible registration 
+of a case for incident tracking of utilization anomalies. It establishes an incident file, 
+generates incident identification, assigns an incident manager, links to related 
+cases, and collects related documentation. 
+Trigger Event 
+Incident-based Trigger Events: 
+ 
+Receive alert to establish incident tracking from Identify Utilization Anomalies 
+business process. 
+ 
+Receive alert to establish incident tracking from Manage Member Grievance 
+and Appeal business process. 
+ 
+Receive alert to establish incident tracking from Manage Provider Grievance 
+and Appeal business process. 
+ 
+Receive alert to establish incident tracking from Manage Contractor 
+Grievance and Appeal business process. 
+Environment-based Trigger Events to include but not limited to: 
+
+
+================================================================================
+PAGE 4
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 176
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 226.2 y= 113.7] Establish Compliance Incident
+[x= 103.5 y= 126.8] Item
+[x= 330.8 y= 126.8] Details
+[x= 163.1 y= 139.4] 
+[x= 181.1 y= 140.5] Request to initiate incident tracking for business partner, member, provider,
+[x= 181.1 y= 152.0] contractor or other entity.
+[x= 163.1 y= 169.2] 
+[x= 181.1 y= 170.2] Request to initiate incident from communication (e.g., mail, telephone, facsimile
+[x= 181.1 y= 181.7] or web).
+[x= 163.1 y= 198.8] 
+[x= 181.1 y= 199.8] Receive requests for suppression of information or corrective action from
+[x= 181.1 y= 211.3] federal and state law enforcement.
+[x= 163.1 y= 228.5] 
+[x= 181.1 y= 229.5] Receive compliance investigation information from Centers for Medicare &
+[x= 181.1 y= 241.0] Medicaid Services (CMS).
+[x= 163.1 y= 258.1] 
+[x= 181.1 y= 259.1] Receive compliance investigation information from Medicaid Fraud Control Unit
+[x= 181.1 y= 270.7] (MFCU).
+[x= 163.1 y= 287.8] 
+[x= 181.1 y= 288.8] Receive compliance investigation information from Office of Inspector General
+[x= 181.1 y= 300.4] (OIG).
+[x= 163.1 y= 317.5] 
+[x= 181.1 y= 318.5] Receive self-disclosure of actual or potential violations from provider.
+[x=  77.4 y= 337.6] Result
+[x= 163.1 y= 342.2] 
+[x= 181.1 y= 343.2] Initiation of a compliance incident.
+[x= 163.1 y= 360.4] 
+[x= 181.1 y= 361.4] Alert sent to
+[x= 237.2 y= 361.4] Manage Compliance Incident Information
+[x= 435.7 y= 361.4] business process for
+[x= 181.1 y= 372.9] incident monitoring.
+[x= 163.1 y= 390.0] 
+[x= 181.1 y= 391.0] If applicable, notification sent to state or federal law enforcement agencies of
+[x= 181.1 y= 402.5] possible criminal investigation.
+[x= 163.1 y= 419.7] 
+[x= 181.1 y= 420.7] If applicable, notification sent to CMS of compliance investigation.
+[x= 163.1 y= 437.9] 
+[x= 181.1 y= 438.9] If applicable, notification sent to MFCU of compliance investigation.
+[x= 163.1 y= 456.0] 
+[x= 181.1 y= 457.0] If applicable, notification sent to OIG of compliance investigation.
+[x= 163.1 y= 474.2] 
+[x= 181.1 y= 475.2] Tracking information as needed for measuring performance and business
+[x= 181.1 y= 486.7] activity monitoring.
+[x=  77.4 y= 505.8] Business
+[x=  77.4 y= 517.3] Process Steps
+[x= 163.1 y= 510.7] 1.
+[x= 181.1 y= 510.7] START:
+[x= 217.8 y= 510.7] Request to establish incident tracking.
+[x= 163.1 y= 528.2] 2. Establish incident case with required information.
+[x= 163.1 y= 545.7] 3. Generate incident identification.
+[x= 163.1 y= 563.2] 4. Assign and authorize an incident manager to manage an incident and request
+[x= 181.1 y= 574.7] additional information.
+[x= 163.1 y= 592.2] 5. Identify and link related incidents to this one.
+[x= 163.1 y= 609.7] 6. Collect relevant documentation.
+[x= 163.1 y= 627.2] 7. If applicable, send notification to state or federal law enforcement agencies of
+[x= 181.1 y= 638.7] possible criminal investigation.
+[x= 163.1 y= 656.2] 8. If applicable, send notification to CMS of compliance investigation.
+[x= 163.1 y= 673.7] 9. If applicable, send notification to MFCU of compliance investigation.
+[x= 163.1 y= 691.2] 10. If applicable, send notification to OIG of compliance investigation.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 176 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Establish Compliance Incident 
+Item 
+Details 
+ 
+Request to initiate incident tracking for business partner, member, provider, 
+contractor or other entity. 
+ 
+Request to initiate incident from communication (e.g., mail, telephone, facsimile 
+or web). 
+ 
+Receive requests for suppression of information or corrective action from 
+federal and state law enforcement. 
+ 
+Receive compliance investigation information from Centers for Medicare & 
+Medicaid Services (CMS).  
+ 
+Receive compliance investigation information from Medicaid Fraud Control Unit 
+(MFCU). 
+ 
+Receive compliance investigation information from Office of Inspector General 
+(OIG). 
+ 
+Receive self-disclosure of actual or potential violations from provider. 
+Result 
+ 
+Initiation of a compliance incident. 
+ 
+Alert sent to Manage Compliance Incident Information business process for 
+incident monitoring. 
+ 
+If applicable, notification sent to state or federal law enforcement agencies of 
+possible criminal investigation. 
+ 
+If applicable, notification sent to CMS of compliance investigation.  
+ 
+If applicable, notification sent to MFCU of compliance investigation. 
+ 
+If applicable, notification sent to OIG of compliance investigation. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Request to establish incident tracking. 
+2. Establish incident case with required information. 
+3. Generate incident identification. 
+4. Assign and authorize an incident manager to manage an incident and request 
+additional information. 
+5. Identify and link related incidents to this one. 
+6. Collect relevant documentation. 
+7. If applicable, send notification to state or federal law enforcement agencies of 
+possible criminal investigation. 
+8. If applicable, send notification to CMS of compliance investigation. 
+9. If applicable, send notification to MFCU of compliance investigation. 
+10. If applicable, send notification to OIG of compliance investigation. 
+
+
+================================================================================
+PAGE 5
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 177
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 226.2 y= 113.7] Establish Compliance Incident
+[x= 103.5 y= 126.8] Item
+[x= 330.8 y= 126.8] Details
+[x= 163.1 y= 139.8] 11.
+[x= 181.1 y= 139.8] END:
+[x= 205.6 y= 139.8] Send alert to
+[x= 267.8 y= 139.8] Manage Compliance Incident Information
+[x= 466.1 y= 139.8] business
+[x= 181.1 y= 151.3] process for incident monitoring.
+[x=  77.4 y= 170.3] Shared Data
+[x= 163.1 y= 169.3] Member data store including demographics, eligibility, enrollment, and grievance
+[x= 163.1 y= 180.8] information
+[x= 163.1 y= 198.3] Provider data store including provider network, contract, and grievance information
+[x= 163.1 y= 215.8] Contractor data store including provider network, and contract grievance
+[x= 163.1 y= 227.3] information
+[x= 163.1 y= 244.8] Claims data store including payment information
+[x= 163.1 y= 262.3] Financial data store including accounts receivable and accounts payable
+[x= 163.1 y= 273.8] information
+[x= 163.1 y= 291.3] Business Activity data store including performance information
+[x= 163.1 y= 308.8] Compliance Management data store including compliance incident information
+[x=  77.4 y= 322.8] Predecessor
+[x= 163.1 y= 327.9] Identify Utilization Anomalies
+[x= 163.1 y= 345.4] Manage Member Information
+[x= 163.1 y= 362.9] Manage Provider Information
+[x= 163.1 y= 380.4] Manage Contractor Information
+[x=  77.4 y= 399.3] Successor
+[x= 163.1 y= 404.4] Manage Compliance Incident Information
+[x=  77.4 y= 423.3] Constraints
+[x= 163.1 y= 423.3] States and programs within States establish different criteria for their investigations.
+[x= 163.1 y= 434.8] Rules change along with the experience of the state, health care best practices,
+[x= 163.1 y= 446.3] modifications in benefits, and with the addition of new provider and member types.
+[x=  77.4 y= 460.3] Failures
+[x= 163.1 y= 465.0] 
+[x= 181.1 y= 466.0] No incident tracking requests made.
+[x= 163.1 y= 483.1] 
+[x= 181.1 y= 484.1] Lack of required information to establish an incident.
+[x=  77.4 y= 503.2] Performance
+[x=  77.4 y= 514.7] Measures
+[x= 163.1 y= 507.8] 
+[x= 181.1 y= 508.8] Time to complete the process = e.g., ___ days, ___ hours or ___ minutes
+[x= 163.1 y= 526.0] 
+[x= 181.1 y= 527.0] Accuracy with which rules are applied = __%
+[x= 163.1 y= 544.2] 
+[x= 181.1 y= 545.2] Consistency with which rules are applied = __%
+[x= 163.1 y= 562.3] 
+[x= 181.1 y= 563.3] Error rate = __% or less
+[x=  72.0 y= 606.3] Manage Compliance Incident Information
+[x=  77.4 y= 633.3] PE Compliance Management
+[x= 198.4 y= 646.5] Manage Compliance Incident Information
+[x= 102.8 y= 659.6] Item
+[x= 330.1 y= 659.6] Details
+[x=  77.4 y= 673.7] Description
+[x= 161.7 y= 678.7] The
+[x= 181.7 y= 678.7] Manage Compliance Incident Information
+[x= 377.3 y= 678.7] business process is responsible
+[x= 161.7 y= 690.1] for the monitoring of incidents of utilization anomalies. Activities include referring
+[x= 161.7 y= 701.6] (e.g., escalation) incident to another incident manager or agency, modifications to
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 177 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Establish Compliance Incident 
+Item 
+Details 
+11. END: Send alert to Manage Compliance Incident Information business 
+process for incident monitoring. 
+Shared Data 
+Member data store including demographics, eligibility, enrollment, and grievance 
+information 
+Provider data store including provider network, contract, and grievance information 
+Contractor data store including provider network, and contract grievance 
+information 
+Claims data store including payment information 
+Financial data store including accounts receivable and accounts payable 
+information 
+Business Activity data store including performance information 
+Compliance Management data store including compliance incident information 
+Predecessor 
+Identify Utilization Anomalies 
+Manage Member Information 
+Manage Provider Information 
+Manage Contractor Information 
+Successor 
+Manage Compliance Incident Information 
+Constraints 
+States and programs within States establish different criteria for their investigations. 
+Rules change along with the experience of the state, health care best practices, 
+modifications in benefits, and with the addition of new provider and member types. 
+Failures 
+ 
+No incident tracking requests made. 
+ 
+Lack of required information to establish an incident. 
+Performance 
+Measures 
+ 
+Time to complete the process = e.g., ___ days, ___ hours or ___ minutes 
+ 
+Accuracy with which rules are applied = __% 
+ 
+Consistency with which rules are applied = __% 
+ 
+Error rate = __% or less 
+ 
+Manage Compliance Incident Information 
+PE Compliance Management 
+Manage Compliance Incident Information 
+Item 
+Details 
+Description 
+The Manage Compliance Incident Information business process is responsible 
+for the monitoring of incidents of utilization anomalies. Activities include referring 
+(e.g., escalation) incident to another incident manager or agency, modifications to 
+
+
+================================================================================
+PAGE 6
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 178
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 198.4 y= 113.7] Manage Compliance Incident Information
+[x= 102.8 y= 126.8] Item
+[x= 330.1 y= 126.8] Details
+[x= 161.7 y= 139.8] incident information, journaling activities, and disposition of incident.
+[x=  77.4 y= 158.8] Trigger Event
+[x= 161.7 y= 163.8] Interaction-based Trigger Events to include but not limited to:
+[x= 161.7 y= 181.0] 
+[x= 179.7 y= 182.0] Receive alert from
+[x= 263.6 y= 182.0] Establish Compliance Incident
+[x= 408.7 y= 182.0] business process of new
+[x= 179.7 y= 193.5] incident.
+[x= 161.7 y= 211.0] Environment-based Trigger Events to include but not limited to:
+[x= 161.7 y= 228.1] 
+[x= 179.7 y= 229.1] Staff periodically reviews incident.
+[x= 161.7 y= 246.3] 
+[x= 179.7 y= 247.3] Staff modifies incident information due to follow-up activities.
+[x= 161.7 y= 264.5] 
+[x= 179.7 y= 265.5] Receive requests for suppression of information or corrective action from
+[x= 179.7 y= 277.0] federal and state law enforcement.
+[x= 161.7 y= 294.1] 
+[x= 179.7 y= 295.1] Receive compliance investigation information from Centers for Medicare &
+[x= 179.7 y= 306.7] Medicaid Services (CMS).
+[x= 161.7 y= 323.8] 
+[x= 179.7 y= 324.8] Receive compliance investigation information from Medicaid Fraud Control Unit
+[x= 179.7 y= 336.4] (MFCU).
+[x= 161.7 y= 353.5] 
+[x= 179.7 y= 354.5] Receive compliance investigation information from Office of Inspector General
+[x= 179.7 y= 366.0] (OIG).
+[x= 161.7 y= 383.2] 
+[x= 179.7 y= 384.2] Receive self-disclosure of actual or potential violations from provider.
+[x=  77.4 y= 403.2] Result
+[x= 161.7 y= 407.8] 
+[x= 179.7 y= 408.8] Monitored incident and tracked.
+[x= 161.7 y= 426.0] 
+[x= 179.7 y= 427.0] Determination of disposition and closure of incident.
+[x= 161.7 y= 444.2] 
+[x= 179.7 y= 445.2] If applicable, alert sent to notify member via
+[x= 375.3 y= 445.2] Manage Applicant and Member
+[x= 179.7 y= 456.7] Communication
+[x= 255.2 y= 456.7] business process of incident tracking information.
+[x= 161.7 y= 473.9] 
+[x= 179.7 y= 474.9] If applicable, alert sent to notify provider via
+[x= 374.8 y= 474.9] Manage Provider Communication
+[x= 179.7 y= 486.4] business process of incident tracking information.
+[x= 161.7 y= 503.5] 
+[x= 179.7 y= 504.5] If applicable, alert sent to notify contractor via
+[x= 383.2 y= 504.5] Manage Contractor
+[x= 179.7 y= 516.1] Communication
+[x= 255.2 y= 516.1] business process of incident tracking information.
+[x= 161.7 y= 533.2] 
+[x= 179.7 y= 534.2] If applicable, alert sent to
+[x= 293.6 y= 534.2] Determine Adverse Action Incident
+[x= 459.8 y= 534.2] business
+[x= 179.7 y= 545.7] process for further investigation.
+[x= 161.7 y= 562.9] 
+[x= 179.7 y= 563.9] If applicable, notification sent to state or federal law enforcement agencies of
+[x= 179.7 y= 575.4] possible criminal investigation.
+[x= 161.7 y= 592.6] 
+[x= 179.7 y= 593.6] If applicable, notification sent to CMS for compliance investigation.
+[x= 161.7 y= 610.8] 
+[x= 179.7 y= 611.8] If applicable, notification sent to MFCU of compliance investigation.
+[x= 161.7 y= 628.9] 
+[x= 179.7 y= 629.9] If applicable, notification sent to OIG of compliance investigation.
+[x= 161.7 y= 647.1] 
+[x= 179.7 y= 648.1] Tracking information as needed for measuring performance and business
+[x= 179.7 y= 659.6] activity monitoring.
+[x=  77.4 y= 678.7] Business
+[x=  77.4 y= 690.1] Process Steps
+[x= 161.7 y= 683.6] 1.
+[x= 179.7 y= 683.6] START:
+[x= 216.4 y= 683.6] Receive established incident.
+[x= 161.7 y= 701.1] 2. Review incident information for determination of action.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 178 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Manage Compliance Incident Information 
+Item 
+Details 
+incident information, journaling activities, and disposition of incident. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive alert from Establish Compliance Incident business process of new 
+incident. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Staff periodically reviews incident. 
+ 
+Staff modifies incident information due to follow-up activities. 
+ 
+Receive requests for suppression of information or corrective action from 
+federal and state law enforcement. 
+ 
+Receive compliance investigation information from Centers for Medicare & 
+Medicaid Services (CMS). 
+ 
+Receive compliance investigation information from Medicaid Fraud Control Unit 
+(MFCU). 
+ 
+Receive compliance investigation information from Office of Inspector General 
+(OIG). 
+ 
+Receive self-disclosure of actual or potential violations from provider. 
+Result 
+ 
+Monitored incident and tracked. 
+ 
+Determination of disposition and closure of incident. 
+ 
+If applicable, alert sent to notify member via Manage Applicant and Member 
+Communication business process of incident tracking information. 
+ 
+If applicable, alert sent to notify provider via Manage Provider Communication 
+business process of incident tracking information. 
+ 
+If applicable, alert sent to notify contractor via Manage Contractor 
+Communication business process of incident tracking information. 
+ 
+If applicable, alert sent to Determine Adverse Action Incident business 
+process for further investigation. 
+ 
+If applicable, notification sent to state or federal law enforcement agencies of 
+possible criminal investigation. 
+ 
+If applicable, notification sent to CMS for compliance investigation. 
+ 
+If applicable, notification sent to MFCU of compliance investigation. 
+ 
+If applicable, notification sent to OIG of compliance investigation. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive established incident. 
+2. Review incident information for determination of action. 
+
+
+================================================================================
+PAGE 7
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 179
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 198.4 y= 113.7] Manage Compliance Incident Information
+[x= 102.8 y= 126.8] Item
+[x= 330.1 y= 126.8] Details
+[x= 161.7 y= 139.8] 3. Review allegations.
+[x= 161.7 y= 157.3] 4. If applicable, refer or escalate incident to responsible individual, department or
+[x= 179.7 y= 168.8] state or federal agency.
+[x= 161.7 y= 186.3] 5. Determine action to take (e.g., journal entry, appointment scheduling, research,
+[x= 179.7 y= 197.8] communication).
+[x= 161.7 y= 215.3] 6. Perform appropriate action.
+[x= 161.7 y= 232.8] 7. If applicable, send alert to notify member via
+[x= 378.1 y= 232.8] Manage Applicant and Member
+[x= 179.7 y= 244.3] Communication
+[x= 255.2 y= 244.3] business process of incident tracking information.
+[x= 161.7 y= 261.8] 8. If applicable, send alert to notify provider via
+[x= 377.6 y= 261.8] Manage Provider
+[x= 179.7 y= 273.3] Communication
+[x= 255.2 y= 273.3] business process of incident tracking information.
+[x= 161.7 y= 290.8] 9. If applicable, send alert to notify contractor via
+[x= 385.9 y= 290.8] Manage Contractor
+[x= 179.7 y= 302.3] Communication
+[x= 255.2 y= 302.3] business process of incident tracking information.
+[x= 161.7 y= 319.8] 10. Determine disposition of incident.
+[x= 161.7 y= 337.3] 11. If applicable, send notification to state or federal law enforcement agencies of
+[x= 179.7 y= 348.8] possible criminal investigation.
+[x= 161.7 y= 366.3] 12. If applicable, send notification to CMS for compliance investigation.
+[x= 161.7 y= 383.8] 13. If applicable, send notification to MFCU of compliance investigation.
+[x= 161.7 y= 401.3] 14. If applicable, send notification to OIG of compliance investigation.
+[x= 161.7 y= 418.8] 15. If applicable, send alert to
+[x= 296.5 y= 418.8] Determine Adverse Action Incident
+[x= 462.7 y= 418.8] business
+[x= 179.7 y= 430.3] process for further investigation.
+[x= 161.7 y= 447.8] 16.
+[x= 179.7 y= 447.8] END:
+[x= 204.2 y= 447.8] Close incident.
+[x=  77.4 y= 466.8] Shared Data
+[x= 161.7 y= 465.8] Member data store including demographics, eligibility, enrollment, and grievance
+[x= 161.7 y= 477.3] information
+[x= 161.7 y= 494.8] Provider data store including provider network, contract, and grievance information
+[x= 161.7 y= 512.3] Contractor data store including provider network, and contract information
+[x= 161.7 y= 529.8] Claims data store including payment information
+[x= 161.7 y= 547.3] Financial data store including accounts receivable and accounts payable
+[x= 161.7 y= 558.8] information
+[x= 161.7 y= 576.3] Business Activity data store including performance information
+[x= 161.7 y= 593.8] Compliance Management data store including compliance incident information
+[x=  77.4 y= 612.8] Predecessor
+[x= 161.7 y= 617.9] Establish Compliance Incident
+[x= 161.7 y= 635.4] Maintain State Plan
+[x=  77.4 y= 654.3] Successor
+[x= 161.7 y= 659.4] Manage Applicant and Member Communication
+[x= 161.7 y= 676.9] Manage Provider Communication
+[x= 161.7 y= 694.4] Manage Contractor Communication
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 179 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Manage Compliance Incident Information 
+Item 
+Details 
+3. Review allegations. 
+4. If applicable, refer or escalate incident to responsible individual, department or 
+state or federal agency. 
+5. Determine action to take (e.g., journal entry, appointment scheduling, research, 
+communication). 
+6. Perform appropriate action. 
+7. If applicable, send alert to notify member via Manage Applicant and Member 
+Communication business process of incident tracking information. 
+8. If applicable, send alert to notify provider via Manage Provider 
+Communication business process of incident tracking information. 
+9. If applicable, send alert to notify contractor via Manage Contractor 
+Communication business process of incident tracking information. 
+10. Determine disposition of incident. 
+11. If applicable, send notification to state or federal law enforcement agencies of 
+possible criminal investigation. 
+12. If applicable, send notification to CMS for compliance investigation. 
+13. If applicable, send notification to MFCU of compliance investigation. 
+14. If applicable, send notification to OIG of compliance investigation. 
+15. If applicable, send alert to Determine Adverse Action Incident business 
+process for further investigation. 
+16. END: Close incident. 
+Shared Data 
+Member data store including demographics, eligibility, enrollment, and grievance 
+information 
+Provider data store including provider network, contract, and grievance information 
+Contractor data store including provider network, and contract information 
+Claims data store including payment information 
+Financial data store including accounts receivable and accounts payable 
+information 
+Business Activity data store including performance information 
+Compliance Management data store including compliance incident information 
+Predecessor 
+Establish Compliance Incident 
+Maintain State Plan 
+Successor 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Contractor Communication 
+
+
+================================================================================
+PAGE 8
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 180
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 198.4 y= 113.7] Manage Compliance Incident Information
+[x= 102.8 y= 126.8] Item
+[x= 330.1 y= 126.8] Details
+[x= 161.7 y= 139.9] Determine Adverse Action Incident
+[x= 161.7 y= 157.4] Manage Data
+[x=  77.4 y= 176.3] Constraints
+[x= 161.7 y= 181.3] States and programs within States establish different criteria for their investigations.
+[x= 161.7 y= 192.8] Rules change along with the experience of the state, health care best practices,
+[x= 161.7 y= 204.3] modifications in benefits, and with the addition of new provider and member types.
+[x=  77.4 y= 223.3] Failures
+[x= 161.7 y= 228.0] 
+[x= 179.7 y= 229.0] This business process has no failure modes that prevent the process from
+[x= 179.7 y= 240.5] completion.
+[x=  77.4 y= 259.6] Performance
+[x=  77.4 y= 271.0] Measures
+[x= 161.7 y= 264.1] 
+[x= 179.7 y= 265.1] Time to complete the process = e.g., ___ days, ___ hours or ___ minutes
+[x= 161.7 y= 282.3] 
+[x= 179.7 y= 283.3] Accuracy with which rules are applied = __%
+[x= 161.7 y= 300.5] 
+[x= 179.7 y= 301.5] Consistency with which rules are applied = __%
+[x= 161.7 y= 318.7] 
+[x= 179.7 y= 319.7] Error rate = __% or less
+[x=  72.0 y= 362.7] Determine Adverse Action Incident
+[x=  77.4 y= 389.7] PE Compliance Management
+[x= 213.1 y= 402.8] Determine Adverse Action Incident
+[x= 102.1 y= 415.9] Item
+[x= 329.3 y= 415.9] Details
+[x=  77.4 y= 430.0] Description
+[x= 160.2 y= 430.0] The
+[x= 180.2 y= 430.0] Determine Adverse Action Incident
+[x= 346.4 y= 430.0] business process receives an incident
+[x= 160.2 y= 441.5] from an investigative unit with the direction to pursue the case to closure. The case
+[x= 160.2 y= 453.0] may result in civil or criminal charges, corrective action, removal of a provider,
+[x= 160.2 y= 464.5] contractor, trading partner or member from the Medicaid Program, or the State
+[x= 160.2 y= 476.0] Medicaid Agency (SMA) may terminate or suspend the case.
+[x= 160.2 y= 500.9] Individual state policy determines what evidence is necessary to support different
+[x= 160.2 y= 512.5] types of cases:
+[x= 160.2 y= 529.6] 
+[x= 178.2 y= 530.6] Provider utilization review
+[x= 160.2 y= 547.8] 
+[x= 178.2 y= 548.8] Provider compliance review
+[x= 160.2 y= 566.0] 
+[x= 178.2 y= 567.0] Contractor utilization review (includes managed care organizations)
+[x= 160.2 y= 584.1] 
+[x= 178.2 y= 585.1] Contractor compliance review
+[x= 160.2 y= 602.3] 
+[x= 178.2 y= 603.3] Member utilization review
+[x= 160.2 y= 620.5] 
+[x= 178.2 y= 621.5] Investigation of potential fraud or abuse review
+[x= 160.2 y= 638.7] 
+[x= 178.2 y= 639.7] Drug utilization review
+[x= 160.2 y= 656.8] 
+[x= 178.2 y= 657.8] Quality review (e.g., Consumer Assessment of Healthcare Providers and
+[x= 178.2 y= 669.4] Systems (CAPHS) and Healthcare Effectiveness Data and Information Set
+[x= 178.2 y= 680.8] (HEDIS) measures)
+[x= 160.2 y= 698.0] 
+[x= 178.2 y= 699.0] Performance review (e.g., Key Performance Indicator (KPI))
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 180 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Manage Compliance Incident Information 
+Item 
+Details 
+Determine Adverse Action Incident 
+Manage Data 
+Constraints 
+States and programs within States establish different criteria for their investigations. 
+Rules change along with the experience of the state, health care best practices, 
+modifications in benefits, and with the addition of new provider and member types. 
+Failures 
+ 
+This business process has no failure modes that prevent the process from 
+completion. 
+Performance 
+Measures 
+ 
+Time to complete the process = e.g., ___ days, ___ hours or ___ minutes 
+ 
+Accuracy with which rules are applied = __% 
+ 
+Consistency with which rules are applied = __% 
+ 
+Error rate = __% or less 
+ 
+Determine Adverse Action Incident 
+PE Compliance Management 
+ Determine Adverse Action Incident 
+Item 
+Details 
+Description 
+The Determine Adverse Action Incident business process receives an incident 
+from an investigative unit with the direction to pursue the case to closure. The case 
+may result in civil or criminal charges, corrective action, removal of a provider, 
+contractor, trading partner or member from the Medicaid Program, or the State 
+Medicaid Agency (SMA) may terminate or suspend the case. 
+ 
+Individual state policy determines what evidence is necessary to support different 
+types of cases: 
+ 
+Provider utilization review 
+ 
+Provider compliance review 
+ 
+Contractor utilization review (includes managed care organizations) 
+ 
+Contractor compliance review 
+ 
+Member utilization review 
+ 
+Investigation of potential fraud or abuse review 
+ 
+Drug utilization review 
+ 
+Quality review (e.g., Consumer Assessment of Healthcare Providers and 
+Systems (CAPHS) and Healthcare Effectiveness Data and Information Set 
+(HEDIS) measures) 
+ 
+Performance review (e.g., Key Performance Indicator (KPI)) 
+
+
+================================================================================
+PAGE 9
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 181
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 213.1 y= 113.7] Determine Adverse Action Incident
+[x= 102.1 y= 126.8] Item
+[x= 329.3 y= 126.8] Details
+[x= 160.2 y= 139.4] 
+[x= 178.2 y= 140.5] Contract review
+[x= 160.2 y= 157.6] 
+[x= 178.2 y= 158.6] Erroneous payment review
+[x= 160.2 y= 175.8] 
+[x= 178.2 y= 176.8] Audit Review
+[x= 160.2 y= 194.0] 
+[x= 178.2 y= 195.0] Other evaluation of information
+[x= 160.2 y= 212.5] Different criteria and rules, relationships, and information define each type of
+[x= 160.2 y= 224.0] adverse action incident and require different types of external investigation.
+[x=  77.4 y= 238.0] Trigger Event
+[x= 160.2 y= 238.0] Interaction-based Trigger Events to include but not limited to:
+[x= 160.2 y= 255.2] 
+[x= 178.2 y= 256.2] Receive alert from
+[x= 262.1 y= 256.2] Manage Compliance Incident Information
+[x= 457.7 y= 256.2] business
+[x= 178.2 y= 267.7] process for further investigation.
+[x= 160.2 y= 285.2] Environment-based Trigger Events to include but not limited to:
+[x= 160.2 y= 302.4] 
+[x= 178.2 y= 303.4] Request to investigate adverse action incident.
+[x= 160.2 y= 320.5] 
+[x= 178.2 y= 321.5] Receive requests for suppression of information or corrective action from federal
+[x= 178.2 y= 333.0] and state law enforcement.
+[x= 160.2 y= 350.2] 
+[x= 178.2 y= 351.2] Receive compliance investigation information from Centers for Medicare &
+[x= 178.2 y= 362.7] Medicaid Services (CMS).
+[x= 160.2 y= 379.9] 
+[x= 178.2 y= 380.9] Receive compliance investigation information from Medicaid Fraud Control Unit
+[x= 178.2 y= 392.3] (MFCU).
+[x= 160.2 y= 409.5] 
+[x= 178.2 y= 410.5] Receive compliance investigation information from Office of Inspector General
+[x= 178.2 y= 422.0] (OIG).
+[x= 160.2 y= 439.2] 
+[x= 178.2 y= 440.2] Receive self-disclosure of actual or potential violations from provider.
+[x=  77.4 y= 459.2] Result
+[x= 160.2 y= 463.9] 
+[x= 178.2 y= 464.9] Monitored adverse action incident and tracked activities.
+[x= 160.2 y= 482.1] 
+[x= 178.2 y= 483.1] Determination of disposition and closure of incident.
+[x= 160.2 y= 500.2] 
+[x= 178.2 y= 501.2] If applicable, alert sent to notify member via
+[x= 373.8 y= 501.2] Manage Applicant and Member
+[x= 178.2 y= 512.8] Communication
+[x= 253.7 y= 512.8] business process of incident tracking information.
+[x= 160.2 y= 529.9] 
+[x= 178.2 y= 530.9] If applicable, alert sent to notify provider via
+[x= 373.3 y= 530.9] Manage Provider Communication
+[x= 178.2 y= 542.4] business process of incident tracking information.
+[x= 160.2 y= 559.6] 
+[x= 178.2 y= 560.6] If applicable, alert sent to notify contractor via
+[x= 381.7 y= 560.6] Manage Contractor
+[x= 178.2 y= 572.1] Communication
+[x= 253.7 y= 572.1] business process of incident tracking information.
+[x= 160.2 y= 589.2] 
+[x= 178.2 y= 590.2] If applicable, alert sent to
+[x= 292.1 y= 590.2] Disenroll Member
+[x= 378.8 y= 590.2] business process to remove
+[x= 178.2 y= 601.7] member from services.
+[x= 160.2 y= 618.9] 
+[x= 178.2 y= 619.9] If applicable, alert sent to
+[x= 292.1 y= 619.9] Disenroll Provider
+[x= 378.3 y= 619.9] business process to remove
+[x= 178.2 y= 631.4] provider from services.
+[x= 160.2 y= 648.6] 
+[x= 178.2 y= 649.6] If applicable, alert sent to
+[x= 292.1 y= 649.6] Terminate Provider
+[x= 383.3 y= 649.6] business process to cease
+[x= 178.2 y= 661.1] activities with provider.
+[x= 160.2 y= 678.3] 
+[x= 178.2 y= 679.3] If applicable, alert sent to
+[x= 292.1 y= 679.3] Close Out Contract
+[x= 383.3 y= 679.3] business process to cease
+[x= 178.2 y= 690.8] activities with contractor.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 181 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+ Determine Adverse Action Incident 
+Item 
+Details 
+ 
+Contract review 
+ 
+Erroneous payment review 
+ 
+Audit Review 
+ 
+Other evaluation of information 
+Different criteria and rules, relationships, and information define each type of 
+adverse action incident and require different types of external investigation. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive alert from Manage Compliance Incident Information business 
+process for further investigation. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Request to investigate adverse action incident. 
+ 
+Receive requests for suppression of information or corrective action from federal 
+and state law enforcement. 
+ 
+Receive compliance investigation information from Centers for Medicare & 
+Medicaid Services (CMS). 
+ 
+Receive compliance investigation information from Medicaid Fraud Control Unit 
+(MFCU). 
+ 
+Receive compliance investigation information from Office of Inspector General 
+(OIG). 
+ 
+Receive self-disclosure of actual or potential violations from provider. 
+Result 
+ 
+Monitored adverse action incident and tracked activities. 
+ 
+Determination of disposition and closure of incident. 
+ 
+If applicable, alert sent to notify member via Manage Applicant and Member 
+Communication business process of incident tracking information. 
+ 
+If applicable, alert sent to notify provider via Manage Provider Communication 
+business process of incident tracking information. 
+ 
+If applicable, alert sent to notify contractor via Manage Contractor 
+Communication business process of incident tracking information. 
+ 
+If applicable, alert sent to Disenroll Member business process to remove 
+member from services. 
+ 
+If applicable, alert sent to Disenroll Provider business process to remove 
+provider from services. 
+ 
+If applicable, alert sent to Terminate Provider business process to cease 
+activities with provider. 
+ 
+If applicable, alert sent to Close Out Contract business process to cease 
+activities with contractor. 
+
+
+================================================================================
+PAGE 10
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 182
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 213.1 y= 113.7] Determine Adverse Action Incident
+[x= 102.1 y= 126.8] Item
+[x= 329.3 y= 126.8] Details
+[x= 160.2 y= 139.4] 
+[x= 178.2 y= 140.5] If applicable, notification sent to state or federal law enforcement agencies of
+[x= 178.2 y= 152.0] possible criminal investigation.
+[x= 160.2 y= 169.2] 
+[x= 178.2 y= 170.2] If applicable, notification sent to CMS for compliance investigation.
+[x= 160.2 y= 187.3] 
+[x= 178.2 y= 188.3] If applicable, notification sent to MFCU of compliance investigation.
+[x= 160.2 y= 205.5] 
+[x= 178.2 y= 206.5] If applicable, notification sent to OIG of compliance investigation.
+[x= 160.2 y= 223.7] 
+[x= 178.2 y= 224.7] Tracking information as needed for measuring performance and business
+[x= 178.2 y= 236.2] activity monitoring.
+[x=  77.4 y= 255.2] Business
+[x=  77.4 y= 266.8] Process Steps
+[x= 160.2 y= 260.2] 1.
+[x= 178.2 y= 260.2] START:
+[x= 214.9 y= 260.2] Receive request to investigate adverse action incident.
+[x= 160.2 y= 277.7] 2. Assign and authorize an adverse action incident manager to manage an incident
+[x= 178.2 y= 289.2] and request additional information.
+[x= 160.2 y= 306.7] 3. Establish adverse action incident case with required information.
+[x= 160.2 y= 324.2] 4. Examine information associated with the case, and request more historical
+[x= 178.2 y= 335.7] information as needed.
+[x= 160.2 y= 353.2] 5. Determine action to take (e.g., journal entry, appointment scheduling, research,
+[x= 178.2 y= 364.7] communication).
+[x= 160.2 y= 382.2] 6. Perform appropriate action.
+[x= 160.2 y= 399.7] 7. Correspond with providers, members, agents, guardians, attorneys, and others
+[x= 178.2 y= 411.2] to notify them regarding the investigation, their rights, and the right of the SMA
+[x= 178.2 y= 422.7] to request documentation.
+[x= 160.2 y= 440.2] 8. If applicable, send alert to notify member via
+[x= 376.6 y= 440.2] Manage Applicant and Member
+[x= 178.2 y= 451.7] Communication
+[x= 253.7 y= 451.7] business process of incident tracking information.
+[x= 160.2 y= 469.1] 9. If applicable, send alert to notify provider via
+[x= 376.1 y= 469.1] Manage Provider
+[x= 178.2 y= 480.7] Communication
+[x= 253.7 y= 480.7] business process of incident tracking information.
+[x= 160.2 y= 498.2] 10. If applicable, send sent to notify contractor via
+[x= 383.8 y= 498.2] Manage Contractor
+[x= 178.2 y= 509.6] Communication
+[x= 253.7 y= 509.6] business process of incident tracking information.
+[x= 160.2 y= 527.2] 11. Conduct inquiries and investigations. Depending on the type of case, the SMA
+[x= 178.2 y= 538.7] may need to conduct different external inquiries (e.g., view medical records,
+[x= 178.2 y= 550.1] interview members, validate credentials).
+[x= 160.2 y= 567.7] 12. Document evidence as required.
+[x= 160.2 y= 585.2] 13. When research and analysis are complete, report the case disposition (e.g.,
+[x= 178.2 y= 596.6] cancel incident, claim damages, identify corrective action, suspend or terminate
+[x= 178.2 y= 608.2] participation in Medicaid Program).
+[x= 160.2 y= 625.7] 14. If applicable, send alert to
+[x= 295.0 y= 625.7] Disenroll Member
+[x= 381.7 y= 625.7] business process to remove
+[x= 178.2 y= 637.1] member from services.
+[x= 160.2 y= 654.6] 15. If applicable, send alert to
+[x= 295.0 y= 654.6] Disenroll Provider
+[x= 381.1 y= 654.6] business process to remove
+[x= 178.2 y= 666.2] provider from services.
+[x= 160.2 y= 683.6] 16. If applicable, send alert to
+[x= 295.0 y= 683.6] Terminate Provider
+[x= 386.2 y= 683.6] business process to cease
+[x= 178.2 y= 695.1] activities with provider.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 182 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+ Determine Adverse Action Incident 
+Item 
+Details 
+ 
+If applicable, notification sent to state or federal law enforcement agencies of 
+possible criminal investigation. 
+ 
+If applicable, notification sent to CMS for compliance investigation. 
+ 
+If applicable, notification sent to MFCU of compliance investigation. 
+ 
+If applicable, notification sent to OIG of compliance investigation. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request to investigate adverse action incident. 
+2. Assign and authorize an adverse action incident manager to manage an incident 
+and request additional information. 
+3. Establish adverse action incident case with required information. 
+4. Examine information associated with the case, and request more historical 
+information as needed. 
+5. Determine action to take (e.g., journal entry, appointment scheduling, research, 
+communication). 
+6. Perform appropriate action. 
+7. Correspond with providers, members, agents, guardians, attorneys, and others 
+to notify them regarding the investigation, their rights, and the right of the SMA 
+to request documentation. 
+8. If applicable, send alert to notify member via Manage Applicant and Member 
+Communication business process of incident tracking information. 
+9. If applicable, send alert to notify provider via Manage Provider 
+Communication business process of incident tracking information. 
+10. If applicable, send sent to notify contractor via Manage Contractor 
+Communication business process of incident tracking information. 
+11. Conduct inquiries and investigations. Depending on the type of case, the SMA 
+may need to conduct different external inquiries (e.g., view medical records, 
+interview members, validate credentials). 
+12. Document evidence as required. 
+13. When research and analysis are complete, report the case disposition (e.g., 
+cancel incident, claim damages, identify corrective action, suspend or terminate 
+participation in Medicaid Program). 
+14. If applicable, send alert to Disenroll Member business process to remove 
+member from services. 
+15. If applicable, send alert to Disenroll Provider business process to remove 
+provider from services. 
+16. If applicable, send alert to Terminate Provider business process to cease 
+activities with provider. 
+
+
+================================================================================
+PAGE 11
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 183
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 213.1 y= 113.7] Determine Adverse Action Incident
+[x= 102.1 y= 126.8] Item
+[x= 329.3 y= 126.8] Details
+[x= 160.2 y= 139.8] 17. If applicable, send alert to
+[x= 295.0 y= 139.8] Close Out Contract
+[x= 386.2 y= 139.8] business process to cease
+[x= 178.2 y= 151.3] activities with contractor.
+[x= 160.2 y= 168.8] 18. If applicable, send notification to state or federal law enforcement agencies of
+[x= 178.2 y= 180.3] possible criminal investigation.
+[x= 160.2 y= 197.8] 19. If applicable, send notification to CMS for compliance investigation.
+[x= 160.2 y= 215.3] 20. If applicable, send notification to MFCU of compliance investigation.
+[x= 160.2 y= 232.8] 21. If applicable, send notification to OIG of compliance investigation.
+[x= 160.2 y= 250.3] 22.
+[x= 178.2 y= 250.3] END:
+[x= 202.7 y= 250.3] Close adverse action incident.
+[x=  77.4 y= 269.3] Shared Data
+[x= 160.2 y= 268.3] Member data store including demographics, eligibility, enrollment, and grievance
+[x= 160.2 y= 279.8] information
+[x= 160.2 y= 297.3] Provider data store including provider network, contract, and grievance information
+[x= 160.2 y= 314.8] Contractor data store including provider network, and contract information
+[x= 160.2 y= 332.3] Claims data store including payment information
+[x= 160.2 y= 349.8] Financial data store including accounts receivable and accounts payable information
+[x= 160.2 y= 367.3] Business Activity data store including performance information
+[x= 160.2 y= 384.8] Compliance Management data store including compliance incident information
+[x=  77.4 y= 398.9] Predecessor
+[x= 160.2 y= 403.9] Establish Compliance Incident
+[x=  77.4 y= 422.8] Successor
+[x= 160.2 y= 427.9] Manage Applicant and Member Communication
+[x= 160.2 y= 445.4] Manage Provider Communication
+[x= 160.2 y= 462.9] Manage Contractor Communication
+[x= 160.2 y= 480.4] Disenroll Member
+[x= 160.2 y= 497.9] Disenroll Provider
+[x= 160.2 y= 515.4] Terminate Provider
+[x= 160.2 y= 532.9] Close Out Contract
+[x=  77.4 y= 551.8] Constraints
+[x= 160.2 y= 551.8] States and programs within States establish different criteria for their investigations.
+[x= 160.2 y= 563.3] Rules change along with the experience of the state, health care best practices,
+[x= 160.2 y= 574.8] modifications in benefits, and with the addition of new provider and member types.
+[x=  77.4 y= 588.8] Failures
+[x= 160.2 y= 593.5] 
+[x= 178.2 y= 594.5] No request to investigate adverse action incident received.
+[x= 160.2 y= 611.6] 
+[x= 178.2 y= 612.6] Ceased incident without reaching disposition.
+[x=  77.4 y= 631.7] Performance
+[x=  77.4 y= 643.2] Measures
+[x= 160.2 y= 636.3] 
+[x= 178.2 y= 637.3] Time lag between request for documents and receipt = __ Days, __ Hours
+[x= 160.2 y= 654.5] 
+[x= 178.2 y= 655.5] Time to bring a case to closure = __ Months, __ Weeks
+[x= 160.2 y= 672.6] 
+[x= 178.2 y= 673.6] Number of cases that the agency is able to close within designated time period
+[x= 178.2 y= 685.1] = ___
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 183 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+ Determine Adverse Action Incident 
+Item 
+Details 
+17. If applicable, send alert to Close Out Contract business process to cease 
+activities with contractor. 
+18. If applicable, send notification to state or federal law enforcement agencies of 
+possible criminal investigation. 
+19. If applicable, send notification to CMS for compliance investigation. 
+20. If applicable, send notification to MFCU of compliance investigation. 
+21. If applicable, send notification to OIG of compliance investigation. 
+22. END: Close adverse action incident. 
+Shared Data 
+Member data store including demographics, eligibility, enrollment, and grievance 
+information 
+Provider data store including provider network, contract, and grievance information 
+Contractor data store including provider network, and contract information 
+Claims data store including payment information 
+Financial data store including accounts receivable and accounts payable information 
+Business Activity data store including performance information 
+Compliance Management data store including compliance incident information 
+Predecessor 
+Establish Compliance Incident 
+Successor 
+Manage Applicant and Member Communication 
+Manage Provider Communication 
+Manage Contractor Communication 
+Disenroll Member 
+Disenroll Provider 
+Terminate Provider 
+Close Out Contract 
+Constraints 
+States and programs within States establish different criteria for their investigations. 
+Rules change along with the experience of the state, health care best practices, 
+modifications in benefits, and with the addition of new provider and member types. 
+Failures 
+ 
+No request to investigate adverse action incident received. 
+ 
+Ceased incident without reaching disposition. 
+Performance 
+Measures 
+ 
+Time lag between request for documents and receipt = __ Days, __ Hours 
+ 
+Time to bring a case to closure = __ Months, __ Weeks 
+ 
+Number of cases that the agency is able to close within designated time period 
+= ___ 
+
+
+================================================================================
+PAGE 12
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 184
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 213.1 y= 113.7] Determine Adverse Action Incident
+[x= 102.1 y= 126.8] Item
+[x= 329.3 y= 126.8] Details
+[x= 160.2 y= 139.4] 
+[x= 178.2 y= 140.5] Percent cases closed without grievance or appeal = ___%
+[x=  72.0 y= 183.4] Prepare REOMB
+[x=  77.4 y= 210.5] PE Compliance Management
+[x= 263.5 y= 223.6] Prepare REOMB
+[x= 102.1 y= 236.8] Item
+[x= 329.4 y= 236.8] Details
+[x=  77.4 y= 250.8] Description
+[x= 160.3 y= 255.8] The
+[x= 180.4 y= 255.8] Prepare REOMB
+[x= 260.4 y= 255.8] business process is responsible for the creation of Recipient
+[x= 160.3 y= 267.3] Explanation of Medicaid Benefits (REOMB) for detecting payment problems. The
+[x= 160.3 y= 278.8] State Medicaid Agency (SMA) sends the REOMB to randomly selected members of
+[x= 160.3 y= 290.3] Medicaid services. It gives information on the Medicaid services paid on behalf of
+[x= 160.3 y= 301.8] the member. The communication includes the provider's name, the date(s) of
+[x= 160.3 y= 313.3] services, and the payment amount(s). Instructions on the communication tell the
+[x= 160.3 y= 324.8] member what to do if the provider did not actually perform any of the listed services
+[x= 160.3 y= 336.3] billed directly to him/her by the provider.
+[x= 160.3 y= 353.8] NOTE:
+[x= 196.3 y= 353.8] This business process does not include the handling of returned information.
+[x=  77.4 y= 372.8] Trigger Event
+[x= 160.3 y= 372.7] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 390.0] 
+[x= 178.3 y= 391.0] Periodic timetable is due for generation of the REOMB sample information.
+[x=  77.4 y= 410.0] Result
+[x= 160.3 y= 414.6] 
+[x= 178.3 y= 415.6] Member receives REOMB.
+[x= 160.3 y= 432.8] 
+[x= 178.3 y= 433.8] Alert sent with REOMB notification to member via
+[x= 400.1 y= 433.8] Manage Applicant and
+[x= 178.3 y= 445.3] Member Communication
+[x= 297.8 y= 445.3] business process
+[x= 377.8 y= 445.3] with REOMB information.
+[x= 160.3 y= 462.4] 
+[x= 178.3 y= 463.4] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 475.0] activity monitoring.
+[x=  77.4 y= 494.0] Business
+[x=  77.4 y= 505.5] Process Steps
+[x= 160.3 y= 499.0] 1.
+[x= 178.3 y= 499.0] START:
+[x= 215.0 y= 499.0] Timetable for scheduled REOMB generation.
+[x= 160.3 y= 516.5] 2. Identify member selection using random sampling methodology.
+[x= 160.3 y= 533.9] 3. Review sample selection information.
+[x= 160.3 y= 551.5] 4. Prepare REOMB for each select member.
+[x= 160.3 y= 569.0] 5.
+[x= 178.3 y= 569.0] END:
+[x= 202.8 y= 569.0] Send alert to member via
+[x= 320.0 y= 569.0] Manage Applicant and Member
+[x= 178.3 y= 580.4] Communication
+[x= 253.9 y= 580.4] business process with REOMB information.
+[x=  77.4 y= 599.5] Shared Data
+[x= 160.3 y= 604.4] Member data store including demographics information
+[x= 160.3 y= 622.0] Claims data store including payment information
+[x=  77.4 y= 641.0] Predecessor
+[x= 160.3 y= 640.9] None
+[x=  77.4 y= 655.0] Successor
+[x= 160.3 y= 660.1] Manage Applicant and Member Communication
+[x=  77.4 y= 679.0] Constraints
+[x= 160.3 y= 679.0] The policies and business rules for preparing the REOMB sample information differ
+[x= 160.3 y= 690.5] by state. The SMA will provide the REOMB or letters to the members within 45 days
+[x= 160.3 y= 701.9] of payment of claims.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 184 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+ Determine Adverse Action Incident 
+Item 
+Details 
+ 
+Percent cases closed without grievance or appeal = ___% 
+ 
+Prepare REOMB 
+PE Compliance Management 
+Prepare REOMB 
+Item 
+Details 
+Description 
+The Prepare REOMB business process is responsible for the creation of Recipient 
+Explanation of Medicaid Benefits (REOMB) for detecting payment problems. The 
+State Medicaid Agency (SMA) sends the REOMB to randomly selected members of 
+Medicaid services. It gives information on the Medicaid services paid on behalf of 
+the member. The communication includes the provider's name, the date(s) of 
+services, and the payment amount(s). Instructions on the communication tell the 
+member what to do if the provider did not actually perform any of the listed services 
+billed directly to him/her by the provider.  
+NOTE: This business process does not include the handling of returned information.
+Trigger Event 
+Environment-based Trigger Events to include but not limited to:  
+ 
+Periodic timetable is due for generation of the REOMB sample information.  
+Result 
+ 
+Member receives REOMB. 
+ 
+Alert sent with REOMB notification to member via Manage Applicant and 
+Member Communication business process with REOMB information. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Timetable for scheduled REOMB generation. 
+2. Identify member selection using random sampling methodology. 
+3. Review sample selection information. 
+4. Prepare REOMB for each select member. 
+5. END: Send alert to member via Manage Applicant and Member 
+Communication business process with REOMB information. 
+Shared Data 
+Member data store including demographics information 
+Claims data store including payment information 
+Predecessor 
+None  
+Successor 
+Manage Applicant and Member Communication 
+Constraints 
+The policies and business rules for preparing the REOMB sample information differ 
+by state. The SMA will provide the REOMB or letters to the members within 45 days 
+of payment of claims. 
+
+
+================================================================================
+PAGE 13
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 185
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PE Compliance Management
+[x= 263.5 y= 113.7] Prepare REOMB
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x=  77.4 y= 140.8] Failures
+[x= 160.3 y= 145.5] 
+[x= 178.3 y= 146.5] This business process has no failure modes that prevent the process from going
+[x= 178.3 y= 158.0] to completion.
+[x=  77.4 y= 177.1] Performance
+[x=  77.4 y= 188.6] Measures
+[x= 160.3 y= 181.6] 
+[x= 178.3 y= 182.6] Time to complete process: e.g., Batch Responses = within __ hours
+[x= 160.3 y= 199.8] 
+[x= 178.3 y= 200.8] Error rate = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 185 
+May 2014 
+Version 3.0 
+ 
+ 
+PE Compliance Management 
+Prepare REOMB 
+Item 
+Details 
+Failures 
+ 
+This business process has no failure modes that prevent the process from going 
+to completion. 
+Performance 
+Measures 
+ 
+Time to complete process: e.g., Batch Responses = within __ hours 
+ 
+Error rate = __% or less 
+ 
+

@@ -10,7 +10,7 @@
     "description": "The Establish Compliance Incident business process is responsible registration of a case for incident tracking of utilization anomalies. It establishes an incident file, generates incident identification, assigns an incident manager, links to related cases, and collects related documentation.",
     "trigger_events": {
       "environment_based": [
-        "PE Compliance Management Establish Compliance Incident Item Details",
+        
         "Request to initiate incident tracking for business partner, member, provider, contractor or other entity.",
         "Request to initiate incident from communication (e.g., mail, telephone, facsimile or web).",
         "Receive requests for suppression of information or corrective action from federal and state law enforcement.",

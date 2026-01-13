@@ -14,7 +14,7 @@
         "End of the calendar year. State transition Trigger Events:",
         "Receive information from Process Claim or Manage Accounts Payable Information business processes indicating payments and/or recoupments.",
         "Receive information from Manage Provider Information business process for modifications.",
-        "Receive information from Manage Contractor Information business process for modifications. FM Accounts Payable Management Manage 1099 Item Details"
+        "Receive information from Manage Contractor Information business process for modifications."
       ],
       "interaction_based": []
     },

@@ -31,7 +31,7 @@
       "6. Create, inquire, delete or modify relevant contractor information.",
       "7. Send alert to notify Health Insurance Marketplace of provider network modification.",
       "8. Send alert to notify insurance affordability program of provider network modification.",
-      "9. Send alert to Manage Contractor Communication business process to notify",
+      "9. Send alert to Manage Contractor Communication business process to notify provider of relevant modifications.",
       "10. END: The SMA creates, inquires on, deletes, or modifies contractor information."
     ],
     "diagrams": [],

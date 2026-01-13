@@ -11,7 +11,7 @@
     "trigger_events": {
       "environment_based": [
         "Receive application via online, in person, over the phone, by mail, or other commonly available electronic means.",
-        "Periodic timetable (e.g., annual) for existing member who is due for redetermination EE Member Enrollment Determine Member Eligibility Item Details of eligibility. Applicant or authorized representative responds to renewal form by providing information via online, in person, over the phone, by mail, or other commonly available electronic means.",
+        "Periodic timetable (e.g., annual) for existing member who is due for redetermination of eligibility. Applicant or authorized representative responds to renewal form by providing information via online, in person, over the phone, by mail, or other commonly available electronic means.",
         "Receive modification to application from applicant or authorized representative or change report from member or authorized representative or from other data sources."
       ],
       "interaction_based": [

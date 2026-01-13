@@ -12,7 +12,7 @@
       "environment_based": [
         "Receive negotiated contract information from Award Contract business process.",
         "Periodic timetable (e.g., yearly) is due for contract review.",
-        "External event (e.g., policy, budget modification) necessitates contract amendment. CO Contract Management Manage Contract Item Details",
+        "External event (e.g., policy, budget modification) necessitates contract amendment.",
         "Receive contract modifications (e.g., create, updated, or delete).",
         "Receive terminate contract information from Close Out Contract business process."
       ],

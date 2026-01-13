@@ -11,7 +11,7 @@
     "trigger_events": {
       "environment_based": [
         "Periodic timetable is due for receipt of Medicare eligibility information.",
-        "Periodic timetable (e.g., monthly) is due for insurance premium eligibility redetermination and payments. FM Accounts Payable Management Manage Member Financial Participation Item Details",
+        "Periodic timetable (e.g., monthly) is due for insurance premium eligibility redetermination and payments.",
         "Receive insurance information either by the member or through a referral."
       ],
       "interaction_based": []

@@ -1,0 +1,1761 @@
+====================================================================================================
+PROVIDER MANAGEMENT BPT - RAW DUMP FOR MANUAL JSON VERIFICATION
+====================================================================================================
+
+This file contains raw text extracted from the PDF with position information.
+Use this to verify the BPT JSON files are accurate.
+
+
+================================================================================
+PAGE 1
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 205
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Manage Provider Information
+[x=  77.4 y= 127.2] PM Provider Information Management
+[x= 229.9 y= 140.4] Manage Provider Information
+[x= 102.1 y= 153.5] Item
+[x= 329.4 y= 153.5] Details
+[x=  77.4 y= 167.5] Description
+[x= 160.3 y= 167.5] The
+[x= 180.3 y= 167.5] Manage Provider Information
+[x= 318.7 y= 167.5] business process is responsible for managing
+[x= 160.3 y= 179.0] all operational aspects of the Provider data store, which is the source of
+[x= 160.3 y= 190.5] comprehensive information about prospective and contracted providers and their
+[x= 160.3 y= 202.0] interactions with the State Medicaid Agency (SMA). The Provider data store is the
+[x= 160.3 y= 213.5] SMA Source of Record (SOR) for provider demographic, business, credentialing,
+[x= 160.3 y= 225.0] enumeration, performance profiles, payment processing, and tax information. The
+[x= 160.3 y= 236.5] data store includes contractual terms (e.g., the services the provider is to provide)
+[x= 160.3 y= 248.0] related performance measures, and the reimbursement rates for those services.
+[x= 160.3 y= 273.0] In addition, the Provider data store contains records about and tracks the processing
+[x= 160.3 y= 284.5] of provider enrollment applications, credentialing and enumeration verification, and
+[x= 160.3 y= 296.0] all communications with or about the provider, including provider verification
+[x= 160.3 y= 307.5] requests and responses, and interactions related to any grievance/appeal. The
+[x= 160.3 y= 319.0] Provider data store may store records or pointers to records for services requested
+[x= 160.3 y= 330.5] and services provided, performance, utilization, and program integrity reviews, and
+[x= 160.3 y= 342.0] participation in member care management. Business processes that generate
+[x= 160.3 y= 353.5] prospective or contracted provider information send requests to the Member data
+[x= 160.3 y= 365.0] store to add, delete, or modify information. The Provider data store validates
+[x= 160.3 y= 376.5] information upload requests, applies instructions, and tracks activity. The Provider
+[x= 160.3 y= 388.0] data store provides access to provider records to applications and staff via batch
+[x= 160.3 y= 399.5] record transfers, responses to queries, and subscription services.
+[x=  77.4 y= 413.5] Trigger Event
+[x= 160.3 y= 413.5] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 430.7] 
+[x= 178.3 y= 431.7] Receive request to create, inquire, delete, or modify provider information from
+[x= 178.3 y= 443.2] authorized individuals via email, mail, facsimile, telephone or web.
+[x= 160.3 y= 460.3] 
+[x= 178.3 y= 461.3] Receive request to verify provider information from authorized external parties.
+[x=  77.4 y= 480.4] Result
+[x= 160.3 y= 485.0] 
+[x= 178.3 y= 486.0] The SMA creates, inquires on, modifies or deletes provider information.
+[x= 160.3 y= 503.2] 
+[x= 178.3 y= 504.2] Alert sent to notify Health Insurance Marketplace of provider network
+[x= 178.3 y= 515.7] modification information.
+[x= 160.3 y= 532.8] 
+[x= 178.3 y= 533.8] Alert sent to notify insurance affordability program (i.e., Medicare, CHIP and
+[x= 178.3 y= 545.3] Basic Health Program) of provider network modification.
+[x= 160.3 y= 562.5] 
+[x= 178.3 y= 563.5] Alert sent to
+[x= 234.4 y= 563.5] Manage Provider Communication
+[x= 393.4 y= 563.5] to notify provider of relevant
+[x= 178.3 y= 575.0] modifications.
+[x= 160.3 y= 592.2] 
+[x= 178.3 y= 593.2] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 604.7] activity monitoring.
+[x=  77.4 y= 623.8] Business
+[x=  77.4 y= 635.3] Process Steps
+[x= 160.3 y= 628.7] 1.
+[x= 178.3 y= 628.7] START:
+[x= 215.0 y= 628.7] Receive request from authorized individuals or agencies to create,
+[x= 178.3 y= 640.2] inquire, delete or modify provider information.
+[x= 160.3 y= 657.7] 2. Agency logs request for provider information.
+[x= 160.3 y= 675.2] 3. Validate information submitted is correct and as complete as possible.
+[x= 178.3 y= 686.7] Information complies with syntax criteria and requestor has completed all
+[x= 178.3 y= 698.2] required fields.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 205 
+May 2014 
+Version 3.0 
+ 
+ 
+Manage Provider Information 
+PM Provider Information Management 
+Manage Provider Information 
+Item 
+Details 
+Description 
+The Manage Provider Information business process is responsible for managing 
+all operational aspects of the Provider data store, which is the source of 
+comprehensive information about prospective and contracted providers and their 
+interactions with the State Medicaid Agency (SMA). The Provider data store is the 
+SMA Source of Record (SOR) for provider demographic, business, credentialing, 
+enumeration, performance profiles, payment processing, and tax information. The 
+data store includes contractual terms (e.g., the services the provider is to provide) 
+related performance measures, and the reimbursement rates for those services. 
+  
+In addition, the Provider data store contains records about and tracks the processing 
+of provider enrollment applications, credentialing and enumeration verification, and 
+all communications with or about the provider, including provider verification 
+requests and responses, and interactions related to any grievance/appeal. The 
+Provider data store may store records or pointers to records for services requested 
+and services provided, performance, utilization, and program integrity reviews, and 
+participation in member care management. Business processes that generate 
+prospective or contracted provider information send requests to the Member data 
+store to add, delete, or modify information. The Provider data store validates 
+information upload requests, applies instructions, and tracks activity. The Provider 
+data store provides access to provider records to applications and staff via batch 
+record transfers, responses to queries, and subscription services. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive request to create, inquire, delete, or modify provider information from 
+authorized individuals via email, mail, facsimile, telephone or web. 
+ 
+Receive request to verify provider information from authorized external parties. 
+Result 
+ 
+The SMA creates, inquires on, modifies or deletes provider information. 
+ 
+Alert sent to notify Health Insurance Marketplace of provider network 
+modification information. 
+ 
+Alert sent to notify insurance affordability program (i.e., Medicare, CHIP and 
+Basic Health Program) of provider network modification. 
+ 
+Alert sent to Manage Provider Communication to notify provider of relevant 
+modifications. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request from authorized individuals or agencies to create, 
+inquire, delete or modify provider information. 
+2. Agency logs request for provider information. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+
+
+================================================================================
+PAGE 2
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 206
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Information Management
+[x= 229.9 y= 113.7] Manage Provider Information
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.8] 4. Validate the authorization by requestor to acquire provider information.
+[x= 160.3 y= 157.3] 5. Find appropriate provider.
+[x= 160.3 y= 174.8] 6. Create, inquire, delete or modify relevant provider information.
+[x= 160.3 y= 192.3] 7. Send alert to notify Health Insurance Marketplace of provider network
+[x= 178.3 y= 203.8] modification.
+[x= 160.3 y= 221.3] 8. Send alert to notify insurance affordability program of provider network
+[x= 178.3 y= 232.8] modification.
+[x= 160.3 y= 250.3] 9. Send alert to
+[x= 237.7 y= 250.3] Manage Provider Communication
+[x= 396.7 y= 250.3] to notify provider of relevant
+[x= 178.3 y= 261.8] modifications
+[x= 160.3 y= 279.3] 10.
+[x= 178.3 y= 279.3] END:
+[x= 202.7 y= 279.3] The SMA creates, inquires on, deletes, or modifies provider information.
+[x=  77.4 y= 298.3] Shared Data
+[x= 160.3 y= 303.3] Provider data store including provider network, contract, demographics, application,
+[x= 160.3 y= 314.8] eligibility, enrollment, grievance, appeals and communications information
+[x= 160.3 y= 332.3] Financial data store including payment information
+[x= 160.3 y= 349.8] Plan data store including policy information
+[x= 160.3 y= 367.3] Health Benefit data store including benefit program and benefit information
+[x= 160.3 y= 384.8] Claims data store including claim status and claims payment information
+[x= 160.3 y= 402.3] Care Management data store including case management, health record, and
+[x= 160.3 y= 413.8] clinical data information
+[x= 160.3 y= 431.3] Business Activity data store including performance information
+[x=  77.4 y= 445.3] Predecessor
+[x= 160.3 y= 450.4] Receive Inbound Transaction
+[x= 160.3 y= 467.9] Determine Provider Eligibility
+[x= 160.3 y= 485.4] Enroll Provider
+[x= 160.3 y= 502.9] Disenroll Provider
+[x= 160.3 y= 520.4] Terminate Provider
+[x= 160.3 y= 537.9] Perform Provider Outreach
+[x= 160.3 y= 555.4] Manage Provider Communication
+[x= 160.3 y= 572.9] Manage Provider Grievance and Appeal
+[x= 160.3 y= 590.4] Establish Compliance Incident
+[x= 160.3 y= 607.9] Determine Adverse Action Incident
+[x=  77.4 y= 626.8] Successor
+[x= 160.3 y= 631.9] Send Outbound Transaction
+[x= 160.3 y= 649.4] Determine Provider Eligibility
+[x= 160.3 y= 666.9] Enroll Provider
+[x= 160.3 y= 684.4] Disenroll Provider
+[x= 160.3 y= 701.9] Terminate Provider
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 206 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Information Management 
+Manage Provider Information 
+Item 
+Details 
+4. Validate the authorization by requestor to acquire provider information. 
+5. Find appropriate provider. 
+6. Create, inquire, delete or modify relevant provider information. 
+7. Send alert to notify Health Insurance Marketplace of provider network 
+modification. 
+8. Send alert to notify insurance affordability program of provider network 
+modification. 
+9. Send alert to Manage Provider Communication to notify provider of relevant 
+modifications 
+10. END: The SMA creates, inquires on, deletes, or modifies provider information. 
+Shared Data 
+Provider data store including provider network, contract, demographics, application, 
+eligibility, enrollment, grievance, appeals and communications information 
+Financial data store including payment information 
+Plan data store including policy information 
+Health Benefit data store including benefit program and benefit information 
+Claims data store including claim status and claims payment information 
+Care Management data store including case management, health record, and 
+clinical data information 
+Business Activity data store including performance information  
+Predecessor 
+Receive Inbound Transaction 
+Determine Provider Eligibility 
+Enroll Provider 
+Disenroll Provider 
+Terminate Provider 
+Perform Provider Outreach 
+Manage Provider Communication 
+Manage Provider Grievance and Appeal 
+Establish Compliance Incident 
+Determine Adverse Action Incident 
+Successor 
+Send Outbound Transaction 
+Determine Provider Eligibility 
+Enroll Provider 
+Disenroll Provider 
+Terminate Provider 
+
+
+================================================================================
+PAGE 3
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 207
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Information Management
+[x= 229.9 y= 113.7] Manage Provider Information
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.9] Perform Provider Outreach
+[x= 160.3 y= 157.4] Manage Provider Communication
+[x= 160.3 y= 175.0] Manage Provider Grievance and Appeal
+[x= 160.3 y= 192.4] Manage Provider Recoupment
+[x= 160.3 y= 209.9] Manage Contractor Payment
+[x= 160.3 y= 227.5] Manage Capitation Payment
+[x= 160.3 y= 244.9] Establish Compliance Incident
+[x= 160.3 y= 262.4] Manage Data
+[x=  77.4 y= 281.3] Constraints
+[x= 160.3 y= 286.3] State-specific workflows determine which processes load and access the Provider
+[x= 160.3 y= 297.8] data store and by which interactions and messages (e.g., query/response, batch
+[x= 160.3 y= 309.3] uploads, publish and subscribe, etc.), the information content and how they will
+[x= 160.3 y= 320.8] structure data store records, as well as determine how to validate the incoming
+[x= 160.3 y= 332.3] information prior to updating the Provider data store. Archive information in
+[x= 160.3 y= 343.8] accordance with state and federal record retention requirements.
+[x=  77.4 y= 362.8] Failures
+[x= 160.3 y= 367.5] 
+[x= 178.3 y= 368.5] Requestor has no authorization to the provider information.
+[x= 160.3 y= 385.6] 
+[x= 178.3 y= 386.6] Unable to find requested Provider.
+[x= 160.3 y= 403.8] 
+[x= 178.3 y= 404.8] Provider information is not available for inquiry.
+[x=  77.4 y= 423.9] Performance
+[x=  77.4 y= 435.4] Measures
+[x= 160.3 y= 428.5] 
+[x= 178.3 y= 429.5] Time to complete process: e.g., Real Time response = within __ seconds, Batch
+[x= 178.3 y= 441.0] Response = within __ days
+[x= 160.3 y= 458.2] 
+[x= 178.3 y= 459.2] Accuracy of decisions = ___%
+[x= 160.3 y= 476.3] 
+[x= 178.3 y= 477.3] Consistency of decisions and disposition = ___%
+[x= 160.3 y= 494.5] 
+[x= 178.3 y= 495.5] Error rate = __% or less
+[x=  72.0 y= 538.5] Terminate Provider
+[x=  77.4 y= 565.5] PM Provider Information Management
+[x= 255.8 y= 578.7] Terminate Provider
+[x= 103.2 y= 591.8] Item
+[x= 330.4 y= 591.8] Details
+[x=  77.4 y= 605.8] Description
+[x= 162.4 y= 610.8] The
+[x= 182.5 y= 610.8] Terminate Provider
+[x= 273.7 y= 610.8] business process is responsible for the termination of
+[x= 162.4 y= 622.3] provider agreement to participate in the Medicaid Program. The basis for
+[x= 162.4 y= 633.8] termination can be:
+[x= 162.4 y= 650.9] 
+[x= 180.4 y= 652.0] Centers for Medicare & Medicaid Services (CMS) and the State Medicaid
+[x= 180.4 y= 663.5] Agency (SMA) terminate a provider agreement if an individual provider:
+[x= 180.4 y= 681.7] o
+[x= 198.4 y= 681.0] Is not in substantial compliance with the requirements of participation,
+[x= 198.4 y= 692.5] regardless of whether immediate jeopardy is present; or
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 207 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Information Management 
+Manage Provider Information 
+Item 
+Details 
+Perform Provider Outreach 
+Manage Provider Communication 
+Manage Provider Grievance and Appeal 
+Manage Provider Recoupment 
+Manage Contractor Payment 
+Manage Capitation Payment 
+Establish Compliance Incident 
+Manage Data 
+Constraints 
+State-specific workflows determine which processes load and access the Provider 
+data store and by which interactions and messages (e.g., query/response, batch 
+uploads, publish and subscribe, etc.), the information content and how they will 
+structure data store records, as well as determine how to validate the incoming 
+information prior to updating the Provider data store. Archive information in 
+accordance with state and federal record retention requirements. 
+Failures 
+ 
+Requestor has no authorization to the provider information. 
+ 
+Unable to find requested Provider. 
+ 
+Provider information is not available for inquiry. 
+Performance 
+Measures 
+ 
+Time to complete process: e.g., Real Time response = within __ seconds, Batch 
+Response = within __ days 
+ 
+Accuracy of decisions = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+Terminate Provider 
+PM Provider Information Management 
+Terminate Provider 
+Item 
+Details 
+Description 
+The Terminate Provider business process is responsible for the termination of 
+provider agreement to participate in the Medicaid Program. The basis for 
+termination can be: 
+ 
+Centers for Medicare & Medicaid Services (CMS) and the State Medicaid 
+Agency (SMA) terminate a provider agreement if an individual provider:  
+o 
+Is not in substantial compliance with the requirements of participation, 
+regardless of whether immediate jeopardy is present; or  
+
+
+================================================================================
+PAGE 4
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 208
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Information Management
+[x= 255.8 y= 113.7] Terminate Provider
+[x= 103.2 y= 126.8] Item
+[x= 330.4 y= 126.8] Details
+[x= 180.4 y= 140.5] o
+[x= 198.4 y= 139.8] Provider does not meet the eligibility criteria for continuation of payment as
+[x= 198.4 y= 151.3] set forth in 42 CFR 488.412(a)(1).
+[x= 162.4 y= 168.5] 
+[x= 180.4 y= 169.5] CMS and the state may terminate a facility's provider agreement if a facility:
+[x= 180.4 y= 187.7] o
+[x= 198.4 y= 187.0] Is not in substantial compliance with the requirements of participation,
+[x= 198.4 y= 198.5] regardless of whether immediate jeopardy is present; or
+[x= 180.4 y= 216.7] o
+[x= 198.4 y= 216.0] Facility fails to submit an acceptable Corrective Action Plan (CAP) within
+[x= 198.4 y= 227.5] the timeframe specified by CMS or the SMA.
+[x= 162.4 y= 244.6] 
+[x= 180.4 y= 245.6] CMS and the SMA terminate a facility's provider agreement if a facility:
+[x= 180.4 y= 263.9] o
+[x= 198.4 y= 263.2] Fails to relinquish control to the temporary manager, if CMS or the SMA
+[x= 198.4 y= 274.7] imposes that remedy; or
+[x= 180.4 y= 292.9] o
+[x= 198.4 y= 292.1] Facility does not meet the eligibility criteria for continuation of payment as
+[x= 198.4 y= 303.7] set forth in 42 CFR 488.412(a)(1).
+[x= 162.4 y= 321.2] The effect of termination of the provider agreement ends: (1) payment to the facility,
+[x= 162.4 y= 332.6] and (2) any alternative remedy.
+[x=  77.4 y= 351.7] Trigger Event
+[x= 162.4 y= 356.6] Interaction-based Trigger Events to include but not limited to:
+[x= 162.4 y= 373.8] 
+[x= 180.4 y= 374.8] Receive alert from
+[x= 264.4 y= 374.8] Determine Adverse Action Incident
+[x= 430.6 y= 374.8] business process to
+[x= 180.4 y= 386.3] cease activities with provider.
+[x= 162.4 y= 403.8] Environment-based Trigger Events to include but not limited to:
+[x= 162.4 y= 421.0] 
+[x= 180.4 y= 422.0] Receive request to terminate provider.
+[x= 162.4 y= 439.2] 
+[x= 180.4 y= 440.2] Receive notification of termination of provider from insurance affordability
+[x= 180.4 y= 451.7] program.
+[x=  77.4 y= 470.7] Result
+[x= 162.4 y= 475.3] 
+[x= 180.4 y= 476.3] Removal of provider or contractor from participation in Medicaid Program.
+[x= 162.4 y= 493.5] 
+[x= 180.4 y= 494.5] Alert sent to notify provider via
+[x= 317.7 y= 494.5] Manage Provider Communication
+[x= 476.6 y= 494.5] business
+[x= 180.4 y= 506.0] process of termination proceedings.
+[x= 162.4 y= 523.2] 
+[x= 180.4 y= 524.2] If applicable, alert sent to notify contractor via
+[x= 383.9 y= 524.2] Manage Contractor
+[x= 180.4 y= 535.7] Communication
+[x= 256.0 y= 535.7] business process of termination proceedings.
+[x= 162.4 y= 552.9] 
+[x= 180.4 y= 553.9] If applicable, alert sent to notify public via
+[x= 365.5 y= 553.9] Perform Population and Member
+[x= 180.4 y= 565.4] Outreach
+[x= 224.4 y= 565.4] business process of termination proceedings.
+[x= 162.4 y= 582.5] 
+[x= 180.4 y= 583.5] Alert sent to notify business partners via
+[x= 360.5 y= 583.5] Manage Business Relationship
+[x= 180.4 y= 595.0] Communication
+[x= 256.0 y= 595.0] business process of provider termination.
+[x= 162.4 y= 612.2] 
+[x= 180.4 y= 613.2] Alert sent to notify Health Insurance Marketplace of provider termination
+[x= 180.4 y= 624.7] information.
+[x= 162.4 y= 641.8] 
+[x= 180.4 y= 642.8] Alert sent to notify insurance affordability program of provider termination
+[x= 180.4 y= 654.4] information.
+[x= 162.4 y= 671.5] 
+[x= 180.4 y= 672.5] Tracking information as needed for measuring performance and business
+[x= 180.4 y= 684.1] activity monitoring.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 208 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Information Management 
+Terminate Provider 
+Item 
+Details 
+o 
+Provider does not meet the eligibility criteria for continuation of payment as 
+set forth in 42 CFR 488.412(a)(1). 
+ 
+CMS and the state may terminate a facility's provider agreement if a facility:  
+o 
+Is not in substantial compliance with the requirements of participation, 
+regardless of whether immediate jeopardy is present; or  
+o 
+Facility fails to submit an acceptable Corrective Action Plan (CAP) within 
+the timeframe specified by CMS or the SMA. 
+ 
+CMS and the SMA terminate a facility's provider agreement if a facility:  
+o 
+Fails to relinquish control to the temporary manager, if CMS or the SMA 
+imposes that remedy; or  
+o 
+Facility does not meet the eligibility criteria for continuation of payment as 
+set forth in 42 CFR 488.412(a)(1). 
+The effect of termination of the provider agreement ends: (1) payment to the facility, 
+and (2) any alternative remedy. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive alert from Determine Adverse Action Incident business process to 
+cease activities with provider. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive request to terminate provider. 
+ 
+Receive notification of termination of provider from insurance affordability 
+program. 
+Result 
+ 
+Removal of provider or contractor from participation in Medicaid Program. 
+ 
+Alert sent to notify provider via Manage Provider Communication business 
+process of termination proceedings. 
+ 
+If applicable, alert sent to notify contractor via Manage Contractor 
+Communication business process of termination proceedings. 
+ 
+If applicable, alert sent to notify public via Perform Population and Member 
+Outreach business process of termination proceedings. 
+ 
+Alert sent to notify business partners via Manage Business Relationship 
+Communication business process of provider termination. 
+ 
+Alert sent to notify Health Insurance Marketplace of provider termination 
+information. 
+ 
+Alert sent to notify insurance affordability program of provider termination 
+information. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+
+
+================================================================================
+PAGE 5
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 209
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Information Management
+[x= 255.8 y= 113.7] Terminate Provider
+[x= 103.2 y= 126.8] Item
+[x= 330.4 y= 126.8] Details
+[x=  77.4 y= 140.9] Business
+[x=  77.4 y= 152.4] Process Steps
+[x= 162.4 y= 145.8] 1.
+[x= 180.4 y= 145.8] START:
+[x= 217.1 y= 145.8] Receive request to terminate provider.
+[x= 162.4 y= 163.3] 2. Review determination of noncompliance and investigation materials.
+[x= 162.4 y= 180.8] 3. Send alert to notify provider via
+[x= 321.0 y= 180.8] Manage Provider Communication
+[x= 479.9 y= 180.8] business
+[x= 180.4 y= 192.3] process of termination proceedings.
+[x= 162.4 y= 209.8] 4. If applicable, send alert to notify contractor via
+[x= 386.6 y= 209.8] Manage Contractor
+[x= 180.4 y= 221.3] Communication
+[x= 256.0 y= 221.3] business process of termination proceedings.
+[x= 162.4 y= 238.8] 5. If applicable, send alert to notify public via
+[x= 368.3 y= 238.8] Perform Population and Member
+[x= 180.4 y= 250.3] Outreach
+[x= 224.4 y= 250.3] business process of termination proceedings.
+[x= 162.4 y= 267.8] 6. Conduct communications and investigations within required timeframes.
+[x= 162.4 y= 285.3] 7. If provider had implemented systems and processes to ensure that the
+[x= 180.4 y= 296.8] likelihood of further violation is remote, and there is adequate evidence that the
+[x= 180.4 y= 308.3] provider is in compliance with the requirements, the SMA rescinds the
+[x= 180.4 y= 319.8] termination action and puts the provider back into compliance.
+[x= 162.4 y= 337.3] 8. If provider has not implemented systems and processes to avoid further
+[x= 180.4 y= 348.8] violations, terminate the provider.
+[x= 162.4 y= 366.3] 9. Send alert to notify business partners via
+[x= 363.8 y= 366.3] Manage Business Relationship
+[x= 180.4 y= 377.8] Communication
+[x= 256.0 y= 377.8] of provider termination.
+[x= 162.4 y= 395.3] 10. Send alert to notify Health Insurance Marketplace of provider termination
+[x= 180.4 y= 406.8] information.
+[x= 162.4 y= 424.3] 11. Send alert to notify insurance affordability program of provider termination
+[x= 180.4 y= 435.8] information.
+[x= 162.4 y= 453.3] 12.
+[x= 180.4 y= 453.3] END:
+[x= 204.9 y= 453.3] Remove provider or contractor from participation in Medicaid Program.
+[x=  77.4 y= 472.3] Shared Data
+[x= 162.4 y= 477.3] Provider data store including provider network and contract information
+[x= 162.4 y= 494.8] Business Activity data store including performance information
+[x= 162.4 y= 512.3] Compliance Management data store including compliance incident information
+[x= 162.4 y= 529.8] Insurance Affordability Program data store including eligibility and enrollment
+[x= 162.4 y= 541.3] information
+[x=  77.4 y= 560.3] Predecessor
+[x= 162.4 y= 565.4] Determine Adverse Action Incident
+[x=  77.4 y= 584.3] Successor
+[x= 162.4 y= 589.4] Manage Provider Communication
+[x= 162.4 y= 606.9] Manage Contractor Communication
+[x= 162.4 y= 624.4] Perform Population and Member Outreach
+[x= 162.4 y= 641.9] Manage Business Relationship Communication
+[x=  77.4 y= 660.8] Constraints
+[x= 162.4 y= 665.8] Before terminating a provider agreement, CMS and the SMA will notify the facility
+[x= 162.4 y= 677.3] and the public:
+[x= 162.4 y= 694.8] (1) At least two (2) calendar days before the effective date of termination for a
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 209 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Information Management 
+Terminate Provider 
+Item 
+Details 
+Business 
+Process Steps 
+1. START: Receive request to terminate provider. 
+2. Review determination of noncompliance and investigation materials. 
+3. Send alert to notify provider via Manage Provider Communication business 
+process of termination proceedings. 
+4. If applicable, send alert to notify contractor via Manage Contractor 
+Communication business process of termination proceedings. 
+5. If applicable, send alert to notify public via Perform Population and Member 
+Outreach business process of termination proceedings. 
+6. Conduct communications and investigations within required timeframes. 
+7. If provider had implemented systems and processes to ensure that the 
+likelihood of further violation is remote, and there is adequate evidence that the 
+provider is in compliance with the requirements, the SMA rescinds the 
+termination action and puts the provider back into compliance.  
+8. If provider has not implemented systems and processes to avoid further 
+violations, terminate the provider. 
+9. Send alert to notify business partners via Manage Business Relationship 
+Communication of provider termination. 
+10. Send alert to notify Health Insurance Marketplace of provider termination 
+information. 
+11. Send alert to notify insurance affordability program of provider termination 
+information. 
+12. END: Remove provider or contractor from participation in Medicaid Program. 
+Shared Data 
+Provider data store including provider network and contract information 
+Business Activity data store including performance information 
+Compliance Management data store including compliance incident information 
+Insurance Affordability Program data store including eligibility and enrollment 
+information 
+Predecessor 
+Determine Adverse Action Incident 
+Successor 
+Manage Provider Communication 
+Manage Contractor Communication 
+Perform Population and Member Outreach 
+Manage Business Relationship Communication 
+Constraints 
+Before terminating a provider agreement, CMS and the SMA will notify the facility 
+and the public: 
+(1) At least two (2) calendar days before the effective date of termination for a 
+
+
+================================================================================
+PAGE 6
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 210
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Information Management
+[x= 255.8 y= 113.7] Terminate Provider
+[x= 103.2 y= 126.8] Item
+[x= 330.4 y= 126.8] Details
+[x= 162.4 y= 139.8] facility with immediate jeopardy deficiencies; and
+[x= 162.4 y= 157.3] (2) At least 15 calendar days before the effective date of termination for a facility
+[x= 162.4 y= 168.8] with non-immediate jeopardy deficiencies that constitute noncompliance.
+[x=  77.4 y= 187.9] Failures
+[x= 162.4 y= 192.5] 
+[x= 180.4 y= 193.5] Unable to find requested Provider.
+[x= 162.4 y= 210.7] 
+[x= 180.4 y= 211.7] Provider information is not available for inquiry.
+[x=  77.4 y= 230.8] Performance
+[x=  77.4 y= 242.2] Measures
+[x= 162.4 y= 235.3] 
+[x= 180.4 y= 236.3] Time to complete termination process = within __ days
+[x= 162.4 y= 253.5] 
+[x= 180.4 y= 254.5] Consistency of decisions and disposition = ___%
+[x= 162.4 y= 271.6] 
+[x= 180.4 y= 272.6] Error rate = __% or less
+[x=  72.0 y= 315.7] Manage Provider Communication
+[x=  77.4 y= 342.7] PM Provider Support
+[x= 218.6 y= 355.8] Manage Provider Communication
+[x= 101.9 y= 369.0] Item
+[x= 329.2 y= 369.0] Details
+[x=  77.4 y= 383.0] Description
+[x= 159.8 y= 383.0] The
+[x= 179.9 y= 383.0] Manage Provider Communication
+[x= 338.8 y= 383.0] business process receives requests for
+[x= 159.8 y= 394.5] information, provides publications, and assistance from prospective and current
+[x= 159.8 y= 406.0] providers’ communications (e.g., inquiries related to eligibility of provider, covered
+[x= 159.8 y= 417.5] services, reimbursement, enrollment requirements). The State Medicaid Agency
+[x= 159.8 y= 429.0] (SMA) may communicate information using a variety of methods such as email, mail,
+[x= 159.8 y= 440.5] publication, mobile device, facsimile, telephone, web or Electronic Data Interchange
+[x= 159.8 y= 452.0] (EDI). This business process includes the log, research, development, approval and
+[x= 159.8 y= 463.4] delivery of routine or ad hoc messages.
+[x= 159.8 y= 488.5] NOTE:
+[x= 193.7 y= 488.5] Manage Provider Communication
+[x= 352.6 y= 488.5] business process handles inquiry from
+[x= 159.8 y= 500.0] prospective and current providers by providing assistance and responses to
+[x= 159.8 y= 511.4] individual entities
+[x= 236.0 y= 511.4] (i.e., bi-directional communication). Also included are scheduled
+[x= 159.8 y= 523.0] communications such as program memorandum, notifications of pending expired
+[x= 159.8 y= 534.5] provider eligibility, or formal program notifications such as the disposition of appeals.
+[x= 159.8 y= 545.9] The
+[x= 179.9 y= 545.9] Perform Provider Outreach
+[x= 311.0 y= 545.9] business process targets both prospective and
+[x= 159.8 y= 557.5] current provider
+[x= 232.7 y= 557.5] populations
+[x= 286.6 y= 557.5] for distribution of information about programs, policies,
+[x= 159.8 y= 569.0] and health care issues.
+[x=  77.4 y= 583.0] Trigger Event
+[x= 159.8 y= 587.9] Interaction-based Trigger Events to include but not limited to:
+[x= 159.8 y= 605.1] 
+[x= 177.8 y= 606.1] Receive requests from other business processes to develop and produce
+[x= 177.8 y= 617.6] communications for providers such as notifications from
+[x= 426.8 y= 617.6] Enroll Provider
+[x= 177.8 y= 629.1] business process.
+[x= 159.8 y= 646.3] 
+[x= 177.8 y= 647.3] Receive inquiries originating from customer help desk through
+[x= 454.7 y= 647.3] Manage
+[x= 177.8 y= 658.8] Provider Information
+[x= 279.0 y= 658.8] business process.
+[x= 159.8 y= 676.3] Environment-based Trigger Events to include but not limited to:
+[x= 159.8 y= 693.4] 
+[x= 177.8 y= 694.4] Receive inquiry from current or prospective provider.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 210 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Information Management 
+Terminate Provider 
+Item 
+Details 
+facility with immediate jeopardy deficiencies; and  
+(2) At least 15 calendar days before the effective date of termination for a facility 
+with non-immediate jeopardy deficiencies that constitute noncompliance. 
+Failures 
+ 
+ Unable to find requested Provider. 
+ 
+Provider information is not available for inquiry. 
+Performance 
+Measures 
+ 
+Time to complete termination process = within __ days 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+Manage Provider Communication 
+PM Provider Support 
+Manage Provider Communication 
+Item 
+Details 
+Description 
+The Manage Provider Communication business process receives requests for 
+information, provides publications, and assistance from prospective and current 
+providers’ communications (e.g., inquiries related to eligibility of provider, covered 
+services, reimbursement, enrollment requirements). The State Medicaid Agency 
+(SMA) may communicate information using a variety of methods such as email, mail, 
+publication, mobile device, facsimile, telephone, web or Electronic Data Interchange 
+(EDI). This business process includes the log, research, development, approval and 
+delivery of routine or ad hoc messages.  
+ 
+NOTE: Manage Provider Communication business process handles inquiry from 
+prospective and current providers by providing assistance and responses to 
+individual entities (i.e., bi-directional communication). Also included are scheduled 
+communications such as program memorandum, notifications of pending expired 
+provider eligibility, or formal program notifications such as the disposition of appeals. 
+The Perform Provider Outreach business process targets both prospective and 
+current provider populations for distribution of information about programs, policies, 
+and health care issues. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive requests from other business processes to develop and produce 
+communications for providers such as notifications from Enroll Provider 
+business process. 
+ 
+Receive inquiries originating from customer help desk through Manage 
+Provider Information business process. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive inquiry from current or prospective provider. 
+
+
+================================================================================
+PAGE 7
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 211
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Support
+[x= 218.6 y= 113.7] Manage Provider Communication
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.4] 
+[x= 177.8 y= 140.5] Receive request to send information packages such as provider enrollment
+[x= 177.8 y= 152.0] applications and/or billing instructions.
+[x= 159.8 y= 169.2] 
+[x= 177.8 y= 170.2] Receive request for assistance, such as a request for training or modify in
+[x= 177.8 y= 181.7] provider information.
+[x= 159.8 y= 198.8] 
+[x= 177.8 y= 199.8] Periodic timetable (e.g. hours, monthly, and quarterly) is due to send
+[x= 177.8 y= 211.3] information. For example, SMA sends communications within 24 hours of new
+[x= 177.8 y= 222.8] provider enrollment or periodic publications such as newsletters.
+[x=  77.4 y= 241.9] Result
+[x= 159.8 y= 246.5] 
+[x= 177.8 y= 247.5] Current or prospective provider receives appropriate assistance,
+[x= 177.8 y= 259.0] communications, appointment, and/or information packages.
+[x= 159.8 y= 276.1] 
+[x= 177.8 y= 277.1] Tracking information as needed for measuring performance and business
+[x= 177.8 y= 288.7] activity monitoring.
+[x=  77.4 y= 307.7] Business
+[x=  77.4 y= 319.3] Process Steps
+[x= 159.8 y= 312.7] 1.
+[x= 177.8 y= 312.7] START:
+[x= 214.6 y= 312.7] Receive request for communication.
+[x= 159.8 y= 330.2] 2. Validate information submitted is correct and as complete as possible.
+[x= 177.8 y= 341.7] Information complies with syntax criteria and requestor has completed all
+[x= 177.8 y= 353.2] required fields.
+[x= 159.8 y= 370.7] 3. Validate that the provided information is authentic.
+[x= 159.8 y= 388.2] 4. Agency logs request for communication.
+[x= 159.8 y= 405.7] 5. Determine content and method of communication (e.g., email, mail, publication,
+[x= 177.8 y= 417.2] mobile device, facsimile, telephone, web, or EDI.
+[x= 159.8 y= 434.7] 6. Determine performance measures.
+[x= 159.8 y= 452.2] 7. Prepare content that is linguistically, culturally, and competency appropriate for
+[x= 177.8 y= 463.7] the communication in agreed upon format.
+[x= 159.8 y= 481.1] 8. Review and approve communication.
+[x= 159.8 y= 498.7] 9. Generate communication in agreed upon format.
+[x= 159.8 y= 516.2] 10. Agency logs communication message.
+[x= 159.8 y= 533.6] 11.
+[x= 177.8 y= 533.6] END:
+[x= 202.3 y= 533.6] Evaluate the efficacy of the communication (e.g., customer satisfaction,
+[x= 177.8 y= 545.2] first time resolution rate).
+[x=  77.4 y= 564.2] Shared Data
+[x= 159.8 y= 569.2] Provider data store including provider network, contract, and grievance information
+[x= 159.8 y= 586.7] Plan data store including policy information
+[x= 159.8 y= 604.1] Health Benefit data store including benefit package and benefit information
+[x= 159.8 y= 621.7] Ancillary Communication Tracking Systems: Customer Relationship Management
+[x= 159.8 y= 633.2] (CRM), Help Desk Log, Protected Health Information (PHI) disclosure log, etc.
+[x=  77.4 y= 652.2] Predecessor
+[x= 159.8 y= 657.2] Receive Inbound Transaction
+[x= 159.8 y= 674.8] Determine Provider Eligibility
+[x= 159.8 y= 692.3] Enroll Provider
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 211 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Support 
+Manage Provider Communication 
+Item 
+Details 
+ 
+Receive request to send information packages such as provider enrollment 
+applications and/or billing instructions. 
+ 
+Receive request for assistance, such as a request for training or modify in 
+provider information. 
+ 
+Periodic timetable (e.g. hours, monthly, and quarterly) is due to send 
+information. For example, SMA sends communications within 24 hours of new 
+provider enrollment or periodic publications such as newsletters. 
+Result 
+ 
+Current or prospective provider receives appropriate assistance, 
+communications, appointment, and/or information packages. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request for communication. 
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+3. Validate that the provided information is authentic. 
+4. Agency logs request for communication. 
+5. Determine content and method of communication (e.g., email, mail, publication, 
+mobile device, facsimile, telephone, web, or EDI.  
+6. Determine performance measures. 
+7. Prepare content that is linguistically, culturally, and competency appropriate for 
+the communication in agreed upon format. 
+8. Review and approve communication. 
+9. Generate communication in agreed upon format.  
+10. Agency logs communication message. 
+11. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, 
+first time resolution rate). 
+Shared Data 
+Provider data store including provider network, contract, and grievance information 
+Plan data store including policy information 
+Health Benefit data store including benefit package and benefit information 
+Ancillary Communication Tracking Systems: Customer Relationship Management 
+(CRM), Help Desk Log, Protected Health Information (PHI) disclosure log, etc. 
+Predecessor 
+Receive Inbound Transaction 
+Determine Provider Eligibility 
+Enroll Provider 
+
+
+================================================================================
+PAGE 8
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 212
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Support
+[x= 218.6 y= 113.7] Manage Provider Communication
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.9] Disenroll Provider
+[x= 159.8 y= 157.4] Terminate Provider
+[x= 159.8 y= 175.0] Manage Provider Grievance and Appeal
+[x= 159.8 y= 192.4] Maintain State Plan
+[x= 159.8 y= 209.9] Manage Health Plan Information
+[x= 159.8 y= 227.5] Manage Health Benefit Information
+[x=  77.4 y= 246.4] Successor
+[x= 159.8 y= 251.4] Send Outbound Transaction
+[x= 159.8 y= 268.9] Manage Provider Information
+[x= 159.8 y= 286.4] Manage Performance Measures
+[x=  77.4 y= 305.3] Constraints
+[x= 159.8 y= 310.3] Communications requested will vary by state, depending on programs supported
+[x= 159.8 y= 321.8] and type of provider requesting information.
+[x= 159.8 y= 339.3] Provider may have communication barriers such as lack of internet or phone access.
+[x= 159.8 y= 350.8] Provider is unable to access required or requested information.
+[x=  77.4 y= 369.8] Failures
+[x= 159.8 y= 374.5] 
+[x= 177.8 y= 375.5] SMA is unable to provide linguistically, culturally, or competency appropriate
+[x= 177.8 y= 387.0] information.
+[x= 159.8 y= 404.1] 
+[x= 177.8 y= 405.1] Delivery failures due to erroneous contact information or lack of contact
+[x= 177.8 y= 416.6] information.
+[x=  77.4 y= 435.7] Performance
+[x=  77.4 y= 447.2] Measures
+[x= 159.8 y= 440.3] 
+[x= 177.8 y= 441.3] Time to complete response: By phone __ minutes; by email ___ hours; by mail
+[x= 177.8 y= 452.8] __days
+[x= 159.8 y= 470.0] 
+[x= 177.8 y= 471.0] Accuracy of communications = __%
+[x= 159.8 y= 488.2] 
+[x= 177.8 y= 489.2] Communications successfully delivered = __%
+[x=  72.0 y= 531.0] Manage Provider Grievance and Appeal
+[x=  77.4 y= 558.0] PM Provider Support
+[x= 202.4 y= 571.2] Manage Provider Grievance and Appeal
+[x= 102.1 y= 584.3] Item
+[x= 329.4 y= 584.3] Details
+[x=  77.4 y= 598.3] Description
+[x= 160.3 y= 603.3] The
+[x= 180.4 y= 603.3] Manage Provider Grievance and Appeal
+[x= 368.7 y= 603.3] business process handles provider*
+[x= 160.3 y= 614.8] appeals of adverse decisions or communications of a grievance. The
+[x= 467.2 y= 614.8] Manage
+[x= 160.3 y= 626.3] Provider Communication
+[x= 279.2 y= 626.3] business process initiates a grievance or appeal from a
+[x= 160.3 y= 637.8] provider. The State Medicaid Agency (SMA) logs and tracks the grievance or
+[x= 160.3 y= 649.3] appeal, triages it, and sends it to appropriate reviewers. Staff researches or requests
+[x= 160.3 y= 660.8] additional information. The SMA may schedule a hearing, conduct actions in
+[x= 160.3 y= 672.3] accordance with legal requirements, and make a ruling based upon the evidence
+[x= 160.3 y= 683.8] presented. Staff documents and distributes results of the hearings, and adds
+[x= 160.3 y= 695.3] relevant documents to the provider’s information. SMA formally notifies provider of
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 212 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Support 
+Manage Provider Communication 
+Item 
+Details 
+Disenroll Provider 
+Terminate Provider 
+Manage Provider Grievance and Appeal 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Health Benefit Information  
+Successor 
+Send Outbound Transaction 
+Manage Provider Information 
+Manage Performance Measures 
+Constraints 
+Communications requested will vary by state, depending on programs supported 
+and type of provider requesting information. 
+Provider may have communication barriers such as lack of internet or phone access. 
+Provider is unable to access required or requested information. 
+Failures 
+ 
+SMA is unable to provide linguistically, culturally, or competency appropriate 
+information. 
+ 
+Delivery failures due to erroneous contact information or lack of contact 
+information. 
+Performance 
+Measures 
+ 
+Time to complete response: By phone __ minutes; by email ___ hours; by mail 
+__days 
+ 
+Accuracy of communications = __% 
+ 
+Communications successfully delivered = __% 
+ 
+Manage Provider Grievance and Appeal 
+PM Provider Support 
+Manage Provider Grievance and Appeal 
+Item 
+Details 
+Description 
+The Manage Provider Grievance and Appeal business process handles provider* 
+appeals of adverse decisions or communications of a grievance. The Manage 
+Provider Communication business process initiates a grievance or appeal from a 
+provider. The State Medicaid Agency (SMA) logs and tracks the grievance or 
+appeal, triages it, and sends it to appropriate reviewers. Staff researches or requests 
+additional information. The SMA may schedule a hearing, conduct actions in 
+accordance with legal requirements, and make a ruling based upon the evidence 
+presented. Staff documents and distributes results of the hearings, and adds 
+relevant documents to the provider’s information. SMA formally notifies provider of 
+
+
+================================================================================
+PAGE 9
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 213
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Support
+[x= 202.4 y= 113.7] Manage Provider Grievance and Appeal
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.8] the decision.
+[x= 160.3 y= 157.3] This business process supports the
+[x= 319.9 y= 157.3] Manage Performance Measures
+[x= 469.9 y= 157.3] business
+[x= 160.3 y= 168.8] process by providing information about the types of grievances and appeals it
+[x= 160.3 y= 180.3] handles, grievance and appeals issues, parties that file or are the target of the
+[x= 160.3 y= 191.8] grievances and appeals, and the dispositions. The SMA uses information to discern
+[x= 160.3 y= 203.3] program improvement opportunities, which may reduce the issues that give rise to
+[x= 160.3 y= 214.8] grievances and appeals.
+[x= 160.3 y= 232.3] Based on the appeal business process, if a provider wins an appeal that affects or
+[x= 160.3 y= 243.8] clarifies a Medicaid State Plan, health plan, or health benefit, this process sends that
+[x= 160.3 y= 255.3] information to
+[x= 223.7 y= 255.3] Maintain State Plan, Manage Health Plan Information
+[x= 475.9 y= 255.3] or
+[x= 484.9 y= 255.3] Manage
+[x= 160.3 y= 266.8] Health Benefit Information
+[x= 288.1 y= 266.8] business processes to modify the relevant policy or
+[x= 160.3 y= 278.3] procedure. Disposition could result in legislative change requirements that the SMA
+[x= 160.3 y= 289.8] will communicate to lawmakers.
+[x= 160.3 y= 307.3] NOTE:
+[x= 196.3 y= 307.3] States may define grievance and appeal differently, depending on state
+[x= 196.3 y= 318.8] laws. States may involve multiple agencies in the
+[x= 415.9 y= 318.8] Manage
+[x= 455.9 y= 318.8] Provider
+[x= 196.3 y= 330.3] Grievance
+[x= 247.5 y= 330.3] and
+[x= 268.0 y= 330.3] Appeal
+[x= 301.4 y= 330.3] business process.
+[x= 160.3 y= 342.8] *This business process supports grievances and appeals for both prospective
+[x= 160.3 y= 354.3] providers and current providers. A non-enrolled provider can file a grievance or
+[x= 160.3 y= 365.8] appeal, for example, when SMA denies an application for enrollment.
+[x=  77.4 y= 379.8] Trigger Event
+[x= 160.3 y= 379.7] Interaction-based Trigger Events to include but not limited to:
+[x= 160.3 y= 397.0] 
+[x= 178.3 y= 398.0] Receive grievance or appeal of adverse decision alert from
+[x= 441.8 y= 398.0] Manage Provider
+[x= 178.3 y= 409.5] Information
+[x= 233.4 y= 409.5] .
+[x=  77.4 y= 428.5] Result
+[x= 160.3 y= 433.2] 
+[x= 178.3 y= 434.2] Alert sent to notify provider of final disposition of grievance or appeal.
+[x= 160.3 y= 451.3] 
+[x= 178.3 y= 452.3] If applicable, alert sent to
+[x= 292.3 y= 452.3] Establish Compliance Incident
+[x= 437.3 y= 452.3] business process for
+[x= 178.3 y= 463.8] further investigation.
+[x= 160.3 y= 481.0] 
+[x= 178.3 y= 482.0] If applicable, alert sent to
+[x= 292.3 y= 482.0] Maintain State Plan
+[x= 384.0 y= 482.0] business process to modify the
+[x= 178.3 y= 493.5] relevant policy or procedure.
+[x= 160.3 y= 510.6] 
+[x= 178.3 y= 511.6] If applicable, alert sent to
+[x= 292.3 y= 511.6] Manage Health Plan Information
+[x= 444.5 y= 511.6] business process
+[x= 178.3 y= 523.1] to modify the relevant policy or procedure.
+[x= 160.3 y= 540.3] 
+[x= 178.3 y= 541.3] If applicable, alert sent to
+[x= 292.3 y= 541.3] Manage Health Benefit Information
+[x= 457.3 y= 541.3] business
+[x= 178.3 y= 552.8] process to modify the relevant policy or procedure.
+[x= 160.3 y= 570.0] 
+[x= 178.3 y= 571.0] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 582.5] activity monitoring.
+[x=  77.4 y= 601.6] Business
+[x=  77.4 y= 613.1] Process Steps
+[x= 160.3 y= 606.5] 1.
+[x= 178.3 y= 606.5] START:
+[x= 215.0 y= 606.5] Receive grievance or appeal.
+[x= 160.3 y= 624.0] 2. Agency logs grievance or appeal.
+[x= 160.3 y= 641.5] 3. Validate information submitted is correct and as complete as possible.
+[x= 178.3 y= 653.0] Information complies with syntax criteria and submitter has completed all
+[x= 178.3 y= 664.5] required fields.
+[x= 160.3 y= 682.0] 4. Validate that the provided information is authentic.
+[x= 160.3 y= 699.5] 5. If appropriate, request additional documentation.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 213 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Support 
+Manage Provider Grievance and Appeal 
+Item 
+Details 
+the decision. 
+This business process supports the Manage Performance Measures business 
+process by providing information about the types of grievances and appeals it 
+handles, grievance and appeals issues, parties that file or are the target of the 
+grievances and appeals, and the dispositions. The SMA uses information to discern 
+program improvement opportunities, which may reduce the issues that give rise to 
+grievances and appeals. 
+Based on the appeal business process, if a provider wins an appeal that affects or 
+clarifies a Medicaid State Plan, health plan, or health benefit, this process sends that 
+information to Maintain State Plan, Manage Health Plan Information or Manage 
+Health Benefit Information business processes to modify the relevant policy or 
+procedure. Disposition could result in legislative change requirements that the SMA 
+will communicate to lawmakers. 
+NOTE: States may define grievance and appeal differently, depending on state 
+laws. States may involve multiple agencies in the Manage Provider 
+Grievance and Appeal business process. 
+*This business process supports grievances and appeals for both prospective 
+providers and current providers. A non-enrolled provider can file a grievance or 
+appeal, for example, when SMA denies an application for enrollment. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive grievance or appeal of adverse decision alert from Manage Provider 
+Information.  
+Result 
+ 
+Alert sent to notify provider of final disposition of grievance or appeal. 
+ 
+If applicable, alert sent to Establish Compliance Incident business process for 
+further investigation. 
+ 
+If applicable, alert sent to Maintain State Plan business process to modify the 
+relevant policy or procedure. 
+ 
+If applicable, alert sent to Manage Health Plan Information business process 
+to modify the relevant policy or procedure. 
+ 
+If applicable, alert sent to Manage Health Benefit Information business 
+process to modify the relevant policy or procedure. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+ 
+1. START: Receive grievance or appeal. 
+2. Agency logs grievance or appeal. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and submitter has completed all 
+required fields. 
+4. Validate that the provided information is authentic. 
+5. If appropriate, request additional documentation. 
+
+
+================================================================================
+PAGE 10
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 214
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Support
+[x= 202.4 y= 113.7] Manage Provider Grievance and Appeal
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.8] 6. Determine status as initial, second, or expedited or other status as designated
+[x= 178.3 y= 151.3] by the state.
+[x= 160.3 y= 168.8] 7. Triage to appropriate personnel for review.
+[x= 160.3 y= 186.3] 8. Perform research and analysis.
+[x= 160.3 y= 203.8] 9. If appropriate, schedule hearing within required time.
+[x= 160.3 y= 221.3] 10. If appropriate, conduct hearing within required time.
+[x= 160.3 y= 238.8] 11. Determine disposition.
+[x= 160.3 y= 256.3] 12. If applicable, send alert to
+[x= 295.1 y= 256.3] Establish Compliance Incident
+[x= 440.2 y= 256.3] business process for
+[x= 178.3 y= 267.8] further investigation.
+[x= 160.3 y= 285.3] 13. If applicable, alert sent to
+[x= 292.3 y= 285.3] Maintain State Plan
+[x= 384.0 y= 285.3] business process to modify the
+[x= 178.3 y= 296.8] relevant policy or procedure.
+[x= 160.3 y= 314.3] 14. If applicable, alert sent to
+[x= 292.3 y= 314.3] Manage Health Plan Information
+[x= 444.5 y= 314.3] business process
+[x= 178.3 y= 325.8] to modify the relevant policy or procedure.
+[x= 160.3 y= 343.3] 15. If applicable, alert sent to
+[x= 292.3 y= 343.3] Manage Health Benefit Information
+[x= 457.3 y= 343.3] business
+[x= 178.3 y= 354.8] process to modify the relevant policy or procedure.
+[x= 160.3 y= 372.3] 16.
+[x= 178.3 y= 372.3] END:
+[x= 202.8 y= 372.3] Send alert to notify provider of disposition determination.
+[x= 160.3 y= 389.8] NOTE:
+[x= 191.5 y= 389.8] Some of the above steps may be iterative and a grievance or appeals case
+[x= 160.3 y= 401.3] may take many months to finalize.
+[x=  77.4 y= 420.3] Shared Data
+[x= 160.3 y= 425.3] Provider data store including eligibility, enrollment and provider network information
+[x= 160.3 y= 442.8] Claims data store including claims and premium Information
+[x= 160.3 y= 460.3] Grievance and Appeal data store including case history and Recovery Audit
+[x= 160.3 y= 471.8] Contractor (RAC) adverse determination information
+[x= 160.3 y= 489.3] Adverse Action data store including case history information
+[x=  77.4 y= 503.3] Predecessor
+[x= 160.3 y= 508.4] Manage Provider Information
+[x=  77.4 y= 527.3] Successor
+[x= 160.3 y= 532.4] Manage Provider Communication
+[x= 160.3 y= 549.9] Maintain State Plan
+[x= 160.3 y= 567.4] Manage Health Plan Information
+[x= 160.3 y= 584.9] Manage Health Benefit Information
+[x= 160.3 y= 602.4] Manage Performance Measures
+[x= 160.3 y= 619.9] Establish Compliance Incident
+[x=  77.4 y= 638.8] Constraints
+[x= 160.3 y= 638.8] States may have different requirements for evidence and the process for conducting
+[x= 160.3 y= 650.3] the grievance and appeals cases. They may have different rules for assigning
+[x= 160.3 y= 661.8] outcome status and state specific consequences. The State Medicaid Agency will
+[x= 160.3 y= 673.3] conform to state and federal regulations.
+[x=  77.4 y= 687.3] Failures
+[x= 160.3 y= 691.9] 
+[x= 178.3 y= 692.9] Grievance and Appeal supporting documentation is incomplete.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 214 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Support 
+Manage Provider Grievance and Appeal 
+Item 
+Details 
+6. Determine status as initial, second, or expedited or other status as designated 
+by the state. 
+7. Triage to appropriate personnel for review. 
+8. Perform research and analysis. 
+9. If appropriate, schedule hearing within required time. 
+10. If appropriate, conduct hearing within required time. 
+11. Determine disposition. 
+12. If applicable, send alert to Establish Compliance Incident business process for 
+further investigation. 
+13. If applicable, alert sent to Maintain State Plan business process to modify the 
+relevant policy or procedure. 
+14. If applicable, alert sent to Manage Health Plan Information business process 
+to modify the relevant policy or procedure. 
+15. If applicable, alert sent to Manage Health Benefit Information business 
+process to modify the relevant policy or procedure. 
+16. END: Send alert to notify provider of disposition determination. 
+NOTE: Some of the above steps may be iterative and a grievance or appeals case 
+may take many months to finalize. 
+Shared Data 
+Provider data store including eligibility, enrollment and provider network information 
+Claims data store including claims and premium Information 
+Grievance and Appeal data store including case history and Recovery Audit 
+Contractor (RAC) adverse determination information 
+Adverse Action data store including case history information 
+Predecessor 
+Manage Provider Information 
+Successor 
+Manage Provider Communication 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Manage Performance Measures 
+Establish Compliance Incident 
+Constraints 
+States may have different requirements for evidence and the process for conducting 
+the grievance and appeals cases. They may have different rules for assigning 
+outcome status and state specific consequences. The State Medicaid Agency will 
+conform to state and federal regulations. 
+Failures 
+ 
+Grievance and Appeal supporting documentation is incomplete.  
+
+
+================================================================================
+PAGE 11
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 215
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Support
+[x= 202.4 y= 113.7] Manage Provider Grievance and Appeal
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 160.3 y= 139.4] 
+[x= 178.3 y= 140.5] SMA cannot schedule or conduct hearing in the required period.
+[x= 160.3 y= 157.6] 
+[x= 178.3 y= 158.6] Final disposition was a result of summary judgment due to lack of timeliness
+[x= 178.3 y= 170.2] within the process.
+[x= 160.3 y= 187.3] 
+[x= 178.3 y= 188.3] Provider withdraws grievance or appeal.
+[x=  77.4 y= 207.4] Performance
+[x=  77.4 y= 218.9] Measures
+[x= 160.3 y= 212.0] 
+[x= 178.3 y= 213.0] Time to complete process: normal grievance/appeal = __days; second appeal
+[x= 178.3 y= 224.5] =__days; expedited appeal =__hours
+[x= 160.3 y= 241.6] 
+[x= 178.3 y= 242.6] Accuracy of decisions = __%
+[x= 160.3 y= 259.8] 
+[x= 178.3 y= 260.8] Consistency of decisions and disposition = __%
+[x= 160.3 y= 278.0] 
+[x= 178.3 y= 279.0] Error rate = __% or less
+[x=  72.0 y= 322.0] Perform Provider Outreach
+[x=  77.4 y= 349.0] PM Provider Support
+[x= 235.4 y= 362.2] Perform Provider Outreach
+[x= 101.9 y= 375.3] Item
+[x= 329.2 y= 375.3] Details
+[x=  77.4 y= 389.3] Description
+[x= 159.8 y= 394.3] The
+[x= 179.8 y= 394.3] Perform Provider Outreach
+[x= 311.0 y= 394.3] business process originates internally within the
+[x= 159.8 y= 405.8] State Medicaid Agency (SMA) in response to multiple activities (e.g., identified gaps
+[x= 159.8 y= 417.3] in medical service coverage, public health alerts, provider complaints, medical
+[x= 159.8 y= 428.8] breakthroughs, modifications in the Medicaid Program policies and procedures).
+[x= 159.8 y= 446.3] SMA may develop prospective Provider outreach information, also referred to as
+[x= 159.8 y= 457.8] Provider Recruiting information, for targeted providers identified by analyzing
+[x= 159.8 y= 469.3] program information (for example, not enough dentists to serve a population, new
+[x= 159.8 y= 480.8] immigrants need language-compatible providers).
+[x= 159.8 y= 498.3] Enrolled Provider outreach information may relate to corrections in billing practices,
+[x= 159.8 y= 509.8] public health alerts, public service announcements, drive to sign up more Primary
+[x= 159.8 y= 521.3] Care Physicians, and other objectives.
+[x= 159.8 y= 538.8] The State Medicaid Agency develops outreach information for target populations
+[x= 159.8 y= 550.3] identified by analyzing member information. The State Medicaid Agency may
+[x= 159.8 y= 561.8] communicate information in a variety of methods such as email, mail, publication,
+[x= 159.8 y= 573.3] mobile device, facsimile, telephone, web or Electronic Data Interchange (EDI). The
+[x= 159.8 y= 584.8] State Medicaid Agency produces, distributes, tracks and archives all contractor
+[x= 159.8 y= 596.3] outreach communications according to state rules. The
+[x= 405.5 y= 596.3] Manage Performance
+[x= 159.8 y= 607.8] Measures
+[x= 206.0 y= 607.8] business process defines benchmarks and measures outreach efficacy.
+[x= 159.8 y= 625.3] NOTE:
+[x= 190.9 y= 625.3] The
+[x= 215.8 y= 625.3] Perform Provider Outreach
+[x= 347.0 y= 625.3] business process targets both prospective
+[x= 159.8 y= 636.8] and current provider
+[x= 252.1 y= 636.8] populations
+[x= 306.1 y= 636.8] for distribution of information about programs,
+[x= 159.8 y= 648.3] policies, and health issues.
+[x= 282.1 y= 648.3] Manage Provider Communication
+[x= 441.1 y= 648.3] business process
+[x= 159.8 y= 659.8] handles inquiry from applicants, prospective and current providers by providing
+[x= 159.8 y= 671.3] assistance and responses to
+[x= 289.3 y= 671.3] individuals
+[x= 336.1 y= 671.3] (i.e., bi-directional communication).
+[x=  77.4 y= 685.3] Trigger Event
+[x= 159.8 y= 690.3] State transition Trigger Events:
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 215 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Support 
+Manage Provider Grievance and Appeal 
+Item 
+Details 
+ 
+SMA cannot schedule or conduct hearing in the required period. 
+ 
+Final disposition was a result of summary judgment due to lack of timeliness 
+within the process. 
+ 
+Provider withdraws grievance or appeal. 
+Performance 
+Measures 
+ 
+Time to complete process: normal grievance/appeal = __days; second appeal 
+=__days; expedited appeal =__hours 
+ 
+Accuracy of decisions = __% 
+ 
+Consistency of decisions and disposition = __% 
+ 
+Error rate = __% or less 
+ 
+Perform Provider Outreach 
+PM Provider Support 
+Perform Provider Outreach 
+Item 
+Details 
+Description 
+The Perform Provider Outreach business process originates internally within the 
+State Medicaid Agency (SMA) in response to multiple activities (e.g., identified gaps 
+in medical service coverage, public health alerts, provider complaints, medical 
+breakthroughs, modifications in the Medicaid Program policies and procedures). 
+SMA may develop prospective Provider outreach information, also referred to as 
+Provider Recruiting information, for targeted providers identified by analyzing 
+program information (for example, not enough dentists to serve a population, new 
+immigrants need language-compatible providers). 
+Enrolled Provider outreach information may relate to corrections in billing practices, 
+public health alerts, public service announcements, drive to sign up more Primary 
+Care Physicians, and other objectives. 
+The State Medicaid Agency develops outreach information for target populations 
+identified by analyzing member information. The State Medicaid Agency may 
+communicate information in a variety of methods such as email, mail, publication, 
+mobile device, facsimile, telephone, web or Electronic Data Interchange (EDI). The 
+State Medicaid Agency produces, distributes, tracks and archives all contractor 
+outreach communications according to state rules. The Manage Performance 
+Measures business process defines benchmarks and measures outreach efficacy. 
+NOTE: The Perform Provider Outreach business process targets both prospective 
+and current provider populations for distribution of information about programs, 
+policies, and health issues. Manage Provider Communication business process 
+handles inquiry from applicants, prospective and current providers by providing 
+assistance and responses to individuals (i.e., bi-directional communication). 
+Trigger Event 
+State transition Trigger Events: 
+
+
+================================================================================
+PAGE 12
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 216
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Support
+[x= 235.4 y= 113.7] Perform Provider Outreach
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.4] 
+[x= 177.8 y= 140.5] Alert received from
+[x= 264.5 y= 140.5] Manage Health Plan Information
+[x= 416.8 y= 140.5] business process of
+[x= 177.8 y= 152.0] addition or modification.
+[x= 159.8 y= 169.2] 
+[x= 177.8 y= 170.2] Alert received from
+[x= 264.5 y= 170.2] Manage Health Benefit Information
+[x= 429.5 y= 170.2] business process of
+[x= 177.8 y= 181.7] addition or modification.
+[x= 159.8 y= 199.1] Environment-based Trigger Events to include but not limited to:
+[x= 159.8 y= 216.3] 
+[x= 177.8 y= 217.3] Executive Management decision to:
+[x= 177.8 y= 235.6] o
+[x= 195.8 y= 234.8] Fill gaps in health care service and administrative coverage.
+[x= 177.8 y= 253.1] o
+[x= 195.8 y= 252.4] Solicit updated/new administrative and technical functions.
+[x= 177.8 y= 270.5] o
+[x= 195.8 y= 269.8] Introduce new programs requiring new types of health or administrative
+[x= 195.8 y= 281.3] service.
+[x= 177.8 y= 299.6] o
+[x= 195.8 y= 298.9] Change existing policies and procedures.
+[x= 177.8 y= 317.0] o
+[x= 195.8 y= 316.3] Identify critical need for a specific target population.
+[x= 177.8 y= 334.6] o
+[x= 195.8 y= 333.8] Identify new populations in need of service (e.g., new immigrant
+[x= 195.8 y= 345.3] communities).
+[x=  77.4 y= 364.3] Result
+[x= 159.8 y= 369.0] 
+[x= 177.8 y= 370.0] Agency produces outreach communications (e.g., mailing brochures, web
+[x= 177.8 y= 381.5] pages, email, kiosk, and radio, billboard, and TV advertisements) and distributes
+[x= 177.8 y= 393.0] to targeted providers. Agency may also conduct face-to-face meetings.
+[x= 159.8 y= 410.2] 
+[x= 177.8 y= 411.2] Tracking information as needed for measuring performance and business
+[x= 177.8 y= 422.7] activity monitoring.
+[x=  77.4 y= 441.8] Business
+[x=  77.4 y= 453.2] Process Steps
+[x= 159.8 y= 446.7] 1.
+[x= 177.8 y= 446.7] START:
+[x= 214.5 y= 446.7] Receive request for outreach materials or communication.
+[x= 159.8 y= 464.2] 2. Target population is identified and defined by analyzing information,
+[x= 177.8 y= 475.7] performance measures, feedback from community, and policy directives.
+[x= 159.8 y= 493.1] 3. Approve, deny, or modify decisions to develop outreach communications.
+[x= 159.8 y= 510.7] 4. Determine content and method of communication (e.g., email, mail, publication,
+[x= 177.8 y= 522.2] mobile device, facsimile, telephone, web or EDI.
+[x= 159.8 y= 539.6] 5. Determine performance measures.
+[x= 159.8 y= 557.2] 6. Prepare content that is linguistically, culturally, and competency appropriate for
+[x= 177.8 y= 568.7] the communication in agreed upon format.
+[x= 159.8 y= 586.1] 7. Review and approve communication.
+[x= 159.8 y= 603.7] 8. Generate communication in agreed upon format.
+[x= 159.8 y= 621.2] 9. Agency logs communication message.
+[x= 159.8 y= 638.6] 10.
+[x= 177.8 y= 638.6] END:
+[x= 202.3 y= 638.6] Evaluate the efficacy of the communication (e.g., customer satisfaction,
+[x= 177.8 y= 650.2] first time resolution rate)
+[x=  77.4 y= 669.2] Shared Data
+[x= 159.8 y= 674.2] Provider data store including provider network, application and enrollment
+[x= 159.8 y= 685.7] information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 216 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Support 
+Perform Provider Outreach 
+Item 
+Details 
+ 
+Alert received from Manage Health Plan Information business process of 
+addition or modification. 
+ 
+Alert received from Manage Health Benefit Information business process of 
+addition or modification. 
+Environment-based Trigger Events to include but not limited to:  
+ 
+Executive Management decision to: 
+o 
+Fill gaps in health care service and administrative coverage. 
+o 
+Solicit updated/new administrative and technical functions. 
+o 
+Introduce new programs requiring new types of health or administrative 
+service. 
+o 
+Change existing policies and procedures. 
+o 
+Identify critical need for a specific target population. 
+o 
+Identify new populations in need of service (e.g., new immigrant 
+communities). 
+Result 
+ 
+Agency produces outreach communications (e.g., mailing brochures, web 
+pages, email, kiosk, and radio, billboard, and TV advertisements) and distributes 
+to targeted providers. Agency may also conduct face-to-face meetings. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request for outreach materials or communication. 
+2. Target population is identified and defined by analyzing information, 
+performance measures, feedback from community, and policy directives. 
+3. Approve, deny, or modify decisions to develop outreach communications. 
+4. Determine content and method of communication (e.g., email, mail, publication, 
+mobile device, facsimile, telephone, web or EDI. 
+5. Determine performance measures. 
+6. Prepare content that is linguistically, culturally, and competency appropriate for 
+the communication in agreed upon format. 
+7. Review and approve communication. 
+8. Generate communication in agreed upon format.  
+9. Agency logs communication message. 
+10. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, 
+first time resolution rate) 
+Shared Data 
+Provider data store including provider network, application and enrollment 
+information 
+
+
+================================================================================
+PAGE 13
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 432.2 y= 722.0] Part I, Appendix C - Page 217
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] PM Provider Support
+[x= 235.4 y= 113.7] Perform Provider Outreach
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.8] Plan data store including policy information
+[x= 159.8 y= 157.3] Health Benefits data store including benefit package and benefit information
+[x= 159.8 y= 174.8] Performance Measures data store including agency’s objectives
+[x= 159.8 y= 192.3] Care Management data store including population health and treatment plan
+[x= 159.8 y= 203.8] information
+[x= 159.8 y= 221.3] Business activity data store including performance information
+[x= 159.8 y= 238.8] Compliance Management data store including compliance incident information
+[x=  77.4 y= 257.8] Predecessor
+[x= 159.8 y= 262.9] Manage Performance Measures
+[x= 159.8 y= 280.4] Identify Utilization Anomalies
+[x= 159.8 y= 298.0] Maintain State Plan
+[x= 159.8 y= 315.4] Manage Health Plan Information
+[x= 159.8 y= 332.9] Manage Health Benefit Information
+[x=  77.4 y= 346.8] Successor
+[x= 159.8 y= 351.8] Send Outbound Transaction
+[x= 159.8 y= 369.4] Manage Provider Communication
+[x=  77.4 y= 383.3] Constraints
+[x= 159.8 y= 388.3] Communications and information packages will address the needs of the targeted
+[x= 159.8 y= 399.8] population. Materials will be linguistically and culturally appropriate, legally
+[x= 159.8 y= 411.3] compliant, appropriate to the targeted group, and meet financial guidelines (re: cost
+[x= 159.8 y= 422.8] to produce and distribute). Other constraints may be agency priority, availability of
+[x= 159.8 y= 434.3] resources, and accuracy of contractor contact information.
+[x= 159.8 y= 451.8] Provider may have communication barriers such as lack of Internet or phone access.
+[x= 159.8 y= 463.3] Provider is unable to access needed or requested information.
+[x=  77.4 y= 482.3] Failures
+[x= 159.8 y= 487.0] 
+[x= 177.8 y= 488.0] Unable to identify target population based on desired criteria.
+[x= 159.8 y= 505.2] 
+[x= 177.8 y= 506.2] Management denies permission for outreach activity.
+[x= 159.8 y= 523.3] 
+[x= 177.8 y= 524.3] Cancel health plan or health benefit.
+[x= 159.8 y= 541.5] 
+[x= 177.8 y= 542.5] Delivery failures due to erroneous contact information.
+[x=  77.4 y= 561.6] Performance
+[x=  77.4 y= 573.1] Measures
+[x= 159.8 y= 566.2] 
+[x= 177.8 y= 567.2] Time to complete process of developing outreach materials = __ days
+[x= 159.8 y= 584.3] 
+[x= 177.8 y= 585.3] Accuracy of outreach materials = __%
+[x= 159.8 y= 602.5] 
+[x= 177.8 y= 603.5] Successful delivery rate to targeted individuals = ___%
+[x= 159.8 y= 620.7] 
+[x= 177.8 y= 621.7] Effectiveness of the communication – Outreach results in achieving specified
+[x= 177.8 y= 633.2] goals (e.g., recruitment of new providers from targeted population)
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 217 
+May 2014 
+Version 3.0 
+ 
+ 
+PM Provider Support 
+Perform Provider Outreach 
+Item 
+Details 
+Plan data store including policy information 
+Health Benefits data store including benefit package and benefit information 
+Performance Measures data store including agency’s objectives 
+Care Management data store including population health and treatment plan 
+information 
+Business activity data store including performance information 
+Compliance Management data store including compliance incident information 
+Predecessor 
+Manage Performance Measures 
+Identify Utilization Anomalies 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Successor 
+Send Outbound Transaction 
+Manage Provider Communication  
+Constraints 
+Communications and information packages will address the needs of the targeted 
+population. Materials will be linguistically and culturally appropriate, legally 
+compliant, appropriate to the targeted group, and meet financial guidelines (re: cost 
+to produce and distribute). Other constraints may be agency priority, availability of 
+resources, and accuracy of contractor contact information. 
+Provider may have communication barriers such as lack of Internet or phone access. 
+Provider is unable to access needed or requested information.  
+Failures 
+ 
+Unable to identify target population based on desired criteria. 
+ 
+Management denies permission for outreach activity. 
+ 
+Cancel health plan or health benefit. 
+ 
+Delivery failures due to erroneous contact information. 
+Performance 
+Measures 
+ 
+Time to complete process of developing outreach materials = __ days 
+ 
+Accuracy of outreach materials = __% 
+ 
+Successful delivery rate to targeted individuals = ___% 
+ 
+Effectiveness of the communication – Outreach results in achieving specified 
+goals (e.g., recruitment of new providers from targeted population) 
+ 
+

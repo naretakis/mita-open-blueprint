@@ -1,0 +1,876 @@
+====================================================================================================
+BUSINESS RELATIONSHIP MANAGEMENT BPT - RAW DUMP FOR MANUAL JSON VERIFICATION
+====================================================================================================
+
+This file contains raw text extracted from the PDF with position information.
+Use this to verify the BPT JSON files are accurate.
+
+
+================================================================================
+PAGE 1
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 10
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Establish Business Relationship
+[x=  77.9 y= 127.2] BR Standards Management
+[x= 221.0 y= 140.4] Establish Business Relationship
+[x= 104.0 y= 153.5] Item
+[x= 330.7 y= 153.5] Details
+[x=  77.9 y= 172.6] Description
+[x= 163.4 y= 172.5] The
+[x= 183.5 y= 172.5] Establish Business Relationship
+[x= 337.9 y= 172.5] business process encompasses activities
+[x= 163.4 y= 184.0] undertaken by the State Medicaid Agency (SMA) to enter into business partner
+[x= 163.4 y= 195.5] relationships. Agreements are between state agency and its partners, including
+[x= 163.4 y= 207.0] collaboration amongst intrastate agencies, the interstate and federal agencies. It
+[x= 163.4 y= 218.5] contains functionality for interoperability, establishment of inter-agency service
+[x= 163.4 y= 230.0] agreements, identification of the types of information exchanged, and security and
+[x= 163.4 y= 241.5] privacy requirements. These include Trading Partner Agreements (TPA), Service
+[x= 163.4 y= 253.0] Level Agreements (SLA), and Memoranda of Understanding (MOU) with other
+[x= 163.4 y= 264.5] agencies; Electronic Data Interchange (EDI) agreements with providers, Managed
+[x= 163.4 y= 276.0] Care Organizations (MCOs), and others; and Centers for Medicare & Medicaid
+[x= 163.4 y= 287.5] Services (CMS), other federal agencies, and Regional Health Information
+[x= 163.4 y= 299.0] Organizations (RHIO).
+[x=  77.9 y= 323.0] Trigger Event
+[x= 163.4 y= 323.0] Environment-based Trigger Events to include but not limited to:
+[x= 163.4 y= 340.2] 
+[x= 181.4 y= 341.2] Request made for business relationship (e.g., EDI, email, mail, facsimile,
+[x= 181.4 y= 352.7] telephone).
+[x= 163.4 y= 369.9] 
+[x= 181.4 y= 370.9] Identification of the need for a business relationship (e.g., new policy, new
+[x= 181.4 y= 382.4] program).
+[x=  77.9 y= 406.4] Result
+[x= 163.4 y= 406.0] 
+[x= 181.4 y= 407.0] The SMA agrees upon Business Relationship with business partner.
+[x= 163.4 y= 424.2] 
+[x= 181.4 y= 425.2] Defined communication protocols for data exchange.
+[x= 163.4 y= 442.3] 
+[x= 181.4 y= 443.3] Alert to send notification to business partner of agreement.
+[x= 163.4 y= 460.5] 
+[x= 181.4 y= 461.5] Established agreement between business partners (e.g., TPA, SLA, MOU).
+[x= 163.4 y= 478.7] 
+[x= 181.4 y= 479.7] Tracking information as needed for measuring performance and business
+[x= 181.4 y= 491.2] activity monitoring.
+[x=  77.9 y= 515.3] Business
+[x=  77.9 y= 526.8] Process Steps
+[x= 163.4 y= 515.2] 1.
+[x= 181.4 y= 515.2] START:
+[x= 218.2 y= 515.2] Receive request for business relationship from partner.
+[x= 163.4 y= 532.7] 2. Conduct collection of agreement information with other party.
+[x= 163.4 y= 550.2] 3. Validate information submitted is correct and as complete as possible.
+[x= 181.4 y= 561.7] Information complies with syntax criteria and requestor completes all required
+[x= 181.4 y= 573.2] fields.
+[x= 163.4 y= 590.7] 4. Validate that the provided information is authentic.
+[x= 163.4 y= 608.2] 5. Decide determination for establishment of relationship. If no agreement, go to
+[x= 181.4 y= 619.7] step 9.
+[x= 163.4 y= 637.2] 6. Establish terms of the business relationship (e.g., TPA, SLA, MOU).
+[x= 163.4 y= 654.7] 7. Establish Key Performance Indicator (KPI).
+[x= 163.4 y= 672.2] 8. Establish payment agreements.
+[x= 163.4 y= 689.7] 9. Establish data exchange requirements.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 10 
+May 2014 
+Version 3.0 
+ 
+ 
+Establish Business Relationship 
+BR Standards Management 
+Establish Business Relationship 
+Item 
+Details 
+Description 
+The Establish Business Relationship business process encompasses activities 
+undertaken by the State Medicaid Agency (SMA) to enter into business partner 
+relationships. Agreements are between state agency and its partners, including 
+collaboration amongst intrastate agencies, the interstate and federal agencies. It 
+contains functionality for interoperability, establishment of inter-agency service 
+agreements, identification of the types of information exchanged, and security and 
+privacy requirements. These include Trading Partner Agreements (TPA), Service 
+Level Agreements (SLA), and Memoranda of Understanding (MOU) with other 
+agencies; Electronic Data Interchange (EDI) agreements with providers, Managed 
+Care Organizations (MCOs), and others; and Centers for Medicare & Medicaid 
+Services (CMS), other federal agencies, and Regional Health Information 
+Organizations (RHIO). 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Request made for business relationship (e.g., EDI, email, mail, facsimile, 
+telephone). 
+ 
+Identification of the need for a business relationship (e.g., new policy, new 
+program). 
+Result 
+ 
+The SMA agrees upon Business Relationship with business partner. 
+ 
+Defined communication protocols for data exchange. 
+ 
+Alert to send notification to business partner of agreement. 
+ 
+Established agreement between business partners (e.g., TPA, SLA, MOU). 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request for business relationship from partner. 
+2. Conduct collection of agreement information with other party. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor completes all required 
+fields. 
+4. Validate that the provided information is authentic.  
+5. Decide determination for establishment of relationship. If no agreement, go to 
+step 9.  
+6. Establish terms of the business relationship (e.g., TPA, SLA, MOU).  
+7. Establish Key Performance Indicator (KPI). 
+8. Establish payment agreements. 
+9. Establish data exchange requirements. 
+
+
+================================================================================
+PAGE 2
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 11
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.9 y= 100.5] BR Standards Management
+[x= 221.0 y= 113.7] Establish Business Relationship
+[x= 104.0 y= 126.8] Item
+[x= 330.7 y= 126.8] Details
+[x= 163.4 y= 139.8] 10. Establish authentication protocol.
+[x= 163.4 y= 157.3] 11. Establish security protocol.
+[x= 163.4 y= 174.8] 12. Establish privacy requirements.
+[x= 163.4 y= 192.3] 13. Agreement on business relationship.
+[x= 163.4 y= 209.8] 14.
+[x= 181.4 y= 209.8] END:
+[x= 205.9 y= 209.8] Send alert to notify business partner of agreement.
+[x=  77.9 y= 233.9] Shared Data
+[x= 163.4 y= 233.8] Business Partner data store including service agreement information
+[x= 163.4 y= 251.3] Contractor data store including contract information
+[x=  77.9 y= 275.4] Predecessor
+[x= 163.4 y= 275.4] Receive Inbound Transaction
+[x= 163.4 y= 292.9] Award Contract
+[x= 163.4 y= 310.4] Enroll Provider
+[x= 163.4 y= 328.0] Maintain Program Policy
+[x= 163.4 y= 345.4] Maintain State Plan
+[x=  77.9 y= 369.4] Successor
+[x= 163.4 y= 369.4] Send Outbound Transaction
+[x= 163.4 y= 386.9] Manage Business Relationship Information
+[x= 163.4 y= 404.4] Manage Business Relationship Communication
+[x=  77.9 y= 428.3] Constraints
+[x= 163.4 y= 428.3] Federal and state policies and regulations will constrain these agreements.
+[x=  77.9 y= 452.3] Failures
+[x= 163.4 y= 451.9] 
+[x= 181.4 y= 452.9] Parties are unable to agree on terms of relationship.
+[x=  77.9 y= 477.1] Performance
+[x=  77.9 y= 488.5] Measures
+[x= 163.4 y= 476.7] 
+[x= 181.4 y= 477.7] Time to complete business process = within __ days
+[x= 163.4 y= 494.8] 
+[x= 181.4 y= 495.8] Accuracy with which edits are applied = ___%
+[x= 163.4 y= 513.0] 
+[x= 181.4 y= 514.0] Consistency of decisions and disposition = ___%
+[x= 163.4 y= 531.1] 
+[x= 181.4 y= 532.1] Error rate = __% or less
+[x=  72.0 y= 575.1] Manage Business Relationship Communication
+[x=  77.4 y= 602.2] BR Standards Management
+[x= 181.9 y= 615.3] Manage Business Relationship Communication
+[x= 100.0 y= 628.5] Item
+[x= 327.3 y= 628.5] Details
+[x=  77.4 y= 647.5] Description
+[x= 156.1 y= 647.5] The
+[x= 176.2 y= 647.5] Manage Business Relationship Communication
+[x= 401.7 y= 647.5] business process receives
+[x= 156.1 y= 659.0] requests for information, appointments, and assistance from business partners, such
+[x= 156.1 y= 670.4] as inquiries related to a Service Level Agreement (SLA). This business process
+[x= 156.1 y= 682.0] includes the log, research, development, approval and delivery of routine or ad hoc
+[x= 156.1 y= 693.5] messages. Information communicated by a variety of methods such as email, mail,
+[x= 156.1 y= 704.9] publication, mobile device, facsimile, telephone, web or Electronic Data Interchange
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 11 
+May 2014 
+Version 3.0 
+ 
+ 
+BR Standards Management 
+Establish Business Relationship 
+Item 
+Details 
+10. Establish authentication protocol. 
+11. Establish security protocol. 
+12. Establish privacy requirements. 
+13. Agreement on business relationship. 
+14. END: Send alert to notify business partner of agreement. 
+Shared Data 
+Business Partner data store including service agreement information 
+Contractor data store including contract information 
+Predecessor 
+Receive Inbound Transaction 
+Award Contract 
+Enroll Provider 
+Maintain Program Policy 
+Maintain State Plan 
+Successor 
+Send Outbound Transaction 
+Manage Business Relationship Information 
+Manage Business Relationship Communication 
+Constraints 
+Federal and state policies and regulations will constrain these agreements. 
+Failures 
+ 
+Parties are unable to agree on terms of relationship. 
+Performance 
+Measures 
+ 
+Time to complete business process = within __ days 
+ 
+Accuracy with which edits are applied = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+Manage Business Relationship Communication 
+BR Standards Management 
+Manage Business Relationship Communication 
+Item 
+Details 
+Description 
+The Manage Business Relationship Communication business process receives 
+requests for information, appointments, and assistance from business partners, such 
+as inquiries related to a Service Level Agreement (SLA). This business process 
+includes the log, research, development, approval and delivery of routine or ad hoc 
+messages. Information communicated by a variety of methods such as email, mail, 
+publication, mobile device, facsimile, telephone, web or Electronic Data Interchange 
+
+
+================================================================================
+PAGE 3
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 12
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] BR Standards Management
+[x= 181.9 y= 113.7] Manage Business Relationship Communication
+[x= 100.0 y= 126.8] Item
+[x= 327.3 y= 126.8] Details
+[x= 156.1 y= 139.8] (EDI).
+[x=  77.4 y= 163.9] Trigger Event
+[x= 156.1 y= 163.8] Interaction-based Trigger Events to include but not limited to:
+[x= 156.1 y= 181.0] 
+[x= 174.1 y= 182.0] Receive requests from other business processes to develop and produce
+[x= 174.1 y= 193.5] communications for business partners such as alerts from
+[x= 432.5 y= 193.5] Establish Business
+[x= 174.1 y= 205.0] Relationship
+[x= 236.9 y= 205.0] business process.
+[x= 156.1 y= 222.1] 
+[x= 174.1 y= 223.1] Receive inquiries originating from customer help desk through
+[x= 451.0 y= 223.1] Manage
+[x= 174.1 y= 234.7] Business Relationship Information
+[x= 341.9 y= 234.7] business process.
+[x= 156.1 y= 252.2] Environment-based Trigger Events to include but not limited to:
+[x= 156.1 y= 269.3] 
+[x= 174.1 y= 270.3] Receive inquiry from business partner.
+[x= 156.1 y= 287.5] 
+[x= 174.1 y= 288.5] Request to send information packages such as a SLA or a Key Performance
+[x= 174.1 y= 300.0] Indicator (KPI).
+[x= 156.1 y= 317.2] 
+[x= 174.1 y= 318.2] Receive request for assistance, such as a request for training or change in
+[x= 174.1 y= 329.7] business partner information.
+[x= 156.1 y= 346.8] 
+[x= 174.1 y= 347.8] Periodic timetable (e.g., monthly) is due for sending information (e.g., within 24
+[x= 174.1 y= 359.3] hours of new business partner agreement and periodic communications such as
+[x= 174.1 y= 370.9] newsletters or other agency communications).
+[x=  77.4 y= 394.9] Result
+[x= 156.1 y= 394.5] 
+[x= 174.1 y= 395.5] Business partner receives appropriate assistance, communication, and/or
+[x= 174.1 y= 407.0] information packages.
+[x= 156.1 y= 424.2] 
+[x= 174.1 y= 425.2] Tracking information as needed for measuring performance and business activity
+[x= 174.1 y= 436.7] monitoring.
+[x=  77.4 y= 460.7] Business
+[x=  77.4 y= 472.3] Process
+[x=  77.4 y= 483.7] Steps
+[x= 156.1 y= 460.7] 1.
+[x= 174.1 y= 460.7] START:
+[x= 210.8 y= 460.7] Receive request for communication.
+[x= 156.1 y= 478.2] 2. Validate information submitted is correct and as complete as possible.
+[x= 174.1 y= 489.7] Information complies with syntax criteria and requestor has completed all
+[x= 174.1 y= 501.2] required fields.
+[x= 156.1 y= 518.7] 3. Validate that the provided information is authentic.
+[x= 156.1 y= 536.2] 4. Agency logs request for communication.
+[x= 156.1 y= 553.7] 5. Determine content and method of communication (e.g., email, mail, publication,
+[x= 174.1 y= 565.2] mobile device, facsimile, telephone, web, or Electronic Data Interchange (EDI)).
+[x= 156.1 y= 582.7] 6. Prepare content that is linguistically, culturally, and competency appropriate for
+[x= 174.1 y= 594.2] the communication in agreed upon format.
+[x= 156.1 y= 611.7] 7. Review and approve communication.
+[x= 156.1 y= 629.2] 8. Generate communication in agreed upon format.
+[x= 156.1 y= 646.7] 9. Agency logs communication message.
+[x= 156.1 y= 664.2] 10.
+[x= 174.1 y= 664.2] END:
+[x= 198.6 y= 664.2] Evaluate the efficacy of the communication (e.g., customer satisfaction,
+[x= 174.1 y= 675.7] first time resolution rate).
+[x=  77.4 y= 699.7] Shared Data
+[x= 156.1 y= 699.7] Business Partner data store including service agreements information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 12 
+May 2014 
+Version 3.0 
+ 
+ 
+BR Standards Management 
+Manage Business Relationship Communication 
+Item 
+Details 
+(EDI). 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive requests from other business processes to develop and produce 
+communications for business partners such as alerts from Establish Business 
+Relationship business process. 
+ 
+Receive inquiries originating from customer help desk through Manage 
+Business Relationship Information business process. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive inquiry from business partner. 
+ 
+Request to send information packages such as a SLA or a Key Performance 
+Indicator (KPI). 
+ 
+Receive request for assistance, such as a request for training or change in 
+business partner information. 
+ 
+Periodic timetable (e.g., monthly) is due for sending information (e.g., within 24 
+hours of new business partner agreement and periodic communications such as 
+newsletters or other agency communications). 
+Result 
+ 
+Business partner receives appropriate assistance, communication, and/or 
+information packages. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring. 
+Business 
+Process 
+Steps 
+1. START: Receive request for communication. 
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+3. Validate that the provided information is authentic. 
+4. Agency logs request for communication. 
+5. Determine content and method of communication (e.g., email, mail, publication, 
+mobile device, facsimile, telephone, web, or Electronic Data Interchange (EDI)).  
+6. Prepare content that is linguistically, culturally, and competency appropriate for 
+the communication in agreed upon format. 
+7. Review and approve communication. 
+8. Generate communication in agreed upon format. 
+9. Agency logs communication message. 
+10. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, 
+first time resolution rate). 
+Shared Data 
+Business Partner data store including service agreements information 
+
+
+================================================================================
+PAGE 4
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 13
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] BR Standards Management
+[x= 181.9 y= 113.7] Manage Business Relationship Communication
+[x= 100.0 y= 126.8] Item
+[x= 327.3 y= 126.8] Details
+[x= 156.1 y= 139.8] Contractor data store including contract information
+[x=  77.4 y= 163.9] Predecessor
+[x= 156.1 y= 163.9] Receive Inbound Transaction
+[x= 156.1 y= 181.4] Establish Business Relationship
+[x= 156.1 y= 199.0] Manage Business Relationship Information
+[x= 156.1 y= 216.4] Terminate Business Relationship
+[x= 156.1 y= 233.9] Maintain State Plan
+[x= 156.1 y= 251.5] Manage Health Plan Information
+[x= 156.1 y= 268.9] Manage Health Benefit Information
+[x=  77.4 y= 292.9] Successor
+[x= 156.1 y= 292.9] Send Outbound Transaction
+[x= 156.1 y= 310.4] Manage Performance Measures
+[x=  77.4 y= 334.4] Constraints
+[x= 156.1 y= 334.3] The State Medicaid Agency (SMA) and its business partners agree on the content of
+[x= 156.1 y= 345.8] the communications. Content depends on the business relationship. Content may be
+[x= 156.1 y= 357.3] standards-based. Communication complies with federal and state regulations that
+[x= 156.1 y= 368.8] may vary by state.
+[x= 156.1 y= 386.3] Business partner may have communication barriers such as lack of internet or phone
+[x= 156.1 y= 397.8] access. Business partner is unable to access needed or requested information.
+[x=  77.4 y= 421.9] Failures
+[x= 156.1 y= 421.5] 
+[x= 174.1 y= 422.5] The SMA is unable to provide linguistically, culturally, or competency appropriate
+[x= 174.1 y= 434.0] information.
+[x= 156.1 y= 451.2] 
+[x= 174.1 y= 452.2] Delivery failures due to erroneous contact information or lack of contact
+[x= 174.1 y= 463.6] information.
+[x=  77.4 y= 487.7] Performance
+[x=  77.4 y= 499.2] Measures
+[x= 156.1 y= 487.3] 
+[x= 174.1 y= 488.3] Time to complete response: By phone __ minutes; by email __hours; by mail __
+[x= 174.1 y= 499.8] days
+[x= 156.1 y= 517.0] 
+[x= 174.1 y= 518.0] Accuracy of communications = __%
+[x= 156.1 y= 535.2] 
+[x= 174.1 y= 536.2] Communications successfully delivered = __%
+[x=  72.0 y= 578.0] Manage Business Relationship Information
+[x=  77.4 y= 605.0] BR Standards Management
+[x= 193.2 y= 618.1] Manage Business Relationship Information
+[x= 100.0 y= 631.3] Item
+[x= 327.3 y= 631.3] Details
+[x=  77.4 y= 650.4] Description
+[x= 156.1 y= 650.3] The
+[x= 176.2 y= 650.3] Manage Business Relationship Information
+[x= 381.1 y= 650.3] business process maintains the
+[x= 156.1 y= 661.8] agreement between the State Medicaid Agency (SMA) and the other party such as
+[x= 156.1 y= 673.3] the intrastate, interstate, and federal agencies. This includes routine modifications to
+[x= 156.1 y= 684.8] required information such as authorized signers, addresses, terms of agreement, Key
+[x= 156.1 y= 696.3] Performance Indicator (KPI), and data exchange standards.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 13 
+May 2014 
+Version 3.0 
+ 
+ 
+BR Standards Management 
+Manage Business Relationship Communication 
+Item 
+Details 
+Contractor data store including contract information 
+Predecessor 
+Receive Inbound Transaction 
+Establish Business Relationship 
+Manage Business Relationship Information 
+Terminate Business Relationship 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Health Benefit Information 
+Successor 
+Send Outbound Transaction 
+Manage Performance Measures 
+Constraints 
+The State Medicaid Agency (SMA) and its business partners agree on the content of 
+the communications. Content depends on the business relationship. Content may be 
+standards-based. Communication complies with federal and state regulations that 
+may vary by state. 
+Business partner may have communication barriers such as lack of internet or phone 
+access. Business partner is unable to access needed or requested information.  
+Failures 
+ 
+The SMA is unable to provide linguistically, culturally, or competency appropriate 
+information. 
+ 
+Delivery failures due to erroneous contact information or lack of contact 
+information. 
+Performance 
+Measures 
+ 
+Time to complete response: By phone __ minutes; by email __hours; by mail __ 
+days 
+ 
+Accuracy of communications = __% 
+ 
+Communications successfully delivered = __% 
+ 
+Manage Business Relationship Information 
+BR Standards Management 
+Manage Business Relationship Information 
+Item 
+Details 
+Description 
+The Manage Business Relationship Information business process maintains the 
+agreement between the State Medicaid Agency (SMA) and the other party such as 
+the intrastate, interstate, and federal agencies. This includes routine modifications to 
+required information such as authorized signers, addresses, terms of agreement, Key 
+Performance Indicator (KPI), and data exchange standards. 
+
+
+================================================================================
+PAGE 5
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 14
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] BR Standards Management
+[x= 193.2 y= 113.7] Manage Business Relationship Information
+[x= 100.0 y= 126.8] Item
+[x= 327.3 y= 126.8] Details
+[x=  77.4 y= 145.9] Trigger Event
+[x= 156.1 y= 145.8] Environment-based Trigger Events to include but not limited to:
+[x= 156.1 y= 163.0] 
+[x= 174.1 y= 164.0] Receive agreement modifications (e.g., create, update, or delete).
+[x=  77.4 y= 188.0] Result
+[x= 156.1 y= 187.6] 
+[x= 174.1 y= 188.6] Modified business relationship agreement.
+[x= 156.1 y= 205.8] 
+[x= 174.1 y= 206.8] Alert to send notification to business partner of agreement.
+[x= 156.1 y= 224.0] 
+[x= 174.1 y= 225.0] Tracking information as needed for measuring performance and business activity
+[x= 174.1 y= 236.5] monitoring.
+[x=  77.4 y= 260.6] Business
+[x=  77.4 y= 272.0] Process
+[x=  77.4 y= 283.6] Steps
+[x= 156.1 y= 260.5] 1.
+[x= 174.1 y= 260.5] START:
+[x= 210.8 y= 260.5] Receive agreement updates.
+[x= 156.1 y= 278.0] 2. Agency logs request for modification.
+[x= 156.1 y= 295.5] 3. Validate information submitted is correct and as complete as possible.
+[x= 174.1 y= 307.0] Information complies with syntax criteria and submitter has completed all
+[x= 174.1 y= 318.5] required fields.
+[x= 156.1 y= 336.0] 4. Validate that the provided information is authentic.
+[x= 156.1 y= 353.5] 5. Staff records modification to business relationship agreement.
+[x= 156.1 y= 371.0] 6.
+[x= 174.1 y= 371.0] END:
+[x= 198.6 y= 371.0] Send alert to notify business partner of modification.
+[x=  77.4 y= 395.0] Shared Data
+[x= 156.1 y= 395.0] Business Partner data store including service agreement information
+[x= 156.1 y= 412.5] Contractor data store including contract information
+[x=  77.4 y= 436.6] Predecessor
+[x= 156.1 y= 436.6] Establish Business Relationship
+[x= 156.1 y= 454.1] Manage Contract
+[x=  77.4 y= 478.1] Successor
+[x= 156.1 y= 478.1] Send Outbound Transaction
+[x= 156.1 y= 495.6] Manage Business Relationship Communication
+[x= 156.1 y= 513.1] Terminate Business Relationship
+[x=  77.4 y= 537.1] Constraints
+[x= 156.1 y= 537.0] Modifications include all information in the agreement, and depend on the type of
+[x= 156.1 y= 548.5] agreement and service level requirements associated with the agreement.
+[x=  77.4 y= 572.6] Failures
+[x= 156.1 y= 572.2] 
+[x= 174.1 y= 573.2] Information does not comply with syntax criteria.
+[x= 156.1 y= 590.3] 
+[x= 174.1 y= 591.3] Not all required information provided.
+[x= 156.1 y= 608.5] 
+[x= 174.1 y= 609.5] Staff is unable to authenticate information provided.
+[x=  77.4 y= 633.6] Performance
+[x=  77.4 y= 645.1] Measures
+[x= 156.1 y= 633.2] 
+[x= 174.1 y= 634.2] Time to complete business process = within __ days
+[x= 156.1 y= 651.3] 
+[x= 174.1 y= 652.3] Accuracy with which edits are applied = ___%
+[x= 156.1 y= 669.5] 
+[x= 174.1 y= 670.5] Consistency of decisions and disposition = ___%
+[x= 156.1 y= 687.7] 
+[x= 174.1 y= 688.7] Error rate = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 14 
+May 2014 
+Version 3.0 
+ 
+ 
+BR Standards Management 
+Manage Business Relationship Information 
+Item 
+Details 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive agreement modifications (e.g., create, update, or delete). 
+Result 
+ 
+Modified business relationship agreement. 
+ 
+Alert to send notification to business partner of agreement. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring. 
+Business 
+Process 
+Steps 
+1. START: Receive agreement updates. 
+2. Agency logs request for modification. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and submitter has completed all 
+required fields. 
+4. Validate that the provided information is authentic.  
+5. Staff records modification to business relationship agreement. 
+6. END: Send alert to notify business partner of modification. 
+Shared Data 
+Business Partner data store including service agreement information 
+Contractor data store including contract information 
+Predecessor 
+Establish Business Relationship 
+Manage Contract 
+Successor 
+Send Outbound Transaction 
+Manage Business Relationship Communication 
+Terminate Business Relationship 
+Constraints 
+Modifications include all information in the agreement, and depend on the type of 
+agreement and service level requirements associated with the agreement. 
+Failures 
+ 
+Information does not comply with syntax criteria. 
+ 
+Not all required information provided. 
+ 
+Staff is unable to authenticate information provided. 
+Performance 
+Measures 
+ 
+Time to complete business process = within __ days 
+ 
+Accuracy with which edits are applied = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+
+
+================================================================================
+PAGE 6
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 15
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Terminate Business Relationship
+[x=  77.4 y= 127.2] BR Standards Management
+[x= 219.2 y= 140.4] Terminate Business Relationship
+[x= 100.3 y= 153.5] Item
+[x= 327.6 y= 153.5] Details
+[x=  77.4 y= 172.6] Description
+[x= 156.7 y= 172.5] The
+[x= 176.7 y= 172.5] Terminate Business Relationship
+[x= 337.3 y= 172.5] business process cancels the agreement
+[x= 156.7 y= 184.0] between the State Medicaid Agency (SMA) and the business partner such as the
+[x= 156.7 y= 195.5] intrastate, interstate and federal agencies.
+[x=  77.4 y= 219.6] Trigger Event
+[x= 156.7 y= 219.5] Environment-based Trigger Events to include but not limited to:
+[x= 156.7 y= 236.6] 
+[x= 174.7 y= 237.7] Receive request for termination of agreement from internal or external sources.
+[x= 156.7 y= 254.8] 
+[x= 174.7 y= 255.8] Notification that the agreement has expired or a one-time information exchange
+[x= 174.7 y= 267.4] process is complete.
+[x= 156.7 y= 284.5] 
+[x= 174.7 y= 285.5] External sources could be a receipt of a vendor purchased by another.
+[x=  77.4 y= 309.6] Result
+[x= 156.7 y= 309.2] 
+[x= 174.7 y= 310.2] Business Relationship terminated. The SMA does not share additional
+[x= 174.7 y= 321.7] information.
+[x= 156.7 y= 338.8] 
+[x= 174.7 y= 339.8] Alert to send notification to business partner of termination.
+[x= 156.7 y= 357.0] 
+[x= 174.7 y= 358.0] Tracking information as needed for measuring performance and business activity
+[x= 174.7 y= 369.5] monitoring.
+[x=  77.4 y= 393.6] Business
+[x=  77.4 y= 405.1] Process
+[x=  77.4 y= 416.6] Steps
+[x= 156.7 y= 393.5] 1.
+[x= 174.7 y= 393.5] START:
+[x= 211.4 y= 393.5] Receive request for business relationship termination.
+[x= 156.7 y= 411.1] 2. Validate information submitted is correct and as complete as possible.
+[x= 174.7 y= 422.5] Information complies with syntax criteria and requestor has completed all
+[x= 174.7 y= 434.0] required fields.
+[x= 156.7 y= 451.6] 3. Validate that the provided information authentic.
+[x= 156.7 y= 469.0] 4. Evaluate impact of termination of business relationship to business operations.
+[x= 156.7 y= 486.5] 5. Terminate business relationship and related Service Level Agreement (SLA),
+[x= 174.7 y= 498.1] Memoranda of Understanding (MOU), and such.
+[x= 156.7 y= 515.5] 6.
+[x= 174.7 y= 515.5] END:
+[x= 199.1 y= 515.5] Send alert to notify business partner of termination.
+[x=  77.4 y= 539.6] Shared Data
+[x= 156.7 y= 539.5] Business Partner data store including service agreements information
+[x= 156.7 y= 557.0] Contractor data store including contract information
+[x=  77.4 y= 581.1] Predecessor
+[x= 156.7 y= 581.1] Receive Inbound Transaction
+[x= 156.7 y= 598.7] Manage Business Relationship Information
+[x= 156.7 y= 616.1] Close Out Contract
+[x=  77.4 y= 640.1] Successor
+[x= 156.7 y= 640.1] Send Outbound Transaction
+[x= 156.7 y= 657.7] Manage Business Relationship Communication
+[x=  77.4 y= 681.6] Constraints
+[x= 156.7 y= 681.5] The SMA and its business partners agree on the content of the termination message.
+[x= 156.7 y= 693.1] Content depends on the business relationship. Content is standards-based.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 15 
+May 2014 
+Version 3.0 
+ 
+ 
+Terminate Business Relationship 
+BR Standards Management 
+Terminate Business Relationship 
+Item 
+Details 
+Description 
+The Terminate Business Relationship business process cancels the agreement 
+between the State Medicaid Agency (SMA) and the business partner such as the 
+intrastate, interstate and federal agencies. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive request for termination of agreement from internal or external sources.  
+ 
+Notification that the agreement has expired or a one-time information exchange 
+process is complete. 
+ 
+External sources could be a receipt of a vendor purchased by another. 
+Result 
+ 
+Business Relationship terminated. The SMA does not share additional 
+information. 
+ 
+Alert to send notification to business partner of termination. 
+ 
+Tracking information as needed for measuring performance and business activity 
+monitoring. 
+Business 
+Process 
+Steps 
+1. START: Receive request for business relationship termination. 
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+3. Validate that the provided information authentic. 
+4. Evaluate impact of termination of business relationship to business operations. 
+5. Terminate business relationship and related Service Level Agreement (SLA), 
+Memoranda of Understanding (MOU), and such. 
+6. END: Send alert to notify business partner of termination. 
+Shared Data 
+Business Partner data store including service agreements information 
+Contractor data store including contract information 
+Predecessor 
+Receive Inbound Transaction 
+Manage Business Relationship Information 
+Close Out Contract 
+Successor 
+Send Outbound Transaction 
+Manage Business Relationship Communication 
+Constraints 
+The SMA and its business partners agree on the content of the termination message. 
+Content depends on the business relationship. Content is standards-based. 
+
+
+================================================================================
+PAGE 7
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 16
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] BR Standards Management
+[x= 219.2 y= 113.7] Terminate Business Relationship
+[x= 100.3 y= 126.8] Item
+[x= 327.6 y= 126.8] Details
+[x=  77.4 y= 145.9] Failures
+[x= 156.7 y= 145.5] 
+[x= 174.7 y= 146.5] Information does not comply with syntax criteria.
+[x= 156.7 y= 163.6] 
+[x= 174.7 y= 164.6] Not all required information provided.
+[x= 156.7 y= 181.8] 
+[x= 174.7 y= 182.8] Information provided not authenticated.
+[x=  77.4 y= 206.9] Performance
+[x=  77.4 y= 218.4] Measures
+[x= 156.7 y= 206.5] 
+[x= 174.7 y= 207.5] Time to complete business process = within __ days
+[x= 156.7 y= 224.7] 
+[x= 174.7 y= 225.7] Accuracy with which edits are applied = ___%
+[x= 156.7 y= 242.8] 
+[x= 174.7 y= 243.8] Consistency of decisions and disposition = ___%
+[x= 156.7 y= 261.0] 
+[x= 174.7 y= 262.0] Error rate = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 16 
+May 2014 
+Version 3.0 
+ 
+ 
+BR Standards Management 
+Terminate Business Relationship 
+Item 
+Details 
+Failures 
+ 
+Information does not comply with syntax criteria. 
+ 
+Not all required information provided. 
+ 
+Information provided not authenticated. 
+Performance 
+Measures 
+ 
+Time to complete business process = within __ days 
+ 
+Accuracy with which edits are applied = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+

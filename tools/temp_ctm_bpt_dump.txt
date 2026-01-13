@@ -1,0 +1,2264 @@
+====================================================================================================
+CONTRACTOR MANAGEMENT BPT - RAW DUMP FOR MANUAL JSON VERIFICATION
+====================================================================================================
+
+This file contains raw text extracted from the PDF with position information.
+Use this to verify the BPT JSON files are accurate.
+
+
+================================================================================
+PAGE 1
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 43
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Manage Contractor Information
+[x=  77.4 y= 127.2] CO Contractor Information Management
+[x= 224.1 y= 140.4] Manage Contractor Information
+[x= 102.1 y= 153.5] Item
+[x= 329.4 y= 153.5] Details
+[x=  77.4 y= 172.6] Description
+[x= 160.3 y= 172.5] The
+[x= 180.4 y= 172.5] Manage Contractor Information
+[x= 332.0 y= 172.5] business process is responsible for managing
+[x= 160.3 y= 184.0] all operational aspects of the Contractor (e.g., managed care, at-risk mental health
+[x= 160.3 y= 195.5] or dental care, primary care physician, Recovery Audit Contractor (RAC)) data store.
+[x= 160.3 y= 207.0] This business process receives a request for addition, deletion, or modification to
+[x= 160.3 y= 218.5] Contractor information, validates the request, and applies the instruction.
+[x= 160.3 y= 236.0] NOTE
+[x= 188.2 y= 236.0] : Requires billing agents, clearinghouses, or other alternate payees (as
+[x= 160.3 y= 247.5] defined by the Secretary) to register with Medicaid agency.
+[x=  77.4 y= 271.6] Trigger Event
+[x= 160.3 y= 271.5] Environment-based Trigger Events to include but not limited to:
+[x= 160.3 y= 288.7] 
+[x= 178.3 y= 289.7] Receive request to create, inquire, delete, or modify contractor information from
+[x= 178.3 y= 301.2] authorized individuals via email, mail, facsimile, telephone or web.
+[x= 160.3 y= 318.3] 
+[x= 178.3 y= 319.3] Receive request to verify contractor information from authorized external parties.
+[x=  77.4 y= 343.4] Result
+[x= 160.3 y= 343.0] 
+[x= 178.3 y= 344.0] The State Medicaid Agency (SMA) creates, inquires on, deletes, or modifies
+[x= 178.3 y= 355.5] contractor information.
+[x= 160.3 y= 372.7] 
+[x= 178.3 y= 373.7] Alert sent to notify Health Insurance Marketplace of provider network
+[x= 178.3 y= 385.2] modification information.
+[x= 160.3 y= 402.4] 
+[x= 178.3 y= 403.4] Alert sent to notify insurance affordability program of provider network
+[x= 178.3 y= 414.9] modification.
+[x= 160.3 y= 432.0] 
+[x= 178.3 y= 433.0] Alert to
+[x= 212.8 y= 433.0] Manage Contractor Communication
+[x= 382.3 y= 433.0] business process to notify
+[x= 178.3 y= 444.5] contractor of relevant modifications.
+[x= 160.3 y= 461.7] 
+[x= 178.3 y= 462.7] Tracking information as needed for measuring performance and business
+[x= 178.3 y= 474.2] activity monitoring.
+[x=  77.4 y= 498.3] Business
+[x=  77.4 y= 509.8] Process Steps
+[x= 160.3 y= 498.2] 1.
+[x= 178.3 y= 498.2] START:
+[x= 215.0 y= 498.2] Receive request from authorized individuals or agencies to create,
+[x= 178.3 y= 509.7] inquire, delete or modify contractor information.
+[x= 160.3 y= 527.2] 2. Agency logs request for contractor information.
+[x= 160.3 y= 544.7] 3. Validate information submitted is correct and as complete as possible.
+[x= 178.3 y= 556.2] Information complies with syntax criteria and requestor has completed all
+[x= 178.3 y= 567.7] required fields.
+[x= 160.3 y= 585.2] 4. Validate authorization of requestor to acquire contactor information.
+[x= 160.3 y= 602.7] 5. Find appropriate contractor.
+[x= 160.3 y= 620.2] 6. Create, inquire, delete or modify relevant contractor information.
+[x= 160.3 y= 637.7] 7. Send alert to notify Health Insurance Marketplace of provider network
+[x= 178.3 y= 649.2] modification.
+[x= 160.3 y= 666.7] 8. Send alert to notify insurance affordability program of provider network
+[x= 178.3 y= 678.2] modification.
+[x= 160.3 y= 695.7] 9. Send alert to
+[x= 237.8 y= 695.7] Manage Contractor Communication
+[x= 407.3 y= 695.7] business process to notify
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 43 
+May 2014 
+Version 3.0 
+ 
+ 
+Manage Contractor Information 
+CO Contractor Information Management 
+Manage Contractor Information 
+Item 
+Details 
+Description 
+The Manage Contractor Information business process is responsible for managing 
+all operational aspects of the Contractor (e.g., managed care, at-risk mental health 
+or dental care, primary care physician, Recovery Audit Contractor (RAC)) data store. 
+This business process receives a request for addition, deletion, or modification to 
+Contractor information, validates the request, and applies the instruction. 
+NOTE: Requires billing agents, clearinghouses, or other alternate payees (as 
+defined by the Secretary) to register with Medicaid agency.  
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive request to create, inquire, delete, or modify contractor information from 
+authorized individuals via email, mail, facsimile, telephone or web. 
+ 
+Receive request to verify contractor information from authorized external parties. 
+Result 
+ 
+The State Medicaid Agency (SMA) creates, inquires on, deletes, or modifies 
+contractor information. 
+ 
+Alert sent to notify Health Insurance Marketplace of provider network 
+modification information. 
+ 
+Alert sent to notify insurance affordability program of provider network 
+modification. 
+ 
+Alert to Manage Contractor Communication business process to notify 
+contractor of relevant modifications. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request from authorized individuals or agencies to create, 
+inquire, delete or modify contractor information. 
+2. Agency logs request for contractor information. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+4. Validate authorization of requestor to acquire contactor information. 
+5. Find appropriate contractor. 
+6. Create, inquire, delete or modify relevant contractor information. 
+7. Send alert to notify Health Insurance Marketplace of provider network 
+modification. 
+8. Send alert to notify insurance affordability program of provider network 
+modification. 
+9. Send alert to Manage Contractor Communication business process to notify 
+
+
+================================================================================
+PAGE 2
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 44
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Information Management
+[x= 224.1 y= 113.7] Manage Contractor Information
+[x= 102.1 y= 126.8] Item
+[x= 329.4 y= 126.8] Details
+[x= 178.3 y= 139.8] provider of relevant modifications.
+[x= 160.3 y= 157.3] 10.
+[x= 178.3 y= 157.3] END:
+[x= 202.8 y= 157.3] The SMA creates, inquires on, deletes, or modifies contractor information.
+[x=  77.4 y= 181.4] Shared Data
+[x= 160.3 y= 181.3] Contractor data store including contract information
+[x=  77.4 y= 205.4] Predecessor
+[x= 160.3 y= 205.4] Manage Contract
+[x= 160.3 y= 223.0] Close Out Contract
+[x=  77.4 y= 246.9] Successor
+[x= 160.3 y= 247.0] Perform Contractor Outreach
+[x= 160.3 y= 264.4] Manage Contractor Grievance and Appeal
+[x= 160.3 y= 281.9] Manage Contractor Communication
+[x= 160.3 y= 299.5] Manage Data
+[x=  77.4 y= 323.4] Constraints
+[x= 160.3 y= 323.3] Information requirements and data structures for the contractor data store may differ
+[x= 160.3 y= 334.8] from state to state.
+[x=  77.4 y= 358.9] Failures
+[x= 160.3 y= 358.5] 
+[x= 178.3 y= 359.5] The SMA cannot find contractor information.
+[x= 160.3 y= 376.6] 
+[x= 178.3 y= 377.6] The SMA cannot respond to a request (e.g., cannot change tax ID because it
+[x= 178.3 y= 389.2] would change the contracted entity).
+[x= 160.3 y= 406.3] 
+[x= 178.3 y= 407.3] Validation failed (e.g., address is not a legal address).
+[x= 160.3 y= 424.5] 
+[x= 178.3 y= 425.5] Contract provides incomplete information (e.g., missing required information
+[x= 178.3 y= 437.0] elements).
+[x=  77.4 y= 461.0] Performance
+[x=  77.4 y= 472.6] Measures
+[x= 160.3 y= 460.6] 
+[x= 178.3 y= 461.6] Timeliness to complete process = within __ days
+[x= 160.3 y= 478.8] 
+[x= 178.3 y= 479.8] Accuracy with which changes are applied = ___%
+[x= 160.3 y= 497.0] 
+[x= 178.3 y= 498.0] Consistency of decisions and disposition = ___%
+[x= 160.3 y= 515.2] 
+[x= 178.3 y= 516.2] Error rate = __% or less
+[x=  72.0 y= 558.0] Inquire Contractor Information
+[x=  77.4 y= 585.0] CO Contractor Information Management
+[x= 226.3 y= 598.2] Inquire Contractor Information
+[x= 102.7 y= 616.7] Item
+[x= 329.9 y= 616.7] Details
+[x=  77.4 y= 635.8] Description
+[x= 161.3 y= 635.7] The
+[x= 181.4 y= 635.7] Inquire Contractor Information
+[x= 326.3 y= 635.7] business process receives requests for
+[x= 161.3 y= 647.2] contract (e.g., managed care, at-risk mental health or dental care, Primary Care
+[x= 161.3 y= 658.7] Physician (PCP)) verification from authorized providers, programs or business
+[x= 161.3 y= 670.2] associates, performs the inquiry, and prepares the response for the
+[x= 461.5 y= 670.2] Send
+[x= 161.3 y= 681.7] Outbound Transaction
+[x= 268.6 y= 681.7] .
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 44 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Information Management 
+Manage Contractor Information 
+Item 
+Details 
+provider of relevant modifications. 
+10. END: The SMA creates, inquires on, deletes, or modifies contractor information. 
+Shared Data 
+Contractor data store including contract information 
+Predecessor 
+Manage Contract 
+Close Out Contract 
+Successor 
+Perform Contractor Outreach 
+Manage Contractor Grievance and Appeal 
+Manage Contractor Communication 
+Manage Data 
+Constraints 
+Information requirements and data structures for the contractor data store may differ 
+from state to state. 
+Failures 
+ 
+The SMA cannot find contractor information. 
+ 
+The SMA cannot respond to a request (e.g., cannot change tax ID because it 
+would change the contracted entity). 
+ 
+Validation failed (e.g., address is not a legal address). 
+ 
+Contract provides incomplete information (e.g., missing required information 
+elements). 
+Performance 
+Measures 
+ 
+Timeliness to complete process = within __ days 
+ 
+Accuracy with which changes are applied = ___% 
+ 
+Consistency of decisions and disposition = ___% 
+ 
+Error rate = __% or less 
+ 
+Inquire Contractor Information 
+CO Contractor Information Management 
+Inquire Contractor Information 
+Item 
+Details 
+Description 
+The Inquire Contractor Information business process receives requests for 
+contract (e.g., managed care, at-risk mental health or dental care, Primary Care 
+Physician (PCP)) verification from authorized providers, programs or business 
+associates, performs the inquiry, and prepares the response for the Send 
+Outbound Transaction. 
+
+
+================================================================================
+PAGE 3
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 45
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Information Management
+[x= 226.3 y= 113.7] Inquire Contractor Information
+[x= 102.7 y= 132.1] Item
+[x= 329.9 y= 132.1] Details
+[x=  77.4 y= 151.3] Trigger Event
+[x= 161.3 y= 151.2] Interaction-based Trigger Events to include but not limited to:
+[x= 161.3 y= 168.3] 
+[x= 179.3 y= 169.3] Receive contract verification request from
+[x= 366.1 y= 169.3] Receive Inbound Transaction
+[x= 505.7 y= 169.3] .
+[x=  77.4 y= 193.4] Result
+[x= 161.3 y= 193.0] 
+[x= 179.3 y= 194.0] Contract verification response sent to requestor.
+[x= 161.3 y= 211.2] 
+[x= 179.3 y= 212.2] Tracking information as needed for measuring performance and business
+[x= 179.3 y= 223.7] activity monitoring.
+[x=  77.4 y= 247.7] Business
+[x=  77.4 y= 259.3] Process Steps
+[x= 161.3 y= 247.7] 1.
+[x= 179.3 y= 247.7] START:
+[x= 216.1 y= 247.7] Receive contract verification request.
+[x= 161.3 y= 265.2] 2. Validate information submitted is correct and as complete as possible.
+[x= 179.3 y= 276.7] Information complies with syntax criteria and requestor has completed all
+[x= 179.3 y= 288.2] required fields.
+[x= 161.3 y= 305.7] 3. Validate that the provided information is authentic.
+[x= 161.3 y= 323.2] 4. Agency logs contract verification request.
+[x= 161.3 y= 340.7] 5. Determine request status as initial or duplicate.
+[x= 161.3 y= 358.2] 6. Query contractor data store for requested information.
+[x= 161.3 y= 375.7] 7. Agency logs contract verification response.
+[x= 161.3 y= 393.2] 8.
+[x= 179.3 y= 393.2] END:
+[x= 203.8 y= 393.2] Send contract verification response to requestor.
+[x=  77.4 y= 417.2] Shared Data
+[x= 161.3 y= 417.2] Contractor data store including contract information
+[x=  77.4 y= 441.2] Predecessor
+[x= 161.3 y= 441.2] Receive Inbound Transaction
+[x=  77.4 y= 465.2] Successor
+[x= 161.3 y= 465.2] Send Outbound Transaction
+[x= 161.3 y= 482.8] Manage Contractor Information
+[x=  77.4 y= 506.8] Constraints
+[x= 161.3 y= 506.7] The State Medicaid Agency (SMA) determines what information to share.
+[x=  77.4 y= 530.8] Failures
+[x= 161.3 y= 530.3] 
+[x= 179.3 y= 531.4] The SMA is unable to find contractor information.
+[x= 161.3 y= 548.5] 
+[x= 179.3 y= 549.5] The SMA is unable to respond to a request.
+[x= 161.3 y= 566.7] 
+[x= 179.3 y= 567.7] Validation failed.
+[x= 161.3 y= 584.8] 
+[x= 179.3 y= 585.8] Requestor provides incomplete information (e.g., missing required information
+[x= 179.3 y= 597.4] elements).
+[x=  77.4 y= 621.4] Performance
+[x=  77.4 y= 632.9] Measures
+[x= 161.3 y= 621.0] 
+[x= 179.3 y= 622.0] Time to verify Contractor information and generate response information: e.g.,
+[x= 179.3 y= 633.5] Real Time response = within __ seconds, Batch Response = within __ hours
+[x= 161.3 y= 650.7] 
+[x= 179.3 y= 651.7] Response Accuracy = ___%
+[x= 161.3 y= 668.8] 
+[x= 179.3 y= 669.8] Error rate = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 45 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Information Management 
+Inquire Contractor Information 
+Item 
+Details 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to:  
+ 
+Receive contract verification request from Receive Inbound Transaction. 
+Result 
+ 
+Contract verification response sent to requestor. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive contract verification request. 
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+3. Validate that the provided information is authentic. 
+4. Agency logs contract verification request. 
+5. Determine request status as initial or duplicate. 
+6. Query contractor data store for requested information. 
+7. Agency logs contract verification response. 
+8. END: Send contract verification response to requestor.  
+Shared Data 
+Contractor data store including contract information 
+Predecessor 
+Receive Inbound Transaction 
+Successor 
+Send Outbound Transaction 
+Manage Contractor Information 
+Constraints 
+The State Medicaid Agency (SMA) determines what information to share. 
+Failures 
+ 
+The SMA is unable to find contractor information. 
+ 
+The SMA is unable to respond to a request.  
+ 
+Validation failed.  
+ 
+Requestor provides incomplete information (e.g., missing required information 
+elements). 
+Performance 
+Measures 
+ 
+Time to verify Contractor information and generate response information: e.g., 
+Real Time response = within __ seconds, Batch Response = within __ hours 
+ 
+Response Accuracy = ___% 
+ 
+Error rate = __% or less 
+ 
+
+
+================================================================================
+PAGE 4
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 46
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  72.0 y= 100.2] Manage Contractor Communication
+[x=  77.4 y= 127.2] CO Contractor Support
+[x= 212.8 y= 140.4] Manage Contractor Communication
+[x= 101.9 y= 153.5] Item
+[x= 329.2 y= 153.5] Details
+[x=  77.4 y= 172.6] Description
+[x= 159.8 y= 172.5] The
+[x= 179.9 y= 172.5] Manage Contractor Communication
+[x= 352.1 y= 172.5] business process receives requests for
+[x= 159.8 y= 184.0] information, appointments, and assistance from contractors (e.g., managed care, at-
+[x= 159.8 y= 195.5] risk mental health or dental care, primary care physician) such as inquiries related to
+[x= 159.8 y= 207.0] modifications in Medicaid Program policies and procedures, introduction of new
+[x= 159.8 y= 218.5] programs, modifications to existing programs, public health alerts, and contract
+[x= 159.8 y= 230.0] amendments, etc. This business process includes the log, research, development,
+[x= 159.8 y= 241.5] approval, and delivery of routine or ad hoc messages. The State Medicaid Agency
+[x= 159.8 y= 253.0] (SMA) communications a variety of methods such as email, mail, publication, mobile
+[x= 159.8 y= 264.5] device, facsimile, telephone, web or Electronic Data Interchange (EDI).
+[x= 159.8 y= 282.0] NOTE:
+[x= 195.8 y= 282.0] The
+[x= 215.9 y= 282.0] Manage Contractor Communication
+[x= 388.1 y= 282.0] business process handles
+[x= 159.8 y= 293.5] current contractors by providing assistance and responses to individual entities, i.e.,
+[x= 159.8 y= 305.0] bi-directional communication. The
+[x= 312.1 y= 305.0] Perform Contractor Outreach
+[x= 453.8 y= 305.0] business process
+[x= 159.8 y= 316.5] targets both prospective and current contractor populations for distribution of
+[x= 159.8 y= 328.0] information regarding programs, policies, and other issues.
+[x= 159.8 y= 345.5] Other examples of communications include:
+[x= 159.8 y= 362.7] 
+[x= 177.8 y= 363.7] Pay for performance communications – performance measures could affect
+[x= 177.8 y= 375.2] capitation payments or other reimbursements.
+[x= 159.8 y= 392.4] 
+[x= 177.8 y= 393.4] Incentives to improve encounter information quality and submission rates.
+[x=  77.4 y= 417.4] Trigger Event
+[x= 159.8 y= 417.4] Interaction-based Trigger Events to include but not limited to:
+[x= 159.8 y= 434.5] 
+[x= 177.8 y= 435.5] Receive request from other business processes to develop and produce
+[x= 177.8 y= 447.0] communications for contractors such as notifications from
+[x= 435.2 y= 447.0] Manage Contractor
+[x= 177.8 y= 458.5] Information
+[x= 232.9 y= 458.5] business process.
+[x= 159.8 y= 476.0] Environment-based Trigger Events to include but not limited to:
+[x= 159.8 y= 493.2] 
+[x= 177.8 y= 494.2] Receive an inquiry from contractor.
+[x= 159.8 y= 511.3] 
+[x= 177.8 y= 512.3] Request to send information packages.
+[x= 159.8 y= 529.5] 
+[x= 177.8 y= 530.5] Request for assistance, such as a request for training or modify contractor
+[x= 177.8 y= 542.0] information.
+[x= 159.8 y= 559.2] 
+[x= 177.8 y= 560.2] Periodic timetable (e.g., monthly) is due to send information (e.g., within 24
+[x= 177.8 y= 571.7] hours of new contract award and periodic communications such as newsletters
+[x= 177.8 y= 583.2] or other agency communications).
+[x=  77.4 y= 607.3] Result
+[x= 159.8 y= 606.8] 
+[x= 177.8 y= 607.9] Contractor receives appropriate assistance, communications, and/or information
+[x= 177.8 y= 619.4] packages.
+[x= 159.8 y= 636.6] 
+[x= 177.8 y= 637.6] Tracking information as needed for measuring performance and business
+[x= 177.8 y= 649.1] activity monitoring.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 46 
+May 2014 
+Version 3.0 
+ 
+ 
+Manage Contractor Communication 
+CO Contractor Support 
+Manage Contractor Communication 
+Item 
+Details 
+Description 
+The Manage Contractor Communication business process receives requests for 
+information, appointments, and assistance from contractors (e.g., managed care, at-
+risk mental health or dental care, primary care physician) such as inquiries related to 
+modifications in Medicaid Program policies and procedures, introduction of new 
+programs, modifications to existing programs, public health alerts, and contract 
+amendments, etc. This business process includes the log, research, development, 
+approval, and delivery of routine or ad hoc messages. The State Medicaid Agency 
+(SMA) communications a variety of methods such as email, mail, publication, mobile 
+device, facsimile, telephone, web or Electronic Data Interchange (EDI).  
+NOTE: The Manage Contractor Communication business process handles 
+current contractors by providing assistance and responses to individual entities, i.e., 
+bi-directional communication. The Perform Contractor Outreach business process 
+targets both prospective and current contractor populations for distribution of 
+information regarding programs, policies, and other issues. 
+Other examples of communications include: 
+ 
+Pay for performance communications – performance measures could affect 
+capitation payments or other reimbursements. 
+ 
+Incentives to improve encounter information quality and submission rates. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive request from other business processes to develop and produce 
+communications for contractors such as notifications from Manage Contractor 
+Information business process. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive an inquiry from contractor. 
+ 
+Request to send information packages. 
+ 
+Request for assistance, such as a request for training or modify contractor 
+information. 
+ 
+Periodic timetable (e.g., monthly) is due to send information (e.g., within 24 
+hours of new contract award and periodic communications such as newsletters 
+or other agency communications). 
+Result 
+ 
+Contractor receives appropriate assistance, communications, and/or information 
+packages.  
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring.  
+
+
+================================================================================
+PAGE 5
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 47
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Support
+[x= 212.8 y= 113.7] Manage Contractor Communication
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x=  77.4 y= 145.9] Business
+[x=  77.4 y= 157.4] Process Steps
+[x= 159.8 y= 145.8] 1.
+[x= 177.8 y= 145.8] START:
+[x= 214.6 y= 145.8] Receive request for communication.
+[x= 159.8 y= 163.3] 2. Validate information submitted is correct and as complete as possible.
+[x= 177.8 y= 174.8] Information complies with syntax criteria and requestor has completed all
+[x= 177.8 y= 186.3] required fields.
+[x= 159.8 y= 203.8] 3. Validate that the provided information is authentic.
+[x= 159.8 y= 221.3] 4. Agency logs request for communication.
+[x= 159.8 y= 238.8] 5. Determine content and method of communication (e.g., email, mail, publication,
+[x= 177.8 y= 250.3] mobile device, facsimile, telephone, web, or EDI.
+[x= 159.8 y= 267.8] 6. Prepare content that is linguistically, culturally, and competency appropriate for
+[x= 177.8 y= 279.3] the communication in agreed upon format.
+[x= 159.8 y= 296.8] 7. Review and approve communication.
+[x= 159.8 y= 314.3] 8. Generate communication in agreed upon format.
+[x= 159.8 y= 331.8] 9. Agency logs communication message.
+[x= 159.8 y= 349.3] 10.
+[x= 177.8 y= 349.3] END:
+[x= 202.3 y= 349.3] Evaluate the efficacy of the communication (e.g., customer satisfaction,
+[x= 177.8 y= 360.8] first time resolution rate).
+[x=  77.4 y= 384.8] Shared Data
+[x= 159.8 y= 384.8] Contractor data store including contract information
+[x= 159.8 y= 402.3] Plan data store including health benefit information
+[x=  77.4 y= 426.4] Predecessor
+[x= 159.8 y= 426.4] Receive Inbound Transaction
+[x= 159.8 y= 443.9] Award Contract
+[x= 159.8 y= 461.4] Manage Contract
+[x= 159.8 y= 478.9] Close Out Contract
+[x= 159.8 y= 496.4] Manage Contractor Information
+[x= 159.8 y= 513.9] Inquire Contractor Information
+[x= 159.8 y= 531.4] Manage Contractor Grievance and Appeal
+[x= 159.8 y= 548.9] Maintain State Plan
+[x= 159.8 y= 566.4] Manage Health Plan Information
+[x= 159.8 y= 583.9] Manage Health Benefit Information
+[x= 159.8 y= 601.4] Manage Performance Measures
+[x=  77.4 y= 625.4] Successor
+[x= 159.8 y= 625.4] Send Outbound Transaction
+[x= 159.8 y= 642.9] Manage Performance Measures
+[x=  77.4 y= 666.8] Constraints
+[x= 159.8 y= 666.8] Communications will vary by state, by type of contractor, and by type of
+[x= 159.8 y= 678.3] communication.
+[x= 159.8 y= 695.8] Contractor may have communication barriers such as lack of internet or phone
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 47 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Support 
+Manage Contractor Communication 
+Item 
+Details 
+Business 
+Process Steps 
+1. START: Receive request for communication. 
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and requestor has completed all 
+required fields. 
+3. Validate that the provided information is authentic. 
+4. Agency logs request for communication. 
+5. Determine content and method of communication (e.g., email, mail, publication, 
+mobile device, facsimile, telephone, web, or EDI.  
+6. Prepare content that is linguistically, culturally, and competency appropriate for 
+the communication in agreed upon format. 
+7. Review and approve communication. 
+8. Generate communication in agreed upon format.  
+9. Agency logs communication message. 
+10. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, 
+first time resolution rate). 
+Shared Data 
+Contractor data store including contract information 
+Plan data store including health benefit information 
+Predecessor 
+Receive Inbound Transaction 
+Award Contract 
+Manage Contract 
+Close Out Contract 
+Manage Contractor Information 
+Inquire Contractor Information 
+Manage Contractor Grievance and Appeal 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Health Benefit Information  
+Manage Performance Measures 
+Successor 
+Send Outbound Transaction 
+Manage Performance Measures 
+Constraints 
+Communications will vary by state, by type of contractor, and by type of 
+communication. 
+Contractor may have communication barriers such as lack of internet or phone 
+
+
+================================================================================
+PAGE 6
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 48
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Support
+[x= 212.8 y= 113.7] Manage Contractor Communication
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.8] access. Contractor is unable to access needed or requested information.
+[x=  77.4 y= 163.9] Failures
+[x= 159.8 y= 163.5] 
+[x= 177.8 y= 164.5] The SMA is unable to provide linguistically, culturally, or competency
+[x= 177.8 y= 176.0] appropriate information.
+[x= 159.8 y= 193.2] 
+[x= 177.8 y= 194.2] Delivery failures due to erroneous contact information or lack of contact
+[x= 177.8 y= 205.7] information.
+[x=  77.4 y= 229.7] Performance
+[x=  77.4 y= 241.2] Measures
+[x= 159.8 y= 229.3] 
+[x= 177.8 y= 230.3] Time to complete response: By phone __ minutes; by email __hours; by mail __
+[x= 177.8 y= 241.9] days
+[x= 159.8 y= 259.0] 
+[x= 177.8 y= 260.0] Accuracy of communications = __%
+[x= 159.8 y= 277.2] 
+[x= 177.8 y= 278.2] Communications successfully delivered = __%
+[x=  72.0 y= 321.1] Perform Contractor Outreach
+[x=  77.4 y= 348.1] CO Contractor Support
+[x= 229.6 y= 361.3] Perform Contractor Outreach
+[x= 101.9 y= 374.5] Item
+[x= 329.2 y= 374.5] Details
+[x=  77.4 y= 393.5] Description
+[x= 159.8 y= 393.5] The
+[x= 179.8 y= 393.5] Perform Contractor Outreach
+[x= 321.5 y= 393.5] business process is responsible for sending
+[x= 159.8 y= 405.0] information such as public health alerts, new programs, and/or modifications in the
+[x= 159.8 y= 416.5] Medicaid Program policies and procedures.
+[x= 159.8 y= 434.0] For prospective contractors (e.g., managed care, at-risk mental health or dental
+[x= 159.8 y= 445.5] care, primary care physician), States Medicaid Agency (SMA) develops contractor
+[x= 159.8 y= 457.0] outreach information for prospective contractors identified by analyzing Medicaid
+[x= 159.8 y= 468.5] business needs.
+[x= 159.8 y= 485.9] For currently enrolled contractors, information may relate to public health alerts,
+[x= 159.8 y= 497.5] public service announcements, and other objectives.
+[x= 159.8 y= 515.0] The SMA communicates contractor outreach information by a variety of methods
+[x= 159.8 y= 526.4] such as email, mail, publication, mobile device, facsimile, telephone, web or
+[x= 159.8 y= 538.0] Electronic Data Interchange (EDI). The SMA produces, distributes, tracks, and
+[x= 159.8 y= 549.5] archives all contractor outreach communications according to state rules.
+[x=  77.4 y= 573.5] Trigger Event
+[x= 159.8 y= 573.5] Environment-based Trigger Events to include but not limited to:
+[x= 159.8 y= 590.6] 
+[x= 177.8 y= 591.6] Executive Management decision to:
+[x= 177.8 y= 609.8] o
+[x= 195.8 y= 609.1] Fill gaps in health care service and administrative coverage.
+[x= 177.8 y= 627.4] o
+[x= 195.8 y= 626.6] Solicit updated/new administrative and technical functions.
+[x= 177.8 y= 644.9] o
+[x= 195.8 y= 644.2] Introduce new programs requiring new types of health or administrative
+[x= 195.8 y= 655.6] service.
+[x= 177.8 y= 673.9] o
+[x= 195.8 y= 673.1] Change to existing policies and procedures.
+[x= 177.8 y= 691.3] o
+[x= 195.8 y= 690.6] Respond to critical need in a specific target population.
+[x= 177.8 y= 708.8] o
+[x= 195.8 y= 708.1] Identify new populations in need of service (e.g., new immigrant
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 48 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Support 
+Manage Contractor Communication 
+Item 
+Details 
+access. Contractor is unable to access needed or requested information. 
+Failures 
+ 
+ The SMA is unable to provide linguistically, culturally, or competency 
+appropriate information. 
+ 
+Delivery failures due to erroneous contact information or lack of contact 
+information. 
+Performance 
+Measures 
+ 
+Time to complete response: By phone __ minutes; by email __hours; by mail __ 
+days 
+ 
+Accuracy of communications = __% 
+ 
+Communications successfully delivered = __% 
+ 
+Perform Contractor Outreach 
+CO Contractor Support 
+Perform Contractor Outreach 
+Item 
+Details 
+Description 
+The Perform Contractor Outreach business process is responsible for sending 
+information such as public health alerts, new programs, and/or modifications in the 
+Medicaid Program policies and procedures. 
+For prospective contractors (e.g., managed care, at-risk mental health or dental 
+care, primary care physician), States Medicaid Agency (SMA) develops contractor 
+outreach information for prospective contractors identified by analyzing Medicaid 
+business needs. 
+For currently enrolled contractors, information may relate to public health alerts, 
+public service announcements, and other objectives. 
+The SMA communicates contractor outreach information by a variety of methods 
+such as email, mail, publication, mobile device, facsimile, telephone, web or 
+Electronic Data Interchange (EDI). The SMA produces, distributes, tracks, and 
+archives all contractor outreach communications according to state rules.  
+Trigger Event 
+Environment-based Trigger Events to include but not limited to:  
+ 
+Executive Management decision to: 
+o 
+Fill gaps in health care service and administrative coverage. 
+o 
+Solicit updated/new administrative and technical functions. 
+o 
+Introduce new programs requiring new types of health or administrative 
+service. 
+o 
+Change to existing policies and procedures. 
+o 
+Respond to critical need in a specific target population. 
+o 
+Identify new populations in need of service (e.g., new immigrant 
+
+
+================================================================================
+PAGE 7
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 49
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Support
+[x= 229.6 y= 113.7] Perform Contractor Outreach
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 195.8 y= 139.8] communities).
+[x= 159.8 y= 157.0] 
+[x= 177.8 y= 158.0] State transition-based trigger events:
+[x= 177.8 y= 176.2] o
+[x= 195.8 y= 175.5] Alert received from
+[x= 282.5 y= 175.5] Manage Health Plan Information
+[x= 434.8 y= 175.5] business process of
+[x= 195.8 y= 187.0] addition or modification.
+[x= 177.8 y= 205.2] o
+[x= 195.8 y= 204.5] Alert received from
+[x= 282.5 y= 204.5] Manage Health Benefit Information
+[x= 447.5 y= 204.5] business process
+[x= 195.8 y= 216.0] of addition or modification.
+[x=  77.4 y= 240.1] Result
+[x= 159.8 y= 239.7] 
+[x= 177.8 y= 240.7] Agency produces outreach communications (e.g., mailing brochure, web page,
+[x= 177.8 y= 252.2] email, kiosk, radio, billboard, and TV advertisements) and distributes to targeted
+[x= 177.8 y= 263.6] contractors. Agency may also conduct face-to-face meetings.
+[x= 159.8 y= 280.8] 
+[x= 177.8 y= 281.8] Tracking information as needed for measuring performance and business
+[x= 177.8 y= 293.3] activity monitoring.
+[x=  77.4 y= 317.4] Business
+[x=  77.4 y= 328.9] Process Steps
+[x= 159.8 y= 317.3] 1.
+[x= 177.8 y= 317.3] START:
+[x= 214.5 y= 317.3] Receive request for outreach materials or communication.
+[x= 159.8 y= 334.9] 2. Target population identified and defined by analyzing information, performance
+[x= 177.8 y= 346.3] measures, feedback from community, and policy directives.
+[x= 159.8 y= 363.8] 3. Approve, deny, or modify decisions to develop outreach communications.
+[x= 159.8 y= 381.3] 4. Determine content and method of communication (e.g., email, mail, publication,
+[x= 177.8 y= 392.8] mobile device, facsimile, telephone, web or EDI.
+[x= 159.8 y= 410.3] 5. Determine performance measures.
+[x= 159.8 y= 427.8] 6. Prepare content that is linguistically, culturally, and competency appropriate for
+[x= 177.8 y= 439.3] the communication in agreed upon format.
+[x= 159.8 y= 456.8] 7. Review and approve communication.
+[x= 159.8 y= 474.3] 8. Generate communication in agreed upon format.
+[x= 159.8 y= 491.8] 9. Agency logs communication message.
+[x= 159.8 y= 509.3] 10.
+[x= 177.8 y= 509.3] END:
+[x= 202.3 y= 509.3] Evaluate the efficacy of the communication (e.g., customer satisfaction,
+[x= 177.8 y= 520.8] first time resolution rate)
+[x=  77.4 y= 544.9] Shared Data
+[x= 159.8 y= 544.8] Contractor data store including provider network information
+[x= 159.8 y= 562.3] Plan data store including policy information
+[x= 159.8 y= 579.8] Health Benefits data store including benefit package and benefits information
+[x= 159.8 y= 597.3] Performance Measures data store including agency’s objectives (e.g., Consumer
+[x= 159.8 y= 608.8] Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare
+[x= 159.8 y= 620.3] Effectiveness Data and Information Set (HEDIS) information)
+[x=  77.4 y= 644.4] Predecessor
+[x= 159.8 y= 644.5] Manage Performance Measures
+[x= 159.8 y= 661.9] Identify Utilization Anomalies
+[x= 159.8 y= 679.4] Maintain State Plan
+[x= 159.8 y= 696.9] Manage Health Plan Information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 49 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Support 
+Perform Contractor Outreach 
+Item 
+Details 
+communities). 
+ 
+State transition-based trigger events: 
+o 
+Alert received from Manage Health Plan Information business process of 
+addition or modification. 
+o 
+Alert received from Manage Health Benefit Information business process 
+of addition or modification. 
+Result 
+ 
+Agency produces outreach communications (e.g., mailing brochure, web page, 
+email, kiosk, radio, billboard, and TV advertisements) and distributes to targeted 
+contractors. Agency may also conduct face-to-face meetings. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive request for outreach materials or communication. 
+2. Target population identified and defined by analyzing information, performance 
+measures, feedback from community, and policy directives. 
+3. Approve, deny, or modify decisions to develop outreach communications. 
+4. Determine content and method of communication (e.g., email, mail, publication, 
+mobile device, facsimile, telephone, web or EDI. 
+5. Determine performance measures. 
+6. Prepare content that is linguistically, culturally, and competency appropriate for 
+the communication in agreed upon format. 
+7. Review and approve communication. 
+8. Generate communication in agreed upon format.  
+9. Agency logs communication message.  
+10. END: Evaluate the efficacy of the communication (e.g., customer satisfaction, 
+first time resolution rate) 
+Shared Data 
+Contractor data store including provider network information 
+Plan data store including policy information 
+Health Benefits data store including benefit package and benefits information 
+Performance Measures data store including agency’s objectives (e.g., Consumer 
+Assessment of Healthcare Providers and Systems (CAPHS) and Healthcare 
+Effectiveness Data and Information Set (HEDIS) information) 
+Predecessor 
+Manage Performance Measures 
+Identify Utilization Anomalies 
+Maintain State Plan 
+Manage Health Plan Information 
+
+
+================================================================================
+PAGE 8
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 50
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Support
+[x= 229.6 y= 113.7] Perform Contractor Outreach
+[x= 101.9 y= 126.8] Item
+[x= 329.2 y= 126.8] Details
+[x= 159.8 y= 139.9] Manage Health Benefit Information
+[x=  77.4 y= 163.9] Successor
+[x= 159.8 y= 163.9] Send Outbound Transaction
+[x= 159.8 y= 181.4] Manage Contractor Communication
+[x= 159.8 y= 199.0] Manage Performance Measures
+[x=  77.4 y= 222.9] Constraints
+[x= 159.8 y= 222.8] Communications and information packages will address the needs of the targeted
+[x= 159.8 y= 234.3] population. Materials will be linguistically and culturally appropriate, legally
+[x= 159.8 y= 245.8] compliant, appropriate to the targeted group, and meet financial guidelines (re: cost
+[x= 159.8 y= 257.3] to produce and distribute). Other constraints may be agency priority, availability of
+[x= 159.8 y= 268.8] resources, and accuracy of contractor contact information.
+[x= 159.8 y= 286.3] Contractor may have communication barriers such as lack of internet or phone
+[x= 159.8 y= 297.8] access. Contractor is unable to access needed or requested information.
+[x=  77.4 y= 321.8] Failures
+[x= 159.8 y= 321.4] 
+[x= 177.8 y= 322.4] Unable to identify target population based on desired criteria.
+[x= 159.8 y= 339.6] 
+[x= 177.8 y= 340.6] Management denies permission for outreach activity.
+[x= 159.8 y= 357.8] 
+[x= 177.8 y= 358.8] The SMA cancels health plan or health benefit.
+[x= 159.8 y= 376.0] 
+[x= 177.8 y= 377.0] Delivery failures due to erroneous contact information.
+[x=  77.4 y= 401.0] Performance
+[x=  77.4 y= 412.6] Measures
+[x= 159.8 y= 400.6] 
+[x= 177.8 y= 401.6] Time to complete process of developing outreach materials = __days
+[x= 159.8 y= 418.8] 
+[x= 177.8 y= 419.8] Accuracy of outreach materials = __%
+[x= 159.8 y= 437.0] 
+[x= 177.8 y= 438.0] Successful delivery rate to targeted individuals = __%
+[x= 159.8 y= 455.2] 
+[x= 177.8 y= 456.2] Effectiveness of the communication – Outreach results in achieving specified
+[x= 177.8 y= 467.7] goals
+[x=  72.0 y= 509.5] Manage Contractor Grievance and Appeal
+[x=  77.4 y= 536.5] CO Contractor Support
+[x= 196.6 y= 549.7] Manage Contractor Grievance and Appeal
+[x= 102.1 y= 562.8] Item
+[x= 329.3 y= 562.8] Details
+[x=  77.4 y= 581.9] Description
+[x= 160.1 y= 581.8] The
+[x= 180.2 y= 581.8] Manage Contractor Grievance and Appeal
+[x= 381.8 y= 581.8] business process handles
+[x= 160.1 y= 593.3] contractor (e.g., managed care, at-risk mental health or dental care, primary care
+[x= 160.1 y= 604.9] physician) appeals* of adverse decisions or communications of a grievance. The
+[x= 160.1 y= 616.3] Manage Contractor Communication
+[x= 332.7 y= 616.3] business process initiates a grievance or
+[x= 160.1 y= 627.8] appeal. The State Medicaid Agency (SMA) logs and tracks the grievance or appeal;
+[x= 160.1 y= 639.4] it triages to appropriate reviewers; it researches it; it may request additional
+[x= 160.1 y= 650.8] information; it schedules and conducts a hearing in accordance with legal
+[x= 160.1 y= 662.3] requirements; and it makes a ruling based upon the evidence presented. Staff
+[x= 160.1 y= 673.8] documents and distributes results of the hearings, and adds relevant documents to
+[x= 160.1 y= 685.3] the contractor’s information. Agency formally notifies contractor of the decision.
+[x= 160.1 y= 702.8] This business process supports the
+[x= 319.7 y= 702.8] Manage Performance Measures
+[x= 469.7 y= 702.8] business
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 50 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Support 
+Perform Contractor Outreach 
+Item 
+Details 
+Manage Health Benefit Information 
+Successor 
+Send Outbound Transaction 
+Manage Contractor Communication 
+Manage Performance Measures 
+Constraints 
+Communications and information packages will address the needs of the targeted 
+population. Materials will be linguistically and culturally appropriate, legally 
+compliant, appropriate to the targeted group, and meet financial guidelines (re: cost 
+to produce and distribute). Other constraints may be agency priority, availability of 
+resources, and accuracy of contractor contact information. 
+Contractor may have communication barriers such as lack of internet or phone 
+access. Contractor is unable to access needed or requested information. 
+Failures 
+ 
+Unable to identify target population based on desired criteria. 
+ 
+Management denies permission for outreach activity. 
+ 
+The SMA cancels health plan or health benefit. 
+ 
+Delivery failures due to erroneous contact information. 
+Performance 
+Measures 
+ 
+Time to complete process of developing outreach materials = __days 
+ 
+Accuracy of outreach materials = __% 
+ 
+Successful delivery rate to targeted individuals = __% 
+ 
+Effectiveness of the communication – Outreach results in achieving specified 
+goals 
+ 
+Manage Contractor Grievance and Appeal 
+CO Contractor Support 
+Manage Contractor Grievance and Appeal 
+Item 
+Details 
+Description 
+The Manage Contractor Grievance and Appeal business process handles 
+contractor (e.g., managed care, at-risk mental health or dental care, primary care 
+physician) appeals* of adverse decisions or communications of a grievance. The 
+Manage Contractor Communication business process initiates a grievance or 
+appeal. The State Medicaid Agency (SMA) logs and tracks the grievance or appeal; 
+it triages to appropriate reviewers; it researches it; it may request additional 
+information; it schedules and conducts a hearing in accordance with legal 
+requirements; and it makes a ruling based upon the evidence presented. Staff 
+documents and distributes results of the hearings, and adds relevant documents to 
+the contractor’s information. Agency formally notifies contractor of the decision. 
+This business process supports the Manage Performance Measures business 
+
+
+================================================================================
+PAGE 9
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 51
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Support
+[x= 196.6 y= 113.7] Manage Contractor Grievance and Appeal
+[x= 102.1 y= 126.8] Item
+[x= 329.3 y= 126.8] Details
+[x= 160.1 y= 139.8] process by providing information about the types of grievances and appeals it
+[x= 160.1 y= 151.3] handles; grievance and appeals issues; parties that file or are the target of the
+[x= 160.1 y= 162.8] grievances and appeals; and the dispositions. This information used to discern
+[x= 160.1 y= 174.3] program improvement opportunities, which may reduce the issues that give rise to
+[x= 160.1 y= 185.8] grievances and appeals.
+[x= 160.1 y= 203.3] Based on the appeal business process, if a contractor wins an appeal that impacts
+[x= 160.1 y= 214.8] or clarifies a Medicaid State Plan, health plan, or health benefit this process sends
+[x= 160.1 y= 226.3] that information to
+[x= 242.9 y= 226.3] Maintain State Plan, Manage Health Plan Information
+[x= 495.2 y= 226.3] or
+[x= 160.1 y= 237.8] Manage Health Benefit Information
+[x= 328.0 y= 237.8] business processes to modify the relevant
+[x= 160.1 y= 249.3] policy or procedure. Disposition could result in legislative change requirements that
+[x= 160.1 y= 260.8] will be communicated to lawmakers.
+[x= 160.1 y= 278.3] NOTE:
+[x= 194.0 y= 278.3] States may define grievance and appeal differently, perhaps because of
+[x= 160.1 y= 289.8] state laws.
+[x= 160.1 y= 307.3] *
+[x= 164.0 y= 307.3] This business process supports grievances and appeals for both prospective and
+[x= 160.1 y= 318.8] current contractors. A non-enrolled contractor can file a grievance or appeal, for
+[x= 160.1 y= 330.3] example, when agency does not award a contract to contractor. Protests received
+[x= 160.1 y= 341.8] from prospective contractors are addressed in the
+[x= 383.0 y= 341.8] Award Contract
+[x= 457.5 y= 341.8] business
+[x= 160.1 y= 353.3] process
+[x=  77.4 y= 377.3] Trigger Event
+[x= 160.1 y= 377.3] Environment-based Trigger Events to include but not limited to:
+[x= 160.1 y= 394.5] 
+[x= 178.1 y= 395.5] Receive grievance or appeal alert from
+[x= 352.7 y= 395.5] Manage Contractor Information
+[x= 178.1 y= 407.0] business process.
+[x= 160.1 y= 424.2] 
+[x= 178.1 y= 425.2] Receive grievance or appeal alert from
+[x= 352.7 y= 425.2] Award Contract
+[x= 427.2 y= 425.2] business process.
+[x=  77.4 y= 449.2] Result
+[x= 160.1 y= 448.8] 
+[x= 178.1 y= 449.8] Alert to send notification of final disposition of grievance or appeal to the
+[x= 178.1 y= 461.3] contractor.
+[x= 160.1 y= 478.5] 
+[x= 178.1 y= 479.5] If applicable, alert sent to
+[x= 292.1 y= 479.5] Establish Compliance Incident
+[x= 437.2 y= 479.5] business process for
+[x= 178.1 y= 491.0] further investigation.
+[x= 160.1 y= 508.2] 
+[x= 178.1 y= 509.2] If applicable, alert sent to
+[x= 292.1 y= 509.2] Maintain State Plan
+[x= 383.8 y= 509.2] business process to modify the
+[x= 178.1 y= 520.7] relevant policy or procedure.
+[x= 160.1 y= 537.8] 
+[x= 178.1 y= 538.8] If applicable, alert sent to
+[x= 292.1 y= 538.8] Manage Health Plan Information
+[x= 444.4 y= 538.8] business process
+[x= 178.1 y= 550.3] to modify the relevant policy or procedure.
+[x= 160.1 y= 567.5] 
+[x= 178.1 y= 568.5] If applicable, alert sent to
+[x= 292.1 y= 568.5] Manage Health Benefit Information
+[x= 457.1 y= 568.5] business
+[x= 178.1 y= 580.0] process to modify the relevant policy or procedure.
+[x= 160.1 y= 597.1] 
+[x= 178.1 y= 598.1] Tracking information as needed for measuring performance and business
+[x= 178.1 y= 609.7] activity monitoring.
+[x=  77.4 y= 633.7] Business
+[x=  77.4 y= 645.2] Process Steps
+[x= 160.1 y= 633.7] 1.
+[x= 178.1 y= 633.7] START:
+[x= 214.9 y= 633.7] Receive grievance or appeal.
+[x= 160.1 y= 651.2] 2. Agency logs grievance or appeal.
+[x= 160.1 y= 668.7] 3. Validate information submitted is correct and as complete as possible.
+[x= 178.1 y= 680.2] Information complies with syntax criteria and submitter has completed all
+[x= 178.1 y= 691.7] required fields.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 51 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Support 
+Manage Contractor Grievance and Appeal 
+Item 
+Details 
+process by providing information about the types of grievances and appeals it 
+handles; grievance and appeals issues; parties that file or are the target of the 
+grievances and appeals; and the dispositions. This information used to discern 
+program improvement opportunities, which may reduce the issues that give rise to 
+grievances and appeals. 
+Based on the appeal business process, if a contractor wins an appeal that impacts 
+or clarifies a Medicaid State Plan, health plan, or health benefit this process sends 
+that information to Maintain State Plan, Manage Health Plan Information or 
+Manage Health Benefit Information business processes to modify the relevant 
+policy or procedure. Disposition could result in legislative change requirements that 
+will be communicated to lawmakers. 
+NOTE: States may define grievance and appeal differently, perhaps because of 
+state laws. 
+*This business process supports grievances and appeals for both prospective and 
+current contractors. A non-enrolled contractor can file a grievance or appeal, for 
+example, when agency does not award a contract to contractor. Protests received 
+from prospective contractors are addressed in the Award Contract business 
+process 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to:  
+ 
+Receive grievance or appeal alert from Manage Contractor Information 
+business process. 
+ 
+Receive grievance or appeal alert from Award Contract business process. 
+Result 
+ 
+Alert to send notification of final disposition of grievance or appeal to the 
+contractor. 
+ 
+If applicable, alert sent to Establish Compliance Incident business process for 
+further investigation. 
+ 
+If applicable, alert sent to Maintain State Plan business process to modify the 
+relevant policy or procedure. 
+ 
+If applicable, alert sent to Manage Health Plan Information business process 
+to modify the relevant policy or procedure. 
+ 
+If applicable, alert sent to Manage Health Benefit Information business 
+process to modify the relevant policy or procedure. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive grievance or appeal.  
+2. Agency logs grievance or appeal. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and submitter has completed all 
+required fields. 
+
+
+================================================================================
+PAGE 10
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 52
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Support
+[x= 196.6 y= 113.7] Manage Contractor Grievance and Appeal
+[x= 102.1 y= 126.8] Item
+[x= 329.3 y= 126.8] Details
+[x= 160.1 y= 139.8] 4. Validate that the provided information is authentic.
+[x= 160.1 y= 157.3] 5. If appropriate, request additional documentation.
+[x= 160.1 y= 174.8] 6. Determine status as initial, second, expedited or other status as designated by
+[x= 178.1 y= 186.3] the state.
+[x= 160.1 y= 203.8] 7. Triage to appropriate personnel for review.
+[x= 160.1 y= 221.3] 8. Perform research and analysis.
+[x= 160.1 y= 238.8] 9. If appropriate, schedule hearing within required time limit.
+[x= 160.1 y= 256.3] 10. If appropriate, conduct hearing within required time limit.
+[x= 160.1 y= 273.8] 11. Determine disposition.
+[x= 160.1 y= 291.3] 12. If applicable, send alert to
+[x= 294.9 y= 291.3] Establish Compliance Incident
+[x= 440.0 y= 291.3] business process for
+[x= 178.1 y= 302.8] further investigation.
+[x= 160.1 y= 320.3] 13. If applicable, alert sent to
+[x= 292.1 y= 320.3] Maintain State Plan
+[x= 383.8 y= 320.3] business process to modify the
+[x= 178.1 y= 331.8] relevant policy or procedure.
+[x= 160.1 y= 349.3] 14. If applicable, alert sent to
+[x= 292.1 y= 349.3] Manage Health Plan Information
+[x= 444.4 y= 349.3] business process
+[x= 178.1 y= 360.8] to modify the relevant policy or procedure.
+[x= 160.1 y= 378.3] 15. If applicable, alert sent to
+[x= 292.1 y= 378.3] Manage Health Benefit Information
+[x= 457.1 y= 378.3] business
+[x= 178.1 y= 389.8] process to modify the relevant policy or procedure.
+[x= 160.1 y= 407.3] 16.
+[x= 178.1 y= 407.3] END:
+[x= 202.6 y= 407.3] Send alert to notify contractor of disposition determination.
+[x= 160.1 y= 424.8] NOTE:
+[x= 191.2 y= 424.8] Some of the above steps may be iterative and a grievance or appeals case
+[x= 160.1 y= 436.3] may take many months to finalize.
+[x=  77.4 y= 460.4] Shared Data
+[x= 160.1 y= 460.3] Contractor data store including provider network and contract information
+[x= 160.1 y= 477.8] Grievance and Appeal data store including case history information
+[x= 160.1 y= 495.3] Claims data store including claims and premium Information
+[x=  77.4 y= 519.4] Predecessor
+[x= 160.1 y= 519.4] Manage Contractor Information
+[x= 160.1 y= 536.9] Award Contract
+[x=  77.4 y= 560.9] Successor
+[x= 160.1 y= 560.9] Manage Contractor Communication
+[x= 160.1 y= 578.4] Maintain State Plan
+[x= 160.1 y= 595.9] Manage Health Plan Information
+[x= 160.1 y= 613.4] Manage Performance Measures
+[x= 160.1 y= 630.9] Establish Compliance Incident
+[x=  77.4 y= 654.8] Constraints
+[x= 160.1 y= 654.8] States have different requirements for evidence and the process for conducting the
+[x= 160.1 y= 666.3] grievance/appeals cases. They have different rules for assigning outcome status
+[x= 160.1 y= 677.8] and state specific consequences.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 52 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Support 
+Manage Contractor Grievance and Appeal 
+Item 
+Details 
+4. Validate that the provided information is authentic. 
+5. If appropriate, request additional documentation. 
+6. Determine status as initial, second, expedited or other status as designated by 
+the state. 
+7. Triage to appropriate personnel for review. 
+8. Perform research and analysis. 
+9. If appropriate, schedule hearing within required time limit. 
+10. If appropriate, conduct hearing within required time limit. 
+11. Determine disposition. 
+12. If applicable, send alert to Establish Compliance Incident business process for 
+further investigation. 
+13. If applicable, alert sent to Maintain State Plan business process to modify the 
+relevant policy or procedure. 
+14. If applicable, alert sent to Manage Health Plan Information business process 
+to modify the relevant policy or procedure. 
+15. If applicable, alert sent to Manage Health Benefit Information business 
+process to modify the relevant policy or procedure. 
+16. END: Send alert to notify contractor of disposition determination.  
+NOTE: Some of the above steps may be iterative and a grievance or appeals case 
+may take many months to finalize. 
+Shared Data 
+Contractor data store including provider network and contract information 
+Grievance and Appeal data store including case history information 
+Claims data store including claims and premium Information 
+Predecessor 
+Manage Contractor Information 
+Award Contract 
+Successor 
+Manage Contractor Communication 
+Maintain State Plan 
+Manage Health Plan Information 
+Manage Performance Measures 
+Establish Compliance Incident 
+Constraints 
+States have different requirements for evidence and the process for conducting the 
+grievance/appeals cases. They have different rules for assigning outcome status 
+and state specific consequences. 
+
+
+================================================================================
+PAGE 11
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 53
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contractor Support
+[x= 196.6 y= 113.7] Manage Contractor Grievance and Appeal
+[x= 102.1 y= 126.8] Item
+[x= 329.3 y= 126.8] Details
+[x=  77.4 y= 145.9] Failures
+[x= 160.1 y= 145.5] 
+[x= 178.1 y= 146.5] Grievance and appeal supporting documentation is incomplete.
+[x= 160.1 y= 163.6] 
+[x= 178.1 y= 164.6] The SMA cannot schedule or conduct hearing in the required period.
+[x= 160.1 y= 181.8] 
+[x= 178.1 y= 182.8] Contractor withdraws grievance or appeal.
+[x= 160.1 y= 200.0] 
+[x= 178.1 y= 201.0] Unable to process grievance or appeal per federal or state law.
+[x=  77.4 y= 225.1] Performance
+[x=  77.4 y= 236.6] Measures
+[x= 160.1 y= 224.7] 
+[x= 178.1 y= 225.7] Time to complete process: normal grievance/appeal = __days; second appeal =
+[x= 178.1 y= 237.2] __ days; expedited appeal = __hours
+[x= 160.1 y= 254.4] 
+[x= 178.1 y= 255.4] Accuracy of decisions = __%
+[x= 160.1 y= 272.5] 
+[x= 178.1 y= 273.5] Consistency of decisions and disposition = __%
+[x= 160.1 y= 290.7] 
+[x= 178.1 y= 291.7] Error rate = __% or less
+[x=  72.0 y= 333.5] Produce Solicitation
+[x=  77.4 y= 360.6] CO Contract Management
+[x= 252.8 y= 373.7] Produce Solicitation
+[x= 102.9 y= 386.8] Item
+[x= 330.2 y= 386.8] Details
+[x=  77.4 y= 405.9] Description
+[x= 161.8 y= 405.8] The
+[x= 181.9 y= 405.8] Produce Solicitation
+[x= 281.3 y= 405.8] business process gathers requirements, develops a
+[x= 161.8 y= 417.4] solicitation (e.g., Request for Information (RFI), Request for Quotation (RFQ), or
+[x= 161.8 y= 428.8] Request for Proposals (RFP)), receives approvals for the solicitation, and releases
+[x= 161.8 y= 440.3] for response.
+[x=  77.4 y= 464.4] Trigger Event
+[x= 161.8 y= 464.3] Environment-based Trigger Events to include but not limited to:
+[x= 161.8 y= 481.5] 
+[x= 179.8 y= 482.5] A scheduled date for re-procurement of contract is due.
+[x= 161.8 y= 499.7] 
+[x= 179.8 y= 500.7] Request by Executive Management to procure or re-procure a contract.
+[x=  77.4 y= 524.8] Result
+[x= 161.8 y= 524.3] 
+[x= 179.8 y= 525.4] The State Medicaid Agency (SMA) produces an Advance Planning Document
+[x= 179.8 y= 536.9] (APD).
+[x= 161.8 y= 554.0] 
+[x= 179.8 y= 555.0] The SMA produces a solicitation for distribution.
+[x= 161.8 y= 572.2] 
+[x= 179.8 y= 573.2] Tracking information as needed for measuring performance and business
+[x= 179.8 y= 584.7] activity monitoring.
+[x=  77.4 y= 608.8] Business
+[x=  77.4 y= 620.3] Process Steps
+[x= 161.8 y= 608.7] 1.
+[x= 179.8 y= 608.7] START:
+[x= 216.5 y= 608.7] Receive directive to procure or re-procure contract.
+[x= 161.8 y= 626.2] 2. Gather requirements for services.
+[x= 161.8 y= 643.7] 3. Determine if CMS requires an APD.
+[x= 206.8 y= 661.2] a. Produce APD.
+[x= 206.8 y= 678.7] b. Modify APD as directed.
+[x= 206.8 y= 696.2] c. Receive approval for APD.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 53 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contractor Support 
+Manage Contractor Grievance and Appeal 
+Item 
+Details 
+Failures 
+ 
+Grievance and appeal supporting documentation is incomplete.  
+ 
+The SMA cannot schedule or conduct hearing in the required period. 
+ 
+Contractor withdraws grievance or appeal. 
+ 
+Unable to process grievance or appeal per federal or state law. 
+Performance 
+Measures 
+ 
+Time to complete process: normal grievance/appeal = __days; second appeal = 
+__ days; expedited appeal = __hours 
+ 
+Accuracy of decisions = __% 
+ 
+Consistency of decisions and disposition = __% 
+ 
+Error rate = __% or less 
+ 
+Produce Solicitation 
+CO Contract Management 
+Produce Solicitation 
+Item 
+Details 
+Description 
+The Produce Solicitation business process gathers requirements, develops a 
+solicitation (e.g., Request for Information (RFI), Request for Quotation (RFQ), or 
+Request for Proposals (RFP)), receives approvals for the solicitation, and releases 
+for response. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+A scheduled date for re-procurement of contract is due. 
+ 
+Request by Executive Management to procure or re-procure a contract. 
+Result 
+ 
+The State Medicaid Agency (SMA) produces an Advance Planning Document 
+(APD). 
+ 
+The SMA produces a solicitation for distribution. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive directive to procure or re-procure contract. 
+2. Gather requirements for services. 
+3. Determine if CMS requires an APD. 
+a. Produce APD. 
+b. Modify APD as directed. 
+c. Receive approval for APD. 
+
+
+================================================================================
+PAGE 12
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 54
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contract Management
+[x= 252.8 y= 113.7] Produce Solicitation
+[x= 102.9 y= 126.8] Item
+[x= 330.2 y= 126.8] Details
+[x= 161.8 y= 139.8] 4. Develop solicitation for the services.
+[x= 161.8 y= 157.3] 5. Receive internal (state) and federal approvals for solicitation.
+[x= 161.8 y= 174.8] 6. Advertise solicitation.
+[x= 161.8 y= 192.3] 7.
+[x= 179.8 y= 192.3] END:
+[x= 204.3 y= 192.3] The SMA releases solicitation for response.
+[x=  77.4 y= 216.4] Shared Data
+[x= 161.8 y= 216.3] Plan data store including policy information
+[x= 161.8 y= 233.8] Health Benefit data store including benefit package and benefit information
+[x= 161.8 y= 251.3] Contractor data store including provider network
+[x= 161.8 y= 268.8] Manage Performance Measures data store including agency objectives and
+[x= 161.8 y= 280.3] business activity
+[x= 161.8 y= 297.8] Information Technology (IT) Plan
+[x=  77.4 y= 339.4] Predecessor
+[x= 161.8 y= 339.4] Manage Health Plan Information
+[x=  77.4 y= 363.4] Successor
+[x= 161.8 y= 363.4] Award Contract
+[x=  77.4 y= 387.4] Constraints
+[x= 161.8 y= 387.3] Each state decides what types of contracts to procure. States engage in a wide
+[x= 161.8 y= 398.8] range of contracts. Statutes that provide the legal framework for procurements
+[x= 161.8 y= 410.3] govern all States. Each state’s statutes are different from all other States. Business
+[x= 161.8 y= 421.8] process steps differ from state to state.
+[x=  77.4 y= 445.9] Failures
+[x= 161.8 y= 445.5] 
+[x= 179.8 y= 446.5] The SMA loses funding for the procurement.
+[x= 161.8 y= 463.6] 
+[x= 179.8 y= 464.6] Insufficient responses to solicitation.
+[x=  77.4 y= 488.7] Performance
+[x=  77.4 y= 500.2] Measures
+[x= 161.8 y= 488.3] 
+[x= 179.8 y= 489.3] Time to complete process = ___ months; ___ weeks
+[x= 161.8 y= 506.5] 
+[x= 179.8 y= 507.5] Accuracy of information = ___ %
+[x= 161.8 y= 524.7] 
+[x= 179.8 y= 525.7] Accessibility of information for creating solicitation = ___ months; ___ weeks
+[x= 161.8 y= 542.8] 
+[x= 179.8 y= 543.8] Consistency of decisions and disposition = ___ %
+[x= 161.8 y= 561.0] 
+[x= 179.8 y= 562.0] Error rate = __% or less
+[x=  72.0 y= 603.9] Award Contract
+[x=  77.4 y= 630.9] CO Contract Management
+[x= 265.0 y= 644.3] Award Contract
+[x= 102.0 y= 657.7] Item
+[x= 329.3 y= 657.7] Details
+[x=  77.4 y= 676.8] Description
+[x= 160.0 y= 676.7] The
+[x= 180.1 y= 676.7] Award Contract
+[x= 257.3 y= 676.7] business process utilizes requirements, advanced planning
+[x= 160.0 y= 688.3] documents, requests for information, request for proposal, and sole source
+[x= 160.0 y= 699.8] documents to request and receive proposals, verify proposal content against
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 54 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contract Management 
+Produce Solicitation 
+Item 
+Details 
+4. Develop solicitation for the services. 
+5. Receive internal (state) and federal approvals for solicitation. 
+6. Advertise solicitation. 
+7. END: The SMA releases solicitation for response. 
+Shared Data 
+Plan data store including policy information 
+Health Benefit data store including benefit package and benefit information 
+Contractor data store including provider network 
+Manage Performance Measures data store including agency objectives and 
+business activity 
+Information Technology (IT) Plan 
+ 
+Predecessor 
+Manage Health Plan Information 
+Successor 
+Award Contract 
+Constraints 
+Each state decides what types of contracts to procure. States engage in a wide 
+range of contracts. Statutes that provide the legal framework for procurements 
+govern all States. Each state’s statutes are different from all other States. Business 
+process steps differ from state to state. 
+Failures 
+ 
+The SMA loses funding for the procurement. 
+ 
+Insufficient responses to solicitation. 
+Performance 
+Measures 
+ 
+Time to complete process = ___ months; ___ weeks 
+ 
+Accuracy of information = ___ % 
+ 
+Accessibility of information for creating solicitation = ___ months; ___ weeks 
+ 
+Consistency of decisions and disposition = ___ % 
+ 
+Error rate = __% or less 
+ 
+Award Contract 
+CO Contract Management 
+Award Contract 
+Item 
+Details 
+Description 
+The Award Contract business process utilizes requirements, advanced planning 
+documents, requests for information, request for proposal, and sole source 
+documents to request and receive proposals, verify proposal content against 
+
+
+================================================================================
+PAGE 13
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 55
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contract Management
+[x= 265.0 y= 114.0] Award Contract
+[x= 102.0 y= 127.4] Item
+[x= 329.3 y= 127.4] Details
+[x= 160.0 y= 140.4] Request for Proposal (RFP) or sole source requirements, apply evaluation criteria,
+[x= 160.0 y= 151.9] designate contractor/vendor, post award information, entertain protests, resolve
+[x= 160.0 y= 163.4] protests, negotiate contracts, and notify parties. In some States, this business
+[x= 160.0 y= 174.9] process makes a recommendation of award instead of the actual award itself.
+[x= 160.0 y= 192.4] NOTE
+[x= 187.9 y= 192.4] : The State Medicaid Agency (SMA) requires billing agents, clearinghouses, or
+[x= 160.0 y= 203.9] other alternate payee (as defined by the Secretary) to register.
+[x=  77.4 y= 228.0] Trigger Event
+[x= 160.0 y= 227.9] Environment-based Trigger Events to include but not limited to:
+[x= 160.0 y= 245.0] 
+[x= 178.0 y= 246.1] Receive respondent’s proposal or approval for sole source.
+[x=  77.4 y= 270.1] Result
+[x= 160.0 y= 269.7] 
+[x= 178.0 y= 270.7] Alert to send notification of award status to respondent.
+[x= 160.0 y= 287.9] 
+[x= 178.0 y= 288.9] The SMA negotiates contract with awarded contractor.
+[x= 160.0 y= 306.1] 
+[x= 178.0 y= 307.1] Tracking information as needed for measuring performance and business
+[x= 178.0 y= 318.6] activity monitoring.
+[x=  77.4 y= 342.7] Business
+[x=  77.4 y= 354.2] Process Steps
+[x= 160.0 y= 342.6] 1.
+[x= 178.0 y= 342.6] START:
+[x= 214.7 y= 342.6] Receive respondent’s proposal (e.g., email, mail, web, or Electronic
+[x= 178.0 y= 354.1] Data Interchange (EDI).
+[x= 160.0 y= 371.6] 2. Conduct collection of contractor information.
+[x= 160.0 y= 389.1] 3. Validate information submitted is correct and as complete as possible.
+[x= 178.0 y= 400.6] Information complies with syntax criteria and respondent has completed all
+[x= 178.0 y= 412.1] required fields for the type of contractor.
+[x= 160.0 y= 429.6] 4. If applicable, request additional information.
+[x= 160.0 y= 447.1] 5. Validate information provided is authentic (e.g., corporate status).
+[x= 160.0 y= 464.6] 6. Validate contractor network, resources, and other requirements and obtain
+[x= 178.0 y= 476.1] appropriate approvals (i.e., state, federal).
+[x= 160.0 y= 493.6] 7. Assign identification to the respondent.
+[x= 160.0 y= 511.1] 8. Verify proposal content against RFP or sole source requirements.
+[x= 160.0 y= 528.6] 9. Apply evaluation criteria to respondent’s proposal.
+[x= 160.0 y= 546.1] 10. Make determination of awarded contractor.
+[x= 160.0 y= 563.6] 11. Post award information.
+[x= 160.0 y= 581.1] 12. Send alert to notify respondent of award results (e.g., award/recommend, deny,
+[x= 178.0 y= 592.6] or continue negotiations).
+[x= 160.0 y= 610.1] 13. If applicable, send alert to
+[x= 294.8 y= 610.1] Manage Contractor Grievance and Appeal
+[x= 178.0 y= 621.6] business process to receive protests and disposition protests.
+[x= 160.0 y= 639.1] 14.
+[x= 178.0 y= 639.1] END:
+[x= 202.5 y= 639.1] Negotiate contract with contractor, collect additional information required
+[x= 178.0 y= 650.6] to complete a contract, negotiate, and assign rates or other form of payment.
+[x=  77.4 y= 674.6] Shared Data
+[x= 160.0 y= 674.6] Contractor data store including provider network and contract information
+[x=  77.4 y= 698.6] Predecessor
+[x= 160.0 y= 698.6] Receive Inbound Transaction
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 55 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contract Management 
+Award Contract 
+Item 
+Details 
+Request for Proposal (RFP) or sole source requirements, apply evaluation criteria, 
+designate contractor/vendor, post award information, entertain protests, resolve 
+protests, negotiate contracts, and notify parties. In some States, this business 
+process makes a recommendation of award instead of the actual award itself. 
+NOTE: The State Medicaid Agency (SMA) requires billing agents, clearinghouses, or 
+other alternate payee (as defined by the Secretary) to register. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Receive respondent’s proposal or approval for sole source. 
+Result 
+ 
+Alert to send notification of award status to respondent. 
+ 
+The SMA negotiates contract with awarded contractor. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive respondent’s proposal (e.g., email, mail, web, or Electronic 
+Data Interchange (EDI). 
+2. Conduct collection of contractor information. 
+3. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and respondent has completed all 
+required fields for the type of contractor. 
+4. If applicable, request additional information. 
+5. Validate information provided is authentic (e.g., corporate status).  
+6. Validate contractor network, resources, and other requirements and obtain 
+appropriate approvals (i.e., state, federal). 
+7. Assign identification to the respondent. 
+8. Verify proposal content against RFP or sole source requirements. 
+9. Apply evaluation criteria to respondent’s proposal. 
+10. Make determination of awarded contractor. 
+11. Post award information. 
+12. Send alert to notify respondent of award results (e.g., award/recommend, deny, 
+or continue negotiations).  
+13. If applicable, send alert to Manage Contractor Grievance and Appeal 
+business process to receive protests and disposition protests. 
+14. END: Negotiate contract with contractor, collect additional information required 
+to complete a contract, negotiate, and assign rates or other form of payment. 
+Shared Data 
+Contractor data store including provider network and contract information 
+Predecessor 
+Receive Inbound Transaction 
+
+
+================================================================================
+PAGE 14
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 56
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contract Management
+[x= 265.0 y= 114.0] Award Contract
+[x= 102.0 y= 127.4] Item
+[x= 329.3 y= 127.4] Details
+[x= 160.0 y= 140.5] Produce Solicitation
+[x=  77.4 y= 164.5] Successor
+[x= 160.0 y= 164.5] Send Outbound Transaction
+[x= 160.0 y= 182.0] Manage Contractor Communication
+[x= 160.0 y= 199.6] Manage Contract
+[x= 160.0 y= 217.0] Manage Contractor Grievance and Appeal
+[x=  77.4 y= 241.0] Constraints
+[x= 160.0 y= 240.9] The Contractor application will accommodate the full range of contractor types.
+[x=  77.4 y= 265.0] Failures
+[x= 160.0 y= 264.6] 
+[x= 178.0 y= 265.6] Information does not comply with syntax criteria.
+[x= 160.0 y= 282.7] 
+[x= 178.0 y= 283.7] Not all required information provided.
+[x= 160.0 y= 300.9] 
+[x= 178.0 y= 301.9] Information provided not authenticated.
+[x= 160.0 y= 319.1] 
+[x= 178.0 y= 320.1] Parties are unable to negotiate contract (e.g., no agreement on rates).
+[x= 160.0 y= 337.3] 
+[x= 178.0 y= 338.3] The SMA loses funding.
+[x= 160.0 y= 355.5] 
+[x= 178.0 y= 356.5] Responder successfully protests an award.
+[x=  77.4 y= 380.5] Performance
+[x=  77.4 y= 392.0] Measures
+[x= 160.0 y= 380.1] 
+[x= 178.0 y= 381.1] Time to complete process = ___ months; ___ weeks
+[x= 160.0 y= 398.3] 
+[x= 178.0 y= 399.3] Accuracy of information = ___ %
+[x= 160.0 y= 416.5] 
+[x= 178.0 y= 417.5] Accessibility of information for creating solicitation = ___ months; ___ weeks
+[x= 160.0 y= 434.7] 
+[x= 178.0 y= 435.7] Consistency of decisions and disposition = ___ %
+[x= 160.0 y= 452.8] 
+[x= 178.0 y= 453.8] Error rate = __% or less
+[x=  72.0 y= 495.6] Manage Contract
+[x=  77.4 y= 522.7] CO Contract Management
+[x= 261.4 y= 535.8] Manage Contract
+[x= 105.2 y= 549.0] Item
+[x= 332.5 y= 549.0] Details
+[x=  77.4 y= 568.0] Description
+[x= 166.6 y= 568.0] The
+[x= 186.6 y= 568.0] Manage Contract
+[x= 270.5 y= 568.0] business process receives the contract award information,
+[x= 166.6 y= 579.5] implements contract-monitoring procedures, updates contract if needed, and
+[x= 166.6 y= 590.9] continues to monitor the terms of the contract throughout its duration.
+[x=  77.4 y= 615.0] Trigger Event
+[x= 166.6 y= 614.9] Environment-based Trigger Events to include but not limited to:
+[x= 166.6 y= 632.1] 
+[x= 184.6 y= 633.1] Receive negotiated contract information from
+[x= 386.4 y= 633.1] Award Contract
+[x= 460.9 y= 633.1] business
+[x= 184.6 y= 644.6] process.
+[x= 166.6 y= 661.8] 
+[x= 184.6 y= 662.8] Periodic timetable (e.g., yearly) is due for contract review.
+[x= 166.6 y= 679.9] 
+[x= 184.6 y= 680.9] External event (e.g., policy, budget modification) necessitates contract
+[x= 184.6 y= 692.5] amendment.
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 56 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contract Management 
+Award Contract 
+Item 
+Details 
+Produce Solicitation 
+Successor 
+Send Outbound Transaction 
+Manage Contractor Communication 
+Manage Contract 
+ 
+Manage Contractor Grievance and Appeal 
+Constraints 
+The Contractor application will accommodate the full range of contractor types. 
+Failures 
+ 
+Information does not comply with syntax criteria. 
+ 
+Not all required information provided. 
+ 
+Information provided not authenticated. 
+ 
+Parties are unable to negotiate contract (e.g., no agreement on rates). 
+ 
+The SMA loses funding. 
+ 
+Responder successfully protests an award. 
+Performance 
+Measures 
+ 
+Time to complete process = ___ months; ___ weeks 
+ 
+Accuracy of information = ___ % 
+ 
+Accessibility of information for creating solicitation = ___ months; ___ weeks 
+ 
+Consistency of decisions and disposition = ___ % 
+ 
+Error rate = __% or less 
+ 
+Manage Contract 
+CO Contract Management 
+Manage Contract 
+Item 
+Details 
+Description 
+The Manage Contract business process receives the contract award information, 
+implements contract-monitoring procedures, updates contract if needed, and 
+continues to monitor the terms of the contract throughout its duration. 
+Trigger Event 
+Environment-based Trigger Events to include but not limited to:  
+ 
+Receive negotiated contract information from Award Contract business 
+process. 
+ 
+Periodic timetable (e.g., yearly) is due for contract review. 
+ 
+External event (e.g., policy, budget modification) necessitates contract 
+amendment. 
+
+
+================================================================================
+PAGE 15
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 57
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contract Management
+[x= 261.4 y= 113.7] Manage Contract
+[x= 105.2 y= 126.8] Item
+[x= 332.5 y= 126.8] Details
+[x= 166.6 y= 139.4] 
+[x= 184.6 y= 140.5] Receive contract modifications (e.g., create, updated, or delete).
+[x= 166.6 y= 157.6] 
+[x= 184.6 y= 158.6] Receive terminate contract information from
+[x= 381.4 y= 158.6] Close Out Contract
+[x= 472.5 y= 158.6] business
+[x= 184.6 y= 170.2] process.
+[x=  77.4 y= 194.2] Result
+[x= 166.6 y= 193.8] 
+[x= 184.6 y= 194.8] Modified negotiated contract.
+[x= 166.6 y= 212.0] 
+[x= 184.6 y= 213.0] If applicable, alert sent to
+[x= 298.5 y= 213.0] Manage Contractor Information
+[x= 447.4 y= 213.0] business process
+[x= 184.6 y= 224.5] with modification information.
+[x= 166.6 y= 241.6] 
+[x= 184.6 y= 242.6] Alert to send notification to contractor of modification to contract.
+[x= 166.6 y= 259.8] 
+[x= 184.6 y= 260.8] Tracking information as needed for measuring performance and business
+[x= 184.6 y= 272.3] activity monitoring.
+[x=  77.4 y= 296.4] Business
+[x=  77.4 y= 307.9] Process Steps
+[x= 166.6 y= 296.3] 1.
+[x= 184.6 y= 296.3] START:
+[x= 221.3 y= 296.3] Receive contract award information from the
+[x= 422.9 y= 296.3] Award Contract
+[x= 184.6 y= 307.9] business process or contract update information from the
+[x= 439.7 y= 307.9] Manage Contractor
+[x= 184.6 y= 319.4] Communication
+[x= 260.1 y= 319.4] business process.
+[x= 166.6 y= 336.8] 2. Implement contract or modifications to contract.
+[x= 166.6 y= 354.4] 3. If applicable, update contract with amendments.
+[x= 166.6 y= 371.8] 4. If applicable, send alert to
+[x= 301.3 y= 371.8] Manage Contractor Information
+[x= 450.2 y= 371.8] business process
+[x= 184.6 y= 383.3] with modified information.
+[x= 166.6 y= 400.9] 5.
+[x= 184.6 y= 400.9] END:
+[x= 209.0 y= 400.9] Send alert to
+[x= 271.3 y= 400.9] Manage Contractor Communication
+[x= 440.8 y= 400.9] business process to
+[x= 184.6 y= 412.3] notify contractor of modifications
+[x= 328.0 y= 412.3] .
+[x=  77.4 y= 436.4] Shared Data
+[x= 166.6 y= 436.3] Contractor Information Data Store
+[x=  77.4 y= 460.4] Predecessor
+[x= 166.6 y= 460.4] Award Contract
+[x= 166.6 y= 478.0] Close Out Contract
+[x=  77.4 y= 501.9] Successor
+[x= 166.6 y= 502.0] Manage Contractor Communication
+[x= 166.6 y= 519.5] Manage Contractor Information
+[x=  77.4 y= 543.4] Constraints
+[x= 166.6 y= 543.4] Business rules and/or policies may differ by state.
+[x=  77.4 y= 567.4] Failures
+[x= 166.6 y= 567.0] 
+[x= 184.6 y= 568.0] The State Medicaid Agency (SMA) loses funding.
+[x= 166.6 y= 585.2] 
+[x= 184.6 y= 586.2] Responder successfully protests an award.
+[x= 166.6 y= 603.3] 
+[x= 184.6 y= 604.3] The SMA fails to negotiate terms of contract or modification.
+[x= 166.6 y= 621.5] 
+[x= 184.6 y= 622.5] Information does not comply with syntax criteria.
+[x= 166.6 y= 639.7] 
+[x= 184.6 y= 640.7] Not all required information provided.
+[x= 166.6 y= 657.9] 
+[x= 184.6 y= 658.9] Information provided not authenticated.
+[x=  77.4 y= 682.9] Performance
+[x=  77.4 y= 694.4] Measures
+[x= 166.6 y= 682.5] 
+[x= 184.6 y= 683.5] Time to complete process = ___ months; ___ weeks
+[x= 166.6 y= 700.7] 
+[x= 184.6 y= 701.7] Accuracy of information = ___ %
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 57 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contract Management 
+Manage Contract 
+Item 
+Details 
+ 
+Receive contract modifications (e.g., create, updated, or delete). 
+ 
+Receive terminate contract information from Close Out Contract business 
+process. 
+Result 
+ 
+Modified negotiated contract. 
+ 
+If applicable, alert sent to Manage Contractor Information business process 
+with modification information. 
+ 
+Alert to send notification to contractor of modification to contract. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive contract award information from the Award Contract 
+business process or contract update information from the Manage Contractor 
+Communication business process. 
+2. Implement contract or modifications to contract. 
+3. If applicable, update contract with amendments. 
+4. If applicable, send alert to Manage Contractor Information business process 
+with modified information. 
+5. END: Send alert to Manage Contractor Communication business process to 
+notify contractor of modifications. 
+Shared Data 
+Contractor Information Data Store 
+Predecessor 
+Award Contract 
+Close Out Contract 
+Successor 
+Manage Contractor Communication 
+Manage Contractor Information 
+Constraints 
+Business rules and/or policies may differ by state. 
+Failures 
+ 
+The State Medicaid Agency (SMA) loses funding. 
+ 
+Responder successfully protests an award. 
+ 
+The SMA fails to negotiate terms of contract or modification. 
+ 
+Information does not comply with syntax criteria. 
+ 
+Not all required information provided. 
+ 
+Information provided not authenticated. 
+Performance 
+Measures 
+ 
+Time to complete process = ___ months; ___ weeks 
+ 
+Accuracy of information = ___ % 
+
+
+================================================================================
+PAGE 16
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 58
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contract Management
+[x= 261.4 y= 113.7] Manage Contract
+[x= 105.2 y= 126.8] Item
+[x= 332.5 y= 126.8] Details
+[x= 166.6 y= 139.4] 
+[x= 184.6 y= 140.5] Accessibility of information for creating solicitation = ___ months; ___ weeks
+[x= 166.6 y= 157.6] 
+[x= 184.6 y= 158.6] Consistency of decisions and disposition = ___ %
+[x= 166.6 y= 175.8] 
+[x= 184.6 y= 176.8] Error rate = __% or less
+[x=  72.0 y= 218.7] Close Out Contract
+[x=  77.4 y= 245.7] CO Contract Management
+[x= 255.8 y= 258.8] Close Out Contract
+[x= 103.7 y= 277.3] Item
+[x= 331.0 y= 277.3] Details
+[x=  77.4 y= 296.4] Description
+[x= 163.4 y= 296.3] The
+[x= 183.4 y= 296.3] Close Out Contract
+[x= 277.3 y= 296.3] business process begins with an expired contract or an
+[x= 163.4 y= 307.9] order to terminate a contract. The business process ensures the obligations of the
+[x= 163.4 y= 319.3] current contract are complete and the turnover to the new contractor proceeds
+[x= 163.4 y= 330.8] according to contractual obligations.
+[x=  77.4 y= 351.2] Trigger Event
+[x= 163.4 y= 351.2] Interaction-based Trigger Events to include but not limited to:
+[x= 163.4 y= 368.4] 
+[x= 181.4 y= 369.4] Receive alert from
+[x= 265.3 y= 369.4] Determine Adverse Action Incident
+[x= 431.5 y= 369.4] business process to
+[x= 181.4 y= 380.9] cease activities with contractor.
+[x= 163.4 y= 398.3] Environment-based Trigger Events to include but not limited to:
+[x= 163.4 y= 415.5] 
+[x= 181.4 y= 416.5] Contract reaches the end of its effective period.
+[x=  77.4 y= 440.6] Result
+[x= 163.4 y= 440.2] 
+[x= 181.4 y= 441.2] The contract closes.
+[x= 163.4 y= 458.4] 
+[x= 181.4 y= 459.4] Alert sent to notify contractor of termination of contract.
+[x= 163.4 y= 476.5] 
+[x= 181.4 y= 477.5] Tracking information as needed for measuring performance and business
+[x= 181.4 y= 489.1] activity monitoring.
+[x=  77.4 y= 513.1] Business
+[x=  77.4 y= 524.6] Process Steps
+[x= 163.4 y= 513.1] 1.
+[x= 181.4 y= 513.1] START:
+[x= 220.9 y= 513.1] Receive expired contract or instruction to terminate a contract.
+[x= 163.4 y= 530.5] 2. Validate information submitted is correct and as complete as possible.
+[x= 181.4 y= 542.0] Information complies with syntax criteria and submitter has completed all
+[x= 181.4 y= 553.6] required fields.
+[x= 163.4 y= 571.0] 3. If applicable, request additional information.
+[x= 163.4 y= 588.5] 4. Validate information provided is authentic.
+[x= 163.4 y= 606.1] 5. Identify all requirements for termination of contract.
+[x= 163.4 y= 623.5] 6. Monitor closure activities.
+[x= 163.4 y= 641.0] 7. Officially terminate contract.
+[x= 163.4 y= 658.6] 8.
+[x= 181.4 y= 658.6] END:
+[x= 205.9 y= 658.6] Send alert to notify contractor of termination of contract.
+[x=  77.4 y= 682.6] Shared Data
+[x= 163.4 y= 682.6] Contractor data store including contract information
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 58 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contract Management 
+Manage Contract 
+Item 
+Details 
+ 
+Accessibility of information for creating solicitation = ___ months; ___ weeks 
+ 
+Consistency of decisions and disposition = ___ % 
+ 
+Error rate = __% or less 
+ 
+Close Out Contract 
+CO Contract Management 
+Close Out Contract 
+Item 
+Details 
+Description 
+The Close Out Contract business process begins with an expired contract or an 
+order to terminate a contract. The business process ensures the obligations of the 
+current contract are complete and the turnover to the new contractor proceeds 
+according to contractual obligations. 
+Trigger Event 
+Interaction-based Trigger Events to include but not limited to: 
+ 
+Receive alert from Determine Adverse Action Incident business process to 
+cease activities with contractor. 
+Environment-based Trigger Events to include but not limited to: 
+ 
+Contract reaches the end of its effective period. 
+Result 
+ 
+The contract closes. 
+ 
+Alert sent to notify contractor of termination of contract. 
+ 
+Tracking information as needed for measuring performance and business 
+activity monitoring. 
+Business 
+Process Steps 
+1. START: Receive expired contract or instruction to terminate a contract. 
+2. Validate information submitted is correct and as complete as possible. 
+Information complies with syntax criteria and submitter has completed all 
+required fields. 
+3. If applicable, request additional information. 
+4. Validate information provided is authentic.  
+5. Identify all requirements for termination of contract. 
+6. Monitor closure activities. 
+7. Officially terminate contract. 
+8. END: Send alert to notify contractor of termination of contract. 
+Shared Data 
+Contractor data store including contract information 
+
+
+================================================================================
+PAGE 17
+================================================================================
+[x=  72.0 y=  22.8] Part I ‐ Business Architecture
+[x= 394.4 y=  22.8] Appendix C– Business Process
+[x= 472.4 y=  37.4] Model Details
+[x= 436.7 y= 722.0] Part I, Appendix C - Page 59
+[x= 503.4 y= 731.2] May 2014
+[x= 498.1 y= 740.4] Version 3.0
+[x=  77.4 y= 100.5] CO Contract Management
+[x= 255.8 y= 113.7] Close Out Contract
+[x= 103.7 y= 132.1] Item
+[x= 331.0 y= 132.1] Details
+[x=  77.4 y= 151.3] Predecessor
+[x= 163.4 y= 151.3] Award Contract
+[x= 163.4 y= 168.8] Determine Adverse Action Incident
+[x=  77.4 y= 192.7] Successor
+[x= 163.4 y= 192.8] Manage Contractor Communication
+[x= 163.4 y= 210.3] Manage Contractor Information
+[x=  77.4 y= 234.2] Constraints
+[x= 163.4 y= 234.2] Each state may have its own requirements for contract termination.
+[x=  77.4 y= 258.2] Failures
+[x= 163.4 y= 257.8] 
+[x= 181.4 y= 258.8] The State Medicaid Agency (SMA) receives incomplete termination instructions.
+[x= 163.4 y= 276.0] 
+[x= 181.4 y= 277.0] Contractor data store contains invalid information.
+[x=  77.4 y= 301.1] Performance
+[x=  77.4 y= 312.6] Measures
+[x= 163.4 y= 300.7] 
+[x= 181.4 y= 301.7] Time to complete process = ___ months; ___ weeks
+[x= 163.4 y= 318.9] 
+[x= 181.4 y= 319.9] Accuracy of information = ___ %
+[x= 163.4 y= 337.0] 
+[x= 181.4 y= 338.0] Accessibility of information for terminating contract = ___ months; ___ weeks
+[x= 163.4 y= 355.2] 
+[x= 181.4 y= 356.2] Consistency of decisions and disposition = ___ %
+[x= 163.4 y= 373.3] 
+[x= 181.4 y= 374.3] Error rate = __% or less
+
+--- Plain Text ---
+Part I ‐ Business Architecture 
+Appendix C– Business Process 
+Model Details
+ 
+ 
+ 
+ Part I, Appendix C - Page 59 
+May 2014 
+Version 3.0 
+ 
+ 
+CO Contract Management 
+Close Out Contract 
+Item 
+Details 
+Predecessor 
+Award Contract 
+Determine Adverse Action Incident 
+Successor 
+Manage Contractor Communication 
+Manage Contractor Information 
+Constraints 
+Each state may have its own requirements for contract termination. 
+Failures 
+ 
+The State Medicaid Agency (SMA) receives incomplete termination instructions. 
+ 
+Contractor data store contains invalid information. 
+Performance 
+Measures 
+ 
+Time to complete process = ___ months; ___ weeks 
+ 
+Accuracy of information = ___ % 
+ 
+Accessibility of information for terminating contract = ___ months; ___ weeks 
+ 
+Consistency of decisions and disposition = ___ % 
+ 
+Error rate = __% or less 
+ 
+
