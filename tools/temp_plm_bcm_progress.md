@@ -1,14 +1,14 @@
 # Plan Management BCM Manual Construction Progress
 
 ## Status
-- [x] Develop Agency Goals and Objectives (pages 1-8) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Maintain Program Policy (pages 8-14) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Maintain Reference Information (pages 40-46) - 10 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Maintain State Plan (pages 14-21) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Health Benefit Information (pages 34-40) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Health Plan Information (pages 21-27) - 10 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Performance Measures (pages 27-34) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Rate Setting (pages 46-51) - 10 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Develop Agency Goals and Objectives (pages 1-8) - 12 questions - RE-VERIFIED ✓
+- [x] Maintain Program Policy (pages 8-14) - 12 questions - RE-VERIFIED ✓
+- [x] Maintain Reference Information (pages 40-46) - 10 questions - RE-VERIFIED ✓
+- [x] Maintain State Plan (pages 14-21) - 12 questions - RE-VERIFIED ✓
+- [x] Manage Health Benefit Information (pages 34-40) - 11 questions - RE-VERIFIED ✓
+- [x] Manage Health Plan Information (pages 21-27) - 10 questions - RE-VERIFIED ✓
+- [x] Manage Performance Measures (pages 27-34) - 12 questions - RE-VERIFIED ✓
+- [x] Manage Rate Setting (pages 46-51) - 10 questions - RE-VERIFIED ✓
 
 ## Reference
 - Raw dump file: `tools/temp_plm_bcm_dump.txt`

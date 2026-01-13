@@ -1,11 +1,11 @@
 # Performance Management BCM Manual Construction Progress
 
 ## Status
-- [x] Determine Adverse Action Incident (pages 21-29) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Establish Compliance Incident (pages 7-14) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Identify Utilization Anomalies (pages 1-7) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Compliance Incident Information (pages 14-21) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Prepare REOMB (pages 29-35) - 10 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Determine Adverse Action Incident (pages 21-29) - 11 questions - RE-VERIFIED ✓
+- [x] Establish Compliance Incident (pages 7-14) - 11 questions - RE-VERIFIED ✓
+- [x] Identify Utilization Anomalies (pages 1-7) - 11 questions - RE-VERIFIED ✓
+- [x] Manage Compliance Incident Information (pages 14-21) - 11 questions - RE-VERIFIED ✓
+- [x] Prepare REOMB (pages 29-35) - 10 questions - RE-VERIFIED ✓
 
 ## Reference
 - Raw dump file: `tools/temp_pm_bcm_dump.txt`

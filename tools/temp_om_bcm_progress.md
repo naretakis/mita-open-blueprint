@@ -1,15 +1,15 @@
 # Operations Management BCM Manual Construction Progress
 
 ## Status
-- [x] Apply Mass Adjustment (pages 54-59) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Calculate Spend-Down Amount (pages 38-46) - 15 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Generate Remittance Advice (pages 1-6) - 10 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Inquire Payment Status (pages 6-13) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Data (pages 18-24) - 10 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Prepare Provider Payment (pages 13-18) - 10 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Process Claim (pages 24-31) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Process Encounter (pages 31-38) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Submit Electronic Attachment (pages 46-54) - 13 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Apply Mass Adjustment (pages 54-59) - 12 questions - RE-VERIFIED ✓
+- [x] Calculate Spend-Down Amount (pages 38-46) - 15 questions - RE-VERIFIED ✓
+- [x] Generate Remittance Advice (pages 1-6) - 10 questions - RE-VERIFIED ✓
+- [x] Inquire Payment Status (pages 6-13) - 11 questions - RE-VERIFIED ✓
+- [x] Manage Data (pages 18-24) - 10 questions - RE-VERIFIED ✓
+- [x] Prepare Provider Payment (pages 13-18) - 10 questions - RE-VERIFIED ✓
+- [x] Process Claim (pages 24-31) - 12 questions - RE-VERIFIED ✓
+- [x] Process Encounter (pages 31-38) - 12 questions - RE-VERIFIED ✓
+- [x] Submit Electronic Attachment (pages 46-54) - 13 questions - RE-VERIFIED ✓
 
 ## Reference
 - Raw dump file: `tools/temp_om_bcm_dump.txt`

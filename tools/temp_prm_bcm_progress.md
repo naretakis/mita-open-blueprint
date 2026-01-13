@@ -1,11 +1,11 @@
 # Provider Management BCM Manual Construction Progress
 
 ## Status
-- [x] Manage Provider Communication (pages 14-21) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Provider Grievance and Appeal (pages 21-29) - 12 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Manage Provider Information (pages 1-8) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Perform Provider Outreach (pages 29-36) - 11 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Terminate Provider (pages 8-14) - 10 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Manage Provider Communication (pages 14-21) - 11 questions - RE-VERIFIED ✓
+- [x] Manage Provider Grievance and Appeal (pages 21-29) - 12 questions - RE-VERIFIED ✓
+- [x] Manage Provider Information (pages 1-8) - 11 questions - RE-VERIFIED ✓
+- [x] Perform Provider Outreach (pages 29-36) - 11 questions - RE-VERIFIED ✓
+- [x] Terminate Provider (pages 8-14) - 10 questions - RE-VERIFIED ✓
 
 ## Reference
 - Raw dump file: `tools/temp_prm_bcm_dump.txt`

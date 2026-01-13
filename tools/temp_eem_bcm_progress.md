@@ -1,14 +1,14 @@
 # Eligibility and Enrollment Management BCM Manual Construction Progress
 
 ## Status
-- [x] Determine Member Eligibility (pages 1-12) - 10 questions - VERIFIED ✓ (8 process name removals + category fix)
-- [x] Determine Provider Eligibility (pages 33-42) - 15 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Disenroll Member (pages 21-27) - 10 questions - VERIFIED ✓ (5 process name removals + category fix)
-- [x] Disenroll Provider (pages 50-57) - 10 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Enroll Member (pages 12-21) - 10 questions - VERIFIED ✓ (multiple process name/Levels removals + category fix)
-- [x] Enroll Provider (pages 42-50) - 13 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Inquire Member Eligibility (pages 27-33) - 10 questions - VERIFIED ✓ (process name removals + category fix)
-- [x] Inquire Provider Information (pages 57-63) - 10 questions - VERIFIED ✓ (process name removals + category fix)
+- [x] Determine Member Eligibility (pages 1-12) - 10 questions - RE-VERIFIED ✓
+- [x] Determine Provider Eligibility (pages 33-42) - 15 questions - RE-VERIFIED ✓
+- [x] Disenroll Member (pages 21-27) - 10 questions - RE-VERIFIED ✓
+- [x] Disenroll Provider (pages 50-57) - 10 questions - RE-VERIFIED ✓
+- [x] Enroll Member (pages 12-21) - 10 questions - RE-VERIFIED ✓
+- [x] Enroll Provider (pages 42-50) - 13 questions - RE-VERIFIED ✓
+- [x] Inquire Member Eligibility (pages 27-33) - 10 questions - RE-VERIFIED ✓
+- [x] Inquire Provider Information (pages 57-63) - 10 questions - RE-VERIFIED ✓
 
 ## Reference
 - Raw dump file: `tools/temp_eem_bcm_dump.txt`

@@ -1,25 +1,25 @@
 # Financial Management BCM Manual Construction Progress
 
 ## Status
-- [x] Manage Provider Recoupment (pages 1-8) - VERIFIED & FIXED
-- [x] Manage TPL Recovery (pages 8-15) - VERIFIED & FIXED
-- [x] Manage Estate Recovery (pages 15-21) - VERIFIED (previously corrected)
-- [x] Manage Drug Rebate (pages 21-28) - VERIFIED & FIXED
-- [x] Manage Cost Settlement (pages 28-35) - VERIFIED & FIXED
-- [x] Manage Accounts Receivable Information (pages 35-41) - VERIFIED & FIXED
-- [x] Manage Accounts Receivable Funds (pages 41-46) - VERIFIED & FIXED
-- [x] Prepare Member Premium Invoice (pages 46-52) - VERIFIED (previously corrected)
-- [x] Manage Contractor Payment (pages 52-58) - VERIFIED & FIXED
-- [x] Manage Member Financial Participation (pages 58-63) - VERIFIED & FIXED
-- [x] Manage Capitation Payment (pages 63-68) - VERIFIED & FIXED
-- [x] Manage Incentive Payment (pages 68-74) - VERIFIED & FIXED
-- [x] Manage Accounts Payable Information (pages 74-81) - VERIFIED & FIXED
-- [x] Manage Accounts Payable Disbursement (pages 81-86) - VERIFIED & FIXED
-- [x] Manage 1099 (pages 86-92) - VERIFIED & FIXED
-- [x] Formulate Budget (pages 92-98) - VERIFIED & FIXED
-- [x] Manage Budget Information (pages 98-103) - VERIFIED & FIXED
-- [x] Manage Fund (pages 103-111) - VERIFIED & FIXED
-- [x] Generate Financial Report (pages 111-116) - VERIFIED & FIXED
+- [x] Manage Provider Recoupment (pages 1-8) - RE-VERIFIED ✓
+- [x] Manage TPL Recovery (pages 8-15) - RE-VERIFIED ✓
+- [x] Manage Estate Recovery (pages 15-21) - RE-VERIFIED ✓
+- [x] Manage Drug Rebate (pages 21-28) - RE-VERIFIED ✓
+- [x] Manage Cost Settlement (pages 28-35) - RE-VERIFIED ✓
+- [x] Manage Accounts Receivable Information (pages 35-41) - RE-VERIFIED ✓
+- [x] Manage Accounts Receivable Funds (pages 41-46) - RE-VERIFIED ✓
+- [x] Prepare Member Premium Invoice (pages 46-52) - RE-VERIFIED ✓
+- [x] Manage Contractor Payment (pages 52-58) - RE-VERIFIED ✓
+- [x] Manage Member Financial Participation (pages 58-63) - RE-VERIFIED ✓
+- [x] Manage Capitation Payment (pages 63-68) - RE-VERIFIED ✓
+- [x] Manage Incentive Payment (pages 68-74) - RE-VERIFIED ✓
+- [x] Manage Accounts Payable Information (pages 74-81) - RE-VERIFIED ✓
+- [x] Manage Accounts Payable Disbursement (pages 81-86) - RE-VERIFIED ✓
+- [x] Manage 1099 (pages 86-92) - RE-VERIFIED ✓
+- [x] Formulate Budget (pages 92-98) - RE-VERIFIED ✓
+- [x] Manage Budget Information (pages 98-103) - RE-VERIFIED ✓
+- [x] Manage Fund (pages 103-111) - RE-VERIFIED ✓
+- [x] Generate Financial Report (pages 111-116) - RE-VERIFIED ✓
 
 ## Reference
 - Raw dump file: `tools/temp_fm_bcm_dump.txt`
