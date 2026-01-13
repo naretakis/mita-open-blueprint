@@ -23,7 +23,7 @@
     "process_steps": [
       "1. START: Receive directive to procure or re-procure contract.",
       "2. Gather requirements for services.",
-      "3. Determine if CMS requires an APD.\na. Produce APD.\nb. Modify APD as directed.\nc. Receive approval for APD.",
+      "3. Determine if CMS requires an APD.\n  a. Produce APD.\n  b. Modify APD as directed.\n  c. Receive approval for APD.",
       "4. Develop solicitation for the services.",
       "5. Receive internal (state) and federal approvals for solicitation.",
       "6. Advertise solicitation.",

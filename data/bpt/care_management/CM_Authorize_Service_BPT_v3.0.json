@@ -28,7 +28,7 @@
     ],
     "process_steps": [
       "1. START: Receive service authorization request from authorized provider.",
-      "2. Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and requestor has completed all required fields.\na. If applicable, alert sent to submitter via ASC X12 TA1 Interchange Acknowledgment, 997 Functional Acknowledgment, 999 Implementation Acknowledgment and/or the 824 Application Advice transaction(s) per Trading Partner Agreement (TPA). END: Business process stops.",
+      "2. Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and requestor has completed all required fields.\n  a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange Acknowledgment, 997 Functional Acknowledgment, 999 Implementation Acknowledgment and/or the 824 Application Advice transaction(s) per Trading Partner Agreement (TPA). END: Business process stops.",
       "3. Validate that the provided information is authentic.",
       "4. Assign a tracking number.",
       "5. Prioritize Service Authorization Request.",

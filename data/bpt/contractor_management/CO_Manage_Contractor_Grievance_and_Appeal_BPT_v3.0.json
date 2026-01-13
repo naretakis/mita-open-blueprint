@@ -39,7 +39,7 @@
       "13. If applicable, alert sent to Maintain State Plan business process to modify the relevant policy or procedure.",
       "14. If applicable, alert sent to Manage Health Plan Information business process to modify the relevant policy or procedure.",
       "15. If applicable, alert sent to Manage Health Benefit Information business process to modify the relevant policy or procedure.",
-      "16. END: Send alert to notify contractor of disposition determination.\nNOTE: Some of the above steps may be iterative and a grievance or appeals case may take many months to finalize."
+      "16. END: Send alert to notify contractor of disposition determination.\n  NOTE: Some of the above steps may be iterative and a grievance or appeals case may take many months to finalize."
     ],
     "diagrams": [],
     "shared_data": [

@@ -31,7 +31,7 @@
       "1. START: Receive request for Treatment Plan authorization for authorized provider or care manager.",
       "2. Assign a tracking identifier.",
       "3. Validate information submitted is correct and as complete as possible. Information complies with syntax criteria and requestor has completed all",
-      "4. Validate that the provided information is authentic.\na. If applicable, alert sent to submitter via ASC X12 TA1 Interchange Acknowledgment, 997 Functional Acknowledgment, 999 Implementation Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading Partner Agreement (TPA). END: Business process stops.",
+      "4. Validate that the provided information is authentic.\n  a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange Acknowledgment, 997 Functional Acknowledgment, 999 Implementation Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading Partner Agreement (TPA). END: Business process stops.",
       "5. Prioritize authorize treatment plan request.",
       "6. Validate the following:",
       "7. Member eligibility",

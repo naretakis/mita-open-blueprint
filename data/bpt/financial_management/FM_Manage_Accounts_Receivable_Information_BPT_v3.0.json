@@ -23,7 +23,7 @@
     "process_steps": [
       "1. START: Receive initial Accounts Receivable invoice to establish the receivable amount and demographic information for the debt owner.",
       "2. Record Accounts Receivable payments to the account balance.",
-      "3. Adjust balance for additional Accounts Receivable amounts. An adjustment may increase or decrease the balance.\na. The adjustments include settlements, liens, levies, and/or judgments against the Accounts Receivable.\nb. The SMA may receive the adjustment from Manage Provider Recoupment, Manage TPL Recovery, Manage Estate Recovery, Manage Drug Rebate, or Manage Cost Settlement business processes or other state or federal agencies.",
+      "3. Adjust balance for additional Accounts Receivable amounts. An adjustment may increase or decrease the balance.\n  a. The adjustments include settlements, liens, levies, and/or judgments against the Accounts Receivable.\n  b. The SMA may receive the adjustment from Manage Provider Recoupment, Manage TPL Recovery, Manage Estate Recovery, Manage Drug Rebate, or Manage Cost Settlement business processes or other state or federal agencies.",
       "4. Produce month-end accounts receivable balance and statement. This includes invoices to the debt owner and summary information for financial reports.",
       "5. Update the state accounting system.",
       "6. Send alert to collect payment to Manage Accounts Receivable Funds business process.",

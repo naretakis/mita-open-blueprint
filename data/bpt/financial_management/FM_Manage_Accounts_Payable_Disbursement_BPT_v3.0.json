@@ -21,8 +21,8 @@
     ],
     "process_steps": [
       "1. START: Receive request for payment.",
-      "2. Prepare provider payment:\na. Receive payment information from the Process Claim or Process Encounter.\nb. Apply automated or user-defined payment calculation rules (e.g., deducting tax per rates in provider files, garnishments, and liens) by accessing information from provider files and sending an alert to the Manage Accounts Payable Information business process.\nc. For payroll processing, perform tax withholds and generate information for accounting.",
-      "3. Prepare premium payment:\na. Receive premium payment information from the Manage Member Financial Participation or Prepare Provider Payment business processes.",
+      "2. Prepare provider payment:\n  a. Receive payment information from the Process Claim or Process Encounter.\n  b. Apply automated or user-defined payment calculation rules (e.g., deducting tax per rates in provider files, garnishments, and liens) by accessing information from provider files and sending an alert to the Manage Accounts Payable Information business process.\n  c. For payroll processing, perform tax withholds and generate information for accounting.",
+      "3. Prepare premium payment:\n  a. Receive premium payment information from the Manage Member Financial Participation or Prepare Provider Payment business processes.",
       "4. Disburse funds as specified by the state and the SMA accounting and budget business rules.",
       "5. END: Route payments as specified by the provider or contractor pay-to instruction or based on information submitted in the standard claim transactions."
     ],

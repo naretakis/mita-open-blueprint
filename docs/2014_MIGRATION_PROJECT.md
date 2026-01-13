@@ -5,7 +5,7 @@
 **Objective**: Replace the 2012 MITA v3.0 data with the May 2014 updated versions while preserving the 2012 data for historical reference.
 
 **Start Date**: January 12, 2026  
-**Status**: 🟡 Phase 6 Complete - Pending Commit
+**Status**: 🟢 Phase 6 Complete - Ready for Commit
 
 ---
 
@@ -101,11 +101,15 @@ The original MITA data in this repository was extracted from the February 2012 v
 - [x] Fix BCM question separation (detect new questions even with level content on same row)
 - [x] Add NOTE display support in viewer.html (yellow background, below question text)
 - [x] Remove spurious category header BCM files (18 files removed)
+- [x] Add 3-level step hierarchy (numbered → letter sub-steps → roman numeral sub-sub-steps)
+- [x] Add Alternate Path separators for alternate process flows
+- [x] Convert Wingdings checkmarks to proper Unicode ✓ character
+- [x] Fix "Manage 1099" BCM extraction (title case check was rejecting digit-starting words)
 
 **Validation Results:**
 - 152 files validated, all pass schema validation
-- 76 BPT files: 817 total process steps
-- 76 BCM files: 812 total capability questions
+- 76 BPT files: 822 total process steps (includes alternate path separators)
+- 76 BCM files: 815 total capability questions
 - 1 informational warning (FM_Manage_Contractor_Payment_BPT has 4 steps - correct per source)
 
 ### Phase 7: Documentation Updates 🔴 NOT STARTED
@@ -133,6 +137,10 @@ The original MITA data in this repository was extracted from the February 2012 v
 | 2026-01-12 | Manual fix for edge cases | OM_Calculate_Spend-Down_Amount is a special deprecated process (L4/L5 not applicable); manual correction preferred over over-engineering extraction |
 | 2026-01-12 | Remove category header BCM files | Section headers (e.g., "Accounts Payable Management", "Case Management") were incorrectly extracted as processes; added filtering |
 | 2026-01-12 | Skip table headers in BCM extraction | "Capability Question Level 1" headers that repeat on each page were triggering false stop conditions |
+| 2026-01-12 | 3-level step hierarchy for BPT | Consistent formatting: numbered steps (level 1), letter sub-steps a/b/c (level 2), roman numeral sub-sub-steps i/ii/iii (level 3) |
+| 2026-01-12 | Alternate Path separators | Insert `--- Alternate Path: [name] ---` markers to visually distinguish alternate process flows |
+| 2026-01-12 | Preserve checkmarks as Unicode | Convert Wingdings checkmarks (U+F0FC) to proper Unicode ✓ (U+2713) in JSON |
+| 2026-01-12 | Allow digits in process names | Title case check now allows words starting with digits (e.g., "Manage 1099") |
 
 ---
 
@@ -261,29 +269,27 @@ The original MITA data in this repository was extracted from the February 2012 v
 
 The following changes are staged for the next commit:
 
-- **76 BPT files**: Re-exported with improved formatting (bullets, sub-bullets, sub-steps, NOTE blocks)
-- **76 BCM files**: Re-exported with fixed page break handling, question separation, and table header filtering
+- **22 files modified** (21 JSON files + extract_2014.py)
 - **tools/extract_2014.py**: 
-  - BCM process boundary detection improvements
-  - Category header filtering
-  - Question separation fixes
-  - Page break handling fixes
-  - Table header skip fixes ("Capability Question Level 1")
-- **tools/viewer.html**: NOTE display support (yellow background, below question text)
+  - Added 3-level step hierarchy (numbered → letter → roman numeral)
+  - Added Alternate Path separator detection and insertion
+  - Converted Wingdings checkmarks to Unicode ✓
+  - Fixed BCM process name detection to allow digit-starting words (e.g., "Manage 1099")
+  - Preserved indentation in clean_text() and clean_extracted_text() functions
+- **BPT files affected**: Process steps now have proper sub-step indentation and alternate path markers
+- **BCM files affected**: FM_Manage_1099_BCM now properly extracted
 
 **Suggested commit message:**
 ```
-BCM extraction fixes: page breaks, question separation, table headers
+BPT formatting: 3-level hierarchy, alternate paths, checkmarks
 
-- Fixed process boundary detection to find actual process names instead of table headers
-- Added category header filtering to exclude section headers (e.g., "Accounts Payable Management")
-- Fixed question merging issue where multiple questions on same row were combined
-- Fixed page break handling - category headers no longer stop extraction
-- Fixed "Business Capability Quality" headers being treated as new process names
-- Fixed "Capability Question Level 1" table headers triggering false stop conditions
-- Added NOTE display support in viewer.html
+- Added 3-level step hierarchy: numbered (1.), letter (a.), roman (i.)
+- Added "--- Alternate Path: [name] ---" separators for alternate flows
+- Converted Wingdings checkmarks (U+F0FC) to Unicode ✓ (U+2713)
+- Fixed BCM "Manage 1099" extraction (allow digits in process names)
+- Preserved indentation in text cleaning functions
 
-Validation: 152 files pass (76 BPT, 76 BCM), 817 steps, 812 questions
+Validation: 152 files pass (76 BPT, 76 BCM), 822 steps, 815 questions
 ```
 
 ---

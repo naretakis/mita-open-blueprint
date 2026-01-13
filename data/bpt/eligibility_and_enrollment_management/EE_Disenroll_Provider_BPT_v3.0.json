@@ -38,7 +38,7 @@
     "process_steps": [
       "1. START: Receive disenrollment request or relevant information.",
       "2. Validate authenticity of the requestor to have authorization to request disenrollment.",
-      "3. Determine disenrollment request or information processing status by querying the Provider data store. Application status may be one of the following: initial, resubmitted with modification, or duplicate.\na. If resubmitted application, message contains only updated information and process may skip irrelevant steps below.\nb. If duplicate application, produce result messages and stop business process (see Failures).\nc. Other communications may be requests to cancel application, and to deactivate or reactivate enrollment.",
+      "3. Determine disenrollment request or information processing status by querying the Provider data store. Application status may be one of the following: initial, resubmitted with modification, or duplicate.\n  a. If resubmitted application, message contains only updated information and process may skip irrelevant steps below.\n  b. If duplicate application, produce result messages and stop business process (see Failures).\n  c. Other communications may be requests to cancel application, and to deactivate or reactivate enrollment.",
       "4. Verify the disenrollment information.",
       "5. Validate that the disenrollment request meets state rules.",
       "6. Remove provider or contractor from Medicaid participation.",

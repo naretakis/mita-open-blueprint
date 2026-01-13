@@ -23,7 +23,7 @@
       "Tracking information as needed for measuring performance and business activity monitoring."
     ],
     "process_steps": [
-      "1. START: Receive claim status request.\na. If applicable, alert sent to submitter via ASC X12 TA1 Interchange Acknowledgment, 997 Functional Acknowledgment, 999 Implementation Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading Partner Agreement (TPA). END: Business process ends.",
+      "1. START: Receive claim status request.\n  a. If applicable, alert sent to submitter via ASC X12 TA1 Interchange Acknowledgment, 997 Functional Acknowledgment, 999 Implementation Acknowledgment, and/or the 824 Application Advice transaction(s) per Trading Partner Agreement (TPA). END: Business process ends.",
       "2. Agency logs claim status request.",
       "3. Validate requester has authorization to receive requested information.",
       "4. Inquire the payment status information to obtain required requested data elements (e.g., member birth date, member last and first name, member ID, claim service date, internal control number, medical record number).",

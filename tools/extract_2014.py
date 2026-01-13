@@ -61,15 +61,30 @@ BPT_SECTIONS = [
 # TEXT CLEANING UTILITIES
 # =============================================================================
 
-def clean_text(text):
+def clean_text(text, preserve_indent=False):
     """Basic text cleaning - remove extra whitespace, normalize characters."""
+    # Capture leading whitespace if we need to preserve it
+    leading = ''
+    if preserve_indent:
+        match = re.match(r'^(\s*)', text)
+        if match:
+            leading = match.group(1)
+    
     # Replace non-breaking spaces
     text = text.replace('\xa0', ' ')
     # Normalize dashes
     text = text.replace('‐', '-').replace('–', '-').replace('—', '-')
+    # Convert Wingdings checkmark (U+F0FC) to proper Unicode checkmark (U+2713)
+    text = text.replace('\uf0fc', '✓')
     # Remove multiple spaces
     text = re.sub(r' +', ' ', text)
-    return text.strip()
+    text = text.strip()
+    
+    # Restore leading whitespace if preserving
+    if preserve_indent and leading:
+        text = leading + text
+    
+    return text
 
 
 def is_page_header(line):
@@ -94,8 +109,15 @@ def is_page_header(line):
     return any(pat in line_clean for pat in skip_patterns)
 
 
-def clean_extracted_text(text):
+def clean_extracted_text(text, preserve_indent=False):
     """Remove any remaining page header artifacts from extracted text."""
+    # Capture leading whitespace if we need to preserve it
+    leading = ''
+    if preserve_indent:
+        match = re.match(r'^(\s*)', text)
+        if match:
+            leading = match.group(1)
+    
     # Normalize dashes first
     text = text.replace('‐', '-').replace('–', '-').replace('—', '-')
     
@@ -114,7 +136,14 @@ def clean_extracted_text(text):
     ]
     for pat in patterns:
         text = re.sub(pat, '', text, flags=re.IGNORECASE)
-    return clean_text(text)
+    
+    result = clean_text(text, preserve_indent=preserve_indent)
+    
+    # Restore leading whitespace if preserving
+    if preserve_indent and leading and not result.startswith(leading):
+        result = leading + result.lstrip()
+    
+    return result
 
 
 def join_wrapped_lines(lines, stop_patterns=None):
@@ -231,15 +260,20 @@ def extract_bulleted_list(lines, stop_patterns=None):
 def extract_numbered_list(lines, stop_patterns=None):
     """
     Extract a numbered list (1., 2., etc.) from lines.
-    Preserves sub-steps (a., b., c.) and NOTE: blocks with proper formatting.
+    Preserves sub-steps (a., b., c.) and sub-sub-steps (i., ii., iii.) and NOTE: blocks with proper formatting.
+    Detects "Alternate Path:" headers and inserts them as separators.
     """
     if stop_patterns is None:
         stop_patterns = BPT_SECTIONS
+    
+    # Roman numeral pattern for sub-sub-steps (i., ii., iii., iv., v., vi., vii., viii., ix., x.)
+    roman_pattern = r'^(i{1,3}|iv|vi{0,3}|ix|x)\.\s*(.*)$'
     
     items = []
     current_item_lines = []
     current_num = 0
     skip_until_number = False
+    pending_alternate_path = None  # Store alternate path header to insert before next step 1
     
     for line in lines:
         line = line.strip()
@@ -263,6 +297,12 @@ def extract_numbered_list(lines, stop_patterns=None):
         if any(line == pat or line.startswith(pat + ' ') for pat in stop_patterns):
             break
         
+        # Check for "Alternate Path:" header (standalone line)
+        alt_path_match = re.match(r'^Alternate Path[:\s]+(.+)$', line, re.IGNORECASE)
+        if alt_path_match:
+            pending_alternate_path = alt_path_match.group(1).strip()
+            continue
+        
         # Check for main numbered item (1., 2., etc.)
         match = re.match(r'^(\d+)\.\s*(.*)$', line)
         if match:
@@ -270,7 +310,14 @@ def extract_numbered_list(lines, stop_patterns=None):
             # Save previous item
             if current_item_lines:
                 items.append(format_step_with_substeps(current_item_lines))
+            
             current_num = int(match.group(1))
+            
+            # If this is step 1 and we have a pending alternate path, insert separator
+            if current_num == 1 and pending_alternate_path:
+                items.append(f"--- Alternate Path: {pending_alternate_path} ---")
+                pending_alternate_path = None
+            
             current_item_lines = [f"{current_num}. {match.group(2)}"]
             continue
         
@@ -282,10 +329,34 @@ def extract_numbered_list(lines, stop_patterns=None):
         if skip_until_number:
             continue
         
+        # Check for sub-sub-step (i., ii., iii., etc. - roman numerals)
+        roman_match = re.match(roman_pattern, line)
+        if roman_match and current_item_lines:
+            current_item_lines.append(f"    {roman_match.group(1)}. {roman_match.group(2)}")
+            continue
+        
         # Check for sub-step (a., b., c., etc.)
         sub_match = re.match(r'^([a-z])\.\s*(.*)$', line)
         if sub_match and current_item_lines:
-            current_item_lines.append(f"  {sub_match.group(1)}. {sub_match.group(2)}")
+            sub_content = sub_match.group(2)
+            # Check if sub-step content contains embedded roman numerals
+            embedded_match = re.search(r'\s+(i{1,3}|iv|vi{0,3}|ix|x)\.\s+', sub_content)
+            if embedded_match:
+                # Split at the roman numeral
+                parts = re.split(r'\s+(i{1,3}|iv|vi{0,3}|ix|x)\.\s+', sub_content)
+                if len(parts) > 1:
+                    # First part is the sub-step content
+                    current_item_lines.append(f"  {sub_match.group(1)}. {parts[0].rstrip()}")
+                    # Remaining parts become sub-sub-steps
+                    idx = 1
+                    while idx < len(parts):
+                        if idx + 1 < len(parts):
+                            current_item_lines.append(f"    {parts[idx]}. {parts[idx+1]}")
+                            idx += 2
+                        else:
+                            idx += 1
+                    continue
+            current_item_lines.append(f"  {sub_match.group(1)}. {sub_content}")
             continue
         
         # Check for NOTE: at start of line
@@ -296,7 +367,38 @@ def extract_numbered_list(lines, stop_patterns=None):
         
         # Continue previous line (wrapped text)
         if current_item_lines:
-            # Append to the last line in current_item_lines
+            # Check if text contains "Alternate Path:" embedded in it
+            alt_embedded = re.search(r'Alternate Path[:\s]+(.+)$', line, re.IGNORECASE)
+            if alt_embedded:
+                # Don't append the alternate path text, save it for later
+                pending_alternate_path = alt_embedded.group(1).strip()
+                # Append any text before "Alternate Path"
+                before_alt = re.sub(r'\s*Alternate Path[:\s]+.+$', '', line, flags=re.IGNORECASE)
+                if before_alt.strip():
+                    current_item_lines[-1] += " " + before_alt.strip()
+                continue
+            
+            # Check if the text being appended contains embedded sub-sub-steps (i., ii., etc.)
+            # This handles cases where roman numerals appear mid-line in the PDF
+            combined = current_item_lines[-1] + " " + line
+            # Look for roman numeral patterns that should be on their own line
+            embedded_match = re.search(r'\s+(i{1,3}|iv|vi{0,3}|ix|x)\.\s+', combined)
+            if embedded_match:
+                # Split at the roman numeral and add as separate line
+                parts = re.split(r'\s+(i{1,3}|iv|vi{0,3}|ix|x)\.\s+', combined)
+                if len(parts) > 1:
+                    # First part stays on current line
+                    current_item_lines[-1] = parts[0].rstrip()
+                    # Remaining parts become sub-sub-steps
+                    idx = 1
+                    while idx < len(parts):
+                        if idx + 1 < len(parts):
+                            current_item_lines.append(f"    {parts[idx]}. {parts[idx+1]}")
+                            idx += 2
+                        else:
+                            idx += 1
+                    continue
+            # Normal append
             current_item_lines[-1] += " " + line
     
     # Don't forget the last item
@@ -307,10 +409,10 @@ def extract_numbered_list(lines, stop_patterns=None):
 
 
 def format_step_with_substeps(lines):
-    """Format a step with its sub-steps, preserving structure."""
+    """Format a step with its sub-steps, preserving structure and indentation."""
     result_lines = []
     for line in lines:
-        cleaned = clean_extracted_text(line)
+        cleaned = clean_extracted_text(line, preserve_indent=True)
         if cleaned:
             result_lines.append(cleaned)
     return "\n".join(result_lines)
@@ -682,6 +784,15 @@ def extract_description(lines):
             continue
         
         # Check if this is a bullet character on its own line
+        # Handle checkmark (\uf0fc) separately from regular bullets
+        if line == '\uf0fc':
+            if current_text:
+                result_lines.append(current_text)
+                current_text = ""
+            pending_bullet = 'checkmark'
+            i += 1
+            continue
+        
         if line in BULLET_CHARS:
             # Save current text first
             if current_text:
@@ -728,12 +839,12 @@ def extract_description(lines):
             i += 1
             continue
         
-        # Check for inline nested bullet (\uf0fc is checkmark/nested bullet in PDFs)
+        # Check for inline nested bullet (\uf0fc is checkmark in PDFs)
         if line.startswith('\uf0fc ') or line.startswith(' '):
             if current_text:
                 result_lines.append(current_text)
             clean_line = line[2:] if line.startswith('\uf0fc ') else line[2:]
-            current_text = "    · " + clean_line
+            current_text = " ✓ " + clean_line
             pending_bullet = None
             i += 1
             continue
@@ -746,8 +857,10 @@ def extract_description(lines):
                 current_text = "• " + line
             elif pending_bullet == 'sub':
                 current_text = "  - " + line
+            elif pending_bullet == 'checkmark':
+                current_text = " ✓ " + line
             else:  # nested
-                current_text = "    · " + line
+                current_text = " ✓ " + line
             pending_bullet = None
             i += 1
             continue
@@ -1054,8 +1167,9 @@ def extract_bcm_processes(pdf_path, area_name):
         
         if is_process_name and line_stripped not in seen_names:
             # Verify it looks like a process name (title case, reasonable length)
+            # Allow words starting with uppercase OR digits (e.g., "Manage 1099")
             words = line_stripped.split()
-            if len(words) >= 2 and all(w[0].isupper() or w in ['the', 'and', 'or', 'of', 'to', 'for', 'in', 'a', 'an'] for w in words if w):
+            if len(words) >= 2 and all(w[0].isupper() or w[0].isdigit() or w in ['the', 'and', 'or', 'of', 'to', 'for', 'in', 'a', 'an'] for w in words if w):
                 seen_names.add(line_stripped)
                 process_starts.append({
                     'name': line_stripped,
