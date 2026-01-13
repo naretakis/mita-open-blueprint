@@ -80,8 +80,8 @@
         "levels": {
           "level_1": "Use of direct data entry for information collection is manually intensive and susceptible to inconsistent or incorrect information. Stakeholders are unable to rely on information for decision-making.",
           "level_2": "SMA uses standard transactions to improve accuracy of information but the decision-making process may be erroneous or misleading. Accuracy is higher than at Level 1.",
-          "level_3": "Automation of information collection increases the reliability of SMA\u2019s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher.",
-          "level_4": "Automation of information collection increases the reliability of SMA\u2019s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Accuracy rating is at 99% or higher.",
+          "level_3": "Automation of information collection increases the reliability of SMA’s internal information. External sources of information use MITA Framework and industry standards for information exchange. Accuracy rating is at 99% or higher.",
+          "level_4": "Automation of information collection increases the reliability of SMA’s internal and external sources of information. SMA adopts MITA Framework and industry standards for information exchange with interstate agencies. Accuracy rating is at 99% or higher.",
           "level_5": "SMA adopts MITA Framework and industry standards for information exchange with national agencies. Accuracy rating is at 99% or higher."
         }
       },
