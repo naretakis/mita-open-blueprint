@@ -117,19 +117,31 @@ BPT files contain detailed process information:
 {
   "document_type": "BPT",
   "version": "3.0",
+  "version_date": "May 2014",
   "business_area": "Care Management",
+  "sub_category": "Case Management",
   "process_name": "Establish Case",
+  "process_code": "CM",
   "process_details": {
     "description": "Full process description",
-    "trigger_events": ["Event 1", "Event 2"],
+    "trigger_events": {
+      "environment_based": ["Periodic review is due"],
+      "interaction_based": ["Receive enrollment from Enroll Member process"]
+    },
     "results": ["Result 1", "Result 2"],
-    "process_steps": ["Step 1", "Step 2"],
+    "process_steps": ["1. START: First step", "2. Second step"],
+    "diagrams": [],
     "predecessor_processes": ["Prior Process"],
     "successor_processes": ["Next Process"],
     "shared_data": ["Data Source 1"],
     "constraints": "Process constraints",
     "failures": ["Failure condition 1"],
     "performance_measures": ["Measure 1"]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bpt/Care Management/Care Management BPT.pdf",
+    "source_page_range": "1-4",
+    "extracted_date": "2026-01-12"
   }
 }
 ```
@@ -142,8 +154,11 @@ BCM files contain maturity assessment questions with 5 levels of capability:
 {
   "document_type": "BCM",
   "version": "3.0",
+  "version_date": "May 2014",
   "business_area": "Care Management",
+  "sub_category": "Case Management",
   "process_name": "Establish Case",
+  "process_code": "CM",
   "maturity_model": {
     "capability_questions": [
       {
@@ -158,6 +173,11 @@ BCM files contain maturity assessment questions with 5 levels of capability:
         }
       }
     ]
+  },
+  "metadata": {
+    "source_file": "source-pdfs/may-2014-update/bcm/Care Management/Care Management BCM.pdf",
+    "source_page_range": "1-7",
+    "extracted_date": "2026-01-12"
   }
 }
 ```
@@ -245,7 +265,7 @@ See [LICENSE](LICENSE) for full license text.
   - Disenroll Member
   - Inquire Member Eligibility
 - Enhanced trigger events with environment-based and interaction-based categorization
-- Added process flow diagrams for Eligibility & Enrollment BPTs
+- Added diagrams field to BPT schema (populated for Eligibility & Enrollment processes)
 - Archived 2012 data to `data-archived-2012/` for historical reference
 - New validation tools: `validate_2014.py`, `viewer.html`
 - Updated extraction tooling for 2014 PDF structure
